@@ -4,16 +4,15 @@
 Settings
 ========================================================================== */
 //■横幅の設定
-$pcSize: 1161px;
-$tabSize: 1160px;
+$pcSize: 1300px;
+$tabSize: 1299px;
 $tabTateSize: 768px; //ここは不動だと思う
 $spSize: 767px; //ここは不動だと思う
 //ここも変更してほしい
-$pcSizePxNone: 1161;
-$tabSizePxNone: 1160;
+$pcSizePxNone: 1300;
+$tabSizePxNone: 1299;
 $tabTateSizePxNone: 769; //ここは不動だと思う
 $spSizePxNone: 768; //ここは不動だと思う
-
 /* ==========================================================================
 breakPoint
 ========================================================================== */
@@ -202,6 +201,7 @@ borderRadius
     border-bottom-left-radius: $btmLeft;
     border-bottom-right-radius: $btmRight;
 }
+
 //%角丸
 @function px-to-percent($radius, $base-width) {
     @return math.div($radius, $base-width) * 100%;
@@ -210,9 +210,9 @@ borderRadius
 @mixin pxpermaru($radius, $base-width) {
     border-radius: px-to-percent($radius, $base-width);
 }
+
 //%4角
-@mixin pxpermaruBlob(
-    $base-width,
+@mixin pxpermaruBlob($base-width,
     $base-height,
     $tl-x,
     $tr-x,
@@ -221,16 +221,8 @@ borderRadius
     $tl-y,
     $tr-y,
     $br-y,
-    $bl-y
-) {
-    border-radius: #{px-to-percent($tl-x, $base-width)}
-        #{px-to-percent($tr-x, $base-width)}
-        #{px-to-percent($br-x, $base-width)}
-        #{px-to-percent($bl-x, $base-width)} /
-        #{px-to-percent($tl-y, $base-height)}
-        #{px-to-percent($tr-y, $base-height)}
-        #{px-to-percent($br-y, $base-height)}
-        #{px-to-percent($bl-y, $base-height)};
+    $bl-y) {
+    border-radius: #{px-to-percent($tl-x, $base-width)} #{px-to-percent($tr-x, $base-width)} #{px-to-percent($br-x, $base-width)} #{px-to-percent($bl-x, $base-width)} / #{px-to-percent($tl-y, $base-height)} #{px-to-percent($tr-y, $base-height)} #{px-to-percent($br-y, $base-height)} #{px-to-percent($bl-y, $base-height)};
 }
 
 /* ==========================================================================
@@ -518,15 +510,19 @@ _paddingSettings
         padding: (math.div($mTop, 375) * 10000vw) * 0.01 (math.div($mRight, 375) * 10000vw) * 0.01 (math.div($mBottom, 375) * 10000vw) * 0.01 (math.div($mLeft, 375) * 10000vw) * 0.01;
     }
 }
+
 @mixin gapPercent($parentPxWidth, $gap) {
     @if $gap==auto {
         gap: $gap + 0px;
+
         @include mq(tab) {
             gap: floor((math.div($gap, $parentPxWidth) * 10000%)) * 0.01;
         }
     }
+
     @else {
         gap: $gap + 0px;
+
         @include mq(tab) {
             gap: floor((math.div($gap, $parentPxWidth) * 10000%)) * 0.01;
         }
@@ -534,57 +530,42 @@ _paddingSettings
 }
 
 @mixin gapPercentOnly($parentPxWidth, $gapPx, $rowGapPx) {
-  --gap-x: #{math.div($gapPx, $parentPxWidth) * 100%};
-  column-gap: var(--gap-x);
-  row-gap: $rowGapPx+px;
+    --gap-x: #{math.div($gapPx, $parentPxWidth) * 100%};
+    column-gap: var(--gap-x);
+    row-gap: $rowGapPx+px;
 }
 
 /* ==========================================================================
 clamp
 ========================================================================== */
 @mixin clampGridColumns($minPx, $designPx, $maxPx, $basePx) {
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(
-      clamp(
-        #{$minPx}px,
-        math.div($designPx, $basePx) * 100vw,
-        #{$maxPx}px
-      ),
-      1fr
-    )
-  );
+    grid-template-columns: repeat(auto-fill,
+        minmax(clamp(#{$minPx}px,
+                math.div($designPx, $basePx) * 100vw,
+                #{$maxPx}px),
+            1fr));
 }
 
-@mixin clampGrid(
-  $colMin,
-  $colDesign,
-  $colMax,
-  $gapMin,
-  $gapDesign,
-  $gapMax,
-  $basePx
-) {
-  display: grid;
+@mixin clampGrid($colMin,
+    $colDesign,
+    $colMax,
+    $gapMin,
+    $gapDesign,
+    $gapMax,
+    $basePx) {
+    display: grid;
 
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(
-      clamp(
-        #{$colMin}px,
-        ($colDesign / $basePx) * 100vw,
-        #{$colMax}px
-      ),
-      1fr
-    )
-  );
+    grid-template-columns: repeat(auto-fill,
+        minmax(clamp(#{$colMin}px,
+                ($colDesign / $basePx) * 100vw,
+                #{$colMax}px),
+            1fr));
 
-  gap: clamp(
-    #{$gapMin}px,
-    ($gapDesign / $basePx) * 100vw,
-    #{$gapMax}px
-  );
+    gap: clamp(#{$gapMin}px,
+        ($gapDesign / $basePx) * 100vw,
+        #{$gapMax}px);
 }
+
 /* ==========================================================================
 fonts
 ========================================================================== */
