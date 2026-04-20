@@ -1,14 +1,13 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../Functions/mixin"as mi;
+@use "../Functions/mixin" as mi;
 
 /* ==========================================================================
 Library
 ========================================================================== */
 body {
-    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-
+    font-family: "Shippori Mincho B1", serif;
     color: #323232;
     font-weight: 500;
 
@@ -20,11 +19,13 @@ body {
 }
 
 body {
-
     input,
     textarea,
     button {
-        font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+        font-family:
+            游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro",
+            "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka,
+            "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 
         font-weight: 500;
     }
@@ -44,8 +45,7 @@ body {
 #mintyou,
 .mintyou,
 .mincho {
-    font-family: 'Shippori Mincho B1', serif;
-
+    font-family: "Shippori Mincho B1", serif;
 }
 
 .t_center {
@@ -60,7 +60,9 @@ body {
 .CormorantUnicase {
     font-family: "Cormorant Unicase";
 }
-
+.kaku {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
 .tj {
     text-indent: -9999px;
     text-align: left;

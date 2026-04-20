@@ -1,9 +1,15 @@
 .bg_EA670F {
-    background: #EA670F;
+    background: #ea670f;
+}
+.bg_EBEBEB {
+    background: #ebebeb;
+}
+.bg_F28962 {
+    background: #f28962;
 }
 
 .bg_421D12 {
-    background: #421D12;
+    background: #421d12;
 }
 
 .bg_fff {
@@ -11,15 +17,36 @@
 }
 
 .bg_F9F9F9 {
-    background: #F9F9F9;
+    background: #f9f9f9;
 }
 
 .cl_421D12 {
-    color: #421D12;
+    color: #421d12;
 }
-
-
+.cl_31150D {
+    color: #31150d;
+}
+.cl_F28962 {
+    color: #f28962;
+}
+.cl_453C3C {
+    color: #453c3c;
+}
+.cl_421D12 {
+    color: #421d12;
+}
+.cl_fff {
+    color: #fff;
+}
 .txtset {
     leading-trim: both;
     text-edge: cap;
+}
+.txtovflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ovhidden {
+    overflow: hidden;
 }
