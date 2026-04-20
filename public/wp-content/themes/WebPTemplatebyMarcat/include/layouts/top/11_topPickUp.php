@@ -8,7 +8,7 @@ $args = [
     'no_found_rows' => true,
 ];
 ?>
-<div class="topPicUp">
+<div class="topPicUpOut">
     <div class="wapper topPicUpWap">
         <section class="secTopPickUp">
             <h2 class="cl_421D12 fw_500 txtset h2TopPickUp">PICK UP</h2>
@@ -16,7 +16,7 @@ $args = [
             <div class="topPicUpLxn">
                 <?php $query1 = new WP_Query($args); ?>
                 <?php if ($query1->have_posts()): ?>
-                    <div class="swiper topPicUp jsactionLxn" data-slidercount="4">
+                    <div class="swiper topPicUp jsactionLxn02" data-slidercount="4">
                         <div class="swiper-wrapper">
                             <?php $i = 1;
                             while ($query1->have_posts()): $query1->the_post();
@@ -35,7 +35,7 @@ $args = [
                             <!-- スクロールバー -->
                         </div>
 
-                        <div class="topPicUpScrollbar"></div>
+                        <div class="swiper-scrollbar topPicUpScrollbar"></div>
                     </div>
                 <?php endif; ?>
             </div>

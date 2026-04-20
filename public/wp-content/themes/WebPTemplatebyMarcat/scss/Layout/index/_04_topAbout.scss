@@ -138,6 +138,7 @@ LAYOUT
     top: 0;
 
     @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
         position: relative;
         width: 100%;
     }

@@ -48,7 +48,7 @@ $args = [
             </div>
             <div class="btnCntTopLimitedLxn">
                 <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopLimited" href="<?php echo home_url('/'); ?>">
-                    <span class="iconBbtnCntTopLimiteds">詳しく見る</span>
+                    <span class="iconBbtnCntTopLimiteds">新商品・期間限定一覧を見る</span>
                     <!--bg:../img/index/iconBbtnCntTopLimiteds.svg-->
                 </a>
             </div>

@@ -22,11 +22,27 @@ LAYOUT
     }
 }
 
-// .sliderTopTopics {}
+.h2CntTopTopix {
+    text-align: center;
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(50);
 
-// .prevSliderTopTopics {}
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(50);
+    }
+}
 
-// .nextSliderTopTopics {}
+.sliderTopTopics {
+    @include mi.marginPercent(1300, 40, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+    }
+}
+
 
 
 /*矢印*/
@@ -141,7 +157,16 @@ LAYOUT
 
 .iconBtnTopTopics {
     width: 100%;
-    background: url(../img/index/iconBtnTopTopics.svg) no-repeat 96% center;
-    background-size: auto 5%;
+    @include mi.ontenerWidth(193, 163);
+    margin: auto;
+    background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
+    background-size: auto 20%;
     text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(193, 163);
+        margin: auto;
+        background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
+        background-size: auto 20%;
+    }
 }

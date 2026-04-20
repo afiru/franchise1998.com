@@ -51,7 +51,7 @@
 
             <div class="btnCntTopCollectionLxn">
                 <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopCollection" href="<?php echo home_url('/'); ?>">
-                    <span class="iconBbtnCntTopCollections">詳しく見る</span>
+                    <span class="iconBbtnCntTopCollections">商品一覧を見る</span>
                     <!--bg:../img/index/iconBbtnCntTopCollections.svg-->
                 </a>
             </div>

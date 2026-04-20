@@ -11,12 +11,14 @@ LAYOUT
     @include mi.paddingPercent(1920, 416, 0, 447, 0);
     background: url(../img/index/topMadePc.png) no-repeat center top;
     background-size: cover;
+    background-attachment: fixed;
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 82, auto, 0, auto);
         @include mi.paddingPercent(375, 185, 0, 186, 0);
         background: url(../img/index/topMadeSp.png) no-repeat center top;
         background-size: cover;
+        background-attachment: fixed;
     }
 }
 

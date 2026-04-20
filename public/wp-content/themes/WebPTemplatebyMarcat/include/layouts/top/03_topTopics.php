@@ -12,6 +12,7 @@ $args = [
 <?php if ($query1->have_posts()): ?>
     <div class="topTopics">
         <div class="wapper topTopicsWap">
+            <h2 class="cl_421D12 fw_500 CormorantUnicase txtset h2CntTopTopix">TOPICS</h2>
             <div class="sliderTopTopics">
                 <div class="swiper jsSliderTopTopics">
                     <!-- Additional required wrapper -->

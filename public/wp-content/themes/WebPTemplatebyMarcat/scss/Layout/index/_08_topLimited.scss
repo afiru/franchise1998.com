@@ -8,16 +8,20 @@ LAYOUT
 ========================================================================== */
 .topLimited {
     @include mi.marginPercent(1920, 100, auto, 0, auto);
-    @include mi.paddingPercent(1920, 100, 0, 160, 0);
+    @include mi.paddingPercent(1920, 100, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 100, auto, 0, auto);
-        @include mi.paddingPercent(375, 100, 0, 120, 0);
+        @include mi.paddingPercent(375, 100, 0, 0, 0);
     }
 
 }
 
-.topLimitedWap {}
+.topLimitedWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
 
 .secTopLimited {}
 
@@ -38,12 +42,151 @@ LAYOUT
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(80);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
 }
 
 .topLimitedSliderLxn {
     @include mi.marginPercent(1300, 42, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 45, auto, 0, auto);
+    }
 }
 
-.topLimitedSlider {}
 
 .topLimitedSlider .swiper-slide {}
+
+.btnTopLimited {
+    text-decoration: none;
+}
+
+.topLimitedSlider {
+    @include mi.kadomaru(6px);
+    overflow: hidden;
+    position: relative;
+    @include mi.paddingPercent(1300, 0, 0, 40, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(340, 0, 0, 40, 0);
+    }
+}
+
+.catsSliderTopLimited {
+    @include mi.marginPercent(298, 10, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(160, 15, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.h3SliderTopLimited {
+    @include mi.marginPercent(298, 10, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(0);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(160, 10, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.priceSliderTopLimited {
+    @include mi.marginPercent(298, 15, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(160, 0, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.topLimitedSliderScrollbar {
+
+    background: #FFF;
+    @include mi.kadomaru(3px);
+    overflow: hidden;
+    height: 10px !important;
+    padding: 2px 0;
+
+    @include mi.mq(sp) {}
+}
+
+.slider__btn {
+    background: #421D12;
+    @include mi.kadomaru(3px);
+    height: 6px !important;
+    cursor: pointer;
+
+}
+
+//ボタン
+
+.btnCntTopLimitedLxn {
+    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 240);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 240);
+    }
+
+}
+
+.btnCntTopLimited {
+    aspect-ratio: 240 / 40;
+    @include mi.kadomaru(30px);
+    border: 1px solid #F04E11;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+    background: #FFF;
+    overflow: hidden;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 193 / 39;
+        @include mi.kadomaru(30px);
+        border: 1px solid #F04E11;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.iconBbtnCntTopLimiteds {
+    @include mi.ontenerWidth(240, 218);
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(193, 163);
+        margin: auto;
+        background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right center;
+        background-size: auto 20%;
+    }
+}

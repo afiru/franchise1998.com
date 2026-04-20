@@ -9,23 +9,34 @@ LAYOUT
 .topFv {
     position: relative;
     overflow: hidden;
-
 }
 
 .topFvScroll {
     position: absolute;
     width: 8px;
-    top: 10vw;
+    top: 50%;
     left: 2%;
+    z-index: 3;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 6);
+
+    }
 }
 
 .container_05 {
     width: 100%;
-    height: 339px;
+    height: 110px;
     position: relative;
+
+    @include mi.mq(sp) {
+        height: 112px;
+    }
 }
 
-.picTopFvScroll {}
+.picTopFvScroll {
+    @include mi.mq(sp) {}
+}
 
 .scrollbar_05 {
     @include mi.marginPercent(339, 6, auto, 0, auto);
@@ -34,6 +45,10 @@ LAYOUT
     bottom: 1px;
     height: 100%;
     width: 1px;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 8, auto, 0, auto);
+    }
 }
 
 .scrollbar_05::after {
@@ -72,9 +87,18 @@ LAYOUT
 
 .topMovie {
     position: relative;
-    @include mi.ontenerWidth(1920, 1698);
+    @include mi.ontenerWVw(1920, 1698);
+    margin: 0 0 0 auto;
     aspect-ratio: 1698/884;
     overflow: hidden;
+    border-radius: 6vw 0 0 6vw;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 350);
+        aspect-ratio: 350/660;
+        border-radius: 6vw 0 0 0;
+
+    }
 
 }
 
@@ -86,9 +110,14 @@ LAYOUT
 }
 
 .picTopMovie {
-    @include mi.ontenerWidth(1920, 303);
+    @include mi.ontenerWVw(1920, 303);
     position: absolute;
     left: 10%;
-    top: 0;
+    top: 30%;
     z-index: 2;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 186);
+        top: 65%;
+    }
 }

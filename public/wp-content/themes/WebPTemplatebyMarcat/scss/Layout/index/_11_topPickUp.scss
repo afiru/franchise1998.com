@@ -6,9 +6,20 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.topPicUp {}
+.topPicUpOut {
+    @include mi.marginPercent(1920, 125, auto, 0, auto);
 
-.topPicUpWap {}
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 125, auto, 0, auto);
+    }
+}
+
+.topPicUpWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
 
 .secTopPickUp {}
 
@@ -16,12 +27,62 @@ LAYOUT
     @include mi.fontSizePc(40);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(100);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
 }
 
 .topPicUpLxn {
     @include mi.marginPercent(1300, 41, auto, 0, auto);
+    position: relative;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+    }
 }
 
-.topPicUp {}
+.topPicUp {
+    position: relative;
+    @include mi.paddingPercent(1200, 0, 0, 58, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 30, 0);
+    }
+}
 
 .topPicUp .swiper-slide {}
+
+.btnTopLimited {}
+
+.picSliderTopLimited {
+    @include mi.kadomaru(6px);
+    overflow: hidden;
+
+    @include mi.mq(sp) {
+        @include mi.kadomaru(3px);
+    }
+}
+
+//
+
+.topPicUpScrollbar {
+
+    background: #F1ECE8;
+    @include mi.kadomaru(3px);
+    overflow: hidden;
+    height: 10px !important;
+    padding: 2px 0;
+
+    @include mi.mq(sp) {}
+}
+
+.slider__btn02 {
+    background: #421D12;
+    @include mi.kadomaru(3px);
+    height: 6px !important;
+    cursor: pointer;
+
+}
