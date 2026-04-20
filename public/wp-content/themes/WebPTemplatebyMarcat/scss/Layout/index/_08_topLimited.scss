@@ -6,6 +6,44 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.topLimited {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    @include mi.paddingPercent(1920, 100, 0, 160, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 100, auto, 0, auto);
+        @include mi.paddingPercent(375, 100, 0, 120, 0);
+    }
+
 }
+
+.topLimitedWap {}
+
+.secTopLimited {}
+
+.h2TopLimited {
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(40);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(36);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(30);
+    }
+}
+
+.rubyTopLimited {
+    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(80);
+}
+
+.topLimitedSliderLxn {
+    @include mi.marginPercent(1300, 42, auto, 0, auto);
+}
+
+.topLimitedSlider {}
+
+.topLimitedSlider .swiper-slide {}

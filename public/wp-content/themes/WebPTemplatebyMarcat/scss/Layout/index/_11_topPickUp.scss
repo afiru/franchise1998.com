@@ -6,6 +6,22 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.topPicUp {}
+
+.topPicUpWap {}
+
+.secTopPickUp {}
+
+.h2TopPickUp {
+    @include mi.fontSizePc(40);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(100);
 }
+
+.topPicUpLxn {
+    @include mi.marginPercent(1300, 41, auto, 0, auto);
+}
+
+.topPicUp {}
+
+.topPicUp .swiper-slide {}

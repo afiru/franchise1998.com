@@ -6,6 +6,186 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.topAccess {
+    @include mi.marginPercent(1920, 125, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 100, auto, 0, auto);
+    }
+}
+
+.topAccess {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+
+.secTopAccess {
+    @include mi.ontenerWidth(1300, 649);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+.h2TopAccess {
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(100);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(36);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+
+.txtTopAccess {
+    @include mi.marginPercent(649, 20, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.h3TopAccess {
+    @include mi.marginPercent(649, 45, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 50, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.ulTopAccess {
+    @include mi.marginPercent(649, 40, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
+}
+
+.liTopAccess {
+    &:nth-child(n+2) {
+        @include mi.marginPercent(649, 35, auto, 0, auto);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 30, auto, 0, auto);
+        }
+    }
+
+}
+
+.h4liTopAccess {
+    @include mi.ontenerWidth(649, 107);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 75);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.cntliTopAccess {
+    @include mi.ontenerWidth(649, 540);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 255);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtLiTopAccess {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtLiTopAccess02 {
+    @include mi.marginPercent(649, 8, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.btnCntTopAccessLxn {
+    @include mi.marginPercent(649, 40, 0, 0, 0);
+    @include mi.ontenerWidth(649, 193);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
+        @include mi.ontenerWidth(330, 193);
+    }
+}
+
+.btnCntTopAccess {
+    aspect-ratio: 193 / 39;
+    @include mi.kadomaru(30px);
+    border: 1px solid #F04E11;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 193 / 39;
+        @include mi.kadomaru(30px);
+        border: 1px solid #F04E11;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.iconBbtnCntTopAccesss {
+    @include mi.ontenerWidth(193, 163);
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(193, 163);
+        margin: auto;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background-size: auto 20%;
+    }
+}
+
+.picMainTopAccess {
+    @include mi.ontenerWidth(1300, 651);
+}
+
+.picMainTopAccessSp {
+    @include mi.marginPercent(330, 30, 0, 0, 0);
 }

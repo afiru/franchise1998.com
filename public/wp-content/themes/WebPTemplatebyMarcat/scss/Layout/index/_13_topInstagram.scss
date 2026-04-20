@@ -6,6 +6,146 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.topInstagram {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    overflow: hidden;
+    width: 100%;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+    }
+}
+
+.topInstagramWap {
+    position: relative;
+    @include mi.paddingPercent(1920, 79, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+        @include mi.paddingPercent(375, 50, 0, 0, 0);
+    }
+}
+
+.brdLongTopInstagram {
+    height: 2px;
+    width: 900%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.brdShortTopInstagram {
+    @include mi.ontenerWidth(1920, 50);
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 50);
+    }
+}
+
+.titleTopInstagram {}
+
+.h2TopInstagram {
+    @include mi.fontSizePc(32);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(100);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+
+.txtTopInstagram {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.marginPercent(1300, 0, 0, 0, 15);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(100);
+    }
+}
+
+.instagramFeed {
+    @include mi.marginPercent(1300, 40, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, 0, 0, 0);
+    }
+
+    #sb_instagram #sbi_images {
+        padding: 0 !important;
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    #sbi_images {
+        gap: 0 !important;
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    #sb_instagram #sbi_images {}
+
+    #sb_instagram #sbi_images .sbi_item {
+        @include mi.ontenerWidth(1300, 151);
+
+        @include mi.mq(sp) {
+            @include mi.ontenerWVw(375, 100);
+        }
+    }
+}
+
+.btnCntTopInstagramLxn {
+    @include mi.marginPercent(1300, 30, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 193);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 193);
+    }
+}
+
+.btnCntTopInstagram {
+    aspect-ratio: 193 / 39;
+    @include mi.kadomaru(30px);
+    border: 1px solid #F04E11;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 193 / 39;
+        @include mi.kadomaru(30px);
+        border: 1px solid #F04E11;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.iconBbtnCntTopInstagrams {
+    @include mi.ontenerWidth(193, 163);
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(193, 163);
+        margin: auto;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background-size: auto 20%;
+    }
 }

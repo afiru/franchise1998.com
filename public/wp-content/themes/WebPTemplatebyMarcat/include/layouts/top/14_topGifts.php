@@ -12,7 +12,7 @@ $args = [
 <?php if ($query1->have_posts()): ?>
     <div class="topGifts">
         <div class="wapper topGiftsWap">
-            <div class="d_flex j_start row titleTopGifts">
+            <div class="d_flex j_start row ali_center titleTopGifts">
                 <h2 class="cl_421D12 fw_500 txtset h2TitleTopGifts">GIFT SUGGESTIONS</h2>
                 <p class="cl_453C3C fw_500 txtset txtTitleTopGifts">
                     お祝いや季節のギフトについて、フランシーズからのご提案

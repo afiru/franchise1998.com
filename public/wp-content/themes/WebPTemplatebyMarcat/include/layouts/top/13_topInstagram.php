@@ -3,7 +3,7 @@
         <div class="poab bg_EBEBEB brdLongTopInstagram"></div>
         <div class="poab bg_F28962 brdShortTopInstagram"></div>
 
-        <div class="d_flex j_start ali_center titleTopInstagram">
+        <div class="d_flex j_start ali_center row titleTopInstagram">
             <h2 class="cl_421D12 txtset fw_500 txtset CormorantUnicase h2TopInstagram">INSTAGRAM</h2>
             <p class="cl_453C3C fw_500 txtset txtTopInstagram">新商品やおすすめ商品などを随時発信</p>
         </div>

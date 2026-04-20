@@ -6,10 +6,142 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+
+
+.topTopics {
+    @include mi.marginPercent(1920, 54, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 60, auto, 0, auto);
+    }
 }
 
-.headerMenuPc {
+.topTopicsWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+
+// .sliderTopTopics {}
+
+// .prevSliderTopTopics {}
+
+// .nextSliderTopTopics {}
+
+
+/*矢印*/
+.nextSliderTopTopics:after,
+.prevSliderTopTopics:after {
     display: none;
+}
+
+.prevSliderTopTopics {
+    aspect-ratio: 1/1;
+    @include mi.ontenerWidth(1300, 50);
+    background: url(../img/btnprevSliderTopTopics.svg) no-repeat center center;
+    background-size: 100% 100%;
+    left: 0;
+    top: 47%;
+    z-index: 9;
+    height: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 31);
+    }
+}
+
+.nextSliderTopTopics {
+    aspect-ratio: 1/1;
+    @include mi.ontenerWidth(1300, 50);
+    background: url(../img/btnnrxtSliderTopTopics.svg) no-repeat center center;
+    background-size: 100% 100%;
+    right: 0;
+    top: 47%;
+    z-index: 9;
+    height: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 31);
+    }
+}
+
+
+.sliderTopTopics .swiper-slide {
+    @include mi.ontenerWidth(1300, 398);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+.picSliderTopTopics {
+    @include mi.kadomaru(10px);
+    overflow: hidden;
+
+    @include mi.mq(sp) {
+        @include mi.kadomaru(7px);
+    }
+}
+
+.h3SliderTopTopics {
+    @include mi.marginPercent(398, 18, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 13, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        line-height: 1.5;
+        @include mi.letterSpacing(0);
+    }
+}
+
+.timeSliderTopTopics {
+    @include mi.marginPercent(398, 16, 0, 0, 0);
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 9, 0, 0, 0);
+        @include mi.fontSizeSp(10);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+
+//ボタン
+.btnTopTopicsLxn {
+    @include mi.marginPercent(1300, 21, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 200);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.ontenerWidth(330, 200);
+    }
+}
+
+.btnTopTopics {
+    width: 100%;
+    @include mi.kadomaru(30px);
+    border: 1px solid #F04E11;
+    aspect-ratio: 200/40;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include mi.mq(sp) {
+        @include mi.kadomaru(30px);
+        aspect-ratio: 200/40;
+    }
+
+}
+
+.iconBtnTopTopics {
+    width: 100%;
+    background: url(../img/index/iconBtnTopTopics.svg) no-repeat 96% center;
+    background-size: auto 5%;
+    text-align: center;
 }

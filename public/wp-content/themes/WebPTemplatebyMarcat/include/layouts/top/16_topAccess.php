@@ -1,5 +1,5 @@
 <div class="topAccess">
-    <div class="wapper topAccess">
+    <div class="wapper d_flex j_between row  topAccess">
         <section class="secTopAccess">
             <h2 class="cl_421D12 txtset CormorantUnicase fw_500 h2TopAccess">ACCESS</h2>
             <p class="cl_453C3C txtset fw_500 mincho txtTopAccess">店舗情報・アクセス</p>
@@ -8,11 +8,16 @@
 
             <ul class="ulTopAccess">
                 <li class="d_flex j_between liTopAccess">
-                    <h4 class="cl_31150D fw_500 txtset h4liTopAccess"></h4>
-                    <div class="cntliTopAccess">
+                    <h4 class="cl_31150D fw_500 txtset h4liTopAccess">住所</h4>
+                    <div class="pc_only cntliTopAccess">
                         <p class="cl_453C3C fw_500 txtset txtLiTopAccess">〒599-8237  大阪府堺市中区深井水池町3254番地</p>
                         <p class="cl_453C3C fw_500 txtset txtLiTopAccess txtLiTopAccess02">
                             <a class="cl_F04E11" href="" target="_blank">Google Maps</a>
+                        </p>
+                    </div>
+                    <div class="sp_only cntliTopAccess">
+                        <p class="cl_453C3C fw_500 txtset txtLiTopAccess">
+                            〒599-8237  大阪府堺市中区深井水池町3254番地 <a class="cl_F04E11" href="" target="_blank">Google Maps</a>
                         </p>
                     </div>
                 </li>
@@ -52,19 +57,20 @@
                 </li>
             </ul>
 
+            <figure class="sp_only picMainTopAccessSp">
+                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picMainTopAccessSp.png'); ?>" alt="<?php echo esc_attr('店舗情報・アクセス'); ?>" width="651" height="422">
+            </figure>
+
             <div class="btnCntTopAccessLxn">
                 <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopAccess" href="<?php echo home_url('/'); ?>">
                     <span class="iconBbtnCntTopAccesss">詳しく見る</span>
                     <!--bg:../img/index/iconBbtnCntTopAccesss.svg-->
                 </a>
             </div>
+
         </section>
-        <figure class=" picMainTopAccess">
-            <picture>
-                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picMainTopAccessPc.jpg'); ?>">
-                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picMainTopAccessSp.jpg'); ?>">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picMainTopAccessPc.jpg'); ?>" alt="<?php echo esc_attr('店舗情報・アクセス'); ?>" width="651" height="422">
-            </picture>
+        <figure class="pc_only picMainTopAccess">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picMainTopAccessPc.png'); ?>" alt="<?php echo esc_attr('店舗情報・アクセス'); ?>" width="651" height="422">
         </figure>
     </div>
 </div>

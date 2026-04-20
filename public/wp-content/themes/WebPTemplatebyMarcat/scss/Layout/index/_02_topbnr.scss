@@ -6,4 +6,25 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.topBnr {}
+.topBnr {
+    @include mi.marginPercent(1920, 85, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 44, auto, 0, auto);
+
+    }
+}
+
+.topBnrBx {
+    @include mi.ontenerWidth(1300, 900);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+
+}
+
+.btnTopBnrBx {}
+
+.bnrTopBnr {}

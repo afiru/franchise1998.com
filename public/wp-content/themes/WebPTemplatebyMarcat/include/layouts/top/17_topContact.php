@@ -4,8 +4,8 @@
         <p class="t_center cl_453C3C fw_500 txtset rubyTopContact">お問い合わせ</p>
 
         <p class="t_center cl_31150D fw_500 txtTopContact">
-            商品に関するご質問は、こちらからお気軽にお問い合わせください。
-            サービス・店舗に関するご質問などは、<a class="cl_31150D" href="<?php echo home_url('/'); ?>">お買い物ガイド・よくあるご質問</a>もご覧ください。
+            商品に関するご質問は、こちらからお気軽に<br class="sp_only">お問い合わせください。<br>
+            サービス・店舗に関するご質問などは、<br class="sp_only"><a class="cl_31150D" href="<?php echo home_url('/'); ?>">お買い物ガイド・よくあるご質問</a>もご覧ください。
         </p>
 
         <ul class="d_flex j_between row ulTopContact">
@@ -18,8 +18,8 @@
             </li>
 
             <li class="liTopContact">
-                <a class="d_flex j_center ali_center bg_fff cl_453C3C undernone kaku btnTopContact02" href="<?php echo home_url('/'); ?>">
-                    <p class="t_center cl_453C3C txtBtnTopContact02">0120-656-567</p>
+                <a class="d_flex j_center ali_center bg_fff cl_453C3C row undernone kaku btnTopContact02" href="<?php echo home_url('/'); ?>">
+                    <p class="t_center cl_453C3C txtBtnTopContact0201">0120-656-567</p>
                     <p class="t_center cl_453C3C txtBtnTopContact0202">9:00～19:00・火曜日定休（祝日営業）</p>
                 </a>
             </li>
