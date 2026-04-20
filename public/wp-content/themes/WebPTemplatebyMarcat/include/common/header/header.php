@@ -115,3 +115,5 @@
         <?php get_template_part('include/common/header/04_headerMemuSp'); ?>
       </div>
     </header>
+
+    <?php get_template_part('include/common/header/05_headerFixedSearch'); ?>
