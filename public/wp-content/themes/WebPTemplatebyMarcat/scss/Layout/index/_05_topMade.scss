@@ -6,6 +6,43 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.topMade {
+    @include mi.marginPercent(1920, 252, auto, 0, auto);
+    @include mi.paddingPercent(1920, 416, 0, 447, 0);
+    background: url(../img/index/topMadePc.png) no-repeat center top;
+    background-size: cover;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 82, auto, 0, auto);
+        @include mi.paddingPercent(375, 185, 0, 186, 0);
+        background: url(../img/index/topMadeSp.png) no-repeat center top;
+        background-size: cover;
+    }
+}
+
+.secTopMade {}
+
+.h2TopMade {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(40);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(15);
+        @include mi.lineheightP(200);
+        @include mi.letterSpacing(0);
+
+    }
+}
+
+.rubyTopMade {
+    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheight(auto, auto);
+    letter-spacing: 1.2;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(auto, auto);
+    }
 }

@@ -7,13 +7,13 @@
             <h2 class="cl_421D12 fw_500 CormorantUnicase txtset h2TitleTopCollection">COLLECTION</h2>
             <p class="cl_453C3C fw_500 txtset rubyTitleTopCollection">フランシーズの商品紹介</p>
 
-            <ul class="d_flex j_btween row ulTitleTopCollection">
+            <ul class="d_flex j_between row ulTitleTopCollection">
                 <li class="liTitleTopCollection">
                     <figure class="picTopCollection">
                         <picture>
-                            <source media="(min-width: 768px)" srcset="<?php echo esc_url( get_template_directory_uri() . '/img/index/picTopCollection01Pc.png' ); ?>">
-                            <source media="(max-width: 767px)" srcset="<?php echo esc_url( get_template_directory_uri() . '/img/index/picTopCollection01Sp.png' ); ?>">
-                            <img loading="lazy" src="<?php echo esc_url( get_template_directory_uri() . '/img/index/picTopCollection01Pc.png' ); ?>" alt="<?php echo esc_attr( 'ケーキ' ); ?>" width="400" height="500">
+                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection01Pc.png'); ?>">
+                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection01Sp.png'); ?>">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection01Pc.png'); ?>" alt="<?php echo esc_attr('ケーキ'); ?>" width="400" height="500">
                         </picture>
                     </figure>
                     <p class="cl_453C3C fw_500 txtset text_justify txtTopCollection">
@@ -24,9 +24,9 @@
                 <li class="liTitleTopCollection">
                     <figure class="picTopCollection">
                         <picture>
-                            <source media="(min-width: 768px)" srcset="<?php echo esc_url( get_template_directory_uri() . '/img/index/picTopCollection02Pc.png' ); ?>">
-                            <source media="(max-width: 767px)" srcset="<?php echo esc_url( get_template_directory_uri() . '/img/index/picTopCollection02Sp.png' ); ?>">
-                            <img loading="lazy" src="<?php echo esc_url( get_template_directory_uri() . '/img/index/picTopCollection02Pc.png' ); ?>" alt="<?php echo esc_attr( 'ケーキ' ); ?>" width="400" height="500">
+                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection02Pc.png'); ?>">
+                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection02Sp.png'); ?>">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection02Pc.png'); ?>" alt="<?php echo esc_attr('ケーキ'); ?>" width="400" height="500">
                         </picture>
                     </figure>
                     <p class="cl_453C3C fw_500 txtset text_justify txtTopCollection">
@@ -37,9 +37,9 @@
                 <li class="liTitleTopCollection">
                     <figure class="picTopCollection">
                         <picture>
-                            <source media="(min-width: 768px)" srcset="<?php echo esc_url( get_template_directory_uri() . '/img/index/picTopCollection02Pc.png' ); ?>">
-                            <source media="(max-width: 767px)" srcset="<?php echo esc_url( get_template_directory_uri() . '/img/index/picTopCollection02Sp.png' ); ?>">
-                            <img loading="lazy" src="<?php echo esc_url( get_template_directory_uri() . '/img/index/picTopCollection02Pc.png' ); ?>" alt="<?php echo esc_attr( 'ケーキ' ); ?>" width="400" height="500">
+                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection02Pc.png'); ?>">
+                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection02Sp.png'); ?>">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection02Pc.png'); ?>" alt="<?php echo esc_attr('ケーキ'); ?>" width="400" height="500">
                         </picture>
                     </figure>
                     <p class="cl_453C3C fw_500 txtset text_justify txtTopCollection">

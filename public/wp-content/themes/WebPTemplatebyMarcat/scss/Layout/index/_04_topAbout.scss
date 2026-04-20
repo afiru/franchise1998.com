@@ -6,6 +6,143 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.topAbout {
+    position: relative;
+    overflow: hidden;
+    @include mi.marginPercent(1920, 225, auto, 0, auto);
+}
+
+.cntTopAbout {
+    @include mi.paddingVw(1920, 0, 0, 343, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingVw(1920, 0, 0, 0, 0);
+
+        @include mi.marginPercent(375, 0, auto, 0, auto);
+    }
+}
+
+.secCntTopAbout {
+    @include mi.ontenerWidth(1300, 398);
+    margin: 0 0 0 0;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
+
+.h2CntTopAbout {
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+    }
+}
+
+.rubyCntTopAbout {
+    @include mi.marginPercent(398, 0, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 14, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.h3CntTopAbout {
+    @include mi.marginPercent(398, 90, auto, 0, auto);
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(210);
+    @include mi.letterSpacing(20);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 37, auto, 0, auto);
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(200);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.txtCntTopAbout {
+    @include mi.marginPercent(398, 60, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 39, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.btnCntTopAboutLxn {
+    @include mi.marginPercent(398, 40, 0, 0, 0);
+    @include mi.ontenerWidth(398, 193);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 48, auto, 0, auto);
+        @include mi.ontenerWidth(330, 193);
+    }
+}
+
+.btnCntTopAbout {
+    aspect-ratio: 193 / 39;
+    @include mi.kadomaru(30px);
+    border: 1px solid #F04E11;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 193 / 39;
+        @include mi.kadomaru(30px);
+        border: 1px solid #F04E11;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.iconBbtnCntTopAbouts {
+    @include mi.ontenerWidth(193, 163);
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(193, 163);
+        margin: auto;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background-size: auto 20%;
+    }
+}
+
+.picMainTopAbout {
+    @include mi.ontenerWVw(1920, 1142);
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    @include mi.mq(sp) {
+        position: relative;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
 }

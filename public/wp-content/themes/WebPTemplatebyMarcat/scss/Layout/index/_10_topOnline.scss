@@ -6,6 +6,33 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.topOnline {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 70, auto, 0, auto);
+    }
 }
+
+.navTopOnline {}
+
+.ulNavTopOnline {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
+
+.liNavTopOnline {
+    @include mi.ontenerWidth(1300, 627);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+
+        &:nth-child(n+2) {
+            @include mi.marginPercent(330, 20, auto, 0, auto);
+        }
+    }
+}
+
+.btnNavTopOnline {}

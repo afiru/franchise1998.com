@@ -1,5 +1,5 @@
 <div class="ovhidden pore topAbout">
-    <div class="cntTopAbout">
+    <div class="wapper cntTopAbout">
         <section class="secCntTopAbout">
             <h2 class="cl_421D12 fw_500 CormorantUnicase txtset h2CntTopAbout">ABOUT</h2>
             <p class="cl_453C3C fw_500 txtset mincho rubyCntTopAbout">フランシーズについて</p>
@@ -13,7 +13,7 @@
                 人と人とのつながりを大切に。<br>
                 <br>
                 ひとつひとつに想いを込めて、<br>
-                上質なおいしさと心のこもったサービスを
+                上質なおいしさと心のこもったサービスを<br>
                 お届けいたします。
             </p>
 
@@ -28,9 +28,9 @@
 
     <figure class="poab picMainTopAbout">
         <picture>
-            <source media="(min-width: 768px)" srcset="<?php echo esc_url( get_template_directory_uri() . '/img/index/picMainTopAboutPc.jpg' ); ?>">
-            <source media="(max-width: 767px)" srcset="<?php echo esc_url( get_template_directory_uri() . '/img/index/picMainTopAboutSp.jpg' ); ?>">
-            <img loading="lazy" src="<?php echo esc_url( get_template_directory_uri() . '/img/index/picMainTopAboutPc.jpg' ); ?>" alt="<?php echo esc_attr( 'フランシーズについて' ); ?>" width="1142" height="926">
+            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picMainTopAboutPc.png'); ?>">
+            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picMainTopAboutSp.png'); ?>">
+            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picMainTopAboutPc.png'); ?>" alt="<?php echo esc_attr('フランシーズについて'); ?>" width="1142" height="926">
         </picture>
     </figure>
 

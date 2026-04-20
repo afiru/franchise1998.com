@@ -40,36 +40,12 @@ window.addEventListener('load', function () {
         },
     });
     //LIMITED
-    let spaceBetween01;
-    let totalSlides = document.querySelectorAll('.swiperaction .swiper-slide').length;
-    let slidesPerView = window.innerWidth < 768 ? 1.95 : 5;
-    const isSlideCountLessThanSlidesPerView = totalSlides + 1 <= Math.floor(slidesPerView);
-    let draggable = !isSlideCountLessThanSlidesPerView;
-
-    if (window.innerWidth > 768) {
-        const justifyContent = !isSlideCountLessThanSlidesPerView ? 'flex-start' : 'center';
-        $('.swiperaction .swiper-wrapper').css('justify-content', justifyContent);
-    }
-    if (window.innerWidth < 768) {
-        dragSize = 52;
-        spaceBetween01 = 15;
-    } else {
-        dragSize = 114;
-        spaceBetween01 = 34;
-    }
-
-    const mainGallerySlider = new Swiper('.swiperaction', {
-        slidesPerView: slidesPerView,
-        spaceBetween: spaceBetween01,
-        loop: false,
-        allowTouchMove: !isSlideCountLessThanSlidesPerView,
+    const swiper = new Swiper('.jsactionLxn', {
+        // オプション設定
         scrollbar: {
-            el: '.swiper-scrollbar',
-            draggable: draggable,
-            dragSize: dragSize,
-            snapOnRelease: false,
-            dragClass: 'slider__btn',
+            el: '.topPicUpScrollbar', // HTML側のクラス名と合わせる
+            hide: false,
         },
-    });
 
+    });
 });
