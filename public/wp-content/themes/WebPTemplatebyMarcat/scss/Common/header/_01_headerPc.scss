@@ -1,7 +1,7 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -10,31 +10,40 @@ LAYOUT
     height: 4px;
     width: 100%;
 }
+
 .headerPcFx {
     @include mi.paddingPercent(1920, 14, 0, 17, 0);
 }
+
 .btnHeaderPc {
     width: 120px;
     @include mi.marginPercent(1920, 0, auto, 0, 19);
 }
+
 .navHeaderPc {
     width: 352px;
     @include mi.marginPercent(1920, 0, 19, 0, auto);
 }
+
 .ulNavHeaderPc {
     @include mi.ontenerWidth(352, 316);
 }
+
 .liNavHeaderPc {
     @include mi.ontenerWidth(316, 155);
 }
+
 .btnNavHeaderPc {
+    @include mi.paddingPercent(155, 0, 0, 0, 17);
     @include mi.fontSizePc(14);
     @include mi.letterSpacing(0);
     aspect-ratio: 155/33;
     @include mi.kadomaru(30px);
     border: 1px solid #421d12;
 }
+
 .bgBtnHeaderPc01 {
+
     background: url(../img/bgBtnHeaderPc01.svg) no-repeat 0% center;
     background-size: auto 100%;
     justify-content: center;
@@ -42,7 +51,9 @@ LAYOUT
     align-items: center;
     width: 100%;
 }
+
 .bgBtnHeaderPc02 {
+
     background: url(../img/bgBtnHeaderPc02.svg) no-repeat 0% center;
     background-size: auto 100%;
     justify-content: center;
@@ -50,6 +61,7 @@ LAYOUT
     align-items: center;
     width: 100%;
 }
+
 .btnNavOpenPc {
     @include mi.ontenerWidth(352, 20);
 }

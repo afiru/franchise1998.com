@@ -1,8 +1,38 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.brdHeaderSp {
+    @include mi.heightVwSp(4);
+}
+
+.headerSpFx {
+    @include mi.paddingPercent(375, 8, 0, 8, 0);
+    @include mi.marginPercent(375, 0, 13, 0, 10);
+    @include mi.ontenerWidth(375, 354);
+}
+
+.btnHeaderSp {
+    @include mi.marginPercent(354, 0, auto, 0, 10);
+}
+
+.navHeaderSp {
+    @include mi.marginPercent(354, 0, 10, 0, auto);
+    @include mi.ontenerWidth(354, 177);
+}
+
+.ulNavHeaderSp {
+    @include mi.ontenerWidth(177, 138);
+}
+
+.liNavHeaderSp {
+    @include mi.ontenerWidth(138, 65);
+}
+
+.btnNavHeaderSp {
+    @include mi.ontenerWidth(177, 27);
+}

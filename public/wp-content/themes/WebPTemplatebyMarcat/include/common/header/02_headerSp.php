@@ -9,14 +9,12 @@
         <ul class="d_flex j_between ali_center ulNavHeaderSp">
             <li class="liNavHeaderSp">
                 <a class="d_flex j_center ali_center mincho bg_421D12 cl_fff undernone fw_500 btnNavHeaderSp">
-                    <span class="bgBtnHeaderSp01">ケーキ<br>WEB予約</span>
-                    <!--bg:../img/bgBtnHeaderSp01.svg-->
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/BtnHeaderSp01.svg'); ?>" alt="<?php echo esc_attr('ケーキWEB予約'); ?>" width="65" height="30">
                 </a>
             </li>
             <li class="liNavHeaderSp">
                 <a class="d_flex j_center ali_center CormorantUnicase bg_fff undernone cl_421D12 fw_400 btnNavHeaderSp">
-                    <span class="bgBtnHeaderSp02">ONLINE<br>SHOP</span>
-                    <!--bg:../img/bgBtnHeaderSp02.svg-->
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/BtnHeaderSp02.svg'); ?>" alt="<?php echo esc_attr('ONLINE SHOP'); ?>" width="65" height="30">
                 </a>
             </li>
         </ul>

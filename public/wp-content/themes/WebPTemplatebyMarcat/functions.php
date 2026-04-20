@@ -272,3 +272,39 @@ add_action('wp_head', function () {
         ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) .
         '</script>';
 });
+
+
+function get_genre_cats($parent_id = 15, $post_id = null)
+{
+
+    if (!$post_id) {
+        $post_id = get_the_ID();
+    }
+
+    $categories = get_the_category($post_id);
+
+    if (!$categories) return '';
+
+    foreach ($categories as $cat) {
+
+        // 直下カテゴリならそのまま返す
+        if ($cat->parent == $parent_id) {
+            return $cat->name;
+        }
+
+        // 親をたどる
+        $current_id = $cat->parent;
+
+        while ($current_id) {
+            $parent = get_category($current_id);
+
+            if ($parent->parent == $parent_id) {
+                return $parent->name;
+            }
+
+            $current_id = $parent->parent;
+        }
+    }
+
+    return '';
+}

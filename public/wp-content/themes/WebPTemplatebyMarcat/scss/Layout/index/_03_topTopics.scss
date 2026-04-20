@@ -9,3 +9,7 @@ LAYOUT
 .testIndex {
     @include mi.ontenerWidth(1200, 500);
 }
+
+.headerMenuPc {
+    display: none;
+}
