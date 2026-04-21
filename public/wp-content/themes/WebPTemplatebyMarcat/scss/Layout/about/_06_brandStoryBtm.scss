@@ -6,3 +6,38 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.brandStoryBtm {
+    @include mi.marginPercent(1920, 175, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 100, auto, 0, auto);
+    }
+}
+.brandStoryBtmWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.secBrandStoryBtm {
+}
+.h2BrandStoryBtm {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(210);
+    @include mi.letterSpacing(10);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(55);
+        @include mi.letterSpacing(20);
+    }
+}
+.txtBrandStoryBtm {
+    @include mi.marginPercent(1300, 56, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}

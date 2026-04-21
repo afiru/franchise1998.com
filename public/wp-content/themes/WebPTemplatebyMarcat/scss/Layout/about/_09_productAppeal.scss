@@ -6,3 +6,273 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.productAppeal {
+    @include mi.marginPercent(1920, 124, auto, 0, auto);
+}
+.topProductAppealWap {
+    position: relative;
+    @include mi.paddingPercent(1920, 79, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+        @include mi.paddingPercent(375, 50, 0, 0, 0);
+    }
+}
+.brdLongTopProductAppeal {
+    height: 2px;
+    width: 900%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.brdShortTopProductAppeal {
+    @include mi.ontenerWidth(1920, 50);
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 50);
+    }
+}
+.titleProductAppeal {
+}
+.h2TitleProductAppeal {
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(100);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(36);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+.rubyTitleProductAppeal {
+    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 16, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+.productAppealFx {
+    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    flex-flow: row wrap;
+    align-items: center;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
+}
+.productAppealFx01 {
+}
+
+.photoProductAppealFx {
+    @include mi.ontenerWidth(1300, 800);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+.secProductAppealFx {
+    @include mi.ontenerWidth(1300, 425);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+.secProductAppealFx01 {
+}
+
+.h3ProductAppealFx {
+    @include mi.fontSizePc(32);
+    @include mi.lineheightP(100);
+    @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(32);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+.rubyProductAppealFx {
+    @include mi.marginPercent(425, 20, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.h4ProductAppealFx {
+    @include mi.marginPercent(425, 45, 0, 0, 0);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+.txtProductAppealFx {
+    @include mi.marginPercent(425, 40, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.btnProductAppealFx01Lxn {
+    @include mi.marginPercent(425, 40, 0, 0, 0);
+    @include mi.ontenerWidth(425, 200);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 200);
+    }
+}
+.btnProductAppealFx01 {
+    aspect-ratio: 200 / 40;
+    @include mi.kadomaru(30px);
+    border: 1px solid #f04e11;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 200 / 40;
+        @include mi.kadomaru(30px);
+        border: 1px solid #f04e11;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.iconBbtnProductAppealFx01s {
+    @include mi.ontenerWidth(200, 163);
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+        center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(200, 163);
+        margin: auto;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+            center;
+        background-size: auto 20%;
+    }
+}
+
+//02
+.productAppealFx02 {
+    @include mi.marginPercent(1200, 40, auto, 0, auto);
+}
+.btnProductAppealFx02Lxn {
+    @include mi.marginPercent(425, 40, auto, 0, 0);
+    @include mi.ontenerWidth(425, 200);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 200);
+    }
+}
+.btnProductAppealFx02 {
+    aspect-ratio: 200 / 40;
+    @include mi.kadomaru(30px);
+    border: 1px solid #f04e11;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 200 / 40;
+        @include mi.kadomaru(30px);
+        border: 1px solid #f04e11;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.iconBbtnProductAppealFx02s {
+    @include mi.ontenerWidth(200, 163);
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+        center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(200, 163);
+        margin: auto;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+            center;
+        background-size: auto 20%;
+    }
+}
+//03
+.productAppealFx03 {
+    @include mi.marginPercent(1200, 40, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 60, auto, 0, auto);
+    }
+}
+.btnProductAppealFx03Lxn {
+    @include mi.marginPercent(425, 40, auto, 0, 0);
+    @include mi.ontenerWidth(425, 200);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 200);
+    }
+}
+.btnProductAppealFx03 {
+    aspect-ratio: 200 / 40;
+    @include mi.kadomaru(30px);
+    border: 1px solid #f04e11;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 200 / 40;
+        @include mi.kadomaru(30px);
+        border: 1px solid #f04e11;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.iconBbtnProductAppealFx03s {
+    @include mi.ontenerWidth(200, 163);
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+        center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(200, 163);
+        margin: auto;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+            center;
+        background-size: auto 20%;
+    }
+}

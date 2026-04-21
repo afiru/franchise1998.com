@@ -8269,6 +8269,17 @@ LAYOUT
   }
 }
 
+@media screen and (max-width: 767px) {
+  .aboutUnderFvWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .aboutUnderFvWap {
+    width: 88%;
+  }
+}
+
 .h1AboutUnderFv {
   font-size: 60px;
 }
@@ -9042,9 +9053,25 @@ LAYOUT
 .brandStory01 {
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .brandStory01 {
+    margin-top: 110px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brandStory01 {
+    margin-top: 29.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .brandStory01Wap {
-  padding: 0vw 0vw 17.8645833333vw 0vw;
+  padding: 0vw 0vw 1.875vw 0vw;
 }
 @media screen and (max-width: 767px) {
   .brandStory01Wap {
@@ -9064,6 +9091,133 @@ LAYOUT
   }
 }
 
+.secBrandStory01 {
+  width: 600px;
+}
+@media screen and (max-width: 1299px) {
+  .secBrandStory01 {
+    width: 46.15%;
+  }
+}
+.secBrandStory01 {
+  margin: 0 auto 0 0;
+}
+@media screen and (max-width: 767px) {
+  .secBrandStory01 {
+    width: 330px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secBrandStory01 {
+    width: 88%;
+  }
+}
+
+.h2BrandStory01 {
+  font-size: 26px;
+}
+@media screen and (max-width: 1299px) {
+  .h2BrandStory01 {
+    font-size: 2.0015396459vw;
+  }
+}
+.h2BrandStory01 {
+  line-height: 210%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .h2BrandStory01 {
+    line-height: 160%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2BrandStory01 {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.txtBrandStory01 {
+  margin-top: 65px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtBrandStory01 {
+    margin-top: 10.83%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtBrandStory01 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtBrandStory01 {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtBrandStory01 {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtBrandStory01 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtBrandStory01 {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtBrandStory01 {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.picBrandStory01 {
+  width: 48.43vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media screen and (max-width: 767px) {
+  .picBrandStory01 {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    right: unset;
+    top: unset;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .picBrandStory01 {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.picBrandStory01 img {
+  width: 100%;
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -9073,6 +9227,174 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.brandStory02 {
+  margin-top: 175px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .brandStory02 {
+    margin-top: 9.11%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.brandStory02 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.picBrandStory02 {
+  width: 48.43vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media screen and (max-width: 767px) {
+  .picBrandStory02 {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    left: unset;
+    top: unset;
+    order: 3;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .picBrandStory02 {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.picBrandStory02 img {
+  width: 100%;
+}
+
+.brandStory02Wap {
+  padding: 0vw 0vw 15.46875vw 0vw;
+}
+@media screen and (max-width: 767px) {
+  .brandStory02Wap {
+    padding: 0vw 0vw 0vw 0vw;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brandStory02Wap {
+    margin-top: 10.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.secBrandStory02 {
+  width: 600px;
+}
+@media screen and (max-width: 1299px) {
+  .secBrandStory02 {
+    width: 46.15%;
+  }
+}
+.secBrandStory02 {
+  margin: 0 0 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .secBrandStory02 {
+    width: 330px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secBrandStory02 {
+    width: 88%;
+  }
+}
+
+.h2BrandStory02 {
+  font-size: 26px;
+}
+@media screen and (max-width: 1299px) {
+  .h2BrandStory02 {
+    font-size: 2.0015396459vw;
+  }
+}
+.h2BrandStory02 {
+  line-height: 210%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .h2BrandStory02 {
+    line-height: 160%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2BrandStory02 {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.txtBrandStory02 {
+  margin-top: 65px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtBrandStory02 {
+    margin-top: 10.83%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtBrandStory02 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtBrandStory02 {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtBrandStory02 {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtBrandStory02 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtBrandStory02 {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtBrandStory02 {
+    font-size: 3.7333333333vw;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -9082,6 +9404,122 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.brandStoryBtm {
+  margin-top: 175px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .brandStoryBtm {
+    margin-top: 9.11%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brandStoryBtm {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brandStoryBtm {
+    margin-top: 26.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .brandStoryBtmWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brandStoryBtmWap {
+    width: 88%;
+  }
+}
+
+.h2BrandStoryBtm {
+  font-size: 26px;
+}
+@media screen and (max-width: 1299px) {
+  .h2BrandStoryBtm {
+    font-size: 2.0015396459vw;
+  }
+}
+.h2BrandStoryBtm {
+  line-height: 210%;
+  letter-spacing: 0.01em;
+}
+@media screen and (max-width: 767px) {
+  .h2BrandStoryBtm {
+    line-height: 55%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2BrandStoryBtm {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.txtBrandStoryBtm {
+  margin-top: 56px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtBrandStoryBtm {
+    margin-top: 4.3%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtBrandStoryBtm {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtBrandStoryBtm {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtBrandStoryBtm {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtBrandStoryBtm {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtBrandStoryBtm {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtBrandStoryBtm {
+    font-size: 3.7333333333vw;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -9091,6 +9529,37 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.brandStoryImage {
+  margin-top: 70px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .brandStoryImage {
+    margin-top: 3.64%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brandStoryImage {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brandStoryImage {
+    margin-top: 8%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -9100,6 +9569,392 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.aboutCommitment {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .aboutCommitment {
+    margin-top: 5.2%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .aboutCommitment {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .aboutCommitment {
+    margin-top: 26.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutCommitmentWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .aboutCommitmentWap {
+    width: 88%;
+  }
+}
+
+.h2AboutCommitment {
+  font-size: 40px;
+}
+@media screen and (max-width: 1299px) {
+  .h2AboutCommitment {
+    font-size: 3.0792917629vw;
+  }
+}
+.h2AboutCommitment {
+  line-height: 160%;
+  letter-spacing: 0.04em;
+}
+@media screen and (max-width: 767px) {
+  .h2AboutCommitment {
+    line-height: 260%;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2AboutCommitment {
+    font-size: 9.6vw;
+  }
+}
+
+.rubyAboutCommitment {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .rubyAboutCommitment {
+    margin-top: 5.02%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.rubyAboutCommitment {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyAboutCommitment {
+    font-size: 1.2317167052vw;
+  }
+}
+.rubyAboutCommitment {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .rubyAboutCommitment {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .rubyAboutCommitment {
+    margin-top: 4.54%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .rubyAboutCommitment {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.aboutCommitmentFx {
+  margin-top: 70px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .aboutCommitmentFx {
+    margin-top: 5.38%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .aboutCommitmentFx {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .aboutCommitmentFx {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.photoAboutCommitmentFx {
+  width: 800px;
+}
+@media screen and (max-width: 1299px) {
+  .photoAboutCommitmentFx {
+    width: 61.53%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .photoAboutCommitmentFx {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .photoAboutCommitmentFx {
+    width: 100%;
+  }
+}
+
+.secAboutCommitmentFx {
+  width: 425px;
+}
+@media screen and (max-width: 1299px) {
+  .secAboutCommitmentFx {
+    width: 32.69%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secAboutCommitmentFx {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secAboutCommitmentFx {
+    width: 100%;
+  }
+}
+
+.h3AboutCommitmentFx {
+  font-size: 20px;
+}
+@media screen and (max-width: 1299px) {
+  .h3AboutCommitmentFx {
+    font-size: 1.5396458814vw;
+  }
+}
+.h3AboutCommitmentFx {
+  line-height: 160%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .h3AboutCommitmentFx {
+    margin-top: 65px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h3AboutCommitmentFx {
+    margin-top: 19.69%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3AboutCommitmentFx {
+    font-size: 4.8vw;
+  }
+}
+
+.txtAboutCommitmentFx {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtAboutCommitmentFx {
+    margin-top: 9.41%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtAboutCommitmentFx {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtAboutCommitmentFx {
+    font-size: 1.077752117vw;
+  }
+}
+.txtAboutCommitmentFx {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtAboutCommitmentFx {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtAboutCommitmentFx {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtAboutCommitmentFx {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.btnAboutCommitmentFxLxn {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) and (max-width: 1299px) {
+  .btnAboutCommitmentFxLxn {
+    margin-top: 9.41%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: auto;
+  }
+}
+.btnAboutCommitmentFxLxn {
+  width: 200px;
+}
+@media screen and (max-width: 1299px) {
+  .btnAboutCommitmentFxLxn {
+    width: 47.05%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btnAboutCommitmentFxLxn {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnAboutCommitmentFxLxn {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnAboutCommitmentFxLxn {
+    width: 60.6%;
+  }
+}
+
+.btnAboutCommitmentFx {
+  aspect-ratio: 200/40;
+  border-radius: 30px;
+  /* CSS3草案 */
+  -webkit-border-radius: 30px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 30px;
+  /* Firefox用 */
+  border: 1px solid #f04e11;
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .btnAboutCommitmentFx {
+    font-size: 1.077752117vw;
+  }
+}
+.btnAboutCommitmentFx {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .btnAboutCommitmentFx {
+    aspect-ratio: 200/40;
+    border-radius: 30px;
+    /* CSS3草案 */
+    -webkit-border-radius: 30px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 30px;
+    /* Firefox用 */
+    border: 1px solid #f04e11;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .btnAboutCommitmentFx {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.iconBbtnAboutCommitmentFxs {
+  width: 163px;
+}
+@media screen and (max-width: 1299px) {
+  .iconBbtnAboutCommitmentFxs {
+    width: 81.49%;
+  }
+}
+.iconBbtnAboutCommitmentFxs {
+  margin: auto;
+  background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+  background-size: auto 20%;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .iconBbtnAboutCommitmentFxs {
+    width: 163px;
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 20%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .iconBbtnAboutCommitmentFxs {
+    width: 81.49%;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -9109,6 +9964,790 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.productAppeal {
+  margin-top: 124px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .productAppeal {
+    margin-top: 6.45%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.topProductAppealWap {
+  position: relative;
+  padding-top: 79px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .topProductAppealWap {
+    padding: 4.11% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .topProductAppealWap {
+    width: 330px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .topProductAppealWap {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .topProductAppealWap {
+    padding: 13.33% 0% 0% 0%;
+  }
+}
+
+.brdLongTopProductAppeal {
+  height: 2px;
+  width: 900%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.brdShortTopProductAppeal {
+  width: 50px;
+}
+@media screen and (max-width: 1299px) {
+  .brdShortTopProductAppeal {
+    width: 2.6%;
+  }
+}
+.brdShortTopProductAppeal {
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media screen and (max-width: 767px) {
+  .brdShortTopProductAppeal {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdShortTopProductAppeal {
+    width: 15.15%;
+  }
+}
+
+.h2TitleProductAppeal {
+  font-size: 40px;
+}
+@media screen and (max-width: 1299px) {
+  .h2TitleProductAppeal {
+    font-size: 3.0792917629vw;
+  }
+}
+.h2TitleProductAppeal {
+  line-height: 160%;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  .h2TitleProductAppeal {
+    line-height: 160%;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2TitleProductAppeal {
+    font-size: 9.6vw;
+  }
+}
+
+.rubyTitleProductAppeal {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .rubyTitleProductAppeal {
+    margin-top: 1.53%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.rubyTitleProductAppeal {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyTitleProductAppeal {
+    font-size: 1.2317167052vw;
+  }
+}
+.rubyTitleProductAppeal {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .rubyTitleProductAppeal {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .rubyTitleProductAppeal {
+    margin-top: 4.84%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .rubyTitleProductAppeal {
+    font-size: 4.2666666667vw;
+  }
+}
+
+.productAppealFx {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .productAppealFx {
+    margin-top: 3.07%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.productAppealFx {
+  flex-flow: row wrap;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .productAppealFx {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .productAppealFx {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.photoProductAppealFx {
+  width: 800px;
+}
+@media screen and (max-width: 1299px) {
+  .photoProductAppealFx {
+    width: 61.53%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .photoProductAppealFx {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .photoProductAppealFx {
+    width: 100%;
+  }
+}
+
+.secProductAppealFx {
+  width: 425px;
+}
+@media screen and (max-width: 1299px) {
+  .secProductAppealFx {
+    width: 32.69%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secProductAppealFx {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secProductAppealFx {
+    width: 100%;
+  }
+}
+
+.h3ProductAppealFx {
+  font-size: 32px;
+}
+@media screen and (max-width: 1299px) {
+  .h3ProductAppealFx {
+    font-size: 2.4634334103vw;
+  }
+}
+.h3ProductAppealFx {
+  line-height: 100%;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  .h3ProductAppealFx {
+    line-height: 160%;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3ProductAppealFx {
+    font-size: 8.5333333333vw;
+  }
+}
+
+.rubyProductAppealFx {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyProductAppealFx {
+    margin: 4.7% 0% 0% 0%;
+  }
+}
+.rubyProductAppealFx {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyProductAppealFx {
+    font-size: 1.2317167052vw;
+  }
+}
+.rubyProductAppealFx {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .rubyProductAppealFx {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .rubyProductAppealFx {
+    margin-top: 4.54%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .rubyProductAppealFx {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.h4ProductAppealFx {
+  margin-top: 45px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .h4ProductAppealFx {
+    margin: 10.58% 0% 0% 0%;
+  }
+}
+.h4ProductAppealFx {
+  font-size: 20px;
+}
+@media screen and (max-width: 1299px) {
+  .h4ProductAppealFx {
+    font-size: 1.5396458814vw;
+  }
+}
+.h4ProductAppealFx {
+  line-height: 160%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .h4ProductAppealFx {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h4ProductAppealFx {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h4ProductAppealFx {
+    font-size: 4.2666666667vw;
+  }
+}
+
+.txtProductAppealFx {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtProductAppealFx {
+    margin-top: 9.41%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtProductAppealFx {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtProductAppealFx {
+    font-size: 1.077752117vw;
+  }
+}
+.txtProductAppealFx {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtProductAppealFx {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtProductAppealFx {
+    margin-top: 7.57%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtProductAppealFx {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.btnProductAppealFx01Lxn {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .btnProductAppealFx01Lxn {
+    margin: 9.41% 0% 0% 0%;
+  }
+}
+.btnProductAppealFx01Lxn {
+  width: 200px;
+}
+@media screen and (max-width: 1299px) {
+  .btnProductAppealFx01Lxn {
+    width: 47.05%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btnProductAppealFx01Lxn {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnProductAppealFx01Lxn {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnProductAppealFx01Lxn {
+    width: 60.6%;
+  }
+}
+
+.btnProductAppealFx01 {
+  aspect-ratio: 200/40;
+  border-radius: 30px;
+  /* CSS3草案 */
+  -webkit-border-radius: 30px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 30px;
+  /* Firefox用 */
+  border: 1px solid #f04e11;
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .btnProductAppealFx01 {
+    font-size: 1.077752117vw;
+  }
+}
+.btnProductAppealFx01 {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .btnProductAppealFx01 {
+    aspect-ratio: 200/40;
+    border-radius: 30px;
+    /* CSS3草案 */
+    -webkit-border-radius: 30px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 30px;
+    /* Firefox用 */
+    border: 1px solid #f04e11;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .btnProductAppealFx01 {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.iconBbtnProductAppealFx01s {
+  width: 163px;
+}
+@media screen and (max-width: 1299px) {
+  .iconBbtnProductAppealFx01s {
+    width: 81.49%;
+  }
+}
+.iconBbtnProductAppealFx01s {
+  margin: auto;
+  background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+  background-size: auto 20%;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .iconBbtnProductAppealFx01s {
+    width: 163px;
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 20%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .iconBbtnProductAppealFx01s {
+    width: 81.49%;
+  }
+}
+
+.productAppealFx02 {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .productAppealFx02 {
+    margin-top: 3.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.btnProductAppealFx02Lxn {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) and (max-width: 1299px) {
+  .btnProductAppealFx02Lxn {
+    margin-top: 9.41%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: auto;
+  }
+}
+.btnProductAppealFx02Lxn {
+  width: 200px;
+}
+@media screen and (max-width: 1299px) {
+  .btnProductAppealFx02Lxn {
+    width: 47.05%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btnProductAppealFx02Lxn {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnProductAppealFx02Lxn {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnProductAppealFx02Lxn {
+    width: 60.6%;
+  }
+}
+
+.btnProductAppealFx02 {
+  aspect-ratio: 200/40;
+  border-radius: 30px;
+  /* CSS3草案 */
+  -webkit-border-radius: 30px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 30px;
+  /* Firefox用 */
+  border: 1px solid #f04e11;
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .btnProductAppealFx02 {
+    font-size: 1.077752117vw;
+  }
+}
+.btnProductAppealFx02 {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .btnProductAppealFx02 {
+    aspect-ratio: 200/40;
+    border-radius: 30px;
+    /* CSS3草案 */
+    -webkit-border-radius: 30px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 30px;
+    /* Firefox用 */
+    border: 1px solid #f04e11;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .btnProductAppealFx02 {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.iconBbtnProductAppealFx02s {
+  width: 163px;
+}
+@media screen and (max-width: 1299px) {
+  .iconBbtnProductAppealFx02s {
+    width: 81.49%;
+  }
+}
+.iconBbtnProductAppealFx02s {
+  margin: auto;
+  background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+  background-size: auto 20%;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .iconBbtnProductAppealFx02s {
+    width: 163px;
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 20%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .iconBbtnProductAppealFx02s {
+    width: 81.49%;
+  }
+}
+
+.productAppealFx03 {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .productAppealFx03 {
+    margin-top: 3.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productAppealFx03 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .productAppealFx03 {
+    margin-top: 18.18%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.btnProductAppealFx03Lxn {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) and (max-width: 1299px) {
+  .btnProductAppealFx03Lxn {
+    margin-top: 9.41%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: auto;
+  }
+}
+.btnProductAppealFx03Lxn {
+  width: 200px;
+}
+@media screen and (max-width: 1299px) {
+  .btnProductAppealFx03Lxn {
+    width: 47.05%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btnProductAppealFx03Lxn {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnProductAppealFx03Lxn {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnProductAppealFx03Lxn {
+    width: 60.6%;
+  }
+}
+
+.btnProductAppealFx03 {
+  aspect-ratio: 200/40;
+  border-radius: 30px;
+  /* CSS3草案 */
+  -webkit-border-radius: 30px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 30px;
+  /* Firefox用 */
+  border: 1px solid #f04e11;
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .btnProductAppealFx03 {
+    font-size: 1.077752117vw;
+  }
+}
+.btnProductAppealFx03 {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .btnProductAppealFx03 {
+    aspect-ratio: 200/40;
+    border-radius: 30px;
+    /* CSS3草案 */
+    -webkit-border-radius: 30px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 30px;
+    /* Firefox用 */
+    border: 1px solid #f04e11;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .btnProductAppealFx03 {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.iconBbtnProductAppealFx03s {
+  width: 163px;
+}
+@media screen and (max-width: 1299px) {
+  .iconBbtnProductAppealFx03s {
+    width: 81.49%;
+  }
+}
+.iconBbtnProductAppealFx03s {
+  margin: auto;
+  background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+  background-size: auto 20%;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .iconBbtnProductAppealFx03s {
+    width: 163px;
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 20%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .iconBbtnProductAppealFx03s {
+    width: 81.49%;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -9118,6 +10757,405 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.aboutThought {
+  margin-top: 125px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .aboutThought {
+    margin-top: 6.51%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .aboutThought {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .aboutThought {
+    margin-top: 26.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.topAboutThoughtWap {
+  position: relative;
+  padding-top: 79px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .topAboutThoughtWap {
+    padding: 4.11% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .topAboutThoughtWap {
+    width: 330px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .topAboutThoughtWap {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .topAboutThoughtWap {
+    padding: 13.33% 0% 0% 0%;
+  }
+}
+
+.brdLongTopAboutThought {
+  height: 2px;
+  width: 900%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.brdShortTopAboutThought {
+  width: 50px;
+}
+@media screen and (max-width: 1299px) {
+  .brdShortTopAboutThought {
+    width: 2.6%;
+  }
+}
+.brdShortTopAboutThought {
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media screen and (max-width: 767px) {
+  .brdShortTopAboutThought {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdShortTopAboutThought {
+    width: 15.15%;
+  }
+}
+
+.h2TitleAboutThought {
+  font-size: 40px;
+}
+@media screen and (max-width: 1299px) {
+  .h2TitleAboutThought {
+    font-size: 3.0792917629vw;
+  }
+}
+.h2TitleAboutThought {
+  line-height: 160%;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  .h2TitleAboutThought {
+    line-height: 160%;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2TitleAboutThought {
+    font-size: 9.6vw;
+  }
+}
+
+.rubyTitleAboutThought {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .rubyTitleAboutThought {
+    margin-top: 1.53%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.rubyTitleAboutThought {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyTitleAboutThought {
+    font-size: 1.2317167052vw;
+  }
+}
+.rubyTitleAboutThought {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .rubyTitleAboutThought {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .rubyTitleAboutThought {
+    margin-top: 4.84%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .rubyTitleAboutThought {
+    font-size: 4.2666666667vw;
+  }
+}
+
+.ulAboutThought {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .ulAboutThought {
+    margin-top: 3.07%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ulAboutThought {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .ulAboutThought {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.liAboutThought {
+  width: 406px;
+}
+@media screen and (max-width: 1299px) {
+  .liAboutThought {
+    width: 33.83%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liAboutThought {
+    width: 100%;
+  }
+  .liAboutThought:nth-child(n+2) {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liAboutThought:nth-child(n+2) {
+    margin-top: 18.18%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.btnAboutThought {
+  text-decoration: none;
+}
+
+.txtLiAboutThought {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtLiAboutThought {
+    margin-top: 7.38%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtLiAboutThought {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtLiAboutThought {
+    font-size: 1.077752117vw;
+  }
+}
+.txtLiAboutThought {
+  line-height: 160%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtLiAboutThought {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtLiAboutThought {
+    margin-top: 4.54%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtLiAboutThought {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.btnAboutThoughtLxn02 {
+  margin-top: 62px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .btnAboutThoughtLxn02 {
+    margin-top: 14.58%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.btnAboutThoughtLxn02 {
+  width: 200px;
+}
+@media screen and (max-width: 1299px) {
+  .btnAboutThoughtLxn02 {
+    width: 47.05%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btnAboutThoughtLxn02 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnAboutThoughtLxn02 {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnAboutThoughtLxn02 {
+    width: 60.6%;
+  }
+}
+
+.btnAboutThought02 {
+  aspect-ratio: 200/40;
+  border-radius: 30px;
+  /* CSS3草案 */
+  -webkit-border-radius: 30px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 30px;
+  /* Firefox用 */
+  border: 1px solid #f04e11;
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .btnAboutThought02 {
+    font-size: 1.077752117vw;
+  }
+}
+.btnAboutThought02 {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .btnAboutThought02 {
+    aspect-ratio: 200/40;
+    border-radius: 30px;
+    /* CSS3草案 */
+    -webkit-border-radius: 30px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 30px;
+    /* Firefox用 */
+    border: 1px solid #f04e11;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .btnAboutThought02 {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.iconBbtnAboutThoughts02 {
+  width: 163px;
+}
+@media screen and (max-width: 1299px) {
+  .iconBbtnAboutThoughts02 {
+    width: 81.49%;
+  }
+}
+.iconBbtnAboutThoughts02 {
+  margin: auto;
+  background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+  background-size: auto 20%;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .iconBbtnAboutThoughts02 {
+    width: 163px;
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 20%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .iconBbtnAboutThoughts02 {
+    width: 81.49%;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -9127,6 +11165,422 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.aboutGiftIdeas {
+  margin-top: 125px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .aboutGiftIdeas {
+    margin-top: 6.51%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .aboutGiftIdeas {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .aboutGiftIdeas {
+    margin-top: 26.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.topAboutGiftIdeasWap {
+  position: relative;
+  padding-top: 79px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .topAboutGiftIdeasWap {
+    padding: 4.11% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .topAboutGiftIdeasWap {
+    width: 330px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .topAboutGiftIdeasWap {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .topAboutGiftIdeasWap {
+    padding: 13.33% 0% 0% 0%;
+  }
+}
+
+.brdLongTopAboutGiftIdeas {
+  height: 2px;
+  width: 900%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.brdShortTopAboutGiftIdeas {
+  width: 50px;
+}
+@media screen and (max-width: 1299px) {
+  .brdShortTopAboutGiftIdeas {
+    width: 2.6%;
+  }
+}
+.brdShortTopAboutGiftIdeas {
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media screen and (max-width: 767px) {
+  .brdShortTopAboutGiftIdeas {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdShortTopAboutGiftIdeas {
+    width: 15.15%;
+  }
+}
+
+.h2TitleAboutGiftIdeas {
+  font-size: 40px;
+}
+@media screen and (max-width: 1299px) {
+  .h2TitleAboutGiftIdeas {
+    font-size: 3.0792917629vw;
+  }
+}
+.h2TitleAboutGiftIdeas {
+  line-height: 160%;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  .h2TitleAboutGiftIdeas {
+    line-height: 160%;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2TitleAboutGiftIdeas {
+    font-size: 9.6vw;
+  }
+}
+
+.rubyTitleAboutGiftIdeas {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .rubyTitleAboutGiftIdeas {
+    margin-top: 1.53%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.rubyTitleAboutGiftIdeas {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyTitleAboutGiftIdeas {
+    font-size: 1.2317167052vw;
+  }
+}
+.rubyTitleAboutGiftIdeas {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .rubyTitleAboutGiftIdeas {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .rubyTitleAboutGiftIdeas {
+    margin-top: 4.84%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .rubyTitleAboutGiftIdeas {
+    font-size: 4.2666666667vw;
+  }
+}
+
+.aboutGiftIdeasFx {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .aboutGiftIdeasFx {
+    margin-top: 3.07%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.aboutGiftIdeasFx {
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .aboutGiftIdeasFx {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .aboutGiftIdeasFx {
+    margin-top: 7.57%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.photoAboutGiftIdeas {
+  width: 570px;
+}
+@media screen and (max-width: 1299px) {
+  .photoAboutGiftIdeas {
+    width: 47.5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .photoAboutGiftIdeas {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .photoAboutGiftIdeas {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.secAboutGiftIdeas {
+  width: 440px;
+}
+@media screen and (max-width: 1299px) {
+  .secAboutGiftIdeas {
+    width: 36.66%;
+  }
+}
+.secAboutGiftIdeas {
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .secAboutGiftIdeas {
+    width: 100%;
+  }
+}
+
+.h3AboutGiftIdeas {
+  font-size: 32px;
+}
+@media screen and (max-width: 1299px) {
+  .h3AboutGiftIdeas {
+    font-size: 2.4634334103vw;
+  }
+}
+.h3AboutGiftIdeas {
+  line-height: 160%;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  .h3AboutGiftIdeas {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h3AboutGiftIdeas {
+    margin-top: 7.57%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3AboutGiftIdeas {
+    font-size: 6.4vw;
+  }
+}
+
+.rubyAboutGiftIdeas {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyAboutGiftIdeas {
+    margin: 3.4% 0% 0% 0%;
+  }
+}
+.rubyAboutGiftIdeas {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyAboutGiftIdeas {
+    font-size: 1.077752117vw;
+  }
+}
+.rubyAboutGiftIdeas {
+  line-height: 160%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .rubyAboutGiftIdeas {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .rubyAboutGiftIdeas {
+    margin: 4.54% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .rubyAboutGiftIdeas {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.h4AboutGiftIdeas {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .h4AboutGiftIdeas {
+    margin: 11.36% 0% 0% 0%;
+  }
+}
+.h4AboutGiftIdeas {
+  font-size: 20px;
+}
+@media screen and (max-width: 1299px) {
+  .h4AboutGiftIdeas {
+    font-size: 1.5396458814vw;
+  }
+}
+.h4AboutGiftIdeas {
+  line-height: 160%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .h4AboutGiftIdeas {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h4AboutGiftIdeas {
+    margin: 9.09% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h4AboutGiftIdeas {
+    font-size: 4.8vw;
+  }
+}
+
+.txtAboutGiftIdeas {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .txtAboutGiftIdeas {
+    margin: 9.09% 0% 0% 0%;
+  }
+}
+.txtAboutGiftIdeas {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtAboutGiftIdeas {
+    font-size: 1.077752117vw;
+  }
+}
+.txtAboutGiftIdeas {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtAboutGiftIdeas {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtAboutGiftIdeas {
+    margin: 7.57% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtAboutGiftIdeas {
+    font-size: 3.7333333333vw;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -9136,6 +11590,453 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.consulTingRoom {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .consulTingRoom {
+    margin-top: 5.2%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .consulTingRoom {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .consulTingRoom {
+    margin-top: 21.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .consulTingRoomWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .consulTingRoomWap {
+    width: 88%;
+  }
+}
+
+.consulTingRoomLxn {
+  align-items: center;
+}
+
+.cntConsulTingRoom {
+  width: 730px;
+}
+@media screen and (max-width: 1299px) {
+  .cntConsulTingRoom {
+    width: 60.83%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cntConsulTingRoom {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    order: 2;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .cntConsulTingRoom {
+    margin-top: 24.24%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.secCntConsulTingRoom {
+  width: 440px;
+}
+@media screen and (max-width: 1299px) {
+  .secCntConsulTingRoom {
+    width: 60.27%;
+  }
+}
+.secCntConsulTingRoom {
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .secCntConsulTingRoom {
+    width: 100%;
+  }
+}
+
+.h2CntConsulTingRoom {
+  font-size: 32px;
+}
+@media screen and (max-width: 1299px) {
+  .h2CntConsulTingRoom {
+    font-size: 2.4634334103vw;
+  }
+}
+.h2CntConsulTingRoom {
+  line-height: 160%;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  .h2CntConsulTingRoom {
+    line-height: 160%;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2CntConsulTingRoom {
+    font-size: 6.4vw;
+  }
+}
+
+.rubyCntConsulTingRoom {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .rubyCntConsulTingRoom {
+    margin-top: 1.53%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.rubyCntConsulTingRoom {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyCntConsulTingRoom {
+    font-size: 1.2317167052vw;
+  }
+}
+.rubyCntConsulTingRoom {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .rubyCntConsulTingRoom {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .rubyCntConsulTingRoom {
+    margin-top: 4.84%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .rubyCntConsulTingRoom {
+    font-size: 4.2666666667vw;
+  }
+}
+
+.h3CntConsulTingRoom {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .h3CntConsulTingRoom {
+    margin: 11.36% 0% 0% 0%;
+  }
+}
+.h3CntConsulTingRoom {
+  font-size: 20px;
+}
+@media screen and (max-width: 1299px) {
+  .h3CntConsulTingRoom {
+    font-size: 1.5396458814vw;
+  }
+}
+.h3CntConsulTingRoom {
+  line-height: 160%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .h3CntConsulTingRoom {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h3CntConsulTingRoom {
+    margin-top: 7.57%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3CntConsulTingRoom {
+    font-size: 6.4vw;
+  }
+}
+
+.txtCntConsulTingRoom {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .txtCntConsulTingRoom {
+    margin: 9.09% 0% 0% 0%;
+  }
+}
+.txtCntConsulTingRoom {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtCntConsulTingRoom {
+    font-size: 1.077752117vw;
+  }
+}
+.txtCntConsulTingRoom {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtCntConsulTingRoom {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtCntConsulTingRoom {
+    margin: 4.54% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtCntConsulTingRoom {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.ulCntConsulTingRoom {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .ulCntConsulTingRoom {
+    margin: 9.09% 0% 0% 0%;
+  }
+}
+.ulCntConsulTingRoom {
+  width: 290px;
+}
+@media screen and (max-width: 1299px) {
+  .ulCntConsulTingRoom {
+    width: 65.9%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ulCntConsulTingRoom {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .ulCntConsulTingRoom {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .ulCntConsulTingRoom {
+    width: 87.87%;
+  }
+}
+
+.liCntConsulTingRoom:nth-child(n+2) {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .liCntConsulTingRoom:nth-child(n+2) {
+    margin-top: 6.89%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liCntConsulTingRoom:nth-child(n+2) {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liCntConsulTingRoom:nth-child(n+2) {
+    margin-top: 4.54%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.btnCntConsulTingRoom {
+  aspect-ratio: 290/45;
+  border-radius: 30px;
+  /* CSS3草案 */
+  -webkit-border-radius: 30px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 30px;
+  /* Firefox用 */
+  border: 1px solid #795e55;
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .btnCntConsulTingRoom {
+    font-size: 1.077752117vw;
+  }
+}
+.btnCntConsulTingRoom {
+  line-height: auto0%;
+  letter-spacing: 0em;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .btnCntConsulTingRoom {
+    aspect-ratio: 290/40;
+    border-radius: 30px;
+    /* CSS3草案 */
+    -webkit-border-radius: 30px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 30px;
+    /* Firefox用 */
+    border: 1px solid #795e55;
+    line-height: auto0%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .btnCntConsulTingRoom {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.bgbtnCntConsulTingRoom {
+  width: 270px;
+}
+@media screen and (max-width: 1299px) {
+  .bgbtnCntConsulTingRoom {
+    width: 93.1%;
+  }
+}
+.bgbtnCntConsulTingRoom {
+  margin: auto;
+  background: url(../img/bgbtnCntConsulTingRoom01.svg) no-repeat right center;
+  background-size: auto 20%;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .bgbtnCntConsulTingRoom {
+    width: 270px;
+    margin: auto;
+    background: url(../img/bgbtnCntConsulTingRoom01.svg) no-repeat right center;
+    background-size: auto 20%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .bgbtnCntConsulTingRoom {
+    width: 93.1%;
+  }
+}
+
+.bgbtnCntConsulTingRoom02 {
+  width: 270px;
+}
+@media screen and (max-width: 1299px) {
+  .bgbtnCntConsulTingRoom02 {
+    width: 93.1%;
+  }
+}
+.bgbtnCntConsulTingRoom02 {
+  margin: auto;
+  background: url(../img/bgbtnCntConsulTingRoom02.svg) no-repeat right center;
+  background-size: auto 20%;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .bgbtnCntConsulTingRoom02 {
+    width: 270px;
+    margin: auto;
+    background: url(../img/bgbtnCntConsulTingRoom02.svg) no-repeat right center;
+    background-size: auto 20%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .bgbtnCntConsulTingRoom02 {
+    width: 93.1%;
+  }
+}
+
+.photoConsulTingRoom {
+  width: 570px;
+}
+@media screen and (max-width: 1299px) {
+  .photoConsulTingRoom {
+    width: 47.5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .photoConsulTingRoom {
+    width: 330px;
+    order: 1;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .photoConsulTingRoom {
+    width: 100%;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */

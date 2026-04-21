@@ -20,7 +20,7 @@
 
                         <li class="liCntConsulTingRoom">
                             <a class="d_flex j_center ali_center undernone bg_fff cl_795E55 btnCntConsulTingRoom">
-                                <span class="bgbtnCntConsulTingRoom kaku bgbtnCntConsulTingRoom01">オリジナルプリントスイーツはこちら</span>
+                                <span class="bgbtnCntConsulTingRoom kaku bgbtnCntConsulTingRoom02">オリジナルプリントスイーツはこちら</span>
                             </a>
                         </li>
                     </ul>

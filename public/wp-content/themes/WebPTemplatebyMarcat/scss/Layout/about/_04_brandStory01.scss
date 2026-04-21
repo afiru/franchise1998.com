@@ -9,9 +9,12 @@ LAYOUT
 .brandStory01 {
     @include mi.marginPercent(1920, 93, auto, 0, auto);
     position: relative;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 110, auto, 0, auto);
+    }
 }
 .brandStory01Wap {
-    @include mi.paddingVw(1920, 0, 0, 343, 0);
+    @include mi.paddingVw(1920, 0, 0, 36, 0);
 
     @include mi.mq(sp) {
         @include mi.paddingVw(1920, 0, 0, 0, 0);
@@ -19,11 +22,54 @@ LAYOUT
         @include mi.marginPercent(375, 40, auto, 0, auto);
     }
 }
+//右コンテンツ
 .secBrandStory01 {
+    @include mi.ontenerWidth(1300, 600);
+    margin: 0 auto 0 0;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
 }
 .h2BrandStory01 {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(210);
+    @include mi.letterSpacing(20);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
 }
 .txtBrandStory01 {
+    @include mi.marginPercent(600, 65, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
 }
 .picBrandStory01 {
+    @include mi.ontenerWVw(1920, 930);
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    @include mi.mq(sp) {
+        position: relative;
+        width: 100%;
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        right: unset;
+        top: unset;
+    }
+
+    img {
+        width: 100%;
+    }
 }

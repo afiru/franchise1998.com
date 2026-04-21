@@ -16,6 +16,7 @@ LAYOUT
 }
 .aboutUnderFvWap {
     @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
     }
 }
 .secAboutUnderFv {
