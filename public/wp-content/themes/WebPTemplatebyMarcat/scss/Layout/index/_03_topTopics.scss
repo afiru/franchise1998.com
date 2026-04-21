@@ -1,12 +1,11 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-
 
 .topTopics {
     @include mi.marginPercent(1920, 54, auto, 0, auto);
@@ -37,13 +36,16 @@ LAYOUT
 
 .sliderTopTopics {
     @include mi.marginPercent(1300, 40, auto, 0, auto);
+    position: relative;
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, auto, 0, auto);
     }
 }
 
-
+.jsSliderTopTopics {
+    position: relative;
+}
 
 /*矢印*/
 .nextSliderTopTopics:after,
@@ -54,33 +56,40 @@ LAYOUT
 .prevSliderTopTopics {
     aspect-ratio: 1/1;
     @include mi.ontenerWidth(1300, 50);
-    background: url(../img/btnprevSliderTopTopics.svg) no-repeat center center;
+    background: url(../img/index/btnprevSliderTopTopics.svg) no-repeat center
+        center;
     background-size: 100% 100%;
-    left: 0;
-    top: 47%;
+    left: -2%;
+    top: 22%;
     z-index: 9;
     height: auto;
+    position: absolute;
+    aspect-ratio: 1/1;
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 31);
+        left: -5%;
     }
 }
 
 .nextSliderTopTopics {
     aspect-ratio: 1/1;
     @include mi.ontenerWidth(1300, 50);
-    background: url(../img/btnnrxtSliderTopTopics.svg) no-repeat center center;
+    background: url(../img/index/btnnrxtSliderTopTopics.svg) no-repeat center
+        center;
     background-size: 100% 100%;
-    right: 0;
-    top: 47%;
+    right: -2%;
+    top: 22%;
     z-index: 9;
     height: auto;
+    position: absolute;
+    aspect-ratio: 1/1;
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 31);
+        right: -5%;
     }
 }
-
 
 .sliderTopTopics .swiper-slide {
     @include mi.ontenerWidth(1300, 398);
@@ -141,7 +150,7 @@ LAYOUT
 .btnTopTopics {
     width: 100%;
     @include mi.kadomaru(30px);
-    border: 1px solid #F04E11;
+    border: 1px solid #f04e11;
     aspect-ratio: 200/40;
     text-decoration: none;
     display: flex;
@@ -152,7 +161,6 @@ LAYOUT
         @include mi.kadomaru(30px);
         aspect-ratio: 200/40;
     }
-
 }
 
 .iconBtnTopTopics {
@@ -166,7 +174,8 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(193, 163);
         margin: auto;
-        background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
+        background: url(../img/index/iconBtnTopTopics.svg) no-repeat right
+            center;
         background-size: auto 20%;
     }
 }
