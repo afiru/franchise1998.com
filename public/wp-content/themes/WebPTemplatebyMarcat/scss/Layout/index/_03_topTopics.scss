@@ -156,10 +156,14 @@ LAYOUT
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 0.6;
 
     @include mi.mq(sp) {
         @include mi.kadomaru(30px);
         aspect-ratio: 200/40;
+    }
+    &:hover {
+        opacity: 0.6;
     }
 }
 
