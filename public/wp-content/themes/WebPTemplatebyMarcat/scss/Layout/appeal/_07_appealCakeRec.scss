@@ -6,3 +6,148 @@
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.appealCakeRec {
+    @include mi.marginPercent(1920, 70, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+
+    }
+}
+
+.appealCakeRecWap {}
+
+.appealCakeRecLxn {
+    @include mi.paddingPercent(1300, 22, 0, 23, 0);
+
+    @include mi.mq(sp) {
+
+        @include mi.paddingPercent(375, 37, 0, 33, 0);
+        margin: auto;
+    }
+}
+
+.appealCakeRecFx {
+    @include mi.ontenerWidth(1300, 1180);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+
+.secAppealCakeRecTitleLxn {
+    @include mi.ontenerWidth(1180, 253);
+    border-right: 1px solid #421D12;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        border-right: none;
+        @include mi.paddingPercent(330, 0, 0, 27, 0);
+        border-bottom: 1px solid #421D12;
+    }
+}
+
+.secAppealCakeRecTitle {
+    @include mi.ontenerWidth(253, 195);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+.h2AppealCakeRecTitle {
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(100);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(32);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+
+.txtAppealCakeRecTitle {
+    @include mi.marginPercent(195, 15, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.btnAppealCakeRecTitleLxn {
+    @include mi.marginPercent(195, 14, auto, 0, auto);
+    width: 100%;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.ontenerWidth(330, 240);
+    }
+}
+
+.btnAppealCakeRecTitle {
+    @include mi.kadomaru(30px);
+    width: 100%;
+    aspect-ratio: 195 / 33;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        @include mi.kadomaru(30px);
+        width: 100%;
+        aspect-ratio: 240 / 40;
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+        text-decoration: none;
+    }
+}
+
+
+//
+.cntAppealCakeRecTitleLxn {
+    @include mi.ontenerWidth(1180, 871);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        @include mi.marginPercent(330, 27, auto, 0, auto);
+    }
+}
+
+.secCntAppealCakeRec {}
+
+.h2CntAppealCakeRec {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtCntAppealCakeRec {
+    @include mi.marginPercent(871, 22, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}

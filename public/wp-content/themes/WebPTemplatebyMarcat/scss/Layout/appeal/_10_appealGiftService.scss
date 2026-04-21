@@ -6,3 +6,208 @@
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.appealGiftService {
+    @include mi.paddingPercent(1920, 125, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 125, 0, 0, 0);
+    }
+}
+
+.appealGiftServiceWap {}
+
+.secAppealGiftService {}
+
+.h2AppealGiftService {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.txtAppealGiftService {
+    @include mi.marginPercent(1300, 25, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 30, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+
+//
+.appealGiftServiceMain {
+    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.paddingPercent(1300, 55, 0, 48, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 30, auto, 0, auto);
+        @include mi.paddingPercent(375, 30, 0, 31, 0);
+    }
+}
+
+.appealGiftServiceMainLxn {
+    @include mi.ontenerWidth(1300, 1212);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+
+.appealGiftServiceMainTopFx {}
+
+.secAppealGiftServiceTopLeft {
+    @include mi.ontenerWidth(1212, 450);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+.h3AppealGiftServiceTop {
+    @include mi.paddingPercent(450, 0, 0, 15, 0);
+    border-bottom: 1px solid #BEBDBD;
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 15, 0);
+        border-bottom: 1px solid #BEBDBD;
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtAppealGiftServiceTop {
+    @include mi.marginPercent(450, 17.75, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtAppealGiftServiceTop02 {
+    @include mi.marginPercent(450, 17, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+//
+.secAppealGiftServiceTopRight {
+    @include mi.ontenerWidth(1212, 738);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+.h3AppealGiftServiceTopRight {
+    @include mi.paddingPercent(738, 0, 0, 15, 0);
+    border-bottom: 1px solid #BEBDBD;
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 15, 0);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtAppealGiftServiceTopRight {
+    @include mi.marginPercent(738, 17.75, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.photoAppealGiftServiceTopRight {
+    @include mi.marginPercent(738, 44, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 35, auto, 0, auto);
+    }
+}
+
+//
+.secAppealGiftServiceBtm {
+    @include mi.marginPercent(1212, 83, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
+    }
+}
+
+.h2AppealGiftServiceBtm {
+    @include mi.paddingPercent(1212, 0, 0, 15, 0);
+    border-bottom: 1px solid #BEBDBD;
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 15, 0);
+        border-bottom: 1px solid #BEBDBD;
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtAppealGiftServiceBtm {
+    @include mi.marginPercent(1212, 17.75, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.picAppealGiftServiceBtm {
+    @include mi.marginPercent(1212, 50, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
+}

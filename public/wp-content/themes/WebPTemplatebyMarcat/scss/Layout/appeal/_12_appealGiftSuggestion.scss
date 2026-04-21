@@ -6,3 +6,23 @@
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.appealGiftSuggestion {
+    @include mi.paddingPercent(1920, 70, 0, 125, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 50, 0, 100, 0);
+    }
+}
+
+.appealGiftSuggestionWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
+
+.btnAppealGiftSuggestion {
+    img {
+        width: 100%;
+    }
+}

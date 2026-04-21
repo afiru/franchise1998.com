@@ -6,3 +6,105 @@
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.appealFlowrGift {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 70, auto, 0, auto);
+    }
+}
+
+.appealFlowrGiftWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
+
+.appealFlowrGiftFx {}
+
+.secAppealFlowrGift {
+    @include mi.ontenerWidth(1300, 282);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+
+.h2AppealFlowrGift {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.txtAppealFlowrGift {
+    @include mi.marginPercent(282, 30, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtAppealFlowrGift02 {
+    @include mi.marginPercent(282, 25, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+//
+.ulAppealFlowrGift {
+    @include mi.ontenerWidth(1300, 981);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 51, auto, 0, auto);
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+.liAppealFlowrGift {
+    @include mi.ontenerWidth(981, 234);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 158);
+
+        &:nth-child(n+3) {
+            @include mi.marginPercent(330, 20, 0, 0, 0);
+        }
+    }
+}
+
+.photoAppealFlowrGift {}
+
+.txtAppealFlowrGift {
+    @include mi.marginPercent(234, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(158, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}

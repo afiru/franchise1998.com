@@ -6,3 +6,14 @@
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.appealCakeImage {
+    @include mi.marginPercent(1920, 125, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 65, auto, 0, auto);
+    }
+
+    img {
+        width: 100%;
+    }
+}
