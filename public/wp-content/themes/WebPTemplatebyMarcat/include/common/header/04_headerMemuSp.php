@@ -83,5 +83,7 @@
                 </li>
             </ul>
         </nav>
+        <p class="t_center cl_fff mincho fw_400 txtnavHeaderMenuSpLast">営業時間9:00～19:00・火曜日定休（祝日営業）</p>
+
     </div>
 </div>

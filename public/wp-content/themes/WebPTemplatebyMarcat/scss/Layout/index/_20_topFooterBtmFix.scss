@@ -1,11 +1,22 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.pcFixedMenu {
+    position: fixed;
+    width: 45px;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+}
+.ulPcFixedMenu {
+}
+.liPcFixedMenu {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(45, 5, auto, 0, auto);
+    }
 }

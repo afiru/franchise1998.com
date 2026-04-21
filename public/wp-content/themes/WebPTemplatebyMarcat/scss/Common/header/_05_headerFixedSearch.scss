@@ -1,15 +1,242 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.headerFixedSearch {}
+.headerFixedSearch {
+    display: none;
+    @include mi.paddingPercent(1920, 72, 0, 40, 0);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 35, 0, 25, 0);
+    }
+}
 
-.cntHeaderFixedSearch {}
+.cntHeaderFixedSearch {
+}
 
-.cntHeaderFixedSearchLxn {}
+.cntHeaderFixedSearchLxn {
+}
 
-.btnCntHeaderFixedSearch {}
+.btnCntHeaderFixedSearch {
+    @include mi.ontenerWidth(1300, 1000);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 343);
+    }
+}
+.titleBtnCntHeaderFixedSearch {
+}
+.h2TitleBtnCntHeaderFixedSearch {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulHeaderFixedSearch {
+    @include mi.marginPercent(1000, 40, auto, 0, auto);
+    flex-flow: row wrap;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(343, 25, auto, 0, auto);
+        justify-content: flex-start;
+    }
+}
+.liHeaderFixedSearch {
+    @include mi.ontenerWidth(1000, 128);
+    @include mi.mq(sp) {
+        width: 23%;
+        margin: 0% 2.6% 0% 0%;
+        &:nth-child(n + 5) {
+            margin: 1.45% 2.6% 0% 0%;
+        }
+        &:nth-child(4n) {
+            margin-right: 0;
+        }
+    }
+}
+.btnHeaderFixedSearch {
+    text-decoration: none;
+}
+.picHeaderFixedSearch {
+    @include mi.ontenerWidth(128, 100);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(77, 75);
+    }
+}
+.rubyHeaderFixedSearch {
+    @include mi.marginPercent(1000, 16, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(77, 10, auto, 0, auto);
+        @include mi.fontSizeSp(11);
+        @include mi.lineheightP(120);
+        @include mi.letterSpacing(0);
+    }
+}
+.opeHeaderFixedSearch {
+    @include mi.marginPercent(1920, 30, auto, 0, auto);
+    @include mi.paddingPercent(1920, 40, 0, 40, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 25, auto, 0, auto);
+        @include mi.paddingPercent(375, 30, 0, 30, 0);
+    }
+}
+.opeHeaderFixedSearchWap {
+}
+.secOpeHeaderFixedSearch {
+    @include mi.ontenerWidth(1300, 1000);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 343);
+    }
+}
+.h2OpeHeaderFixedSearch {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulOpeHeaderFixedSearch {
+    @include mi.marginPercent(1000, 35, auto, 0, auto);
+    display: flex;
+    flex-flow: row wrap;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(343, 27, auto, 0, auto);
+    }
+}
+.liOpeHeaderFixedSearch {
+    width: fit-content;
+    @include mi.marginPercent(1000, 0, 30, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(343, 0, 0, 0, 0);
+        width: 50%;
+        &:nth-child(n + 3) {
+            @include mi.marginPercent(343, 32, 0, 0, 0);
+        }
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.btnOpeHeaderFixedSearch {
+    width: 100%;
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(0);
+    text-decoration: none;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        justify-content: flex-start;
+    }
+}
+.iconOpeHeaderFixedSearch {
+    @include mi.ontenerWVw(1920, 15);
+    @include mi.marginPercent(1000, 0, 10, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.ontenerWVw(375, 15);
+        @include mi.marginPercent(343, 0, 15, 0, 0);
+    }
+}
+.txtOpeHeaderFixedSearch {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ctaHeaderFixedSearch {
+    @include mi.marginPercent(1920, 30, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 25, auto, 0, auto);
+    }
+}
+.ulCtaHeaderFixedSearch {
+    @include mi.ontenerWidth(1300, 432);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 343);
+    }
+}
+.liCtaHeaderFixedSearch {
+    @include mi.ontenerWidth(432, 200);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(343, 163);
+    }
+}
+.btnCtaHeaderFixedSearch {
+    width: 100%;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    aspect-ratio: 200/39;
+    border: 1px solid #421d12;
+    @include mi.kadomaru(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    @include mi.mq(sp) {
+        aspect-ratio: 163/40;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.iconCtaHeaderFixedSearch {
+    background: url(../img/iconCtaHeaderFixedSearch.svg) no-repeat center left;
+    background-size: auto 100%;
+}
+.closeHeaderFixedSearch {
+    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 148);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 25, auto, 0, auto);
+        @include mi.ontenerWidth(375, 148);
+    }
+}
+.btncloseHeaderFixedSearch {
+    aspect-ratio: 148/39;
+    border: 1px solid #421d12;
+    @include mi.kadomaru(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    @include mi.mq(sp) {
+        aspect-ratio: 148/35;
+    }
+}
+.iconBtncloseHeaderFixedSearch {
+    @include mi.ontenerWidth(148, 118);
+    margin: auto;
+    background: url(../img/iconBtncloseHeaderFixedSearch.svg) no-repeat center
+        right;
+    background-size: auto 80%;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        background-size: auto 70%;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(20);
+    }
+}

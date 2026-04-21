@@ -4,12 +4,6 @@
             <div class="btnCntHeaderFixedSearch">
                 <div class="d_flex j_between ali_center titleBtnCntHeaderFixedSearch">
                     <h2 class=" mincho fw_500 txtset h2TitleBtnCntHeaderFixedSearch">カテゴリから選ぶ</h2>
-                    <figure class="iconTitleBtnCntHeaderFixedSearch jsiconTitleBtnCntHeaderFixedSearch">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <rect width="26.9331" height="1.34666" transform="matrix(0.706994 0.707219 -0.706994 0.707219 0.951172 0)" fill="#421D12" />
-                            <rect width="26.9331" height="1.34666" transform="matrix(-0.706994 0.707219 0.706994 0.707219 19.0449 0)" fill="#421D12" />
-                        </svg>
-                    </figure>
                 </div>
 
                 <ul class="d_flex j_between ulHeaderFixedSearch">
