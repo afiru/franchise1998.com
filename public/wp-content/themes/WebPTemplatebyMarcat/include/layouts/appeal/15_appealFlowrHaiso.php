@@ -29,6 +29,14 @@
                         </a>
                     </div>
                 </section>
+
+                <figure class="picAppealFlowrHaiso">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/picAppealFlowrHaisoPc.png'); ?>">
+                        <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/picAppealFlowrHaisoSp.png'); ?>">
+                        <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/picAppealFlowrHaisoPc.png'); ?>" alt="<?php echo esc_attr('大切な人にお花を贈ろう、送ろう。'); ?>" width="317" height="263">
+                    </picture>
+                </figure>
             </div>
         </div>
     </div>
