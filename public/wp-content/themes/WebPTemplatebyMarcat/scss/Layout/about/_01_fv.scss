@@ -30,7 +30,16 @@ LAYOUT
 // .aboutUnderFvLxn {
 // }
 // .txtAboutUnderFv {
-//     position: absolute;
-//     left: 0;
-//     top: 0;
+//    position: absolute;
+// width: 8px;
+// top: 50%;
+// left: 2%;
+// z-index: 3;
+
+// @include mi.mq(sp) {
+//     @include mi.ontenerWidth(375, 6);
+
 // }
+// }
+.picAboutUnderFv {
+}
