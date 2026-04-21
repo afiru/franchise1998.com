@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: フランシーズについて
+ * Template Name: 商品の魅力
  * Template Post Type: page
  */
 ?>

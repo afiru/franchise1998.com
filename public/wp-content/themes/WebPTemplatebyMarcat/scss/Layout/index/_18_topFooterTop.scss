@@ -1,43 +1,51 @@
 /* ==========================================================================
-use＆nameSpace
+use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .footerTop {
     @include mi.paddingPercent(1920, 89, 0, 86, 0);
+
     @include mi.mq(sp) {
         @include mi.paddingPercent(375, 64, 0, 31, 0);
     }
 }
+
 .footerTopWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
-.footerTopFx {
-}
+
+.footerTopFx {}
+
 .footerLogoArea {
     @include mi.ontenerWidth(1300, 310);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
     }
 }
+
 .logoFooter {
     @include mi.ontenerWidth(310, 180);
     display: block;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 180);
         margin: auto;
     }
 }
+
 .h3FooterLogoArea {
     @include mi.marginPercent(310, 50, 0, 0, 0);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 32, 0, 0, 0);
         @include mi.fontSizeSp(16);
@@ -45,11 +53,13 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .txtFooterLogoArea {
     @include mi.marginPercent(310, 24, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheight(14, 26);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 24, auto, 0, auto);
         @include mi.fontSizeSp(14);
@@ -57,58 +67,72 @@ LAYOUT
         @include mi.letterSpacing(20);
     }
 }
+
 .footerSns {
     @include mi.marginPercent(310, 32, 0, 0, 0);
     @include mi.ontenerWidth(310, 90);
     justify-content: space-between;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 32, 0, 0, 0);
         @include mi.ontenerWidth(330, 90);
     }
 }
+
 .liFooterSns {
     @include mi.ontenerWidth(90, 40);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(90, 40);
     }
 }
-.btnFooterSns {
-}
+
+.btnFooterSns {}
+
 .footerTopNavsArea {
     @include mi.ontenerWidth(1300, 885);
+
     @include mi.mq(sp) {
         width: 100%;
     }
 }
+
 .navFooterTopLxn {
     @include mi.ontenerWidth(885, 655);
 }
-.navFooterTopFx {
-}
+
+.navFooterTopFx {}
+
 .ulNavFooterTop {
     @include mi.ontenerWidth(655, 218);
 }
+
 .liNavFooterTop {
     &:nth-child(n + 2) {
         @include mi.marginPercent(218, 32, 0, 0, 0);
     }
 }
+
 .liNavFooterTop02 {
     @include mi.marginPercent(218, 32, 0, 0, 0);
 }
+
 .btnNavFooterTop {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     text-decoration: none;
 }
+
 .searchFooterNav {
     @include mi.ontenerWidth(885, 180);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 32, auto, 0, auto);
         width: 100%;
     }
 }
+
 .ulSearchFooterNav {
     @include mi.mq(sp) {
         justify-content: space-between;
@@ -116,46 +140,56 @@ LAYOUT
         flex-flow: row wrap;
     }
 }
+
 .liSearchFooterNav {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 160);
     }
+
     &:nth-child(n + 2) {
         @include mi.marginPercent(180, 17, auto, 0, auto);
+
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 0, 0, 0, 0);
         }
     }
+
     &:nth-child(n + 3) {
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 16, auto, 0, auto);
         }
     }
 }
+
 .btnSearchFooterNav {
     @include mi.kadomaru(50px);
     aspect-ratio: 180/47;
     text-decoration: none;
     border: 1px solid #fff;
+
     @include mi.mq(sp) {
         aspect-ratio: 160/42;
     }
 }
+
 .h3BtnSearchFooterNav {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
     }
 }
+
 .txtBtnSearchFooterNav {
     @include mi.marginPercent(180, 9, auto, 0, auto);
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 8, auto, 0, auto);
         @include mi.fontSizeSp(13);
@@ -163,15 +197,18 @@ LAYOUT
         @include mi.letterSpacing(20);
     }
 }
+
 .onlineInfoFooter {
     @include mi.marginPercent(1300, 40, 0, 0, 0);
     @include mi.ontenerWidth(1300, 553);
     flex-flow: row wrap;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 35, auto, 0, auto);
         width: 100%;
     }
 }
+
 .h2OnlineInfoFooter {
     @include mi.fontSizePc(20);
     @include mi.lineheightP(auto);
@@ -184,19 +221,23 @@ LAYOUT
         @include mi.letterSpacing(100);
     }
 }
+
 .ulOnleinInfoFooter {
     @include mi.marginPercent(553, 0, 0, 0, 31);
     @include mi.ontenerWidth(553, 373);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 18, auto, 0, auto);
         width: 100%;
     }
 }
+
 .liOnleinInfoFooter {
     @include mi.ontenerWidth(373, 180);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 160);
     }
 }
-.btnOnleinInfoFooter {
-}
+
+.btnOnleinInfoFooter {}

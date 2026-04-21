@@ -1,7 +1,7 @@
 /* ==========================================================================
-use＆nameSpace
+use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -11,6 +11,7 @@ LAYOUT
     top: 0;
     z-index: 99;
 }
+
 .headerMenuPc {
     @include mi.paddingPercent(1920, 122, 0, 86, 0);
     position: relative;
@@ -23,111 +24,127 @@ LAYOUT
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+
     &::-webkit-scrollbar {
         display: none;
     }
 }
-.brdHeaderMenuPc {
-}
+
+.brdHeaderMenuPc {}
+
 .closeMenuPc {
     width: 20px;
     position: absolute;
     right: 1%;
     top: 4%;
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
+
 .navHeaderMenuPcLxn {
-    @include mi.mq(sp) {
-    }
+    @include mi.mq(sp) {}
 }
+
 .navHeaderMenuPcMain {
     @include mi.ontenerWidth(1300, 880);
     margin: auto;
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
-.navHeaderMenuPcCnt {
-}
-.navHeaderMenuPcCnt {
-}
+
+.navHeaderMenuPcCnt {}
+
+.navHeaderMenuPcCnt {}
+
 .navHeaderMenuPcBx {
     @include mi.ontenerWidth(880, 290);
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
-.navHeaderMenuPcBx02 {
-}
-.ulNavHeaderMenuPcBx {
-}
+
+.navHeaderMenuPcBx02 {}
+
+.ulNavHeaderMenuPcBx {}
+
 .liNavHeaderMenuPcBx {
     &:nth-child(n + 2) {
         @include mi.marginPercent(1920, 34, 0, 0, 0);
-        @include mi.mq(sp) {
-        }
+
+        @include mi.mq(sp) {}
     }
 }
+
 .btnNavHeaderMenuPcBx {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(20);
     text-decoration: none;
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
 
 .brdNavHeaderPc {
     @include mi.marginPercent(880, 50, auto, 0, auto);
     height: 1px;
     width: 100%;
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
+
 .ulNavHeaderPc02 {
     @include mi.marginPercent(880, 50, auto, 0, auto);
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
+
 .liNavHeaderPcmenu {
     @include mi.ontenerWidth(880, 290);
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
+
     &:nth-child(n + 4) {
         @include mi.marginPercent(880, 28, 0, 0, 0);
-        @include mi.mq(sp) {
-        }
+
+        @include mi.mq(sp) {}
     }
 }
+
 .btnNavHeaderPcLxn {
     text-decoration: none;
 }
+
 .headerNavBtmPc {
     @include mi.marginPercent(880, 62, auto, 0, auto);
     @include mi.ontenerWidth(880, 418);
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
-.ulHeaderNavBtmPc {
-}
+
+.ulHeaderNavBtmPc {}
+
 .liHeaderNavBtmPc {
     @include mi.ontenerWidth(418, 205);
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
+
 .btnHeaderNavBtmPc {
     @include mi.kadomaru(2px);
     overflow: hidden;
+
     img {
         display: block;
         width: 100%;
     }
 }
+
 .txtnavHeaderMenuPcLast {
     @include mi.marginPercent(880, 28, auto, 0, auto);
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     color: #fff;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(290, 20, auto, 0, auto);
         @include mi.fontSizeSp(12);
