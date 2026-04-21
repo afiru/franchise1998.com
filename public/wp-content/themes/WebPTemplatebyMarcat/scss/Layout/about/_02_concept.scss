@@ -6,3 +6,66 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+
+.conceptAbout {
+    @include mi.marginPercent(1920, 145, auto, 0, auto);
+}
+.secConceptAbout {
+}
+.h2ConceptAbout {
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(10);
+}
+.rybyConceptAbout {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+}
+.h3ConceptAbout {
+    @include mi.marginPercent(1300, 85, auto, 0, auto);
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(210);
+    @include mi.letterSpacing(20);
+}
+.txtConceptAbout {
+    @include mi.marginPercent(1300, 45, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+}
+.conceptMovie {
+    @include mi.marginPercent(1920, 160, auto, 0, auto);
+    @include mi.paddingPercent(1920, 130, 0, 130, 0);
+    border-radius: 0 100px 0 0;
+}
+.conceptMovieWap {
+}
+.secConceptMovie {
+}
+.h2ConceptMovie {
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(10);
+}
+.brdConceptMovie {
+    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    height: 1px;
+    @include mi.ontenerWidth(1300, 41);
+    aspect-ratio: 52/1;
+}
+.moveConceptMovie {
+    @include mi.marginPercent(1300, 38, auto, 0, auto);
+    position: relative;
+    aspect-ratio: 1300/731;
+    iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+}

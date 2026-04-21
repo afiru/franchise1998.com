@@ -6,9 +6,17 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.mainUnder {
+    @include mi.marginPercent(1920, 150, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+    }
+}
 .aboutUnderFv {
 }
 .aboutUnderFvWap {
+    @include mi.mq(sp) {
+    }
 }
 .secAboutUnderFv {
 }
