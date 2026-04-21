@@ -25,7 +25,7 @@
     <?php get_template_part('include/layouts/top/16_topAccess'); ?>
     <?php get_template_part('include/layouts/top/17_topContact'); ?>
 </main>
-<footer>
+<footer class="bg_795E55 footer">
     <?php get_template_part('include/layouts/top/18_topFooterTop'); ?>
     <?php get_template_part('include/layouts/top/19_topFooterBtm'); ?>
 </footer>
