@@ -99,7 +99,9 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+//
 
+//
 .btnAboutThoughtLxn02 {
     @include mi.marginPercent(425, 62, auto, 0, auto);
     @include mi.ontenerWidth(425, 200);
