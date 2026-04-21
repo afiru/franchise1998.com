@@ -48,10 +48,10 @@
                             <p class="cl_453C3C fw_500 txtset txtAddressAppealGiftOnline">〒599-8237 堺市中区深井水池町3254番地</p>
                             <p class="cl_453C3C fw_500 txtset txtAddressAppealGiftOnline02">営業時間 9:00～19:00・火曜日定休（祝日営業）</p>
                         </div>
-                        <a class="d_flex j_start ali_end telAppealGiftOnlineAlert">
+                        <div class="d_flex j_end ali_end telAppealGiftOnlineAlert">
                             <span class="cl_453C3C fw_400 txtTelAppealGiftOnlineAlert">TEL.</span>
                             <a class="cl_453C3C fw_400 linkTelAppealGiftOnlineAlert" href="tel:0120-656-567">0120-656-567</a>
-                        </a>
+                        </div>
                     </div>
                 </section>
             </div>

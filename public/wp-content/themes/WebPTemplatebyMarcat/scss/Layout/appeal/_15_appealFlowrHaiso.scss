@@ -6,3 +6,176 @@
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.appealFlowrHaiso {
+    @include mi.marginPercent(1920, 70, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 70, auto, 0, auto);
+    }
+}
+
+.appealFlowrHaisoWap {}
+
+.appealFlowrHaisoBg {
+    @include mi.paddingPercent(1300, 23, 0, 22, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 24, 0, 42, 0);
+    }
+}
+
+.appealFlowrHaisoLxn {
+    @include mi.ontenerWidth(1300, 1254);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+
+.photoAppealFlowrHaiso {
+    @include mi.ontenerWidth(1254, 317);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+.secAppealFlowrHaiso {
+    @include mi.ontenerWidth(1254, 625);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
+}
+
+.h2AppealFlowrHaiso {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.paddingPercent(625, 0, 0, 17, 0);
+    border-bottom: 1px solid #BEBDBD;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        @include mi.paddingPercent(330, 0, 0, 20, 0);
+        border-bottom: 1px solid #BEBDBD;
+    }
+}
+
+.txtAppealFlowrHaiso {
+    @include mi.marginPercent(625, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.h3AppealFlowrHaiso {
+    @include mi.marginPercent(625, 11, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    aspect-ratio: 625 / 28;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        aspect-ratio: 330 / 28;
+    }
+}
+
+.fxAppealFlowrHaiso {
+    @include mi.marginPercent(625, 11, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
+}
+
+.addressAppealFlowrHaiso {
+    @include mi.ontenerWidth(625, 310);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+
+    }
+}
+
+.txtAddressAppealGiftOnline {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(13);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtAddressAppealGiftOnline02 {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(13);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.telAppealFlowrHaiso {
+    @include mi.ontenerWidth(625, 280);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        justify-content: flex-start;
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+    }
+}
+
+.txtTelAppealFlowrHaiso {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(10);
+    }
+}
+
+.linkTelAppealFlowrHaiso {
+    @include mi.fontSizePc(32);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(10);
+    }
+}
+
+.picAppealFlowrHaiso {
+    @include mi.ontenerWidth(1254, 233);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 34, auto, 0, auto);
+        @include mi.ontenerWidth(330, 233);
+    }
+}
