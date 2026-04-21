@@ -78,40 +78,15 @@
 
             <nav class="headerNavBtmPc">
                 <ul class="d_flex j_between ulHeaderNavBtmPc">
-                    <li class="liHeaderNavBtmPc liHeaderNavBtmPc01">
-                        <span class="d_flex j_center ali_center bg_fff undernone fw_500 mincho cl_421D12 btnHeaderNavBtmPc jbtnHeaderNavBtmPc">
-                            <span class="bgBtnHeaderNavBtmPc bgBtnHeaderNavBtmPc01">商品を探す</span>
-                            <!--bg:../img/bgBtnHeaderNavBtmPc01.svg-->
-                        </span>
-                    </li>
-                    <li class="liHeaderNavBtmPc liHeaderNavBtmPc02">
-                        <a class="d_flex j_center ali_center bg_fff undernone fw_500 mincho cl_421D12 btnHeaderNavBtmPc btnHeaderNavBtmPc02" href="<?php echo home_url('/'); ?>">
-                            <span class="bgBtnHeaderNavBtmPc bgBtnHeaderNavBtmPc02">店舗情報</span>
-                            <!--bg:../img/bgBtnHeaderNavBtmPc02.svg-->
-                        </a>
-                    </li>
-                    <li class="liHeaderNavBtmPc liHeaderNavBtmPc03">
-                        <a class="d_flex j_center ali_center bg_fff undernone fw_500 mincho cl_421D12 btnHeaderNavBtmPc btnHeaderNavBtmPc03" href="<?php echo home_url('/'); ?>">
-                            <span class="bgBtnHeaderNavBtmPc bgBtnHeaderNavBtmPc03">営業日</span>
-                            <!--bg:../img/bgBtnHeaderNavBtmPc03.svg-->
-                        </a>
-                    </li>
                     <li class="liHeaderNavBtmPc liHeaderNavBtmPc04">
                         <a class="d_flex j_center ali_center bg_fff undernone fw_500 mincho cl_421D12 btnHeaderNavBtmPc btnHeaderNavBtmPc04" href="tel:0120-656-567">
-                            <span class="d_flex j_center ali_centerbgBtnHeaderNavBtmPc bgBtnHeaderNavBtmPc04">
-                                <span class="d_block t_center txtBtnHeaderNavBtmPc">電話をかける</span>
-                                <span class="d_block t_center txtBtnHeaderNavBtmPc txtBtnHeaderNavBtmPc04">0120-656-567</span>
-                            </span>
-                            <!--bg:../img/bgBtnHeaderNavBtmPc04.svg-->
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnHeaderNavBtmPc04.svg'); ?>" alt="<?php echo esc_attr('電話をかける'); ?>" width="205" height="45">
                         </a>
                     </li>
 
                     <li class="liHeaderNavBtmPc liHeaderNavBtmPc05">
                         <a class="d_flex j_center ali_center bg_fff undernone fw_500 mincho cl_421D12 btnHeaderNavBtmPc btnHeaderNavBtmPc05" href="tel:0120-656-567">
-                            <span class="d_flex j_center ali_centerbgBtnHeaderNavBtmPc bgBtnHeaderNavBtmPc05">
-                                お問い合わせ
-                            </span>
-                            <!--bg:../img/bgBtnHeaderNavBtmPc05.svg-->
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnHeaderNavBtmPc05.svg'); ?>" alt="<?php echo esc_attr('お問い合わせ'); ?>" width="205" height="45">
                         </a>
                     </li>
                 </ul>
