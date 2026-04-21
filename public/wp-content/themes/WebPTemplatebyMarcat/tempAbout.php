@@ -21,10 +21,11 @@
     <?php get_template_part('include/layouts/about/12_consulTingRoom'); ?>
     <?php get_template_part('include/layouts/about/13_giftSuggestions'); ?>
 
-
-    <?php get_template_part('include/layouts/top/11_topPickUp'); ?>
-    <?php get_template_part('include/layouts/top/12_topNav'); ?>
-    <?php get_template_part('include/layouts/top/17_topContact'); ?>
+    <div class="underPicBtmDefo">
+        <?php get_template_part('include/layouts/top/11_topPickUp'); ?>
+        <?php get_template_part('include/layouts/top/12_topNav'); ?>
+        <?php get_template_part('include/layouts/top/17_topContact'); ?>
+    </div>
 </main>
 <footer class="bg_795E55 footer">
     <?php get_template_part('include/layouts/top/18_topFooterTop'); ?>
