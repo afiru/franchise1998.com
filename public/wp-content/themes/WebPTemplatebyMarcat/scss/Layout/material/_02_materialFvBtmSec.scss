@@ -6,3 +6,21 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.materialFvBtmSec {
+    @include mi.marginPercent(1920, 145, auto, 0, auto);
+}
+
+.MaterialFvBtmSecWap {}
+
+.h2MaterialFvBtmSec {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(210);
+    @include mi.letterSpacing(20);
+}
+
+.txtMaterialFvBtmSec {
+    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+}

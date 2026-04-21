@@ -12,7 +12,7 @@
                 さらに素材には季節感を重視し、目で見ても楽しめる、ギフトとしてワンランク上の感動をお届けしています。
             </p>
 
-            <ul class="d_flex j_between row ulMaterialInfo">
+            <ul class="d_flex j_start row ulMaterialInfo">
                 <li class="liMaterialInfo">
                     <figure class="phptoMaterialInfo">
                         <picture>
