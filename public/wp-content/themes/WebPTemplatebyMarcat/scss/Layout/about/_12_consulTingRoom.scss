@@ -6,3 +6,155 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.consulTingRoom {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
+}
+.consulTingRoomWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.consulTingRoomLxn {
+    align-items: center;
+}
+.cntConsulTingRoom {
+    @include mi.ontenerWidth(1200, 730);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 80, auto, 0, auto);
+        width: 100%;
+        order: 2;
+    }
+}
+.secCntConsulTingRoom {
+    @include mi.ontenerWidth(730, 440);
+    margin: auto;
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.h2CntConsulTingRoom {
+    @include mi.fontSizePc(32);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(100);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+.rubyCntConsulTingRoom {
+    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 16, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+.h3CntConsulTingRoom {
+    @include mi.marginPercent(440, 50, 0, 0, 0);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+.txtCntConsulTingRoom {
+    @include mi.marginPercent(440, 40, 0, 0, 0);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulCntConsulTingRoom {
+    @include mi.marginPercent(440, 40, 0, 0, 0);
+    @include mi.ontenerWidth(440, 290);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 290);
+    }
+}
+.liCntConsulTingRoom {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(290, 20, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 15, auto, 0, auto);
+        }
+    }
+}
+.btnCntConsulTingRoom {
+    aspect-ratio: 290 / 45;
+    @include mi.kadomaru(30px);
+    border: 1px solid #795e55;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 290 / 40;
+        @include mi.kadomaru(30px);
+        border: 1px solid #795e55;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+.bgbtnCntConsulTingRoom {
+    @include mi.ontenerWidth(290, 270);
+    margin: auto;
+    background: url(../img/bgbtnCntConsulTingRoom01.svg) no-repeat right center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(290, 270);
+        margin: auto;
+        background: url(../img/bgbtnCntConsulTingRoom01.svg) no-repeat right
+            center;
+        background-size: auto 20%;
+    }
+}
+
+.bgbtnCntConsulTingRoom02 {
+    @include mi.ontenerWidth(290, 270);
+    margin: auto;
+    background: url(../img/bgbtnCntConsulTingRoom02.svg) no-repeat right center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(290, 270);
+        margin: auto;
+        background: url(../img/bgbtnCntConsulTingRoom02.svg) no-repeat right
+            center;
+        background-size: auto 20%;
+    }
+}
+
+.photoConsulTingRoom {
+    @include mi.ontenerWidth(1200, 570);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        order: 1;
+    }
+}

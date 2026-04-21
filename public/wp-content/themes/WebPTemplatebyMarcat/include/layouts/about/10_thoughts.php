@@ -55,9 +55,9 @@
             </li>
         </ul>
 
-        <div class="btnAboutThoughtLxn">
-            <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAboutThought" href="<?php echo home_url('/'); ?>">
-                <span class="iconBbtnAboutThoughts">詳しく見る</span>
+        <div class="btnAboutThoughtLxn02">
+            <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAboutThought02" href="<?php echo home_url('/'); ?>">
+                <span class="iconBbtnAboutThoughts02">詳しく見る</span>
                 <!--bg:../img/index/iconBbtnProductAppealFx01s.svg-->
             </a>
         </div>

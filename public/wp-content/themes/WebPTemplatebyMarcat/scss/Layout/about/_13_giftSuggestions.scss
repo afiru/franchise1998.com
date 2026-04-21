@@ -6,3 +6,152 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.giftSuggestions {
+    @include mi.marginPercent(1920, 175, auto, 0, auto);
+    @include mi.paddingPercent(1920, 90, 0, 70, 0);
+    border-radius: 0 80px 0 0;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 125, auto, 0, auto);
+        @include mi.paddingPercent(375, 67, 0, 70, 0);
+    }
+}
+.giftSuggestionsWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
+.titleGiftSuggestions {
+}
+.h2TitleGiftSuggestions {
+    @include mi.fontSizePc(32);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(100);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+.rubyTitleGiftSuggestions {
+    @include mi.marginPercent(1300, 0, 0, 0, 15);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulGiftSuggestions {
+    @include mi.marginPercent(1300, 40, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, 0, 0, 0);
+    }
+}
+.liGiftSuggestions {
+    @include mi.ontenerWidth(1300, 620);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+
+    &:nth-child(n + 2) {
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 18, 0, 0, 0);
+        }
+    }
+
+    &:nth-child(n + 3) {
+        @include mi.marginPercent(1300, 30, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 18, 0, 0, 0);
+        }
+    }
+}
+
+///
+.picBtnLiGiftSuggestions {
+    @include mi.ontenerWidth(620, 134);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 134);
+    }
+}
+.secBtnLiGiftSuggestions {
+    @include mi.ontenerWidth(620, 467);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 177);
+    }
+}
+.h3BtnLiGiftSuggestions {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(15);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtBtnLiGiftSuggestions {
+    @include mi.marginPercent(467, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(13);
+        @include mi.lineheightP(130);
+        @include mi.letterSpacing(0);
+    }
+}
+//ボタン
+.btnCntGiftSuggestionsLxn {
+    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 193);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 193);
+    }
+}
+.btnCntGiftSuggestions {
+    aspect-ratio: 193 / 39;
+    @include mi.kadomaru(30px);
+    border: 1px solid #f04e11;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+    background-color: #fff;
+    @include mi.mq(sp) {
+        aspect-ratio: 193 / 39;
+        @include mi.kadomaru(30px);
+        border: 1px solid #f04e11;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.iconBbtnCntGiftSuggestionss {
+    @include mi.ontenerWidth(200, 163);
+    margin: auto;
+    background: url(../img/iconBbtnCntGiftSuggestionss.svg) no-repeat right
+        center;
+    background-size: auto 20%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(200, 163);
+        margin: auto;
+        background: url(../img/iconBbtnCntGiftSuggestionss.svg) no-repeat right
+            center;
+        background-size: auto 20%;
+    }
+}

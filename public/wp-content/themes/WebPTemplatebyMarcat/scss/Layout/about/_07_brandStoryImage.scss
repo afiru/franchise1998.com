@@ -6,3 +6,9 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.brandStoryImage {
+    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 30, auto, 0, auto);
+    }
+}
