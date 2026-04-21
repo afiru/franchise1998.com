@@ -9,6 +9,9 @@ LAYOUT
 
 .conceptAbout {
     @include mi.marginPercent(1920, 145, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
 }
 .secConceptAbout {
 }
@@ -16,30 +19,61 @@ LAYOUT
     @include mi.fontSizePc(40);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(10);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(36);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
 }
 .rybyConceptAbout {
+    @include mi.marginPercent(1300, 85, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 60, auto, 0, auto);
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
 }
 .h3ConceptAbout {
     @include mi.marginPercent(1300, 85, auto, 0, auto);
     @include mi.fontSizePc(26);
     @include mi.lineheightP(210);
     @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 60, auto, 0, auto);
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
 }
 .txtConceptAbout {
     @include mi.marginPercent(1300, 45, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 50, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(20);
+    }
 }
 .conceptMovie {
     @include mi.marginPercent(1920, 160, auto, 0, auto);
     @include mi.paddingPercent(1920, 130, 0, 130, 0);
     border-radius: 0 100px 0 0;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 100, auto, 0, auto);
+        @include mi.paddingPercent(375, 70, 0, 63, 0);
+    }
 }
 .conceptMovieWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
 }
 .secConceptMovie {
 }
@@ -47,17 +81,29 @@ LAYOUT
     @include mi.fontSizePc(24);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(10);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(10);
+    }
 }
 .brdConceptMovie {
     @include mi.marginPercent(1300, 20, auto, 0, auto);
     height: 1px;
     @include mi.ontenerWidth(1300, 41);
     aspect-ratio: 52/1;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 12, auto, 0, auto);
+        @include mi.ontenerWidth(330, 52);
+    }
 }
 .moveConceptMovie {
     @include mi.marginPercent(1300, 38, auto, 0, auto);
     position: relative;
     aspect-ratio: 1300/731;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+    }
     iframe {
         width: 100%;
         height: 100%;

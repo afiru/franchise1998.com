@@ -7,4 +7,5 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .brandStoryTitle {
+    @include mi.marginPercent(1920, 175, auto, 0, auto);
 }
