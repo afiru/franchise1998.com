@@ -6,3 +6,24 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.brandStory01 {
+    @include mi.marginPercent(1920, 93, auto, 0, auto);
+    position: relative;
+}
+.brandStory01Wap {
+    @include mi.paddingVw(1920, 0, 0, 343, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingVw(1920, 0, 0, 0, 0);
+
+        @include mi.marginPercent(375, 40, auto, 0, auto);
+    }
+}
+.secBrandStory01 {
+}
+.h2BrandStory01 {
+}
+.txtBrandStory01 {
+}
+.picBrandStory01 {
+}

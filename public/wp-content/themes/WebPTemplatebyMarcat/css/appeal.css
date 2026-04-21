@@ -53,12 +53,187 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.appealFvBtmSec {
+  margin-top: 145px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .appealFvBtmSec {
+    margin-top: 7.55%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .appealFvBtmSec {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .appealFvBtmSec {
+    margin-top: 21.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .appealFvBtmSecWap {
+    width: 330px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .appealFvBtmSecWap {
+    width: 88%;
+  }
+}
+
+.h2AppealFvBtmSec {
+  font-size: 26px;
+}
+@media screen and (max-width: 1299px) {
+  .h2AppealFvBtmSec {
+    font-size: 2.0015396459vw;
+  }
+}
+.h2AppealFvBtmSec {
+  line-height: 210%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .h2AppealFvBtmSec {
+    line-height: 150%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2AppealFvBtmSec {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.txtAppealFvBtmSec {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtAppealFvBtmSec {
+    margin-top: 3.84%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtAppealFvBtmSec {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtAppealFvBtmSec {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtAppealFvBtmSec {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtAppealFvBtmSec {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtAppealFvBtmSec {
+    margin-top: 10.6%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtAppealFvBtmSec {
+    font-size: 4.2666666667vw;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.appealFvBtmNav {
+  margin-top: 125px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .appealFvBtmNav {
+    margin-top: 6.51%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.navAppealFvBtm {
+  width: 610px;
+}
+@media screen and (max-width: 1299px) {
+  .navAppealFvBtm {
+    width: 46.92%;
+  }
+}
+.navAppealFvBtm {
+  margin: auto;
+}
+
+.ulNavAppealFvBtm {
+  width: 100%;
+}
+
+.liNavAppealFvBtm {
+  width: 190px;
+}
+@media screen and (max-width: 1299px) {
+  .liNavAppealFvBtm {
+    width: 31.14%;
+  }
+}
+
+.btnNavAppealFvBtm {
+  width: 100%;
+  aspect-ratio: 190/44;
+  border-bottom: 1px solid #8d8181;
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .btnNavAppealFvBtm {
+    font-size: 1.077752117vw;
+  }
+}
+.btnNavAppealFvBtm {
+  line-height: 180%;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+}
+
 /* ==========================================================================
 
 ========================================================================== */

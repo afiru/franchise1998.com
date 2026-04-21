@@ -1,8 +1,33 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.appealFvBtmNav {
+    @include mi.marginPercent(1920, 125, auto, 0, auto);
+}
+.appealFvBtmNavWap {
+}
+.navAppealFvBtm {
+    @include mi.ontenerWidth(1300, 610);
+    margin: auto;
+}
+.ulNavAppealFvBtm {
+    width: 100%;
+}
+.liNavAppealFvBtm {
+    @include mi.ontenerWidth(610, 190);
+}
+.btnNavAppealFvBtm {
+    width: 100%;
+    aspect-ratio: 190 / 44;
+    border-bottom: 1px solid #8d8181;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    text-align: center;
+    text-decoration: none;
+}

@@ -5,4 +5,3 @@
             <p class="t_center cl_453C3C fw_500 rubyBrandStoryTitle">フランシーズの誕生のきっかけと想い</p>
         </section>
     </div>
-</div>
