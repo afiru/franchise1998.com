@@ -10486,6 +10486,22 @@ LAYOUT
     margin-right: auto;
   }
 }
+@media screen and (max-width: 767px) {
+  .productAppealFx02 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .productAppealFx02 {
+    margin-top: 18.18%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .btnProductAppealFx02Lxn {
   margin-top: 40px;
@@ -12046,6 +12062,440 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.giftSuggestions {
+  margin-top: 175px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .giftSuggestions {
+    margin-top: 9.11%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.giftSuggestions {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .giftSuggestions {
+    padding: 4.68% 0% 3.64% 0%;
+  }
+}
+.giftSuggestions {
+  border-radius: 0 80px 0 0;
+}
+@media screen and (max-width: 767px) {
+  .giftSuggestions {
+    margin-top: 125px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 67px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .giftSuggestions {
+    margin-top: 33.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .giftSuggestions {
+    padding: 17.86% 0% 18.66% 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .giftSuggestionsWap {
+    width: 330px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .giftSuggestionsWap {
+    width: 88%;
+  }
+}
+
+.h2TitleGiftSuggestions {
+  font-size: 32px;
+}
+@media screen and (max-width: 1299px) {
+  .h2TitleGiftSuggestions {
+    font-size: 2.4634334103vw;
+  }
+}
+.h2TitleGiftSuggestions {
+  line-height: 160%;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 767px) {
+  .h2TitleGiftSuggestions {
+    line-height: 160%;
+    letter-spacing: 0.1em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2TitleGiftSuggestions {
+    font-size: 6.4vw;
+  }
+}
+
+.rubyTitleGiftSuggestions {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyTitleGiftSuggestions {
+    margin: 0% 0% 0% 1.15%;
+  }
+}
+.rubyTitleGiftSuggestions {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyTitleGiftSuggestions {
+    font-size: 1.077752117vw;
+  }
+}
+.rubyTitleGiftSuggestions {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .rubyTitleGiftSuggestions {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 150%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .rubyTitleGiftSuggestions {
+    margin: 6.06% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .rubyTitleGiftSuggestions {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.ulGiftSuggestions {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .ulGiftSuggestions {
+    margin-top: 3.07%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ulGiftSuggestions {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .ulGiftSuggestions {
+    margin: 9.09% 0% 0% 0%;
+  }
+}
+
+.liGiftSuggestions {
+  width: 620px;
+}
+@media screen and (max-width: 1299px) {
+  .liGiftSuggestions {
+    width: 47.69%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liGiftSuggestions {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liGiftSuggestions {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liGiftSuggestions:nth-child(n+2) {
+    margin-top: 18px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liGiftSuggestions:nth-child(n+2) {
+    margin: 5.45% 0% 0% 0%;
+  }
+}
+.liGiftSuggestions:nth-child(n+3) {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .liGiftSuggestions:nth-child(n+3) {
+    margin: 2.3% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liGiftSuggestions:nth-child(n+3) {
+    margin-top: 18px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liGiftSuggestions:nth-child(n+3) {
+    margin: 5.45% 0% 0% 0%;
+  }
+}
+
+.picBtnLiGiftSuggestions {
+  width: 134px;
+}
+@media screen and (max-width: 1299px) {
+  .picBtnLiGiftSuggestions {
+    width: 21.61%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .picBtnLiGiftSuggestions {
+    width: 134px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .picBtnLiGiftSuggestions {
+    width: 40.6%;
+  }
+}
+
+.secBtnLiGiftSuggestions {
+  width: 467px;
+}
+@media screen and (max-width: 1299px) {
+  .secBtnLiGiftSuggestions {
+    width: 75.32%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secBtnLiGiftSuggestions {
+    width: 177px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secBtnLiGiftSuggestions {
+    width: 53.63%;
+  }
+}
+
+.h3BtnLiGiftSuggestions {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .h3BtnLiGiftSuggestions {
+    font-size: 1.2317167052vw;
+  }
+}
+.h3BtnLiGiftSuggestions {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .h3BtnLiGiftSuggestions {
+    line-height: 140%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3BtnLiGiftSuggestions {
+    font-size: 4vw;
+  }
+}
+
+.txtBtnLiGiftSuggestions {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtBtnLiGiftSuggestions {
+    margin-top: 4.28%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtBtnLiGiftSuggestions {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtBtnLiGiftSuggestions {
+    font-size: 1.077752117vw;
+  }
+}
+.txtBtnLiGiftSuggestions {
+  line-height: 160%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtBtnLiGiftSuggestions {
+    line-height: 130%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtBtnLiGiftSuggestions {
+    font-size: 3.4666666667vw;
+  }
+}
+
+.btnCntGiftSuggestionsLxn {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .btnCntGiftSuggestionsLxn {
+    margin-top: 3.07%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.btnCntGiftSuggestionsLxn {
+  width: 193px;
+}
+@media screen and (max-width: 1299px) {
+  .btnCntGiftSuggestionsLxn {
+    width: 14.84%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btnCntGiftSuggestionsLxn {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 193px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnCntGiftSuggestionsLxn {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnCntGiftSuggestionsLxn {
+    width: 58.48%;
+  }
+}
+
+.btnCntGiftSuggestions {
+  aspect-ratio: 193/39;
+  border-radius: 30px;
+  /* CSS3草案 */
+  -webkit-border-radius: 30px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 30px;
+  /* Firefox用 */
+  border: 1px solid #f04e11;
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .btnCntGiftSuggestions {
+    font-size: 1.077752117vw;
+  }
+}
+.btnCntGiftSuggestions {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  background-color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .btnCntGiftSuggestions {
+    aspect-ratio: 193/39;
+    border-radius: 30px;
+    /* CSS3草案 */
+    -webkit-border-radius: 30px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 30px;
+    /* Firefox用 */
+    border: 1px solid #f04e11;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .btnCntGiftSuggestions {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.iconBbtnCntGiftSuggestionss {
+  width: 163px;
+}
+@media screen and (max-width: 1299px) {
+  .iconBbtnCntGiftSuggestionss {
+    width: 81.49%;
+  }
+}
+.iconBbtnCntGiftSuggestionss {
+  margin: auto;
+  background: url(../img/iconBbtnCntGiftSuggestionss.svg) no-repeat right center;
+  background-size: auto 20%;
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .iconBbtnCntGiftSuggestionss {
+    width: 163px;
+    margin: auto;
+    background: url(../img/iconBbtnCntGiftSuggestionss.svg) no-repeat right center;
+    background-size: auto 20%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .iconBbtnCntGiftSuggestionss {
+    width: 81.49%;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */

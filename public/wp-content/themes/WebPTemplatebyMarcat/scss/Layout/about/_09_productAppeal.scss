@@ -182,6 +182,9 @@ LAYOUT
 //02
 .productAppealFx02 {
     @include mi.marginPercent(1200, 40, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 60, auto, 0, auto);
+    }
 }
 .btnProductAppealFx02Lxn {
     @include mi.marginPercent(425, 40, auto, 0, 0);
