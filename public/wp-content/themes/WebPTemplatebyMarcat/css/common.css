@@ -9978,6 +9978,22 @@ LAYOUT
     margin-right: auto;
   }
 }
+@media screen and (max-width: 767px) {
+  .productAppeal {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .productAppeal {
+    margin-top: 26.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .topProductAppealWap {
   position: relative;
@@ -9995,7 +10011,7 @@ LAYOUT
   .topProductAppealWap {
     width: 330px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -10008,7 +10024,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .topProductAppealWap {
-    padding: 13.33% 0% 0% 0%;
+    padding: 18.66% 0% 0% 0%;
   }
 }
 

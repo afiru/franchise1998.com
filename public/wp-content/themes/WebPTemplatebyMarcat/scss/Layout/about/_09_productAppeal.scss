@@ -8,6 +8,9 @@ LAYOUT
 ========================================================================== */
 .productAppeal {
     @include mi.marginPercent(1920, 124, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 100, auto, 0, auto);
+    }
 }
 .topProductAppealWap {
     position: relative;
@@ -16,7 +19,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
         margin: auto;
-        @include mi.paddingPercent(375, 50, 0, 0, 0);
+        @include mi.paddingPercent(375, 70, 0, 0, 0);
     }
 }
 .brdLongTopProductAppeal {
