@@ -1,12 +1,83 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .materialMade {
     @include mi.marginPercent(1920, 44, auto, 0, auto);
+    width: 100%;
+    overflow: hidden;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 100, auto, 0, auto);
+    }
+}
+.materialMadeWap {
+    position: relative;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
 
+.brdLongMaterialMade {
+    height: 2px;
+    width: 900%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.brdShortMaterialMade {
+    @include mi.ontenerWidth(1920, 50);
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 50);
+    }
+}
+.secMaterialMade {
+    @include mi.paddingPercent(1300, 125, 0, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 70, 0, 0, 0);
+    }
+}
+.h2MaterialMade {
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+.txtMaterialMade {
+    @include mi.ontenerWidth(1300, 805);
+    @include mi.marginPercent(1300, 43, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.photosMaterialMade {
+    @include mi.marginPercent(1300, 70, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
+}
+.underPicBtmDefo {
+    @include mi.marginPercent(1920, 175, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 125, auto, 0, auto);
+    }
 }
