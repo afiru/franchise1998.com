@@ -1,7 +1,7 @@
 /* ==========================================================================
-use＆nameSpace
+use&nameSpace
 ========================================================================== */
-@use "../Functions/mixin" as mi;
+@use "../Functions/mixin"as mi;
 
 /* ==========================================================================
 Library
@@ -19,6 +19,7 @@ body {
 }
 
 body {
+
     input,
     textarea,
     button {
@@ -60,9 +61,11 @@ body {
 .CormorantUnicase {
     font-family: "Cormorant Unicase";
 }
+
 .kaku {
     font-family: "Zen Kaku Gothic New", sans-serif;
 }
+
 .tj {
     text-indent: -9999px;
     text-align: left;

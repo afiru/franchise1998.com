@@ -1,7 +1,7 @@
 /* ==========================================================================
-use＆nameSpace
+use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -56,8 +56,7 @@ LAYOUT
 .prevSliderTopTopics {
     aspect-ratio: 1/1;
     @include mi.ontenerWidth(1300, 50);
-    background: url(../img/index/btnprevSliderTopTopics.svg) no-repeat center
-        center;
+    background: url(../img/index/btnprevSliderTopTopics.svg) no-repeat center center;
     background-size: 100% 100%;
     left: -2%;
     top: 22%;
@@ -75,8 +74,7 @@ LAYOUT
 .nextSliderTopTopics {
     aspect-ratio: 1/1;
     @include mi.ontenerWidth(1300, 50);
-    background: url(../img/index/btnnrxtSliderTopTopics.svg) no-repeat center
-        center;
+    background: url(../img/index/btnnrxtSliderTopTopics.svg) no-repeat center center;
     background-size: 100% 100%;
     right: -2%;
     top: 22%;
@@ -162,6 +160,7 @@ LAYOUT
         @include mi.kadomaru(30px);
         aspect-ratio: 200/40;
     }
+
     &:hover {
         opacity: 0.6;
     }
@@ -178,8 +177,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(193, 163);
         margin: auto;
-        background: url(../img/index/iconBtnTopTopics.svg) no-repeat right
-            center;
+        background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
         background-size: auto 20%;
     }
 }

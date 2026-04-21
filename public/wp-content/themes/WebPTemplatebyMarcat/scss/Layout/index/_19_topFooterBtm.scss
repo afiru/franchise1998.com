@@ -1,48 +1,57 @@
 /* ==========================================================================
-use＆nameSpace
+use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .topFooterBtm {
     @include mi.paddingPercent(1920, 0, 0, 14, 0);
+
     @include mi.mq(sp) {
         @include mi.paddingPercent(375, 0, 0, 17, 0);
     }
 }
+
 .topFooterBtmWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
         margin: auto;
     }
 }
+
 .topFooterBtmBrd {
     height: 1px;
     width: 100%;
 }
+
 .secFooterBtmTitle {
     @include mi.marginPercent(1300, 57, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 40, auto, 0, auto);
     }
 }
+
 .h2FooterBtmTitle {
     @include mi.fontSizePc(28);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(100);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(100);
     }
 }
+
 .txtFooterBtmTitle {
     @include mi.marginPercent(1300, 22, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheight(14, 24);
     @include mi.letterSpacing(100);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 24, auto, 0, auto);
         @include mi.fontSizeSp(14);
@@ -50,14 +59,18 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .navFooterBtm {
     @include mi.marginPercent(1300, 52, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 36, auto, 0, auto);
     }
 }
+
 .ulNavFooter {
     @include mi.ontenerWidth(1300, 216);
+
     @include mi.mq(sp) {
         width: 100%;
         display: flex;
@@ -65,11 +78,13 @@ LAYOUT
         flex-flow: row wrap;
     }
 }
+
 .ulNavFooter02 {
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 25, 0, 0, 0);
     }
 }
+
 .liNavFooter {
     @include mi.mq(sp) {
         width: 50%;
@@ -77,42 +92,50 @@ LAYOUT
 
     &:nth-child(n + 2) {
         @include mi.marginPercent(1300, 27, auto, 0, auto);
+
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 0, 0, 0, 0);
         }
     }
+
     &:nth-child(n + 3) {
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 25, 0, 0, 0);
         }
     }
 }
+
 .btnLiNavFooter {
     @include mi.fontSizePc(13);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(20);
     text-decoration: none;
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
     }
 }
+
 .btnLastFooterBtmLxn {
     @include mi.marginPercent(1300, 46, auto, 0, auto);
     @include mi.ontenerWidth(1300, 180);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 41, auto, 0, auto);
         @include mi.ontenerWidth(330, 180);
     }
 }
-.btnLastFooterBtm {
-}
+
+.btnLastFooterBtm {}
+
 .copy {
     @include mi.marginPercent(1300, 17, auto, 0, auto);
     @include mi.fontSizePc(10);
     @include mi.lineheight(10, 24);
     @include mi.letterSpacing(100);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, auto, 0, auto);
         @include mi.fontSizeSp(10);

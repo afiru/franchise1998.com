@@ -1,7 +1,7 @@
 /* ==========================================================================
-use＆nameSpace
+use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -13,8 +13,9 @@ LAYOUT
     right: 0;
     bottom: 0;
 }
-.ulPcFixedMenu {
-}
+
+.ulPcFixedMenu {}
+
 .liPcFixedMenu {
     &:nth-child(n + 2) {
         @include mi.marginPercent(45, 5, auto, 0, auto);
