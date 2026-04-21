@@ -8,4 +8,35 @@ LAYOUT
 ========================================================================== */
 .brandStoryTitle {
     @include mi.marginPercent(1920, 175, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
+}
+.brandStoryTitleWap {
+}
+.secBrandStoryTitle {
+}
+.h2BrandStoryTitle {
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(40);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(36);
+        @include mi.lineheightP(260);
+        @include mi.letterSpacing(100);
+    }
+}
+.rubyBrandStoryTitle {
+    @include mi.marginPercent(398, 20, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
 }
