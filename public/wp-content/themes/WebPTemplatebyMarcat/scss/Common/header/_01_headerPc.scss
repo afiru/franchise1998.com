@@ -1,11 +1,14 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.wap {
+    overflow: clip;
+}
 .brdHeaderPc {
     height: 4px;
     width: 100%;
@@ -13,6 +16,7 @@ LAYOUT
 
 .headerPcFx {
     @include mi.paddingPercent(1920, 14, 0, 17, 0);
+    background: #fff;
 }
 
 .btnHeaderPc {
@@ -43,7 +47,6 @@ LAYOUT
 }
 
 .bgBtnHeaderPc01 {
-
     background: url(../img/bgBtnHeaderPc01.svg) no-repeat 0% center;
     background-size: auto 100%;
     justify-content: center;
@@ -53,7 +56,6 @@ LAYOUT
 }
 
 .bgBtnHeaderPc02 {
-
     background: url(../img/bgBtnHeaderPc02.svg) no-repeat 0% center;
     background-size: auto 100%;
     justify-content: center;

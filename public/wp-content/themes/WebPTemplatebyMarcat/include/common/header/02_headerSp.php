@@ -8,7 +8,7 @@
     <nav class="d_flex j_between ali_center navHeaderSp">
         <ul class="d_flex j_between ali_center ulNavHeaderSp">
             <li class="liNavHeaderSp">
-                <a class="d_flex j_center ali_center mincho bg_421D12 cl_fff undernone fw_500 btnNavHeaderSp">
+                <a class="d_flex j_center ali_center mincho cl_fff undernone fw_500 btnNavHeaderSp">
                     <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/BtnHeaderSp01.svg'); ?>" alt="<?php echo esc_attr('ケーキWEB予約'); ?>" width="65" height="30">
                 </a>
             </li>

@@ -6,10 +6,86 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.test {
-    @include mi.letterSpacing(60);
-    @include mi.fontSizePc(12);
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(14);
+.headerMenuSp {
+    @include mi.paddingPercent(375, 20, 0, 50, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    display: none;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
     }
+}
+
+.headerMenuSpLxn {
+}
+.closeMenuSp {
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    @include mi.ontenerWidth(375, 20);
+}
+.navHeaderMenuSpBx {
+    margin: auto;
+    @include mi.paddingPercent(375, 60, 0, 0, 0);
+    @include mi.ontenerWidth(375, 280);
+}
+.ulNavHeaderMenuSpBx {
+}
+.liNavHeaderMenuSpBx {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(290, 36, 0, 0, 0);
+    }
+}
+.btnNavHeaderMenuSpBx {
+    @include mi.fontSizeSp(15);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+}
+.brdNavHeaderSp {
+    @include mi.marginPercent(290, 40, auto, 0, auto);
+    height: 1px;
+    width: 100%;
+}
+.ulHeaderFixedBxSp {
+    @include mi.marginPercent(290, 40, auto, 0, auto);
+}
+.ulHeaderFixedBxSp02 {
+    @include mi.marginPercent(290, 40, auto, 0, auto);
+}
+.liHeaderFixedBxSp {
+    @include mi.ontenerWidth(290, 290);
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(290, 24, auto, 0, auto);
+    }
+}
+.btnHeaderFixedBxSp {
+    @include mi.marginPercent(290, 40, auto, 0, auto);
+    @include mi.ontenerWidth(290, 290);
+    text-decoration: none;
+    @include mi.fontSizeSp(13);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+.telContactSpHeader {
+    @include mi.marginPercent(290, 40, auto, 0, auto);
+}
+.liTelContactSpHeader {
+    @include mi.ontenerWidth(290, 290);
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(290, 16, auto, 0, auto);
+    }
+}
+.btnTelContactSpHeader {
+}
+.txtnavHeaderMenuSpLast {
+    @include mi.marginPercent(290, 20, auto, 0, auto);
+    @include mi.fontSizeSp(12);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
 }

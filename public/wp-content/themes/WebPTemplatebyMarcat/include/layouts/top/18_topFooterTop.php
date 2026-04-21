@@ -11,7 +11,7 @@
                     TEL/<a class="cl_fff" href="tel:0120-656-567">0120-656-567</a><br>
                     営業時間/9:00～19:00
                 </p>
-                <ul class="d_flex j_start footerSns">
+                <ul class="d_flex footerSns">
                     <li class="liFooterSns">
                         <a class="btnFooterSns" href="" target="_blank">
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnFooterSns01.svg'); ?>" alt="<?php echo esc_attr('インスタグラム'); ?>" width="40" height="40">

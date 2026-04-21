@@ -61,17 +61,17 @@
 
             <div class="bg_fff brdNavHeaderPc"></div>
 
-            <ul class="d_flex j_flex row ulNavHeaderPc">
-                <li class="liNavHeaderPc">
+            <ul class="d_flex j_flex row ulNavHeaderPc02">
+                <li class="liNavHeaderPcmenu">
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-たま卵チーズ</a>
                 </li>
-                <li class="liNavHeaderPc">
+                <li class="liNavHeaderPcmenu">
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-パーティプラン</a>
                 </li>
-                <li class="liNavHeaderPc">
+                <li class="liNavHeaderPcmenu">
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-オリジナルプリントスイーツ</a>
                 </li>
-                <li class="liNavHeaderPc">
+                <li class="liNavHeaderPcmenu">
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-ウェディングサービス</a>
                 </li>
             </ul>
@@ -92,7 +92,7 @@
                 </ul>
             </nav>
 
-            <p class="t_center cl_ff mincho fw_400 txtnavHeaderMenuPcLast">営業時間9:00～19:00・火曜日定休（祝日営業）</p>
+            <p class="t_center cl_fff mincho fw_400 txtnavHeaderMenuPcLast">営業時間9:00～19:00・火曜日定休（祝日営業）</p>
         </div>
     </div>
 </div>
