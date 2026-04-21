@@ -8263,23 +8263,37 @@ LAYOUT
   }
 }
 .txtAboutUnderFv {
-  font-size: 60px;
+  font-size: 24px;
 }
 @media screen and (max-width: 1299px) {
   .txtAboutUnderFv {
-    font-size: 4.6189376443vw;
+    font-size: 1.8475750577vw;
   }
 }
 .txtAboutUnderFv {
-  line-height: 160%;
-  letter-spacing: 0.1em;
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 
+.aboutUnderFvLxn {
+  margin-top: 55px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .aboutUnderFvLxn {
+    margin-top: 2.86%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .aboutUnderFvLxn {
   position: relative;
 }
 
-.txtAboutUnderFv {
+.txtAboutUnderFvFig {
   position: absolute;
   width: 8px;
   top: 50%;
@@ -8287,14 +8301,55 @@ LAYOUT
   z-index: 3;
 }
 @media screen and (max-width: 767px) {
-  .txtAboutUnderFv {
+  .txtAboutUnderFvFig {
     width: 6px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtAboutUnderFv {
+  .txtAboutUnderFvFig {
     width: 1.6%;
   }
+}
+
+.picAboutUnderFv {
+  width: 88.43vw;
+  margin: 0 0 0 auto;
+}
+
+.breadUnder {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .breadUnder {
+    margin-top: 2.3%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.breadList {
+  display: flex;
+  flex-flow: row wrap;
+  color: #929292;
+  font-size: 12px;
+}
+@media screen and (max-width: 1299px) {
+  .breadList {
+    font-size: 0.9237875289vw;
+  }
+}
+.breadList {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.breadList a,
+.breadList span {
+  color: #929292;
+  text-decoration: none;
 }
 
 /* ==========================================================================

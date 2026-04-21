@@ -19,17 +19,18 @@ LAYOUT
 }
 .txtAboutUnderFv {
     @include mi.marginPercent(1300, 0, 0, 0, 0);
-    @include mi.fontSizePc(60);
-    @include mi.lineheightP(160);
-    @include mi.letterSpacing(100);
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
 }
 
 .aboutUnderFvLxn {
+    @include mi.marginPercent(1920, 55, auto, 0, auto);
     position: relative;
 }
 .aboutUnderFvLxn {
 }
-.txtAboutUnderFv {
+.txtAboutUnderFvFig {
     position: absolute;
     width: 8px;
     top: 50%;
@@ -41,6 +42,26 @@ LAYOUT
     }
 }
 .picAboutUnderFv {
+    @include mi.ontenerWVw(1920, 1698);
+    margin: 0 0 0 auto;
 }
+
 .breadUnder {
+    @include mi.marginPercent(1300, 30, auto, 0, auto);
+}
+.breadUnderWap {
+}
+
+.breadList {
+    display: flex;
+    flex-flow: row wrap;
+    color: #929292;
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    a,
+    span {
+        color: #929292;
+        text-decoration: none;
+    }
 }
