@@ -1,0 +1,26 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.partyPlanNav {
+    @include mi.marginPercent(1920, 70, auto, 0, auto);
+}
+
+.partyPlanNavWap {}
+
+.PartyPlanNavBtm {}
+
+.ulPartyPlanNavBtm {}
+
+.liPartyPlanNavBtm {
+    @include mi.ontenerWidth(1300, 200);
+}
+
+.btnPartyPlanNavBtm {
+    aspect-ratio: 200 / 51;
+    border-bottom: 1px solid #D9D9D9;
+}
