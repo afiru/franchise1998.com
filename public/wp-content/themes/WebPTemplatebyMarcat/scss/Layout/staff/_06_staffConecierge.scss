@@ -1,0 +1,105 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+.staffConecierge {
+    @include mi.marginPercent(1920, 125, auto, 0, auto);
+    @include mi.paddingPercent(1920, 125, 0, 100, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 70, auto, 0, auto);
+        @include mi.paddingPercent(375, 100, 0, 80, 0);
+    }
+}
+.staffConeciergeWap {
+    @include mi.mq(sp) {
+    }
+}
+.staffConeciergeFx {
+}
+//左
+.leftPhotoStaffConecierge {
+    @include mi.marginPercent(1300, 149, 0, 0, 0);
+    @include mi.ontenerWidth(1300, 346);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 0, auto, 0, 0);
+        @include mi.ontenerWidth(375, 300);
+    }
+}
+//中
+.secStaffConecierge {
+    @include mi.ontenerWidth(1300, 352);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 308);
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+    }
+}
+.h2SecStaffConecierge {
+    @include mi.fontSizePc(13);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(13);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+    }
+}
+.h3SecStaffConecierge {
+    @include mi.marginPercent(352, 29, auto, 0, auto);
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(308, 15, auto, 0, auto);
+        @include mi.fontSizeSp(32);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(10);
+    }
+}
+.rubySecStaffConecierge {
+    @include mi.marginPercent(352, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(308, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtSecStaffConecierge {
+    @include mi.marginPercent(352, 65, auto, 0, auto);
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(308, 50, auto, 0, auto);
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+.txtSecStaffConecierge02 {
+    @include mi.marginPercent(352, 50, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(308, 40, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.rightPhotoStaffConecierge {
+    @include mi.ontenerWidth(1300, 346);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, 0, 0, auto);
+        @include mi.ontenerWidth(375, 300);
+    }
+}

@@ -1,4 +1,4 @@
-<div class="bg_F1ECE8 staffConeciergeThink">
+<div class="staffConeciergeThink">
     <div class="wapper staffConeciergeThinkWap">
         <div class="d_flex j_between row staffConeciergeThinkFx">
             <figure class="photoStaffConeciergeThink">

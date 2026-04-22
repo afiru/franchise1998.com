@@ -17,5 +17,14 @@
                 </picture>
             </figure>
         </section>
+        <div class="btnStaffRecruitWap">
+            <a href="#" class="btnStaffRecruit" target="_blank">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/staff/btnStaffRecruitPc.svg'); ?>">
+                    <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/staff/btnStaffRecruitSp.svg'); ?>">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/staff/btnStaffRecruitPc.svg'); ?>" alt="<?php echo esc_attr('「採用情報ページを見る'); ?>" width="260" height="40">
+                </picture>
+            </a>
+        </div>
     </div>
 </div>
