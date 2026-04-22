@@ -13,15 +13,10 @@
 
     <?php get_template_part('include/layouts/partyPlan/04_partyPlanSet'); ?>
     <?php get_template_part('include/layouts/partyPlan/05_familyPlanSet'); ?>
-
     <?php get_template_part('include/layouts/partyPlan/06_partyPlanSideMenu'); ?>
-
     <?php get_template_part('include/layouts/partyPlan/07_partyPlanDrinkMenu'); ?>
-
     <?php get_template_part('include/layouts/partyPlan/08_partyPlanGiftGoods'); ?>
-
     <?php get_template_part('include/layouts/partyPlan/09_partyBookings'); ?>
-
     <div class="underPicBtmDefo">
         <?php get_template_part('include/layouts/top/11_topPickUp'); ?>
         <?php get_template_part('include/layouts/top/12_topNav'); ?>
