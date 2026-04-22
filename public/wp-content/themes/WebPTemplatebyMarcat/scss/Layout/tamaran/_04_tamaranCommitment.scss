@@ -1,0 +1,60 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+.tamaranCommitment {
+    @include mi.marginPercent(1920, 125, auto, 0, auto);
+    @include mi.paddingPercent(1920, 124, 0, 163, 0);
+    border-radius: 0 100px 0 0;
+}
+.tamaranCommitmentWap {
+}
+.secTamaranCommitment {
+}
+.h2TamaranCommitment {
+    @include mi.ontenerWidth(1300, 1072);
+    margin: auto;
+}
+.txtTamaranCommitment {
+    @include mi.marginPercent(1300, 36, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(50);
+}
+.ulTamaranCommitment {
+    @include mi.marginPercent(1300, 62, auto, 0, auto);
+}
+.liTamaranCommitment {
+    @include mi.ontenerWidth(1300, 407);
+    &:nth-child(n + 4) {
+        @include mi.marginPercent(1300, 52, 0, 0, 0);
+    }
+}
+.photoLiTamaranCommitment {
+}
+.cntLiTamaranCommitment {
+    @include mi.marginPercent(407, 22, auto, 0, auto);
+}
+.intLiTamaranCommitment {
+    @include mi.marginPercent(407, 0, 17, 0, 0);
+    @include mi.ontenerWidth(407, 40);
+}
+.txtLiTamaranCommitment {
+    @include mi.ontenerWidth(407, 350);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(50);
+}
+.txtLastTamaranCommitment {
+    @include mi.marginPercent(1300, 64, auto, 0, auto);
+    @include mi.paddingPercent(1300, 18, 0, 18, 0);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    @include mi.kadomaru(21px);
+}
