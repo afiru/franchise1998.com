@@ -1,0 +1,143 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.staffConeciergeThink {
+    @include mi.paddingPercent(1920, 100, 0, 150, 0);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 70, 0, 80, 0);
+    }
+}
+.staffConeciergeThinkWap {
+}
+.staffConeciergeThinkFx {
+}
+.photoStaffConeciergeThink {
+    @include mi.ontenerWidth(1300, 495);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 300);
+        margin: 0 0 0 auto;
+    }
+}
+//右
+.cntStaffConeciergeThink {
+    @include mi.ontenerWidth(1300, 680);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 52, auto, 0, auto);
+    }
+}
+.txtCntStaffConeciergeThinkFig {
+    @include mi.ontenerWidth(633, 11.35);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 9.72);
+    }
+}
+.secCntCntStaffConeciergeThink {
+    @include mi.ontenerWidth(633, 633);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 300);
+        margin: 0 0 0 auto;
+    }
+}
+.h2CntStaffConeciergeThink {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtCntStaffConeciergeThink {
+    @include mi.marginPercent(633, 34, 0, 0, 0);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 30, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtPicStaffConeciergeThink {
+    @include mi.marginPercent(633, 32, 0, 0, 0);
+    @include mi.ontenerWidth(633, 113);
+    transform: translateX(-15%);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 52, 0, 0, 0);
+        @include mi.ontenerWidth(300, 113);
+    }
+}
+.navStaffConeciergeThink {
+    @include mi.marginPercent(633, 9, 0, 0, auto);
+    @include mi.ontenerWidth(633, 633);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 9, 0, 0, 0);
+    }
+}
+.h3NavStaffConeciergeThink {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulNavStaffConeciergeThink {
+    @include mi.marginPercent(633, 14, 0, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 14, 0, 0, 0);
+    }
+}
+.liNavStaffConeciergeThink {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(633, 24, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(300, 40, auto, 0, auto);
+        }
+    }
+}
+.photoNavStaffConeciergeThink {
+    @include mi.ontenerWidth(633, 146);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(300, 146);
+    }
+}
+.secNavStaffConeciergeThink {
+    @include mi.ontenerWidth(633, 457);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+        width: 100%;
+    }
+}
+.h4NavStaffConeciergeThink {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtNavStaffConeciergeThink {
+    @include mi.marginPercent(633, 14, 0, 0, 0);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
