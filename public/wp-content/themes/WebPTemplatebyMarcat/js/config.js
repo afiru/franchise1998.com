@@ -76,8 +76,8 @@ window.addEventListener('load', function () {
     let spaceBetween02;
     let totalSlides02 = document.querySelectorAll('.jsactionLxn02 .swiper-slide').length;
     let slidesPerView02 = window.innerWidth < 768 ? 2 : 3;
-    const isSlideCountLessThanSlidesPerView02 = totalSlides02 + 1 <= Math.floor(slidesPerView);
-    let draggable02 = !isSlideCountLessThanSlidesPerView;
+    const isSlideCountLessThanSlidesPerView02 = totalSlides02 + 1 <= Math.floor(slidesPerView02);
+    let draggable02 = !isSlideCountLessThanSlidesPerView02;
 
     if (window.innerWidth > 768) {
         const justifyContent = !isSlideCountLessThanSlidesPerView02 ? 'flex-start' : 'center';

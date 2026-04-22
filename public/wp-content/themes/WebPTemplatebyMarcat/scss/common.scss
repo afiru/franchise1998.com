@@ -2,37 +2,37 @@
 /* ==========================================================================
 Reset
 ========================================================================== */
-@use 'Reset/base';
+@use "Reset/base";
 
 /* ==========================================================================
 Rules
 ========================================================================== */
-@use 'Rules/coding_guideline';
-@use 'Rules/_display.scss';
-@use 'Rules/_flexSettins.scss';
-@use 'Rules/_text.scss';
+@use "Rules/coding_guideline";
+@use "Rules/_display.scss";
+@use "Rules/_flexSettins.scss";
+@use "Rules/_text.scss";
 /* ==========================================================================
 Common
 ========================================================================== */
-@use 'Common/header/_header';
-@use 'Common/footer/_footer';
+@use "Common/header/_header";
+@use "Common/footer/_footer";
 
 /* ==========================================================================
 Layout
 ========================================================================== */
-@use 'Layout/index/index';
-@use 'Layout/about/about';
-@use 'Layout/appeal/appeal';
-@use 'Layout/material/material';
+@use "Layout/index/index";
+@use "Layout/about/about";
+@use "Layout/appeal/appeal";
+@use "Layout/material/material";
 /* ==========================================================================
 Component
 ========================================================================== */
-@use 'Component/animate';
-@use 'Component/colorK';
-@use 'Component/colorM';
-@use 'Component/colorS';
-@use 'Component/icon_arrow';
-@use 'Component/page_animete';
-@use 'Component/parallax';
-@use 'Component/slider';
-@use 'Component/lightbox.min';
+@use "Component/animate";
+@use "Component/colorK";
+@use "Component/colorM";
+@use "Component/colorS";
+@use "Component/icon_arrow";
+@use "Component/page_animete";
+@use "Component/parallax";
+@use "Component/slider";
+@use "Component/lightbox.min";
