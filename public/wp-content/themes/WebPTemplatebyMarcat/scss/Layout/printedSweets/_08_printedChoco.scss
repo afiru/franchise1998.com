@@ -1,0 +1,94 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+.printedChoco {
+    @include mi.marginPercent(1920, 180, auto, 0, auto);
+    @include mi.paddingPercent(1920, 135, 0, 135, 0);
+    border-radius: 0 100px 0 0;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 125, auto, 0, auto);
+        @include mi.paddingPercent(375, 70, 0, 70, 0);
+    }
+}
+.printedChocoWap {
+}
+.secPrintedChoco {
+}
+.h2PrintedChoco {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+.printedChocoFx {
+    @include mi.marginPercent(1300, 73, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 25, auto, 0, auto);
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.photoPrintedChocoFx {
+    @include mi.ontenerWidth(1300, 570);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+.secPrintedChocoFx {
+    @include mi.ontenerWidth(1300, 570);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+.h3PrintedChocoFx {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtPrintedChocoFx {
+    @include mi.marginPercent(570, 46, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulPrintedChocoFx {
+    @include mi.marginPercent(570, 61, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
+}
+.liPrintedChocoFx {
+    @include mi.ontenerWidth(570, 273);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 160);
+    }
+    &:nth-child(n + 3) {
+        @include mi.marginPercent(570, 24, 0, 0, 0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 10, 0, 0, 0);
+        }
+    }
+}
+.cntLiPrintedChocoFx {
+}

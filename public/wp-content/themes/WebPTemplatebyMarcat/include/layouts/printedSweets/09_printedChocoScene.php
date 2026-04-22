@@ -1,4 +1,4 @@
-<div class="bg_bg_F1ECE8 printedChocoScene">
+<div class="bg_F1ECE8 printedChocoScene">
     <div class="wapper printedChocoSceneWap">
         <section class="secPrintedChocoScene">
             <h2 class="t_center cl_421D12 fw_500 txtset CormorantUnicase h2PrintedChocoScene">SCENE</h2>

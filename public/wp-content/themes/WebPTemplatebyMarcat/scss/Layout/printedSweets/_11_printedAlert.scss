@@ -1,0 +1,129 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.printedAlert {
+    @include mi.marginPercent(1920, 65, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 40, auto, 0, auto);
+    }
+}
+.printedAlertWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.secPrintedAlert {
+    @include mi.paddingPercent(1300, 40, 0, 40, 0);
+    @include mi.kadomaru(6px);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 30, 0, 20, 0);
+    }
+}
+.printedAlertLxn {
+    @include mi.ontenerWidth(1300, 1210);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 301);
+    }
+}
+.h2PrintedAlert {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    width: fit-content;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.brdPrintedAlert {
+    @include mi.marginPercent(304, 12, auto, 0, auto);
+    border-bottom: 1px solid #b9b7b7;
+    width: 100%;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(301, 12, auto, 0, auto);
+    }
+}
+.printedAlertFx {
+    @include mi.marginPercent(1210, 30, 0, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(301, 30, auto, 0, auto);
+    }
+}
+.secDataprintedAlertFx {
+    @include mi.ontenerWidth(1210, 578);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.h3DataPrintedAlertFx {
+    @include mi.fontSizePc(15);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtDataPrintedAlertFx {
+    @include mi.marginPercent(578, 24, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(301, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtDataPrintedAlertFx02 {
+    @include mi.marginPercent(578, 36, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(301, 20, auto, 0, auto);
+    }
+}
+
+.secTyuiprintedAlertBx {
+    @include mi.ontenerWidth(1210, 578);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+
+//
+.h3TyuiPrintedAlertFx {
+    @include mi.fontSizePc(15);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtTyuiPrintedAlertFx {
+    @include mi.marginPercent(578, 24, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(301, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtTyuiPrintedAlertFx02 {
+    @include mi.marginPercent(578, 16, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(301, 20, auto, 0, auto);
+    }
+}

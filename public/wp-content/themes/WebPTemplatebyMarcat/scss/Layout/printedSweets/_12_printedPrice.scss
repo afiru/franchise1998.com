@@ -1,0 +1,163 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.printedPrice {
+    @include mi.marginPercent(1920, 135, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 70, auto, 0, auto);
+    }
+}
+.printedPriceWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 331);
+    }
+}
+.secPrintedPrice {
+}
+.h2PrintedPrice {
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(10);
+    }
+}
+.rubyPrintedPrice {
+    @include mi.marginPercent(1300, 15, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.printedPriceFx {
+    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
+    }
+}
+.pricePrintedCookie {
+    @include mi.ontenerWidth(1300, 612);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.h3PricePrintedCookie {
+    @include mi.fontSizePc(16);
+    @include mi.lineheight(16, 36);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 36);
+        @include mi.letterSpacing(0);
+    }
+}
+.tablePricePrintedCookie {
+    @include mi.marginPercent(612, 23, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+    }
+}
+//
+.pricePrintedChoco {
+    @include mi.ontenerWidth(1300, 613);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.h3PricePrintedChoco {
+    @include mi.fontSizePc(16);
+    @include mi.lineheight(16, 36);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 36);
+        @include mi.letterSpacing(0);
+    }
+}
+.tablePricePrintedChoco {
+    @include mi.marginPercent(613, 23, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+    }
+}
+.txtPricePrintedChoco {
+    @include mi.marginPercent(613, 16, 0, 0, 0);
+    @include mi.fontSizePc(14);
+    @include mi.lineheight(14, 36);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 12, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtPrintedPriceLast {
+    @include mi.marginPercent(1200, 36, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.btnPrintedPrice {
+    @include mi.marginPercent(1300, 71, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 317);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 59, auto, 0, auto);
+        @include mi.ontenerWidth(330, 317);
+    }
+}
+.btnPrintedPriceIn {
+    border: 1px solid #f04e11;
+    @include mi.kadomaru(30px);
+    aspect-ratio: 317/55;
+    text-decoration: none;
+    @include mi.mq(sp) {
+        aspect-ratio: 317/55;
+    }
+}
+.secBtnPrintedPrice {
+}
+.h3BtnPrintedPrice {
+    @include mi.fontSizePc(14);
+    @include mi.lineheight(14, 20);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+    text-align: center;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 20);
+        @include mi.letterSpacing(20);
+    }
+}
+.txtBtnPrintedPrice {
+    @include mi.marginPercent(317, 6, auto, 0, auto);
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(100);
+    text-decoration: none;
+    text-align: center;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(317, 6, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(100);
+    }
+}

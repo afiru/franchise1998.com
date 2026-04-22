@@ -1,4 +1,4 @@
-<dvi class="printedCookieVoice">
+<div class="printedCookieVoice">
     <div class="wapper printedCookieVoiceWap">
         <section class="titlePrintedVoiceTitle">
             <h2 class="t_center cl_421D12 fw_500 CormorantUnicase h2TitlePrintedCookieVoiceTitle">VOICE</h2>
@@ -152,4 +152,4 @@
             </li>
         </ul>
     </div>
-</dvi>
+</div>

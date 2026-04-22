@@ -37,7 +37,7 @@
             </p>
 
             <div class="btnPrintedPrice">
-                <a class="d_flex j_center ali_center bg_fff bod_F04E11 undernone btnPrintedPrice" href="tel:0120-656-567">
+                <a class="d_flex j_center ali_center bg_fff bod_F04E11 undernone btnPrintedPriceIn" href="tel:0120-656-567">
                     <section class="secBtnPrintedPrice">
                         <h3 class="t_center kaku cl_F04E11 fw_500 h3BtnPrintedPrice">オリジナルプリントスイーツを注文する</h3>
                         <p class="t_cemter kaku cl_F04E11 fw_400 txtBtnPrintedPrice">TEL.0120-656-567</p>

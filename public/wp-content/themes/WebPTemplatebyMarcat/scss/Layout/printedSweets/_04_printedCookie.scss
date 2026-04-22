@@ -1,0 +1,93 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.printedCookie {
+    @include mi.marginPercent(1920, 89, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 92, auto, 0, auto);
+    }
+}
+.printedCookieWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
+.secPrintedCookie {
+}
+.h2PrintedCookie {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+.printedCookieFx {
+    @include mi.marginPercent(1300, 65, 0, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
+}
+.photoPrintedCookieFx {
+    @include mi.ontenerWidth(1300, 570);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.secPrintedCookieFx {
+    @include mi.ontenerWidth(1300, 570);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
+        width: 100%;
+    }
+}
+.h3PrintedCookieFx {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtPrintedCookieFx {
+    @include mi.marginPercent(570, 46, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulPrintedCookieFx {
+    @include mi.marginPercent(570, 15, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
+}
+.liPrintedCookieFx {
+    @include mi.ontenerWidth(570, 273);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 160);
+    }
+    &:nth-child(n + 3) {
+        @include mi.marginPercent(570, 24, 0, 0, 0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 10, 0, 0, 0);
+        }
+    }
+}
+.cntLiPrintedCookieFx {
+}
