@@ -1,25 +1,26 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .materialFvBtmSec {
     @include mi.marginPercent(1920, 145, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 80, auto, 0, auto);
     }
 }
 
-.MaterialFvBtmSecWap {
-}
+.MaterialFvBtmSecWap {}
 
 .h2MaterialFvBtmSec {
     @include mi.fontSizePc(26);
     @include mi.lineheightP(210);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(150);
@@ -29,9 +30,11 @@ LAYOUT
 
 .txtMaterialFvBtmSec {
     @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 850);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
         @include mi.marginPercent(375, 35, auto, 0, auto);
