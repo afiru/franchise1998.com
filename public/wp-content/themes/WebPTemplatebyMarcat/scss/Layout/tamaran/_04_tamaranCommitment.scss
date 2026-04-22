@@ -11,44 +11,92 @@ LAYOUT
     @include mi.marginPercent(1920, 125, auto, 0, auto);
     @include mi.paddingPercent(1920, 124, 0, 163, 0);
     border-radius: 0 100px 0 0;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 70, auto, 0, auto);
+        @include mi.paddingPercent(375, 50, 0, 50, 0);
+    }
 }
 .tamaranCommitmentWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
 }
 .secTamaranCommitment {
 }
 .h2TamaranCommitment {
     @include mi.ontenerWidth(1300, 1072);
     margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
 }
 .txtTamaranCommitment {
     @include mi.marginPercent(1300, 36, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 32, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .ulTamaranCommitment {
     @include mi.marginPercent(1300, 62, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 50, auto, 0, auto);
+    }
 }
 .liTamaranCommitment {
     @include mi.ontenerWidth(1300, 407);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
     &:nth-child(n + 4) {
         @include mi.marginPercent(1300, 52, 0, 0, 0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 20, auto, 0, auto);
+        }
+    }
+    &:nth-child(n + 2) {
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 20, auto, 0, auto);
+        }
     }
 }
 .photoLiTamaranCommitment {
+    width: 100%;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 131);
+    }
 }
 .cntLiTamaranCommitment {
     @include mi.marginPercent(407, 22, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 0, 0, 0, auto);
+        @include mi.ontenerWidth(330, 188);
+    }
 }
 .intLiTamaranCommitment {
     @include mi.marginPercent(407, 0, 17, 0, 0);
     @include mi.ontenerWidth(407, 40);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(188, 0, 7, 0, 0);
+        @include mi.ontenerWidth(188, 20);
+    }
 }
 .txtLiTamaranCommitment {
     @include mi.ontenerWidth(407, 350);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(188, 161);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(50);
+    }
 }
 .txtLastTamaranCommitment {
     @include mi.marginPercent(1300, 64, auto, 0, auto);
@@ -57,4 +105,12 @@ LAYOUT
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
     @include mi.kadomaru(21px);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
+        @include mi.paddingPercent(330, 16, 0, 16, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+        text-align: center;
+    }
 }

@@ -8,18 +8,30 @@ LAYOUT
 ========================================================================== */
 .tamaranVoice {
     @include mi.paddingPercent(1920, 0, 0, 163, 0);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 77, 0);
+    }
 }
 .tamaranVoiceWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
 }
 .secTamaranVoice {
 }
 .h2TamaranVoice {
     @include mi.ontenerWidth(1300, 660);
     margin: auto;
+    @include mi.mq(sp) {
+        width: 100%;
+    }
 }
 .ulTamaranVoiceLxn {
     @include mi.marginPercent(1300, 46, auto, 0, auto);
     position: relative;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
 }
 .ulTamaranVoice {
 }
@@ -27,31 +39,62 @@ LAYOUT
     @include mi.paddingPercent(1300, 39, 0, 33, 0);
     @include mi.ontenerWidth(1300, 305);
     @include mi.kadomaru(10px);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 25, 0, 25, 0);
+        @include mi.ontenerWidth(330, 330);
+        &:nth-child(n + 2) {
+            @include mi.marginPercent(330, 20, auto, 0, auto);
+        }
+    }
 }
 .secLiTamaranVoice {
     @include mi.ontenerWidth(305, 258);
     margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 300);
+    }
 }
 .h3LiTamaranVoice {
     @include mi.fontSizePc(18);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
 }
 .rubyLiTamaranVoice {
     @include mi.marginPercent(305, 13, 0, 0, 0);
     @include mi.fontSizePc(12);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 11, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
 }
 .txtLiTamaranVoice {
     @include mi.marginPercent(305, 25, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .picTamaranVoice {
     @include mi.ontenerWidth(1300, 111);
     position: absolute;
     bottom: -10%;
     right: 2%;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 60);
+        bottom: -6%;
+    }
 }

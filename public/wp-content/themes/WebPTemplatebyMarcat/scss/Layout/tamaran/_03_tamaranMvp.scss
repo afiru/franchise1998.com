@@ -9,8 +9,14 @@ LAYOUT
 
 .tamaranMvp {
     @include mi.marginPercent(1920, 125, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 70, auto, 0, auto);
+    }
 }
 .tamaranMvpWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
 }
 .secTamaranMvpBox {
 }
@@ -19,57 +25,115 @@ LAYOUT
 }
 .tamaranMvpFx {
     @include mi.marginPercent(1300, 80, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
 }
 .photoTamaranMvp {
     @include mi.ontenerWidth(1300, 618);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
 }
 .secTamaranMvp {
     @include mi.marginPercent(1300, 47, auto, 0, auto);
     @include mi.ontenerWidth(1300, 598);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        width: 100%;
+    }
 }
 .h3TamaranMvp {
     @include mi.fontSizePc(26);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(50);
+    }
 }
 .txtTamaranMvp {
     @include mi.marginPercent(598, 44, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheight(16, 34);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
 }
 .picTamaranMvp {
     @include mi.marginPercent(598, 44, 0, 0, auto);
     @include mi.ontenerWidth(598, 402);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 19, 0, 0, auto);
+        @include mi.ontenerWidth(330, 224);
+    }
 }
 .productsTamaran {
     @include mi.marginPercent(1200, 80, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 26, auto, 0, auto);
+    }
 }
 .liProductsTamaran {
     @include mi.ontenerWidth(1200, 618);
+    @include mi.mq(sp) {
+        width: 100%;
+        &:nth-child(n + 2) {
+            @include mi.marginPercent(330, 51, auto, 0, auto);
+        }
+    }
 }
 .h3LiProductsTamaran {
     @include mi.marginPercent(618, 27, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
 }
 .cntLiProductsTamaran {
     @include mi.marginPercent(618, 21, 0, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 10, auto, 0, auto);
+    }
 }
 .nameLiProductsTamaran {
     @include mi.ontenerWidth(618, 528);
+    align-items: baseline;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 266);
+    }
 }
 .h4NameLiProductsTamaran {
     @include mi.fontSizePc(26);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+    }
 }
 .txtNameLiProductsTamaran {
     @include mi.marginPercent(528, 0, auto, 0, 20);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(266, 0, auto, 0, 16);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+    }
 }
 .iconNameLiProductsTamaran {
     @include mi.ontenerWidth(618, 72);
@@ -79,15 +143,30 @@ LAYOUT
     aspect-ratio: 72/35;
     @include mi.kadomaru(100px);
     background: #772d2d;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 61);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+    }
 }
 .brdProductsTamaran {
     @include mi.marginPercent(600, 10, auto, 0, auto);
     height: 2px;
     width: 100%;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 12, auto, 0, auto);
+    }
 }
 .txtProductsTamaran {
     @include mi.marginPercent(600, 35, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
 }

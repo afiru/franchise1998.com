@@ -20,7 +20,7 @@
 
                 <section class="secTamaranHireShinOsaka">
                     <h3 class="kaku cl_772D2D fw_500 txtset h3TamaranHireShinOsaka">■JR大阪駅構内</h3>
-                    <div class="d_flex j_between row secTamaranHireShinOsakaFx">
+                    <div class="d_flex j_start row secTamaranHireShinOsakaFx">
                         <ul class="ulTamaranHireShinOsakaFxLeft">
                             <li class="liTamaranHireShinOsakaFxLeft">
                                 <h4 class="kaku cl_772D2D fw_500 txtset h4TamaranHireShinOsakaFxLeft">アルデ新大阪店</h4>

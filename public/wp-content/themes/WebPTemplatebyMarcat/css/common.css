@@ -1564,7 +1564,7 @@ LAYOUT
   }
 }
 .rubyHeaderFixedSearch {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
@@ -2045,13 +2045,13 @@ LAYOUT
   }
 }
 .iconBtncloseHeaderFixedSearch {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.02em;
 }
 @media screen and (max-width: 767px) {
   .iconBtncloseHeaderFixedSearch {
     background-size: auto 70%;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.02em;
   }
 }
@@ -2784,7 +2784,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h2CntTopAbout {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.05em;
   }
 }
@@ -3331,7 +3331,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h2CntTopKikkake {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.05em;
   }
 }
@@ -4573,7 +4573,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h2TopSelect {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.1em;
   }
 }
@@ -4784,7 +4784,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -6174,7 +6174,7 @@ LAYOUT
   }
 }
 .rubyTopThinks {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
@@ -6183,7 +6183,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.1em;
   }
 }
@@ -6785,12 +6785,12 @@ LAYOUT
   }
 }
 .h2TopContact {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h2TopContact {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.1em;
   }
 }
@@ -7693,13 +7693,13 @@ LAYOUT
   }
 }
 .h2OnlineInfoFooter {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.1em;
   white-space: nowrap;
 }
 @media screen and (max-width: 767px) {
   .h2OnlineInfoFooter {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.1em;
   }
 }
@@ -7856,12 +7856,12 @@ LAYOUT
   }
 }
 .h2FooterBtmTitle {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h2FooterBtmTitle {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.1em;
   }
 }
@@ -8054,13 +8054,13 @@ LAYOUT
   }
 }
 .btnLiNavFooter {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 @media screen and (max-width: 767px) {
   .btnLiNavFooter {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -8809,7 +8809,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h2ConceptMovie {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.01em;
   }
 }
@@ -11967,7 +11967,7 @@ LAYOUT
   }
 }
 .btnCntConsulTingRoom {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0em;
   text-decoration: none;
 }
@@ -11981,7 +11981,7 @@ LAYOUT
     -moz-border-radius: 30px;
     /* Firefox用 */
     border: 1px solid #795e55;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -17059,6 +17059,14 @@ LAYOUT
   }
 }
 .txtMaterialFvBtmSec {
+  width: 850px;
+}
+@media screen and (max-width: 1299px) {
+  .txtMaterialFvBtmSec {
+    width: 65.38%;
+  }
+}
+.txtMaterialFvBtmSec {
   font-size: 16px;
 }
 @media screen and (max-width: 1299px) {
@@ -17440,7 +17448,7 @@ LAYOUT
   }
 }
 .h3MaterialInfo {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
@@ -17449,7 +17457,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.1em;
   }
 }
@@ -17988,12 +17996,12 @@ LAYOUT
   }
 }
 .h2SecStaffPatissier {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2SecStaffPatissier {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.05em;
   }
 }
@@ -18851,12 +18859,12 @@ LAYOUT
   }
 }
 .h2SecStaffConecierge {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2SecStaffConecierge {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.05em;
   }
 }
@@ -19703,12 +19711,12 @@ LAYOUT
   }
 }
 .h2SecStaffFlower {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2SecStaffFlower {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.05em;
   }
 }
@@ -21942,7 +21950,7 @@ LAYOUT
     padding-bottom: 4px;
     padding-left: 6px;
     padding-right: 0px;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -22404,7 +22412,7 @@ LAYOUT
   }
 }
 .txtLiPrintedCookieType {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
@@ -22413,7 +22421,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -23345,12 +23353,12 @@ LAYOUT
   }
 }
 .h3PrintedFlow {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h3PrintedFlow {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.1em;
   }
 }
@@ -23383,7 +23391,7 @@ LAYOUT
   }
 }
 .txtPrintedFlow {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
@@ -23392,7 +23400,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -23517,7 +23525,7 @@ LAYOUT
   }
 }
 .h4LiPrintedFlow {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0em;
   aspect-ratio: 338/20;
   display: flex;
@@ -23531,7 +23539,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
     aspect-ratio: 294/20;
   }
@@ -23573,7 +23581,7 @@ LAYOUT
   }
 }
 .linkLiPrintedFlow {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
@@ -23582,7 +23590,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.1em;
   }
 }
@@ -23868,12 +23876,12 @@ LAYOUT
   }
 }
 .h3DataPrintedAlertFx {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .h3DataPrintedAlertFx {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -23915,7 +23923,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -23987,12 +23995,12 @@ LAYOUT
   }
 }
 .h3TyuiPrintedAlertFx {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .h3TyuiPrintedAlertFx {
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -24034,7 +24042,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0em;
   }
 }
@@ -24697,7 +24705,7 @@ LAYOUT
   }
 }
 .txtBtnPrintedPrice {
-  line-height: auto0%;
+  line-height: normal;
   letter-spacing: 0.1em;
   text-decoration: none;
   text-align: center;
@@ -24708,7 +24716,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    line-height: auto0%;
+    line-height: normal;
     letter-spacing: 0.1em;
   }
 }
@@ -24723,6 +24731,2508 @@ LAYOUT
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtBtnPrintedPrice {
     font-size: 3.2vw;
+  }
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.tamaranCheese {
+  margin-top: 145px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranCheese {
+    margin-top: 7.55%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.tamaranCheese {
+  padding-top: 125px;
+  padding-bottom: 125px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranCheese {
+    padding: 6.51% 0% 6.51% 0%;
+  }
+}
+.tamaranCheese {
+  border-radius: 0 100px 0 0;
+}
+@media screen and (max-width: 767px) {
+  .tamaranCheese {
+    margin-top: 63px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranCheese {
+    margin-top: 16.8%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranCheese {
+    padding: 13.33% 0% 9.33% 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tamaranCheeseWap {
+    width: 330px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranCheeseWap {
+    width: 88%;
+  }
+}
+
+.h2TamaranCheese {
+  width: 588px;
+}
+@media screen and (max-width: 1299px) {
+  .h2TamaranCheese {
+    width: 45.23%;
+  }
+}
+.h2TamaranCheese {
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .h2TamaranCheese {
+    width: 100%;
+  }
+}
+
+.txtTamaranCheese {
+  margin-top: 46px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranCheese {
+    margin-top: 3.53%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtTamaranCheese {
+  width: 854px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranCheese {
+    width: 65.69%;
+  }
+}
+.txtTamaranCheese {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranCheese {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtTamaranCheese {
+  line-height: 2.125;
+}
+.txtTamaranCheese::before {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: calc((1 - 2.125) * 0.5em);
+  content: "";
+}
+.txtTamaranCheese::after {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-bottom: calc((1 - 2.125) * 0.5em);
+  content: "";
+}
+.txtTamaranCheese {
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtTamaranCheese {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtTamaranCheese {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtTamaranCheese {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtTamaranCheese {
+    font-size: 4.2666666667vw;
+  }
+}
+
+.photoTamaranCheese {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .photoTamaranCheese {
+    margin-top: 2.3%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.photoTamaranCheese {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .photoTamaranCheese {
+    margin-top: 28px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .photoTamaranCheese {
+    margin-top: 8.48%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.tamaranMvp {
+  margin-top: 125px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranMvp {
+    margin-top: 6.51%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tamaranMvp {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranMvp {
+    margin-top: 18.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tamaranMvpWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranMvpWap {
+    width: 88%;
+  }
+}
+
+.h2TamaranMvp {
+  width: 100%;
+}
+
+.tamaranMvpFx {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranMvpFx {
+    margin-top: 6.15%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tamaranMvpFx {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranMvpFx {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.photoTamaranMvp {
+  width: 618px;
+}
+@media screen and (max-width: 1299px) {
+  .photoTamaranMvp {
+    width: 47.53%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .photoTamaranMvp {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .photoTamaranMvp {
+    width: 100%;
+  }
+}
+
+.secTamaranMvp {
+  margin-top: 47px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .secTamaranMvp {
+    margin-top: 3.61%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.secTamaranMvp {
+  width: 598px;
+}
+@media screen and (max-width: 1299px) {
+  .secTamaranMvp {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secTamaranMvp {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secTamaranMvp {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.h3TamaranMvp {
+  font-size: 26px;
+}
+@media screen and (max-width: 1299px) {
+  .h3TamaranMvp {
+    font-size: 2.0015396459vw;
+  }
+}
+.h3TamaranMvp {
+  line-height: normal;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .h3TamaranMvp {
+    line-height: 160%;
+    letter-spacing: 0.05em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3TamaranMvp {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.txtTamaranMvp {
+  margin-top: 44px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranMvp {
+    margin-top: 7.35%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtTamaranMvp {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranMvp {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtTamaranMvp {
+  line-height: 2.125;
+}
+.txtTamaranMvp::before {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: calc((1 - 2.125) * 0.5em);
+  content: "";
+}
+.txtTamaranMvp::after {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-bottom: calc((1 - 2.125) * 0.5em);
+  content: "";
+}
+.txtTamaranMvp {
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtTamaranMvp {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtTamaranMvp {
+    margin-top: 7.57%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtTamaranMvp {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.picTamaranMvp {
+  margin-top: 44px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .picTamaranMvp {
+    margin-top: 7.35%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: 0%;
+  }
+}
+.picTamaranMvp {
+  width: 402px;
+}
+@media screen and (max-width: 1299px) {
+  .picTamaranMvp {
+    width: 67.22%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .picTamaranMvp {
+    margin-top: 19px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 224px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .picTamaranMvp {
+    margin-top: 5.75%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .picTamaranMvp {
+    width: 67.87%;
+  }
+}
+
+.productsTamaran {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .productsTamaran {
+    margin-top: 6.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsTamaran {
+    margin-top: 26px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .productsTamaran {
+    margin-top: 7.87%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.liProductsTamaran {
+  width: 618px;
+}
+@media screen and (max-width: 1299px) {
+  .liProductsTamaran {
+    width: 51.5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liProductsTamaran {
+    width: 100%;
+  }
+  .liProductsTamaran:nth-child(n+2) {
+    margin-top: 51px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liProductsTamaran:nth-child(n+2) {
+    margin-top: 15.45%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.h3LiProductsTamaran {
+  margin-top: 27px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .h3LiProductsTamaran {
+    margin-top: 4.36%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.h3LiProductsTamaran {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .h3LiProductsTamaran {
+    font-size: 1.2317167052vw;
+  }
+}
+.h3LiProductsTamaran {
+  line-height: normal;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .h3LiProductsTamaran {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: normal;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h3LiProductsTamaran {
+    margin-top: 7.57%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3LiProductsTamaran {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.cntLiProductsTamaran {
+  margin-top: 21px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .cntLiProductsTamaran {
+    margin: 3.39% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cntLiProductsTamaran {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .cntLiProductsTamaran {
+    margin-top: 3.03%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.nameLiProductsTamaran {
+  width: 528px;
+}
+@media screen and (max-width: 1299px) {
+  .nameLiProductsTamaran {
+    width: 85.43%;
+  }
+}
+.nameLiProductsTamaran {
+  align-items: baseline;
+}
+@media screen and (max-width: 767px) {
+  .nameLiProductsTamaran {
+    width: 266px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .nameLiProductsTamaran {
+    width: 80.6%;
+  }
+}
+
+.h4NameLiProductsTamaran {
+  font-size: 26px;
+}
+@media screen and (max-width: 1299px) {
+  .h4NameLiProductsTamaran {
+    font-size: 2.0015396459vw;
+  }
+}
+.h4NameLiProductsTamaran {
+  line-height: normal;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .h4NameLiProductsTamaran {
+    line-height: normal;
+    letter-spacing: 0.05em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h4NameLiProductsTamaran {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.txtNameLiProductsTamaran {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) and (max-width: 1299px) {
+  .txtNameLiProductsTamaran {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 3.78%;
+    margin-right: auto;
+  }
+}
+.txtNameLiProductsTamaran {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtNameLiProductsTamaran {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtNameLiProductsTamaran {
+  line-height: normal;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .txtNameLiProductsTamaran {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-right: auto;
+    line-height: normal;
+    letter-spacing: 0.05em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) and (max-width: 1299px) {
+  .txtNameLiProductsTamaran {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 6.01%;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtNameLiProductsTamaran {
+    font-size: 3.2vw;
+  }
+}
+
+.iconNameLiProductsTamaran {
+  width: 72px;
+}
+@media screen and (max-width: 1299px) {
+  .iconNameLiProductsTamaran {
+    width: 11.65%;
+  }
+}
+.iconNameLiProductsTamaran {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .iconNameLiProductsTamaran {
+    font-size: 1.077752117vw;
+  }
+}
+.iconNameLiProductsTamaran {
+  line-height: normal;
+  letter-spacing: 0.05em;
+  aspect-ratio: 72/35;
+  border-radius: 100px;
+  /* CSS3草案 */
+  -webkit-border-radius: 100px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 100px;
+  /* Firefox用 */
+  background: #772d2d;
+}
+@media screen and (max-width: 767px) {
+  .iconNameLiProductsTamaran {
+    width: 61px;
+    line-height: normal;
+    letter-spacing: 0.05em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .iconNameLiProductsTamaran {
+    width: 18.48%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .iconNameLiProductsTamaran {
+    font-size: 3.2vw;
+  }
+}
+
+.brdProductsTamaran {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .brdProductsTamaran {
+    margin-top: 1.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.brdProductsTamaran {
+  height: 2px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .brdProductsTamaran {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdProductsTamaran {
+    margin-top: 3.63%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.txtProductsTamaran {
+  margin-top: 35px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtProductsTamaran {
+    margin-top: 5.83%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtProductsTamaran {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtProductsTamaran {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtProductsTamaran {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtProductsTamaran {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtProductsTamaran {
+    margin-top: 6.06%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtProductsTamaran {
+    font-size: 3.7333333333vw;
+  }
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.tamaranCommitment {
+  margin-top: 125px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranCommitment {
+    margin-top: 6.51%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.tamaranCommitment {
+  padding-top: 124px;
+  padding-bottom: 163px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranCommitment {
+    padding: 6.45% 0% 8.48% 0%;
+  }
+}
+.tamaranCommitment {
+  border-radius: 0 100px 0 0;
+}
+@media screen and (max-width: 767px) {
+  .tamaranCommitment {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranCommitment {
+    margin-top: 18.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranCommitment {
+    padding: 13.33% 0% 13.33% 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tamaranCommitmentWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranCommitmentWap {
+    width: 88%;
+  }
+}
+
+.h2TamaranCommitment {
+  width: 1072px;
+}
+@media screen and (max-width: 1299px) {
+  .h2TamaranCommitment {
+    width: 82.46%;
+  }
+}
+.h2TamaranCommitment {
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .h2TamaranCommitment {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h2TamaranCommitment {
+    width: 100%;
+  }
+}
+
+.txtTamaranCommitment {
+  margin-top: 36px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranCommitment {
+    margin-top: 2.76%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtTamaranCommitment {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranCommitment {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtTamaranCommitment {
+  line-height: 180%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .txtTamaranCommitment {
+    margin-top: 32px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtTamaranCommitment {
+    margin-top: 9.69%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtTamaranCommitment {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.ulTamaranCommitment {
+  margin-top: 62px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .ulTamaranCommitment {
+    margin-top: 4.76%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ulTamaranCommitment {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .ulTamaranCommitment {
+    margin-top: 15.15%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.liTamaranCommitment {
+  width: 407px;
+}
+@media screen and (max-width: 1299px) {
+  .liTamaranCommitment {
+    width: 31.3%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liTamaranCommitment {
+    width: 100%;
+  }
+}
+.liTamaranCommitment:nth-child(n+4) {
+  margin-top: 52px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .liTamaranCommitment:nth-child(n+4) {
+    margin: 4% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liTamaranCommitment:nth-child(n+4) {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liTamaranCommitment:nth-child(n+4) {
+    margin-top: 6.06%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liTamaranCommitment:nth-child(n+2) {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liTamaranCommitment:nth-child(n+2) {
+    margin-top: 6.06%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.photoLiTamaranCommitment {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .photoLiTamaranCommitment {
+    width: 131px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .photoLiTamaranCommitment {
+    width: 39.69%;
+  }
+}
+
+.cntLiTamaranCommitment {
+  margin-top: 22px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .cntLiTamaranCommitment {
+    margin-top: 5.4%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cntLiTamaranCommitment {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 188px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .cntLiTamaranCommitment {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .cntLiTamaranCommitment {
+    width: 56.96%;
+  }
+}
+
+.intLiTamaranCommitment {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 17px;
+}
+@media screen and (max-width: 1299px) {
+  .intLiTamaranCommitment {
+    margin: 0% 4.17% 0% 0%;
+  }
+}
+.intLiTamaranCommitment {
+  width: 40px;
+}
+@media screen and (max-width: 1299px) {
+  .intLiTamaranCommitment {
+    width: 9.82%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .intLiTamaranCommitment {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 7px;
+    width: 20px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .intLiTamaranCommitment {
+    margin: 0% 3.72% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .intLiTamaranCommitment {
+    width: 10.63%;
+  }
+}
+
+.txtLiTamaranCommitment {
+  width: 350px;
+}
+@media screen and (max-width: 1299px) {
+  .txtLiTamaranCommitment {
+    width: 85.99%;
+  }
+}
+.txtLiTamaranCommitment {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtLiTamaranCommitment {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtLiTamaranCommitment {
+  line-height: 180%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .txtLiTamaranCommitment {
+    width: 161px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtLiTamaranCommitment {
+    width: 85.63%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtLiTamaranCommitment {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.txtLastTamaranCommitment {
+  margin-top: 64px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtLastTamaranCommitment {
+    margin-top: 4.92%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtLastTamaranCommitment {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .txtLastTamaranCommitment {
+    padding: 1.38% 0% 1.38% 0%;
+  }
+}
+.txtLastTamaranCommitment {
+  font-size: 20px;
+}
+@media screen and (max-width: 1299px) {
+  .txtLastTamaranCommitment {
+    font-size: 1.5396458814vw;
+  }
+}
+.txtLastTamaranCommitment {
+  line-height: normal;
+  letter-spacing: 0em;
+  border-radius: 21px;
+  /* CSS3草案 */
+  -webkit-border-radius: 21px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 21px;
+  /* Firefox用 */
+}
+@media screen and (max-width: 767px) {
+  .txtLastTamaranCommitment {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtLastTamaranCommitment {
+    margin-top: 12.12%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtLastTamaranCommitment {
+    padding: 4.84% 0% 4.84% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtLastTamaranCommitment {
+    font-size: 3.7333333333vw;
+  }
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.tamaranVoice {
+  padding-top: 0px;
+  padding-bottom: 163px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranVoice {
+    padding: 0% 0% 8.48% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tamaranVoice {
+    padding-top: 0px;
+    padding-bottom: 77px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranVoice {
+    padding: 0% 0% 23.33% 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tamaranVoiceWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranVoiceWap {
+    width: 88%;
+  }
+}
+
+.h2TamaranVoice {
+  width: 660px;
+}
+@media screen and (max-width: 1299px) {
+  .h2TamaranVoice {
+    width: 50.76%;
+  }
+}
+.h2TamaranVoice {
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .h2TamaranVoice {
+    width: 100%;
+  }
+}
+
+.ulTamaranVoiceLxn {
+  margin-top: 46px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .ulTamaranVoiceLxn {
+    margin-top: 3.53%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.ulTamaranVoiceLxn {
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .ulTamaranVoiceLxn {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .ulTamaranVoiceLxn {
+    margin-top: 7.57%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.liTamaranVoice {
+  padding-top: 39px;
+  padding-bottom: 33px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .liTamaranVoice {
+    padding: 3% 0% 2.53% 0%;
+  }
+}
+.liTamaranVoice {
+  width: 305px;
+}
+@media screen and (max-width: 1299px) {
+  .liTamaranVoice {
+    width: 23.46%;
+  }
+}
+.liTamaranVoice {
+  border-radius: 10px;
+  /* CSS3草案 */
+  -webkit-border-radius: 10px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 10px;
+  /* Firefox用 */
+}
+@media screen and (max-width: 767px) {
+  .liTamaranVoice {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liTamaranVoice {
+    padding: 7.57% 0% 7.57% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liTamaranVoice {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liTamaranVoice:nth-child(n+2) {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liTamaranVoice:nth-child(n+2) {
+    margin-top: 6.06%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.secLiTamaranVoice {
+  width: 258px;
+}
+@media screen and (max-width: 1299px) {
+  .secLiTamaranVoice {
+    width: 84.59%;
+  }
+}
+.secLiTamaranVoice {
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .secLiTamaranVoice {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secLiTamaranVoice {
+    width: 90.9%;
+  }
+}
+
+.h3LiTamaranVoice {
+  font-size: 18px;
+}
+@media screen and (max-width: 1299px) {
+  .h3LiTamaranVoice {
+    font-size: 1.3856812933vw;
+  }
+}
+.h3LiTamaranVoice {
+  line-height: normal;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .h3LiTamaranVoice {
+    line-height: normal;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3LiTamaranVoice {
+    font-size: 4.2666666667vw;
+  }
+}
+
+.rubyLiTamaranVoice {
+  margin-top: 13px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyLiTamaranVoice {
+    margin: 4.26% 0% 0% 0%;
+  }
+}
+.rubyLiTamaranVoice {
+  font-size: 12px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyLiTamaranVoice {
+    font-size: 0.9237875289vw;
+  }
+}
+.rubyLiTamaranVoice {
+  line-height: normal;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .rubyLiTamaranVoice {
+    margin-top: 11px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: normal;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .rubyLiTamaranVoice {
+    margin-top: 3.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .rubyLiTamaranVoice {
+    font-size: 3.2vw;
+  }
+}
+
+.txtLiTamaranVoice {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtLiTamaranVoice {
+    margin-top: 8.19%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtLiTamaranVoice {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtLiTamaranVoice {
+    font-size: 1.077752117vw;
+  }
+}
+.txtLiTamaranVoice {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtLiTamaranVoice {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtLiTamaranVoice {
+    margin-top: 6.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtLiTamaranVoice {
+    font-size: 3.2vw;
+  }
+}
+
+.picTamaranVoice {
+  width: 111px;
+}
+@media screen and (max-width: 1299px) {
+  .picTamaranVoice {
+    width: 8.53%;
+  }
+}
+.picTamaranVoice {
+  position: absolute;
+  bottom: -10%;
+  right: 2%;
+}
+@media screen and (max-width: 767px) {
+  .picTamaranVoice {
+    width: 60px;
+    bottom: -6%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .picTamaranVoice {
+    width: 18.18%;
+  }
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.tamaranHire {
+  margin-top: 135px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranHire {
+    margin-top: 7.03%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tamaranHire {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranHire {
+    margin-top: 18.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tamaranHireWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranHireWap {
+    width: 88%;
+  }
+}
+
+.h2TamaranHire {
+  width: 386px;
+}
+@media screen and (max-width: 1299px) {
+  .h2TamaranHire {
+    width: 29.69%;
+  }
+}
+.h2TamaranHire {
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .h2TamaranHire {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h2TamaranHire {
+    width: 78.78%;
+  }
+}
+
+.tamaranHireFx {
+  margin-top: 82px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranHireFx {
+    margin-top: 6.3%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tamaranHireFx {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranHireFx {
+    margin-top: 18.18%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.secTamaranHireOsaka {
+  margin-top: 82px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .secTamaranHireOsaka {
+    margin: 6.3% 0% 0% 0%;
+  }
+}
+.secTamaranHireOsaka {
+  width: 320px;
+}
+@media screen and (max-width: 1299px) {
+  .secTamaranHireOsaka {
+    width: 24.61%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secTamaranHireOsaka {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secTamaranHireOsaka {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.h3TamaranHireOsaka {
+  font-size: 26px;
+}
+@media screen and (max-width: 1299px) {
+  .h3TamaranHireOsaka {
+    font-size: 2.0015396459vw;
+  }
+}
+.h3TamaranHireOsaka {
+  line-height: normal;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .h3TamaranHireOsaka {
+    line-height: normal;
+    letter-spacing: 0.05em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3TamaranHireOsaka {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.h4TamaranHireOsaka {
+  margin-top: 39px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .h4TamaranHireOsaka {
+    margin: 12.18% 0% 0% 0%;
+  }
+}
+.h4TamaranHireOsaka {
+  font-size: 18px;
+}
+@media screen and (max-width: 1299px) {
+  .h4TamaranHireOsaka {
+    font-size: 1.3856812933vw;
+  }
+}
+.h4TamaranHireOsaka {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .h4TamaranHireOsaka {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h4TamaranHireOsaka {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h4TamaranHireOsaka {
+    font-size: 4.8vw;
+  }
+}
+
+.txtTamaranHireOsaka {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranHireOsaka {
+    margin: 4.37% 0% 0% 0%;
+  }
+}
+.txtTamaranHireOsaka {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranHireOsaka {
+    font-size: 1.077752117vw;
+  }
+}
+.txtTamaranHireOsaka {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtTamaranHireOsaka {
+    margin-top: 14px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtTamaranHireOsaka {
+    margin-top: 4.24%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtTamaranHireOsaka {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.secTamaranHireShinOsaka {
+  width: 854px;
+}
+@media screen and (max-width: 1299px) {
+  .secTamaranHireShinOsaka {
+    width: 65.69%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secTamaranHireShinOsaka {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secTamaranHireShinOsaka {
+    margin-top: 18.18%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.h3TamaranHireShinOsaka {
+  font-size: 26px;
+}
+@media screen and (max-width: 1299px) {
+  .h3TamaranHireShinOsaka {
+    font-size: 2.0015396459vw;
+  }
+}
+.h3TamaranHireShinOsaka {
+  line-height: normal;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .h3TamaranHireShinOsaka {
+    line-height: normal;
+    letter-spacing: 0.05em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3TamaranHireShinOsaka {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.secTamaranHireShinOsakaFx {
+  margin-top: 39px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .secTamaranHireShinOsakaFx {
+    margin-top: 4.56%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.liTamaranHireShinOsakaFxLeft {
+  width: 361px;
+}
+@media screen and (max-width: 1299px) {
+  .liTamaranHireShinOsakaFxLeft {
+    width: 42.27%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liTamaranHireShinOsakaFxLeft {
+    width: 100%;
+  }
+}
+.liTamaranHireShinOsakaFxLeft:nth-child(n+2) {
+  margin-top: 41px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .liTamaranHireShinOsakaFxLeft:nth-child(n+2) {
+    margin-top: 4.8%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liTamaranHireShinOsakaFxLeft:nth-child(n+2) {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liTamaranHireShinOsakaFxLeft:nth-child(n+2) {
+    margin-top: 10.6%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.h4TamaranHireShinOsakaFxLeft {
+  font-size: 18px;
+}
+@media screen and (max-width: 1299px) {
+  .h4TamaranHireShinOsakaFxLeft {
+    font-size: 1.3856812933vw;
+  }
+}
+.h4TamaranHireShinOsakaFxLeft {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .h4TamaranHireShinOsakaFxLeft {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h4TamaranHireShinOsakaFxLeft {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h4TamaranHireShinOsakaFxLeft {
+    font-size: 4.8vw;
+  }
+}
+
+.txtTamaranHireShinOsakaFxLeft {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranHireShinOsakaFxLeft {
+    margin: 3.87% 0% 0% 0%;
+  }
+}
+.txtTamaranHireShinOsakaFxLeft {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranHireShinOsakaFxLeft {
+    font-size: 1.077752117vw;
+  }
+}
+.txtTamaranHireShinOsakaFxLeft {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtTamaranHireShinOsakaFxLeft {
+    margin-top: 14px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtTamaranHireShinOsakaFxLeft {
+    margin-top: 4.24%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtTamaranHireShinOsakaFxLeft {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.h4TamaranHireShinOsakaFxRight {
+  font-size: 18px;
+}
+@media screen and (max-width: 1299px) {
+  .h4TamaranHireShinOsakaFxRight {
+    font-size: 1.3856812933vw;
+  }
+}
+.h4TamaranHireShinOsakaFxRight {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .h4TamaranHireShinOsakaFxRight {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h4TamaranHireShinOsakaFxRight {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h4TamaranHireShinOsakaFxRight {
+    font-size: 4.8vw;
+  }
+}
+
+.txtTamaranHireShinOsakaFxRight {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranHireShinOsakaFxRight {
+    margin: 3.87% 0% 0% 0%;
+  }
+}
+.txtTamaranHireShinOsakaFxRight {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTamaranHireShinOsakaFxRight {
+    font-size: 1.077752117vw;
+  }
+}
+.txtTamaranHireShinOsakaFxRight {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtTamaranHireShinOsakaFxRight {
+    margin-top: 14px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtTamaranHireShinOsakaFxRight {
+    margin-top: 4.24%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtTamaranHireShinOsakaFxRight {
+    font-size: 3.7333333333vw;
+  }
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.tamaranOnline {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranOnline {
+    margin-top: 4.16%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tamaranOnline {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranOnline {
+    margin-top: 13.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tamaranOnlineWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranOnlineWap {
+    width: 88%;
+  }
+}
+
+.tamaranOnlineLxn {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranOnlineLxn {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.tamaranOnlineLxn {
+  padding-top: 11px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranOnlineLxn {
+    padding: 0.57% 0% 0.26% 0%;
+  }
+}
+.tamaranOnlineLxn {
+  width: 1209px;
+}
+@media screen and (max-width: 1299px) {
+  .tamaranOnlineLxn {
+    width: 93%;
+  }
+}
+.tamaranOnlineLxn {
+  border-radius: 10px;
+  /* CSS3草案 */
+  -webkit-border-radius: 10px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 10px;
+  /* Firefox用 */
+}
+@media screen and (max-width: 767px) {
+  .tamaranOnlineLxn {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranOnlineLxn {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranOnlineLxn {
+    padding: 6.4% 0% 8% 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tamaranOnlineFx {
+    width: 302px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .tamaranOnlineFx {
+    width: 91.51%;
+  }
+}
+
+.phoTotamaranOnline {
+  width: 491px;
+}
+@media screen and (max-width: 1299px) {
+  .phoTotamaranOnline {
+    width: 40.61%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .phoTotamaranOnline {
+    width: 100%;
+  }
+}
+
+.secTotamaranOnline {
+  margin-top: 52px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .secTotamaranOnline {
+    margin: 4.3% 0% 0% 0%;
+  }
+}
+.secTotamaranOnline {
+  width: 632px;
+}
+@media screen and (max-width: 1299px) {
+  .secTotamaranOnline {
+    width: 52.27%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secTotamaranOnline {
+    margin-top: 34px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .secTotamaranOnline {
+    margin-top: 11.25%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.h2TotamaranOnline {
+  width: 389px;
+}
+@media screen and (max-width: 1299px) {
+  .h2TotamaranOnline {
+    width: 61.55%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .h2TotamaranOnline {
+    margin-top: 34px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h2TotamaranOnline {
+    margin-top: 11.25%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.txtTotamaranOnline {
+  margin-top: 34px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtTotamaranOnline {
+    margin-top: 5.37%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtTotamaranOnline {
+  font-size: 18px;
+}
+@media screen and (max-width: 1299px) {
+  .txtTotamaranOnline {
+    font-size: 1.3856812933vw;
+  }
+}
+.txtTotamaranOnline {
+  line-height: 1.6666666667;
+}
+.txtTotamaranOnline::before {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: calc((1 - 1.6666666667) * 0.5em);
+  content: "";
+}
+.txtTotamaranOnline::after {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-bottom: calc((1 - 1.6666666667) * 0.5em);
+  content: "";
+}
+.txtTotamaranOnline {
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtTotamaranOnline {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.875;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtTotamaranOnline {
+    margin-top: 6.62%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtTotamaranOnline {
+    font-size: 4.2666666667vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtTotamaranOnline::before {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: calc((1 - 1.875) * 0.5em);
+    content: "";
+  }
+  .txtTotamaranOnline::after {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-bottom: calc((1 - 1.875) * 0.5em);
+    content: "";
+  }
+}
+
+.ulTotamaranOnline {
+  margin-top: 37px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .ulTotamaranOnline {
+    margin-top: 5.85%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.ulTotamaranOnline {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .ulTotamaranOnline {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .ulTotamaranOnline {
+    margin-top: 8.3%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.liTotamaranOnline {
+  width: 146px;
+}
+@media screen and (max-width: 1299px) {
+  .liTotamaranOnline {
+    width: 23.1%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liTotamaranOnline {
+    width: 146px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liTotamaranOnline {
+    width: 48.5%;
   }
 }
 
@@ -24751,6 +27261,14 @@ and open the template in the editor.
   background: #ea670f;
 }
 
+.bg_FFF4D4 {
+  background: #FFF4D4;
+}
+
+.bg_FFFBF0 {
+  background: #FFFBF0;
+}
+
 .bg_795E55 {
   background: #795E55;
 }
@@ -24773,6 +27291,10 @@ and open the template in the editor.
 
 .bg_421D12 {
   background: #421d12;
+}
+
+.bg_FFE386 {
+  background: #FFE386;
 }
 
 .bg_fff {
@@ -24805,6 +27327,18 @@ and open the template in the editor.
 
 .cl_31150D {
   color: #31150d;
+}
+
+.cl_B5654E {
+  color: #B5654E;
+}
+
+.cl_6C6262 {
+  color: #6C6262;
+}
+
+.cl_772D2D {
+  color: #772D2D;
 }
 
 .cl_764646 {
