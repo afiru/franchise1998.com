@@ -9,12 +9,16 @@
         <ul class="d_flex j_start ulPartyPlanSideMenu">
             <?php foreach (scf::get('loopSideMenu') as $fields): ?>
                 <li class="liPartyPlanSideMenu">
-                    <figure class="photoPartyPlanSideMenu">
-                        <?php $img = get_scf_img_loop_url_id($fields['imgsSideMenu']); ?>
-                        <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleSideMenu']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
-                    </figure>
-                    <h4 class="cl_772D2D fw_500 txtset h4PartyPlanSideMenu"><?php echo $fields['titleSideMenu']; ?></h4>
-                    <p class="cl_772D2D fw_600 txtset pricePartyPlanSideMenu"><?php echo $fields['priceSideMenu']; ?></p>
+                    <div class="d_flex j_between row liPartyPlanSideMenuFx">
+                        <figure class="photoPartyPlanSideMenu">
+                            <?php $img = get_scf_img_loop_url_id($fields['imgsSideMenu']); ?>
+                            <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleSideMenu']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
+                        </figure>
+                        <section class="secPartyPlanSideMenuFx">
+                            <h4 class="cl_772D2D fw_500 txtset h4PartyPlanSideMenu"><?php echo $fields['titleSideMenu']; ?></h4>
+                            <p class="cl_772D2D fw_600 txtset pricePartyPlanSideMenu"><?php echo $fields['priceSideMenu']; ?></p>
+                        </section>
+                    </div>
                     <p class="cl_453C3C fw_400 txtset text_justify txtPartyPlanSideMenu">
                         <?php echo nl2br($fields['txtSideMenu']); ?>
                     </p>

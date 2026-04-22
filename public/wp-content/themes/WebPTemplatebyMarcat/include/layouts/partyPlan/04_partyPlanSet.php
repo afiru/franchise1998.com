@@ -18,7 +18,7 @@
             </figure>
 
             <section class="secDetailPartyPlan">
-                <div class="d_flex j_between titleDetailPartyPlan">
+                <div class="d_flex j_start titleDetailPartyPlan">
                     <figure class="iconTitleDetailPartyPlan">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                             <path d="M0 0H16V16H0V0Z" fill="#453C3C" />
@@ -42,7 +42,7 @@
                     </section>
                     <section class="tyuiMenuExeDetailPartyPlan">
                         <p class="cl_453C3C fw_400 txtset txtTyuiMenuExeDetailPartyPlan">色とりどりの野菜がたっぷり入った見た目も鮮やかで、身体にもおいしいナチュラルガーデンの特製オードブルです。</p>
-                        <p class="cl_6C6262 fw_400 txtset txtTyuiMenuExeDetailPartyPlan">※一部メニューが変更となる場合がございます。</p>
+                        <p class="cl_6C6262 fw_400 txtset txtTyuiMenuExeDetailPartyPlan02">※一部メニューが変更となる場合がございます。</p>
                     </section>
                 </div>
             </section>
@@ -56,7 +56,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photoDetailPartyPlanOther01Pc.png'); ?>" alt="<?php echo esc_attr('選べるピザ【直径約30cm/8ピース】'); ?>" width="330" height="211">
                         </picture>
                     </figure>
-                    <div class="d_flex j_between ali_center titleDetailPartyPlanOther">
+                    <div class="d_flex j_start ali_center titleDetailPartyPlanOther">
                         <figure class="iconTitleDetailPartyPlanOther">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                 <path d="M0 0H16V16H0V0Z" fill="#453C3C" />
@@ -78,7 +78,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photoDetailPartyPlanOther02Pc.png'); ?>" alt="<?php echo esc_attr('選べるピザ【直径約30cm/8ピース】'); ?>" width="330" height="211">
                         </picture>
                     </figure>
-                    <div class="d_flex j_between ali_center titleDetailPartyPlanOther">
+                    <div class="d_flex j_start ali_center titleDetailPartyPlanOther">
                         <figure class="iconTitleDetailPartyPlanOther">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                 <path d="M0 0H16V16H0V0Z" fill="#453C3C" />
@@ -100,7 +100,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photoDetailPartyPlanOther03Pc.png'); ?>" alt="<?php echo esc_attr('選べるピザ【直径約30cm/8ピース】'); ?>" width="330" height="211">
                         </picture>
                     </figure>
-                    <div class="d_flex j_between ali_center titleDetailPartyPlanOther">
+                    <div class="d_flex j_start ali_center titleDetailPartyPlanOther">
                         <figure class="iconTitleDetailPartyPlanOther">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                 <path d="M0 0H16V16H0V0Z" fill="#453C3C" />
