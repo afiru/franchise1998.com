@@ -15,12 +15,16 @@
             <ul class="d_flex j_start ulProductsPlanGiftGoods">
                 <?php foreach (scf::get('loopPlanFlower') as $fields): ?>
                     <li class="liProductsPlanGiftGoods">
-                        <figure class="photoProductsPlanGiftGoods">
-                            <?php $img = get_scf_img_loop_url_id($fields['imgLoopPlanFlower']); ?>
-                            <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleLoopPlanFlower']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
-                        </figure>
-                        <h4 class="cl_772D2D fw_500 txtset h4ProductsPlanGiftGoods"><?php echo $fields['titleLoopPlanFlower']; ?></h4>
-                        <p class="cl_772D2D fw_600 txtset priceProductsPlanGiftGoods"><?php echo $fields['priceLoopPlanFlower']; ?></p>
+                        <div class="d_flex j_between row liProductsPlanGiftGoodsFx">
+                            <figure class="photoProductsPlanGiftGoods">
+                                <?php $img = get_scf_img_loop_url_id($fields['imgLoopPlanFlower']); ?>
+                                <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleLoopPlanFlower']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
+                            </figure>
+                            <section class="secProductsPlanGiftGoods">
+                                <h4 class="cl_772D2D fw_500 txtset h4ProductsPlanGiftGoods"><?php echo $fields['titleLoopPlanFlower']; ?></h4>
+                                <p class="cl_772D2D fw_600 txtset priceProductsPlanGiftGoods"><?php echo $fields['priceLoopPlanFlower']; ?></p>
+                            </section>
+                        </div>
                         <p class="cl_453C3C fw_400 txtset text_justify txtProductsPlanGiftGoods">
                             <?php echo nl2br($fields['txtLoopPlanFlower']); ?>
                         </p>
@@ -44,12 +48,17 @@
             <ul class="d_flex j_start ulProductsPlanGiftGoods">
                 <?php foreach (scf::get('loopProductsSouvenir') as $fields): ?>
                     <li class="liProductsPlanGiftGoods">
-                        <figure class="photoProductsPlanGiftGoods">
-                            <?php $img = get_scf_img_loop_url_id($fields['imgloopProductsSouvenir']); ?>
-                            <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleloopProductsSouvenir']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
-                        </figure>
-                        <h4 class="cl_772D2D fw_500 txtset h4ProductsPlanGiftGoods"><?php echo $fields['titleloopProductsSouvenir']; ?></h4>
-                        <p class="cl_772D2D fw_600 txtset priceProductsPlanGiftGoods"><?php echo $fields['priceloopProductsSouvenir']; ?></p>
+                        <div class="d_flex j_between row liProductsPlanGiftGoodsFx">
+                            <figure class="photoProductsPlanGiftGoods">
+                                <?php $img = get_scf_img_loop_url_id($fields['imgloopProductsSouvenir']); ?>
+                                <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleloopProductsSouvenir']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
+                            </figure>
+                            <section class="secProductsPlanGiftGoods">
+                                <h4 class="cl_772D2D fw_500 txtset h4ProductsPlanGiftGoods"><?php echo $fields['titleloopProductsSouvenir']; ?></h4>
+                                <p class="cl_772D2D fw_600 txtset priceProductsPlanGiftGoods"><?php echo $fields['priceloopProductsSouvenir']; ?></p>
+                            </section>
+                        </div>
+
                         <p class="cl_453C3C fw_400 txtset text_justify txtProductsPlanGiftGoods">
                             <?php echo nl2br($fields['txtloopProductsSouvenir']); ?>
                         </p>
@@ -73,12 +82,17 @@
             <ul class="d_flex j_start ulProductsPlanGiftGoods">
                 <?php foreach (scf::get('loopProductsCandle') as $fields): ?>
                     <li class="liProductsPlanGiftGoods">
-                        <figure class="photoProductsPlanGiftGoods">
-                            <?php $img = get_scf_img_loop_url_id($fields['imgloopProductsCandle']); ?>
-                            <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleloopProductsCandle']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
-                        </figure>
-                        <h4 class="cl_772D2D fw_500 txtset h4ProductsPlanGiftGoods"><?php echo $fields['titleloopProductsCandle']; ?></h4>
-                        <p class="cl_772D2D fw_600 txtset priceProductsPlanGiftGoods"><?php echo $fields['priceloopProductsCandle']; ?></p>
+                        <div class="d_flex j_between row liProductsPlanGiftGoodsFx">
+                            <figure class="photoProductsPlanGiftGoods">
+                                <?php $img = get_scf_img_loop_url_id($fields['imgloopProductsCandle']); ?>
+                                <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleloopProductsCandle']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
+                            </figure>
+                            <section class="secProductsPlanGiftGoods">
+                                <h4 class="cl_772D2D fw_500 txtset h4ProductsPlanGiftGoods"><?php echo $fields['titleloopProductsCandle']; ?></h4>
+                                <p class="cl_772D2D fw_600 txtset priceProductsPlanGiftGoods"><?php echo $fields['priceloopProductsCandle']; ?></p>
+                            </section>
+                        </div>
+
                         <?php if (!empty($fields['txtloopProductsCandle'])): ?>
                             <p class="cl_453C3C fw_400 txtset text_justify txtProductsPlanGiftGoods">
                                 <?php echo nl2br($fields['txtloopProductsCandle']); ?>
