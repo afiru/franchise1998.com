@@ -1,8 +1,140 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.memberShops {
+    @include mi.paddingPercent(1920, 0, 0, 125, 0);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 0, 0, 55, 0);
+    }
+}
+.memberShopsWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.secMemberShops {
+}
+.h2MemberShops {
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulMemberShops {
+    @include mi.marginPercent(1300, 26, auto, 0, auto);
+    align-items: stretch;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
+}
+.liMemberShops {
+    @include mi.ontenerWidth(1300, 291);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 157);
+    }
+    &:nth-child(n + 3) {
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 35, 0, 0, 0);
+        }
+    }
+    &:nth-child(n + 5) {
+        @include mi.marginPercent(1300, 53, 0, 0, 0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 35, 0, 0, 0);
+        }
+    }
+}
+.photoMemberShops {
+}
+.h3MemberShops {
+    @include mi.marginPercent(291, 20, auto, 0, auto);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(157, 14, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.h4MemberShops {
+    @include mi.marginPercent(291, 17, auto, 0, auto);
+    @include mi.fontSizePc(15);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.marginPercent(157, 10, auto, 0, auto);
+    @include mi.fontSizeSp(12);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+}
+.txtMemberShops {
+    @include mi.marginPercent(291, 18, auto, 36, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.marginPercent(157, 16, auto, 15, auto);
+    @include mi.fontSizeSp(12);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+
+.btnMemberShopsLxn {
+    margin: auto auto 0 auto;
+    @include mi.ontenerWidth(291, 145);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(157, 124);
+    }
+}
+.btnMemberShops {
+    aspect-ratio: 145/35;
+    @include mi.kadomaru(30px);
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(20);
+    @include mi.letterSpacing(0);
+    border: 1px solid #f04e11;
+    background-color: #fff;
+    background-image: url(../img/member/iconBtnWeddingVenue.svg);
+    background-repeat: no-repeat;
+    background-position: 93% center;
+    background-size: auto 40%;
+    text-decoration: none;
+    text-align: center;
+    @include mi.mq(sp) {
+        aspect-ratio: 124/30;
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(20);
+        @include mi.letterSpacing(0);
+    }
+}
+.icnBtnMemberShops {
+    @include mi.ontenerWidth(145, 125);
+    margin: auto;
+    @include mi.mq(sp) {
+    }
+    @include mi.ontenerWidth(124, 104);
+}
+.textLastMemberShops {
+    @include mi.marginPercent(1300, 30, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 50, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}

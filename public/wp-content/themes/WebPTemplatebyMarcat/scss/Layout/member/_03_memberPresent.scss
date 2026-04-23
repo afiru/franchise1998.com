@@ -8,79 +8,158 @@ LAYOUT
 ========================================================================== */
 .memberPresent {
     @include mi.marginPercent(1920, 93, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 77, auto, 0, auto);
+    }
 }
 .memberPresentWap {
-    @include mi.paddingPercent(1920, 55, 0, 50, 0);
-    @include mi.kadomaru(10px);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
 }
 .memberPresentMain {
-    @include mi.ontenerWidth(1300, 1096);
-    margin: auto;
+    @include mi.paddingPercent(1300, 55, 0, 50, 0);
+    @include mi.kadomaru(10px);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 40, 0, 30, 0);
+    }
 }
 .memberPresentMainLxn {
+    @include mi.ontenerWidth(1300, 1096);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 301);
+    }
 }
 .h2MemberPresentMain {
     @include mi.fontSizePc(40);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(10);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(32);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
 }
 .h3MemberPresentMain {
     @include mi.marginPercent(1300, 25, auto, 0, auto);
     @include mi.fontSizePc(24);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(40);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 23, auto, 0, auto);
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .rubyMemberPresentMain {
     @include mi.marginPercent(1300, 15, auto, 0, auto);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 13, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
 }
 
 .brdMemberPresentMain {
+    @include mi.marginPercent(1096, 20, auto, 0, auto);
     height: 1px;
     width: 100%;
+    background: #d9d9d9;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+    }
 }
 .ulMemberPresentMain {
     @include mi.marginPercent(1096, 41, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
 }
 .liMemberPresentMain {
     @include mi.ontenerWidth(1096, 522);
+    @include mi.mq(sp) {
+        width: 100%;
+        &:nth-child(n + 2) {
+            @include mi.marginPercent(300, 30, auto, 0, auto);
+        }
+    }
 }
 .picliMemberPresentMain {
     @include mi.ontenerWidth(522, 162);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(301, 84);
+    }
 }
 .secMemberPresentMain {
-    @include mi.ontenerWidth(522, 366);
+    @include mi.ontenerWidth(522, 336);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(301, 200);
+    }
 }
 .titleMemberPresentMain {
+    align-items: baseline;
 }
 .h3TitleMemberPresentMain {
     @include mi.fontSizePc(12);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(100);
+    }
 }
 .intTitleMemberPresentMain {
     @include mi.marginPercent(366, 0, auto, 0, 8);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(200, 0, auto, 0, 8);
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(100);
+    }
 }
 .h4MemberPresentMain {
     @include mi.marginPercent(366, 14, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(200, 13, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
 }
 .rubyMemberPresentMain {
     @include mi.marginPercent(366, 15, auto, 0, auto);
-    @include mi.fontSizePc(10);
+    @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
-    @include mi.letterSpacing(20);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(366, 15, auto, 0, auto);
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(20);
+    }
 }
 .txtMemberPresentMain {
     @include mi.marginPercent(366, 18, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(366, 20, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
 }
