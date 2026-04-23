@@ -1,8 +1,19 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+
+.memberPointsystem {
+    @include mi.marginPercent(1920, 85, auto, 0, auto);
+    @include mi.paddingPercent(1920, 100, 0, 100, 0);
+}
+.memberPointsystemWap {
+}
+.secMemberPointsystem {
+}
+.h2MemberPointsystem {
+}
