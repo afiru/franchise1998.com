@@ -12,11 +12,11 @@
                         </figure>
                         <h3 class="cl_453C3C fw_500 txtset h3MemberShops"><?php echo $fields['titleloopMemberShop']; ?></h3>
                         <h4 class="cl_453C3C fw_400 txtse h4MemberShops"><?php echo $fields['genreloopMemberShop']; ?></h4>
-                        <p class="cl_453C3C fw_400 txtset text_justify txtMemberShops">
+                        <p class="cl_453C3C fw_400 txtset kaku text_justify txtMemberShops">
                             <?php echo nl2br($fields['txtloopMemberShop']); ?>
                         </p>
                         <div class="btnMemberShopsLxn">
-                            <a class="d_flex j_center ali_center txtset t_center cl_F04E11 fw_500 btnMemberShops">
+                            <a class="d_flex j_center ali_center txtset t_center cl_F04E11 fw_500 btnMemberShops" href="<?php echo $fields['urlloopMemberShop']; ?>">
                                 <span class="icnBtnMemberShops">サイトはこちら</span>
                                 <!--bg:../img/member/icnBtnMemberShops.svg-->
                             </a>
