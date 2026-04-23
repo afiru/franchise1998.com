@@ -105,7 +105,7 @@
             </div>
         </section>
 
-        <section class="secTakeOutMenuPartyBookings">
+        <section class="secTakeOutMenuPartyBookingsOut">
             <h2 class="t_center cl_453C3C fw_400 h2TakeOutMenuPartyBookings">
                 その他にもテイクアウトメニュー多数ございます。<br>くわしくは各店舗までお問い合わせください。
             </h2>
@@ -126,7 +126,7 @@
                             カフェを併設した<br>おしゃれなベーカリー
                         </p>
                         <div class="linkTakeOutMenuPartyBookingsLxn">
-                            <a class="d_flex j_center ali_center bg_fff cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
+                            <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
                                 <span class="iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
                             </a>
                         </div>
@@ -148,7 +148,7 @@
                             旬の食材の自然食レストラン<br>手づくり豆腐・安心なお米・お惣菜・お弁当販売
                         </p>
                         <div class="linkTakeOutMenuPartyBookingsLxn">
-                            <a class="d_flex j_center ali_center bg_fff cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
+                            <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
                                 <span class="iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
                                 <!--bg:../img/iconLinkTakeOutMenuPartyBookingsLxn.svg-->
                             </a>
@@ -171,7 +171,7 @@
                             創作イタリアンレストラン<br>＜サンパレス2F＞
                         </p>
                         <div class="linkTakeOutMenuPartyBookingsLxn">
-                            <a class="d_flex j_center ali_center bg_fff cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
+                            <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
                                 <span class="iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
                             </a>
                         </div>
