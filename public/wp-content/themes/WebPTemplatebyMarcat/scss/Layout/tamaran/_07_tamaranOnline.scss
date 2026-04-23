@@ -1,8 +1,82 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.tamaranOnline {
+    @include mi.marginPercent(1920, 80, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+    }
+}
+.tamaranOnlineWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.tamaranOnlineLxn {
+    @include mi.marginPercent(1300, 0, auto, 0, auto);
+    @include mi.paddingPercent(1920, 11, 0, 5, 0);
+    @include mi.ontenerWidth(1300, 1209);
+    @include mi.kadomaru(10px);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 0, auto, 0, auto);
+        @include mi.paddingPercent(375, 24, 0, 30, 0);
+        width: 100%;
+    }
+}
+.tamaranOnlineFx {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 302);
+        margin: auto;
+    }
+}
+.phoTotamaranOnline {
+    @include mi.ontenerWidth(1209, 491);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.secTotamaranOnline {
+    @include mi.marginPercent(1209, 52, 0, 0, 0);
+    @include mi.ontenerWidth(1209, 632);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(302, 34, auto, 0, auto);
+        width: 100%;
+    }
+}
+.h2TotamaranOnline {
+    @include mi.ontenerWidth(632, 389);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(302, 34, auto, 0, auto);
+        width: 100%;
+    }
+}
+.txtTotamaranOnline {
+    @include mi.marginPercent(632, 34, auto, 0, auto);
+    @include mi.fontSizePc(18);
+    @include mi.lineheight(18, 30);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(302, 20, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheight(16, 30);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulTotamaranOnline {
+    @include mi.marginPercent(632, 37, auto, 0, auto);
+    width: 100%;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(301, 25, auto, 0, auto);
+    }
+}
+.liTotamaranOnline {
+    @include mi.ontenerWidth(632, 146);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(301, 146);
+    }
+}

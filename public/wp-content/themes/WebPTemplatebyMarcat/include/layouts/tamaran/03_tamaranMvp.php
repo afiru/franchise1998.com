@@ -72,7 +72,7 @@
                     <h3 class="cl_772D2D kaku fw_500 h3LiProductsTamaran">とろける口溶けふわとろスフレチーズケーキ</h3>
                     <div class="d_flex j_between cntLiProductsTamaran">
                         <div class="d_flex j_start nameLiProductsTamaran">
-                            <h4 class="cl_772D2D kaku fw_500 txtset h4NameLiProductsTamaran">たま卵チーズ ショコラミルク味</h4>
+                            <h4 class="cl_772D2D kaku fw_500 txtset h4NameLiProductsTamaran">たま卵チーズ <br class="sp_only">ショコラミルク味</h4>
                             <p class="cl_772D2D kaku fw_500 txtset txtNameLiProductsTamaran">8個入り</p>
                         </div>
                         <p class="d_flex j_center ali_center bg_772D2D cl_fff fw_400 iconNameLiProductsTamaran">要冷蔵</p>

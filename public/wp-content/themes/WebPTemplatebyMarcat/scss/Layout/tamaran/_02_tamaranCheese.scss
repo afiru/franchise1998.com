@@ -10,15 +10,26 @@ LAYOUT
     @include mi.marginPercent(1920, 145, auto, 0, auto);
     @include mi.paddingPercent(1920, 125, 0, 125, 0);
     border-radius: 0 100px 0 0;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 63, auto, 0, auto);
+        @include mi.paddingPercent(375, 50, 0, 35, 0);
+    }
 }
 
 .tamaranCheeseWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
 }
 .secTamaranCheese {
 }
 .h2TamaranCheese {
     @include mi.ontenerWidth(1300, 588);
     margin: auto;
+    @include mi.mq(sp) {
+        width: 100%;
+    }
 }
 .txtTamaranCheese {
     @include mi.marginPercent(1300, 46, auto, 0, auto);
@@ -26,8 +37,18 @@ LAYOUT
     @include mi.fontSizePc(16);
     @include mi.lineheight(16, 34);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 330);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
 }
 .photoTamaranCheese {
     @include mi.marginPercent(1300, 30, auto, 0, auto);
     width: 100%;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 28, auto, 0, auto);
+    }
 }
