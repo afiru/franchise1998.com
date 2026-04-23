@@ -1,0 +1,53 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.voiceFv {
+}
+.voiceFvWap {
+}
+.secVoiceWap {
+}
+.h2VoiceFvWap {
+    @include mi.fontSizePc(60);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(100);
+}
+.h3VoiceFvWap {
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+}
+.bordVoiceFvWap {
+    position: relative;
+    @include mi.marginPercent(1920, 53, auto, 0, auto);
+    @include mi.paddingPercent(1920, 30, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+        @include mi.paddingPercent(375, 50, 0, 0, 0);
+    }
+}
+.brdLongBordVoiceFvWap {
+    height: 2px;
+    width: 900%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.brdShortBordVoiceFvWap {
+    @include mi.ontenerWidth(1920, 50);
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 50);
+    }
+}
