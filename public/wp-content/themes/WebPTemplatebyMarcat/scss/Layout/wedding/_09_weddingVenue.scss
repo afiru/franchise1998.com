@@ -1,8 +1,146 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.weddingVenue {
+    @include mi.marginPercent(1920, 125, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 100, auto, 0, auto);
+    }
+}
+.weddingVenueWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.secWeddingVenue {
+}
+.h2WeddingVenue {
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(10);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(32);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+.rubyWeddingVenue {
+    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.h3WeddingVenue {
+    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 70, auto, 0, auto);
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtWeddingVenue {
+    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.photoWeddingVenue {
+    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
+}
+.ulWeddingVenue {
+    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+    }
+}
+.liWeddingVenue {
+    @include mi.ontenerWidth(1300, 305);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 158);
+    }
+}
+.photoWeddingVenue {
+}
+.rubyWeddingVenue {
+    @include mi.marginPercent(305, 20, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(158, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtWeddingVenue {
+    @include mi.marginPercent(1300, 72, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.btnWeddingVenueLxn {
+    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 240);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 40, auto, 0, auto);
+        @include mi.ontenerWidth(300, 240);
+    }
+}
+.btnWeddingVenue {
+    aspect-ratio: 240/40;
+    @include mi.kadomaru(30px);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    border: 1px solid #f04e11;
+    text-decoration: none;
+    text-align: center;
+    @include mi.mq(sp) {
+        aspect-ratio: 240/40;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.iconBtnWeddingVenue {
+    @include mi.ontenerWidth(240, 212);
+    background: url(../img/wedding/iconBtnWeddingVenue.svg) no-repeat right
+        center;
+    background-size: auto 20%;
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(240, 212);
+    }
+}

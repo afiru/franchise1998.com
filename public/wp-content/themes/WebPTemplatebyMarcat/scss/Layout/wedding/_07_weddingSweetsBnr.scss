@@ -1,8 +1,153 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.weddingSweetsBnr {
+    @include mi.marginPercent(1920, 40, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+    }
+}
+.weddingSweetsBnrWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.weddingSweetsBnrBx {
+    @include mi.paddingPercent(1300, 21, 0, 21, 0);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 17, 0, 17, 0);
+        width: 100%;
+    }
+}
+.weddingSweetsBnrFx {
+    @include mi.ontenerWidth(1300, 1259);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 296);
+    }
+}
+.photoWeddingSweetsLeft {
+    @include mi.ontenerWidth(1259, 296);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.secWeddingSweetsBnr {
+    @include mi.ontenerWidth(1259, 603);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
+        width: 100%;
+    }
+}
+.h2WeddingSweetsBnr {
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(10);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(32);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+.h3WeddingSweetsBnr {
+    @include mi.marginPercent(603, 22, auto, 0, auto);
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 25, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtWeddingSweetsBnr {
+    @include mi.marginPercent(603, 22, auto, 0, auto);
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 40, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.btnWeddingSweetsBnrlxn {
+    @include mi.marginPercent(603, 22, auto, 0, auto);
+    @include mi.ontenerWidth(603, 192);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+        @include mi.ontenerWidth(300, 192);
+    }
+}
+
+.btnWeddingSweetsBnr {
+    aspect-ratio: 192/40;
+    @include mi.kadomaru(30px);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    border: 1px solid #fff;
+    text-decoration: none;
+    text-align: center;
+    @include mi.mq(sp) {
+        aspect-ratio: 192/40;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.iconBtnWeddingSweetsBnr {
+    @include mi.ontenerWidth(192, 154);
+    background: url(../img/wedding/iconBtnWeddingSweetsBnr.svg) no-repeat right
+        center;
+    background-size: auto 20%;
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(192, 166);
+    }
+}
+.photoWeddingSweetsRight {
+    @include mi.ontenerWidth(1259, 296);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 40, auto, 0, auto);
+        width: 100%;
+    }
+}
+.txtWeddingSweetsNavTop {
+    @include mi.marginPercent(1300, 36, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 100, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.navWeddingSweetsOther {
+    @include mi.marginPercent(1300, 35, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 956);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        width: 100%;
+    }
+}
+.ulWeddingSweetsOther {
+}
+.liWeddingSweetsOther {
+    @include mi.ontenerWidth(956, 146);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 158);
+    }
+}
+.btnWeddingSweetsOther {
+}

@@ -2,7 +2,7 @@
     <div class="wapper weddingBouquetWap">
         <section class="secWeddingBouquet">
             <h2 class="t_center cl_421D12 fw_500 CormorantUnicase h2WeddingBouquet">BOUQUET</h2>
-            <p class="t_center cl_453C3C fw_500 txtset rubyWeddingBouquet">花束</p>
+            <p class="t_center cl_453C3C fw_500 txtset rubyWeddingBouquetOut">花束</p>
             <h3 class="t_center cl_453C3C fw_500 txtse h3WeddingBouquet">お花は、言葉のいらないメッセージ。</h3>
             <p class="t_center cl_453C3C fw_500 txtset txtWeddingBouquet">
                 フランシーズでは、ご両親への贈呈用花束やお祝いの花束をお作りいたします。<br>

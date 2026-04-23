@@ -1,8 +1,91 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+
+.weddingSweetsProducts {
+    @include mi.marginPercent(1920, 39, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 60, auto, 0, auto);
+    }
+}
+.weddingSweetsProductsWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.secWeddingSweetsProducts {
+}
+.h2WeddingSweetsProducts {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulWeddingSweetsProducts {
+    @include mi.marginPercent(1300, 21, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        justify-content: space-between;
+    }
+}
+.liWeddingSweetsProducts {
+    @include mi.ontenerWidth(1300, 305);
+    @include mi.marginPercent(1300, 0, 26, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 158);
+        margin: 0;
+    }
+    &:nth-child(n + 3) {
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 20, 0, 0, 0);
+        }
+    }
+    &:nth-child(n + 5) {
+        @include mi.marginPercent(1300, 54, 27, 0, 0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 20, 0, 0, 0);
+        }
+    }
+    &:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+.btnWeddingSweetsProducts {
+    text-decoration: none;
+}
+.photoWeddingSweetsProducts {
+}
+.h3WeddingSweetsProducts {
+    @include mi.marginPercent(305, 20, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    text-decoration: underline;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(158, 16, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtWeddingSweetsProducts {
+    @include mi.marginPercent(305, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheight(14, 24);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(158, 18, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
