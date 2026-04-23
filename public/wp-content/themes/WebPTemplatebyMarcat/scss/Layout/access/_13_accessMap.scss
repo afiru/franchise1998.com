@@ -6,3 +6,32 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.accessYukitakaMap {
+    @include mi.marginPercent(1920, 70, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 55, auto, 0, auto);
+    }
+}
+
+.accessYukitakaMapWap {}
+
+.accessYukitakaMapLxn {
+    position: relative;
+    aspect-ratio: 1300 / 395;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        aspect-ratio: 330 / 161;
+        margin: auto;
+    }
+
+    iframe {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        filter: hue-rotate(150deg) saturate(150%);
+    }
+}

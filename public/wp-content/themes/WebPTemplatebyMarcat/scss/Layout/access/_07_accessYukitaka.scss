@@ -6,3 +6,194 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.accessYukitaka {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    width: 100%;
+    overflow: hidden;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 70, auto, 0, auto);
+    }
+}
+
+.accessYukitakaWap {
+    position: relative;
+    @include mi.paddingPercent(1920, 125, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 0, auto, 0, auto);
+        position: relative;
+        @include mi.paddingPercent(375, 70, 0, 0, 0);
+    }
+}
+
+.brdLongAccessYukitakaWap {
+    height: 2px;
+    width: 900%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.brdShortAccessYukitakaWap {
+    @include mi.ontenerWidth(1920, 50);
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 50);
+    }
+}
+
+.secAccessYukitaka {}
+
+.h2AccessYukitaka {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.accessYukitakaFx {
+    @include mi.marginPercent(1300, 70, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 33, auto, 0, auto);
+    }
+}
+
+.photosAccessYukitaka {
+    @include mi.ontenerWidth(1300, 570);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+.mainPhotosAccessYukitaka {}
+
+.ulPhotosAccessYukitaka {
+    @include mi.marginPercent(570, 11, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 7, auto, 0, auto);
+    }
+}
+
+.liPhotosAccessYukitaka {
+    @include mi.ontenerWidth(570, 134);
+    @include mi.marginPercent(570, 0, 11, 11, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 77);
+        @include mi.marginPercent(330, 0, 7, 7, 0);
+    }
+
+    &:nth-child(4n) {
+        @include mi.marginPercent(570, 0, 0, 11, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 0, 0, 7, 0);
+        }
+    }
+}
+
+//
+.mainAccessYukitaka {
+    @include mi.ontenerWidth(1300, 629);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        @include mi.marginPercent(330, 30, 0, 0, 0);
+    }
+}
+
+.ulMainAccessYukitaka {}
+
+.liMainAccessYukitaka {
+    @include mi.paddingPercent(629, 0, 0, 18, 0);
+    border-bottom: 1px solid #D9D9D9;
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 20, 0);
+    }
+
+    &:nth-child(n+2) {
+        @include mi.marginPercent(629, 18, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 20, 0, 0, 0);
+        }
+    }
+}
+
+.h3MainAccessYukitaka {
+    @include mi.ontenerWidth(629, 121);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 84);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 14);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.cntMainAccessYukitaka {
+    @include mi.ontenerWidth(629, 508);
+
+    @include mi.mq(sp) {
+        flex-flow: row wrap;
+        @include mi.ontenerWidth(330, 244);
+    }
+}
+
+.txtCntMainAccessYukitaka {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+
+    a {
+        color: #453C3C;
+    }
+}
+
+.txtCntMainAccessYukitaka02 {
+    @include mi.marginPercent(629, 0, 0, 0, 20);
+
+    @include mi.mq(sp) {
+        width: 100%;
+        @include mi.marginPercent(244, 3, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtCntMainAccessYukitakaList {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}

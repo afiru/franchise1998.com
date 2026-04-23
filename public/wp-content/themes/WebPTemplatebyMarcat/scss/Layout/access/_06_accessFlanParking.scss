@@ -6,3 +6,54 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.accessFlanParking {
+    @include mi.marginPercent(1920, 60, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 40, auto, 0, auto);
+    }
+}
+
+.accessFlanParkingWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 0, auto, 0, auto);
+    }
+}
+
+.secAccessFlanParking {}
+
+.h2AccessFlanParking {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.txtAccessFlanParking {
+    @include mi.marginPercent(1300, 15, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+        text-align: left;
+    }
+}
+
+.photoAccessFlanParking {
+    @include mi.marginPercent(1300, 30, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
+}

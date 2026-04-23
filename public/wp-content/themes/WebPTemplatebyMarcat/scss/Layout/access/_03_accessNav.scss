@@ -8,6 +8,10 @@ LAYOUT
 ========================================================================== */
 .accessNav {
     @include mi.marginPercent(1920, 145, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 66, auto, 0, auto);
+    }
 }
 
 .AccessNavWap {}
@@ -15,10 +19,22 @@ LAYOUT
 .AccessNavBtm {
     @include mi.ontenerWidth(1300, 860);
     margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
 }
 
 .liAccessNavBtm {
     @include mi.ontenerWidth(860, 200);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 157);
+
+        &:nth-child(n+3) {
+            @include mi.marginPercent(375, 11, 0, 0, 0);
+        }
+    }
 }
 
 .btnAccessNavBtm {
@@ -27,5 +43,16 @@ LAYOUT
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     border-bottom: 1px solid #D9D9D9;
+    text-align: center;
+    text-decoration: none;
 
+    @include mi.mq(sp) {
+        aspect-ratio: 157 / 54;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        border-bottom: 1px solid #D9D9D9;
+        text-align: center;
+        text-decoration: none;
+    }
 }

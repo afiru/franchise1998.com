@@ -1,6 +1,6 @@
 <div class="accessShops">
     <div class="wapper accessShopsWap">
-        <ul class="d_flex j_between row accessShopsFx">
+        <ul class="d_flex j_start row accessShopsFx">
             <?php foreach (scf::get('loopAccessLocation') as $fields): ?>
             <li class="liAccessShops">
                 <figure class="photoAccessShops">
@@ -13,9 +13,9 @@
                     <?php echo nl2br($fields['txtAccessLocation']); ?>
                 </p>
                 <div class="btnAccessShopsLxn">
-                    <a class="d_flex j_center ali_center txtset t_center cl_F04E11 fw_500 btnAccessShops" href="<?php echo $fields['urlAccessLocation']; ?>">
-                        <span class="icnBtnAccessShops">サイトはこちら</span>
-                        <!--bg:../img/member/icnBtnAccessShops.svg-->
+                    <a class="d_flex j_center ali_center kaku txtset t_center undernone cl_F04E11 fw_500 btnAccessShops" href="<?php echo $fields['urlAccessLocation']; ?>">
+                        <span class="kaku icnBtnAccessShops">サイトはこちら</span>
+                        <!--bg:../img/access/icnBtnAccessShops.svg-->
                     </a>
                 </div>
             </li>
