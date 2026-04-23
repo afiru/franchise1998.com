@@ -1,0 +1,31 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.accessNav {
+    @include mi.marginPercent(1920, 145, auto, 0, auto);
+}
+
+.AccessNavWap {}
+
+.AccessNavBtm {
+    @include mi.ontenerWidth(1300, 860);
+    margin: auto;
+}
+
+.liAccessNavBtm {
+    @include mi.ontenerWidth(860, 200);
+}
+
+.btnAccessNavBtm {
+    aspect-ratio: 200 / 51;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    border-bottom: 1px solid #D9D9D9;
+
+}
