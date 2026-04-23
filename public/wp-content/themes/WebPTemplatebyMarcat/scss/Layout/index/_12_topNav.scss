@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -20,7 +20,8 @@ LAYOUT
     }
 }
 
-.ulTopNav {}
+.ulTopNav {
+}
 
 .liTopNav {
     @include mi.ontenerWidth(1300, 305);
@@ -29,17 +30,17 @@ LAYOUT
         @include mi.ontenerWidth(330, 158);
     }
 
-    &:nth-child(n+3) {
+    &:nth-child(n + 3) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 26, auto, 0, auto);
+            @include mi.marginPercent(330, 26, 0, 0, 0);
         }
     }
 
-    &:nth-child(n+5) {
-        @include mi.marginPercent(1300, 48, auto, 0, auto);
+    &:nth-child(n + 5) {
+        @include mi.marginPercent(1300, 48, 0, 0, 0);
 
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 26, auto, 0, auto);
+            @include mi.marginPercent(330, 26, 0, 0, 0);
         }
     }
 }
