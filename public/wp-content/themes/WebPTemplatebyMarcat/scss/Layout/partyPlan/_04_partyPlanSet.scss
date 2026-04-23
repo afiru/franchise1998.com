@@ -1,38 +1,61 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .partyPlan {
     @include mi.marginPercent(1920, 70, auto, 0, auto);
-    @include mi.paddingPercent(1920, 100, 0, 0, 0);
+    @include mi.paddingPercent(1920, 100, 0, 100, 0);
     border-radius: 0 5.208333333333333vw 0 0;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+        @include mi.paddingPercent(375, 68, 0, 70, 0);
+    }
 }
 
-.partyPlanWap {}
+.partyPlanWap {
+    @include mi.mq(sp) {
+    }
+}
 
 .partyPlanLxn {
     @include mi.ontenerWidth(1300, 1100);
     margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
 }
 
-.h2PartyPlan {}
+.h2PartyPlan {
+    width: 100%;
+}
 
 .photoPartyPlan {
     @include mi.marginPercent(1100, 45, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 38, auto, 0, auto);
+    }
 }
 
 .secDetailPartyPlan {
     @include mi.marginPercent(1100, 23, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 17, auto, 0, auto);
+    }
 }
 
-.titleDetailPartyPlan {}
+.titleDetailPartyPlan {
+}
 
 .iconTitleDetailPartyPlan {
     @include mi.ontenerWidth(1100, 16);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 16);
+    }
 }
 
 .h3TitleDetailPartyPlan {
@@ -40,41 +63,82 @@ LAYOUT
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);
     @include mi.marginPercent(1100, 0, 0, 0, 10);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+        @include mi.marginPercent(330, 0, 0, 0, 7);
+    }
 }
 
 .txtTitleDetailPartyPlan {
     @include mi.marginPercent(1100, 20, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(24);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 17, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 
 .menuExeDetailPartyPlan {
     @include mi.marginPercent(1100, 40, 0, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, 0, 0, 0);
+    }
 }
 
 .secMenuExeDetailPartyPlan {
     @include mi.ontenerWidth(1100, 351);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
 }
 
 .h3MenuExeDetailPartyPlan {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(175);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 
 .txtMenuExeDetailPartyPlan {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(175);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
 }
 
 //
 .tyuiMenuExeDetailPartyPlan {
     @include mi.ontenerWidth(1100, 748);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        width: 100%;
+    }
 }
 
 .txtTyuiMenuExeDetailPartyPlan {
     @include mi.fontSizePc(14);
     @include mi.lineheight(14, 24);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
 }
 
 .txtTyuiMenuExeDetailPartyPlan02 {
@@ -82,23 +146,42 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 14, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
 }
 
 //
 .ulDetailPartyPlanOther {
     @include mi.marginPercent(1100, 45, 0, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        width: 100%;
+    }
 }
 
 .liDetailPartyPlanOther {
     @include mi.ontenerWidth(1100, 330);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
 }
 
 .titleDetailPartyPlanOther {
     @include mi.marginPercent(330, 22, 0, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 22, auto, 0, auto);
+    }
 }
 
 .iconTitleDetailPartyPlanOther {
     @include mi.ontenerWidth(330, 16);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 16);
+    }
 }
 
 .h3TitleDetailPartyPlanOther {
@@ -106,6 +189,12 @@ LAYOUT
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 0, 0, 0, 7);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
 }
 
 .txtTitleDetailPartyPlanOther {
@@ -113,6 +202,24 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtTitleDetailPartyPlanOther02 {
+    @include mi.marginPercent(330, 20, 0, 0, 0);
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
 }
 
 .txtTitleDetailPartyPlanOther03 {
@@ -120,4 +227,59 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, 0, 0, 0);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+.urlTitleDetailPartyPlanOther03 {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    text-decoration: underline;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+.btnDetailPartyPlanOtherLxn {
+    @include mi.marginPercent(1100, 40, auto, 0, auto);
+    @include mi.ontenerWidth(1100, 260);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 47, auto, 0, auto);
+        @include mi.ontenerWidth(330, 260);
+    }
+}
+.btnDetailPartyPlanOther {
+    @include mi.kadomaru(30px);
+    aspect-ratio: 260/50;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    text-decoration: none;
+    @include mi.mq(sp) {
+        aspect-ratio: 260/50;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+
+//
+.txtDetailPartyPlanOther {
+    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    @include mi.ontenerWidth(1300, 1100);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 45, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+        @include mi.ontenerWidth(375, 330);
+    }
 }

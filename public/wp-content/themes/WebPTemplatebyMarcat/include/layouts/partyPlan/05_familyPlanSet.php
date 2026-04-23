@@ -1,19 +1,22 @@
-<div id="family" class="bg_F1ECE8 familyPlan">
+<div id="family" class="familyPlan">
     <div class="wapper familyPlanWap">
         <div class="familyPlanLxn">
             <h2 class="h2familyPlan">
                 <picture>
-                    <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/h2familyPlanPc.svg'); ?>">
-                    <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/h2familyPlanSp.svg'); ?>">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/h2familyPlanPc.svg'); ?>" alt="<?php echo esc_attr('パーティーセット'); ?>" width="1100" height="168.97">
+                    <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/h2familyPlanPc.svg'); ?>">
+                    <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/h2familyPlanSp.svg'); ?>">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/h2familyPlanPc.svg'); ?>" alt="<?php echo esc_attr('パーティーセット'); ?>" width="1100" height="168.97">
                 </picture>
+
+
+
             </h2>
 
             <figure class="photofamilyPlan">
                 <picture>
-                    <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/photofamilyPlanPc.png'); ?>">
-                    <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/photofamilyPlanSp.png'); ?>">
-                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/photofamilyPlanPc.png'); ?>" alt="<?php echo esc_attr('選べるオードブル【大】'); ?>" width="1100" height="670">
+                    <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photofamilyPlanPc.png'); ?>">
+                    <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photofamilyPlanSp.png'); ?>">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photofamilyPlanPc.png'); ?>" alt="<?php echo esc_attr('選べるオードブル【大】'); ?>" width="1100" height="670">
                 </picture>
             </figure>
 
@@ -52,9 +55,9 @@
                 <li class="liDetailfamilyPlanOther">
                     <figure class="photoDetailfamilyPlanOther">
                         <picture>
-                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/photoDetailfamilyPlanOther01Pc.png'); ?>">
-                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/photoDetailfamilyPlanOther01Sp.png'); ?>">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/photoDetailfamilyPlanOther01Pc.png'); ?>" alt="<?php echo esc_attr('選べるピザ【直径約30cm/8ピース】'); ?>" width="330" height="211">
+                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photoDetailfamilyPlanOther01Pc.png'); ?>">
+                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photoDetailfamilyPlanOther01Sp.png'); ?>">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photoDetailfamilyPlanOther01Pc.png'); ?>" alt="<?php echo esc_attr('選べるピザ【直径約30cm/8ピース】'); ?>" width="330" height="211">
                         </picture>
                     </figure>
                     <div class="d_flex j_between ali_center titleDetailfamilyPlanOther">
@@ -74,9 +77,9 @@
                 <li class="liDetailfamilyPlanOther">
                     <figure class="photoDetailfamilyPlanOther">
                         <picture>
-                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/photoDetailfamilyPlanOther02Pc.png'); ?>">
-                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/photoDetailfamilyPlanOther02Sp.png'); ?>">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/familyplan/photoDetailfamilyPlanOther02Pc.png'); ?>" alt="<?php echo esc_attr('選べるピザ【直径約30cm/8ピース】'); ?>" width="330" height="211">
+                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photoDetailfamilyPlanOther02Pc.png'); ?>">
+                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photoDetailfamilyPlanOther02Sp.png'); ?>">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/partyplan/photoDetailfamilyPlanOther02Pc.png'); ?>" alt="<?php echo esc_attr('選べるピザ【直径約30cm/8ピース】'); ?>" width="330" height="211">
                         </picture>
                     </figure>
                     <div class="d_flex j_between ali_center titleDetailfamilyPlanOther">

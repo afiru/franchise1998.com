@@ -1,8 +1,375 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+
+.partyBookings {
+    @include mi.marginPercent(1920, 150, auto, 0, auto);
+    @include mi.paddingPercent(1920, 99, 0, 125, 0);
+    border-radius: 0 5.208333333333333vw 0 0;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 100, auto, 0, auto);
+        @include mi.paddingPercent(375, 70, 0, 70, 0);
+    }
+}
+.partyBookingsWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.secPartyBookings {
+}
+.h2PartyBookings {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+.detailPartyBookings {
+    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.paddingPercent(1300, 70, 0, 101, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.paddingPercent(330, 30, 0, 40, 0);
+    }
+}
+.detailPartyBookingsLxn {
+    @include mi.ontenerWidth(1300, 1000);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 300);
+    }
+}
+.h3DetailPartyBookingsLxn {
+    width: 100%;
+}
+.h4DetailPartyBookings {
+    @include mi.marginPercent(1000, 50, auto, 0, auto);
+    aspect-ratio: 1000/54;
+    @include mi.kadomaru(6px);
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 23, auto, 0, auto);
+        aspect-ratio: 300/40;
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+.h5DetailPartyBookings {
+    @include mi.marginPercent(1000, 30, auto, 0, auto);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+.telDetailPartyBookings {
+    @include mi.marginPercent(1000, 15, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 16, auto, 0, auto);
+    }
+}
+.h6TelDetailPartyBookings {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(100);
+    }
+}
+.urlTelDetailPartyBookings {
+    @include mi.fontSizePc(36);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(100);
+    }
+}
+.txtBtmTelDetailPartyBookings {
+    @include mi.marginPercent(1000, 15, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 12, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtBtmTelDetailPartyBookingsLxn {
+    @include mi.marginPercent(1000, 30, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.secJoinDetailPartyBookings {
+    @include mi.marginPercent(1000, 45, 0, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
+}
+.h4JoinDetailPartyBookings {
+    background: #f1ece8;
+    aspect-ratio: 1000/54;
+    @include mi.kadomaru(6px);
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        aspect-ratio: 300/40;
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+.joinDetailPartyBookingsFx {
+    @include mi.marginPercent(1000, 30, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
+}
+.secJoinDetailPartyBookingsFx {
+    @include mi.ontenerWidth(1000, 480);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.secJoinDetailPartyBookingsFx02 {
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 35, auto, 0, auto);
+    }
+}
+.h5JoinDetailPartyBookingsFx {
+    @include mi.paddingPercent(480, 0, 0, 15, 0);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    border-bottom: 1px solid #bebdbd;
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 10, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtJoinDetailPartyBookingsFx {
+    @include mi.marginPercent(480, 25, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+//地図
+
+.txtJoinDetailPartyBookingsFx02 {
+    @include mi.marginPercent(480, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.photoJoinDetailPartyBookingsFx {
+    @include mi.marginPercent(480, 25, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+    }
+}
+
+.partyCancelBookings {
+    @include mi.marginPercent(1000, 50, auto, 0, auto);
+    @include mi.paddingPercent(1000, 17, 0, 17, 0);
+    @include mi.kadomaru(6px);
+    width: 100%;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.paddingPercent(330, 16, 0, 17, 0);
+    }
+}
+.partyCancelBookingsFx {
+    @include mi.ontenerWidth(1000, 920);
+    margin: auto;
+    flex-flow: row wrap;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 268);
+    }
+}
+.h2PartyCancelBookings {
+    @include mi.ontenerWidth(920, 200);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        width: 100%;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        text-align: center;
+    }
+}
+.txtPartyCancelBookings {
+    @include mi.paddingPercent(920, 0, 0, 0, 33);
+    @include mi.ontenerWidth(920, 719);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    border-left: 1px solid #bebdbd;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 13, auto, 0, auto);
+        @include mi.paddingPercent(330, 17, 0, 0, 0);
+        border-top: 1px solid #bebdbd;
+        border-left: unset;
+        width: 100%;
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+//
+.secTakeOutMenuPartyBookingsOut {
+    @include mi.marginPercent(1300, 125, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 70, auto, 0, auto);
+    }
+}
+.h2TakeOutMenuPartyBookings {
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulTakeOutMenuPartyBookings {
+    @include mi.marginPercent(1300, 15, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 1200);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+.liTakeOutMenuPartyBookings {
+    @include mi.ontenerWidth(1200, 360);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 156);
+        &:nth-child(n + 3) {
+            @include mi.marginPercent(330, 18, 0, 0, 0);
+        }
+    }
+}
+.photoTakeOutMenuPartyBookings {
+    width: 100%;
+}
+.secTakeOutMenuPartyBookings {
+    @include mi.paddingPercent(360, 26, 0, 26, 0);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(156, 14, 0, 12, 0);
+        @include mi.ontenerWidth(156, 140);
+        margin: auto;
+    }
+}
+.h3TakeOutMenuPartyBookings {
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.h4TakeOutMenuPartyBookings {
+    @include mi.marginPercent(360, 5, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(140, 7, auto, 0, auto);
+        @include mi.fontSizeSp(10);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(100);
+    }
+}
+.txtTakeOutMenuPartyBookings {
+    @include mi.marginPercent(360, 14, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(140, 14, auto, 0, auto);
+        @include mi.fontSizeSp(10);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.linkTakeOutMenuPartyBookingsLxn {
+    @include mi.ontenerWidth(360, 145);
+    @include mi.marginPercent(360, 24, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(140, 27, auto, 0, auto);
+        @include mi.ontenerWidth(140, 100);
+    }
+}
+.btnLinkTakeOutMenuPartyBookingsLxn {
+    @include mi.paddingPercent(145, 0, 10, 0, 0);
+    width: 100%;
+    @include mi.kadomaru(30px);
+    text-decoration: none;
+    border: 1px solid #f04e11;
+    justify-content: center;
+    align-items: center;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(20);
+    @include mi.letterSpacing(0);
+    background: url(../img/iconLinkTakeOutMenuPartyBookingsLxn.svg) no-repeat
+        95% center;
+    background-size: auto 46%;
+    aspect-ratio: 145/35;
+    @include mi.mq(sp) {
+        aspect-ratio: 100/25;
+        @include mi.fontSizeSp(10);
+        @include mi.lineheightP(20);
+        @include mi.letterSpacing(0);
+    }
+}
+.iconLinkTakeOutMenuPartyBookingsLxn {
+}
