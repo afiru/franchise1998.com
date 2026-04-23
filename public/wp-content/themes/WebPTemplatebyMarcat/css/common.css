@@ -35399,6 +35399,368 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 /* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.memberPresent {
+  margin-top: 93px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .memberPresent {
+    margin-top: 4.84%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.memberPresentWap {
+  padding-top: 55px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .memberPresentWap {
+    padding: 2.86% 0% 2.6% 0%;
+  }
+}
+.memberPresentWap {
+  border-radius: 10px;
+  /* CSS3草案 */
+  -webkit-border-radius: 10px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 10px;
+  /* Firefox用 */
+}
+
+.memberPresentMain {
+  width: 1096px;
+}
+@media screen and (max-width: 1299px) {
+  .memberPresentMain {
+    width: 84.3%;
+  }
+}
+.memberPresentMain {
+  margin: auto;
+}
+
+.h2MemberPresentMain {
+  font-size: 40px;
+}
+@media screen and (max-width: 1299px) {
+  .h2MemberPresentMain {
+    font-size: 3.0792917629vw;
+  }
+}
+.h2MemberPresentMain {
+  line-height: 160%;
+  letter-spacing: 0.01em;
+}
+
+.h3MemberPresentMain {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .h3MemberPresentMain {
+    margin-top: 1.92%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.h3MemberPresentMain {
+  font-size: 24px;
+}
+@media screen and (max-width: 1299px) {
+  .h3MemberPresentMain {
+    font-size: 1.8475750577vw;
+  }
+}
+.h3MemberPresentMain {
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+
+.rubyMemberPresentMain {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .rubyMemberPresentMain {
+    margin-top: 1.15%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.rubyMemberPresentMain {
+  font-size: 18px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyMemberPresentMain {
+    font-size: 1.3856812933vw;
+  }
+}
+.rubyMemberPresentMain {
+  line-height: 160%;
+  letter-spacing: 0em;
+}
+
+.brdMemberPresentMain {
+  height: 1px;
+  width: 100%;
+}
+
+.ulMemberPresentMain {
+  margin-top: 41px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .ulMemberPresentMain {
+    margin-top: 3.74%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.liMemberPresentMain {
+  width: 522px;
+}
+@media screen and (max-width: 1299px) {
+  .liMemberPresentMain {
+    width: 47.62%;
+  }
+}
+
+.picliMemberPresentMain {
+  width: 162px;
+}
+@media screen and (max-width: 1299px) {
+  .picliMemberPresentMain {
+    width: 31.03%;
+  }
+}
+
+.secMemberPresentMain {
+  width: 366px;
+}
+@media screen and (max-width: 1299px) {
+  .secMemberPresentMain {
+    width: 70.11%;
+  }
+}
+
+.h3TitleMemberPresentMain {
+  font-size: 12px;
+}
+@media screen and (max-width: 1299px) {
+  .h3TitleMemberPresentMain {
+    font-size: 0.9237875289vw;
+  }
+}
+.h3TitleMemberPresentMain {
+  line-height: normal;
+  letter-spacing: 0.1em;
+}
+
+.intTitleMemberPresentMain {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) and (max-width: 1299px) {
+  .intTitleMemberPresentMain {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 2.18%;
+    margin-right: auto;
+  }
+}
+.intTitleMemberPresentMain {
+  font-size: 18px;
+}
+@media screen and (max-width: 1299px) {
+  .intTitleMemberPresentMain {
+    font-size: 1.3856812933vw;
+  }
+}
+.intTitleMemberPresentMain {
+  line-height: normal;
+  letter-spacing: 0.1em;
+}
+
+.h4MemberPresentMain {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .h4MemberPresentMain {
+    margin-top: 3.82%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.h4MemberPresentMain {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .h4MemberPresentMain {
+    font-size: 1.2317167052vw;
+  }
+}
+.h4MemberPresentMain {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+
+.rubyMemberPresentMain {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .rubyMemberPresentMain {
+    margin-top: 4.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.rubyMemberPresentMain {
+  font-size: 10px;
+}
+@media screen and (max-width: 1299px) {
+  .rubyMemberPresentMain {
+    font-size: 0.7698229407vw;
+  }
+}
+.rubyMemberPresentMain {
+  line-height: 160%;
+  letter-spacing: 0.02em;
+}
+
+.txtMemberPresentMain {
+  margin-top: 18px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtMemberPresentMain {
+    margin-top: 4.91%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtMemberPresentMain {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtMemberPresentMain {
+    font-size: 1.077752117vw;
+  }
+}
+.txtMemberPresentMain {
+  line-height: 160%;
+  letter-spacing: 0em;
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.memberPointsystem {
+  margin-top: 85px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .memberPointsystem {
+    margin-top: 4.42%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.memberPointsystem {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .memberPointsystem {
+    padding: 5.2% 0% 5.2% 0%;
+  }
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+/* ==========================================================================
 Component
 ========================================================================== */
 .bg_FFFFFF {
