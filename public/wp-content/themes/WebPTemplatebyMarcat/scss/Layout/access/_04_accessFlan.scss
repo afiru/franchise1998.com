@@ -6,3 +6,258 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.accessFlan {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+    }
+}
+
+.accessFlanWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 0, auto, 0, auto);
+    }
+}
+
+.secAccessFlan {}
+
+.h2AccessFlan {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.accessFlanFx {
+    @include mi.marginPercent(1300, 70, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
+}
+
+.photosAccessFlan {
+    @include mi.ontenerWidth(1300, 570);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+.ulPhotosAccessFlan {
+    @include mi.marginPercent(570, 11, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 7, auto, 0, auto);
+    }
+}
+
+.liPhotosAccessFlan {
+    @include mi.ontenerWidth(570, 134);
+    @include mi.marginPercent(570, 0, 11, 11, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 77);
+        @include mi.marginPercent(330, 0, 7, 7, 0);
+    }
+
+    &:nth-child(4n) {
+        @include mi.marginPercent(570, 0, 0, 11, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 0, 0, 7, 0);
+        }
+    }
+}
+
+//
+.mainAccessFlan {
+    @include mi.ontenerWidth(1300, 629);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        @include mi.marginPercent(330, 30, 0, 0, 0);
+    }
+}
+
+.ulMainAccessFlan {}
+
+.liMainAccessFlan {
+    @include mi.paddingPercent(629, 0, 0, 18, 0);
+    border-bottom: 1px solid #D9D9D9;
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 20, 0);
+    }
+
+    &:nth-child(n+2) {
+        @include mi.marginPercent(629, 18, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 20, 0, 0, 0);
+        }
+    }
+}
+
+.h3MainAccessFlan {
+    @include mi.ontenerWidth(629, 121);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 84);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 14);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.cntMainAccessFlan {
+    @include mi.ontenerWidth(629, 508);
+
+    @include mi.mq(sp) {
+        flex-flow: row wrap;
+        @include mi.ontenerWidth(330, 244);
+    }
+}
+
+.txtCntMainAccessFlan {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+
+    a {
+        color: #453C3C;
+    }
+}
+
+.txtCntMainAccessFlan02 {
+    @include mi.marginPercent(629, 0, 0, 0, 20);
+
+    @include mi.mq(sp) {
+        width: 100%;
+        @include mi.marginPercent(244, 3, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtCntMainAccessFlanDouble {
+    @include mi.marginPercent(629, 10, 0, 0, 0);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(244, 0, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+
+    a {
+        color: #453C3C;
+    }
+}
+
+.txtCntMainAccessFlanList {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(244, 0, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtCntMainAccessFlanList02 {
+    @include mi.marginPercent(629, 15, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(244, 20, 0, 0, 0);
+    }
+}
+
+.snsMainAccessFlan {
+    width: 100%;
+}
+
+.liSnsMainAccessFlan {
+    @include mi.ontenerWidth(629, 40);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(244, 40);
+    }
+
+    &:nth-child(n+2) {
+        @include mi.marginPercent(629, 0, 0, 0, 10);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(244, 0, 0, 0, 10);
+        }
+    }
+}
+
+//
+.tyuiMainAccessFlan {
+    @include mi.marginPercent(629, 20, auto, 0, auto);
+    @include mi.paddingPercent(629, 25, 0, 25, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.paddingPercent(330, 20, 0, 20, 0);
+    }
+}
+
+.secTyuiMainAccessFlan {
+    @include mi.ontenerWidth(629, 579);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 304);
+    }
+}
+
+.h2TyuiMainAccessFlan {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtTyuiMainAccessFlan {
+    @include mi.marginPercent(629, 17, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(304, 15, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}

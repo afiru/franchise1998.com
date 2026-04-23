@@ -71,7 +71,7 @@
                 <div class="mainAccessSlon">
                     <ul class="ulMainAccessSlon">
                         <li class="d_flex j_between ali_center liMainAccessSlon">
-                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessSlon"></h3>
+                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessSlon">住所</h3>
                             <div class="cntMainAccessSlon">
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessSlon">〒599-8237 大阪府堺市中区深井水池町3254番地</p>
                             </div>
@@ -107,7 +107,7 @@
                             </div>
                         </li>
                         <li class="d_flex j_between ali_center liMainAccessSlon">
-                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessSlon">決済サービス</h3>
+                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessSlon">決済<br class="sp_only">サービス</h3>
                             <div class="cntMainAccessSlon">
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessSlonList">【クレジットカード】VISA、MasterCard、JCB、AMEX、Diners discover、銀聯</p>
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessSlonList txtCntMainAccessSlonList02">【電子マネー】iD、nanaco、Edy、QUICPay、交通系ICカード（PiTaPa以外）</p>
@@ -121,9 +121,9 @@
                                     <li class="liSnsMainAccessSlon">
                                         <a class="d_block btnSnsMainAccessSlon" href="https://www.instagram.com/salon_de_franchise/" target="_blank">
                                             <picture>
-                                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/btnSnsMainAccessSlon01Pc.svg'); ?>">
-                                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/btnSnsMainAccessSlon01Sp.svg'); ?>">
-                                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/btnSnsMainAccessSlon01Pc.svg'); ?>" alt="<?php echo esc_attr('SNS01'); ?>" width="40" height="40">
+                                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/btnSnsMainAccessFlan01Pc.svg'); ?>">
+                                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/btnSnsMainAccessFlan01Sp.svg'); ?>">
+                                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/btnSnsMainAccessFlan01Pc.svg'); ?>" alt="<?php echo esc_attr('SNS01'); ?>" width="40" height="40">
                                             </picture>
                                         </a>
                                     </li>

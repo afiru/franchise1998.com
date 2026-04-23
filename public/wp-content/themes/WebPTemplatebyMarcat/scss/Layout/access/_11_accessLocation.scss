@@ -6,3 +6,80 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.accessLocation {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    width: 100%;
+    overflow: hidden;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 70, auto, 0, auto);
+    }
+}
+
+.accessLocationWap {
+    position: relative;
+    @include mi.paddingPercent(1920, 100, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 0, auto, 0, auto);
+        position: relative;
+        @include mi.paddingPercent(375, 70, 0, 0, 0);
+    }
+}
+
+.brdLongAccessLocationWap {
+    height: 2px;
+    width: 900%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.brdShortAccessLocationWap {
+    @include mi.ontenerWidth(1920, 50);
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 50);
+    }
+}
+
+.secAccessLocation {}
+
+.h2AccessLocation {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.rubyAccessLocation {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.marginPercent(1300, 15, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+    }
+}
+
+.photosAccessLocation {
+    @include mi.paddingPercent(1300, 30, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
+}

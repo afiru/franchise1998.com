@@ -75,13 +75,13 @@
                 <div class="mainAccessFlan">
                     <ul class="ulMainAccessFlan">
                         <li class="d_flex j_between ali_center liMainAccessFlan">
-                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessFlan"></h3>
+                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessFlan">住所</h3>
                             <div class="cntMainAccessFlan">
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessFlan">〒599-8237 大阪府堺市中区深井水池町3254番地</p>
                             </div>
                         </li>
                         <li class="d_flex j_between ali_center liMainAccessFlan">
-                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessFlan"></h3>
+                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessFlan">TEL</h3>
                             <div class="d_flex j_start cntMainAccessFlan">
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessFlan"><a href="tel:0120-656-567">0120-656-567</a>（通話無料）</p>
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessFlan txtCntMainAccessFlan02"><a href="tel:072-281-1010">072-281-1010</a></p>
@@ -121,7 +121,7 @@
                             </div>
                         </li>
                         <li class="d_flex j_between ali_center liMainAccessFlan">
-                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessFlan">決済サービス</h3>
+                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessFlan">決済<br class="sp_only">サービス</h3>
                             <div class="cntMainAccessFlan">
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessFlanList">【クレジットカード】VISA、MasterCard、JCB、AMEX、Diners discover、銀聯</p>
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessFlanList txtCntMainAccessFlanList02">【電子マネー】iD、nanaco、Edy、QUICPay、交通系ICカード（PiTaPa以外）</p>

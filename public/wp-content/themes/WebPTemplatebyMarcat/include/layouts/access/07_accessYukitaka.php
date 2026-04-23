@@ -35,7 +35,7 @@
                 <div class="mainAccessYukitaka">
                     <ul class="ulMainAccessYukitaka">
                         <li class="d_flex j_between ali_center liMainAccessYukitaka">
-                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessYukitaka"></h3>
+                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessYukitaka">住所</h3>
                             <div class="cntMainAccessYukitaka">
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessYukitaka">〒590-0105　大阪府堺市南区竹城台1-1-1　南海泉北線「泉ヶ丘」駅ナカ</p>
                             </div>
@@ -81,7 +81,7 @@
                             </div>
                         </li>
                         <li class="d_flex j_between ali_center liMainAccessYukitaka">
-                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessYukitaka">決済サービス</h3>
+                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessYukitaka">決済<br class="sp_only">サービス</h3>
                             <div class="cntMainAccessYukitaka">
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessYukitakaList">泉北高島屋に準ずる</p>
                             </div>
