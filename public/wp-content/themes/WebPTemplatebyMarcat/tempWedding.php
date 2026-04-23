@@ -23,6 +23,7 @@
         <?php get_template_part('include/layouts/top/17_topContact'); ?>
     </div>
 </main>
+
 <footer class="bg_795E55 footer">
     <?php get_template_part('include/layouts/top/18_topFooterTop'); ?>
     <?php get_template_part('include/layouts/top/19_topFooterBtm'); ?>
