@@ -86,6 +86,10 @@
     color: #B5654E;
 }
 
+.cl_121212 {
+    color: #121212;
+}
+
 .cl_929292 {
     color: #929292;
 }
@@ -148,6 +152,15 @@
     -webkit-line-clamp: 2;
     /* 任意の行数を指定 */
 }
+
+.txtovflow3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    /* 任意の行数を指定 */
+}
+
 
 .ovhidden {
     overflow: hidden;
