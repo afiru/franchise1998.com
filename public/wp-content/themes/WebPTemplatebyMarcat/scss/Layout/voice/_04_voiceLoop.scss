@@ -1,8 +1,211 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.voiceLoop {
+    @include mi.marginPercent(1920, 51, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 40, auto, 0, auto);
+    }
+}
+.voiceLoopWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.ulVoiceLoop {
+    @include mi.paddingPercent(1300, 0, 0, 30, 0);
+    border-bottom: 1px solid #ebebeb;
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 40, 0);
+    }
+}
+.liVoiceLoop {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(1300, 30, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 25, auto, 0, auto);
+        }
+    }
+}
+.timeVoiceLoop {
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.h3VoiceLoop {
+    @include mi.marginPercent(1300, 10, auto, 0, auto);
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 10, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.cntVoiceLoop {
+    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.paddingPercent(1300, 24, 0, 24, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 12, auto, 0, auto);
+        @include mi.paddingPercent(330, 20, 0, 20, 0);
+    }
+}
+.cntVoiceLoopLxn {
+    @include mi.ontenerWidth(1300, 1252);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 300);
+    }
+    p {
+        @include mi.fontSizePc(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+        @include mi.mq(sp) {
+            @include mi.fontSizeSp(13);
+            @include mi.lineheightP(160);
+            @include mi.letterSpacing(0);
+        }
+    }
+}
+.pagerVoice {
+}
+
+.pagerVoiceUp {
+    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
+    }
+}
+.pagerVoiceUptxt {
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+//ページャー
+.pagerVoice {
+    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 50, auto, 0, auto);
+    }
+}
+.pagerVoice .wp-pagenavi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    @include mi.mq(sp) {
+        justify-content: center;
+        width: 100%;
+    }
+
+    a,
+    span {
+        @include mi.ontenerWVw(1920, 33);
+        @include mi.marginVw(1920, 0, 11, 0, 0);
+        aspect-ratio: 33/33;
+        @include mi.kadomaru(100px);
+        @include mi.fontSizePc(14);
+        line-height: 1;
+        @include mi.letterSpacing(0);
+        background: unset;
+        color: #333333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 0.5s;
+        text-decoration: none;
+        min-width: 33px;
+
+        @include mi.mq(sp) {
+            @include mi.marginVw(375, 0, 8, 0, 0);
+            @include mi.ontenerWVw(375, 25);
+            @include mi.fontSizeSp(14);
+            @include mi.letterSpacing(0);
+            min-width: 25px;
+        }
+    }
+    .current {
+        background: #f04e11;
+        color: #fff;
+    }
+    .previouspostslink {
+        @include mi.ontenerWVw(1920, 50);
+        @include mi.marginVw(1920, 0, 11, 0, 0);
+        aspect-ratio: 50/50;
+        @include mi.kadomaru(100px);
+        @include mi.fontSizePc(14);
+        line-height: 1;
+        @include mi.letterSpacing(0);
+        min-width: 50px;
+        background: #f1ece8;
+        color: #f04e11;
+        @include mi.mq(sp) {
+            @include mi.marginVw(375, 0, 13, 0, 0);
+            @include mi.ontenerWVw(375, 38);
+            @include mi.fontSizeSp(14);
+            @include mi.letterSpacing(0);
+            min-width: 38px;
+        }
+    }
+    .nextpostslink {
+        @include mi.ontenerWVw(1920, 50);
+        @include mi.marginVw(1920, 0, 0, 0, 11);
+        aspect-ratio: 50/50;
+        @include mi.kadomaru(100px);
+        @include mi.fontSizePc(14);
+        line-height: 1;
+        @include mi.letterSpacing(0);
+        min-width: 50px;
+        background: #f1ece8;
+        color: #f04e11;
+        order: 9;
+        @include mi.mq(sp) {
+            @include mi.marginVw(375, 0, 0, 0, 13);
+            @include mi.ontenerWVw(375, 38);
+            @include mi.fontSizeSp(14);
+            @include mi.letterSpacing(0);
+            min-width: 38px;
+        }
+    }
+    .last {
+        @include mi.ontenerWVw(1920, 33);
+        @include mi.marginVw(1920, 0, 11, 0, 11);
+        aspect-ratio: 33/33;
+        @include mi.kadomaru(100px);
+        @include mi.fontSizePc(14);
+        line-height: 1;
+        @include mi.letterSpacing(0);
+        background: unset;
+        color: #333333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 0.5s;
+        text-decoration: none;
+        min-width: 33px;
+        @include mi.mq(sp) {
+            @include mi.marginVw(375, 0, 8, 0, 8);
+            @include mi.ontenerWVw(375, 25);
+            @include mi.fontSizeSp(14);
+            @include mi.letterSpacing(0);
+            min-width: 25px;
+        }
+    }
+}

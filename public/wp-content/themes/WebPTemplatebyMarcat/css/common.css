@@ -40312,6 +40312,17 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+@media screen and (max-width: 767px) {
+  .voiceFvWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .voiceFvWap {
+    width: 88%;
+  }
+}
+
 .h2VoiceFvWap {
   font-size: 60px;
 }
@@ -40324,7 +40335,29 @@ LAYOUT
   line-height: 160%;
   letter-spacing: 0.1em;
 }
+@media screen and (max-width: 767px) {
+  .h2VoiceFvWap {
+    line-height: 160%;
+    letter-spacing: 0.01em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2VoiceFvWap {
+    font-size: 9.6vw;
+  }
+}
 
+.h3VoiceFvWap {
+  margin-top: 36px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .h3VoiceFvWap {
+    margin: 2.76% 0% 0% 0%;
+  }
+}
 .h3VoiceFvWap {
   font-size: 24px;
 }
@@ -40336,6 +40369,26 @@ LAYOUT
 .h3VoiceFvWap {
   line-height: 150%;
   letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .h3VoiceFvWap {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h3VoiceFvWap {
+    margin: 4.54% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3VoiceFvWap {
+    font-size: 4.8vw;
+  }
 }
 
 .bordVoiceFvWap {
@@ -40366,9 +40419,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .bordVoiceFvWap {
-    width: 330px;
-    margin: auto;
-    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -40376,12 +40431,15 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .bordVoiceFvWap {
-    width: 88%;
+    margin-top: 13.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .bordVoiceFvWap {
-    padding: 13.33% 0% 0% 0%;
+    padding: 4% 0% 0% 0%;
   }
 }
 
@@ -40459,7 +40517,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .breadListUnderDefoType02 {
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -40469,7 +40527,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .breadListUnderDefoType02 {
-    margin-top: 4.54%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -40495,6 +40553,107 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.voiceAllPosts {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .voiceAllPosts {
+    margin-top: 4.16%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .voiceAllPosts {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .voiceAllPosts {
+    margin-top: 21.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .voiceAllPostsWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .voiceAllPostsWap {
+    width: 88%;
+  }
+}
+
+.txtVoiceAllPosts {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtVoiceAllPosts {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtVoiceAllPosts {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .txtVoiceAllPosts {
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtVoiceAllPosts {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.brdVoiceAllPosts {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .brdVoiceAllPosts {
+    margin-top: 2.3%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.brdVoiceAllPosts {
+  height: 1px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .brdVoiceAllPosts {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdVoiceAllPosts {
+    margin-top: 3.03%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -40504,11 +40663,552 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.voiceLoop {
+  margin-top: 51px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .voiceLoop {
+    margin-top: 2.65%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .voiceLoop {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .voiceLoop {
+    margin-top: 10.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .voiceLoopWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .voiceLoopWap {
+    width: 88%;
+  }
+}
+
+.ulVoiceLoop {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .ulVoiceLoop {
+    padding: 0% 0% 2.3% 0%;
+  }
+}
+.ulVoiceLoop {
+  border-bottom: 1px solid #ebebeb;
+}
+@media screen and (max-width: 767px) {
+  .ulVoiceLoop {
+    padding-top: 0px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .ulVoiceLoop {
+    padding: 0% 0% 12.12% 0%;
+  }
+}
+
+.liVoiceLoop:nth-child(n+2) {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .liVoiceLoop:nth-child(n+2) {
+    margin-top: 2.3%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liVoiceLoop:nth-child(n+2) {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liVoiceLoop:nth-child(n+2) {
+    margin-top: 7.57%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.timeVoiceLoop {
+  font-size: 12px;
+}
+@media screen and (max-width: 1299px) {
+  .timeVoiceLoop {
+    font-size: 0.9237875289vw;
+  }
+}
+.timeVoiceLoop {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .timeVoiceLoop {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .timeVoiceLoop {
+    font-size: 3.2vw;
+  }
+}
+
+.h3VoiceLoop {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .h3VoiceLoop {
+    margin-top: 0.76%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.h3VoiceLoop {
+  font-size: 18px;
+}
+@media screen and (max-width: 1299px) {
+  .h3VoiceLoop {
+    font-size: 1.3856812933vw;
+  }
+}
+.h3VoiceLoop {
+  line-height: 160%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .h3VoiceLoop {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h3VoiceLoop {
+    margin-top: 3.03%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3VoiceLoop {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.cntVoiceLoop {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .cntVoiceLoop {
+    margin-top: 1.53%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.cntVoiceLoop {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .cntVoiceLoop {
+    padding: 1.84% 0% 1.84% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cntVoiceLoop {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .cntVoiceLoop {
+    margin-top: 3.63%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .cntVoiceLoop {
+    padding: 6.06% 0% 6.06% 0%;
+  }
+}
+
+.cntVoiceLoopLxn {
+  width: 1252px;
+}
+@media screen and (max-width: 1299px) {
+  .cntVoiceLoopLxn {
+    width: 96.3%;
+  }
+}
+.cntVoiceLoopLxn {
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .cntVoiceLoopLxn {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .cntVoiceLoopLxn {
+    width: 90.9%;
+  }
+}
+.cntVoiceLoopLxn p {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .cntVoiceLoopLxn p {
+    font-size: 1.2317167052vw;
+  }
+}
+.cntVoiceLoopLxn p {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .cntVoiceLoopLxn p {
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .cntVoiceLoopLxn p {
+    font-size: 3.4666666667vw;
+  }
+}
+
+.pagerVoiceUp {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .pagerVoiceUp {
+    margin-top: 1.53%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pagerVoiceUp {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .pagerVoiceUp {
+    margin-top: 12.12%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.pagerVoiceUptxt {
+  font-size: 12px;
+}
+@media screen and (max-width: 1299px) {
+  .pagerVoiceUptxt {
+    font-size: 0.9237875289vw;
+  }
+}
+.pagerVoiceUptxt {
+  line-height: 150%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .pagerVoiceUptxt {
+    line-height: 140%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .pagerVoiceUptxt {
+    font-size: 3.2vw;
+  }
+}
+
+.pagerVoice {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .pagerVoice {
+    margin-top: 3.07%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pagerVoice {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .pagerVoice {
+    margin-top: 15.15%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.pagerVoice .wp-pagenavi {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 767px) {
+  .pagerVoice .wp-pagenavi {
+    justify-content: center;
+    width: 100%;
+  }
+}
+.pagerVoice .wp-pagenavi a,
+.pagerVoice .wp-pagenavi span {
+  width: 1.71vw;
+  margin: 0vw 0.5729166667vw 0vw 0vw;
+  aspect-ratio: 33/33;
+  border-radius: 100px;
+  /* CSS3草案 */
+  -webkit-border-radius: 100px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 100px;
+  /* Firefox用 */
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .pagerVoice .wp-pagenavi a,
+  .pagerVoice .wp-pagenavi span {
+    font-size: 1.077752117vw;
+  }
+}
+.pagerVoice .wp-pagenavi a,
+.pagerVoice .wp-pagenavi span {
+  line-height: 1;
+  letter-spacing: 0em;
+  background: unset;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  min-width: 33px;
+}
+@media screen and (max-width: 767px) {
+  .pagerVoice .wp-pagenavi a,
+  .pagerVoice .wp-pagenavi span {
+    margin: 0vw 2.1333333333vw 0vw 0vw;
+    width: 6.66vw;
+    letter-spacing: 0em;
+    min-width: 25px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .pagerVoice .wp-pagenavi a,
+  .pagerVoice .wp-pagenavi span {
+    font-size: 3.7333333333vw;
+  }
+}
+.pagerVoice .wp-pagenavi .current {
+  background: #f04e11;
+  color: #fff;
+}
+.pagerVoice .wp-pagenavi .previouspostslink {
+  width: 2.6vw;
+  margin: 0vw 0.5729166667vw 0vw 0vw;
+  aspect-ratio: 50/50;
+  border-radius: 100px;
+  /* CSS3草案 */
+  -webkit-border-radius: 100px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 100px;
+  /* Firefox用 */
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .pagerVoice .wp-pagenavi .previouspostslink {
+    font-size: 1.077752117vw;
+  }
+}
+.pagerVoice .wp-pagenavi .previouspostslink {
+  line-height: 1;
+  letter-spacing: 0em;
+  min-width: 50px;
+  background: #f1ece8;
+  color: #f04e11;
+}
+@media screen and (max-width: 767px) {
+  .pagerVoice .wp-pagenavi .previouspostslink {
+    margin: 0vw 3.4666666667vw 0vw 0vw;
+    width: 10.13vw;
+    letter-spacing: 0em;
+    min-width: 38px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .pagerVoice .wp-pagenavi .previouspostslink {
+    font-size: 3.7333333333vw;
+  }
+}
+.pagerVoice .wp-pagenavi .nextpostslink {
+  width: 2.6vw;
+  margin: 0vw 0vw 0vw 0.5729166667vw;
+  aspect-ratio: 50/50;
+  border-radius: 100px;
+  /* CSS3草案 */
+  -webkit-border-radius: 100px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 100px;
+  /* Firefox用 */
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .pagerVoice .wp-pagenavi .nextpostslink {
+    font-size: 1.077752117vw;
+  }
+}
+.pagerVoice .wp-pagenavi .nextpostslink {
+  line-height: 1;
+  letter-spacing: 0em;
+  min-width: 50px;
+  background: #f1ece8;
+  color: #f04e11;
+  order: 9;
+}
+@media screen and (max-width: 767px) {
+  .pagerVoice .wp-pagenavi .nextpostslink {
+    margin: 0vw 0vw 0vw 3.4666666667vw;
+    width: 10.13vw;
+    letter-spacing: 0em;
+    min-width: 38px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .pagerVoice .wp-pagenavi .nextpostslink {
+    font-size: 3.7333333333vw;
+  }
+}
+.pagerVoice .wp-pagenavi .last {
+  width: 1.71vw;
+  margin: 0vw 0.5729166667vw 0vw 0.5729166667vw;
+  aspect-ratio: 33/33;
+  border-radius: 100px;
+  /* CSS3草案 */
+  -webkit-border-radius: 100px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 100px;
+  /* Firefox用 */
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .pagerVoice .wp-pagenavi .last {
+    font-size: 1.077752117vw;
+  }
+}
+.pagerVoice .wp-pagenavi .last {
+  line-height: 1;
+  letter-spacing: 0em;
+  background: unset;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  min-width: 33px;
+}
+@media screen and (max-width: 767px) {
+  .pagerVoice .wp-pagenavi .last {
+    margin: 0vw 2.1333333333vw 0vw 2.1333333333vw;
+    width: 6.66vw;
+    letter-spacing: 0em;
+    min-width: 25px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .pagerVoice .wp-pagenavi .last {
+    font-size: 3.7333333333vw;
+  }
+}
+
 /* ==========================================================================
 Component
 ========================================================================== */
 .bg_FFFFFF {
   background: #fff;
+}
+
+.bg_D9D9D9 {
+  background: #d9d9d9;
 }
 
 /*

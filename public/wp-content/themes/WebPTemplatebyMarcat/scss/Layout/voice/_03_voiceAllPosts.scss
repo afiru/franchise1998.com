@@ -8,4 +8,31 @@ LAYOUT
 ========================================================================== */
 
 .voiceAllPosts {
+    @include mi.marginPercent(1920, 80, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
+}
+.voiceAllPostsWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.txtVoiceAllPosts {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.brdVoiceAllPosts {
+    @include mi.marginPercent(1300, 30, auto, 0, auto);
+    height: 1px;
+    width: 100%;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 10, auto, 0, auto);
+    }
 }
