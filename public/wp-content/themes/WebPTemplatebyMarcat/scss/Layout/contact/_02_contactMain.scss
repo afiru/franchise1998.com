@@ -8,47 +8,334 @@ LAYOUT
 ========================================================================== */
 .contact {
     @include mi.marginPercent(1920, 84, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
 }
 .contactWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
 }
 .secContactTop {
     @include mi.ontenerWidth(1300, 1000);
     margin: auto;
+    @include mi.mq(sp) {
+        width: 100%;
+    }
 }
 .h2ContactTop {
     @include mi.fontSizePc(26);
-    @include mi.lineheightP(18);
+    @include mi.lineheightP(180);
     @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(50);
+    }
 }
 .txtContactTop {
+    @include mi.marginPercent(1000, 50, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 35, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .telContactPage {
     @include mi.marginPercent(1000, 40, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 50, auto, 0, auto);
+    }
 }
 .h3TelContactPage {
     @include mi.fontSizePc(18);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+    text-align: center;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(15);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .telContactPageFx {
     @include mi.marginPercent(1000, 19, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 21, auto, 0, auto);
+    }
 }
 .littleContactPageFx {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
+    @include mi.marginPercent(1000, 0, 5, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(100);
+        @include mi.marginPercent(330, 0, 5, 0, 0);
+    }
 }
 .telMainContactPageFx {
     @include mi.fontSizePc(21);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(21);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(100);
+    }
 }
 .txtLastMainContactPage {
     @include mi.marginPercent(1000, 20, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 16, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
 }
+//フォーム
 .formContact {
+    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 1000);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 45, auto, 0, auto);
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+.secFomrCnt {
+}
+.h2SecFomrCnt {
+    @include mi.paddingPercent(1000, 14, 0, 14, 24);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.kadomaru(5px);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 12, 0, 12, 15);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulFormCnt {
+}
+.liFormCnt {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(1000, 28, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 20, auto, 0, auto);
+        }
+    }
+}
+.h3FormCnt {
+    @include mi.ontenerWidth(1000, 191);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        width: 100%;
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulFormCnt {
+    @include mi.marginPercent(1000, 30, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+    }
+}
+
+.inputLiFormCntLxn {
+    @include mi.ontenerWidth(1000, 809);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 12, auto, 0, auto);
+        width: 100%;
+    }
+}
+.inputW100 {
+    @include mi.paddingPercent(809, 23, 20, 22, 20);
+    border: 1px solid #929292;
+    @include mi.kadomaru(5px);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    width: 100%;
+    color: #453c3c;
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 19, 15, 19, 15);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+    &::placeholder {
+        color: #d9d9d9;
+    }
+}
+
+.secFomrCnt02 {
+    @include mi.marginPercent(1000, 60, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 40, auto, 0, auto);
+    }
+}
+.checkWap {
+    .mwform-radio-field {
+    }
+    label {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        @include mi.fontSizePc(16);
+        @include mi.lineheightP(21);
+        @include mi.letterSpacing(0);
+        color: #453c3c;
+        @include mi.mq(sp) {
+            @include mi.fontSizeSp(16);
+            @include mi.lineheightP(21);
+            @include mi.letterSpacing(0);
+        }
+    }
+}
+.checkcontct {
+    width: 20px !important;
+    aspect-ratio: 1/1;
+    margin: 0 10px 0 0 !important;
+    @include mi.mq(sp) {
+        margin: 0 7px 0 0 !important;
+    }
+}
+
+.txtLiFormCntLxn {
+    @include mi.marginPercent(809, 28, 0, 0, 0);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 24, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtW100 {
+    @include mi.paddingPercent(809, 20, 0, 20, 20);
+    border: 1px solid #929292;
+    @include mi.kadomaru(5px);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    width: 100%;
+    aspect-ratio: 809/101;
+    color: #453c3c;
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 19, 15, 19, 15);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        aspect-ratio: 330/220;
+    }
+    &::placeholder {
+        color: #d9d9d9;
+    }
+}
+
+.tujoCheckWap {
+}
+.tujoCheckLx {
+    //@include mi.ontenerWidth(809, 100);
+    @include mi.mq(sp) {
+    }
+    .mwform-radio-field {
+    }
+    label {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        @include mi.fontSizePc(14);
+        @include mi.lineheightP(21);
+        @include mi.letterSpacing(0);
+        @include mi.mq(sp) {
+            @include mi.fontSizeSp(14);
+            @include mi.lineheight(14, 21);
+            @include mi.letterSpacing(0);
+        }
+    }
+}
+.checkcontct {
+    width: 20px !important;
+    aspect-ratio: 1/1;
+    margin: 0 10px 0 0 !important;
+    @include mi.mq(sp) {
+        margin: 0 7px 0 0 !important;
+    }
+}
+.txtTujoCheckWap {
+    @include mi.marginPercent(249, 0, 0, 0, 18);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 0, 0, 0, 7);
+    }
+}
+.txtTujoCheckWap a {
+    color: #453c3c;
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(21);
+    @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(12);
+        @include mi.lineheight(12, 21);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.lastTxtContact {
+    @include mi.marginPercent(809, 39, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 31, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.btnToConfirmLxn {
     @include mi.marginPercent(1000, 50, auto, 0, auto);
+    @include mi.ontenerWidth(1000, 260);
+    position: relative;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 260);
+    }
+}
+.btnToConfirm {
+    width: 100%;
+    aspect-ratio: 260/50;
+    @include mi.kadomaru(30px);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    border: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: 1px solid #f28962;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+    &:hover {
+        opacity: 0.6;
+    }
 }
