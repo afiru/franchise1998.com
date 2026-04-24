@@ -308,3 +308,57 @@ function get_genre_cats($parent_id = 15, $post_id = null)
 
     return '';
 }
+/*
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+ * お買い物ガイド・よくあるご質問用のカスタムフィールドを設定
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+ */
+add_action('init', 'faq_init');
+function faq_init()
+{
+    $labels = array(
+        'name'               => _x('お買い物ガイド・よくあるご質問', 'post type general name', 'your-plugin-textdomain'),
+        'singular_name'      => _x('お買い物ガイド・よくあるご質問', 'post type singular name', 'your-plugin-textdomain'),
+        'menu_name'          => _x('お買い物ガイド・よくあるご質問', 'your-plugin-textdomain'),
+        'name_admin_bar'     => _x('お買い物ガイド・よくあるご質問', 'add new on admin bar', 'your-plugin-textdomain'),
+        'add_new'            => _x('お買い物ガイド・よくあるご質問を新規登録', 'blog', 'your-plugin-textdomain'),
+        'add_new_item'       => __('お買い物ガイド・よくあるご質問を新規登録', 'your-plugin-textdomain'),
+        'new_item'           => __('お買い物ガイド・よくあるご質問を新規登録', 'your-plugin-textdomain'),
+        'edit_item'          => __('お買い物ガイド・よくあるご質問を編集', 'your-plugin-textdomain'),
+        'view_item'          => __('お買い物ガイド・よくあるご質問を見る', 'your-plugin-textdomain'),
+        'all_items'          => __('すべてのお買い物ガイド・よくあるご質問', 'your-plugin-textdomain'),
+        'search_items'       => __('お買い物ガイド・よくあるご質問を探す', 'your-plugin-textdomain'),
+        'parent_item_colon'  => __('Parent お買い物ガイド・よくあるご質問:', 'your-plugin-textdomain'),
+        'not_found'          => __('No books found.', 'your-plugin-textdomain'),
+        'not_found_in_trash' => __('No books found in Trash.', 'your-plugin-textdomain')
+    );
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => array('slug' => 'faqs'),
+        'capability_type'    => 'post',
+        'show_in_rest' => true,
+        'has_archive'        => true,
+        'hierarchical'       => false,
+        'menu_position'      => 4,
+        'supports'           => array('title', 'thumbnail', 'editor')
+    );
+    register_post_type('faqs', $args);
+}
+function create_taxonomyFaqs()
+{
+    register_taxonomy(
+        'faq_category',
+        'faqs',
+        array(
+            'show_in_rest' => true,
+            'label' => __('お買い物ガイド・よくあるご質問区分'), //管理画面に表示されるラベル
+            'hierarchical' => true //trueだとカテゴリー、falseだとタグ
+        )
+    );
+}
+add_action('init', 'create_taxonomyFaqs');
