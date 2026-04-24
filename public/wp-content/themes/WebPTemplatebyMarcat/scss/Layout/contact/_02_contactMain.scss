@@ -1,0 +1,51 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.contact {
+    @include mi.marginPercent(1920, 84, auto, 0, auto);
+}
+.contactWap {
+}
+.secContactTop {
+    @include mi.ontenerWidth(1300, 1000);
+    margin: auto;
+}
+.h2ContactTop {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(18);
+    @include mi.letterSpacing(20);
+}
+.txtContactTop {
+}
+.telContactPage {
+    @include mi.marginPercent(1000, 40, auto, 0, auto);
+}
+.h3TelContactPage {
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+}
+.telContactPageFx {
+    @include mi.marginPercent(1000, 19, auto, 0, auto);
+}
+.littleContactPageFx {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(100);
+}
+.telMainContactPageFx {
+    @include mi.fontSizePc(21);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(100);
+}
+.txtLastMainContactPage {
+    @include mi.marginPercent(1000, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
