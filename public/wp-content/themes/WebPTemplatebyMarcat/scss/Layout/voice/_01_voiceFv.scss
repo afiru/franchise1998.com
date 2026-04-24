@@ -9,6 +9,9 @@ LAYOUT
 .voiceFv {
 }
 .voiceFvWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
 }
 .secVoiceWap {
 }
@@ -16,11 +19,23 @@ LAYOUT
     @include mi.fontSizePc(60);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(36);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(10);
+    }
 }
 .h3VoiceFvWap {
+    @include mi.marginPercent(1300, 36, 0, 0, 0);
     @include mi.fontSizePc(24);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, 0, 0, 0);
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .bordVoiceFvWap {
     position: relative;
@@ -28,9 +43,8 @@ LAYOUT
     @include mi.paddingPercent(1920, 30, 0, 0, 0);
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 330);
-        margin: auto;
-        @include mi.paddingPercent(375, 50, 0, 0, 0);
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+        @include mi.paddingPercent(375, 15, 0, 0, 0);
     }
 }
 .brdLongBordVoiceFvWap {

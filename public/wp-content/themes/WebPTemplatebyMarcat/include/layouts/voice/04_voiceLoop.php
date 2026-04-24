@@ -26,7 +26,13 @@ $query = new WP_Query($args);
             </li>
             <?php endwhile; wp_reset_postdata(); ?>
         </ul>
-
+        <div class="pagerVoiceUp">
+            <p class="pagerVoiceUptxt">
+                ※当社にてサービスをお受けいただいたお客様にアンケート（レビュー）のお願いをしております。強制ではございません。<br>
+                ※Googleの口コミと同じ口コミを表示しています。<br>
+                ※Google以外の口コミもこちらに表示しています。
+            </p>
+        </div>
         <div class="d_flex j_center pagerVoice">
             <?php if (function_exists('wp_pagenavi')) {
                     wp_pagenavi(array('query' => $query));
