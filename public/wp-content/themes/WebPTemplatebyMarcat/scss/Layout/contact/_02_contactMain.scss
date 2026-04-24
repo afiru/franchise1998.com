@@ -49,3 +49,6 @@ LAYOUT
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
 }
+.formContact {
+    @include mi.marginPercent(1000, 50, auto, 0, auto);
+}
