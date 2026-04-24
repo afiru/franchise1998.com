@@ -11,7 +11,7 @@ $query = new WP_Query($args);
 <?php if ($query->have_posts()) : ?>
     <div class="topicsAllPost">
         <div class="wapper topicsAllPostWap">
-            <ul class="ulTopicsAllPost">
+            <ul class="d_flex j_start row ulTopicsAllPost">
                 <?php while ($query->have_posts()) : $query->the_post(); ?>
                     <?php $img = get_post_thumbsdata($post->ID); ?>
                     <li class="liTopicsAllPost">

@@ -1,0 +1,87 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.topicsAllPost {
+    @include mi.marginPercent(1920, 50, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
+}
+
+.topicsAllPostWap {
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+
+.ulTopicsAllPost {}
+
+.liTopicsAllPost {
+    @include mi.ontenerWidth(1300, 398);
+    @include mi.marginPercent(1300, 0, 53, 50, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        @include mi.marginPercent(330, 0, 0, 0, 0);
+    }
+
+    &:nth-child(3n) {
+        @include mi.marginPercent(1300, 0, 0, 50, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 0, 0, 0, 0);
+        }
+    }
+
+    &:nth-child(n+2) {
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 30, 0, 0, 0);
+        }
+    }
+}
+
+.btnliTopicsAllPost {
+    display: block;
+    text-decoration: none;
+}
+
+.photoTopicsAllPost {}
+
+.timeTopicsLoop {
+    @include mi.marginPercent(398, 24, 0, 0, 0);
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, 0, 0, 0);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.txtTopicsLoop {
+    @include mi.marginPercent(398, 19, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, 0, 0, 0);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+
+.pagerTopics {
+    @include mi.marginPercent(1300, 0, 0, 0, 0);
+}
