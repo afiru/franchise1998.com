@@ -61,6 +61,7 @@ LAYOUT
 .productsPlanGiftGoods {
 }
 .titleProductsPlanGiftGoods {
+    align-items: baseline;
 }
 .h4TitleProductsPlanGiftGoods {
     @include mi.fontSizePc(30);

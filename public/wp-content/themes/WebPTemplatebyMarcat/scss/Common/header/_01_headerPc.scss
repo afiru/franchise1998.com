@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -17,7 +17,7 @@ LAYOUT
 
 .headerPcFx {
     @include mi.paddingPercent(1920, 14, 0, 17, 0);
-    background: #fff;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .btnHeaderPc {
@@ -67,4 +67,21 @@ LAYOUT
 
 .btnNavOpenPc {
     @include mi.ontenerWidth(352, 20);
+    cursor: pointer;
+
+    &:hover {
+    }
+}
+
+.btnNavOpenPc {
+    svg {
+        fill: #421d12;
+        transition-duration: 0.5s;
+    }
+    &:hover svg {
+        fill: #f04e11;
+    }
+    &:focus svg {
+        fill: #f04e11;
+    }
 }

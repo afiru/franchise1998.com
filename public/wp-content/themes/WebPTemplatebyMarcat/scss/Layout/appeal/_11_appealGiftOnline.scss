@@ -1,7 +1,7 @@
 /* ==========================================================================
 
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -14,7 +14,8 @@ LAYOUT
     }
 }
 
-.appealGiftOnlineWap {}
+.appealGiftOnlineWap {
+}
 
 .appealGiftOnlineFx {
     @include mi.mq(sp) {
@@ -90,7 +91,6 @@ LAYOUT
     }
 }
 
-
 //
 .appealGiftOnlineAlert {
     @include mi.ontenerWidth(1300, 632);
@@ -116,7 +116,7 @@ LAYOUT
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
     @include mi.paddingPercent(568, 0, 0, 16, 0);
-    border-bottom: 1px solid #BEBDBD;
+    border-bottom: 1px solid #bebdbd;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
@@ -161,7 +161,6 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.marginPercent(301, 15, auto, 0, auto);
-
     }
 }
 
@@ -225,6 +224,7 @@ LAYOUT
     @include mi.fontSizePc(26);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
+    white-space: nowrap;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);

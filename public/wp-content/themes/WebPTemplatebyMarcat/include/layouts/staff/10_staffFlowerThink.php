@@ -10,7 +10,7 @@
             </figure>
 
             <div class="d_flex j_between cntStaffFlowerThink">
-                <figure class="txtCntStaffFlowerThink">
+                <figure class="txtCntStaffFlowerThinkFig">
                     <picture>
                         <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/staff/txtCntStaffFlowerThinkPc.svg'); ?>">
                         <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/staff/txtCntStaffFlowerThinkSp.svg'); ?>">

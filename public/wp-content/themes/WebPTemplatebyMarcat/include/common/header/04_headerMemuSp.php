@@ -1,4 +1,4 @@
-<div class="bg_421D12 headerMenuSp jsheaderMenuSp">
+<div class="bg_421D12 headerMenuSp jsheaderMenuSp" data-lenis-prevent>
     <div class="pore headerMenuSpLxn">
         <div class="poab closeMenuSp jsCloseMenuSp">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -18,11 +18,12 @@ LAYOUT
         @include mi.paddingPercent(375, 185, 0, 186, 0);
         background: url(../img/index/topMadeSp.png) no-repeat center top;
         background-size: cover;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 }
 
-.secTopMade {}
+.secTopMade {
+}
 
 .h2TopMade {
     @include mi.fontSizePc(20);
@@ -33,7 +34,6 @@ LAYOUT
         @include mi.fontSizeSp(15);
         @include mi.lineheightP(200);
         @include mi.letterSpacing(0);
-
     }
 }
 

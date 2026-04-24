@@ -1,9 +1,9 @@
-<div class="bg_421D12 pore headerMenuPc jsheaderMenuPc">
+<div class="bg_421D12 pore headerMenuPc jsheaderMenuPc" data-lenis-prevent>
     <div class="bg_EA670F poab brdHeaderMenuPc"></div>
     <div class="poab closeMenuPc jsCloseMenuPc">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-            <rect width="26.9373" height="1.34687" transform="matrix(0.707107 0.707106 -0.707107 0.707106 0.953125 0)" fill="white" />
-            <rect width="26.9373" height="1.34687" transform="matrix(-0.707107 0.707106 0.707107 0.707106 19.0469 0)" fill="white" />
+            <rect width="26.9373" height="1.34687" transform="matrix(0.707107 0.707106 -0.707107 0.707106 0.953125 0)" fill="" />
+            <rect width="26.9373" height="1.34687" transform="matrix(-0.707107 0.707106 0.707107 0.707106 19.0469 0)" fill="" />
         </svg>
     </div>
 

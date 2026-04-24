@@ -33,7 +33,7 @@ LAYOUT
     }
 }
 .secTamaranHireOsaka {
-    @include mi.marginPercent(1300, 82, 0, 0, 0);
+    @include mi.marginPercent(1300, 0, 0, 0, 0);
     @include mi.ontenerWidth(1300, 320);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 30, auto, 0, auto);
@@ -96,16 +96,19 @@ LAYOUT
     @include mi.marginPercent(854, 39, auto, 0, auto);
 }
 .ulTamaranHireShinOsakaFxLeft {
-}
-.liTamaranHireShinOsakaFxLeft {
     @include mi.ontenerWidth(854, 361);
     @include mi.mq(sp) {
         width: 100%;
     }
+}
+.liTamaranHireShinOsakaFxLeft {
+    @include mi.mq(sp) {
+        width: 100%;
+    }
     &:nth-child(n + 2) {
-        @include mi.marginPercent(854, 41, auto, 0, auto);
+        @include mi.marginPercent(854, 41, 0, 0, 0);
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 35, auto, 0, auto);
+            @include mi.marginPercent(330, 35, 0, 0, 0);
         }
     }
 }

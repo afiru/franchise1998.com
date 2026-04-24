@@ -22,9 +22,9 @@
         </ul>
         <div class="c_pointer btnNavOpenPc jsbtnNavOpenPc off">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15" fill="none">
-                <rect width="20" height="1" fill="#421D12" />
-                <rect y="7" width="20" height="1" fill="#421D12" />
-                <rect y="14" width="16" height="1" fill="#421D12" />
+                <rect width="20" height="1" fill="" />
+                <rect y="7" width="20" height="1" fill="" />
+                <rect y="14" width="16" height="1" fill="" />
             </svg>
         </div>
     </nav>

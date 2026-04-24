@@ -1,4 +1,4 @@
-<div class="sp_only spFixedMenu">
+<div class="sp_only spFixedMenu" data-lenis-prevent>
     <ul class="d_flex j_between bg_421D12 ulSpFixedMenu">
         <li class="liSpFixedMenu jbtnHeaderNavBtmPc">
             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnLiSpFixedMenu01.svg'); ?>" alt="<?php echo esc_attr('商品を探す'); ?>" width="125" height="40">
@@ -16,7 +16,7 @@
     </ul>
 </div>
 
-<div class="pc_only pcFixedMenu">
+<div class="pc_only pcFixedMenu" data-lenis-prevent>
     <ul class=" ulPcFixedMenu">
         <li class="liPcFixedMenu jbtnHeaderNavBtmPc">
             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnLiPcFixedMenu01.svg'); ?>" alt="<?php echo esc_attr('商品を探す'); ?>" width="45" height="136">

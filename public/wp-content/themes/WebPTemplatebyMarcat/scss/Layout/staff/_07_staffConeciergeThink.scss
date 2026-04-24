@@ -38,7 +38,7 @@ LAYOUT
     }
 }
 .secCntCntStaffConeciergeThink {
-    @include mi.ontenerWidth(633, 633);
+    @include mi.ontenerWidth(680, 633);
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 300);
         margin: 0 0 0 auto;

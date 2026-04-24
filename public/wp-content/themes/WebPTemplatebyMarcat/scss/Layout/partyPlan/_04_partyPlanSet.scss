@@ -13,6 +13,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 50, auto, 0, auto);
         @include mi.paddingPercent(375, 68, 0, 70, 0);
+        border-radius: 0 26.666666666666668vw 0 0;
     }
 }
 

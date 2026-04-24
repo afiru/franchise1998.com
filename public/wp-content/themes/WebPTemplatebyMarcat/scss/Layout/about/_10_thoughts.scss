@@ -74,7 +74,7 @@ LAYOUT
     }
 }
 .liAboutThought {
-    @include mi.ontenerWidth(1200, 406);
+    @include mi.ontenerWidth(1300, 406);
     @include mi.mq(sp) {
         width: 100%;
         &:nth-child(n + 2) {
@@ -103,8 +103,8 @@ LAYOUT
 
 //
 .btnAboutThoughtLxn02 {
-    @include mi.marginPercent(425, 62, auto, 0, auto);
-    @include mi.ontenerWidth(425, 200);
+    @include mi.marginPercent(1300, 62, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 200);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 30, auto, 0, auto);
         @include mi.ontenerWidth(330, 200);

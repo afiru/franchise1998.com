@@ -98,7 +98,7 @@ LAYOUT
     }
 }
 .txtMenuExeDetailfamilyPlan {
-    @include mi.ontenerWidth(1100, 192);
+    @include mi.ontenerWidth(330, 192);
     @include mi.fontSizePc(16);
     @include mi.lineheight(16, 28);
     @include mi.letterSpacing(0);

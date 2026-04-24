@@ -74,13 +74,13 @@ LAYOUT
     }
 }
 .productsTamaran {
-    @include mi.marginPercent(1200, 80, auto, 0, auto);
+    @include mi.marginPercent(1300, 80, auto, 0, auto);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 26, auto, 0, auto);
     }
 }
 .liProductsTamaran {
-    @include mi.ontenerWidth(1200, 618);
+    @include mi.ontenerWidth(1300, 600);
     @include mi.mq(sp) {
         width: 100%;
         &:nth-child(n + 2) {

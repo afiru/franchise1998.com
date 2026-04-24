@@ -130,6 +130,8 @@ LAYOUT
 .ulFormCnt {
 }
 .liFormCnt {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    align-items: center;
     &:nth-child(n + 2) {
         @include mi.marginPercent(1000, 28, auto, 0, auto);
         @include mi.mq(sp) {
@@ -164,7 +166,7 @@ LAYOUT
     }
 }
 .inputW100 {
-    @include mi.paddingPercent(809, 23, 20, 22, 20);
+    @include mi.paddingPercent(809, 14, 20, 14, 20);
     border: 1px solid #929292;
     @include mi.kadomaru(5px);
     @include mi.fontSizePc(16);
@@ -190,29 +192,39 @@ LAYOUT
     }
 }
 .checkWap {
+    margin: 1% 0 0 0;
+    align-items: center;
+    @include mi.mq(sp) {
+        margin: 0;
+    }
     .mwform-radio-field {
     }
-    label {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        @include mi.fontSizePc(16);
+}
+.checkWap label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(21);
+    @include mi.letterSpacing(0);
+    color: #453c3c;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
         @include mi.lineheightP(21);
         @include mi.letterSpacing(0);
-        color: #453c3c;
-        @include mi.mq(sp) {
-            @include mi.fontSizeSp(16);
-            @include mi.lineheightP(21);
-            @include mi.letterSpacing(0);
-        }
     }
 }
 .checkcontct {
     width: 20px !important;
     aspect-ratio: 1/1;
     margin: 0 10px 0 0 !important;
+    accent-color: #f04e11;
+    @include mi.mq(tab) {
+        width: 1.2 !important;
+    }
     @include mi.mq(sp) {
         margin: 0 7px 0 0 !important;
+        width: 20px !important;
     }
 }
 
@@ -229,7 +241,7 @@ LAYOUT
     }
 }
 .txtW100 {
-    @include mi.paddingPercent(809, 20, 0, 20, 20);
+    @include mi.paddingPercent(809, 14, 20, 14, 20);
     border: 1px solid #929292;
     @include mi.kadomaru(5px);
     @include mi.fontSizePc(16);
@@ -251,6 +263,11 @@ LAYOUT
 }
 
 .tujoCheckWap {
+    margin: 1% 0 0 0;
+    align-items: center;
+    @include mi.mq(sp) {
+        margin: 0;
+    }
 }
 .tujoCheckLx {
     //@include mi.ontenerWidth(809, 100);
@@ -258,26 +275,31 @@ LAYOUT
     }
     .mwform-radio-field {
     }
-    label {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        @include mi.fontSizePc(14);
-        @include mi.lineheightP(21);
+}
+.tujoCheckLx label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(21);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 21);
         @include mi.letterSpacing(0);
-        @include mi.mq(sp) {
-            @include mi.fontSizeSp(14);
-            @include mi.lineheight(14, 21);
-            @include mi.letterSpacing(0);
-        }
     }
 }
 .checkcontct {
     width: 20px !important;
     aspect-ratio: 1/1;
     margin: 0 10px 0 0 !important;
+    accent-color: #f04e11;
+    @include mi.mq(tab) {
+        width: 1.2 !important;
+    }
     @include mi.mq(sp) {
         margin: 0 7px 0 0 !important;
+        width: 20px !important;
     }
 }
 .txtTujoCheckWap {

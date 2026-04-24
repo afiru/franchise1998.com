@@ -22,12 +22,14 @@ $args = [
                         while ($query1->have_posts()): $query1->the_post();
                             $nowcats = get_the_category($post->ID); ?>
                     <div class="swiper-slide">
-                        <figure class="picSliderTopTopics">
-                            <?php $img = get_post_thumbsdata($post->ID); ?>
-                            <img class="poab imgThumbsLiListIndexEvent" loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo get_the_title($post->ID); ?>サムネイル画像" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
-                        </figure>
-                        <h3 class="cl_31150D fw_400 txtset txtovflow  h3SliderTopTopics"><?php echo get_the_title($post->ID); ?></h3>
-                        <time class="d_block cl_453C3C fw_300 kaku timeSliderTopTopics"><?php echo get_the_date('Y.m.d', $post->ID); ?></time>
+                        <a class="btnAction undernone btnSliderTopTopics" href="<?php echo get_permalink($post->ID); ?>">
+                            <figure class="picSliderTopTopics">
+                                <?php $img = get_post_thumbsdata($post->ID); ?>
+                                <img class="poab imgThumbsLiListIndexEvent" loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo get_the_title($post->ID); ?>サムネイル画像" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
+                            </figure>
+                            <h3 class="cl_31150D fw_400 txtset txtovflow  h3SliderTopTopics"><?php echo get_the_title($post->ID); ?></h3>
+                            <time class="d_block cl_453C3C fw_300 kaku timeSliderTopTopics"><?php echo get_the_date('Y.m.d', $post->ID); ?></time>
+                        </a>
                     </div>
                     <?php $i++;
                         endwhile;

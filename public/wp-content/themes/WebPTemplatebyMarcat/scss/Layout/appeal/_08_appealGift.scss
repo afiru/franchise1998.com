@@ -1,7 +1,7 @@
 /* ==========================================================================
 
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -25,7 +25,8 @@ LAYOUT
     }
 }
 
-.appealGiftFx {}
+.appealGiftFx {
+}
 
 .secAppealGift {
     @include mi.ontenerWidth(1300, 560);
@@ -103,23 +104,30 @@ LAYOUT
 
 .btnAppealGifts {
     background: #fff;
-    border: 1px solid #F04E11;
+    border: 1px solid #f04e11;
     width: 100%;
     aspect-ratio: 259 / 39;
     text-align: center;
     text-decoration: none;
     @include mi.kadomaru(30px);
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(260, 260);
         aspect-ratio: 260 / 40;
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
     }
 }
 
 .iconBtnAppealGifts {
     @include mi.ontenerWidth(259, 237);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+        center;
     background-size: auto 20%;
     display: block;
     text-align: center;
@@ -127,7 +135,8 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(260, 228);
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+            center;
         background-size: auto 20%;
     }
 }

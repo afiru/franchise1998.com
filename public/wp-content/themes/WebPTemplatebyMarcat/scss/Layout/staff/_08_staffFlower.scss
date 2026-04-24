@@ -9,10 +9,11 @@ LAYOUT
 
 .staffFlower {
     @include mi.paddingPercent(1920, 125, 0, 100, 0);
-    border-radius: 0 100px 0 0;
+    border-radius: 0 5.208333333333333vw 0 0;
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 70, auto, 0, auto);
         @include mi.paddingPercent(375, 100, 0, 80, 0);
+        border-radius: 0 26.666666666666668vw 0 0;
     }
 }
 .staffFlowerWap {

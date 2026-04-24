@@ -18,8 +18,15 @@ LAYOUT
     }
     .inputLiFormCntLxn {
         @include mi.ontenerWidth(1000, 790);
+        @include mi.fontSizePc(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        color: #453c3c;
         @include mi.mq(sp) {
             width: 100%;
+            @include mi.fontSizeSp(16);
+            @include mi.lineheightP(160);
+            @include mi.letterSpacing(0);
         }
     }
     .liFormCnt {
