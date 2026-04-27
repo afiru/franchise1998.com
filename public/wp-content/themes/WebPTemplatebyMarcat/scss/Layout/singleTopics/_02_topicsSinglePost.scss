@@ -251,3 +251,43 @@ LAYOUT
 }
 
 /*ページャー*/
+.pagerSinglePager {
+    @include mi.marginPercent(1920, 60, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 90, auto, 0, auto);
+    }
+}
+.pagerSinglePagerWap {
+}
+.pagerMainSinglePager {
+    @include mi.ontenerWidth(1300, 247);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 198);
+    }
+}
+.prevSinglePagerWap {
+    @include mi.ontenerWidth(247, 50);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(198, 38);
+    }
+}
+.prevSinglePager {
+}
+.btnPagerSingleLxn {
+    @include mi.marginPercent(347, 0, 33, 0, 33);
+    @include mi.ontenerWidth(347, 82);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(198, 0, 26, 0, 26);
+        width: 47.36%;
+    }
+}
+
+.nextSinglePagerWap {
+    @include mi.ontenerWidth(247, 50);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(198, 38);
+    }
+}
+.nextSinglePager {
+}

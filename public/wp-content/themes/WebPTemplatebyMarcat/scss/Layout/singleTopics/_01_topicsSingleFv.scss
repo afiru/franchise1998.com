@@ -22,7 +22,8 @@ LAYOUT
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.marginPercent(375, 15, auto, 0, auto);
+        @include mi.ontenerWidth(375, 330);
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);

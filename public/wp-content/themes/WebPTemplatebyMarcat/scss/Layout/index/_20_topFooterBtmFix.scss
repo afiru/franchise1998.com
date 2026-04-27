@@ -19,8 +19,13 @@ LAYOUT
 
 .liPcFixedMenu {
     cursor: pointer;
+    transition-duration: 0.5s;
+
     &:nth-child(n + 2) {
         @include mi.marginPercent(45, 5, auto, 0, auto);
+    }
+    &:hover {
+        opacity: 0.6;
     }
 }
 
