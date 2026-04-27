@@ -1,0 +1,152 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.giftPickUp {
+    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 45, auto, 0, auto);
+    }
+}
+.giftPickUpWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.h2GiftPickUp {
+    @include mi.fontSizePc(25);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(150);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(100);
+    }
+}
+.ulGiftPickUp {
+    @include mi.marginPercent(1300, 25, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+    }
+}
+.liGiftPickUp {
+    @include mi.ontenerWidth(1300, 626);
+    @include mi.kadomaru(10px);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        &:nth-child(n + 2) {
+            @include mi.marginPercent(330, 21, auto, 0, auto);
+        }
+    }
+}
+.liGiftPickUpLxn {
+    @include mi.paddingPercent(626, 30, 0, 20, 0);
+    @include mi.ontenerWidth(626, 530);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 20, 0, 24, 0);
+        @include mi.ontenerWidth(330, 280);
+    }
+}
+.h3GiftPickUpLxn {
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.photoGiftPickUp {
+    @include mi.marginPercent(530, 28, auto, 0, auto);
+    position: relative;
+    @include mi.kadomaru(10px);
+    overflow: hidden;
+    aspect-ratio: 530/227;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(280, 20, auto, 0, auto);
+        aspect-ratio: 279/146;
+    }
+}
+.imgThumbsLiListIndexEvent {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.h4GiftPickUp {
+    @include mi.marginPercent(530, 24, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheight(16, 25);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(280, 20, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheight(16, 25);
+        @include mi.letterSpacing(0);
+    }
+}
+.txtGiftPickUp {
+    @include mi.marginPercent(530, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(280, 16, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.btnGiftPickUpLxn {
+    @include mi.marginPercent(530, 18, auto, 0, auto);
+    @include mi.ontenerWidth(530, 178);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(280, 25, auto, 0, auto);
+        @include mi.ontenerWidth(280, 200);
+    }
+}
+.btnGiftPickUp {
+    width: 100%;
+    @include mi.kadomaru(30px);
+    border: 1px solid #f04e11;
+    aspect-ratio: 178/40;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.6;
+    @include mi.fontSizePc(14);
+    @include mi.lineheight(14, 20);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.kadomaru(30px);
+        aspect-ratio: 200/40;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+.iconBtnGiftPickUp {
+    background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
+    background-size: auto 20%;
+    text-align: center;
+    width: 88%;
+    @include mi.mq(sp) {
+        background-size: auto 60%;
+    }
+}

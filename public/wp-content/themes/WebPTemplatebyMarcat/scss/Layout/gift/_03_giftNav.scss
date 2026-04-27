@@ -1,0 +1,54 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.giftFvBtmNav {
+    @include mi.marginPercent(1920, 70, auto, 0, auto);
+}
+.GiftFvBtmNavWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
+.navGiftFvBtm {
+    @include mi.ontenerWidth(1300, 610);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        margin: auto;
+    }
+}
+.ulNavGiftFvBtm {
+    width: 100%;
+}
+.liNavGiftFvBtm {
+    @include mi.ontenerWidth(610, 190);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 104);
+    }
+}
+.btnNavGiftFvBtm {
+    width: 100%;
+    aspect-ratio: 190 / 51;
+    border-bottom: 1px solid #8d8181;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    text-align: center;
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 100 / 50;
+        border-bottom: 1px solid #8d8181;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}

@@ -1,0 +1,135 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.giftProducts {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    @include mi.paddingPercent(1920, 0, 0, 100, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 99, auto, 0, auto);
+        @include mi.paddingPercent(375, 0, 0, 100, 0);
+    }
+}
+.giftProductsWap {
+}
+.secGiftProducts {
+}
+.h2GiftProducts {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+}
+.rubyGiftProducts {
+    @include mi.marginPercent(1300, 35, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+}
+.giftProductsSliderLxn {
+    @include mi.marginPercent(1300, 50, auto, 0, auto);
+}
+.GiftProductsSlider {
+    overflow: hidden;
+    position: relative;
+    @include mi.paddingPercent(1300, 0, 0, 40, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(340, 0, 0, 40, 0);
+    }
+}
+.btnGiftProducts {
+}
+.picSliderGiftProducts02 {
+    position: relative;
+    aspect-ratio: 298/298;
+    overflow: hidden;
+}
+
+.catsSliderGiftProducts {
+    @include mi.marginPercent(298, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+}
+.h3SliderGiftProducts {
+    @include mi.marginPercent(298, 10, auto, 0, auto);
+    @include mi.fontSizePc(15);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+}
+.priceSliderGiftProducts {
+    @include mi.marginPercent(298, 15, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+}
+
+.GiftProductsSliderScrollbar {
+    background: #fff;
+    @include mi.kadomaru(3px);
+    overflow: hidden;
+    height: 10px !important;
+    padding: 2px 0;
+
+    @include mi.mq(sp) {
+    }
+}
+
+.slider__btnGift {
+    background: #421d12;
+    @include mi.kadomaru(3px);
+    height: 6px !important;
+    cursor: pointer;
+}
+
+//ボタン
+.btnCntGiftProductsLxn {
+    @include mi.marginPercent(1300, 33, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 240);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 240);
+    }
+}
+.btnCntGiftProducts {
+    aspect-ratio: 240 / 40;
+    @include mi.kadomaru(30px);
+    border: 1px solid #f04e11;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+    background: #fff;
+    overflow: hidden;
+
+    @include mi.mq(sp) {
+        aspect-ratio: 193 / 39;
+        @include mi.kadomaru(30px);
+        border: 1px solid #f04e11;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.iconBbtnCntGiftProductss {
+    @include mi.ontenerWidth(240, 218);
+    margin: auto;
+    background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right
+        center;
+    background-size: auto 15%;
+    display: block;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(193, 163);
+        margin: auto;
+        background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right
+            center;
+        background-size: auto 20%;
+    }
+}

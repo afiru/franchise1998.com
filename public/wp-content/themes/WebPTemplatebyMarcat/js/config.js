@@ -104,6 +104,40 @@ window.addEventListener('load', function () {
             dragClass: 'slider__btn02',
         },
     });
+
+
+    //GIFT
+    let spaceBetweenGift;
+    let totalSlidesGift = document.querySelectorAll('.jsactionLxnGift .swiper-slide').length;
+    let slidesPerViewGift = window.innerWidth < 768 ? 2 : 4;
+    const isSlideCountLessThanSlidesPerViewGift = totalSlidesGift + 1 <= Math.floor(slidesPerViewGift);
+    let draggableGift = !isSlideCountLessThanSlidesPerViewGift;
+
+    if (window.innerWidth > 768) {
+        const justifyContent = !isSlideCountLessThanSlidesPerViewGift ? 'flex-start' : 'center';
+        $('.jsactionLxnGift .swiper-wrapper').css('justify-content', justifyContent);
+    }
+    if (window.innerWidth < 768) {
+        dragSizeGift = 52;
+        spaceBetweenGift = 22;
+    } else {
+        dragSizeGift = 114;
+        spaceBetweenGift = 36;
+    }
+
+    const mainGallerySliderGift = new Swiper('.jsactionLxnGift', {
+        slidesPerView: slidesPerViewGift,
+        spaceBetween: spaceBetweenGift,
+        loop: false,
+        allowTouchMove: !isSlideCountLessThanSlidesPerViewGift,
+        scrollbar: {
+            el: '.GiftProductsSliderScrollbar',
+            draggable: draggableGift,
+            dragSize: dragSizeGift,
+            snapOnRelease: false,
+            dragClass: 'slider__btnGift',
+        },
+    });
 });
 
 $(function () {
