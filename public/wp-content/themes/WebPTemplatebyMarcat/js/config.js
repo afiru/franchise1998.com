@@ -114,7 +114,7 @@ window.addEventListener('load', function () {
     if (document.querySelector('.jsactionLxnGift')) {
         let spaceBetween03;
         let totalSlides03 = document.querySelectorAll('.jsactionLxnGift .swiper-slide').length;
-        let slidesPerView03 = window.innerWidth < 768 ? 2 : 3;
+        let slidesPerView03 = window.innerWidth < 768 ? 2 : 4;
         const isSlideCountLessThanSlidesPerView03 = totalSlides03 + 1 <= Math.floor(slidesPerView03);
         let draggable03 = !isSlideCountLessThanSlidesPerView03;
 
