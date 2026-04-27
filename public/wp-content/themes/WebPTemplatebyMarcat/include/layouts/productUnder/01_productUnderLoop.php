@@ -14,6 +14,7 @@ $args = [
 <div class="prductLoopDefo prductLoopLimited">
     <section class="secPrductLoopDefo secPrductLoopLimited">
         <h2 class="cl_F28962 fw_500 txtset CormorantUnicase h2PrductLoopDefo"><?php echo SCF::get_term_meta($cat, 'category', 'enTitle'); ?></h2>
+
         <p class="cl_453C3C fw_500 txtset rubyPrductLoopDefo"><?php echo single_cat_title('', false); ?></p>
         <ul class="d_flex j_start row ulPrductLoopDefo">
             <?php $i = 1; ?>
