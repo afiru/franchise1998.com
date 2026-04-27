@@ -1,0 +1,253 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.topicsSinglePost {
+    @include mi.marginPercent(1920, 65, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 60, auto, 0, auto);
+    }
+}
+.topicsSinglePostWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.secTopicsSinglePost {
+    @include mi.ontenerWidth(1300, 900);
+    margin: auto;
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.timeTopicsSingle {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.h1TopicsSinglePost {
+    @include mi.marginPercent(900, 30, auto, 0, auto);
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.brdTopicsSinglePostWap {
+    @include mi.marginPercent(900, 40, auto, 0, auto);
+    @include mi.paddingPercent(900, 45, 0, 80, 0);
+    border-top: 1px solid #6c6262;
+    border-bottom: 1px solid #6c6262;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 21, auto, 0, auto);
+        @include mi.paddingPercent(330, 30, 0, 70, 0);
+    }
+}
+
+.brdTopicsSinglePostWap {
+    /*h1*/
+    h1 {
+        margin: 0;
+        @include mi.fontSizePc(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+
+        @include mi.mq(sp) {
+            @include mi.fontSizeSp(18);
+            @include mi.lineheightP(160);
+            @include mi.letterSpacing(20);
+        }
+    }
+
+    h2 + h1,
+    h3 + h1,
+    h4 + h1,
+    h5 + h1,
+    p + h1,
+    ol + h1,
+    ul + h1,
+    a + h1,
+    div + h1,
+    img + h1,
+    table + h1 {
+        @include mi.marginPercent(1150, 72, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 60, 0, 0, 0);
+        }
+    }
+    /*h2*/
+    h2 {
+        margin: 0;
+        @include mi.fontSizePc(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+
+        @include mi.mq(sp) {
+            @include mi.fontSizeSp(16);
+            @include mi.lineheightP(160);
+            @include mi.letterSpacing(0);
+        }
+    }
+    /*h2*/
+    h2 + h2,
+    h3 + h2,
+    h4 + h2,
+    h5 + h2,
+    p + h2 ol + h2,
+    ul + h2,
+    a + h2,
+    div + h2,
+    img + h2,
+    table + h2 {
+        @include mi.marginPercent(1150, 60, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 60, 0, 0, 0);
+        }
+    }
+
+    p {
+        @include mi.marginPercent(900, 30, auto, 0, auto);
+        @include mi.fontSizePc(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 30, 0, 0, 0);
+            @include mi.fontSizeSp(16);
+            @include mi.lineheightP(180);
+            @include mi.letterSpacing(0);
+        }
+    }
+    h2 + p,
+    h3 + p,
+    h4 + p,
+    h5 + p,
+    p + p,
+    ol + p,
+    ul + p,
+    a + p,
+    div + p,
+    img + p,
+    table + p {
+        @include mi.marginPercent(900, 30, 0, 0, 0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 30, 0, 0, 0);
+        }
+    }
+
+    /*img*/
+    img {
+        max-width: 100%;
+        width: auto;
+    }
+
+    h2 + p img,
+    h3 + p img,
+    h4 + p img,
+    h5 + p img,
+    p + p img,
+    ol + p img,
+    ul + p img,
+    a + p img,
+    div + p img,
+    img + p img,
+    table + p img {
+        @include mi.marginPercent(900, 60, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 60, 0, 0, 0);
+        }
+    }
+
+    .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .alignleft {
+        float: left;
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+
+    .alignright {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+    }
+
+    /*ulリスト*/
+    ul {
+        li {
+            display: flex;
+            justify-content: flex-start;
+
+            &::before {
+                content: "・";
+                display: block;
+            }
+        }
+    }
+
+    h2 + ul,
+    h3 + ul,
+    h4 + ul,
+    h5 + ul,
+    p + ul,
+    ol + ul,
+    ul + ul,
+    a + ul,
+    div + ul,
+    img + ul,
+    table + ul {
+        @include mi.marginPercent(900, 60, auto, 0, auto);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 60, auto, 0, auto);
+        }
+    }
+    /*a*/
+    a {
+        @include mi.fontSizePc(24);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(50);
+        color: #ff0000;
+        text-decoration: none;
+        @include mi.mq(sp) {
+            @include mi.fontSizeSp(16);
+            @include mi.lineheightP(150);
+            @include mi.letterSpacing(50);
+        }
+    }
+    h2 + a,
+    h3 + a,
+    h4 + a,
+    h5 + a,
+    p + a,
+    ol + a,
+    ul + a,
+    a + a,
+    div + a,
+    img + a,
+    table + a {
+        @include mi.marginPercent(900, 30, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 30, auto, 0, auto);
+        }
+    }
+}
+
+/*ページャー*/
