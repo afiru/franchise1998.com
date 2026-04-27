@@ -362,3 +362,33 @@ function create_taxonomyFaqs()
     );
 }
 add_action('init', 'create_taxonomyFaqs');
+
+
+
+/* =====================================================
+ * カテゴリーの最上位クラスをbodyに付与（詳細ページのとき）
+ * ===================================================== */
+function add_parent_category_body_class($classes)
+{
+
+    if (is_single()) {
+
+        $categories = get_the_category();
+
+        if (!empty($categories)) {
+
+            $cat = $categories[0];
+
+            // 最上位カテゴリまでさかのぼる
+            while ($cat->parent != 0) {
+                $cat = get_category($cat->parent);
+            }
+
+            // body_スラッグ形式で追加
+            $classes[] = 'body_' . $cat->slug;
+        }
+    }
+
+    return $classes;
+}
+add_filter('body_class', 'add_parent_category_body_class');

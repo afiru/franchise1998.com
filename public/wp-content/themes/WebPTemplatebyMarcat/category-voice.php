@@ -2,7 +2,7 @@
 
 /**
  * Template Name: お客様の声
- * Template Post Type: page
+ * Template Post Type: category
  */
 ?>
 <?php get_template_part('include/common/header/header'); ?>
