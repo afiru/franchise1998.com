@@ -8588,7 +8588,7 @@ LAYOUT
 .breadList {
   display: flex;
   flex-flow: row wrap;
-  gap: 1vw;
+  gap: 0.1vw 0.5vw;
   color: #929292;
   font-size: 12px;
 }
@@ -40677,7 +40677,7 @@ LAYOUT
 .breadListUnderDefoType02 {
   display: flex;
   flex-flow: row wrap;
-  gap: 1vw;
+  gap: 0.1vw 0.5vw;
   color: #929292;
   font-size: 12px;
 }
@@ -43559,6 +43559,844 @@ LAYOUT
   opacity: 0.6;
 }
 
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.mainToicsPost {
+  margin-top: 35px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .mainToicsPost {
+    margin-top: 1.82%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mainToicsPost {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .mainToicsPost {
+    margin-top: 16%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.singleBread {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.1vw 0.5vw;
+  color: #929292;
+  font-size: 12px;
+}
+@media screen and (max-width: 1299px) {
+  .singleBread {
+    font-size: 0.9237875289vw;
+  }
+}
+.singleBread {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .singleBread {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .singleBread {
+    margin-top: 4.54%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .singleBread {
+    font-size: 3.2vw;
+  }
+}
+.singleBread a,
+.singleBread span {
+  color: #929292;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.topicsSinglePost {
+  margin-top: 65px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .topicsSinglePost {
+    margin-top: 3.38%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .topicsSinglePost {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .topicsSinglePost {
+    margin-top: 16%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .topicsSinglePostWap {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .topicsSinglePostWap {
+    width: 88%;
+  }
+}
+
+.secTopicsSinglePost {
+  width: 900px;
+}
+@media screen and (max-width: 1299px) {
+  .secTopicsSinglePost {
+    width: 69.23%;
+  }
+}
+.secTopicsSinglePost {
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .secTopicsSinglePost {
+    width: 100%;
+  }
+}
+
+.timeTopicsSingle {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .timeTopicsSingle {
+    font-size: 1.077752117vw;
+  }
+}
+.timeTopicsSingle {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .timeTopicsSingle {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .timeTopicsSingle {
+    font-size: 3.2vw;
+  }
+}
+
+.h1TopicsSinglePost {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .h1TopicsSinglePost {
+    margin-top: 3.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.h1TopicsSinglePost {
+  font-size: 24px;
+}
+@media screen and (max-width: 1299px) {
+  .h1TopicsSinglePost {
+    font-size: 1.8475750577vw;
+  }
+}
+.h1TopicsSinglePost {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .h1TopicsSinglePost {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h1TopicsSinglePost {
+    margin-top: 6.06%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h1TopicsSinglePost {
+    font-size: 4.8vw;
+  }
+}
+
+.brdTopicsSinglePostWap {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap {
+    margin-top: 4.44%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.brdTopicsSinglePostWap {
+  padding-top: 45px;
+  padding-bottom: 80px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap {
+    padding: 5% 0% 8.88% 0%;
+  }
+}
+.brdTopicsSinglePostWap {
+  border-top: 1px solid #6c6262;
+  border-bottom: 1px solid #6c6262;
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap {
+    margin-top: 21px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdTopicsSinglePostWap {
+    margin-top: 6.36%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdTopicsSinglePostWap {
+    padding: 9.09% 0% 21.21% 0%;
+  }
+}
+
+.brdTopicsSinglePostWap {
+  /*h1*/
+}
+.brdTopicsSinglePostWap h1 {
+  margin: 0;
+  font-size: 20px;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h1 {
+    font-size: 1.5396458814vw;
+  }
+}
+.brdTopicsSinglePostWap h1 {
+  line-height: 160%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap h1 {
+    line-height: 160%;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .brdTopicsSinglePostWap h1 {
+    font-size: 4.8vw;
+  }
+}
+.brdTopicsSinglePostWap h2 + h1,
+.brdTopicsSinglePostWap h3 + h1,
+.brdTopicsSinglePostWap h4 + h1,
+.brdTopicsSinglePostWap h5 + h1,
+.brdTopicsSinglePostWap p + h1,
+.brdTopicsSinglePostWap ol + h1,
+.brdTopicsSinglePostWap ul + h1,
+.brdTopicsSinglePostWap a + h1,
+.brdTopicsSinglePostWap div + h1,
+.brdTopicsSinglePostWap img + h1,
+.brdTopicsSinglePostWap table + h1 {
+  margin-top: 72px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + h1,
+  .brdTopicsSinglePostWap h3 + h1,
+  .brdTopicsSinglePostWap h4 + h1,
+  .brdTopicsSinglePostWap h5 + h1,
+  .brdTopicsSinglePostWap p + h1,
+  .brdTopicsSinglePostWap ol + h1,
+  .brdTopicsSinglePostWap ul + h1,
+  .brdTopicsSinglePostWap a + h1,
+  .brdTopicsSinglePostWap div + h1,
+  .brdTopicsSinglePostWap img + h1,
+  .brdTopicsSinglePostWap table + h1 {
+    margin: 6.26% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap h2 + h1,
+  .brdTopicsSinglePostWap h3 + h1,
+  .brdTopicsSinglePostWap h4 + h1,
+  .brdTopicsSinglePostWap h5 + h1,
+  .brdTopicsSinglePostWap p + h1,
+  .brdTopicsSinglePostWap ol + h1,
+  .brdTopicsSinglePostWap ul + h1,
+  .brdTopicsSinglePostWap a + h1,
+  .brdTopicsSinglePostWap div + h1,
+  .brdTopicsSinglePostWap img + h1,
+  .brdTopicsSinglePostWap table + h1 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + h1,
+  .brdTopicsSinglePostWap h3 + h1,
+  .brdTopicsSinglePostWap h4 + h1,
+  .brdTopicsSinglePostWap h5 + h1,
+  .brdTopicsSinglePostWap p + h1,
+  .brdTopicsSinglePostWap ol + h1,
+  .brdTopicsSinglePostWap ul + h1,
+  .brdTopicsSinglePostWap a + h1,
+  .brdTopicsSinglePostWap div + h1,
+  .brdTopicsSinglePostWap img + h1,
+  .brdTopicsSinglePostWap table + h1 {
+    margin: 18.18% 0% 0% 0%;
+  }
+}
+.brdTopicsSinglePostWap {
+  /*h2*/
+}
+.brdTopicsSinglePostWap h2 {
+  margin: 0;
+  font-size: 18px;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 {
+    font-size: 1.3856812933vw;
+  }
+}
+.brdTopicsSinglePostWap h2 {
+  line-height: 160%;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap h2 {
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .brdTopicsSinglePostWap h2 {
+    font-size: 4.2666666667vw;
+  }
+}
+.brdTopicsSinglePostWap {
+  /*h2*/
+}
+.brdTopicsSinglePostWap h2 + h2,
+.brdTopicsSinglePostWap h3 + h2,
+.brdTopicsSinglePostWap h4 + h2,
+.brdTopicsSinglePostWap h5 + h2,
+.brdTopicsSinglePostWap p + h2 ol + h2,
+.brdTopicsSinglePostWap ul + h2,
+.brdTopicsSinglePostWap a + h2,
+.brdTopicsSinglePostWap div + h2,
+.brdTopicsSinglePostWap img + h2,
+.brdTopicsSinglePostWap table + h2 {
+  margin-top: 60px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + h2,
+  .brdTopicsSinglePostWap h3 + h2,
+  .brdTopicsSinglePostWap h4 + h2,
+  .brdTopicsSinglePostWap h5 + h2,
+  .brdTopicsSinglePostWap p + h2 ol + h2,
+  .brdTopicsSinglePostWap ul + h2,
+  .brdTopicsSinglePostWap a + h2,
+  .brdTopicsSinglePostWap div + h2,
+  .brdTopicsSinglePostWap img + h2,
+  .brdTopicsSinglePostWap table + h2 {
+    margin: 5.21% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap h2 + h2,
+  .brdTopicsSinglePostWap h3 + h2,
+  .brdTopicsSinglePostWap h4 + h2,
+  .brdTopicsSinglePostWap h5 + h2,
+  .brdTopicsSinglePostWap p + h2 ol + h2,
+  .brdTopicsSinglePostWap ul + h2,
+  .brdTopicsSinglePostWap a + h2,
+  .brdTopicsSinglePostWap div + h2,
+  .brdTopicsSinglePostWap img + h2,
+  .brdTopicsSinglePostWap table + h2 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + h2,
+  .brdTopicsSinglePostWap h3 + h2,
+  .brdTopicsSinglePostWap h4 + h2,
+  .brdTopicsSinglePostWap h5 + h2,
+  .brdTopicsSinglePostWap p + h2 ol + h2,
+  .brdTopicsSinglePostWap ul + h2,
+  .brdTopicsSinglePostWap a + h2,
+  .brdTopicsSinglePostWap div + h2,
+  .brdTopicsSinglePostWap img + h2,
+  .brdTopicsSinglePostWap table + h2 {
+    margin: 18.18% 0% 0% 0%;
+  }
+}
+.brdTopicsSinglePostWap p {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap p {
+    margin-top: 3.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.brdTopicsSinglePostWap p {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap p {
+    font-size: 1.2317167052vw;
+  }
+}
+.brdTopicsSinglePostWap p {
+  line-height: 180%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdTopicsSinglePostWap p {
+    margin: 9.09% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .brdTopicsSinglePostWap p {
+    font-size: 4.2666666667vw;
+  }
+}
+.brdTopicsSinglePostWap h2 + p,
+.brdTopicsSinglePostWap h3 + p,
+.brdTopicsSinglePostWap h4 + p,
+.brdTopicsSinglePostWap h5 + p,
+.brdTopicsSinglePostWap p + p,
+.brdTopicsSinglePostWap ol + p,
+.brdTopicsSinglePostWap ul + p,
+.brdTopicsSinglePostWap a + p,
+.brdTopicsSinglePostWap div + p,
+.brdTopicsSinglePostWap img + p,
+.brdTopicsSinglePostWap table + p {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + p,
+  .brdTopicsSinglePostWap h3 + p,
+  .brdTopicsSinglePostWap h4 + p,
+  .brdTopicsSinglePostWap h5 + p,
+  .brdTopicsSinglePostWap p + p,
+  .brdTopicsSinglePostWap ol + p,
+  .brdTopicsSinglePostWap ul + p,
+  .brdTopicsSinglePostWap a + p,
+  .brdTopicsSinglePostWap div + p,
+  .brdTopicsSinglePostWap img + p,
+  .brdTopicsSinglePostWap table + p {
+    margin: 3.33% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap h2 + p,
+  .brdTopicsSinglePostWap h3 + p,
+  .brdTopicsSinglePostWap h4 + p,
+  .brdTopicsSinglePostWap h5 + p,
+  .brdTopicsSinglePostWap p + p,
+  .brdTopicsSinglePostWap ol + p,
+  .brdTopicsSinglePostWap ul + p,
+  .brdTopicsSinglePostWap a + p,
+  .brdTopicsSinglePostWap div + p,
+  .brdTopicsSinglePostWap img + p,
+  .brdTopicsSinglePostWap table + p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + p,
+  .brdTopicsSinglePostWap h3 + p,
+  .brdTopicsSinglePostWap h4 + p,
+  .brdTopicsSinglePostWap h5 + p,
+  .brdTopicsSinglePostWap p + p,
+  .brdTopicsSinglePostWap ol + p,
+  .brdTopicsSinglePostWap ul + p,
+  .brdTopicsSinglePostWap a + p,
+  .brdTopicsSinglePostWap div + p,
+  .brdTopicsSinglePostWap img + p,
+  .brdTopicsSinglePostWap table + p {
+    margin: 9.09% 0% 0% 0%;
+  }
+}
+.brdTopicsSinglePostWap {
+  /*img*/
+}
+.brdTopicsSinglePostWap img {
+  max-width: 100%;
+  width: auto;
+}
+.brdTopicsSinglePostWap h2 + p img,
+.brdTopicsSinglePostWap h3 + p img,
+.brdTopicsSinglePostWap h4 + p img,
+.brdTopicsSinglePostWap h5 + p img,
+.brdTopicsSinglePostWap p + p img,
+.brdTopicsSinglePostWap ol + p img,
+.brdTopicsSinglePostWap ul + p img,
+.brdTopicsSinglePostWap a + p img,
+.brdTopicsSinglePostWap div + p img,
+.brdTopicsSinglePostWap img + p img,
+.brdTopicsSinglePostWap table + p img {
+  margin-top: 60px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + p img,
+  .brdTopicsSinglePostWap h3 + p img,
+  .brdTopicsSinglePostWap h4 + p img,
+  .brdTopicsSinglePostWap h5 + p img,
+  .brdTopicsSinglePostWap p + p img,
+  .brdTopicsSinglePostWap ol + p img,
+  .brdTopicsSinglePostWap ul + p img,
+  .brdTopicsSinglePostWap a + p img,
+  .brdTopicsSinglePostWap div + p img,
+  .brdTopicsSinglePostWap img + p img,
+  .brdTopicsSinglePostWap table + p img {
+    margin: 6.66% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap h2 + p img,
+  .brdTopicsSinglePostWap h3 + p img,
+  .brdTopicsSinglePostWap h4 + p img,
+  .brdTopicsSinglePostWap h5 + p img,
+  .brdTopicsSinglePostWap p + p img,
+  .brdTopicsSinglePostWap ol + p img,
+  .brdTopicsSinglePostWap ul + p img,
+  .brdTopicsSinglePostWap a + p img,
+  .brdTopicsSinglePostWap div + p img,
+  .brdTopicsSinglePostWap img + p img,
+  .brdTopicsSinglePostWap table + p img {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + p img,
+  .brdTopicsSinglePostWap h3 + p img,
+  .brdTopicsSinglePostWap h4 + p img,
+  .brdTopicsSinglePostWap h5 + p img,
+  .brdTopicsSinglePostWap p + p img,
+  .brdTopicsSinglePostWap ol + p img,
+  .brdTopicsSinglePostWap ul + p img,
+  .brdTopicsSinglePostWap a + p img,
+  .brdTopicsSinglePostWap div + p img,
+  .brdTopicsSinglePostWap img + p img,
+  .brdTopicsSinglePostWap table + p img {
+    margin: 18.18% 0% 0% 0%;
+  }
+}
+.brdTopicsSinglePostWap .aligncenter {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.brdTopicsSinglePostWap .alignleft {
+  float: left;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+.brdTopicsSinglePostWap .alignright {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+.brdTopicsSinglePostWap {
+  /*ulリスト*/
+}
+.brdTopicsSinglePostWap ul li {
+  display: flex;
+  justify-content: flex-start;
+}
+.brdTopicsSinglePostWap ul li::before {
+  content: "・";
+  display: block;
+}
+.brdTopicsSinglePostWap h2 + ul,
+.brdTopicsSinglePostWap h3 + ul,
+.brdTopicsSinglePostWap h4 + ul,
+.brdTopicsSinglePostWap h5 + ul,
+.brdTopicsSinglePostWap p + ul,
+.brdTopicsSinglePostWap ol + ul,
+.brdTopicsSinglePostWap ul + ul,
+.brdTopicsSinglePostWap a + ul,
+.brdTopicsSinglePostWap div + ul,
+.brdTopicsSinglePostWap img + ul,
+.brdTopicsSinglePostWap table + ul {
+  margin-top: 60px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + ul,
+  .brdTopicsSinglePostWap h3 + ul,
+  .brdTopicsSinglePostWap h4 + ul,
+  .brdTopicsSinglePostWap h5 + ul,
+  .brdTopicsSinglePostWap p + ul,
+  .brdTopicsSinglePostWap ol + ul,
+  .brdTopicsSinglePostWap ul + ul,
+  .brdTopicsSinglePostWap a + ul,
+  .brdTopicsSinglePostWap div + ul,
+  .brdTopicsSinglePostWap img + ul,
+  .brdTopicsSinglePostWap table + ul {
+    margin-top: 6.66%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap h2 + ul,
+  .brdTopicsSinglePostWap h3 + ul,
+  .brdTopicsSinglePostWap h4 + ul,
+  .brdTopicsSinglePostWap h5 + ul,
+  .brdTopicsSinglePostWap p + ul,
+  .brdTopicsSinglePostWap ol + ul,
+  .brdTopicsSinglePostWap ul + ul,
+  .brdTopicsSinglePostWap a + ul,
+  .brdTopicsSinglePostWap div + ul,
+  .brdTopicsSinglePostWap img + ul,
+  .brdTopicsSinglePostWap table + ul {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + ul,
+  .brdTopicsSinglePostWap h3 + ul,
+  .brdTopicsSinglePostWap h4 + ul,
+  .brdTopicsSinglePostWap h5 + ul,
+  .brdTopicsSinglePostWap p + ul,
+  .brdTopicsSinglePostWap ol + ul,
+  .brdTopicsSinglePostWap ul + ul,
+  .brdTopicsSinglePostWap a + ul,
+  .brdTopicsSinglePostWap div + ul,
+  .brdTopicsSinglePostWap img + ul,
+  .brdTopicsSinglePostWap table + ul {
+    margin-top: 18.18%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.brdTopicsSinglePostWap {
+  /*a*/
+}
+.brdTopicsSinglePostWap a {
+  font-size: 24px;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap a {
+    font-size: 1.8475750577vw;
+  }
+}
+.brdTopicsSinglePostWap a {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #ff0000;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap a {
+    line-height: 150%;
+    letter-spacing: 0.05em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .brdTopicsSinglePostWap a {
+    font-size: 4.2666666667vw;
+  }
+}
+.brdTopicsSinglePostWap h2 + a,
+.brdTopicsSinglePostWap h3 + a,
+.brdTopicsSinglePostWap h4 + a,
+.brdTopicsSinglePostWap h5 + a,
+.brdTopicsSinglePostWap p + a,
+.brdTopicsSinglePostWap ol + a,
+.brdTopicsSinglePostWap ul + a,
+.brdTopicsSinglePostWap a + a,
+.brdTopicsSinglePostWap div + a,
+.brdTopicsSinglePostWap img + a,
+.brdTopicsSinglePostWap table + a {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + a,
+  .brdTopicsSinglePostWap h3 + a,
+  .brdTopicsSinglePostWap h4 + a,
+  .brdTopicsSinglePostWap h5 + a,
+  .brdTopicsSinglePostWap p + a,
+  .brdTopicsSinglePostWap ol + a,
+  .brdTopicsSinglePostWap ul + a,
+  .brdTopicsSinglePostWap a + a,
+  .brdTopicsSinglePostWap div + a,
+  .brdTopicsSinglePostWap img + a,
+  .brdTopicsSinglePostWap table + a {
+    margin-top: 3.33%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .brdTopicsSinglePostWap h2 + a,
+  .brdTopicsSinglePostWap h3 + a,
+  .brdTopicsSinglePostWap h4 + a,
+  .brdTopicsSinglePostWap h5 + a,
+  .brdTopicsSinglePostWap p + a,
+  .brdTopicsSinglePostWap ol + a,
+  .brdTopicsSinglePostWap ul + a,
+  .brdTopicsSinglePostWap a + a,
+  .brdTopicsSinglePostWap div + a,
+  .brdTopicsSinglePostWap img + a,
+  .brdTopicsSinglePostWap table + a {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .brdTopicsSinglePostWap h2 + a,
+  .brdTopicsSinglePostWap h3 + a,
+  .brdTopicsSinglePostWap h4 + a,
+  .brdTopicsSinglePostWap h5 + a,
+  .brdTopicsSinglePostWap p + a,
+  .brdTopicsSinglePostWap ol + a,
+  .brdTopicsSinglePostWap ul + a,
+  .brdTopicsSinglePostWap a + a,
+  .brdTopicsSinglePostWap div + a,
+  .brdTopicsSinglePostWap img + a,
+  .brdTopicsSinglePostWap table + a {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*ページャー*/
 /* ==========================================================================
 Component
 ========================================================================== */
