@@ -1,0 +1,99 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.mainProdctLoop {
+    @include mi.ontenerWidth(1300, 1036);
+}
+
+//
+.prductLoopDefo {
+}
+.secPrductLoopDefo {
+}
+.h2PrductLoopDefo {
+    @include mi.fontSizePc(36);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(100);
+}
+.rubyPrductLoopDefo {
+    @include mi.marginPercent(1036, 15, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(0);
+}
+.ulPrductLoopDefo {
+    @include mi.marginPercent(1036, 40, auto, 0, auto);
+}
+.liPrductLoopDefo {
+    @include mi.ontenerWidth(1036, 238);
+    @include mi.marginPercent(1036, 0, 28, 0, 0);
+    &:nth-child(n + 5) {
+        @include mi.marginPercent(1036, 30, 28, 0, 0);
+    }
+    &:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+.btnPrductLoopDefo {
+    text-decoration: none;
+}
+.thumbsPrductLoopDefo {
+    position: relative;
+}
+.photoPrductLoopDefo {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 238/238;
+    @include mi.kadomaru(6px);
+}
+.iconNewPrductLoopDefo {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    @include mi.ontenerWidth(238, 40);
+    @include mi.kadomaru(10px);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(1);
+    @include mi.letterSpacing(0);
+    aspect-ratio: 40/18;
+    text-decoration: none;
+}
+.h3PrductLoopDefo {
+    @include mi.marginPercent(238, 20, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    text-decoration: none;
+}
+.h4PrductLoopDefo {
+    @include mi.marginPercent(238, 10, auto, 0, auto);
+    @include mi.fontSizePc(15);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    text-decoration: none;
+}
+.rubyPrductLoopDefo {
+    @include mi.marginPercent(238, 15, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    text-decoration: none;
+}
+.iconLimitedProductLoop {
+    @include mi.marginPercent(238, 12, 0, 0, 0);
+    @include mi.ontenerWidth(238, 66);
+    @include mi.kadomaru(3px);
+    text-decoration: none;
+    aspect-ratio: 66/20;
+    @include mi.kadomaru(3px);
+    @include mi.fontSizePc(14);
+    line-height: normal;
+    @include mi.letterSpacing(0);
+}
+
+//
