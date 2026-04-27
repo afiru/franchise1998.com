@@ -100,16 +100,7 @@ LAYOUT
         aspect-ratio: 135/70;
     }
 }
-.imgThumbsLiListIndexEvent {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    width: 100%;
-    height: auto;
-}
+
 .h4GiftHushime {
     @include mi.marginPercent(365, 26, auto, 0, auto);
     @include mi.fontSizePc(16);

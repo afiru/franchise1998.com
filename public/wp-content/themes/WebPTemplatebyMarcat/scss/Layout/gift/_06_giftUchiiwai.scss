@@ -8,4 +8,7 @@ LAYOUT
 ========================================================================== */
 .giftUchiiwai {
     @include mi.marginPercent(1920, 100, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 100, auto, 0, auto);
+    }
 }

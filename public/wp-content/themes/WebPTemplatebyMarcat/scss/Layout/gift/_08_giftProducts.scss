@@ -15,6 +15,10 @@ LAYOUT
     }
 }
 .giftProductsWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 340);
+        margin: auto;
+    }
 }
 .secGiftProducts {
 }
@@ -22,15 +26,29 @@ LAYOUT
     @include mi.fontSizePc(26);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
 }
 .rubyGiftProducts {
     @include mi.marginPercent(1300, 35, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
 }
 .giftProductsSliderLxn {
     @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(340, 40, auto, 0, auto);
+    }
 }
 .GiftProductsSlider {
     overflow: hidden;
@@ -43,10 +61,12 @@ LAYOUT
 }
 .btnGiftProducts {
 }
-.picSliderGiftProducts02 {
-    position: relative;
+.picSliderGiftProducts {
     aspect-ratio: 298/298;
+    position: relative;
     overflow: hidden;
+    @include mi.mq(sp) {
+    }
 }
 
 .catsSliderGiftProducts {
@@ -54,18 +74,36 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(160, 15, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
 }
 .h3SliderGiftProducts {
     @include mi.marginPercent(298, 10, auto, 0, auto);
     @include mi.fontSizePc(15);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(160, 10, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .priceSliderGiftProducts {
     @include mi.marginPercent(298, 15, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(160, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+    }
 }
 
 .GiftProductsSliderScrollbar {
@@ -79,7 +117,7 @@ LAYOUT
     }
 }
 
-.slider__btnGift {
+.slider__btn03 {
     background: #421d12;
     @include mi.kadomaru(3px);
     height: 6px !important;
@@ -117,7 +155,6 @@ LAYOUT
     }
 }
 .iconBbtnCntGiftProductss {
-    @include mi.ontenerWidth(240, 218);
     margin: auto;
     background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right
         center;
@@ -126,7 +163,7 @@ LAYOUT
     text-align: center;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(193, 163);
+        width: 91.45%;
         margin: auto;
         background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right
             center;

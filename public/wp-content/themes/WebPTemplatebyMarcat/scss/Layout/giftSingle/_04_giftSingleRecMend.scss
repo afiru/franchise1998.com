@@ -6,3 +6,114 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.giftSingleRecMend {
+    @include mi.marginPercent(1920, 0, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 0, auto, 0, auto);
+    }
+}
+.h2GiftSingleRecMend {
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    background: #f1ece8;
+    @include mi.paddingPercent(1100, 10, 16, 10, 16);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(300, 15, 17, 11, 17);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulGiftSingleRecMend {
+    @include mi.marginPercent(1100, 20, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+    }
+}
+
+.liGiftSingleRecMend {
+    width: 100%;
+    @include mi.mq(sp) {
+    }
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(1100, 45, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(300, 40, auto, 0, auto);
+        }
+    }
+}
+.photoGiftSingleRecMend {
+    @include mi.ontenerWidth(1100, 500);
+    @include mi.kadomaru(6px);
+    overflow: hidden;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(300, 100);
+    }
+}
+.photoGiftSingleRecMend img {
+    width: 100%;
+}
+.secGiftSingleRecMend {
+    @include mi.ontenerWidth(1100, 550);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(300, 186);
+    }
+}
+
+.txtGiftSingleRecMend {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(13);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.h3GiftSingleRecMend {
+    @include mi.marginPercent(550, 14, auto, 0, auto);
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(186, 25, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.priceGiftSingleRecMend {
+    @include mi.marginPercent(550, 48, 0, 0, 0);
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(186, 25, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}
+.btnGiftSingleRecMendLxn {
+    @include mi.marginPercent(550, 23, 0, 0, 0);
+    @include mi.ontenerWidth(550, 148);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(186, 15, 0, 0, 0);
+        @include mi.ontenerWidth(186, 148);
+    }
+}
+.btnGiftSingleRecMend {
+    aspect-ratio: 148/38;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+    @include mi.mq(sp) {
+        aspect-ratio: 148/38;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
+    }
+}

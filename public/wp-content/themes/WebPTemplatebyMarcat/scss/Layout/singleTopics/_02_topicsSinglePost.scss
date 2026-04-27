@@ -252,18 +252,19 @@ LAYOUT
 
 /*ページャー*/
 .pagerSinglePager {
-    @include mi.marginPercent(1920, 60, auto, 0, auto);
+    @include mi.marginPercent(1300, 60, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 247);
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 90, auto, 0, auto);
+        @include mi.ontenerWidth(375, 198);
     }
 }
 .pagerSinglePagerWap {
 }
 .pagerMainSinglePager {
-    @include mi.ontenerWidth(1300, 247);
     margin: auto;
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 198);
+        @include mi.ontenerWidth(198, 198);
     }
 }
 .prevSinglePagerWap {
@@ -273,10 +274,17 @@ LAYOUT
     }
 }
 .prevSinglePager {
+    svg {
+        width: 100%;
+        height: auto;
+    }
 }
 .btnPagerSingleLxn {
-    @include mi.marginPercent(347, 0, 33, 0, 33);
-    @include mi.ontenerWidth(347, 82);
+    @include mi.marginPercent(247, 0, 33, 0, 33);
+    @include mi.ontenerWidth(247, 82);
+    @include mi.mq(tab) {
+        width: 40.63%;
+    }
     @include mi.mq(sp) {
         @include mi.marginPercent(198, 0, 26, 0, 26);
         width: 47.36%;
@@ -290,4 +298,8 @@ LAYOUT
     }
 }
 .nextSinglePager {
+    svg {
+        width: 100%;
+        height: auto;
+    }
 }

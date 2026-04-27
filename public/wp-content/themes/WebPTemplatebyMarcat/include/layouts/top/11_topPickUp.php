@@ -23,7 +23,7 @@ $args = [
                                 $nowcats = get_the_category($post->ID); ?>
                         <div class="swiper-slide">
                             <a class="btnAction d_block btnTopLimited" href="action01.php">
-                                <figure class="picSliderTopLimited">
+                                <figure class="picSliderTopLimited picSliderTopLimitedPick">
                                     <?php $img = get_post_thumbsdata($post->ID); ?>
                                     <img class="imgThumbsLiListIndexEvent" loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo get_the_title($post->ID); ?>サムネイル画像" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
                                 </figure>

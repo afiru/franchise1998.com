@@ -121,6 +121,8 @@ LAYOUT
 .picSliderTopTopics {
     @include mi.kadomaru(10px);
     overflow: hidden;
+    aspect-ratio: 398/200;
+    position: relative;
 
     @include mi.mq(sp) {
         @include mi.kadomaru(7px);

@@ -11,7 +11,7 @@ $args = [
 <div class="giftProducts">
     <div class="wapper giftProductsWap">
         <section class="secGiftProducts">
-            <h2 class="t_center cl_F28962 fw_500 CormorantUnicase txtset h2GiftProducts">フランシーズの<br>人気商品・定番ギフト</h2>
+            <h2 class="t_center cl_453C3C fw_500 txtset h2GiftProducts">フランシーズの<br>人気商品・定番ギフト</h2>
             <p class="t_center cl_453C3C fw_500 mincho rubyGiftProducts">
                 季節のご挨拶や日頃の感謝を、心づかいとともに。
             </p>
@@ -26,9 +26,9 @@ $args = [
                                 $nowcats = get_the_category($post->ID); ?>
                         <div class="swiper-slide">
                             <a class="btnAction d_block btnGiftProducts" href="<?php echo get_permalink($post->ID); ?>">
-                                <figure class="picSliderGiftProducts picSliderGiftProducts02">
+                                <figure class="picSliderGiftProducts">
                                     <?php $img = get_post_thumbsdata($post->ID); ?>
-                                    <img class="poab imgThumbsLiListIndexEvent imgThumbsLiListIndexEvent02" loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo get_the_title($post->ID); ?>サムネイル画像" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
+                                    <img class="poab imgThumbsLiListIndexEvent" loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo get_the_title($post->ID); ?>サムネイル画像" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
                                 </figure>
                                 <p class="cl_453C3C fw_400 mincho txtset catsSliderGiftProducts"><?php echo get_genre_cats(15, $post->ID); ?></p>
                                 <h3 class="cl_453C3C fw_500 txtset txtovflow2 h3SliderGiftProducts"><?php echo get_the_title($post->ID); ?></h3>

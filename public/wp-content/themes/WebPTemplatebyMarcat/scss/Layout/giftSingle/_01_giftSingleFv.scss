@@ -6,3 +6,24 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.mainGiftPost {
+    @include mi.marginPercent(1920, 20, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 36, auto, 0, auto);
+    }
+}
+.mainGiftCnt {
+    @include mi.paddingPercent(1920, 95, 0, 100, 0);
+    @include mi.kadomaru(15px);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 30, 0, 80, 0);
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.mainGiftCntLxn {
+    @include mi.ontenerWidth(1300, 1100);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 300);
+    }
+}

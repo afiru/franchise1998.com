@@ -6,3 +6,50 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+
+.giftSingleTitle {
+}
+.h1GiftSingleTitle {
+    @include mi.paddingPercent(1100, 0, 0, 24, 0);
+    @include mi.fontSizePc(30);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    border-bottom: 1px solid #d1d1d1;
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(300, 0, 0, 25, 0);
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(20);
+    }
+}
+.photoGiftSingleTitle {
+    @include mi.marginPercent(1100, 35, auto, 0, auto);
+    @include mi.kadomaru(6px);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 25, auto, 0, auto);
+    }
+}
+.h4GiftSingleTitle {
+    @include mi.marginPercent(1100, 45, auto, 0, auto);
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 30, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.rubyGiftSingleTitle {
+    @include mi.marginPercent(1100, 25, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}

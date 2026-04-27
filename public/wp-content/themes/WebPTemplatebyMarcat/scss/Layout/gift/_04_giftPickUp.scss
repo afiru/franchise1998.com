@@ -82,6 +82,7 @@ LAYOUT
     margin: auto;
     width: 100%;
     height: auto;
+    margin: auto;
 }
 .h4GiftPickUp {
     @include mi.marginPercent(530, 24, auto, 0, auto);
@@ -147,6 +148,5 @@ LAYOUT
     text-align: center;
     width: 88%;
     @include mi.mq(sp) {
-        background-size: auto 60%;
     }
 }

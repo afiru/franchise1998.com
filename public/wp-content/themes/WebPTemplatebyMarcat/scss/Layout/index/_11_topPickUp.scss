@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -22,7 +22,8 @@ LAYOUT
     }
 }
 
-.secTopPickUp {}
+.secTopPickUp {
+}
 
 .h2TopPickUp {
     @include mi.fontSizePc(40);
@@ -54,13 +55,16 @@ LAYOUT
     }
 }
 
-.topPicUp .swiper-slide {}
+.topPicUp .swiper-slide {
+}
 
-.btnTopLimited {}
+.btnTopLimited {
+}
 
-.picSliderTopLimited {
+.picSliderTopLimitedPick {
     @include mi.kadomaru(6px);
     overflow: hidden;
+    aspect-ratio: 406/257;
 
     @include mi.mq(sp) {
         @include mi.kadomaru(3px);
@@ -70,20 +74,19 @@ LAYOUT
 //
 
 .topPicUpScrollbar {
-
-    background: #F1ECE8;
+    background: #f1ece8;
     @include mi.kadomaru(3px);
     overflow: hidden;
     height: 10px !important;
     padding: 2px 0;
 
-    @include mi.mq(sp) {}
+    @include mi.mq(sp) {
+    }
 }
 
 .slider__btn02 {
-    background: #421D12;
+    background: #421d12;
     @include mi.kadomaru(3px);
     height: 6px !important;
     cursor: pointer;
-
 }

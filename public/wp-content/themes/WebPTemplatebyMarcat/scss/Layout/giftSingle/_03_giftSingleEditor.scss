@@ -6,3 +6,176 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+
+.giftSingleEditor {
+    @include mi.marginPercent(1100, 40, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 40, auto, 0, auto);
+    }
+}
+
+.giftSingleEditor {
+    /*h2*/
+    h2 {
+        margin: 0;
+        @include mi.fontSizePc(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        background: #f1ece8;
+        @include mi.paddingPercent(1100, 10, 16, 10, 16);
+
+        @include mi.mq(sp) {
+            @include mi.paddingPercent(300, 15, 0, 11, 0);
+            @include mi.fontSizeSp(16);
+            @include mi.lineheightP(180);
+            @include mi.letterSpacing(0);
+        }
+    }
+    /*h2*/
+    h2 + h2,
+    h3 + h2,
+    h4 + h2,
+    h5 + h2,
+    p + h2,
+    ul + h2,
+    a + h2,
+    div + h2,
+    img + h2,
+    table + h2 {
+        @include mi.marginPercent(1100, 45, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(300, 30, 0, 0, 0);
+        }
+    }
+
+    p {
+        @include mi.marginPercent(1100, 25, auto, 0, auto);
+        @include mi.fontSizePc(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(300, 20, 0, 0, 0);
+            @include mi.fontSizeSp(14);
+            @include mi.lineheightP(180);
+            @include mi.letterSpacing(0);
+        }
+    }
+    h2 + p,
+    h3 + p,
+    h4 + p,
+    h5 + p,
+    p + p,
+    ol + p,
+    ul + p,
+    a + p,
+    div + p,
+    img + p,
+    table + p {
+        @include mi.marginPercent(1100, 30, 0, 0, 0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(300, 20, 0, 0, 0);
+        }
+    }
+
+    /*img*/
+    img {
+        max-width: 100%;
+        width: auto;
+    }
+
+    h2 + p img,
+    h3 + p img,
+    h4 + p img,
+    h5 + p img,
+    p + p img,
+    ol + p img,
+    ul + p img,
+    a + p img,
+    div + p img,
+    img + p img,
+    table + p img {
+        @include mi.marginPercent(900, 30, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 20, 0, 0, 0);
+        }
+    }
+
+    .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .alignleft {
+        float: left;
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+
+    .alignright {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+    }
+
+    /*ulリスト*/
+    ul {
+        li {
+            display: flex;
+            justify-content: flex-start;
+
+            &::before {
+                content: "・";
+                display: block;
+            }
+        }
+    }
+
+    h2 + ul,
+    h3 + ul,
+    h4 + ul,
+    h5 + ul,
+    p + ul,
+    ol + ul,
+    ul + ul,
+    a + ul,
+    div + ul,
+    img + ul,
+    table + ul {
+        @include mi.marginPercent(1100, 60, auto, 0, auto);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(300, 60, auto, 0, auto);
+        }
+    }
+    /*a*/
+    a {
+        @include mi.marginPercent(1100, 25, auto, 0, auto);
+        @include mi.fontSizePc(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+        color: #453c3c;
+        @include mi.mq(sp) {
+            @include mi.marginPercent(300, 20, 0, 0, 0);
+            @include mi.fontSizeSp(14);
+            @include mi.lineheightP(180);
+            @include mi.letterSpacing(0);
+        }
+    }
+    h2 + a,
+    h3 + a,
+    h4 + a,
+    h5 + a,
+    p + a,
+    ol + a,
+    ul + a,
+    a + a,
+    div + a,
+    img + a,
+    table + a {
+        @include mi.marginPercent(1100, 30, 0, 0, 0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(300, 20, 0, 0, 0);
+        }
+    }
+}

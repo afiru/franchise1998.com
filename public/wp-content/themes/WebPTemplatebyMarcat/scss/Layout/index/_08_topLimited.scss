@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -22,7 +22,8 @@ LAYOUT
     }
 }
 
-.secTopLimited {}
+.secTopLimited {
+}
 
 .h2TopLimited {
     @include mi.fontSizePc(40);
@@ -58,12 +59,17 @@ LAYOUT
     }
 }
 
-.topLimitedSlider .swiper-slide {}
+.topLimitedSlider .swiper-slide {
+}
 
 .btnTopLimited {
     text-decoration: none;
 }
-
+.picSliderTopLimited {
+    aspect-ratio: 298/298;
+    position: relative;
+    overflow: hidden;
+}
 .topLimitedSlider {
     @include mi.kadomaru(6px);
     overflow: hidden;
@@ -127,7 +133,8 @@ LAYOUT
     height: 10px !important;
     padding: 2px 0;
 
-    @include mi.mq(sp) {}
+    @include mi.mq(sp) {
+    }
 }
 
 .slider__btn {
@@ -173,7 +180,8 @@ LAYOUT
 .iconBbtnCntTopLimiteds {
     @include mi.ontenerWidth(240, 218);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right center;
+    background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right
+        center;
     background-size: auto 15%;
     display: block;
     text-align: center;
@@ -181,7 +189,8 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(193, 163);
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right center;
+        background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right
+            center;
         background-size: auto 20%;
     }
 }
