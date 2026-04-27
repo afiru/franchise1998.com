@@ -1,5 +1,5 @@
 <?php
-if (in_category(1) || post_is_in_descendant_category(1)) {
+if (in_category(1) || post_is_in_descendant_category(1)) :
     get_template_part('include/common/header/header');
 ?>
     <main class="mainUnder mainToicsPost">
@@ -15,7 +15,39 @@ if (in_category(1) || post_is_in_descendant_category(1)) {
         <?php get_template_part('include/layouts/top/18_topFooterTop'); ?>
         <?php get_template_part('include/layouts/top/19_topFooterBtm'); ?>
     </footer>
-<?php
+    <?php
     get_template_part('include/layouts/top/20_topFooterBtmFix');
     get_template_part('include/common/footer/footer');
-}
+    ?>
+<?php
+elseif (in_category(34) || post_is_in_descendant_category(34)) : //ギフト
+    get_template_part('include/common/header/header'); ?>
+    <?php get_template_part('include/layouts/giftSingle/01_giftSingleFv'); ?>
+    <main class="mainUnder mainGiftPost">
+        <div class="bg_fff mainGiftCnt">
+            <div class="mainGiftCntLxn">
+                <?php if (have_posts()) while (have_posts()) : the_post();  ?>
+                    <?php get_template_part('include/layouts/giftSingle/02_giftSingleTitle'); ?>
+                    <?php get_template_part('include/layouts/giftSingle/03_giftSingleEditor'); ?>
+                    <?php get_template_part('include/layouts/giftSingle/04_giftSingleRecMend'); ?>
+                <?php endwhile; ?>
+            </div>
+        </div>
+        <?php get_template_part('include/layouts/giftSingle/05_giftSinglePager'); ?>
+        <?php get_template_part('include/layouts/gift/08_giftProducts'); ?>
+        <?php get_template_part('include/layouts/gift/09_giftInfo'); ?>
+        <div class="underPicBtmDefo">
+            <?php get_template_part('include/layouts/top/11_topPickUp'); ?>
+            <?php get_template_part('include/layouts/top/12_topNav'); ?>
+            <?php get_template_part('include/layouts/top/17_topContact'); ?>
+        </div>
+    </main>
+
+
+    <footer class="bg_795E55 footer">
+        <?php get_template_part('include/layouts/top/18_topFooterTop'); ?>
+        <?php get_template_part('include/layouts/top/19_topFooterBtm'); ?>
+    </footer>
+<?php
+endif;
+?>

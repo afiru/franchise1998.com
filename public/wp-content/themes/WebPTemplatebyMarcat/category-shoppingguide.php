@@ -2,7 +2,7 @@
 
 /**
  * Template Name: お買い物ガイド・よくある質問
- * Template Post Type: page
+ * Template Post Type: category
  */
 ?>
 <?php get_template_part('include/common/header/header'); ?>

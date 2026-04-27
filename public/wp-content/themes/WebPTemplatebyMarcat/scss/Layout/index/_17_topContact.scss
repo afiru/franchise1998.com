@@ -7,11 +7,9 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .topContact {
-    @include mi.marginPercent(1920, 125, auto, 0, auto);
     @include mi.paddingPercent(1920, 91, 0, 84, 0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 125, auto, 0, auto);
         @include mi.paddingPercent(375, 58, 0, 55, 0);
     }
 }
