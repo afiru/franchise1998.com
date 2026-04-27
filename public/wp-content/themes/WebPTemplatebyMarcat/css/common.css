@@ -8304,6 +8304,7 @@ LAYOUT
 
 .liPcFixedMenu {
   cursor: pointer;
+  transition-duration: 0.5s;
 }
 .liPcFixedMenu:nth-child(n+2) {
   margin-top: 5px;
@@ -8318,6 +8319,9 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
   }
+}
+.liPcFixedMenu:hover {
+  opacity: 0.6;
 }
 
 .spFixedMenu {
