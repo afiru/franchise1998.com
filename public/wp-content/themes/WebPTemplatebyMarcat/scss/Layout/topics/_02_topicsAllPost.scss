@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -15,13 +15,13 @@ LAYOUT
 }
 
 .topicsAllPostWap {
-
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
 
-.ulTopicsAllPost {}
+.ulTopicsAllPost {
+}
 
 .liTopicsAllPost {
     @include mi.ontenerWidth(1300, 398);
@@ -40,7 +40,7 @@ LAYOUT
         }
     }
 
-    &:nth-child(n+2) {
+    &:nth-child(n + 2) {
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 30, 0, 0, 0);
         }
@@ -52,7 +52,8 @@ LAYOUT
     text-decoration: none;
 }
 
-.photoTopicsAllPost {}
+.photoTopicsAllPost {
+}
 
 .timeTopicsLoop {
     @include mi.marginPercent(398, 24, 0, 0, 0);

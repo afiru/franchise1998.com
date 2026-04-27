@@ -55,10 +55,13 @@ LAYOUT
     }
 }
 .h3LiTamaranVoice {
+    @include mi.paddingPercent(300, 0, 0, 13, 0);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+    border-bottom: 1px solid #eb5925;
     @include mi.mq(sp) {
+        @include mi.paddingPercent(300, 0, 0, 10, 0);
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);

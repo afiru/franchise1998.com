@@ -6,3 +6,113 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.shoppingguideAllPosts {
+    @include mi.marginPercent(1920, 80, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
+}
+.shoppingguideAllPostsWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.ulShoppingguideAllPosts {
+}
+.liShoppingguideAllPosts {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(1300, 100, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 6, auto, 0, auto);
+        }
+    }
+}
+.h3LiShoppingguideAllPosts {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+.sbShoppingguideAllPosts {
+    @include mi.marginPercent(1300, 30, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 17, auto, 0, auto);
+    }
+}
+.liSbShoppingguideAllPosts {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(1300, 8, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 17, auto, 0, auto);
+        }
+    }
+}
+.cntLiSbShoppingguideAllPosts {
+    @include mi.ontenerWidth(1300, 1230);
+    @include mi.marginPercent(1300, 0, 40, 0, 30);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 301);
+        @include mi.marginPercent(330, 0, 11, 0, 18);
+    }
+}
+.titleCntLiSbShoppingguideAllPosts {
+    @include mi.paddingPercent(1300, 27, 0, 26, 0);
+    cursor: pointer;
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 22, 0, 22, 0);
+    }
+}
+.h3SbShoppingguideAllPosts {
+    @include mi.ontenerWidth(1230, 1168);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(301, 278);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.iconSbShoppingguideAllPosts {
+    @include mi.ontenerWidth(1230, 12);
+    transform: rotate(0deg);
+    transition-duration: 0.5s;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(301, 10);
+    }
+}
+.titleCntLiSbShoppingguideAllPosts.on {
+    .iconSbShoppingguideAllPosts {
+        transform: rotate(180deg);
+    }
+}
+.mainCntLiSbShoppingguideAllPostsLxn {
+    @include mi.marginPercent(1230, 0, auto, 0, auto);
+    @include mi.paddingPercent(1230, 0, 0, 22, 0);
+    display: none;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(301, 0, auto, 0, auto);
+        @include mi.paddingPercent(301, 0, 0, 30, 0);
+    }
+}
+.mainCntLiSbShoppingguideAllPosts {
+    @include mi.ontenerWidth(1230, 1168);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(301, 278);
+    }
+}
+.mainCntLiSbShoppingguideAllPosts p {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}

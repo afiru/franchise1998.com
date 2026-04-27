@@ -1,4 +1,4 @@
-<div class="bg_fff headerFixedSearch jsheaderFixedSearch">
+<div class="bg_fff headerFixedSearch jsheaderFixedSearch" data-lenis-prevent>
     <div class="cntHeaderFixedSearch">
         <div class="wapper cntHeaderFixedSearchLxn">
             <div class="btnCntHeaderFixedSearch">

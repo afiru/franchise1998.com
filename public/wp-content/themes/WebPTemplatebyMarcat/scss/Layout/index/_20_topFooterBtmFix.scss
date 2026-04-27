@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -14,10 +14,30 @@ LAYOUT
     bottom: 0;
 }
 
-.ulPcFixedMenu {}
+.ulPcFixedMenu {
+}
 
 .liPcFixedMenu {
+    cursor: pointer;
     &:nth-child(n + 2) {
         @include mi.marginPercent(45, 5, auto, 0, auto);
     }
+}
+
+//SP
+.spFixedMenu {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+}
+
+.ulSpFixedMenu {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.liSpFixedMenu {
+    @include mi.ontenerWidth(375, 125);
 }

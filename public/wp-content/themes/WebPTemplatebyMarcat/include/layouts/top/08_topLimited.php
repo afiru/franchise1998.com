@@ -18,32 +18,32 @@ $args = [
             <div class="topLimitedSliderLxn">
                 <?php $query1 = new WP_Query($args); ?>
                 <?php if ($query1->have_posts()): ?>
-                    <div class="swiper topLimitedSlider jsactionLxn" data-slidercount="4">
-                        <div class="swiper-wrapper">
-                            <?php $i = 1;
+                <div class="swiper topLimitedSlider jsactionLxn" data-slidercount="4">
+                    <div class="swiper-wrapper">
+                        <?php $i = 1;
                             while ($query1->have_posts()): $query1->the_post();
                                 $nowcats = get_the_category($post->ID); ?>
-                                <div class="swiper-slide">
-                                    <a class="d_block btnTopLimited" href="action01.php">
-                                        <figure class="picSliderTopLimited">
-                                            <?php $img = get_post_thumbsdata($post->ID); ?>
-                                            <img class="poab imgThumbsLiListIndexEvent" loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo get_the_title($post->ID); ?>サムネイル画像" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
-                                        </figure>
-                                        <p class="cl_453C3C fw_400 mincho txtset catsSliderTopLimited"><?php echo get_genre_cats(15, $post->ID); ?></p>
-                                        <h3 class="cl_453C3C fw_500 txtset txtovflow2 h3SliderTopLimited"><?php echo get_the_title($post->ID); ?></h3>
-                                        <p class="cl_453C3C fw_600 mincho priceSliderTopLimited">
-                                            <?php echo scf::get('prodoctsPrice'); ?>
-                                        </p>
-                                    </a>
-                                </div>
-                            <?php $i++;
+                        <div class="swiper-slide">
+                            <a class="btnAction d_block btnTopLimited" href="action01.php">
+                                <figure class="picSliderTopLimited">
+                                    <?php $img = get_post_thumbsdata($post->ID); ?>
+                                    <img class="poab imgThumbsLiListIndexEvent" loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo get_the_title($post->ID); ?>サムネイル画像" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
+                                </figure>
+                                <p class="cl_453C3C fw_400 mincho txtset catsSliderTopLimited"><?php echo get_genre_cats(15, $post->ID); ?></p>
+                                <h3 class="cl_453C3C fw_500 txtset txtovflow2 h3SliderTopLimited"><?php echo get_the_title($post->ID); ?></h3>
+                                <p class="cl_453C3C fw_600 mincho priceSliderTopLimited">
+                                    <?php echo scf::get('prodoctsPrice'); ?>
+                                </p>
+                            </a>
+                        </div>
+                        <?php $i++;
                             endwhile;
                             wp_reset_postdata(); ?>
-                        </div>
-                        <!-- スクロールバー -->
-                        <div class="swiper-scrollbar topLimitedSliderScrollbar"></div>
-
                     </div>
+                    <!-- スクロールバー -->
+                    <div class="swiper-scrollbar topLimitedSliderScrollbar"></div>
+
+                </div>
                 <?php endif; ?>
             </div>
             <div class="btnCntTopLimitedLxn">

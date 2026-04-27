@@ -64,10 +64,11 @@ LAYOUT
 .conceptMovie {
     @include mi.marginPercent(1920, 160, auto, 0, auto);
     @include mi.paddingPercent(1920, 130, 0, 130, 0);
-    border-radius: 0 100px 0 0;
+    border-radius: 0 5.208333333333333vw 0 0;
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 100, auto, 0, auto);
         @include mi.paddingPercent(375, 70, 0, 63, 0);
+        border-radius: 0 26.666666666666668vw 0 0;
     }
 }
 .conceptMovieWap {

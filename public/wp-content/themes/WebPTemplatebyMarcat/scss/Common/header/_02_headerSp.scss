@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -13,7 +13,7 @@ LAYOUT
 .headerSpFx {
     @include mi.paddingPercent(375, 8, 11, 8, 10);
     width: 100%;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .btnHeaderSp {
@@ -39,4 +39,5 @@ LAYOUT
 
 .btnNavOpenSp {
     @include mi.ontenerWidth(177, 20);
+    cursor: pointer;
 }

@@ -6,3 +6,111 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.thisPageConfirm {
+    .h3FormCnt {
+        @include mi.ontenerWidth(1000, 210);
+        @include mi.mq(sp) {
+            width: 100%;
+        }
+    }
+    .h3FormCnt span {
+        display: none;
+    }
+    .inputLiFormCntLxn {
+        @include mi.ontenerWidth(1000, 790);
+        @include mi.fontSizePc(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        color: #453c3c;
+        @include mi.mq(sp) {
+            width: 100%;
+            @include mi.fontSizeSp(16);
+            @include mi.lineheightP(160);
+            @include mi.letterSpacing(0);
+        }
+    }
+    .liFormCnt {
+        &:nth-child(n + 2) {
+            @include mi.marginPercent(1000, 64, auto, 0, auto);
+            @include mi.mq(sp) {
+                @include mi.marginPercent(330, 40, auto, 0, auto);
+            }
+        }
+    }
+    .secFomrCnt02 {
+        @include mi.marginPercent(1000, 80, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 50, auto, 0, auto);
+        }
+    }
+}
+
+//入力内容を確認する
+.toThankBackLxn {
+    @include mi.marginPercent(1000, 120, auto, 0, auto);
+    @include mi.ontenerWidth(1000, 544);
+    position: relative;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 260);
+    }
+}
+.toThankBackFx {
+}
+.btnBackLxn {
+    @include mi.ontenerWidth(1000, 260);
+    position: relative;
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.btnBack {
+    width: 100%;
+    aspect-ratio: 260/50;
+    @include mi.kadomaru(30px);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    border: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: 1px solid #f28962;
+    background: unset;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+    &:hover {
+        opacity: 0.6;
+    }
+}
+.btnToThanksLxn {
+    @include mi.ontenerWidth(1000, 260);
+    position: relative;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(260, 15, auto, 0, auto);
+        width: 100%;
+    }
+}
+.btnToThanks {
+    width: 100%;
+    aspect-ratio: 260/50;
+    @include mi.kadomaru(30px);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    border: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: 1px solid #f28962;
+    background: unset;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+    &:hover {
+        opacity: 0.6;
+    }
+}

@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -20,7 +20,8 @@ LAYOUT
     }
 }
 
-.footerTopFx {}
+.footerTopFx {
+}
 
 .footerLogoArea {
     @include mi.ontenerWidth(1300, 310);
@@ -87,7 +88,8 @@ LAYOUT
     }
 }
 
-.btnFooterSns {}
+.btnFooterSns {
+}
 
 .footerTopNavsArea {
     @include mi.ontenerWidth(1300, 885);
@@ -101,7 +103,8 @@ LAYOUT
     @include mi.ontenerWidth(885, 655);
 }
 
-.navFooterTopFx {}
+.navFooterTopFx {
+}
 
 .ulNavFooterTop {
     @include mi.ontenerWidth(655, 218);
@@ -166,9 +169,15 @@ LAYOUT
     aspect-ratio: 180/47;
     text-decoration: none;
     border: 1px solid #fff;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
 
     @include mi.mq(sp) {
         aspect-ratio: 160/42;
+        @include mi.fontSizeSp(13);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(20);
     }
 }
 
@@ -185,7 +194,7 @@ LAYOUT
 }
 
 .txtBtnSearchFooterNav {
-    @include mi.marginPercent(180, 9, auto, 0, auto);
+    @include mi.marginPercent(180, 0, auto, 0, auto);
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
@@ -240,4 +249,5 @@ LAYOUT
     }
 }
 
-.btnOnleinInfoFooter {}
+.btnOnleinInfoFooter {
+}

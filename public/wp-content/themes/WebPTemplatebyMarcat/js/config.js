@@ -105,3 +105,91 @@ window.addEventListener('load', function () {
         },
     });
 });
+
+$(function () {
+    //PCハンバーガー
+    $('.jsbtnNavOpenPc').on('click', function () {
+
+        $('.jsheaderMenuPc').animate({
+            'right': '0%',
+            'opacity': '100%'
+        }, 0);
+    });
+
+    $('.jsCloseMenuPc').on('click', function () {
+
+        $('.jsheaderMenuPc').animate({
+            'right': '-100%',
+            'opacity': '0%'
+        }, 0);
+    });
+    $('.jsheaderMenuPc a').on('click', function () {
+
+        $('.jsheaderMenuPc').animate({
+            'right': '-100%',
+            'opacity': '0%'
+        }, 0);
+    });
+
+    //Spハンバーガー
+    $('.jsbtnNavOpenSp').on('click', function () {
+
+        $('.jsheaderMenuSp').animate({
+            'right': '0%',
+            'opacity': '100%'
+        }, 0);
+    });
+
+    $('.jsCloseMenuSp').on('click', function () {
+
+        $('.jsheaderMenuSp').animate({
+            'right': '-100%',
+            'opacity': '0%'
+        }, 0);
+    });
+    $('.jsheaderMenuSp a').on('click', function () {
+
+        $('.jsheaderMenuSp').animate({
+            'right': '-100%',
+            'opacity': '0%'
+        }, 0);
+    });
+
+    //商品を探す
+    $('.jbtnHeaderNavBtmPc').on('click', function () {
+
+        $('.jsheaderFixedSearch').animate({
+            'right': '0%',
+            'opacity': '100%'
+        }, 0);
+    });
+
+    $('.closeHeaderFixedSearch').on('click', function () {
+
+        $('.jsheaderFixedSearch').animate({
+            'right': '-100%',
+            'opacity': '0%'
+        }, 0);
+    });
+    $('.closeHeaderFixedSearch a').on('click', function () {
+
+        $('.jsheaderFixedSearch').animate({
+            'right': '-100%',
+            'opacity': '0%'
+        }, 0);
+    });
+
+
+
+    //お買い物ガイド
+    $('.jstitleCntLiSbShoppingguideAllPosts').on('click', function () {
+        $('.jsHeaderSpTrigger').slideToggle();
+
+        $(this).toggleClass('on off');
+
+        $(this)
+            .next('.jsmainCntLiSbShoppingguideAllPostsLxn')
+            .stop(true, true)
+            .slideToggle();
+    });
+});
