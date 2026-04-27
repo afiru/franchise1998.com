@@ -392,3 +392,31 @@ function add_parent_category_body_class($classes)
     return $classes;
 }
 add_filter('body_class', 'add_parent_category_body_class');
+
+
+/**
+ * 指定記事IDの投稿日から7日以内なら NEW を返す
+ */
+function get_post_new_label($post_id, $days = 7, $text = 'NEW')
+{
+    $post_time = get_the_time('U', $post_id);      // 指定記事の投稿日
+    $now_time  = current_time('timestamp');        // WP時間
+
+    if (($now_time - $post_time) < ($days * DAY_IN_SECONDS)) {
+        return $text;
+    }
+
+    return '';
+}
+
+/**
+ * 指定記事IDの本文を the_content() と同じ状態で取得
+ */
+function get_post_content_by_id($post_id)
+{
+    $post = get_post($post_id);
+
+    if (!$post) return '';
+
+    return apply_filters('the_content', $post->post_content);
+}
