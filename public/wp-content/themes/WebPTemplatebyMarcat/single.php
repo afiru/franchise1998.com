@@ -52,7 +52,7 @@ elseif (in_category(34) || post_is_in_descendant_category(34)) : //ギフト
     get_template_part('include/common/footer/footer');
     ?>
 <?php
-elseif (in_category(2) || post_is_in_descendant_category(2)) : //ギフト
+elseif (in_category(2) || post_is_in_descendant_category(2)) : //商品
 ?>
     <?php get_template_part('include/common/header/header'); ?>
     <?php get_template_part('include/layouts/productsPost/01_productsFv'); ?>
@@ -75,6 +75,7 @@ elseif (in_category(2) || post_is_in_descendant_category(2)) : //ギフト
                 </div>
             </div>
         <?php endwhile; ?>
+
         <div class="underPicBtmDefo">
             <?php get_template_part('include/layouts/top/11_topPickUp'); ?>
             <?php get_template_part('include/layouts/top/12_topNav'); ?>
