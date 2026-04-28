@@ -6,3 +6,232 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+
+//右
+.cntProductPost {
+    @include mi.ontenerWidth(1300, 632);
+}
+.secCntProductPost {
+}
+.h1CntProductPost {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+}
+.rubyH1CntProductPost {
+    @include mi.marginPercent(632, 15, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+.txtCntProductPostTop {
+    @include mi.marginPercent(632, 25, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+.brdCntProductPostTop {
+    @include mi.marginPercent(632, 25, auto, 0, auto);
+    height: 1px;
+    width: 100%;
+}
+.priceCntProductPostTop {
+    @include mi.marginPercent(632, 26, auto, 0, auto);
+}
+.tablePriceCntProductPostTop {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+}
+.tablePriceCntProductPostTop p {
+    @include mi.marginPercent(632, 25, 0, 0, 0);
+}
+.ulPriceCntProductPostTop {
+    @include mi.marginPercent(632, 24, auto, 0, auto);
+}
+.liPriceCntProductPostTop {
+    @include mi.marginPercent(632, 15, auto, 0, auto);
+    align-items: center;
+}
+.h3PriceCntProductPostTop {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.ontenerWidth(169, 72);
+}
+.txtPriceCntProductPostTop {
+    @include mi.marginPercent(632, 0, 0, 0, 0);
+    @include mi.ontenerWidth(169, 97);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+
+.brdCntProductPostTop02 {
+    @include mi.marginPercent(632, 25, auto, 0, auto);
+    height: 1px;
+}
+//新商品や期間限定
+.ulGenrePurpose {
+    @include mi.marginPercent(632, 25, auto, 0, auto);
+    gap: 5px;
+}
+.liGenrePurpose {
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    width: fit-content;
+    @include mi.kadomaru(3px);
+    @include mi.paddingVw(1920, 5, 5, 5, 5);
+    @include mi.kadomaru(3px);
+}
+//タグ一覧
+.ulPostTags {
+    @include mi.marginPercent(632, 10, 0, 0, 0);
+    gap: 5px;
+}
+.liPostTags {
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    width: fit-content;
+    @include mi.kadomaru(3px);
+    @include mi.paddingVw(1920, 5, 5, 5, 5);
+    @include mi.kadomaru(3px);
+    border: 1px solid #c3c3c3;
+}
+//ケーキ受け取り
+.btnFlugProductCakeLxn {
+    @include mi.marginPercent(632, 25, 0, 0, 0);
+    @include mi.ontenerWidth(632, 240);
+}
+.btnFlugProductCake {
+    @include mi.kadomaru(30px);
+    aspect-ratio: 240/45;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    text-decoration: none;
+}
+.iconBtnFlugProductCake {
+    background: url(../img/productsPost/iconBtnFlugProductCake.svg) no-repeat
+        center left;
+    background-size: auto 100%;
+}
+//オンライン予約
+.secBtnOnlineProducts {
+    @include mi.marginPercent(632, 32, 0, 0, 0);
+}
+.h2BtnOnlineProducts {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(20);
+}
+.ulBtnOnlineProducts {
+    @include mi.marginPercent(632, 20, auto, 0, auto);
+    display: flex;
+    flex-flow: row wrap;
+}
+.liBtnOnlineProducts {
+    @include mi.ontenerWidth(632, 146);
+    @include mi.marginPercent(632, 16, 16, 0, 0);
+    &:nth-child(n + 5) {
+        @include mi.marginPercent(632, 0, 16, 0, 0);
+    }
+    &:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+.btnOnlineProducts {
+}
+//お電話で注文する
+.btnBtnProductTellxn {
+    @include mi.marginPercent(632, 20, 0, 0, 0);
+}
+.btnBtnProductTel {
+    @include mi.ontenerWidth(632, 240);
+    @include mi.kadomaru(30px);
+    text-decoration: none;
+    aspect-ratio: 240/45;
+}
+
+.iconBtnProductTel {
+    @include mi.ontenerWidth(240, 212);
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    background: url(../img/productsPost/iconBtnProductTel.svg) no-repeat 0%
+        center;
+    background-size: auto 60%;
+}
+.txtNameBtnProductTel {
+    @include mi.marginPercent(632, 0, 0, 0, 0);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(100);
+    @include mi.letterSpacing(0);
+    width: 100%;
+}
+.txtTelBtnProductTel {
+    @include mi.marginPercent(240, 0, 0, 0, 0);
+    @include mi.fontSizePc(13);
+    @include mi.lineheightP(100);
+    @include mi.letterSpacing(0);
+    width: 100%;
+}
+.txtBtnProductTel {
+    @include mi.marginPercent(632, 11, 0, 0, 0);
+    text-align: left;
+}
+//本品に含まれている主なアレルゲン
+.listInfoProductsPosts {
+    @include mi.marginPercent(632, 30, 0, 0, 0);
+    @include mi.paddingPercent(632, 19, 0, 15, 0);
+}
+.listInfoProductsPostsLxn {
+    @include mi.ontenerWidth(632, 598);
+    margin: auto;
+}
+.secListInfoProductsPosts {
+}
+.h2ListInfoProductsPosts {
+}
+.BigH2ListInfoProductsPosts {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+}
+.littleH2ListInfoProductsPosts {
+    @include mi.fontSizePc(13);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+}
+.ulListInfoProductsPosts {
+    @include mi.marginPercent(598, 23, 0, 0, 0);
+    gap: 3px;
+    flex-flow: row wrap;
+}
+.liListInfoProductsPosts {
+    @include mi.paddingVw(1920, 5, 5, 5, 5);
+    @include mi.kadomaru(3px);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}
+.secListInfoProductsPosts02 {
+    @include mi.marginPercent(598, 23, 0, 0, 0);
+}
+//本品に含まれている主なアレルゲン/特定原材料に準ずるもの
+.brdCntProductPostTop03 {
+    @include mi.marginPercent(632, 25, 0, 0, 0);
+    height: 1px;
+    width: 100%;
+}
+.editorCntProductPost {
+    @include mi.marginPercent(632, 25, 0, 0, 0);
+}
+.editorCntProductPost p {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+}

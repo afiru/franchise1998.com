@@ -110,7 +110,6 @@ window.addEventListener('load', function () {
     }
 
     //gift
-    console.log("--")
     if (document.querySelector('.jsactionLxnGift')) {
         let spaceBetween03;
         let totalSlides03 = document.querySelectorAll('.jsactionLxnGift .swiper-slide').length;
@@ -144,6 +143,23 @@ window.addEventListener('load', function () {
             },
         });
     }
+    //商品詳細
+    const thumbSwiper = new Swiper('.singleProductSliderThumbs', {
+
+        slidesPerView: 'auto',
+        loop: false,
+    });
+
+    const mainSwiper = new Swiper('.singleProductSlider', {
+        loop: false,
+        effect: 'fade',          // フェード切替
+        fadeEffect: {
+            crossFade: true      // クロスフェード
+        },
+        thumbs: {
+            swiper: thumbSwiper,
+        },
+    });
 
 });
 

@@ -21,7 +21,7 @@ LAYOUT
     }
 }
 .sidebarProductLxn {
-    @include mi.ontenerWidth(222, 175);
+    @include mi.ontenerWidth(222, 180);
     margin: auto;
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
@@ -47,7 +47,7 @@ LAYOUT
     }
 }
 .btnNavSidebarProductLxn {
-    @include mi.ontenerWidth(175, 13);
+    @include mi.ontenerWidth(180, 13);
     position: relative;
     aspect-ratio: 1 / 1;
     @include mi.mq(sp) {
@@ -86,7 +86,7 @@ LAYOUT
     }
 }
 .ulNavSidebarProductWap {
-    @include mi.paddingPercent(175, 18, 0, 0, 0);
+    @include mi.paddingPercent(180, 18, 0, 0, 0);
     display: none;
     border-top: 1px solid #b89898;
     @include mi.mq(sp) {
@@ -98,7 +98,7 @@ LAYOUT
 .liNavSidebarProduct {
     width: 100%;
     &:nth-child(n + 2) {
-        @include mi.marginPercent(175, 18, auto, 0, auto);
+        @include mi.marginPercent(180, 18, auto, 0, auto);
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 18, auto, 0, auto);
         }
@@ -117,7 +117,7 @@ LAYOUT
     }
 }
 .navSidebarProduct02 {
-    @include mi.marginPercent(175, 40, auto, 0, auto);
+    @include mi.marginPercent(180, 40, auto, 0, auto);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 56, auto, 0, auto);
     }
