@@ -8,11 +8,13 @@ LAYOUT
 ========================================================================== */
 .topLimited {
     @include mi.marginPercent(1920, 100, auto, 0, auto);
-    @include mi.paddingPercent(1920, 100, 0, 0, 0);
+    @include mi.paddingPercent(1920, 85, 0, 0, 0);
+    border-radius: 0 5.2083333333vw 0 0;
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 100, auto, 0, auto);
         @include mi.paddingPercent(375, 100, 0, 0, 0);
+        border-radius: 0 26.666666666666668vw 0 0;
     }
 }
 
@@ -27,7 +29,7 @@ LAYOUT
 
 .h2TopLimited {
     @include mi.fontSizePc(40);
-    @include mi.lineheightP(160);
+    @include mi.lineheightP(140);
     @include mi.letterSpacing(40);
 
     @include mi.mq(sp) {
@@ -38,9 +40,9 @@ LAYOUT
 }
 
 .rubyTopLimited {
-    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.marginPercent(1300, 0, auto, 0, auto);
     @include mi.fontSizePc(16);
-    @include mi.lineheightP(150);
+    @include mi.lineheightP(140);
     @include mi.letterSpacing(80);
 
     @include mi.mq(sp) {
@@ -52,7 +54,7 @@ LAYOUT
 }
 
 .topLimitedSliderLxn {
-    @include mi.marginPercent(1300, 42, auto, 0, auto);
+    @include mi.marginPercent(1300, 37, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 45, auto, 0, auto);
@@ -74,7 +76,7 @@ LAYOUT
     @include mi.kadomaru(6px);
     overflow: hidden;
     position: relative;
-    @include mi.paddingPercent(1300, 0, 0, 40, 0);
+    @include mi.paddingPercent(1300, 0, 0, 38, 0);
 
     @include mi.mq(sp) {
         @include mi.paddingPercent(340, 0, 0, 40, 0);
@@ -82,7 +84,7 @@ LAYOUT
 }
 
 .catsSliderTopLimited {
-    @include mi.marginPercent(298, 10, auto, 0, auto);
+    @include mi.marginPercent(298, 12, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
@@ -97,9 +99,9 @@ LAYOUT
 }
 
 .h3SliderTopLimited {
-    @include mi.marginPercent(298, 10, auto, 0, auto);
+    @include mi.marginPercent(298, 3, auto, 0, auto);
     @include mi.fontSizePc(16);
-    @include mi.lineheightP(140);
+    @include mi.lineheightP(135);
     @include mi.letterSpacing(0);
     text-decoration: none;
 
@@ -112,7 +114,7 @@ LAYOUT
 }
 
 .priceSliderTopLimited {
-    @include mi.marginPercent(298, 15, auto, 0, auto);
+    @include mi.marginPercent(298, 1, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
@@ -147,7 +149,7 @@ LAYOUT
 //ボタン
 
 .btnCntTopLimitedLxn {
-    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.marginPercent(1300, 37, auto, 0, auto);
     @include mi.ontenerWidth(1300, 240);
 
     @include mi.mq(sp) {
@@ -178,7 +180,7 @@ LAYOUT
 }
 
 .iconBbtnCntTopLimiteds {
-    @include mi.ontenerWidth(240, 218);
+    @include mi.ontenerWidth(240, 220);
     margin: auto;
     background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right
         center;

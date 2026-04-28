@@ -1,24 +1,25 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .topSelect {
-    @include mi.paddingPercent(1920, 160, 0, 175, 0);
+    @include mi.paddingPercent(1920, 144, 0, 167, 0);
 
     @include mi.mq(sp) {
         @include mi.paddingPercent(375, 120, 0, 100, 0);
     }
 }
 
-.topSelectWap {}
+.topSelectWap {
+}
 
 .h2TopSelect {
     @include mi.fontSizePc(40);
-    @include mi.lineheightP(160);
+    @include mi.lineheightP(140);
     @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
@@ -29,9 +30,9 @@ LAYOUT
 }
 
 .rubyTopSelect {
-    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.marginPercent(1300, 0, auto, 0, auto);
     @include mi.fontSizePc(16);
-    @include mi.lineheightP(150);
+    @include mi.lineheightP(140);
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
@@ -43,7 +44,7 @@ LAYOUT
 }
 
 .ulTopSelect {
-    @include mi.marginPercent(1300, 58, auto, 0, auto);
+    @include mi.marginPercent(1300, 51, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 30, auto, 0, auto);
@@ -57,18 +58,20 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 100);
 
-        &:nth-child(n+4) {
+        &:nth-child(n + 4) {
             @include mi.marginPercent(330, 30, 0, 0, 0);
         }
     }
 }
 
-.btnLiTopSelect {}
+.btnLiTopSelect {
+}
 
-.picBtnLiTopSelect {}
+.picBtnLiTopSelect {
+}
 
 .h3BtnLiTopSelect {
-    @include mi.marginPercent(180, 20, auto, 0, auto);
+    @include mi.marginPercent(180, 14, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
@@ -82,7 +85,7 @@ LAYOUT
 }
 
 .txtBtnLiTopSelect {
-    @include mi.marginPercent(180, 20, auto, 0, auto);
+    @include mi.marginPercent(180, 5, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
@@ -96,7 +99,7 @@ LAYOUT
 }
 
 .txtTopSelect {
-    @include mi.marginPercent(1300, 70, auto, 0, auto);
+    @include mi.marginPercent(1300, 56, auto, 0, auto);
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);

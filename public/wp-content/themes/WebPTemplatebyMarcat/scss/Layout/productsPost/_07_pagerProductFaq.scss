@@ -6,3 +6,107 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.productFaq {
+    @include mi.marginPercent(1920, 175, auto, 0, auto);
+    @include mi.paddingPercent(1920, 105, 0, 86, 0);
+    border-radius: 0 5.208333333333333vw 0 0;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+        @include mi.paddingPercent(375, 80, 0, 70, 0);
+        border-radius: 0 26.666666666666668vw 0 0;
+    }
+}
+.productFaqWap {
+}
+.secProductFaq {
+    @include mi.ontenerWidth(1300, 900);
+    margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.h2ProductFaq {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    text-align: center;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.ulProductFaq {
+    @include mi.ontenerWidth(900, 900);
+    @include mi.marginPercent(900, 47, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 307);
+    }
+}
+.liProductFaq {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(900, 8, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 8, auto, 0, auto);
+        }
+    }
+}
+.cntLiProductFaq {
+    @include mi.ontenerWidth(900, 843);
+    @include mi.marginPercent(900, 0, 40, 0, 30);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 307);
+        @include mi.marginPercent(330, 0, 11, 0, 12);
+    }
+}
+.titleCntLiProductFaq {
+    @include mi.paddingPercent(843, 27, 0, 26, 0);
+    cursor: pointer;
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(307, 22, 0, 22, 0);
+    }
+}
+.h3ProductFaq {
+    @include mi.ontenerWidth(843, 824);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(307, 278);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.iconProductFaq {
+    @include mi.ontenerWidth(843, 12);
+    transform: rotate(0deg);
+    transition-duration: 0.5s;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(307, 10);
+    }
+}
+.titleCntLiProductFaq.on {
+    .iconProductFaq {
+        transform: rotate(180deg);
+    }
+}
+.mainCntLiProductFaqLxn {
+    @include mi.marginPercent(900, 31, auto, 0, auto);
+    @include mi.paddingPercent(900, 0, 0, 22, 0);
+    display: none;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(307, 0, auto, 0, auto);
+        @include mi.paddingPercent(307, 0, 0, 30, 0);
+    }
+}
+.mainCntLiProductFaq {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}

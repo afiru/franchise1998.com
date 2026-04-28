@@ -8,7 +8,7 @@ LAYOUT
 ========================================================================== */
 
 .topTopics {
-    @include mi.marginPercent(1920, 54, auto, 0, auto);
+    @include mi.marginPercent(1920, 42, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 60, auto, 0, auto);
@@ -26,7 +26,7 @@ LAYOUT
 
 .h2CntTopTopix {
     text-align: center;
-    @include mi.fontSizePc(40);
+    @include mi.fontSizePc(25);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(50);
 
@@ -38,7 +38,7 @@ LAYOUT
 }
 
 .sliderTopTopics {
-    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.marginPercent(1300, 28, auto, 0, auto);
     position: relative;
 
     @include mi.mq(sp) {
@@ -63,7 +63,7 @@ LAYOUT
         center;
     background-size: 100% 100%;
     left: -2%;
-    top: 22%;
+    top: 24%;
     z-index: 9;
     height: auto;
     position: absolute;
@@ -82,7 +82,7 @@ LAYOUT
         center;
     background-size: 100% 100%;
     right: -2%;
-    top: 22%;
+    top: 24%;
     z-index: 9;
     height: auto;
     position: absolute;
@@ -130,7 +130,7 @@ LAYOUT
 }
 
 .h3SliderTopTopics {
-    @include mi.marginPercent(398, 18, 0, 0, 0);
+    @include mi.marginPercent(398, 10, 0, 0, 0);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);
@@ -144,7 +144,7 @@ LAYOUT
 }
 
 .timeSliderTopTopics {
-    @include mi.marginPercent(398, 16, 0, 0, 0);
+    @include mi.marginPercent(398, 9, 0, 0, 0);
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
@@ -159,7 +159,7 @@ LAYOUT
 
 //ボタン
 .btnTopTopicsLxn {
-    @include mi.marginPercent(1300, 21, auto, 0, auto);
+    @include mi.marginPercent(1300, 17, auto, 0, auto);
     @include mi.ontenerWidth(1300, 200);
 
     @include mi.mq(sp) {
@@ -190,8 +190,7 @@ LAYOUT
 }
 
 .iconBtnTopTopics {
-    width: 100%;
-    @include mi.ontenerWidth(193, 163);
+    @include mi.ontenerWidth(200, 180);
     margin: auto;
     background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
     background-size: auto 20%;

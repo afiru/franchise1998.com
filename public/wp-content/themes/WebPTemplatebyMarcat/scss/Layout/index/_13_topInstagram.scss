@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -18,7 +18,7 @@ LAYOUT
 
 .topInstagramWap {
     position: relative;
-    @include mi.paddingPercent(1920, 79, 0, 0, 0);
+    @include mi.paddingPercent(1920, 65, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
@@ -47,7 +47,8 @@ LAYOUT
     }
 }
 
-.titleTopInstagram {}
+.titleTopInstagram {
+}
 
 .h2TopInstagram {
     @include mi.fontSizePc(32);
@@ -76,7 +77,7 @@ LAYOUT
 }
 
 .instagramFeed {
-    @include mi.marginPercent(1300, 40, 0, 0, 0);
+    @include mi.marginPercent(1300, 24, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 30, 0, 0, 0);
@@ -94,7 +95,8 @@ LAYOUT
         justify-content: space-between !important;
     }
 
-    #sb_instagram #sbi_images {}
+    #sb_instagram #sbi_images {
+    }
 
     #sb_instagram #sbi_images .sbi_item {
         @include mi.ontenerWidth(1300, 151);
@@ -106,8 +108,8 @@ LAYOUT
 }
 
 .btnCntTopInstagramLxn {
-    @include mi.marginPercent(1300, 30, auto, 0, auto);
-    @include mi.ontenerWidth(1300, 193);
+    @include mi.marginPercent(1300, 23, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 200);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 30, auto, 0, auto);
@@ -116,9 +118,9 @@ LAYOUT
 }
 
 .btnCntTopInstagram {
-    aspect-ratio: 193 / 39;
+    aspect-ratio: 200 / 40;
     @include mi.kadomaru(30px);
-    border: 1px solid #F04E11;
+    border: 1px solid #f04e11;
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
@@ -127,7 +129,7 @@ LAYOUT
     @include mi.mq(sp) {
         aspect-ratio: 193 / 39;
         @include mi.kadomaru(30px);
-        border: 1px solid #F04E11;
+        border: 1px solid #f04e11;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
@@ -135,17 +137,19 @@ LAYOUT
 }
 
 .iconBbtnCntTopInstagrams {
-    @include mi.ontenerWidth(193, 163);
+    @include mi.ontenerWidth(200, 180);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
-    background-size: auto 20%;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+        center;
+    background-size: auto 16%;
     display: block;
     text-align: center;
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(193, 163);
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+            center;
         background-size: auto 20%;
     }
 }

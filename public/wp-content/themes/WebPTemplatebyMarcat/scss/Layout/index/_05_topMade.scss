@@ -7,8 +7,8 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .topMade {
-    @include mi.marginPercent(1920, 252, auto, 0, auto);
-    @include mi.paddingPercent(1920, 416, 0, 447, 0);
+    @include mi.marginPercent(1920, 226, auto, 0, auto);
+    @include mi.paddingPercent(1920, 406, 0, 411, 0);
     background: url(../img/index/topMadePc.png) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
@@ -38,7 +38,7 @@ LAYOUT
 }
 
 .rubyTopMade {
-    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.marginPercent(1300, 9, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheight(auto, auto);
     letter-spacing: 1.2;

@@ -7,7 +7,7 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .topPicUpOut {
-    @include mi.paddingPercent(1920, 125, auto, 0, auto);
+    @include mi.paddingPercent(1920, 58, auto, 0, auto);
     background: #fff;
 
     @include mi.mq(sp) {
@@ -38,7 +38,7 @@ LAYOUT
 }
 
 .topPicUpLxn {
-    @include mi.marginPercent(1300, 41, auto, 0, auto);
+    @include mi.marginPercent(1300, 30, auto, 0, auto);
     position: relative;
 
     @include mi.mq(sp) {

@@ -249,4 +249,19 @@ $(function () {
             .stop(true, true)
             .slideToggle();
     });
+
+    //のし
+    $('.jsbtnYakigashiProductNoshi').on('click', function () {
+        $(this).next('.jscntYakigashiProductNoshi').slideToggle();
+        $(this).toggleClass('on off');
+
+    });
+
+    //商品一覧
+    $('.jstitleNavSidebarProduct').on('click', function () {
+        $(this).next('.ulNavSidebarProductWap').slideToggle();
+        $(this).toggleClass('on off');
+
+    });
+
 });
