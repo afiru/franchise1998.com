@@ -6,3 +6,9 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.productLoopWeddingCake {
+    @include mi.marginPercent(1036, 50, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
+}

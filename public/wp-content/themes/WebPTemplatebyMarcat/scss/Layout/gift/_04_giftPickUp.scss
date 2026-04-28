@@ -92,6 +92,7 @@ LAYOUT
     height: auto;
     margin: auto;
 }
+
 .h4GiftPickUp {
     @include mi.marginPercent(530, 24, auto, 0, auto);
     @include mi.fontSizePc(16);

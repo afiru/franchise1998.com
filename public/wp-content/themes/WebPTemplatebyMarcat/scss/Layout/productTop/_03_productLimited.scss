@@ -8,6 +8,10 @@ LAYOUT
 ========================================================================== */
 .mainProdctLoop {
     @include mi.ontenerWidth(1300, 1036);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
 }
 
 //
@@ -19,21 +23,48 @@ LAYOUT
     @include mi.fontSizePc(36);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(100);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(32);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(100);
+    }
 }
 .rubyPrductLoopDefo {
     @include mi.marginPercent(1036, 15, 0, 0, 0);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .ulPrductLoopDefo {
     @include mi.marginPercent(1036, 40, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        justify-content: space-between;
+    }
 }
 .liPrductLoopDefo {
     @include mi.ontenerWidth(1036, 238);
     @include mi.marginPercent(1036, 0, 28, 0, 0);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 160);
+        margin: 0;
+    }
+    &:nth-child(n + 3) {
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 25, 0, 0, 0);
+        }
+    }
     &:nth-child(n + 5) {
         @include mi.marginPercent(1036, 30, 28, 0, 0);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 25, 0, 0, 0);
+        }
     }
     &:nth-child(4n) {
         margin-right: 0;
@@ -41,6 +72,9 @@ LAYOUT
 }
 .btnPrductLoopDefo {
     text-decoration: none;
+    &:hover {
+        opacity: 1;
+    }
 }
 .thumbsPrductLoopDefo {
     position: relative;
@@ -50,6 +84,9 @@ LAYOUT
     overflow: hidden;
     aspect-ratio: 238/238;
     @include mi.kadomaru(6px);
+}
+.btnPrductLoopDefo:hover .imgThumbsLiListIndexEvent {
+    transform: scale(1.03);
 }
 .iconNewPrductLoopDefo {
     position: absolute;
@@ -62,6 +99,12 @@ LAYOUT
     @include mi.letterSpacing(0);
     aspect-ratio: 40/18;
     text-decoration: none;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(160, 40);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
 }
 .h3PrductLoopDefo {
     @include mi.marginPercent(238, 20, auto, 0, auto);
@@ -69,6 +112,12 @@ LAYOUT
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     text-decoration: none;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(160, 15, auto, 0, auto);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
 }
 .h4PrductLoopDefo {
     @include mi.marginPercent(238, 10, auto, 0, auto);
@@ -76,6 +125,12 @@ LAYOUT
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     text-decoration: none;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(160, 10, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .rubyPrductLoopDefo {
     @include mi.marginPercent(238, 15, auto, 0, auto);
@@ -83,6 +138,12 @@ LAYOUT
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
     text-decoration: none;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(160, 10, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(50);
+    }
 }
 .iconLimitedProductLoop {
     @include mi.marginPercent(238, 12, 0, 0, 0);
@@ -94,6 +155,14 @@ LAYOUT
     @include mi.fontSizePc(14);
     line-height: normal;
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(160, 58);
+        @include mi.marginPercent(160, 10, 0, 0, 0);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+        aspect-ratio: 58/19;
+    }
 }
 
 //
