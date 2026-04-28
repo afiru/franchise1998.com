@@ -1,5 +1,9 @@
 <!-- スライダー -->
-<div class="swiper singleProductSlider">
+<div class="swiper pore singleProductSlider">
+    <?php $newicon = get_post_new_label($post->ID, 14); ?>
+    <?php if (!empty($newicon)): ?>
+        <span class="d_flex j_center ali_center bg_772D2D cl_fff fw_500 txtset kaku iconNewPrductPostDefo">NEW</span>
+    <?php endif; ?>
     <div class="swiper-wrapper">
         <?php foreach (scf::get('loopPorductsSlider') as $fields): ?>
             <?php $img = get_scf_img_loop_url_id($fields['imgPorductsSlider']); ?>
