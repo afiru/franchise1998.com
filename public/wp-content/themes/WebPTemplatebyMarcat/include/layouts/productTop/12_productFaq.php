@@ -3,10 +3,10 @@
 <div class="bg_F1ECE8 producetFaq">
     <div class="wapper producetFaqWap">
         <section class="secProductFaq">
-            <h3 class="cl_453C3C fw_500 txtset h3ProducetFaq">お買い物ガイド・よくあるご質問</h3>
+            <h3 class="cl_453C3C fw_500 txtset h3ProducetFaqTitle">お買い物ガイド・よくあるご質問</h3>
             <ul class="sbProducetFaq">
                 <?php foreach ($faqs as $key => $val): ?>
-                <li class="bg_F1ECE8 liProducetFaq">
+                <li class="bg_FFF liProducetFaq">
                     <div class="cntLiProducetFaq">
                         <div class="d_flex j_between c_pointer titleCntLiProducetFaq  off jstitleCntLiSbShoppingguideAllPosts">
                             <h3 class="cl_453C3C kaku fw_500 txtset h3ProducetFaq">
@@ -27,12 +27,12 @@
                 </li>
                 <?php endforeach; ?>
             </ul>
-<div class="btnProducetArchiveFaqLxn">
-<a class="undernone d_flex j_center ali_center brd_F04E11 cl_F04E11 kaku fw_500 txtset btnProducetArchiveFaq" href="<?php echo home_url('/faq/'); ?>">
-    <span class="iconBtnProducetArchiveFaq">一覧を見る</span>
-                <!--bg:../img/productTop/iconBtnProducetArchiveFaq.svg-->
+            <div class="btnProducetArchiveFaqLxn">
+                <a class="undernone d_flex j_center ali_center brd_F04E11 cl_F04E11 kaku fw_500 txtset btnProducetArchiveFaq" href="<?php echo home_url('/faq/'); ?>">
+                    <span class="iconBtnProducetArchiveFaq">一覧を見る</span>
+                    <!--bg:../img/productTop/iconBtnProducetArchiveFaq.svg-->
                 </a>
-</div>
+            </div>
 
         </section>
     </div>
