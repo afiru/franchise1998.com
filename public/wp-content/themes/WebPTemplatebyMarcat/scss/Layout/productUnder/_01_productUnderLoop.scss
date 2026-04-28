@@ -8,8 +8,12 @@ LAYOUT
 ========================================================================== */
 .prodoctLoop {
     @include mi.marginPercent(1920, 145, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
 }
 .prodoctLoopWap {
 }
 .prodoctLoopFx {
+    flex-flow: row wrap;
 }

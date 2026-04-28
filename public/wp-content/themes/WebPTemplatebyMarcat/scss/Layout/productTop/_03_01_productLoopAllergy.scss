@@ -9,20 +9,39 @@ LAYOUT
 .dekoAllergy {
     @include mi.marginPercent(1036, 50, auto, 0, auto);
     @include mi.paddingPercent(1036, 30, 0, 35, 0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+        @include mi.paddingPercent(330, 25, 0, 20, 0);
+    }
 }
 .secDekoAllergy {
     @include mi.ontenerWidth(1036, 986);
     margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 300);
+    }
 }
 .h2DekoAllergy {
     @include mi.marginPercent(986, 0, auto, 0, auto);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 0, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
 }
 .txtDekoAllergy {
     @include mi.marginPercent(986, 25, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(300, 20, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }

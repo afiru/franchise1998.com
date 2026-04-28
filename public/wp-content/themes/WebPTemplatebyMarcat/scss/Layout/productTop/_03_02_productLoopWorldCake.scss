@@ -8,4 +8,7 @@ LAYOUT
 ========================================================================== */
 .productLoopWorldCake {
     @include mi.marginPercent(1036, 25, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25, auto, 0, auto);
+    }
 }

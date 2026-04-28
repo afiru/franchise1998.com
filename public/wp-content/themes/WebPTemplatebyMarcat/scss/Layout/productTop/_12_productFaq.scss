@@ -11,6 +11,8 @@ LAYOUT
     @include mi.paddingPercent(1920, 105, 0, 86, 0);
     border-radius: 0 5.208333333333333vw 0 0;
     @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+        @include mi.paddingPercent(375, 80, 0, 70, 0);
         border-radius: 0 26.666666666666668vw 0 0;
     }
 }
@@ -19,22 +21,33 @@ LAYOUT
 .secProductFaq {
     @include mi.ontenerWidth(1300, 900);
     margin: auto;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
 }
 .h3ProducetFaqTitle {
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
     text-align: center;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }
 .sbProducetFaq {
     @include mi.ontenerWidth(900, 900);
     @include mi.marginPercent(900, 47, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 307);
+    }
 }
 .liProducetFaq {
     &:nth-child(n + 2) {
         @include mi.marginPercent(900, 8, auto, 0, auto);
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 17, auto, 0, auto);
+            @include mi.marginPercent(330, 8, auto, 0, auto);
         }
     }
 }
@@ -42,15 +55,15 @@ LAYOUT
     @include mi.ontenerWidth(900, 843);
     @include mi.marginPercent(900, 0, 40, 0, 30);
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 301);
-        @include mi.marginPercent(330, 0, 11, 0, 18);
+        @include mi.ontenerWidth(330, 307);
+        @include mi.marginPercent(330, 0, 11, 0, 12);
     }
 }
 .titleCntLiProducetFaq {
     @include mi.paddingPercent(843, 27, 0, 26, 0);
     cursor: pointer;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 22, 0, 22, 0);
+        @include mi.paddingPercent(307, 22, 0, 22, 0);
     }
 }
 .h3ProducetFaq {
@@ -59,7 +72,7 @@ LAYOUT
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(301, 278);
+        @include mi.ontenerWidth(307, 278);
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -70,7 +83,7 @@ LAYOUT
     transform: rotate(0deg);
     transition-duration: 0.5s;
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(301, 10);
+        @include mi.ontenerWidth(307, 10);
     }
 }
 
@@ -84,9 +97,66 @@ LAYOUT
     @include mi.paddingPercent(900, 0, 0, 22, 0);
     display: none;
     @include mi.mq(sp) {
-        @include mi.marginPercent(301, 0, auto, 0, auto);
-        @include mi.paddingPercent(301, 0, 0, 30, 0);
+        @include mi.marginPercent(307, 0, auto, 0, auto);
+        @include mi.paddingPercent(307, 0, 0, 30, 0);
     }
 }
 .mainCntLiProducetFaq {
+}
+
+.mainCntLiProducetFaq p {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+//
+.btnProducetArchiveFaqLxn {
+    @include mi.marginPercent(900, 31, auto, 0, auto);
+    @include mi.ontenerWidth(900, 200);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 193);
+    }
+}
+.btnProducetArchiveFaq {
+    width: 100%;
+    @include mi.kadomaru(30px);
+    border: 1px solid #f04e11;
+    aspect-ratio: 200/39;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.6;
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        aspect-ratio: 193/39;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+.iconBtnProducetArchiveFaq {
+    @include mi.ontenerWidth(200, 180);
+    margin: auto;
+    background: url(../img/productTop/iconBtnProducetArchiveFaq.svg) no-repeat
+        right center;
+    background-size: auto 20%;
+    text-align: center;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(193, 163);
+    }
 }
