@@ -1,0 +1,92 @@
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+@use "../../Functions/mixin" as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.producetFaq {
+    @include mi.marginPercent(1920, 175, auto, 0, auto);
+    @include mi.paddingPercent(1920, 105, 0, 86, 0);
+    border-radius: 0 5.208333333333333vw 0 0;
+    @include mi.mq(sp) {
+        border-radius: 0 26.666666666666668vw 0 0;
+    }
+}
+.producetFaqWap {
+}
+.secProductFaq {
+    @include mi.ontenerWidth(1300, 900);
+    margin: auto;
+}
+.h3ProducetFaqTitle {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(20);
+    text-align: center;
+}
+.sbProducetFaq {
+    @include mi.ontenerWidth(900, 900);
+    @include mi.marginPercent(900, 47, auto, 0, auto);
+}
+.liProducetFaq {
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(900, 8, auto, 0, auto);
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 17, auto, 0, auto);
+        }
+    }
+}
+.cntLiProducetFaq {
+    @include mi.ontenerWidth(900, 843);
+    @include mi.marginPercent(900, 0, 40, 0, 30);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 301);
+        @include mi.marginPercent(330, 0, 11, 0, 18);
+    }
+}
+.titleCntLiProducetFaq {
+    @include mi.paddingPercent(843, 27, 0, 26, 0);
+    cursor: pointer;
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 22, 0, 22, 0);
+    }
+}
+.h3ProducetFaq {
+    @include mi.ontenerWidth(843, 824);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(301, 278);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+.iconProducetFaq {
+    @include mi.ontenerWidth(843, 12);
+    transform: rotate(0deg);
+    transition-duration: 0.5s;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(301, 10);
+    }
+}
+
+.titleCntLiProducetFaq.on {
+    .iconProducetFaq {
+        transform: rotate(180deg);
+    }
+}
+.mainCntLiProducetFaqLxn {
+    @include mi.marginPercent(900, 31, auto, 0, auto);
+    @include mi.paddingPercent(900, 0, 0, 22, 0);
+    display: none;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(301, 0, auto, 0, auto);
+        @include mi.paddingPercent(301, 0, 0, 30, 0);
+    }
+}
+.mainCntLiProducetFaq {
+}

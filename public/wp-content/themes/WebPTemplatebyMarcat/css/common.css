@@ -48535,6 +48535,315 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.producetFaq {
+  margin-top: 175px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .producetFaq {
+    margin-top: 9.11%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.producetFaq {
+  padding-top: 105px;
+  padding-bottom: 86px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .producetFaq {
+    padding: 5.46% 0% 4.47% 0%;
+  }
+}
+.producetFaq {
+  border-radius: 0 5.2083333333vw 0 0;
+}
+@media screen and (max-width: 767px) {
+  .producetFaq {
+    border-radius: 0 26.6666666667vw 0 0;
+  }
+}
+
+.secProductFaq {
+  width: 900px;
+}
+@media screen and (max-width: 1299px) {
+  .secProductFaq {
+    width: 69.23%;
+  }
+}
+.secProductFaq {
+  margin: auto;
+}
+
+.h3ProducetFaqTitle {
+  font-size: 20px;
+}
+@media screen and (max-width: 1299px) {
+  .h3ProducetFaqTitle {
+    font-size: 1.5396458814vw;
+  }
+}
+.h3ProducetFaqTitle {
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.sbProducetFaq {
+  width: 900px;
+}
+@media screen and (max-width: 1299px) {
+  .sbProducetFaq {
+    width: 100%;
+  }
+}
+.sbProducetFaq {
+  margin-top: 47px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .sbProducetFaq {
+    margin-top: 5.22%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.liProducetFaq:nth-child(n+2) {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .liProducetFaq:nth-child(n+2) {
+    margin-top: 0.88%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .liProducetFaq:nth-child(n+2) {
+    margin-top: 17px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .liProducetFaq:nth-child(n+2) {
+    margin-top: 5.15%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.cntLiProducetFaq {
+  width: 843px;
+}
+@media screen and (max-width: 1299px) {
+  .cntLiProducetFaq {
+    width: 93.66%;
+  }
+}
+.cntLiProducetFaq {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+@media screen and (max-width: 1299px) {
+  .cntLiProducetFaq {
+    margin: 0% 4.44% 0% 3.33%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cntLiProducetFaq {
+    width: 301px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 18px;
+    margin-right: 11px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .cntLiProducetFaq {
+    width: 91.21%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .cntLiProducetFaq {
+    margin: 0% 3.33% 0% 5.45%;
+  }
+}
+
+.titleCntLiProducetFaq {
+  padding-top: 27px;
+  padding-bottom: 26px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .titleCntLiProducetFaq {
+    padding: 3.2% 0% 3.08% 0%;
+  }
+}
+.titleCntLiProducetFaq {
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .titleCntLiProducetFaq {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .titleCntLiProducetFaq {
+    padding: 6.66% 0% 6.66% 0%;
+  }
+}
+
+.h3ProducetFaq {
+  width: 824px;
+}
+@media screen and (max-width: 1299px) {
+  .h3ProducetFaq {
+    width: 97.74%;
+  }
+}
+.h3ProducetFaq {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .h3ProducetFaq {
+    font-size: 1.2317167052vw;
+  }
+}
+.h3ProducetFaq {
+  line-height: 160%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .h3ProducetFaq {
+    width: 278px;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h3ProducetFaq {
+    width: 92.35%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h3ProducetFaq {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.iconProducetFaq {
+  width: 12px;
+}
+@media screen and (max-width: 1299px) {
+  .iconProducetFaq {
+    width: 1.42%;
+  }
+}
+.iconProducetFaq {
+  transform: rotate(0deg);
+  transition-duration: 0.5s;
+}
+@media screen and (max-width: 767px) {
+  .iconProducetFaq {
+    width: 10px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .iconProducetFaq {
+    width: 3.32%;
+  }
+}
+
+.titleCntLiProducetFaq.on .iconProducetFaq {
+  transform: rotate(180deg);
+}
+
+.mainCntLiProducetFaqLxn {
+  margin-top: 31px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .mainCntLiProducetFaqLxn {
+    margin-top: 3.44%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.mainCntLiProducetFaqLxn {
+  padding-top: 0px;
+  padding-bottom: 22px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .mainCntLiProducetFaqLxn {
+    padding: 0% 0% 2.44% 0%;
+  }
+}
+.mainCntLiProducetFaqLxn {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .mainCntLiProducetFaqLxn {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .mainCntLiProducetFaqLxn {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .mainCntLiProducetFaqLxn {
+    padding: 0% 0% 9.96% 0%;
+  }
+}
+
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+use&nameSpace
+========================================================================== */
+/* ==========================================================================
+LAYOUT
+========================================================================== */
 .prodoctLoop {
   margin-top: 145px;
   margin-bottom: 0px;
@@ -48563,6 +48872,14 @@ Component
 
 .bg_772D2D {
   background: #772d2d;
+}
+
+.bg_F1ECE8 {
+  background: #f1ece8;
+}
+
+.bg_FFF {
+  background: #fff;
 }
 
 /*
