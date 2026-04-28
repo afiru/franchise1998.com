@@ -393,6 +393,45 @@ function add_parent_category_body_class($classes)
 }
 add_filter('body_class', 'add_parent_category_body_class');
 
+/**
+ * 記事詳細で、指定親カテゴリー直下のカテゴリ名を1つ取得
+ * 例：親15配下に属していれば、その直下カテゴリ名を返す
+ */
+function get_child_category_name($parent_id = 15, $post_id = null)
+{
+    if (!$post_id) $post_id = get_the_ID();
+
+    $categories = get_the_category($post_id);
+    if (!$categories) return '';
+
+    $matches = [];
+
+    foreach ($categories as $cat) {
+
+        if ($cat->parent == $parent_id) {
+            $matches[] = $cat;
+            continue;
+        }
+
+        $current = $cat;
+
+        while ($current->parent) {
+
+            if ($current->parent == $parent_id) {
+                $matches[] = $current;
+                break;
+            }
+
+            $current = get_category($current->parent);
+        }
+    }
+
+    if (empty($matches)) return '';
+
+    usort($matches, fn($a, $b) => $a->term_id <=> $b->term_id);
+
+    return $matches[0]->name;
+}
 
 /**
  * 指定記事IDの投稿日から7日以内なら NEW を返す
@@ -419,4 +458,44 @@ function get_post_content_by_id($post_id)
     if (!$post) return '';
 
     return apply_filters('the_content', $post->post_content);
+}
+
+/**
+ * 記事詳細で、指定親カテゴリー配下のチェック済みカテゴリをすべて取得
+ * （親23以下に属するカテゴリのみ）
+ */
+function get_categories_under_parent($parent_id = 23, $post_id = null)
+{
+    if (!$post_id) {
+        $post_id = get_the_ID();
+    }
+
+    $categories = get_the_category($post_id);
+
+    if (!$categories) return [];
+
+    $result = [];
+
+    foreach ($categories as $cat) {
+
+        // 自分自身が親IDなら除外したい場合は continue
+        if ((int)$cat->term_id === (int)$parent_id) {
+            continue;
+        }
+
+        // 直下なら追加
+        if ((int)$cat->parent === (int)$parent_id) {
+            $result[$cat->term_id] = $cat;
+            continue;
+        }
+
+        // 祖先に parent_id があるか確認
+        $ancestors = get_ancestors($cat->term_id, 'category');
+
+        if (in_array($parent_id, $ancestors)) {
+            $result[$cat->term_id] = $cat;
+        }
+    }
+
+    return $result;
 }
