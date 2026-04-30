@@ -13,7 +13,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picBtnLiTopSelect01Pc.png'); ?>" alt="<?php echo esc_attr('説明テキスト'); ?>" width="180" height="265">
                         </picture>
                     </figure>
-                    <h3 class="t_center cl_453C3C mincho fw_500 txtset h3BtnLiTopSelect">新商品・期間限定</h3>
+                    <h3 class="t_center cl_453C3C mincho fw_500 txtset h3BtnLiTopSelect">新商品・<br class="sp_only">期間限定</h3>
                     <p class="t_center cl_453C3C fw_400 txtBtnLiTopSelect">
                         新商品や期間限定の<br>ケーキやお菓子
                     </p>
@@ -29,7 +29,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picBtnLiTopSelect02Pc.png'); ?>" alt="<?php echo esc_attr('説明テキスト'); ?>" width="180" height="265">
                         </picture>
                     </figure>
-                    <h3 class="t_center cl_453C3C mincho fw_500 txtset h3BtnLiTopSelect">誕生日・記念日</h3>
+                    <h3 class="t_center cl_453C3C mincho fw_500 txtset h3BtnLiTopSelect">誕生日・<br class="sp_only">記念日</h3>
                     <p class="t_center cl_453C3C fw_400 txtBtnLiTopSelect">
                         特別な日を彩る<br>華やかなケーキや花束
                     </p>

@@ -10,7 +10,10 @@ LAYOUT
     @include mi.marginPercent(1920, 53, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 100, auto, 0, auto);
+        margin-top: 24%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -43,7 +46,7 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, 0, 0, 0);
+        margin: 1.06% 0% 0% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
@@ -54,7 +57,7 @@ LAYOUT
     @include mi.marginPercent(1300, 24, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, 0, 0, 0);
+        margin: 6.09% 0% 0% 0%;
     }
 }
 
@@ -67,7 +70,7 @@ LAYOUT
 
     &:nth-child(n + 2) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 18, 0, 0, 0);
+            margin: 4.45% 0% 0% 0%;
         }
     }
 
@@ -88,6 +91,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 134);
+        margin: 1% 0 0 0;
     }
 }
 
@@ -118,10 +122,17 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(177, 15, auto, 0, auto);
+        margin-top: 3.47%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(130);
         @include mi.letterSpacing(0);
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* 2行まで */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 }
 
@@ -130,7 +141,10 @@ LAYOUT
     @include mi.ontenerWidth(1300, 193);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 8.2%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 193);
     }
 }
@@ -145,7 +159,7 @@ LAYOUT
     text-decoration: none;
 
     @include mi.mq(sp) {
-        aspect-ratio: 193 / 39;
+        aspect-ratio: 193 / 40;
         @include mi.kadomaru(30px);
         border: 1px solid #f04e11;
         @include mi.fontSizeSp(14);
@@ -168,6 +182,6 @@ LAYOUT
         margin: auto;
         background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
             center;
-        background-size: auto 20%;
+        background-size: auto 14%;
     }
 }

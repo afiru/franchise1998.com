@@ -13,8 +13,8 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 100, auto, 0, auto);
-        @include mi.paddingPercent(375, 100, 0, 0, 0);
-        border-radius: 0 26.666666666666668vw 0 0;
+        padding: 22.66% 0% 0% 0%;
+        border-radius: 0 21.666667vw 0 0;
     }
 }
 
@@ -30,12 +30,12 @@ LAYOUT
 .h2TopLimited {
     @include mi.fontSizePc(40);
     @include mi.lineheightP(140);
-    @include mi.letterSpacing(40);
+    @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(36);
-        @include mi.lineheightP(160);
-        @include mi.letterSpacing(30);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(100);
     }
 }
 
@@ -46,7 +46,10 @@ LAYOUT
     @include mi.letterSpacing(80);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -2%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
@@ -57,7 +60,10 @@ LAYOUT
     @include mi.marginPercent(1300, 37, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 45, auto, 0, auto);
+        margin-top: 12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -91,7 +97,10 @@ LAYOUT
     text-decoration: none;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(160, 15, auto, 0, auto);
+        margin-top: 5.37%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheight(auto, auto);
         @include mi.letterSpacing(0);
@@ -106,7 +115,7 @@ LAYOUT
     text-decoration: none;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(160, 10, auto, 0, auto);
+        @include mi.marginPercent(160, 0, auto, 0, auto);
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -153,7 +162,10 @@ LAYOUT
     @include mi.ontenerWidth(1300, 240);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 8.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 240);
     }
 }
@@ -170,7 +182,7 @@ LAYOUT
     overflow: hidden;
 
     @include mi.mq(sp) {
-        aspect-ratio: 193 / 39;
+        aspect-ratio: 240 / 40;
         @include mi.kadomaru(30px);
         border: 1px solid #f04e11;
         @include mi.fontSizeSp(14);
@@ -189,10 +201,10 @@ LAYOUT
     text-align: center;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(193, 163);
+        width: 93.45%;
         margin: auto;
         background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right
             center;
-        background-size: auto 20%;
+        background-size: auto 16%;
     }
 }

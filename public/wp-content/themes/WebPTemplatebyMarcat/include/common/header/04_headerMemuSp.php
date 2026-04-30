@@ -10,7 +10,7 @@
         <nav class="navHeaderMenuSpBx navHeaderMenuSpBx01">
             <ul class="ulNavHeaderMenuSpBx ulNavHeaderMenuSpBx1">
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">TOP</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">トップ</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
                     <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">フランシーズについて</a>
@@ -48,23 +48,23 @@
 
             <div class="bg_fff brdNavHeaderSp"></div>
 
-            <ul class="d_flex j_between row ulHeaderFixedBxSp">
-                <li class="liHeaderFixedBxSp">
+            <ul class="d_flex j_between row ulHeaderFixedBxSp ulHeaderFixedBxSp02">
+                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">オリジナルプリントスイーツ</a>
                 </li>
-                <li class="liHeaderFixedBxSp">
+                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">たま卵チーズ</a>
                 </li>
-                <li class="liHeaderFixedBxSp">
+                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">パーティープラン</a>
                 </li>
-                <li class="liHeaderFixedBxSp">
+                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">ウェディングサービス</a>
                 </li>
-                <li class="liHeaderFixedBxSp">
+                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">採用情報</a>
                 </li>
-                <li class="liHeaderFixedBxSp">
+                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">サイトマップ</a>
                 </li>
             </ul>

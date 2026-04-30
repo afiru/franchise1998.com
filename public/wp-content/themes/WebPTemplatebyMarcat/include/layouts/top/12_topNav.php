@@ -36,7 +36,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav03Pc.png'); ?>" alt="<?php echo esc_attr('素材へのこだわり'); ?>" width="305" height="195">
                         </picture>
                     </figure>
-                    <h3 class="cl_453C3C fw_500 txtset h3TopNav">お買い物ガイド・よくあるご質問</h3>
+                    <h3 class="cl_453C3C fw_500 txtset h3TopNav">お買い物ガイド・<br class="sp_only">よくあるご質問</h3>
                 </a>
             </li>
 
@@ -75,7 +75,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav06Pc.png'); ?>" alt="<?php echo esc_attr('素材へのこだわり'); ?>" width="305" height="195">
                         </picture>
                     </figure>
-                    <h3 class="cl_453C3C fw_500 txtset h3TopNav">サロン・ド・フランシーズ</h3>
+                    <h3 class="cl_453C3C fw_500 txtset h3TopNav">サロン・ド・<br class="sp_only">フランシーズ</h3>
                 </a>
             </li>
 

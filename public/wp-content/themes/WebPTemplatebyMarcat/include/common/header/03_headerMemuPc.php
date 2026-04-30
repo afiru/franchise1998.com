@@ -13,7 +13,7 @@
                 <nav class="navHeaderMenuPcBx navHeaderMenuPcBx01">
                     <ul class="ulNavHeaderMenuPcBx ulNavHeaderMenuPcBx1">
                         <li class="liNavHeaderMenuPcBx">
-                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/'); ?>">TOP</a>
+                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/'); ?>">トップ</a>
                         </li>
                         <li class="liNavHeaderMenuPcBx">
                             <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/'); ?>">フランシーズについて</a>
@@ -63,16 +63,23 @@
 
             <ul class="d_flex j_flex row ulNavHeaderPc02">
                 <li class="liNavHeaderPcmenu">
+                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-オリジナルプリントスイーツ</a>
+                </li>
+                <li class="liNavHeaderPcmenu">
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-たま卵チーズ</a>
                 </li>
                 <li class="liNavHeaderPcmenu">
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-パーティプラン</a>
                 </li>
-                <li class="liNavHeaderPcmenu">
-                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-オリジナルプリントスイーツ</a>
-                </li>
+
                 <li class="liNavHeaderPcmenu">
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-ウェディングサービス</a>
+                </li>
+                <li class="liNavHeaderPcmenu">
+                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-採用情報</a>
+                </li>
+                <li class="liNavHeaderPcmenu">
+                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-サイトマップ</a>
                 </li>
             </ul>
 

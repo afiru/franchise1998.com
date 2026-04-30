@@ -10,7 +10,7 @@ LAYOUT
     @include mi.paddingPercent(1920, 144, 0, 167, 0);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 120, 0, 100, 0);
+        padding: 29.5% 0% 24% 0%;
     }
 }
 
@@ -36,7 +36,10 @@ LAYOUT
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 15, auto, 0, auto);
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
@@ -47,7 +50,10 @@ LAYOUT
     @include mi.marginPercent(1300, 51, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 30, auto, 0, auto);
+        margin-top: 7%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(375, 330);
     }
 }
@@ -59,7 +65,7 @@ LAYOUT
         @include mi.ontenerWidth(330, 100);
 
         &:nth-child(n + 4) {
-            @include mi.marginPercent(330, 30, 0, 0, 0);
+            margin: 8.09% 0% 0% 0%;
         }
     }
 }
@@ -77,7 +83,10 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(180, 15, auto, 0, auto);
+        margin-top: 10.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -91,7 +100,10 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(180, 15, auto, 0, auto);
+        margin-top: 5.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(10);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
@@ -105,9 +117,13 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 70, auto, 0, auto);
+        margin-top: 15.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
+        width: 88%;
     }
 }

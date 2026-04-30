@@ -28,7 +28,7 @@ LAYOUT
 
 .closeMenuSp {
     position: absolute;
-    right: 4%;
+    right: 5%;
     top: 0%;
     @include mi.ontenerWidth(375, 20);
     cursor: pointer;
@@ -36,7 +36,7 @@ LAYOUT
 
 .navHeaderMenuSpBx {
     margin: auto;
-    @include mi.paddingPercent(375, 60, 0, 0, 0);
+    padding: 14.5% 0% 0% 0%;
     @include mi.ontenerWidth(375, 280);
 }
 
@@ -45,7 +45,7 @@ LAYOUT
 
 .liNavHeaderMenuSpBx {
     &:nth-child(n + 2) {
-        @include mi.marginPercent(290, 36, 0, 0, 0);
+        margin: 8.8% 0% 0% 0%;
     }
 }
 
@@ -54,25 +54,45 @@ LAYOUT
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     text-decoration: none;
+    &:nth-child(n + 2) {
+        margin-top: 5.27%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .brdNavHeaderSp {
-    @include mi.marginPercent(290, 40, auto, 0, auto);
+    margin-top: 11.79%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
     height: 1px;
     width: 100%;
 }
 
 .ulHeaderFixedBxSp {
-    @include mi.marginPercent(290, 40, auto, 0, auto);
+    margin-top: 12%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ulHeaderFixedBxSp02 {
-    @include mi.marginPercent(290, 40, auto, 0, auto);
+    margin-top: 11.79%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .liHeaderFixedBxSp {
     @include mi.ontenerWidth(290, 290);
 
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(290, 24, auto, 0, auto);
+    }
+}
+.ulHeaderFixedBxSp02 .liHeaderFixedBxSp02 {
     &:nth-child(n + 2) {
         @include mi.marginPercent(290, 24, auto, 0, auto);
     }
@@ -84,7 +104,7 @@ LAYOUT
     text-decoration: none;
     @include mi.fontSizeSp(13);
     @include mi.lineheightP(150);
-    @include mi.letterSpacing(0);
+    @include mi.letterSpacing(60);
 }
 
 .telContactSpHeader {
