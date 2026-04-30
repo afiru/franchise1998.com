@@ -1,27 +1,30 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .aboutGiftIdeas {
     @include mi.marginPercent(1920, 125, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 100, auto, 0, auto);
     }
 }
+
 .topAboutGiftIdeasWap {
     position: relative;
-    @include mi.paddingPercent(1920, 79, 0, 0, 0);
+    @include mi.paddingPercent(1920, 84, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
         margin: auto;
-        @include mi.paddingPercent(375, 50, 0, 0, 0);
+        padding: 2.33% 0% 0% 0%;
     }
 }
+
 .brdLongTopAboutGiftIdeas {
     height: 2px;
     width: 900%;
@@ -29,6 +32,7 @@ LAYOUT
     left: 0;
     top: 0;
 }
+
 .brdShortTopAboutGiftIdeas {
     @include mi.ontenerWidth(1920, 50);
     height: 2px;
@@ -40,10 +44,11 @@ LAYOUT
         @include mi.ontenerWidth(330, 50);
     }
 }
-.titleAboutGiftIdeas {
-}
+
+.titleAboutGiftIdeas {}
+
 .h2TitleAboutGiftIdeas {
-    @include mi.fontSizePc(40);
+    @include mi.fontSizePc(34);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(100);
 
@@ -53,82 +58,103 @@ LAYOUT
         @include mi.letterSpacing(100);
     }
 }
+
 .rubyTitleAboutGiftIdeas {
-    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.marginPercent(1300, -1, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 16, auto, 0, auto);
-        @include mi.fontSizeSp(16);
+        margin-top: -2.16%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include mi.fontSizeSp(14);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
+
 .aboutGiftIdeasFx {
-    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.marginPercent(1300, 35, auto, 0, auto);
     align-items: center;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 25, auto, 0, auto);
     }
 }
+
 .photoAboutGiftIdeas {
     @include mi.ontenerWidth(1200, 570);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 0, auto, 0, auto);
         width: 100%;
     }
 }
+
 .secAboutGiftIdeas {
     @include mi.ontenerWidth(1200, 440);
     margin: auto;
+
     @include mi.mq(sp) {
         width: 100%;
     }
 }
+
 .h3AboutGiftIdeas {
-    @include mi.fontSizePc(32);
+    @include mi.fontSizePc(30);
     @include mi.lineheightP(160);
-    @include mi.letterSpacing(100);
+    @include mi.letterSpacing(50);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 3.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(100);
     }
 }
+
 .rubyAboutGiftIdeas {
-    @include mi.marginPercent(440, 15, 0, 0, 0);
+    @include mi.marginPercent(440, -4, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, 0, 0, 0);
+        margin: -0.56% 0% 0% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
+
 .h4AboutGiftIdeas {
-    @include mi.marginPercent(440, 50, 0, 0, 0);
+    @include mi.marginPercent(440, 36, 0, 0, 0);
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, 0, 0, 0);
+        margin: 4.09% 0% 0% 0%;
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
+
 .txtAboutGiftIdeas {
-    @include mi.marginPercent(440, 40, 0, 0, 0);
+    @include mi.marginPercent(440, 23, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, 0, 0, 0);
+        margin: 3.20% 0% 0% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);

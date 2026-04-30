@@ -4,7 +4,7 @@
         <div class="poab bg_F28962 brdShortTopAboutThought"></div>
 
         <section class="titleAboutThought">
-            <h2 class="cl_421D12 fw_500 txtset h2TitleAboutThought">THOUGHTS</h2>
+            <h2 class="cl_421D12 fw_500 txtset CormorantUnicase h2TitleAboutThought">THOUGHTS</h2>
             <p class="cl_453C3C fw_500 txtset rubyTitleAboutThought">スタッフの想い</p>
         </section>
 

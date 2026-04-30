@@ -4,7 +4,7 @@
         <div class="poab bg_F28962 brdShortTopProductAppeal"></div>
 
         <section class="titleProductAppeal">
-            <h2 class="cl_421D12 fw_500 txtset h2TitleProductAppeal">PRODUCT APPEAL</h2>
+            <h2 class="cl_421D12 fw_500 txtset CormorantUnicase h2TitleProductAppeal">PRODUCT APPEAL</h2>
             <p class="cl_453C3C fw_500 txtset rubyTitleProductAppeal">商品の魅力</p>
         </section>
 
@@ -17,7 +17,7 @@
                 </picture>
             </figure>
             <section class="secProductAppealFx secProductAppealFx01">
-                <h3 class="cl_421D12 fw_500 txtset h3ProductAppealFx">CAKE</h3>
+                <h3 class="cl_421D12 CormorantUnicase  fw_500 txtset h3ProductAppealFx">CAKE</h3>
                 <p class="cl_453C3C txtset fw_500 rubyProductAppealFx">ケーキ</p>
                 <h4 class="cl_453C3C txtset fw_500 h4ProductAppealFx">
                     素材にこだわり、ひとつひとつ手づくりで。<br>25～30種類をご用意。
@@ -43,7 +43,7 @@
                 </picture>
             </figure>
             <section class="secProductAppealFx secProductAppealFx02">
-                <h3 class="cl_421D12 fw_500 txtset h3ProductAppealFx">BAKED・GIFT</h3>
+                <h3 class="cl_421D12 CormorantUnicase  fw_500 txtset h3ProductAppealFx">BAKED・GIFT</h3>
                 <p class="cl_453C3C txtset fw_500 rubyProductAppealFx">焼き菓子・ギフト</p>
                 <h4 class="cl_453C3C txtset fw_500 h4ProductAppealFx">
                     日常をちょっと贅沢にする小さな幸せ。
@@ -69,10 +69,10 @@
                 </picture>
             </figure>
             <section class="secProductAppealFx secProductAppealFx03">
-                <h3 class="cl_421D12 fw_500 txtset h3ProductAppealFx">FLOWER</h3>
+                <h3 class="cl_421D12 CormorantUnicase  fw_500 txtset h3ProductAppealFx">FLOWER</h3>
                 <p class="cl_453C3C txtset fw_500 rubyProductAppealFx">お花・アレンジメント</p>
                 <h4 class="cl_453C3C txtset fw_500 h4ProductAppealFx">
-                    美味しいギフトを選んだら、<br>もうひとつ…<br>お花のプレゼントを
+                    美味しいギフトを選んだら、<br>もうひとつ…<br class="pc_only">お花のプレゼントを
                 </h4>
                 <p class="cl_453C3C fw_500 txtset text_justify txtProductAppealFx">
                     生花アレンジメント、華やかなブーケ、プリザーブドフラワーなどオリジナルで制作しています。贈るお相手の好みや、記念日などの目的に合わせて世界でひとつの特別なギフトをお作りします。

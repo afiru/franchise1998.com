@@ -10,7 +10,10 @@ LAYOUT
     @include mi.marginPercent(1920, 121, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 50, auto, 0, auto);
+        margin-top: 8.43%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -43,10 +46,9 @@ LAYOUT
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
 
-
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 15, 0, 0, 0);
-        @include mi.fontSizeSp(24);
+        margin: -2.5% 0% 0% 0%;
+        @include mi.fontSizeSp(16);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(50);
     }
@@ -57,7 +59,10 @@ LAYOUT
     position: relative;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 55, auto, 0, auto);
+        margin-top: 6.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -65,13 +70,22 @@ LAYOUT
 
 .txtAboutUnderFvFig {
     position: absolute;
-    width: 8px;
-    top: 50%;
-    left: 2%;
+    width: 10px;
+    top: -2.5%;
+    left: 0.75%;
     z-index: 3;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 6);
+        width: 1.85%;
+        position: absolute;
+        width: 10px;
+        top: 36.5%;
+        left: 3.75%;
+        z-index: 3;
+    }
+
+    img {
+        width: 100%;
     }
 }
 
@@ -85,10 +99,13 @@ LAYOUT
 }
 
 .breadUnder {
-    @include mi.marginPercent(1300, 30, auto, 0, auto);
+    @include mi.marginPercent(1300, 23, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 15, auto, 0, auto);
+        margin-top: 2.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -110,7 +127,7 @@ LAYOUT
     @include mi.letterSpacing(20);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        @include mi.marginPercent(330, 0, auto, 0, auto);
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);

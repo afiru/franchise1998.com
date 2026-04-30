@@ -1,14 +1,18 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .brandStoryImage {
-    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.marginPercent(1920, 64, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 30, auto, 0, auto);
+        margin-top: 6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

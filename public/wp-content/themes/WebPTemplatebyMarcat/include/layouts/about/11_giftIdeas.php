@@ -4,7 +4,7 @@
         <div class="poab bg_F28962 brdShortTopAboutGiftIdeas"></div>
 
         <section class="titleAboutGiftIdeas">
-            <h2 class="cl_421D12 fw_500 txtset h2TitleAboutGiftIdeas">GIFT IDEAS</h2>
+            <h2 class="cl_421D12 fw_500 txtset CormorantUnicase h2TitleAboutGiftIdeas">GIFT IDEAS</h2>
             <p class="cl_453C3C fw_500 txtset rubyTitleAboutGiftIdeas">ギフトのご提案</p>
         </section>
 
@@ -18,7 +18,7 @@
             </figure>
 
             <section class="secAboutGiftIdeas">
-                <h3 class="cl_421D12 fw_500 txtset h3AboutGiftIdeas">CONCIERGE</h3>
+                <h3 class="cl_421D12 fw_500 txtset CormorantUnicase h3AboutGiftIdeas">CONCIERGE</h3>
                 <p class="cl_453C3C fw_500 txtset rubyAboutGiftIdeas">コンシェルジュ</p>
                 <h4 class="cl_453C3C fw_500 txtset h4AboutGiftIdeas">
                     「どんな贈りものにしようかな？」<br>

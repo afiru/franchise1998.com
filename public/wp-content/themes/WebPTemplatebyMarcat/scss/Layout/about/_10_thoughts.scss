@@ -1,27 +1,30 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .aboutThought {
     @include mi.marginPercent(1920, 125, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 100, auto, 0, auto);
     }
 }
+
 .topAboutThoughtWap {
     position: relative;
-    @include mi.paddingPercent(1920, 79, 0, 0, 0);
+    @include mi.paddingPercent(1920, 83, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
         margin: auto;
-        @include mi.paddingPercent(375, 50, 0, 0, 0);
+        padding: 15.03% 0% 0% 0%;
     }
 }
+
 .brdLongTopAboutThought {
     height: 2px;
     width: 900%;
@@ -29,6 +32,7 @@ LAYOUT
     left: 0;
     top: 0;
 }
+
 .brdShortTopAboutThought {
     @include mi.ontenerWidth(1920, 50);
     height: 2px;
@@ -40,12 +44,13 @@ LAYOUT
         @include mi.ontenerWidth(330, 50);
     }
 }
-.titleAboutThought {
-}
+
+.titleAboutThought {}
+
 .h2TitleAboutThought {
-    @include mi.fontSizePc(40);
+    @include mi.fontSizePc(35);
     @include mi.lineheightP(160);
-    @include mi.letterSpacing(100);
+    @include mi.letterSpacing(120);
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(36);
@@ -53,63 +58,89 @@ LAYOUT
         @include mi.letterSpacing(100);
     }
 }
+
 .rubyTitleAboutThought {
-    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.marginPercent(1300, 0, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 16, auto, 0, auto);
-        @include mi.fontSizeSp(16);
+        margin-top: -3.0%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include mi.fontSizeSp(14);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
 
 .ulAboutThought {
-    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.marginPercent(1300, 35, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 8.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
 .liAboutThought {
     @include mi.ontenerWidth(1300, 406);
+
     @include mi.mq(sp) {
         width: 100%;
+
         &:nth-child(n + 2) {
-            @include mi.marginPercent(330, 60, auto, 0, auto);
+            margin-top: 17.18%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
+
 .btnAboutThought {
     text-decoration: none;
 }
-.photoBtnAboutThought {
-}
+
+.photoBtnAboutThought {}
+
 .txtLiAboutThought {
-    @include mi.marginPercent(406, 30, auto, 0, auto);
+    @include mi.marginPercent(406, 23, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 3.04%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
+
 //
 
 //
 .btnAboutThoughtLxn02 {
-    @include mi.marginPercent(1300, 62, auto, 0, auto);
+    @include mi.marginPercent(1300, 34, auto, 0, auto);
     @include mi.ontenerWidth(1300, 200);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 7.59%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 200);
     }
 }
+
 .btnAboutThought02 {
     aspect-ratio: 200 / 40;
     @include mi.kadomaru(30px);
@@ -128,20 +159,19 @@ LAYOUT
         @include mi.letterSpacing(20);
     }
 }
+
 .iconBbtnAboutThoughts02 {
-    @include mi.ontenerWidth(200, 163);
+    @include mi.ontenerWidth(200, 177);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-        center;
-    background-size: auto 20%;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 15%;
     display: block;
     text-align: center;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(200, 163);
+        width: 89.49%;
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-            center;
-        background-size: auto 20%;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background-size: auto 16%;
     }
 }

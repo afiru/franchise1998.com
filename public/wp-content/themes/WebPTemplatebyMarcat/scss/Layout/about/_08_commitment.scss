@@ -1,28 +1,34 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .aboutCommitment {
-    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    @include mi.marginPercent(1920, 81, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 100, auto, 0, auto);
+        margin-top: 17.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
 .aboutCommitmentWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
-.titleAboutCommitment {
-}
+
+.titleAboutCommitment {}
+
 .h2AboutCommitment {
     @include mi.fontSizePc(40);
     @include mi.lineheightP(160);
-    @include mi.letterSpacing(40);
+    @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(36);
@@ -30,68 +36,99 @@ LAYOUT
         @include mi.letterSpacing(100);
     }
 }
+
 .rubyAboutCommitment {
-    @include mi.marginPercent(398, 20, auto, 0, auto);
+    @include mi.marginPercent(398, -6, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -8.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
     }
 }
+
 .aboutCommitmentFx {
-    @include mi.marginPercent(1300, 70, auto, 0, auto);
+    @include mi.marginPercent(1300, 65, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 8.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
 .photoAboutCommitmentFx {
     @include mi.ontenerWidth(1300, 800);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
     }
 }
+
 .secAboutCommitmentFx {
     @include mi.ontenerWidth(1300, 425);
+    @include mi.marginPercent(1300, 97, 0, 0, 0);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
+        @include mi.marginPercent(330, 0, 0, 0, 0);
     }
 }
+
 .h3AboutCommitmentFx {
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 65, auto, 0, auto);
+        margin-top: 16.69%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(20);
     }
 }
+
 .txtAboutCommitmentFx {
-    @include mi.marginPercent(425, 40, auto, 0, auto);
+    @include mi.marginPercent(425, 24, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 5.00%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
     }
 }
+
 .btnAboutCommitmentFxLxn {
-    @include mi.marginPercent(425, 40, auto, 0, 0);
+    @include mi.marginPercent(425, 32, auto, 0, 0);
     @include mi.ontenerWidth(425, 200);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 6.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 200);
     }
 }
+
 .btnAboutCommitmentFx {
     aspect-ratio: 200 / 40;
     @include mi.kadomaru(30px);
@@ -110,20 +147,19 @@ LAYOUT
         @include mi.letterSpacing(20);
     }
 }
+
 .iconBbtnAboutCommitmentFxs {
-    @include mi.ontenerWidth(200, 163);
+    @include mi.ontenerWidth(200, 176);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-        center;
-    background-size: auto 20%;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 16%;
     display: block;
     text-align: center;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(200, 163);
+        width: 89.49%;
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-            center;
-        background-size: auto 20%;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background-size: auto 16%;
     }
 }

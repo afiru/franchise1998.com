@@ -1,18 +1,19 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .brandStory02 {
-    @include mi.marginPercent(1920, 175, auto, 0, auto);
+    @include mi.marginPercent(1920, 169, auto, 0, auto);
     display: flex;
     flex-flow: row wrap;
 }
+
 .picBrandStory02 {
-    @include mi.ontenerWVw(1920, 930);
+    width: 48.00vw;
     position: absolute;
     left: 0;
     top: 0;
@@ -20,7 +21,11 @@ LAYOUT
     @include mi.mq(sp) {
         position: relative;
         width: 100%;
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 5.49%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 88%;
         left: unset;
         top: unset;
         order: 3;
@@ -30,24 +35,29 @@ LAYOUT
         width: 100%;
     }
 }
+
 .brandStory02Wap {
     @include mi.paddingVw(1920, 0, 0, 297, 0);
 
     @include mi.mq(sp) {
         @include mi.paddingVw(1920, 0, 0, 0, 0);
-
-        @include mi.marginPercent(375, 40, auto, 0, auto);
+        margin-top: 15.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
 .secBrandStory02 {
     @include mi.ontenerWidth(1300, 600);
-    margin: 0 0 0 auto;
+    @include mi.marginPercent(1300, -18, 0, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
         margin: auto;
     }
 }
+
 .h2BrandStory02 {
     @include mi.fontSizePc(26);
     @include mi.lineheightP(210);
@@ -59,13 +69,18 @@ LAYOUT
         @include mi.letterSpacing(20);
     }
 }
+
 .txtBrandStory02 {
-    @include mi.marginPercent(600, 65, auto, 0, auto);
+    @include mi.marginPercent(600, 41, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 6.70%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);

@@ -3,7 +3,7 @@
         <div class="d_flex j_between row consulTingRoomLxn">
             <div class="d_flex j_center cntConsulTingRoom">
                 <section class="secCntConsulTingRoom">
-                    <h2 class="cl_421D12 fw_500 txtset h2CntConsulTingRoom">CONSULTING ROOM</h2>
+                    <h2 class="cl_421D12 fw_500 txtset CormorantUnicase h2CntConsulTingRoom">CONSULTING ROOM</h2>
                     <p class="cl_453C3C fw_400 txtset rubyCntConsulTingRoom">コンサルティングルーム</p>
                     <h3 class="cl_453C3C fw_500 txtset h3CntConsulTingRoom">贈りものをもっと特別なものに。</h3>
 

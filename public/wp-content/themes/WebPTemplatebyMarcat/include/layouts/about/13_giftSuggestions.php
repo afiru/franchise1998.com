@@ -13,7 +13,7 @@ $args = [
     <div class="bg_F1ECE8 giftSuggestions">
         <div class="wapper giftSuggestionsWap">
             <section class="titleGiftSuggestions">
-                <h2 class="t_center cl_421D12 txtset h2TitleGiftSuggestions">GIFT SUGGESTIONS</h2>
+                <h2 class="t_center cl_421D12 txtset CormorantUnicase h2TitleGiftSuggestions">GIFT SUGGESTIONS</h2>
                 <p class="t_center cl_453C3C txtset rubyTitleGiftSuggestions">お祝いや季節のギフトについて、フランシーズからのご提案。</p>
             </section>
 
