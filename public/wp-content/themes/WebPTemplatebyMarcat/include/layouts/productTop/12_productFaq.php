@@ -20,7 +20,8 @@
                         </div>
                         <div class="mainCntLiProducetFaqLxn jsmainCntLiSbShoppingguideAllPostsLxn">
                             <div class="mainCntLiProducetFaq">
-                                <?php get_post_content_by_id($val); ?>
+                                <?php echo get_post_content_by_id($val); ?>
+
                             </div>
                         </div>
                     </div>
