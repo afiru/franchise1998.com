@@ -10,7 +10,7 @@
                     <div class="cntLiProducetFaq">
                         <div class="d_flex j_between c_pointer titleCntLiProducetFaq  off jstitleCntLiSbShoppingguideAllPosts">
                             <h3 class="cl_453C3C kaku fw_500 txtset h3ProducetFaq">
-                                <?php echo get_the_title($val); ?>
+                                Q.<?php echo get_the_title($val); ?>
                             </h3>
                             <figure class="iconProducetFaq">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="8" viewBox="0 0 13 8" fill="none">

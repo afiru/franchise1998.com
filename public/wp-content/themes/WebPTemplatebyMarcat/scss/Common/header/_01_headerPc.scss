@@ -9,6 +9,16 @@ LAYOUT
 .wap {
     overflow: clip;
 }
+.baseHeader {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+}
+.baseHeader.active {
+    background: rgba(255, 255, 255, 0.1);
+}
 
 .brdHeaderPc {
     height: 4px;
@@ -17,7 +27,6 @@ LAYOUT
 
 .headerPcFx {
     @include mi.paddingPercent(1920, 14, 0, 17, 0);
-    background: rgba(255, 255, 255, 0.1);
 }
 
 .btnHeaderPc {

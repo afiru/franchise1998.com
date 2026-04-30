@@ -13,13 +13,13 @@
                 </p>
                 <ul class="d_flex footerSns">
                     <li class="liFooterSns">
-                        <a class="btnFooterSns" href="" target="_blank">
+                        <a class="btnFooterSns" href="https://www.instagram.com/franchise.sakai/?hl=ja" target="_blank">
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnFooterSns01.svg'); ?>" alt="<?php echo esc_attr('インスタグラム'); ?>" width="40" height="40">
                         </a>
                     </li>
 
                     <li class="liFooterSns">
-                        <a class="btnFooterSns" href="" target="_blank">
+                        <a class="btnFooterSns" href="https://www.facebook.com/franchise.sakai/?locale=ja_JP" target="_blank">
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnFooterSns02.svg'); ?>" alt="<?php echo esc_attr('ファイスブック'); ?>" width="40" height="40">
                         </a>
                     </li>
@@ -70,7 +70,7 @@
 
                         <ul class="ulNavFooterTop ulNavFooterTop03">
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/printedsweet/'); ?>">オリジナルプリントスイーツ</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/printedsweets/'); ?>">オリジナルプリントスイーツ</a>
                             </li>
                             <li class="liNavFooterTop">
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/tamaran/'); ?>">たま卵チーズ</a>
@@ -126,13 +126,13 @@
             <h2 class="cl_fff fw_500 CormorantUnicase txtset h2OnlineInfoFooter">ONLINE SHOP</h2>
             <ul class="d_flex j_between ulOnleinInfoFooter">
                 <li class="liOnleinInfoFooter">
-                    <a class="btnOnleinInfoFooter" href="" target="_blank">
+                    <a class="btnOnleinInfoFooter" href="https://selvice-lifedesign.jp/" target="_blank">
                         <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnOnleinInfoFooter01.png'); ?>" alt="<?php echo esc_attr('lifeDesign'); ?>" width="180" height="47">
                     </a>
                 </li>
 
                 <li class="liOnleinInfoFooter">
-                    <a class="btnOnleinInfoFooter" href="" target="_blank">
+                    <a class="btnOnleinInfoFooter" href="https://www.rakuten.co.jp/selvice/" target="_blank">
                         <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnOnleinInfoFooter02.png'); ?>" alt="<?php echo esc_attr('RlifeDesign'); ?>" width="180" height="47">
                     </a>
                 </li>

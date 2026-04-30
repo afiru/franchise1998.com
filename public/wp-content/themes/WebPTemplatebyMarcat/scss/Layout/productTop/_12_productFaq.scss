@@ -8,11 +8,11 @@ LAYOUT
 ========================================================================== */
 .producetFaq {
     @include mi.marginPercent(1920, 175, auto, 0, auto);
-    @include mi.paddingPercent(1920, 105, 0, 86, 0);
+    @include mi.paddingPercent(1920, 95, 0, 86, 0);
     border-radius: 0 5.208333333333333vw 0 0;
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 80, auto, 0, auto);
-        @include mi.paddingPercent(375, 80, 0, 70, 0);
+        padding: 19.33% 0% 18.66% 0%;
         border-radius: 0 26.666666666666668vw 0 0;
     }
 }
@@ -38,9 +38,13 @@ LAYOUT
 }
 .sbProducetFaq {
     @include mi.ontenerWidth(900, 900);
-    @include mi.marginPercent(900, 47, auto, 0, auto);
+    @include mi.marginPercent(900, 40, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 307);
+        width: 100%;
+        margin-top: 6.44%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liProducetFaq {
@@ -53,17 +57,17 @@ LAYOUT
 }
 .cntLiProducetFaq {
     @include mi.ontenerWidth(900, 843);
-    @include mi.marginPercent(900, 0, 40, 0, 30);
+    @include mi.marginPercent(900, 0, auto, 0, 24);
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 307);
         @include mi.marginPercent(330, 0, 11, 0, 12);
     }
 }
 .titleCntLiProducetFaq {
-    @include mi.paddingPercent(843, 27, 0, 26, 0);
+    @include mi.paddingPercent(843, 19, 0, 20, 0);
     cursor: pointer;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(307, 22, 0, 22, 0);
+        padding: 5.16% 0;
     }
 }
 .h3ProducetFaq {
@@ -158,5 +162,6 @@ LAYOUT
     text-align: center;
     @include mi.mq(sp) {
         @include mi.ontenerWidth(193, 163);
+        background-size: auto 12%;
     }
 }

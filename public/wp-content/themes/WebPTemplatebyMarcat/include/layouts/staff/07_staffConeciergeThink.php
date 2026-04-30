@@ -19,10 +19,10 @@
                 </figure>
                 <section class="secCntCntStaffConeciergeThink">
                     <h2 class="cl_453C3C fw_500 txtset h2CntStaffConeciergeThink">
-                        お客様のギフトにこめた“想い”を大切に、<br>心をこめてサポートいたします。
+                        お客様のギフトにこめた“想い”を大切に、<br class="pc_only">心をこめてサポートいたします。
                     </h2>
                     <p class="cl_453C3C fw_500 txtset txtCntStaffConeciergeThink">
-                        ゆったりとしたコンサルティングルームで、ご用途・ご予算・お相手の好みを丁寧にヒアリング。<br>日持ちや季節感、ラッピングの細部にまでこだわり、“贈られた方が最高の笑顔を見せてくれる”——そんなギフトをご提案いたします。どんな些細なことでも構いません。どうぞお気軽にお声がけください。
+                        ゆったりとしたコンサルティングルームで、ご用途・ご予算・お相手の好みを丁寧にヒアリング。<br class="pc_only">日持ちや季節感、ラッピングの細部にまでこだわり、“贈られた方が最高の笑顔を見せてくれる”——そんなギフトをご提案いたします。どんな些細なことでも構いません。どうぞお気軽にお声がけください。
                     </p>
                     <figure class="txtPicStaffConeciergeThink">
                         <picture>

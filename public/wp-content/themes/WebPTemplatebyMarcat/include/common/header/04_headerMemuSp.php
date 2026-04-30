@@ -26,7 +26,7 @@
                 </li>
 
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/product/'); ?>">商品一覧</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/products/'); ?>">商品一覧</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
                     <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/topics/'); ?>">トピックス</a>
@@ -42,7 +42,7 @@
                     <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/member/'); ?>">メイプルタウン会員特典</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/suggestio/'); ?>">お祝い・ギフトのご提案</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/suggestion/'); ?>">お祝い・ギフトのご提案</a>
                 </li>
             </ul>
 
@@ -50,7 +50,7 @@
 
             <ul class="d_flex j_between row ulHeaderFixedBxSp ulHeaderFixedBxSp02">
                 <li class=" liHeaderFixedBxSp02">
-                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/printedsweet/'); ?>">オリジナルプリントスイーツ</a>
+                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/printedsweets/'); ?>">オリジナルプリントスイーツ</a>
                 </li>
                 <li class=" liHeaderFixedBxSp02">
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/tamaran/'); ?>">たま卵チーズ</a>

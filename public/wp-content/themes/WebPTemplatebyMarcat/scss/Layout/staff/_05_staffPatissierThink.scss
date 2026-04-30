@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -10,13 +10,15 @@ LAYOUT
     @include mi.paddingPercent(1920, 100, 0, 150, 0);
 
     @include mi.mq(sp) {
-        padding: 20.66% 0% 21.33% 0%;
+        padding: 20.66% 0% 25.33% 0%;
     }
 }
 
-.staffPatissierThinkWap {}
+.staffPatissierThinkWap {
+}
 
-.staffPatissierThinkFx {}
+.staffPatissierThinkFx {
+}
 
 .photoStaffPatissierThink {
     @include mi.ontenerWidth(1300, 495);
@@ -33,7 +35,7 @@ LAYOUT
     @include mi.ontenerWidth(1300, 680);
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 330);
+        width: 89%;
         @include mi.marginPercent(375, 52, auto, 0, auto);
     }
 }
@@ -42,7 +44,7 @@ LAYOUT
     @include mi.ontenerWidth(633, 11.35);
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 9.72);
+        width: 3.2%;
     }
 }
 
@@ -75,7 +77,7 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        margin: 6% 0% 0% 0%;
+        margin: 4% 0% 0% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -88,9 +90,9 @@ LAYOUT
     transform: translateX(-22%);
 
     @include mi.mq(sp) {
-        margin: 14.33% 0% 0% 0%;
+        margin: 15.33% 0% 0% 0%;
         @include mi.ontenerWidth(300, 113);
-        transform: translateX(-13%);
+        transform: translateX(-11%);
     }
 }
 
@@ -128,7 +130,10 @@ LAYOUT
         @include mi.marginPercent(633, 24, auto, 0, auto);
 
         @include mi.mq(sp) {
-            @include mi.marginPercent(300, 40, auto, 0, auto);
+            margin-top: 12.33%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -146,7 +151,10 @@ LAYOUT
     margin: 2.8% 0 0 0;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 20, auto, 0, auto);
+        margin-top: 2.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
@@ -170,7 +178,10 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 20, auto, 0, auto);
+        margin-top: 2.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);

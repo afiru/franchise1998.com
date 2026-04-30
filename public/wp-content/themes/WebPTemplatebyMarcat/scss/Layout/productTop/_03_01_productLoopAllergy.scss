@@ -8,10 +8,13 @@ LAYOUT
 ========================================================================== */
 .dekoAllergy {
     @include mi.marginPercent(1036, 50, auto, 0, auto);
-    @include mi.paddingPercent(1036, 30, 0, 35, 0);
+    @include mi.paddingPercent(1036, 20, 0, 29, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
-        @include mi.paddingPercent(330, 25, 0, 20, 0);
+        margin-top: 5.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5.57% 0% 3.06% 0%;
     }
 }
 .secDekoAllergy {
@@ -34,12 +37,15 @@ LAYOUT
     }
 }
 .txtDekoAllergy {
-    @include mi.marginPercent(986, 25, auto, 0, auto);
+    @include mi.marginPercent(986, 12, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 20, auto, 0, auto);
+        margin-top: 3.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);

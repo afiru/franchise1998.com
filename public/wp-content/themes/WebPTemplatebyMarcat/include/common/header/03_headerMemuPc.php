@@ -53,7 +53,7 @@
                             <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/member/'); ?>">メイプルタウン会員特典</a>
                         </li>
                         <li class="liNavHeaderMenuPcBx">
-                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/suggestio/'); ?>">お祝い・ギフトのご提案</a>
+                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/suggestion/'); ?>">お祝い・ギフトのご提案</a>
                         </li>
                     </ul>
                 </nav>
@@ -63,7 +63,7 @@
 
             <ul class="d_flex j_flex row ulNavHeaderPc02">
                 <li class="liNavHeaderPcmenu">
-                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/printedsweet/'); ?>">-オリジナルプリントスイーツ</a>
+                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/printedsweets/'); ?>">-オリジナルプリントスイーツ</a>
                 </li>
                 <li class="liNavHeaderPcmenu">
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/tamaran/'); ?>">-たま卵チーズ</a>

@@ -7,9 +7,12 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .prodoctLoop {
-    @include mi.marginPercent(1920, 145, auto, 0, auto);
+    @include mi.marginPercent(1920, 117, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 80, auto, 0, auto);
+        margin-top: 18.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .prodoctLoopWap {

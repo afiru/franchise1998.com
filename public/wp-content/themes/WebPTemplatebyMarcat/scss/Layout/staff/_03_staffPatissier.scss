@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -23,10 +23,12 @@ LAYOUT
 }
 
 .staffPatissierWap {
-    @include mi.mq(sp) {}
+    @include mi.mq(sp) {
+    }
 }
 
-.staffPatissierFx {}
+.staffPatissierFx {
+}
 
 //左
 .leftPhotoStaffPatissier {
@@ -65,13 +67,13 @@ LAYOUT
     @include mi.marginPercent(352, 9, auto, 0, auto);
     @include mi.fontSizePc(40);
     @include mi.lineheightP(160);
-    @include mi.letterSpacing(0);
+    @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
         margin-top: -1%;
         @include mi.fontSizeSp(32);
         @include mi.lineheightP(150);
-        @include mi.letterSpacing(10);
+        @include mi.letterSpacing(100);
     }
 }
 

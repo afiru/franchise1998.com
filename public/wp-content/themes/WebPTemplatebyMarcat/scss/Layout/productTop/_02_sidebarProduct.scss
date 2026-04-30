@@ -8,6 +8,7 @@ LAYOUT
 ========================================================================== */
 .sidebarProdoctLoop {
     @include mi.ontenerWidth(1300, 222);
+    margin: 1.4% 0 0 0;
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 375);
     }
@@ -16,7 +17,7 @@ LAYOUT
     @include mi.paddingPercent(222, 35, 0, 35, 0);
     border-radius: 0 20px 0 0;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 30, 0, 30, 0);
+        padding: 7% 0% 7% 0%;
         border-radius: 0 20px 0 0;
     }
 }
@@ -33,7 +34,7 @@ LAYOUT
     @include mi.paddingPercent(222, 0, 0, 6, 0);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 0, 0, 10, 0);
+        padding: 0% 0% 1.03% 0%;
     }
 }
 .h2TitleNavSidebarProduct {
@@ -90,17 +91,26 @@ LAYOUT
     display: none;
     border-top: 1px solid #b89898;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 20, 0, 0, 0);
+        padding: 5.06% 0% 0% 0%;
     }
 }
 .ulNavSidebarProduct {
+    flex-flow: row wrap;
 }
 .liNavSidebarProduct {
     width: 100%;
+    @include mi.mq(sp) {
+        width: 50%;
+    }
     &:nth-child(n + 2) {
         @include mi.marginPercent(180, 14, auto, 0, auto);
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 18, auto, 0, auto);
+            @include mi.marginPercent(330, 0, 0, 0, 0);
+        }
+    }
+    &:nth-child(n + 3) {
+        @include mi.mq(sp) {
+            margin: 5% 0% 0% 0%;
         }
     }
 }
@@ -119,6 +129,9 @@ LAYOUT
 .navSidebarProduct02 {
     @include mi.marginPercent(180, 32, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 56, auto, 0, auto);
+        margin-top: 14.96%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

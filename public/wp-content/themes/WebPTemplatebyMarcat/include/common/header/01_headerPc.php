@@ -14,7 +14,7 @@
                 </a>
             </li>
             <li class="liNavHeaderPc">
-                <a class="d_flex j_center ali_center CormorantUnicase bg_fff undernone cl_421D12 fw_400 btnNavHeaderPc" href="<?php echo home_url('/'); ?>">
+                <a class="d_flex j_center ali_center CormorantUnicase bg_fff undernone cl_421D12 fw_400 btnNavHeaderPc" href="https://selvice-lifedesign.jp/" target="_blank">
                     <span class=" bgBtnHeaderPc02"><?php echo esc_html('ONLINE SHOP'); ?></span>
                     <!--bg:../img/bgBtnHeaderPc02.svg-->
                 </a>

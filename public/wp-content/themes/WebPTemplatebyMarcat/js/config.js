@@ -15,6 +15,47 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Lenis is not loaded yet!');
     }
 });
+//スムーススクロール
+$(window).on('load', function () {
+    let urlHash = location.hash;
+    if (urlHash) {
+        $('body,html').stop().scrollTop(0);
+        var target = $(urlHash);
+        var position = target.offset().top;
+        $('body,html').stop().animate({
+            scrollTop: position
+        }, 500);
+    }
+    $('a[href^="#"]').click(function () {
+        var href = $(this).attr("href");
+        var target = $(href);
+        var position = target.offset().top;
+        $('body,html').stop().animate({
+            scrollTop: position
+        }, 500);
+    });
+});
+
+$(window).scroll(function () {
+    let trigger;
+
+    if ($(window).width() <= 375) {
+        // SP
+        trigger = $(window).width() * 2.0107; // 201.07vw
+    } else {
+        // PC
+        trigger = $(window).width() * 0.4984; // 49.84vw
+    }
+
+    if ($(this).scrollTop() >= trigger) {
+        $('.baseHeader').addClass('active');
+        $('.spFixedMenu').addClass('active');
+    } else {
+        $('.baseHeader').removeClass('active');
+        $('.spFixedMenu').removeClass('active');
+    }
+});
+
 
 
 window.addEventListener('load', function () {

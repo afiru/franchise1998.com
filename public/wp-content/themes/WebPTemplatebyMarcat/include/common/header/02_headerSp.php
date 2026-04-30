@@ -13,7 +13,7 @@
                 </a>
             </li>
             <li class="liNavHeaderSp">
-                <a class="d_flex j_center ali_center CormorantUnicase bg_fff undernone cl_421D12 fw_400 btnNavHeaderSp">
+                <a class="d_flex j_center ali_center CormorantUnicase bg_fff undernone cl_421D12 fw_400 btnNavHeaderSp" href="https://selvice-lifedesign.jp/" target="_blank">
                     <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/BtnHeaderSp02.svg'); ?>" alt="<?php echo esc_attr('ONLINE SHOP'); ?>" width="65" height="30">
                 </a>
             </li>

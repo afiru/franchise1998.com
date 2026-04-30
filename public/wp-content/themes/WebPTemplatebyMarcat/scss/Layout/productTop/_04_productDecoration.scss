@@ -8,12 +8,12 @@ LAYOUT
 ========================================================================== */
 .prductLoopUnder {
     @include mi.marginPercent(1920, 70, auto, 0, auto);
-    @include mi.paddingPercent(1920, 70, 0, 0, 0);
+    @include mi.paddingPercent(1920, 52, 0, 0, 0);
     position: relative;
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 80, auto, 0, auto);
         @include mi.ontenerWidth(375, 375);
-        @include mi.paddingPercent(375, 50, 0, 0, 0);
+        padding: 12.33% 0% 0% 0%;
     }
 }
 .brdLongPrductLoopUnder {

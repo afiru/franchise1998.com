@@ -36,6 +36,10 @@ LAYOUT
     z-index: 10;
     right: 0;
     bottom: 0;
+    transform: scaleY(0);
+}
+.spFixedMenu.active {
+    transform: scaleY(1);
 }
 
 .ulSpFixedMenu {
