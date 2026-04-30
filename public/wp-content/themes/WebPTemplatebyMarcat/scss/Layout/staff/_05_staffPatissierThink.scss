@@ -10,7 +10,7 @@ LAYOUT
     @include mi.paddingPercent(1920, 100, 0, 150, 0);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 70, 0, 80, 0);
+        padding: 20.66% 0% 21.33% 0%;
     }
 }
 
@@ -23,7 +23,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 300);
-        margin: 0 0 0 auto;
+        margin: 0 0 0 0;
     }
 }
 
@@ -75,7 +75,7 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 30, 0, 0, 0);
+        margin: 6% 0% 0% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -88,8 +88,9 @@ LAYOUT
     transform: translateX(-22%);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 52, 0, 0, 0);
+        margin: 14.33% 0% 0% 0%;
         @include mi.ontenerWidth(300, 113);
+        transform: translateX(-13%);
     }
 }
 
@@ -98,7 +99,7 @@ LAYOUT
     @include mi.ontenerWidth(633, 633);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 9, 0, 0, 0);
+        margin: 1% 0% 0% 0%;
     }
 }
 
@@ -118,7 +119,7 @@ LAYOUT
     @include mi.marginPercent(633, 10, 0, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 14, 0, 0, 0);
+        margin: 3.66% 0% 0% 0%;
     }
 }
 
