@@ -513,25 +513,17 @@ function get_child_category_id($parent_id = 15, $post_id = null)
 
     if (!$categories) return 0;
 
+    $getcatid;
     foreach ($categories as $cat) {
-
-        // 直下カテゴリならそのIDを返す
-        if ((int)$cat->parent === (int)$parent_id) {
-            return (int)$cat->term_id;
-        }
-
-        // 親をたどる
-        $current = $cat;
-
-        while ($current->parent) {
-
-            if ((int)$current->parent === (int)$parent_id) {
-                return (int)$current->term_id;
-            }
-
-            $current = get_category($current->parent);
+        if($cat->parent == $parent_id) {
+            $getcatid[]= (int)$cat->cat_ID;
         }
     }
-
+    if(!empty($getcatid[0])) {
+    return $getcatid[0];
+    }
+    else {
     return 0;
+    }
+
 }

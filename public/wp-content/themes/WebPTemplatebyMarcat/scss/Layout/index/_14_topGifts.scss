@@ -1,13 +1,13 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .topGifts {
-    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.marginPercent(1920, 53, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 100, auto, 0, auto);
@@ -21,7 +21,8 @@ LAYOUT
     }
 }
 
-.titleTopGifts {}
+.titleTopGifts {
+}
 
 .h2TitleTopGifts {
     @include mi.fontSizePc(32);
@@ -50,7 +51,7 @@ LAYOUT
 }
 
 .ulTopGifts {
-    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.marginPercent(1300, 24, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 30, 0, 0, 0);
@@ -64,14 +65,14 @@ LAYOUT
         @include mi.ontenerWidth(330, 330);
     }
 
-    &:nth-child(n+2) {
+    &:nth-child(n + 2) {
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 18, 0, 0, 0);
         }
     }
 
-    &:nth-child(n+3) {
-        @include mi.marginPercent(1300, 30, 0, 0, 0);
+    &:nth-child(n + 3) {
+        @include mi.marginPercent(1300, 26, 0, 0, 0);
 
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 18, 0, 0, 0);
@@ -79,7 +80,8 @@ LAYOUT
     }
 }
 
-.btnLiTopGifts {}
+.btnLiTopGifts {
+}
 
 .picBtnLiTopGifts {
     @include mi.ontenerWidth(620, 134);
@@ -110,7 +112,7 @@ LAYOUT
 }
 
 .txtBtnLiTopGifts {
-    @include mi.marginPercent(467, 14, auto, 0, auto);
+    @include mi.marginPercent(467, 4, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
@@ -120,12 +122,11 @@ LAYOUT
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(130);
         @include mi.letterSpacing(0);
-
     }
 }
 
 .btnCntTopGiftsLxn {
-    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.marginPercent(1300, 24, auto, 0, auto);
     @include mi.ontenerWidth(1300, 193);
 
     @include mi.mq(sp) {
@@ -137,7 +138,7 @@ LAYOUT
 .btnCntTopGifts {
     aspect-ratio: 193 / 39;
     @include mi.kadomaru(30px);
-    border: 1px solid #F04E11;
+    border: 1px solid #f04e11;
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
@@ -146,7 +147,7 @@ LAYOUT
     @include mi.mq(sp) {
         aspect-ratio: 193 / 39;
         @include mi.kadomaru(30px);
-        border: 1px solid #F04E11;
+        border: 1px solid #f04e11;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
@@ -156,15 +157,17 @@ LAYOUT
 .iconBbtnCntTopGiftss {
     @include mi.ontenerWidth(193, 163);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
-    background-size: auto 20%;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+        center;
+    background-size: auto 14%;
     display: block;
     text-align: center;
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(193, 163);
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+            center;
         background-size: auto 20%;
     }
 }

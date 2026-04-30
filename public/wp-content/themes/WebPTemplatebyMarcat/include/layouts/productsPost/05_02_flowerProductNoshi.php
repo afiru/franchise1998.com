@@ -1,5 +1,5 @@
 <div class="yakigashiProductNoshi">
-    <div class="wapper yakigashiProductNoshiWap">
+    <div class=" yakigashiProductNoshiWap">
         <div class="yakigashiProductNoshiLxn">
             <div class="c_pointer btnYakigashiProductNoshi jsbtnYakigashiProductNoshi off">
                 <div class="d_flex j_center ali_center btnYakigashiProductNoshiFx">

@@ -6,3 +6,87 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.mainProductPost {
+    @include mi.marginPercent(1920, 28, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 21, auto, 0, auto);
+    }
+}
+.productPostMain {
+}
+.productPostMainWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.productPostMainFx {
+    flex-flow: row wrap;
+}
+.sidebarProductPost {
+    @include mi.ontenerWidth(1300, 607);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+    }
+}
+
+//
+.singleProductSlider {
+    position: relative;
+}
+.singleProductSlider .swiper-slide {
+    @include mi.kadomaru(6px);
+    overflow: hidden;
+    img {
+        aspect-ratio: 1/1;
+        width: 100%;
+        margin: auto;
+    }
+}
+.iconNewPrductPostDefo {
+    @include mi.ontenerWidth(607, 47);
+    aspect-ratio: 47/22;
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    @include mi.kadomaru(10px);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 46);
+        aspect-ratio: 46/20;
+    }
+}
+//サムネイル
+.singleProductSliderThumbs {
+    @include mi.marginPercent(607, 18, auto, 0, auto);
+    @include mi.ontenerWidth(607, 607);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 10, auto, 0, auto);
+    }
+}
+.singleProductSliderThumbs .swiper-wrapper {
+    gap: 0.9375vw;
+    flex-flow: row wrap;
+    @include mi.mq(sp) {
+        gap: 2.6667vw;
+    }
+}
+.singleProductSliderThumbs .swiper-slide {
+    @include mi.ontenerWidth(607, 138);
+    cursor: pointer;
+    @include mi.kadomaru(6px);
+    overflow: hidden;
+    opacity: 1;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 75);
+    }
+    img {
+        aspect-ratio: 1/1;
+        width: 100%;
+        margin: auto;
+    }
+}
+.singleProductSliderThumbs .swiper-slide-thumb-active {
+    opacity: 0.6;
+}

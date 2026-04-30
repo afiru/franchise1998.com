@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -18,7 +18,7 @@ LAYOUT
 
 .topCollectionWap {
     position: relative;
-    @include mi.paddingPercent(1920, 79, 0, 0, 0);
+    @include mi.paddingPercent(1920, 82, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
@@ -47,11 +47,12 @@ LAYOUT
     }
 }
 
-.titleTopCollection {}
+.titleTopCollection {
+}
 
 .h2TitleTopCollection {
     @include mi.fontSizePc(40);
-    @include mi.lineheightP(160);
+    @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
@@ -62,7 +63,7 @@ LAYOUT
 }
 
 .rubyTitleTopCollection {
-    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.marginPercent(1300, 0, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
@@ -76,7 +77,7 @@ LAYOUT
 }
 
 .ulTitleTopCollection {
-    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.marginPercent(1300, 34, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 30, auto, 0, auto);
@@ -89,14 +90,14 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
 
-        &:nth-child(n+2) {
+        &:nth-child(n + 2) {
             @include mi.marginPercent(330, 60, auto, 0, auto);
         }
     }
 }
 
 .txtTopCollection {
-    @include mi.marginPercent(400, 30, auto, 0, auto);
+    @include mi.marginPercent(400, 22, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
@@ -110,8 +111,8 @@ LAYOUT
 }
 
 .btnCntTopCollectionLxn {
-    @include mi.marginPercent(1300, 62, auto, 0, auto);
-    @include mi.ontenerWidth(1300, 193);
+    @include mi.marginPercent(1300, 34, auto, 0, auto);
+    @include mi.ontenerWidth(1300, 200);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 30, auto, 0, auto);
@@ -120,9 +121,9 @@ LAYOUT
 }
 
 .btnCntTopCollection {
-    aspect-ratio: 193 / 39;
+    aspect-ratio: 200 / 40;
     @include mi.kadomaru(30px);
-    border: 1px solid #F04E11;
+    border: 1px solid #f04e11;
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
@@ -131,7 +132,7 @@ LAYOUT
     @include mi.mq(sp) {
         aspect-ratio: 193 / 39;
         @include mi.kadomaru(30px);
-        border: 1px solid #F04E11;
+        border: 1px solid #f04e11;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
@@ -139,9 +140,10 @@ LAYOUT
 }
 
 .iconBbtnCntTopCollections {
-    @include mi.ontenerWidth(193, 163);
+    @include mi.ontenerWidth(200, 180);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+        center;
     background-size: auto 20%;
     display: block;
     text-align: center;
@@ -149,7 +151,8 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(193, 163);
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+            center;
         background-size: auto 20%;
     }
 }

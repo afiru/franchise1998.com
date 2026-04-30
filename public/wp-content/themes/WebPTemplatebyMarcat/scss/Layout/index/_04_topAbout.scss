@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -9,7 +9,7 @@ LAYOUT
 .topAbout {
     position: relative;
     overflow: hidden;
-    @include mi.marginPercent(1920, 225, auto, 0, auto);
+    @include mi.marginPercent(1920, 206, auto, 0, auto);
 }
 
 .cntTopAbout {
@@ -34,7 +34,7 @@ LAYOUT
 
 .h2CntTopAbout {
     @include mi.fontSizePc(40);
-    @include mi.lineheightP(160);
+    @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
@@ -47,7 +47,7 @@ LAYOUT
 .rubyCntTopAbout {
     @include mi.marginPercent(398, 0, auto, 0, auto);
     @include mi.fontSizePc(16);
-    @include mi.lineheightP(160);
+    @include mi.lineheightP(130);
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
@@ -59,7 +59,7 @@ LAYOUT
 }
 
 .h3CntTopAbout {
-    @include mi.marginPercent(398, 90, auto, 0, auto);
+    @include mi.marginPercent(398, 66, auto, 0, auto);
     @include mi.fontSizePc(26);
     @include mi.lineheightP(210);
     @include mi.letterSpacing(20);
@@ -73,7 +73,7 @@ LAYOUT
 }
 
 .txtCntTopAbout {
-    @include mi.marginPercent(398, 60, auto, 0, auto);
+    @include mi.marginPercent(398, 35, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
@@ -87,8 +87,8 @@ LAYOUT
 }
 
 .btnCntTopAboutLxn {
-    @include mi.marginPercent(398, 40, 0, 0, 0);
-    @include mi.ontenerWidth(398, 193);
+    @include mi.marginPercent(398, 34, 0, 0, 0);
+    @include mi.ontenerWidth(398, 200);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 48, auto, 0, auto);
@@ -97,9 +97,9 @@ LAYOUT
 }
 
 .btnCntTopAbout {
-    aspect-ratio: 193 / 39;
+    aspect-ratio: 200 / 40;
     @include mi.kadomaru(30px);
-    border: 1px solid #F04E11;
+    border: 1px solid #f04e11;
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
@@ -108,7 +108,7 @@ LAYOUT
     @include mi.mq(sp) {
         aspect-ratio: 193 / 39;
         @include mi.kadomaru(30px);
-        border: 1px solid #F04E11;
+        border: 1px solid #f04e11;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
@@ -116,9 +116,10 @@ LAYOUT
 }
 
 .iconBbtnCntTopAbouts {
-    @include mi.ontenerWidth(193, 163);
+    @include mi.ontenerWidth(200, 184);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+        center;
     background-size: auto 20%;
     display: block;
     text-align: center;
@@ -126,7 +127,8 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(193, 163);
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+            center;
         background-size: auto 20%;
     }
 }
@@ -135,7 +137,7 @@ LAYOUT
     @include mi.ontenerWVw(1920, 1142);
     position: absolute;
     right: 0;
-    top: 0;
+    top: -2%;
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 40, auto, 0, auto);

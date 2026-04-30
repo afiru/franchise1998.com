@@ -11,7 +11,7 @@ $args = [
 <div class="topPicUpOut">
     <div class="wapper topPicUpWap">
         <section class="secTopPickUp">
-            <h2 class="cl_421D12 fw_500 txtset h2TopPickUp">PICK UP</h2>
+            <h2 class="cl_421D12 CormorantUnicase fw_500 txtset h2TopPickUp">PICK UP</h2>
 
             <div class="topPicUpLxn">
                 <?php $query1 = new WP_Query($args); ?>

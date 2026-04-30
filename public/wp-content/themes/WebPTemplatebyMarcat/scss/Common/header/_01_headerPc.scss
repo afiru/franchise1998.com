@@ -39,7 +39,7 @@ LAYOUT
 }
 
 .btnNavHeaderPc {
-    @include mi.paddingPercent(155, 0, 0, 0, 17);
+    @include mi.paddingPercent(155, 0, 0, 0, 14);
     @include mi.fontSizePc(14);
     @include mi.letterSpacing(0);
     aspect-ratio: 155/33;

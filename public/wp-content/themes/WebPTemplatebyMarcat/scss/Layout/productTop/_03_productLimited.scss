@@ -72,6 +72,7 @@ LAYOUT
 }
 .btnPrductLoopDefo {
     text-decoration: none;
+    color: #453c3c;
     &:hover {
         opacity: 1;
     }
@@ -95,7 +96,6 @@ LAYOUT
     @include mi.ontenerWidth(238, 40);
     @include mi.kadomaru(10px);
     @include mi.fontSizePc(14);
-    @include mi.lineheightP(1);
     @include mi.letterSpacing(0);
     aspect-ratio: 40/18;
     text-decoration: none;
@@ -163,6 +163,9 @@ LAYOUT
         @include mi.letterSpacing(0);
         aspect-ratio: 58/19;
     }
+}
+.btnProductOther:hover .iconLimitedProductLoop {
+    text-decoration: none;
 }
 
 //

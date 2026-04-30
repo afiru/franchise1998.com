@@ -6,3 +6,113 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.pagerPoductsPager {
+    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+    }
+}
+.pagerPoductsPagerWap {
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+        @include mi.ontenerWidth(375, 330);
+    }
+}
+.pagerMainPoductsPager {
+    @include mi.ontenerWidth(1300, 288);
+    margin: auto;
+    aspect-ratio: 288/44;
+    @include mi.kadomaru(25px);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 288);
+        margin: auto;
+    }
+}
+//前の商品
+.prevPoductsPagerWap {
+    @include mi.ontenerWidth(288, 101);
+    text-decoration: none;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(288, 101);
+    }
+}
+.prevPoductsPager {
+    @include mi.ontenerWidth(101, 89);
+    margin: 0 0 0 auto;
+    text-decoration: none;
+    @include mi.mq(sp) {
+        width: 93%;
+    }
+}
+.iconPoductsPager {
+    @include mi.ontenerWidth(101, 9);
+    @include mi.mq(sp) {
+        width: 16.09%;
+    }
+}
+.txtPoductsPager {
+    @include mi.ontenerWidth(101, 69);
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(99, 66);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+//商品一覧
+.btnPagerPoductsLxn {
+    @include mi.ontenerWidth(288, 90);
+    text-align: center;
+    border-left: 1px solid #f04e11;
+    border-right: 1px solid #f04e11;
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(288, 88);
+    }
+}
+.btnPagerPoducts {
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    text-decoration: none;
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+//次の商品
+.nextPoductsPagerWap {
+    @include mi.ontenerWidth(288, 101);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(288, 101);
+    }
+}
+.nextPoductsPager {
+    text-decoration: none;
+    @include mi.ontenerWidth(101, 89);
+    margin: 0 0 0 auto;
+    @include mi.mq(sp) {
+        width: 93%;
+    }
+}
+.iconPoductsPager {
+    @include mi.ontenerWidth(101, 9);
+    @include mi.mq(sp) {
+        width: 16.09%;
+    }
+}
+.txtPoductsPager {
+    @include mi.ontenerWidth(101, 69);
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(99, 66);
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
