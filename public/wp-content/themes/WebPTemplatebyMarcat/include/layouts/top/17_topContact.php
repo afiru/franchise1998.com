@@ -1,6 +1,6 @@
 <div class="bg_F1ECE8 topContact">
     <div class="wapper topContactWap">
-        <h2 class="t_center cl_31150D fw_500 txtset h2TopContact">CONTACT</h2>
+        <h2 class="t_center cl_31150D fw_500 txtset CormorantUnicase h2TopContact">CONTACT</h2>
         <p class="t_center cl_453C3C fw_500 txtset rubyTopContact">お問い合わせ</p>
 
         <p class="t_center cl_31150D fw_500 txtTopContact">

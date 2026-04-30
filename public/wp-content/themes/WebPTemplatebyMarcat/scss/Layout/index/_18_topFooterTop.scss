@@ -42,7 +42,7 @@ LAYOUT
 }
 
 .h3FooterLogoArea {
-    @include mi.marginPercent(310, 50, 0, 0, 0);
+    @include mi.marginPercent(310, 45, 0, 0, 0);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);
@@ -56,7 +56,7 @@ LAYOUT
 }
 
 .txtFooterLogoArea {
-    @include mi.marginPercent(310, 24, 0, 0, 0);
+    @include mi.marginPercent(310, 16, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheight(14, 26);
     @include mi.letterSpacing(20);
@@ -112,12 +112,12 @@ LAYOUT
 
 .liNavFooterTop {
     &:nth-child(n + 2) {
-        @include mi.marginPercent(218, 32, 0, 0, 0);
+        @include mi.marginPercent(218, 18, 0, 0, 0);
     }
 }
 
 .liNavFooterTop02 {
-    @include mi.marginPercent(218, 32, 0, 0, 0);
+    @include mi.marginPercent(218, 21, 0, 0, 0);
 }
 
 .btnNavFooterTop {
@@ -208,7 +208,7 @@ LAYOUT
 }
 
 .onlineInfoFooter {
-    @include mi.marginPercent(1300, 40, 0, 0, 0);
+    @include mi.marginPercent(1300, 38, 0, 0, 0);
     @include mi.ontenerWidth(1300, 554);
     flex-flow: row wrap;
 

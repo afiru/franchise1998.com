@@ -8,7 +8,7 @@ LAYOUT
 ========================================================================== */
 .topThinks {
     @include mi.marginPercent(1920, 100, auto, 0, auto);
-    @include mi.paddingPercent(1920, 332, 0, 326, 0);
+    @include mi.paddingPercent(1920, 323, 0, 326, 0);
     background: url(../img/index/topThinksPc.png) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
@@ -38,7 +38,7 @@ LAYOUT
 }
 
 .rubyTopThinks {
-    @include mi.marginPercent(1920, 20, auto, 0, auto);
+    @include mi.marginPercent(1920, 12, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(100);

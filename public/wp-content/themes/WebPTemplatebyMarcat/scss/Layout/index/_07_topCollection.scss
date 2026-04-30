@@ -12,7 +12,10 @@ LAYOUT
     width: 100%;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 50, auto, 0, auto);
+        margin-top: 26.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -23,7 +26,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
         margin: auto;
-        @include mi.paddingPercent(375, 50, 0, 0, 0);
+        padding: 15.33% 0% 0% 0%;
     }
 }
 
@@ -57,7 +60,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(36);
-        @include mi.lineheightP(160);
+        @include mi.lineheightP(150);
         @include mi.letterSpacing(100);
     }
 }
@@ -69,7 +72,10 @@ LAYOUT
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 16, auto, 0, auto);
+        margin-top: -2%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
@@ -80,7 +86,10 @@ LAYOUT
     @include mi.marginPercent(1300, 34, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 8.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -91,7 +100,10 @@ LAYOUT
         @include mi.ontenerWidth(330, 330);
 
         &:nth-child(n + 2) {
-            @include mi.marginPercent(330, 60, auto, 0, auto);
+            margin-top: 16%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -103,7 +115,10 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 4.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);

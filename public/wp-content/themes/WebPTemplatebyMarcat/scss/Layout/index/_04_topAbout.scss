@@ -10,6 +10,12 @@ LAYOUT
     position: relative;
     overflow: hidden;
     @include mi.marginPercent(1920, 206, auto, 0, auto);
+    @include mi.mq(sp) {
+        margin-top: 29.72%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .cntTopAbout {
@@ -38,7 +44,7 @@ LAYOUT
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
-        @include mi.fontSizeSp(14);
+        @include mi.fontSizeSp(36);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(50);
     }
@@ -51,7 +57,7 @@ LAYOUT
     @include mi.letterSpacing(50);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 14, auto, 0, auto);
+        @include mi.marginPercent(330, 0, auto, 0, auto);
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
@@ -65,7 +71,10 @@ LAYOUT
     @include mi.letterSpacing(20);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 37, auto, 0, auto);
+        margin-top: 12.2%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(200);
         @include mi.letterSpacing(20);
@@ -79,7 +88,10 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 39, auto, 0, auto);
+        margin-top: 5.81%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -91,8 +103,11 @@ LAYOUT
     @include mi.ontenerWidth(398, 200);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 48, auto, 0, auto);
-        @include mi.ontenerWidth(330, 193);
+        margin-top: 12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60.48%;
     }
 }
 
@@ -125,11 +140,11 @@ LAYOUT
     text-align: center;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(193, 163);
+        width: 90.45%;
         margin: auto;
         background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
             center;
-        background-size: auto 20%;
+        background-size: auto 16%;
     }
 }
 
@@ -140,7 +155,10 @@ LAYOUT
     top: -2%;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 11.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         position: relative;
         width: 100%;
     }

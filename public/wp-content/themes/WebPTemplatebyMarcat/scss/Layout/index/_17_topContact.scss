@@ -1,24 +1,26 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .topContact {
-    @include mi.paddingPercent(1920, 91, 0, 84, 0);
+    @include mi.paddingPercent(1920, 78, 0, 84, 0);
+    @include mi.marginPercent(1920, 125, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.paddingPercent(375, 58, 0, 55, 0);
     }
 }
 
-.topContactWap {}
+.topContactWap {
+}
 
 .h2TopContact {
     @include mi.fontSizePc(42);
-    @include mi.lineheightP(auto);
+    @include mi.lineheightP(130);
     @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
@@ -29,7 +31,7 @@ LAYOUT
 }
 
 .rubyTopContact {
-    @include mi.marginPercent(1300, 16, auto, 0, auto);
+    @include mi.marginPercent(1300, -6, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
@@ -43,7 +45,7 @@ LAYOUT
 }
 
 .txtTopContact {
-    @include mi.marginPercent(1300, 41, auto, 0, auto);
+    @include mi.marginPercent(1300, 29, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
@@ -57,7 +59,7 @@ LAYOUT
 }
 
 .ulTopContact {
-    @include mi.marginPercent(1300, 66, auto, 0, auto);
+    @include mi.marginPercent(1300, 61, auto, 0, auto);
     @include mi.ontenerWidth(1300, 834);
 
     @include mi.mq(sp) {
@@ -72,7 +74,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(260, 260);
 
-        &:nth-child(n+2) {
+        &:nth-child(n + 2) {
             @include mi.marginPercent(260, 20, auto, 0, auto);
         }
     }

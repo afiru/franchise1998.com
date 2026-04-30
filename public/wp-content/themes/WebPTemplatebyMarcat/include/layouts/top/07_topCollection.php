@@ -37,9 +37,9 @@
                 <li class="liTitleTopCollection">
                     <figure class="picTopCollection">
                         <picture>
-                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection02Pc.png'); ?>">
-                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection02Sp.png'); ?>">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection02Pc.png'); ?>" alt="<?php echo esc_attr('ケーキ'); ?>" width="400" height="500">
+                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection03Pc.png'); ?>">
+                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection03Sp.png'); ?>">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/index/picTopCollection03Pc.png'); ?>" alt="<?php echo esc_attr('ケーキ'); ?>" width="400" height="500">
                         </picture>
                     </figure>
                     <p class="cl_453C3C fw_500 txtset text_justify txtTopCollection">
