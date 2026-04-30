@@ -1,41 +1,49 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .mainUnder {
-    @include mi.marginPercent(1920, 150, auto, 0, auto);
+    @include mi.marginPercent(1920, 121, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 50, auto, 0, auto);
     }
 }
-.aboutUnderFv {
-}
+
+.aboutUnderFv {}
+
 .aboutUnderFvWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
-.secAboutUnderFv {
-}
+
+.secAboutUnderFv {}
+
 .h1AboutUnderFv {
     @include mi.fontSizePc(60);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(100);
+    @include mi.marginPercent(1300, 0, 0, 0, -5);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(36);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(100);
     }
 }
+
 .txtAboutUnderFv {
-    @include mi.marginPercent(1300, 30, 0, 0, 0);
+    @include mi.marginPercent(1300, -8, 0, 0, -5);
     @include mi.fontSizePc(24);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
+
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 15, 0, 0, 0);
         @include mi.fontSizeSp(24);
@@ -45,14 +53,16 @@ LAYOUT
 }
 
 .aboutUnderFvLxn {
-    @include mi.marginPercent(1920, 55, auto, 0, auto);
+    @include mi.marginPercent(1920, 47, auto, 0, auto);
     position: relative;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 55, auto, 0, auto);
     }
 }
-.aboutUnderFvLxn {
-}
+
+.aboutUnderFvLxn {}
+
 .txtAboutUnderFvFig {
     position: absolute;
     width: 8px;
@@ -64,9 +74,11 @@ LAYOUT
         @include mi.ontenerWidth(375, 6);
     }
 }
+
 .picAboutUnderFv {
     @include mi.ontenerWVw(1920, 1698);
     margin: 0 0 0 auto;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 333);
     }
@@ -74,10 +86,12 @@ LAYOUT
 
 .breadUnder {
     @include mi.marginPercent(1300, 30, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 15, auto, 0, auto);
     }
 }
+
 .breadUnderWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
@@ -94,12 +108,14 @@ LAYOUT
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 15, auto, 0, auto);
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
+
     a,
     span {
         color: #929292;
