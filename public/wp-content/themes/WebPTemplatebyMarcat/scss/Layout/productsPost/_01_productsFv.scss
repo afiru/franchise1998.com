@@ -7,5 +7,7 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .mainIndex {
-    margin: 12% auto 0 auto;
+    @include mi.mq(sp) {
+        margin: 12% auto 0 auto;
+    }
 }

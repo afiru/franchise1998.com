@@ -904,14 +904,14 @@ LAYOUT
 }
 
 .headerMenuPc {
-  padding-top: 122px;
+  padding-top: 116px;
   padding-bottom: 86px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .headerMenuPc {
-    padding: 6.35% 0% 4.47% 0%;
+    padding: 6.04% 0% 4.47% 0%;
   }
 }
 .headerMenuPc {
@@ -970,14 +970,14 @@ LAYOUT
   }
 }
 .liNavHeaderMenuPcBx:nth-child(n+2) {
-  margin-top: 34px;
+  margin-top: 24px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liNavHeaderMenuPcBx:nth-child(n+2) {
-    margin: 1.77% 0% 0% 0%;
+    margin: 8.27% 0% 0% 0%;
   }
 }
 .btnNavHeaderMenuPcBx {
@@ -993,15 +993,51 @@ LAYOUT
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.liNavHeaderMenuPcBx02 {
+  margin-top: 24px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .liNavHeaderMenuPcBx02 {
+    margin: 8.27% 0% 0% 0%;
+  }
+}
+.liNavHeaderMenuPcBx02:nth-child(n+2) {
+  margin-top: 24px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .liNavHeaderMenuPcBx02:nth-child(n+2) {
+    margin: 8.27% 0% 0% 0%;
+  }
+}
+
+.liNavHeaderMenuPcBx02 .btnNavHeaderMenuPcBx {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .liNavHeaderMenuPcBx02 .btnNavHeaderMenuPcBx {
+    font-size: 1.077752117vw;
+  }
+}
+.liNavHeaderMenuPcBx02 .btnNavHeaderMenuPcBx {
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
 .brdNavHeaderPc {
-  margin-top: 50px;
+  margin-top: 46px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .brdNavHeaderPc {
-    margin-top: 5.68%;
+    margin-top: 5.22%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -1010,16 +1046,27 @@ LAYOUT
 .brdNavHeaderPc {
   height: 1px;
   width: 100%;
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .brdNavHeaderPc {
+    font-size: 1.077752117vw;
+  }
+}
+.brdNavHeaderPc {
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .ulNavHeaderPc02 {
-  margin-top: 50px;
+  margin-top: 45px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulNavHeaderPc02 {
-    margin-top: 5.68%;
+    margin-top: 5.11%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -1034,29 +1081,39 @@ LAYOUT
   }
 }
 .liNavHeaderPcmenu:nth-child(n+4) {
-  margin-top: 28px;
+  margin-top: 20px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liNavHeaderPcmenu:nth-child(n+4) {
-    margin: 3.18% 0% 0% 0%;
+    margin: 2.27% 0% 0% 0%;
   }
 }
 .btnNavHeaderPcLxn {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .btnNavHeaderPcLxn {
+    font-size: 1.077752117vw;
+  }
+}
+.btnNavHeaderPcLxn {
+  line-height: 140%;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
 .headerNavBtmPc {
-  margin-top: 62px;
+  margin-top: 57px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .headerNavBtmPc {
-    margin-top: 7.04%;
+    margin-top: 6.47%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -1093,14 +1150,14 @@ LAYOUT
 }
 
 .txtnavHeaderMenuPcLast {
-  margin-top: 28px;
+  margin-top: 24px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtnavHeaderMenuPcLast {
-    margin-top: 3.18%;
+    margin-top: 2.72%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -1181,7 +1238,7 @@ LAYOUT
 
 .closeMenuSp {
   position: absolute;
-  right: 4%;
+  right: 5%;
   top: 0%;
   width: 20px;
 }
@@ -1196,17 +1253,7 @@ LAYOUT
 
 .navHeaderMenuSpBx {
   margin: auto;
-  padding-top: 60px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-@media screen and (max-width: 1299px) {
-  .navHeaderMenuSpBx {
-    padding: 16% 0% 0% 0%;
-  }
-}
-.navHeaderMenuSpBx {
+  padding: 14.5% 0% 0% 0%;
   width: 280px;
 }
 @media screen and (max-width: 1299px) {
@@ -1216,15 +1263,7 @@ LAYOUT
 }
 
 .liNavHeaderMenuSpBx:nth-child(n+2) {
-  margin-top: 36px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-@media screen and (max-width: 1299px) {
-  .liNavHeaderMenuSpBx:nth-child(n+2) {
-    margin: 12.41% 0% 0% 0%;
-  }
+  margin: 8.8% 0% 0% 0%;
 }
 
 @media screen and (max-width: 767px) {
@@ -1237,54 +1276,34 @@ LAYOUT
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
-.brdNavHeaderSp {
-  margin-top: 40px;
-  margin-bottom: 0px;
+.btnNavHeaderMenuSpBx:nth-child(n+2) {
+  margin-top: 5.27%;
+  margin-bottom: 0%;
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (max-width: 1299px) {
-  .brdNavHeaderSp {
-    margin-top: 13.79%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+
 .brdNavHeaderSp {
+  margin-top: 11.79%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
   height: 1px;
   width: 100%;
 }
 
 .ulHeaderFixedBxSp {
-  margin-top: 40px;
-  margin-bottom: 0px;
+  margin-top: 12%;
+  margin-bottom: 0%;
   margin-left: auto;
   margin-right: auto;
-}
-@media screen and (max-width: 1299px) {
-  .ulHeaderFixedBxSp {
-    margin-top: 13.79%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 .ulHeaderFixedBxSp02 {
-  margin-top: 40px;
-  margin-bottom: 0px;
+  margin-top: 11.79%;
+  margin-bottom: 0%;
   margin-left: auto;
   margin-right: auto;
-}
-@media screen and (max-width: 1299px) {
-  .ulHeaderFixedBxSp02 {
-    margin-top: 13.79%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 .liHeaderFixedBxSp {
@@ -1303,6 +1322,21 @@ LAYOUT
 }
 @media screen and (max-width: 1299px) {
   .liHeaderFixedBxSp:nth-child(n+2) {
+    margin-top: 8.27%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.ulHeaderFixedBxSp02 .liHeaderFixedBxSp02:nth-child(n+2) {
+  margin-top: 24px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .ulHeaderFixedBxSp02 .liHeaderFixedBxSp02:nth-child(n+2) {
     margin-top: 8.27%;
     margin-bottom: 0%;
     margin-left: auto;
@@ -1342,7 +1376,7 @@ LAYOUT
 }
 .btnHeaderFixedBxSp {
   line-height: 150%;
-  letter-spacing: 0em;
+  letter-spacing: 0.06em;
 }
 
 .telContactSpHeader {
@@ -2816,12 +2850,12 @@ LAYOUT
 }
 .h2CntTopAbout {
   line-height: 150%;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h2CntTopAbout {
     line-height: normal;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -3062,7 +3096,7 @@ LAYOUT
   width: 59.47vw;
   position: absolute;
   right: 0;
-  top: -2%;
+  top: 2%;
 }
 @media screen and (max-width: 767px) {
   .picMainTopAbout {
@@ -3119,7 +3153,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topMade {
-    margin-top: 9.66%;
+    margin-top: 23.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -3389,7 +3423,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3CntTopKikkake {
-    margin-top: 6.21%;
+    margin-top: 5.21%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -3568,7 +3602,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topCollection {
-    margin-top: 26.33%;
+    margin-top: 27.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -3815,24 +3849,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnCntTopCollectionLxn {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 193px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnCntTopCollectionLxn {
-    margin-top: 9.09%;
+    margin-top: 10.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnCntTopCollectionLxn {
-    width: 58.48%;
+    width: 60.48%;
   }
 }
 
@@ -3859,7 +3880,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnCntTopCollection {
-    aspect-ratio: 193/39;
+    aspect-ratio: 193/37;
     border-radius: 30px;
     /* CSS3草案 */
     -webkit-border-radius: 30px;
@@ -3894,15 +3915,10 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .iconBbtnCntTopCollections {
-    width: 163px;
+    width: 89.45%;
     margin: auto;
     background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
     background-size: auto 20%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .iconBbtnCntTopCollections {
-    width: 84.45%;
   }
 }
 
@@ -3949,11 +3965,8 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 0 26.6666666667vw 0 0;
+    padding: 22.66% 0% 0% 0%;
+    border-radius: 0 21.666667vw 0 0;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -3962,11 +3975,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topLimited {
-    padding: 26.66% 0% 0% 0%;
   }
 }
 
@@ -3991,12 +3999,12 @@ LAYOUT
 }
 .h2TopLimited {
   line-height: 140%;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h2TopLimited {
-    line-height: 160%;
-    letter-spacing: 0.03em;
+    line-height: 150%;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -4033,20 +4041,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyTopLimited {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -2%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyTopLimited {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -4071,15 +4071,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topLimitedSliderLxn {
-    margin-top: 45px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topLimitedSliderLxn {
-    margin-top: 13.63%;
+    margin-top: 12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -4158,20 +4150,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .catsSliderTopLimited {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 5.37%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .catsSliderTopLimited {
-    margin-top: 9.37%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -4209,7 +4193,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3SliderTopLimited {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -4219,7 +4203,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .h3SliderTopLimited {
-    margin-top: 6.25%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -4330,19 +4314,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnCntTopLimitedLxn {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 240px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnCntTopLimitedLxn {
-    margin-top: 9.09%;
+    margin-top: 8.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 240px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -4376,7 +4352,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnCntTopLimited {
-    aspect-ratio: 193/39;
+    aspect-ratio: 240/40;
     border-radius: 30px;
     /* CSS3草案 */
     -webkit-border-radius: 30px;
@@ -4411,15 +4387,10 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .iconBbtnCntTopLimiteds {
-    width: 163px;
+    width: 93.45%;
     margin: auto;
     background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right center;
-    background-size: auto 20%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .iconBbtnCntTopLimiteds {
-    width: 84.45%;
+    background-size: auto 16%;
   }
 }
 
@@ -4445,15 +4416,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topSelect {
-    padding-top: 120px;
-    padding-bottom: 100px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topSelect {
-    padding: 32% 0% 26.66% 0%;
+    padding: 29.5% 0% 24% 0%;
   }
 }
 
@@ -4509,20 +4472,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyTopSelect {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyTopSelect {
-    margin-top: 4%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -4547,19 +4502,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulTopSelect {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 330px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulTopSelect {
-    margin-top: 8%;
+    margin-top: 7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 330px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -4588,15 +4535,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liTopSelect:nth-child(n+4) {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liTopSelect:nth-child(n+4) {
-    margin: 9.09% 0% 0% 0%;
+    margin: 8.09% 0% 0% 0%;
   }
 }
 
@@ -4628,20 +4567,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3BtnLiTopSelect {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 10.33%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3BtnLiTopSelect {
-    margin-top: 8.33%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -4678,20 +4609,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtBtnLiTopSelect {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 5.33%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtBtnLiTopSelect {
-    margin-top: 8.33%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -4728,20 +4651,13 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTopSelect {
-    margin-top: 70px;
-    margin-bottom: 0px;
+    margin-top: 15.66%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTopSelect {
-    margin-top: 18.66%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 88%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -4865,15 +4781,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topPicUpOut {
-    padding-top: 125px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topPicUpOut {
-    padding-top: 33.33%;
+    padding-top: 8.33%;
     padding-bottom: 0%;
     padding-left: 0;
     padding-right: 0;
@@ -4935,15 +4843,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topPicUpLxn {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topPicUpLxn {
-    margin-top: 6.06%;
+    margin-top: 2.06%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -4964,15 +4864,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topPicUp {
-    padding-top: 0px;
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topPicUp {
-    padding: 0% 0% 9.09% 0%;
+    padding: 0% 0% 10.09% 0%;
   }
 }
 
@@ -5057,27 +4949,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topNav {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 0px;
-    padding-bottom: 125px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topNav {
-    margin-top: 13.33%;
+    margin-top: 12.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topNav {
-    padding: 0% 0% 33.33% 0%;
+    padding: 0% 0% 12% 0%;
   }
 }
 
@@ -5112,15 +4988,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liTopNav:nth-child(n+3) {
-    margin-top: 26px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liTopNav:nth-child(n+3) {
-    margin: 7.87% 0% 0% 0%;
+    margin: 2.7% 0% 0% 0%;
   }
 }
 .liTopNav:nth-child(n+5) {
@@ -5136,15 +5004,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liTopNav:nth-child(n+5) {
-    margin-top: 26px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liTopNav:nth-child(n+5) {
-    margin: 7.87% 0% 0% 0%;
+    margin: 2.7% 0% 0% 0%;
   }
 }
 
@@ -5180,20 +5040,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3TopNav {
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-top: 2.32%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3TopNav {
-    margin-top: 6.32%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -5231,7 +5083,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topInstagram {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -5239,7 +5091,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .topInstagram {
-    margin-top: 13.33%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -5262,20 +5114,12 @@ LAYOUT
   .topInstagramWap {
     width: 330px;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 11.33% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .topInstagramWap {
     width: 88%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topInstagramWap {
-    padding: 13.33% 0% 0% 0%;
   }
 }
 
@@ -5327,7 +5171,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .h2TopInstagram {
     line-height: 160%;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -5359,7 +5203,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTopInstagram {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -5369,7 +5213,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .txtTopInstagram {
-    margin: 6.06% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -5391,15 +5235,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .instagramFeed {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .instagramFeed {
-    margin: 9.09% 0% 0% 0%;
+    margin: 7.5% 0% 0% 0%;
   }
 }
 .instagramFeed #sb_instagram #sbi_images {
@@ -5450,19 +5286,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnCntTopInstagramLxn {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 193px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnCntTopInstagramLxn {
-    margin-top: 9.09%;
+    margin-top: 6.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 193px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -5532,7 +5360,7 @@ LAYOUT
     width: 163px;
     margin: auto;
     background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
-    background-size: auto 20%;
+    background-size: auto 14%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -5566,15 +5394,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topGifts {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topGifts {
-    margin-top: 26.66%;
+    margin-top: 24%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -5642,17 +5462,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTitleTopGifts {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 1.06% 0% 0% 0%;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTitleTopGifts {
-    margin: 6.06% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -5677,15 +5489,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulTopGifts {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulTopGifts {
-    margin: 9.09% 0% 0% 0%;
+    margin: 6.09% 0% 0% 0%;
   }
 }
 
@@ -5709,15 +5513,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liTopGifts:nth-child(n+2) {
-    margin-top: 18px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liTopGifts:nth-child(n+2) {
-    margin: 5.45% 0% 0% 0%;
+    margin: 4.45% 0% 0% 0%;
   }
 }
 .liTopGifts:nth-child(n+3) {
@@ -5756,6 +5552,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .picBtnLiTopGifts {
     width: 134px;
+    margin: 1% 0 0 0;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -5835,20 +5632,16 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtBtnLiTopGifts {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 3.47%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 130%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtBtnLiTopGifts {
-    margin-top: 8.47%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 2行まで */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -5881,19 +5674,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnCntTopGiftsLxn {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 193px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnCntTopGiftsLxn {
-    margin-top: 9.09%;
+    margin-top: 8.2%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 193px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -5925,7 +5710,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnCntTopGifts {
-    aspect-ratio: 193/39;
+    aspect-ratio: 193/40;
     border-radius: 30px;
     /* CSS3草案 */
     -webkit-border-radius: 30px;
@@ -5963,7 +5748,7 @@ LAYOUT
     width: 163px;
     margin: auto;
     background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
-    background-size: auto 20%;
+    background-size: auto 14%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -6017,10 +5802,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 185px;
-    padding-bottom: 186px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 47.33% 0% 49.6% 0%;
     background: url(../img/index/topThinksSp.png) no-repeat center center;
     background-size: cover;
     background-attachment: scroll;
@@ -6032,11 +5814,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topThinks {
-    padding: 49.33% 0% 49.6% 0%;
   }
 }
 
@@ -6092,20 +5869,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyTopThinks {
-    margin-top: 14px;
-    margin-bottom: 0px;
+    margin-top: 0.73%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0.1em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyTopThinks {
-    margin-top: 3.73%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -6139,15 +5908,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topAccess {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topAccess {
-    margin-top: 26.66%;
+    margin-top: 22.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -6155,12 +5916,12 @@ LAYOUT
 }
 
 @media screen and (max-width: 767px) {
-  .topAccess {
+  .topAccessWap {
     width: 330px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topAccess {
+  .topAccessWap {
     width: 88%;
   }
 }
@@ -6198,7 +5959,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h2TopAccess {
-    line-height: 160%;
+    line-height: 150%;
     letter-spacing: 0.1em;
   }
 }
@@ -6236,20 +5997,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTopAccess {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 160%;
-    letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTopAccess {
-    margin-top: 4.54%;
+    margin-top: -1%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    line-height: 150%;
+    letter-spacing: 0em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -6286,20 +6039,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3TopAccess {
-    margin-top: 50px;
-    margin-bottom: 0px;
+    margin-top: 12%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0.02em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3TopAccess {
-    margin-top: 15.15%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -6324,15 +6069,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulTopAccess {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulTopAccess {
-    margin-top: 9.09%;
+    margin-top: 6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -6355,15 +6092,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liTopAccess:nth-child(n+2) {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liTopAccess:nth-child(n+2) {
-    margin-top: 9.09%;
+    margin-top: 5.6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -6517,19 +6246,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnCntTopAccessLxn {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 193px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnCntTopAccessLxn {
-    margin-top: 12.12%;
+    margin-top: 9.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 193px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -6599,7 +6320,7 @@ LAYOUT
     width: 163px;
     margin: auto;
     background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
-    background-size: auto 20%;
+    background-size: auto 14%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -6629,15 +6350,7 @@ LAYOUT
 }
 
 .picMainTopAccessSp {
-  margin-top: 30px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-@media screen and (max-width: 1299px) {
-  .picMainTopAccessSp {
-    margin: 9.09% 0% 0% 0%;
-  }
+  margin: 8.09% 0% 0% 0%;
 }
 
 /* ==========================================================================
@@ -6676,15 +6389,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topContact {
-    padding-top: 58px;
-    padding-bottom: 55px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topContact {
-    padding: 15.46% 0% 14.66% 0%;
+    padding: 12.46% 0% 14.66% 0%;
+    margin-top: 33.51%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -6740,7 +6449,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyTopContact {
-    margin-top: 16px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -6750,7 +6459,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .rubyTopContact {
-    margin-top: 4.26%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -6790,20 +6499,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTopContact {
-    margin-top: 41px;
-    margin-bottom: 0px;
+    margin-top: 7.93%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0.02em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTopContact {
-    margin-top: 10.93%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -6836,19 +6537,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulTopContact {
-    margin-top: 38px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 260px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulTopContact {
-    margin-top: 10.13%;
+    margin-top: 9.13%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 260px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -7026,6 +6719,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtBtnTopContact0202 {
+    margin: -5% 0 0 0;
     line-height: 100%;
     letter-spacing: 0.1em;
   }
@@ -7148,17 +6842,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3FooterLogoArea {
-    margin-top: 32px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 7.69% 0% 0% 0%;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3FooterLogoArea {
-    margin: 9.69% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -7208,20 +6894,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtFooterLogoArea {
-    margin-top: 24px;
-    margin-bottom: 0px;
+    margin-top: 5.27%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.8571428571;
     letter-spacing: 0.02em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtFooterLogoArea {
-    margin-top: 7.27%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -7270,16 +6948,8 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .footerSns {
-    margin-top: 32px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 8.69% 0% 0% 0%;
     width: 90px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .footerSns {
-    margin: 9.69% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -7387,19 +7057,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .searchFooterNav {
-    margin-top: 32px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .searchFooterNav {
-    margin-top: 9.69%;
+    margin-top: 10%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -7450,18 +7112,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liSearchFooterNav:nth-child(n+3) {
-    margin-top: 16px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liSearchFooterNav:nth-child(n+3) {
-    margin-top: 4.84%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 4.5% 0% 0% 0%;
   }
 }
 
@@ -7597,19 +7248,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .onlineInfoFooter {
-    margin-top: 35px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .onlineInfoFooter {
-    margin-top: 10.6%;
+    margin-top: 8.6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -7666,19 +7309,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulOnleinInfoFooter {
-    margin-top: 18px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulOnleinInfoFooter {
-    margin-top: 5.45%;
+    margin-top: 4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -7723,15 +7358,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .topFooterBtm {
-    padding-top: 0px;
-    padding-bottom: 17px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .topFooterBtm {
-    padding: 0% 0% 4.53% 0%;
+    padding: 0% 0% 14.53% 0%;
   }
 }
 
@@ -7768,15 +7395,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .secFooterBtmTitle {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secFooterBtmTitle {
-    margin-top: 12.12%;
+    margin-top: 10.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -7851,20 +7470,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtFooterBtmTitle {
-    margin-top: 24px;
-    margin-bottom: 0px;
+    margin-top: 4.5%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtFooterBtmTitle {
-    margin-top: 7.27%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -7889,15 +7500,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .navFooterBtm {
-    margin-top: 36px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .navFooterBtm {
-    margin-top: 10.9%;
+    margin-top: 9.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -7923,15 +7526,19 @@ LAYOUT
 
 @media screen and (max-width: 767px) {
   .ulNavFooter02 {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 4.57% 0% 0% 0%;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulNavFooter02 {
-    margin: 7.57% 0% 0% 0%;
+
+@media screen and (max-width: 767px) {
+  .ulNavFooter03 {
+    margin: 4.5% 0% 0% 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ulNavFooter04 {
+    margin: 4.5% 0% 0% 0%;
   }
 }
 
@@ -7956,15 +7563,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liNavFooter:nth-child(n+2) {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liNavFooter:nth-child(n+2) {
-    margin: 0% 0% 0% 0%;
+    margin: 4.57% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -8030,19 +7629,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnLastFooterBtmLxn {
-    margin-top: 41px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 180px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnLastFooterBtmLxn {
-    margin-top: 12.42%;
+    margin-top: 11.42%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 180px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -8204,14 +7795,14 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .mainUnder {
-  margin-top: 150px;
+  margin-top: 121px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .mainUnder {
-    margin-top: 7.81%;
+    margin-top: 6.3%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -8256,6 +7847,15 @@ LAYOUT
 .h1AboutUnderFv {
   line-height: 160%;
   letter-spacing: 0.1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -5px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .h1AboutUnderFv {
+    margin: 0% 0% 0% -0.39%;
+  }
 }
 @media screen and (max-width: 767px) {
   .h1AboutUnderFv {
@@ -8270,14 +7870,14 @@ LAYOUT
 }
 
 .txtAboutUnderFv {
-  margin-top: 30px;
+  margin-top: -8px;
   margin-bottom: 0px;
-  margin-left: 0px;
+  margin-left: -5px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtAboutUnderFv {
-    margin: 2.3% 0% 0% 0%;
+    margin: -0.62% 0% 0% -0.39%;
   }
 }
 .txtAboutUnderFv {
@@ -8314,14 +7914,14 @@ LAYOUT
 }
 
 .aboutUnderFvLxn {
-  margin-top: 55px;
+  margin-top: 47px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .aboutUnderFvLxn {
-    margin-top: 2.86%;
+    margin-top: 2.44%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -49524,8 +49124,10 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.mainIndex {
-  margin: 12% auto 0 auto;
+@media screen and (max-width: 767px) {
+  .mainIndex {
+    margin: 12% auto 0 auto;
+  }
 }
 
 /* ==========================================================================

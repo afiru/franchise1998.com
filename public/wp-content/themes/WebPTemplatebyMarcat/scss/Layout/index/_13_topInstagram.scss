@@ -12,7 +12,7 @@ LAYOUT
     width: 100%;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 50, auto, 0, auto);
+        @include mi.marginPercent(375, 0, auto, 0, auto);
     }
 }
 
@@ -23,7 +23,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
         margin: auto;
-        @include mi.paddingPercent(375, 50, 0, 0, 0);
+        padding: 11.33% 0% 0% 0%;
     }
 }
 
@@ -58,7 +58,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(160);
-        @include mi.letterSpacing(100);
+        @include mi.letterSpacing(80);
     }
 }
 
@@ -69,7 +69,7 @@ LAYOUT
     @include mi.marginPercent(1300, 0, 0, 0, 15);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, 0, 0, 0);
+        @include mi.marginPercent(330, 0, 0, 0, 0);
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(100);
@@ -80,7 +80,7 @@ LAYOUT
     @include mi.marginPercent(1300, 24, 0, 0, 0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, 0, 0, 0);
+        margin: 7.5% 0% 0% 0%;
     }
 
     #sb_instagram #sbi_images {
@@ -112,7 +112,10 @@ LAYOUT
     @include mi.ontenerWidth(1300, 200);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 6.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 193);
     }
 }
@@ -150,6 +153,6 @@ LAYOUT
         margin: auto;
         background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
             center;
-        background-size: auto 20%;
+        background-size: auto 14%;
     }
 }

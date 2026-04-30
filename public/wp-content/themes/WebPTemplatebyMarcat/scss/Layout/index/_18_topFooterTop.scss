@@ -48,7 +48,7 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 32, 0, 0, 0);
+        margin: 7.69% 0% 0% 0%;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
@@ -62,7 +62,10 @@ LAYOUT
     @include mi.letterSpacing(20);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 24, auto, 0, auto);
+        margin-top: 5.27%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheight(14, 26);
         @include mi.letterSpacing(20);
@@ -75,7 +78,7 @@ LAYOUT
     justify-content: space-between;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 32, 0, 0, 0);
+        margin: 8.69% 0% 0% 0%;
         @include mi.ontenerWidth(330, 90);
     }
 }
@@ -131,7 +134,10 @@ LAYOUT
     @include mi.ontenerWidth(885, 180);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 32, auto, 0, auto);
+        margin-top: 10%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
@@ -159,7 +165,7 @@ LAYOUT
 
     &:nth-child(n + 3) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 16, auto, 0, auto);
+            margin: 4.5% 0% 0% 0%;
         }
     }
 }
@@ -213,7 +219,10 @@ LAYOUT
     flex-flow: row wrap;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 35, auto, 0, auto);
+        margin-top: 8.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
@@ -238,7 +247,10 @@ LAYOUT
     @include mi.ontenerWidth(554, 373);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 18, auto, 0, auto);
+        margin-top: 4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }

@@ -14,7 +14,7 @@ LAYOUT
 }
 
 .headerMenuPc {
-    @include mi.paddingPercent(1920, 122, 0, 86, 0);
+    @include mi.paddingPercent(1920, 116, 0, 86, 0);
     position: relative;
     width: 100%;
     height: 100vh;
@@ -92,7 +92,7 @@ LAYOUT
 
 .liNavHeaderMenuPcBx {
     &:nth-child(n + 2) {
-        @include mi.marginPercent(1920, 34, 0, 0, 0);
+        @include mi.marginPercent(290, 24, 0, 0, 0);
 
         @include mi.mq(sp) {
         }
@@ -108,18 +108,37 @@ LAYOUT
     @include mi.mq(sp) {
     }
 }
+.liNavHeaderMenuPcBx02 {
+    @include mi.marginPercent(290, 24, 0, 0, 0);
+    &:nth-child(n + 2) {
+        @include mi.marginPercent(290, 24, 0, 0, 0);
+    }
+}
+.liNavHeaderMenuPcBx02 .btnNavHeaderMenuPcBx {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
+
+    @include mi.mq(sp) {
+    }
+}
 
 .brdNavHeaderPc {
-    @include mi.marginPercent(880, 50, auto, 0, auto);
+    @include mi.marginPercent(880, 46, auto, 0, auto);
     height: 1px;
     width: 100%;
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(20);
+    text-decoration: none;
 
     @include mi.mq(sp) {
     }
 }
 
 .ulNavHeaderPc02 {
-    @include mi.marginPercent(880, 50, auto, 0, auto);
+    @include mi.marginPercent(880, 45, auto, 0, auto);
 
     @include mi.mq(sp) {
     }
@@ -132,19 +151,21 @@ LAYOUT
     }
 
     &:nth-child(n + 4) {
-        @include mi.marginPercent(880, 28, 0, 0, 0);
+        @include mi.marginPercent(880, 20, 0, 0, 0);
 
         @include mi.mq(sp) {
         }
     }
 }
-
 .btnNavHeaderPcLxn {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(20);
     text-decoration: none;
 }
 
 .headerNavBtmPc {
-    @include mi.marginPercent(880, 62, auto, 0, auto);
+    @include mi.marginPercent(880, 57, auto, 0, auto);
     @include mi.ontenerWidth(880, 418);
 
     @include mi.mq(sp) {
@@ -172,7 +193,7 @@ LAYOUT
 }
 
 .txtnavHeaderMenuPcLast {
-    @include mi.marginPercent(880, 28, auto, 0, auto);
+    @include mi.marginPercent(880, 24, auto, 0, auto);
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);

@@ -41,12 +41,12 @@ LAYOUT
 .h2CntTopAbout {
     @include mi.fontSizePc(40);
     @include mi.lineheightP(150);
-    @include mi.letterSpacing(50);
+    @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(36);
         @include mi.lineheightP(auto);
-        @include mi.letterSpacing(50);
+        @include mi.letterSpacing(100);
     }
 }
 
@@ -152,7 +152,7 @@ LAYOUT
     @include mi.ontenerWVw(1920, 1142);
     position: absolute;
     right: 0;
-    top: -2%;
+    top: 2%;
 
     @include mi.mq(sp) {
         margin-top: 11.12%;

@@ -88,7 +88,7 @@ window.addEventListener('load', function () {
         }
         if (window.innerWidth < 768) {
             dragSize02 = 52;
-            spaceBetween02 = 22;
+            spaceBetween02 = 14;
         } else {
             dragSize02 = 114;
             spaceBetween02 = 36;

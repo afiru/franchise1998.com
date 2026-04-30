@@ -1,5 +1,5 @@
 <div class="topAccess">
-    <div class="wapper d_flex j_between row  topAccess">
+    <div class="wapper d_flex j_between row  topAccessWap">
         <section class="secTopAccess">
             <h2 class="cl_421D12 txtset CormorantUnicase fw_500 h2TopAccess">ACCESS</h2>
             <p class="cl_453C3C txtset fw_500 mincho txtTopAccess">店舗情報・アクセス</p>
