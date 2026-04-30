@@ -18,7 +18,7 @@
             </p>
 
             <div class="btnCntTopAboutLxn">
-                <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopAbout" href="<?php echo home_url('/'); ?>">
+                <a href="<?php echo home_url('/about/'); ?>" class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopAbout" href="<?php echo home_url('/'); ?>">
                     <span class="iconBbtnCntTopAbouts">詳しく見る</span>
                     <!--bg:../img/index/iconBbtnCntTopAbouts.svg-->
                 </a>

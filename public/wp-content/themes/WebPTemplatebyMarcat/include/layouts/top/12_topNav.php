@@ -2,7 +2,7 @@
     <nav class="wapper topNavWap">
         <ul class="d_flex j_between row ulTopNav">
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/material/'); ?>">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav01Pc.png'); ?>">
@@ -15,7 +15,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/suggestio/'); ?>">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav02Pc.png'); ?>">
@@ -28,7 +28,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/faq/'); ?>">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav03Pc.png'); ?>">
@@ -41,7 +41,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/voice/'); ?>">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav04Pc.png'); ?>">
@@ -54,7 +54,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/'); ?>#topAccess">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav05Pc.png'); ?>">
@@ -80,7 +80,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/member/'); ?>">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav07Pc.png'); ?>">
@@ -93,7 +93,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/'); ?>">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav08Pc.png'); ?>">

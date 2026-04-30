@@ -26,7 +26,7 @@
                     みずみずしく輝くケーキの数々。上質な素材を活かしたシンプルな美味しさが魅力です。季節のフルーツを使った期間限定スイーツも登場します。是非ショーケースで、ときめく出会いをお楽しみください。
                 </p>
                 <div class="btnProductAppealFx01Lxn">
-                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnProductAppealFx01" href="<?php echo home_url('/'); ?>">
+                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnProductAppealFx01" href="<?php echo home_url('/appeal/#cake'); ?>">
                         <span class="iconBbtnProductAppealFx01s">詳しく見る</span>
                         <!--bg:../img/index/iconBbtnProductAppealFx01s.svg-->
                     </a>
@@ -52,7 +52,7 @@
                     包装を開けると、甘い香りがふわりと漂い、受け取った方も自然と笑顔に。贈る方の気持ちに寄り添いながら、素材を吟味し、職人が丹念に手づくりしています。
                 </p>
                 <div class="btnProductAppealFx02Lxn">
-                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnProductAppealFx02" href="<?php echo home_url('/'); ?>">
+                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnProductAppealFx02" href="<?php echo home_url('/appeal/#gift'); ?>">
                         <span class="iconBbtnProductAppealFx02s">詳しく見る</span>
                         <!--bg:../img/index/iconBbtnProductAppealFx01s.svg-->
                     </a>
@@ -78,7 +78,7 @@
                     生花アレンジメント、華やかなブーケ、プリザーブドフラワーなどオリジナルで制作しています。贈るお相手の好みや、記念日などの目的に合わせて世界でひとつの特別なギフトをお作りします。
                 </p>
                 <div class="btnProductAppealFx01Lxn">
-                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnProductAppealFx03" href="<?php echo home_url('/'); ?>">
+                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnProductAppealFx03" href="<?php echo home_url('/appeal/#flower'); ?>">
                         <span class="iconBbtnProductAppealFx03s">詳しく見る</span>
                         <!--bg:../img/index/iconBbtnProductAppealFx01s.svg-->
                     </a>

@@ -19,11 +19,11 @@
                 </figure>
                 <section class="secCntCntStaffFlowerThink">
                     <h2 class="cl_453C3C fw_500 txtset h2CntStaffFlowerThink">
-                        お客様の特別な瞬間を<br>「私がつくったケーキが彩るんだ」<br>と思うと楽しくて仕方がありません。
+                        世界でひとつだけの<br>
+                        特別なギフトをお届けします。
                     </h2>
                     <p class="cl_453C3C fw_500 txtset txtCntStaffFlowerThink">
-                        お菓子を通して、たくさんの方が笑顔になり、<br>心あたたまる時間を過ごせるよう、<br>心をこめてお菓子づくりをしています。
-                    </p>
+                        フランシーズ併設のフラワーショップでは、人気のブーケタイプをはじめ、大小さまざまなアレンジメントやプリザーブドフラワーまで、すべてオリジナルでお作りしています。贈るお相手の好みや記念日・お祝い・お供えなどの用途、そしてお菓子との組み合わせまで丁寧にお伺いし、世界でひとつだけの特別なギフトをお届けします。 </p>
                     <figure class="txtPicStaffFlowerThink">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/staff/txtPicStaffFlowerThinkPc.svg'); ?>">
@@ -43,10 +43,9 @@
                                     </picture>
                                 </figure>
                                 <section class="secNavStaffFlowerThink">
-                                    <h4 class="cl_453C3C fw_500 txtset h4NavStaffFlowerThink">和栗のモンブラン</h4>
+                                    <h4 class="cl_453C3C fw_500 txtset h4NavStaffFlowerThink">プリザーブドフラワー</h4>
                                     <p class="cl_453C3C fw_400 txtset text_justify txtNavStaffFlowerThink">
-                                        和栗ならではの上品な甘みと芳醇な香りを存分に楽しめる、贅沢なモンブラン。しっとりとした栗ペーストに、ふんわりと軽い生クリームを合わせ、繊細で深みのある味わいが口いっぱいに広がります。素材の良さを引き立てた、至福のひとときをお楽しみください。
-                                    </p>
+                                        生花の美しさをそのままに、長く楽しめるよう加工したプリザーブドフラワー。水やりの必要がなく、色鮮やかな姿を長期間保てるため、記念日やお祝い、特別な日の贈り物にもぴったりです。 </p>
                                 </section>
                             </li>
 
@@ -59,10 +58,10 @@
                                     </picture>
                                 </figure>
                                 <section class="secNavStaffFlowerThink">
-                                    <h4 class="cl_453C3C fw_500 txtset h4NavStaffFlowerThink">たま卵チーズ</h4>
+                                    <h4 class="cl_453C3C fw_500 txtset h4NavStaffFlowerThink">生花アレンジメント</h4>
                                     <p class="cl_453C3C fw_400 txtset text_justify txtNavStaffFlowerThink">
-                                        手に取ると崩れてしまいそうなほど繊細で、口に入れた瞬間にふわりと溶ける、やさしいスフレタイプのチーズケーキ。濃厚でクリーミーなチーズの味わいと、上品な酸味が絶妙に調和します。何工程もの手間を惜しまず、ひとつひとつ丁寧に焼き上げた自慢の一品です。
-                                    </p>
+                                        季節ごとの花々を取り入れた、生花ならではの瑞々しさと香りを楽しめるアレンジメント。贈るお相手のイメージや用途に合わせて、フラワーコーディネーターがひとつひとつ丁寧にお作りします。
+                                        お誕生日・記念日・お祝い事など、心を込めた贈り物として最適です。 </p>
                                 </section>
                             </li>
                         </ul>

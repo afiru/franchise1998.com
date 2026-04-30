@@ -16,7 +16,7 @@ LAYOUT
 
 .topProductAppealWap {
     position: relative;
-    @include mi.paddingPercent(1920, 84, 0, 0, 0);
+    @include mi.paddingPercent(1920, 82, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
@@ -60,7 +60,7 @@ LAYOUT
 }
 
 .rubyTitleProductAppeal {
-    @include mi.marginPercent(1300, 0, auto, 0, auto);
+    @include mi.marginPercent(1300, -6, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
@@ -110,7 +110,7 @@ LAYOUT
 .secProductAppealFx01 {}
 
 .h3ProductAppealFx {
-    @include mi.fontSizePc(28);
+    @include mi.fontSizePc(32);
     @include mi.lineheightP(100);
     @include mi.letterSpacing(100);
 
@@ -122,7 +122,7 @@ LAYOUT
 }
 
 .rubyProductAppealFx {
-    @include mi.marginPercent(425, 10, 0, 0, 0);
+    @include mi.marginPercent(425, 9, 0, 0, 0);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
@@ -139,7 +139,7 @@ LAYOUT
 }
 
 .h4ProductAppealFx {
-    @include mi.marginPercent(425, 33, 0, 0, 0);
+    @include mi.marginPercent(425, 31, 0, 0, 0);
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);

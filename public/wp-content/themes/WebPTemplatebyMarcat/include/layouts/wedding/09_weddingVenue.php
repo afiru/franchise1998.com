@@ -1,4 +1,4 @@
-<div class="weddingVenue">
+<div id="venue" class="weddingVenue">
     <div class="wapper weddingVenueWap">
         <section class="secWeddingVenue">
             <h2 class="t_center cl_421D12 fw_500 CormorantUnicase h2WeddingVenue">WEDDING VENUE</h2>

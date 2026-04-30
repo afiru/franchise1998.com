@@ -1,7 +1,7 @@
 /* ==========================================================================
 
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -14,8 +14,7 @@ LAYOUT
     }
 }
 
-.appealGiftOnlineWap {
-}
+.appealGiftOnlineWap {}
 
 .appealGiftOnlineFx {
     @include mi.mq(sp) {
@@ -31,7 +30,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
         margin: auto;
-        @include mi.paddingPercent(330, 25, 0, 25, 0);
+        padding: 3.97% 0% 7.57% 0%;
     }
 }
 
@@ -48,15 +47,18 @@ LAYOUT
 }
 
 .txtAppealGiftOnlineInfo {
-    @include mi.marginPercent(632, 7, auto, 0, auto);
+    @include mi.marginPercent(632, 4, auto, 0, auto);
     @include mi.fontSizePc(13);
     @include mi.lineheightP(100);
-    @include mi.letterSpacing(0);
+    @include mi.letterSpacing(20);
     text-align: center;
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 301);
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -0.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
@@ -69,12 +71,15 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 301);
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 3.24%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .ulAppealGiftOnlineInfo {
-    @include mi.marginPercent(632, 18, auto, 0, auto);
+    @include mi.marginPercent(632, 16, auto, 0, auto);
     @include mi.ontenerWidth(632, 317.45);
 
     @include mi.mq(sp) {
@@ -94,11 +99,12 @@ LAYOUT
 //
 .appealGiftOnlineAlert {
     @include mi.ontenerWidth(1300, 632);
-    @include mi.paddingPercent(1300, 35, 0, 26, 0);
+    @include mi.paddingPercent(1300, 26, 0, 19, 0);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
-        @include mi.paddingPercent(330, 20, 0, 22, 0);
+        padding: 4.06% 0% 4.66% 0%;
+        margin: 4% 0 0 0;
     }
 }
 
@@ -115,14 +121,14 @@ LAYOUT
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
-    @include mi.paddingPercent(568, 0, 0, 16, 0);
+    @include mi.paddingPercent(568, 0, 0, 8, 0);
     border-bottom: 1px solid #bebdbd;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
-        @include mi.paddingPercent(301, 0, 0, 10, 0);
+        padding: 0% 0% 2.32% 0%;
     }
 }
 
@@ -133,7 +139,10 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(301, 15, auto, 0, auto);
+        margin-top: 2.98%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
@@ -141,14 +150,17 @@ LAYOUT
 }
 
 .h3AppealGiftOnlineAlert {
-    @include mi.marginPercent(568, 21, auto, 0, auto);
+    @include mi.marginPercent(568, 15, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     aspect-ratio: 568 / 28;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(301, 20, auto, 0, auto);
+        margin-top: 5.64%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -157,10 +169,13 @@ LAYOUT
 }
 
 .fxAppealGiftOnlineAlert {
-    @include mi.marginPercent(568, 23, auto, 0, auto);
+    @include mi.marginPercent(568, 15, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(301, 15, auto, 0, auto);
+        margin-top: 1.98%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -185,13 +200,13 @@ LAYOUT
 }
 
 .txtAddressAppealGiftOnline02 {
-    @include mi.marginPercent(568, 0, auto, 0, auto);
+    @include mi.marginPercent(568, -2, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.fontSizeSp(13);
+        @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
     }
@@ -203,7 +218,10 @@ LAYOUT
 
     @include mi.mq(sp) {
         width: 100%;
-        @include mi.marginPercent(301, 16, auto, 0, auto);
+        margin-top: 0.31%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: flex-start;
     }
 }

@@ -25,7 +25,7 @@
                     </li>
 
                     <li class="liNavWeddingMain">
-                        <a href="#cake" class="btnNavWeddingMain">
+                        <a href="#gift" class="btnNavWeddingMain">
                             <figure class="photoNavWeddingMain">
                                 <picture>
                                     <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/wedding/photoNavWeddingMain02Pc.png'); ?>">
@@ -45,7 +45,7 @@
                     </li>
 
                     <li class="liNavWeddingMain">
-                        <a href="#cake" class="btnNavWeddingMain">
+                        <a href="#bouquet" class="btnNavWeddingMain">
                             <figure class="photoNavWeddingMain">
                                 <picture>
                                     <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/wedding/photoNavWeddingMain03Pc.png'); ?>">
@@ -65,7 +65,7 @@
                     </li>
 
                     <li class="liNavWeddingMain">
-                        <a href="#cake" class="btnNavWeddingMain">
+                        <a href="#venue" class="btnNavWeddingMain">
                             <figure class="photoNavWeddingMain">
                                 <picture>
                                     <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/wedding/photoNavWeddingMain04Pc.png'); ?>">

@@ -7,7 +7,7 @@
 LAYOUT
 ========================================================================== */
 .appealCakeRec {
-    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.marginPercent(1920, 63, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 50, auto, 0, auto);
@@ -21,8 +21,7 @@ LAYOUT
     @include mi.paddingPercent(1300, 22, 0, 23, 0);
 
     @include mi.mq(sp) {
-
-        @include mi.paddingPercent(375, 37, 0, 33, 0);
+        padding: 2.86% 0% 6.8% 0%;
         margin: auto;
     }
 }
@@ -50,6 +49,7 @@ LAYOUT
 
 .secAppealCakeRecTitle {
     @include mi.ontenerWidth(253, 195);
+    @include mi.marginPercent(253, 7, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
@@ -69,14 +69,17 @@ LAYOUT
 }
 
 .txtAppealCakeRecTitle {
-    @include mi.marginPercent(195, 15, auto, 0, auto);
+    @include mi.marginPercent(195, -3, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     text-align: center;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -1.56%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
@@ -84,11 +87,14 @@ LAYOUT
 }
 
 .btnAppealCakeRecTitleLxn {
-    @include mi.marginPercent(195, 14, auto, 0, auto);
+    @include mi.marginPercent(195, 9, auto, 0, auto);
     width: 100%;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 2.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 240);
     }
 }
@@ -116,11 +122,15 @@ LAYOUT
 
 //
 .cntAppealCakeRecTitleLxn {
-    @include mi.ontenerWidth(1180, 871);
+    @include mi.ontenerWidth(1180, 967);
+    @include mi.marginPercent(1180, 8, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
-        @include mi.marginPercent(330, 27, auto, 0, auto);
+        margin-top: 6.08%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -139,13 +149,16 @@ LAYOUT
 }
 
 .txtCntAppealCakeRec {
-    @include mi.marginPercent(871, 22, auto, 0, auto);
+    @include mi.marginPercent(871, 7, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 1.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);

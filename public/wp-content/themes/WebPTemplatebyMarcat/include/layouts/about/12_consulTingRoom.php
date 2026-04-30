@@ -13,13 +13,13 @@
 
                     <ul class="ulCntConsulTingRoom">
                         <li class="liCntConsulTingRoom">
-                            <a class="d_flex j_center ali_center undernone bg_795E55 cl_fff btnCntConsulTingRoom">
+                            <a class="d_flex j_center ali_center undernone bg_795E55 cl_fff btnCntConsulTingRoom" href="<?php echo home_url('/contact/'); ?>">
                                 <span class="bgbtnCntConsulTingRoom kaku bgbtnCntConsulTingRoom01">大量発注のご相談はこちら</span>
                             </a>
                         </li>
 
                         <li class="liCntConsulTingRoom">
-                            <a class="d_flex j_center ali_center undernone bg_fff cl_795E55 btnCntConsulTingRoom">
+                            <a class="d_flex j_center ali_center undernone bg_fff cl_795E55 btnCntConsulTingRoom" href="<?php echo home_url('/products/product-category/original-sweets/'); ?>">
                                 <span class="bgbtnCntConsulTingRoom kaku bgbtnCntConsulTingRoom02">オリジナルプリントスイーツはこちら</span>
                             </a>
                         </li>

@@ -1,4 +1,4 @@
-<div class="brandStoryTitle">
+<div id="brandStoryTitle" class="brandStoryTitle">
     <div class="wapper brandStoryTitleWap">
         <section class="secBrandStoryTitle">
             <h2 class="t_center cl_421D12 fw_400 CormorantUnicase txtset h2BrandStoryTitle">BRAND STORY</h2>

@@ -22,7 +22,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/photoAppealFlowrGift01Pc.png'); ?>" alt="<?php echo esc_attr('生花アレンジメント'); ?>" width="234" height="152">
                         </picture>
                     </figure>
-                    <p class="cl_453C3C fw_500 txteset txtAppealFlowrGift">生花アレンジメント</p>
+                    <p class="cl_453C3C fw_500 txteset txtUlAppealFlowrGift">生花アレンジメント</p>
                 </li>
 
                 <li class="liAppealFlowrGift">
@@ -33,7 +33,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/photoAppealFlowrGift02Pc.png'); ?>" alt="<?php echo esc_attr('花束・ブーケ'); ?>" width="234" height="152">
                         </picture>
                     </figure>
-                    <p class="cl_453C3C fw_500 txteset txtAppealFlowrGift">花束・ブーケ</p>
+                    <p class="cl_453C3C fw_500 txteset txtUlAppealFlowrGift">花束・ブーケ</p>
                 </li>
 
                 <li class="liAppealFlowrGift">
@@ -44,7 +44,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/photoAppealFlowrGift03Pc.png'); ?>" alt="<?php echo esc_attr('ブリザーブドフラワー'); ?>" width="234" height="152">
                         </picture>
                     </figure>
-                    <p class="cl_453C3C fw_500 txteset txtAppealFlowrGift">ブリザーブドフラワー</p>
+                    <p class="cl_453C3C fw_500 txteset txtUlAppealFlowrGift">ブリザーブドフラワー</p>
                 </li>
 
                 <li class="liAppealFlowrGift">
@@ -55,7 +55,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/photoAppealFlowrGift04Pc.png'); ?>" alt="<?php echo esc_attr('ウェディング贈答用'); ?>" width="234" height="152">
                         </picture>
                     </figure>
-                    <p class="cl_453C3C fw_500 txteset txtAppealFlowrGift">ウェディング贈答用</p>
+                    <p class="cl_453C3C fw_500 txteset txtUlAppealFlowrGift">ウェディング贈答用</p>
                 </li>
             </ul>
         </div>

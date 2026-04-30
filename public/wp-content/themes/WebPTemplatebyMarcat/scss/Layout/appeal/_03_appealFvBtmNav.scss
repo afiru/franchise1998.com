@@ -7,10 +7,13 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .appealFvBtmNav {
-    @include mi.marginPercent(1920, 125, auto, 0, auto);
+    @include mi.marginPercent(1920, 107, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 100, auto, 0, auto);
+        margin-top: 22.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -45,10 +48,10 @@ LAYOUT
 
 .btnNavAppealFvBtm {
     width: 100%;
-    aspect-ratio: 190 / 51;
+    aspect-ratio: 190 / 53;
     border-bottom: 1px solid #8d8181;
     @include mi.fontSizePc(14);
-    @include mi.lineheightP(180);
+    @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     text-align: center;
     text-decoration: none;

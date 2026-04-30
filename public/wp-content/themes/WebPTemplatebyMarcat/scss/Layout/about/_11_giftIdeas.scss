@@ -16,7 +16,7 @@ LAYOUT
 
 .topAboutGiftIdeasWap {
     position: relative;
-    @include mi.paddingPercent(1920, 84, 0, 0, 0);
+    @include mi.paddingPercent(1920, 80, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
@@ -48,7 +48,7 @@ LAYOUT
 .titleAboutGiftIdeas {}
 
 .h2TitleAboutGiftIdeas {
-    @include mi.fontSizePc(34);
+    @include mi.fontSizePc(40);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(100);
 
@@ -60,7 +60,7 @@ LAYOUT
 }
 
 .rubyTitleAboutGiftIdeas {
-    @include mi.marginPercent(1300, -1, auto, 0, auto);
+    @include mi.marginPercent(1300, -5, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
@@ -104,9 +104,9 @@ LAYOUT
 }
 
 .h3AboutGiftIdeas {
-    @include mi.fontSizePc(30);
+    @include mi.fontSizePc(32);
     @include mi.lineheightP(160);
-    @include mi.letterSpacing(50);
+    @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
         margin-top: 3.57%;
@@ -120,7 +120,7 @@ LAYOUT
 }
 
 .rubyAboutGiftIdeas {
-    @include mi.marginPercent(440, -4, 0, 0, 0);
+    @include mi.marginPercent(440, -7, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);

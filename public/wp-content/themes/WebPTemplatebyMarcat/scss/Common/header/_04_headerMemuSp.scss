@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -18,13 +18,13 @@ LAYOUT
     -ms-overflow-style: none;
     scrollbar-width: none;
     transition: 0.3s cubic-bezier(0.4, 0.4, 0, 1);
+
     &::-webkit-scrollbar {
         display: none;
     }
 }
 
-.headerMenuSpLxn {
-}
+.headerMenuSpLxn {}
 
 .closeMenuSp {
     position: absolute;
@@ -40,8 +40,7 @@ LAYOUT
     @include mi.ontenerWidth(375, 280);
 }
 
-.ulNavHeaderMenuSpBx {
-}
+.ulNavHeaderMenuSpBx {}
 
 .liNavHeaderMenuSpBx {
     &:nth-child(n + 2) {
@@ -54,6 +53,7 @@ LAYOUT
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     text-decoration: none;
+
     &:nth-child(n + 2) {
         margin-top: 5.27%;
         margin-bottom: 0%;
@@ -92,9 +92,11 @@ LAYOUT
         @include mi.marginPercent(290, 24, auto, 0, auto);
     }
 }
-.ulHeaderFixedBxSp02 .liHeaderFixedBxSp02 {
+
+.liHeaderFixedBxSp02 {
     &:nth-child(n + 2) {
-        @include mi.marginPercent(290, 24, auto, 0, auto);
+        margin: 4.8% 0% 0% 0%;
+        width: 100%;
     }
 }
 
@@ -108,7 +110,10 @@ LAYOUT
 }
 
 .telContactSpHeader {
-    @include mi.marginPercent(290, 40, auto, 0, auto);
+    margin-top: 12.79%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .liTelContactSpHeader {
@@ -119,11 +124,13 @@ LAYOUT
     }
 }
 
-.btnTelContactSpHeader {
-}
+.btnTelContactSpHeader {}
 
 .txtnavHeaderMenuSpLast {
-    @include mi.marginPercent(290, 20, auto, 0, auto);
+    margin-top: 3.89%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
     @include mi.fontSizeSp(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);

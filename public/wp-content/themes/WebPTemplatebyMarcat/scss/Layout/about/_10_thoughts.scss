@@ -48,7 +48,7 @@ LAYOUT
 .titleAboutThought {}
 
 .h2TitleAboutThought {
-    @include mi.fontSizePc(35);
+    @include mi.fontSizePc(39);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(120);
 
@@ -60,7 +60,7 @@ LAYOUT
 }
 
 .rubyTitleAboutThought {
-    @include mi.marginPercent(1300, 0, auto, 0, auto);
+    @include mi.marginPercent(1300, -7, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);

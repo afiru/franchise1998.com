@@ -1,4 +1,4 @@
-<div class="weddingSweets">
+<div id="gift" class="weddingSweets">
     <div class="wapper weddingSweetsWap">
         <!--sp:330-->
         <section class="secWeddingSweets">

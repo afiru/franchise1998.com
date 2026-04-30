@@ -5,7 +5,7 @@
 
         <ul class="d_flex j_between row ulTopSelect">
             <li class="liTopSelect">
-                <a class="btnAction d_block btnLiTopSelect">
+                <a class="btnAction d_block btnLiTopSelect" href="<?php echo home_url('/products/purpose/new-products-limited-time-period/'); ?>">
                     <figure class="picBtnLiTopSelect">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picBtnLiTopSelect01Pc.png'); ?>">
@@ -21,7 +21,7 @@
             </li>
 
             <li class="liTopSelect">
-                <a class="btnAction d_block btnLiTopSelect">
+                <a class="btnAction d_block btnLiTopSelect" href="<?php echo home_url('/products/purpose/birthday-anniversary/'); ?>">
                     <figure class="picBtnLiTopSelect">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picBtnLiTopSelect02Pc.png'); ?>">
@@ -37,7 +37,7 @@
             </li>
 
             <li class="liTopSelect">
-                <a class="btnAction d_block btnLiTopSelect">
+                <a class="btnAction d_block btnLiTopSelect" href="<?php echo home_url('/products/purpose/baked-goods-and-gifts/'); ?>">
                     <figure class="picBtnLiTopSelect">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picBtnLiTopSelect03Pc.png'); ?>">
@@ -53,7 +53,7 @@
             </li>
 
             <li class="liTopSelect">
-                <a class="btnAction d_block btnLiTopSelect">
+                <a class="btnAction d_block btnLiTopSelect" href="<?php echo home_url('/products/purpose/family-celebration/'); ?>">
                     <figure class="picBtnLiTopSelect">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picBtnLiTopSelect04Pc.png'); ?>">
@@ -69,7 +69,7 @@
             </li>
 
             <li class="liTopSelect">
-                <a class="btnAction d_block btnLiTopSelect">
+                <a class="btnAction d_block btnLiTopSelect" href="<?php echo home_url('/products/purpose/buddhist-memorial-service/'); ?>">
                     <figure class="picBtnLiTopSelect">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picBtnLiTopSelect05Pc.png'); ?>">
@@ -85,7 +85,7 @@
             </li>
 
             <li class="liTopSelect">
-                <a class="btnAction d_block btnLiTopSelect">
+                <a class="btnAction d_block btnLiTopSelect" href="<?php echo home_url('/products/purpose/sending-flowers/'); ?>">
                     <figure class="picBtnLiTopSelect">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/picBtnLiTopSelect06Pc.png'); ?>">

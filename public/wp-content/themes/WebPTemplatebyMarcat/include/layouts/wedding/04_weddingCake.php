@@ -1,4 +1,4 @@
-<div class="bg_F1ECE8 weddingCake">
+<div id="cake" class="bg_F1ECE8 weddingCake">
     <div class="wapper weddingCakeWap">
         <!--sp:336-->
         <section class="secWeddingCake">

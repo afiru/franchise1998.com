@@ -27,7 +27,7 @@
                 </p>
 
                 <div class="btnAboutCommitmentFxLxn">
-                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAboutCommitmentFx" href="<?php echo home_url('/'); ?>">
+                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAboutCommitmentFx" href="<?php echo home_url('/material/'); ?>">
                         <span class="iconBbtnAboutCommitmentFxs">詳しく見る</span>
                         <!--bg:../img/index/iconBbtnAboutCommitmentFxs.svg-->
                     </a>

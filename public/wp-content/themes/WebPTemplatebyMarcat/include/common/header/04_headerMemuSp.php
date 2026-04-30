@@ -13,59 +13,59 @@
                     <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">トップ</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">フランシーズについて</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/about/'); ?>">フランシーズについて</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx liNavHeaderMenuSpBx02">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">－ 商品の魅力</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/appeal/'); ?>">－ 商品の魅力</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx liNavHeaderMenuSpBx02">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">－ 素材へのこだわり</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/material/'); ?>">－ 素材へのこだわり</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx liNavHeaderMenuSpBx02">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">－ スタッフの想い</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/staff/'); ?>">－ スタッフの想い</a>
                 </li>
 
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">商品一覧</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/product/'); ?>">商品一覧</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">トピックス</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/topics/'); ?>">トピックス</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">お客様の声</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/voice/'); ?>">お客様の声</a>
                 </li>
 
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">お買い物ガイド・よくある質問</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくある質問</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">メイプルタウン会員特典</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/member/'); ?>">メイプルタウン会員特典</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/'); ?>">お祝い・ギフトのご提案</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/suggestio/'); ?>">お祝い・ギフトのご提案</a>
                 </li>
             </ul>
 
             <div class="bg_fff brdNavHeaderSp"></div>
 
             <ul class="d_flex j_between row ulHeaderFixedBxSp ulHeaderFixedBxSp02">
-                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
-                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">オリジナルプリントスイーツ</a>
+                <li class=" liHeaderFixedBxSp02">
+                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/printedsweet/'); ?>">オリジナルプリントスイーツ</a>
                 </li>
-                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
-                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">たま卵チーズ</a>
+                <li class=" liHeaderFixedBxSp02">
+                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/tamaran/'); ?>">たま卵チーズ</a>
                 </li>
-                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
-                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">パーティープラン</a>
+                <li class=" liHeaderFixedBxSp02">
+                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/partyplan/'); ?>">パーティープラン</a>
                 </li>
-                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
-                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">ウェディングサービス</a>
+                <li class=" liHeaderFixedBxSp02">
+                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/wedding/'); ?>">ウェディングサービス</a>
                 </li>
-                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
+                <li class=" liHeaderFixedBxSp02">
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">採用情報</a>
                 </li>
-                <li class="liHeaderFixedBxSp liHeaderFixedBxSp02">
-                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">サイトマップ</a>
+                <li class=" liHeaderFixedBxSp02">
+                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/sitemap/'); ?>">サイトマップ</a>
                 </li>
             </ul>
 
@@ -77,7 +77,7 @@
                 </li>
 
                 <li class="liTelContactSpHeader">
-                    <a class="d_block undernone btnTelContactSpHeader">
+                    <a class="d_block undernone btnTelContactSpHeader" href="<?php echo home_url('/contact/'); ?>">
                         <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnTelContactSpHeader02.svg'); ?>" alt="<?php echo esc_attr('お問い合わせ'); ?>" width="162" height="45">
                     </a>
                 </li>

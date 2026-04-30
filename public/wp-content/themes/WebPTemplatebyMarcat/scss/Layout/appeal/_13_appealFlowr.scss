@@ -34,10 +34,14 @@ LAYOUT
 
 .secAppealFlower {
     @include mi.ontenerWidth(1300, 560);
+    @include mi.marginPercent(1300, -16, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 4.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -57,10 +61,13 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
-    @include mi.marginPercent(560, 15, auto, 0, auto);
+    @include mi.marginPercent(560, -7, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -1.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
@@ -71,10 +78,13 @@ LAYOUT
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
-    @include mi.marginPercent(560, 50, auto, 0, auto);
+    @include mi.marginPercent(560, 36, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 4.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(20);
@@ -85,10 +95,13 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
-    @include mi.marginPercent(560, 40, auto, 0, auto);
+    @include mi.marginPercent(560, 23, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 3.07%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -96,11 +109,14 @@ LAYOUT
 }
 
 .ulAppealFlower {
-    @include mi.marginPercent(560, 40, 0, 0, 0);
+    @include mi.marginPercent(560, 30, 0, 0, 0);
     @include mi.ontenerWidth(560, 259);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 7.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 260);
     }
 }
@@ -137,6 +153,6 @@ LAYOUT
         @include mi.ontenerWidth(260, 240);
         margin: auto;
         background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
-        background-size: auto 15%;
+        background-size: auto 11.5%;
     }
 }

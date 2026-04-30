@@ -30,7 +30,7 @@ LAYOUT
 .titleGiftSuggestions {}
 
 .h2TitleGiftSuggestions {
-    @include mi.fontSizePc(30);
+    @include mi.fontSizePc(32);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(100);
 
@@ -43,14 +43,14 @@ LAYOUT
 }
 
 .rubyTitleGiftSuggestions {
-    @include mi.marginPercent(1300, 4, 0, 0, 0);
-    @include mi.fontSizePc(17);
+    @include mi.marginPercent(1300, 1, 0, 0, 0);
+    @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
         margin: 1.06% 0% 0% 0%;
-        @include mi.fontSizeSp(12);
+        @include mi.fontSizeSp(11.5);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
         text-align: left;
@@ -62,7 +62,7 @@ LAYOUT
     @include mi.marginPercent(1300, 45, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, 0, 0, 0);
+        margin: 11.09% 0% 0% 0%;
     }
 }
 
@@ -75,15 +75,15 @@ LAYOUT
 
     &:nth-child(n + 2) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 25, 0, 0, 0);
+            margin: 5.57% 0% 0% 0%;
         }
     }
 
     &:nth-child(n + 3) {
-        @include mi.marginPercent(1300, 30, 0, 0, 0);
+        @include mi.marginPercent(1300, 23, 0, 0, 0);
 
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 18, 0, 0, 0);
+            margin: 5.57% 0% 0% 0%;
         }
     }
 }
@@ -112,6 +112,7 @@ LAYOUT
     @include mi.marginPercent(620, -6, 0, 0, 0);
 
     @include mi.mq(sp) {
+        margin: -2.97% 0% 0% 0%;
         @include mi.fontSizeSp(15);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
@@ -125,9 +126,17 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
+        margin-top: 4.07%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(130);
         @include mi.letterSpacing(0);
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
     }
 }
 
@@ -171,9 +180,9 @@ LAYOUT
     text-align: center;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(200, 163);
+        width: 86.49%;
         margin: auto;
         background: url(../img/iconBbtnCntGiftSuggestionss.svg) no-repeat right center;
-        background-size: auto 20%;
+        background-size: auto 15%;
     }
 }

@@ -7,12 +7,15 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .materialMade {
-    @include mi.marginPercent(1920, 44, auto, 0, auto);
+    @include mi.marginPercent(1920, 46, auto, 0, auto);
     width: 100%;
     overflow: hidden;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 100, auto, 0, auto);
+        margin-top: 25.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -46,10 +49,10 @@ LAYOUT
 }
 
 .secMaterialMade {
-    @include mi.paddingPercent(1300, 125, 0, 0, 0);
+    @include mi.paddingPercent(1300, 116, 0, 0, 0);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 70, 0, 0, 0);
+        padding: 19.21% 0% 0% 0%;
     }
 }
 
@@ -67,34 +70,41 @@ LAYOUT
 
 .txtMaterialMade {
     @include mi.ontenerWidth(1300, 805);
-    @include mi.marginPercent(1300, 43, auto, 0, auto);
+    @include mi.marginPercent(1300, 26, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 3.99%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
+        width: 98.92%;
     }
 }
 
 .photosMaterialMade {
-    @include mi.marginPercent(1300, 70, auto, 0, auto);
+    @include mi.marginPercent(1300, 63, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 6.59%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .underPicBtmDefo {
-    @include mi.paddingPercent(1920, 175, 0, 0, 0);
+    @include mi.paddingPercent(1920, 113, 0, 0, 0);
     @include mi.marginPercent(1920, 0, auto, 0, auto);
     background: #fff;
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 125, 0, 0, 0);
+        padding: 30.33% 0% 0% 0%;
         @include mi.marginPercent(375, 0, auto, 0, auto);
     }
 

@@ -34,58 +34,58 @@
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">TOP</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">フランシーズについて</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/about/'); ?>">フランシーズについて</a>
                             </li>
                             <li class="liNavFooterTop02">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">－ 商品の魅力</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/appeal/'); ?>">－ 商品の魅力</a>
                             </li>
                             <li class="liNavFooterTop02">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">－ 素材へのこだわり</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/material/'); ?>">－ 素材へのこだわり</a>
                             </li>
                             <li class="liNavFooterTop02">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">－ スタッフの想い</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/staff/'); ?>">－ スタッフの想い</a>
                             </li>
                         </ul>
 
                         <ul class="ulNavFooterTop ulNavFooterTop02">
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">商品一覧</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/products/'); ?>">商品一覧</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">トピックス</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/topics/'); ?>">トピックス</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">お祝い・ギフトのご提案</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/suggestio/'); ?>">お祝い・ギフトのご提案</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">お買い物ガイド・よくある質問</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくある質問</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">お客様の声</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/voice/'); ?>">お客様の声</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">会員特典</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/member/'); ?>">会員特典</a>
                             </li>
                         </ul>
 
                         <ul class="ulNavFooterTop ulNavFooterTop03">
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">オリジナルプリントスイーツ</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/printedsweet/'); ?>">オリジナルプリントスイーツ</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">たま卵チーズ</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/tamaran/'); ?>">たま卵チーズ</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">パーティープラン</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/partyplan/'); ?>">パーティープラン</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">ウェディングサービス</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/wedding/'); ?>">ウェディングサービス</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">採用情報</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/sitemap/'); ?>">採用情報</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/'); ?>">サイトマップ</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/sitemap/'); ?>">サイトマップ</a>
                             </li>
                         </ul>
                     </nav>
@@ -107,7 +107,7 @@
                         </li>
 
                         <li class="liSearchFooterNav">
-                            <a class="d_flex j_center ali_center cl_fff undernone brd_fff btnSearchFooterNav" href="<?php echo home_url(); ?>">
+                            <a class="d_flex j_center ali_center cl_fff undernone brd_fff btnSearchFooterNav" href="<?php echo home_url('/access/'); ?>">
                                 店舗情報・アクセス
                             </a>
                         </li>

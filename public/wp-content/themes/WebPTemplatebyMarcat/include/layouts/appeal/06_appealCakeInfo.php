@@ -12,7 +12,7 @@
 
             <ul class="d_flex j_between row ulAppealCakeInfo">
                 <li class="liAppealCakeInfo">
-                    <a class="d_block btnLiAppealCakeInfo" href="<?php echo home_url('/'); ?>">
+                    <a class="d_block btnLiAppealCakeInfo" href="<?php echo home_url('/contact/'); ?>">
                         <figure class="photoLiAppealCakeInfo">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnLiAppealCakeInfo01Pc.png'); ?>">
@@ -38,7 +38,7 @@
                 </li>
 
                 <li class="liAppealCakeInfo">
-                    <a class="d_block btnLiAppealCakeInfo" href="<?php echo home_url('/'); ?>">
+                    <a class="d_block btnLiAppealCakeInfo" href="<?php echo home_url('/wedding/#cake'); ?>">
                         <figure class="photoLiAppealCakeInfo">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnLiAppealCakeInfo03Pc.png'); ?>">
@@ -46,7 +46,7 @@
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnLiAppealCakeInfo03Pc.png'); ?>" alt="<?php echo esc_attr('説明テキスト'); ?>" width="" height="">
                             </picture>
                         </figure>
-                        <p class="t_center cl_453C3C fw_500 txtset txtLiAppealCakeInfo">ウェディングケーキについて</p>
+                        <p class="t_center cl_453C3C fw_500 txtset txtLiAppealCakeInfo">ウェディングケーキ<br class="sp_only">について</p>
                     </a>
                 </li>
             </ul>

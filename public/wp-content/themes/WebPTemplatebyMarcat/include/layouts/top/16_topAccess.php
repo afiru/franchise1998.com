@@ -1,4 +1,4 @@
-<div class="topAccess">
+<div id="topAccess" class="topAccess">
     <div class="wapper d_flex j_between row  topAccessWap">
         <section class="secTopAccess">
             <h2 class="cl_421D12 txtset CormorantUnicase fw_500 h2TopAccess">ACCESS</h2>
@@ -12,7 +12,7 @@
                     <div class="pc_only cntliTopAccess">
                         <p class="cl_453C3C fw_500 txtset txtLiTopAccess">〒599-8237  大阪府堺市中区深井水池町3254番地</p>
                         <p class="cl_453C3C fw_500 txtset txtLiTopAccess txtLiTopAccess02">
-                            <a class="cl_F04E11" href="" target="_blank">Google Maps</a>
+                            <a class="cl_F04E11" href="https://maps.app.goo.gl/mxoYqD7hPqSeBza3A" target="_blank">Google Maps</a>
                         </p>
                     </div>
                     <div class="sp_only cntliTopAccess">
@@ -62,7 +62,7 @@
             </figure>
 
             <div class="btnCntTopAccessLxn">
-                <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopAccess" href="<?php echo home_url('/'); ?>">
+                <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopAccess" href="<?php echo home_url('/access/'); ?>">
                     <span class="iconBbtnCntTopAccesss">詳しく見る</span>
                     <!--bg:../img/index/iconBbtnCntTopAccesss.svg-->
                 </a>

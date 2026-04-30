@@ -22,7 +22,7 @@
             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnLiPcFixedMenu01.svg'); ?>" alt="<?php echo esc_attr('商品を探す'); ?>" width="45" height="136">
         </li>
         <li class="liPcFixedMenu">
-            <a class="btnPcFixedMenu" href="<?php echo home_url(); ?>">
+            <a class="btnPcFixedMenu" href="<?php echo home_url('/access/'); ?>">
                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnLiPcFixedMenu02.svg'); ?>" alt="<?php echo esc_attr('店舗情報'); ?>" width="45" height="105">
             </a>
         </li>

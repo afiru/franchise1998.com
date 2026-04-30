@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -11,8 +11,12 @@ LAYOUT
     @include mi.marginPercent(1920, 125, auto, 0, auto);
     overflow: hidden;
     width: 100%;
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 70, auto, 0, auto);
+        margin-top: 16.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -39,6 +43,7 @@ LAYOUT
     position: absolute;
     left: 0;
     top: 0;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 50);
     }
@@ -46,9 +51,10 @@ LAYOUT
 
 //
 .secMaterialInfo {
-    @include mi.paddingPercent(1300, 125, 0, 0, 0);
+    @include mi.paddingPercent(1300, 117, 0, 0, 0);
+
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 60, 0, 0, 0);
+        padding: 16.18% 0% 0% 0%;
     }
 }
 
@@ -56,6 +62,7 @@ LAYOUT
     @include mi.fontSizePc(24);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(160);
@@ -63,14 +70,18 @@ LAYOUT
     }
 }
 
-.txtMaterialInfo {
-    @include mi.marginPercent(1300, 40, auto, 0, auto);
+.txtMaterialInfoTop {
+    @include mi.marginPercent(1300, 22, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 30, auto, 0, auto);
-        @include mi.ontenerWidth(375, 330);
+        margin-top: 4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -78,40 +89,51 @@ LAYOUT
 }
 
 .ulMaterialInfo {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 44, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 30, auto, 0, auto);
+        margin-top: 7%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .liMaterialInfo {
-    @include mi.marginPercent(1300, 0, auto, 81, auto);
+    @include mi.marginPercent(1300, 0, auto, 75, auto);
     @include mi.ontenerWidth(1300, 394);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 0, auto, 0, auto);
         @include mi.ontenerWidth(330, 330);
     }
+
     &:nth-child(3n + 2) {
-        @include mi.marginPercent(1300, 0, 59, 81, 59);
+        @include mi.marginPercent(1300, 0, 59, 75, 59);
+
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 0, auto, 0, auto);
         }
     }
+
     &:nth-child(n + 2) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 30, auto, 0, auto);
+            margin-top: 8.09%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
 
-.phptoMaterialInfo {
-}
+.phptoMaterialInfo {}
 
 .h3MaterialInfo {
     @include mi.marginPercent(394, 20, auto, 0, auto);
     @include mi.fontSizePc(11);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(100);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 15, auto, 0, auto);
         @include mi.fontSizeSp(11);
@@ -121,12 +143,16 @@ LAYOUT
 }
 
 .h4MaterialInfo {
-    @include mi.marginPercent(394, 10, auto, 0, auto);
+    @include mi.marginPercent(394, 0, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 10, auto, 0, auto);
+        margin-top: 0.03%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -134,12 +160,16 @@ LAYOUT
 }
 
 .txtMaterialInfo {
-    @include mi.marginPercent(394, 30, auto, 0, auto);
+    @include mi.marginPercent(394, 16, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 10, auto, 0, auto);
+        margin-top: 3.03%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);

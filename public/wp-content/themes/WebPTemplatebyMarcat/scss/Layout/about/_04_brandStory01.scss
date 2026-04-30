@@ -7,7 +7,7 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .brandStory01 {
-    @include mi.marginPercent(1920, 81, auto, 0, auto);
+    @include mi.marginPercent(1920, 85, auto, 0, auto);
     position: relative;
 
     @include mi.mq(sp) {

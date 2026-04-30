@@ -10,7 +10,7 @@
 
         <ul class="d_flex j_between row ulAboutThought">
             <li class="liAboutThought">
-                <a class="undernone btnAboutThought" href="<?php echo home_url('/'); ?>">
+                <a class="undernone btnAboutThought" href="<?php echo home_url('/staff/#patissi'); ?>">
                     <figure class="photoBtnAboutThought">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/about/photoBtnAboutThought01Pc.png'); ?>">
@@ -25,7 +25,7 @@
             </li>
 
             <li class="liAboutThought">
-                <a class="undernone btnAboutThought" href="<?php echo home_url('/'); ?>">
+                <a class="undernone btnAboutThought" href="<?php echo home_url('/staff/#concierge'); ?>">
                     <figure class="photoBtnAboutThought">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/about/photoBtnAboutThought02Pc.png'); ?>">
@@ -40,7 +40,7 @@
             </li>
 
             <li class="liAboutThought">
-                <a class="undernone btnAboutThought" href="<?php echo home_url('/'); ?>">
+                <a class="undernone btnAboutThought" href="<?php echo home_url('/staff/#flower'); ?>">
                     <figure class="photoBtnAboutThought">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/about/photoBtnAboutThought03Pc.png'); ?>">
@@ -56,7 +56,7 @@
         </ul>
 
         <div class="btnAboutThoughtLxn02">
-            <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAboutThought02" href="<?php echo home_url('/'); ?>">
+            <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAboutThought02" href="<?php echo home_url('/staff/'); ?>">
                 <span class="iconBbtnAboutThoughts02">詳しく見る</span>
                 <!--bg:../img/index/iconBbtnProductAppealFx01s.svg-->
             </a>

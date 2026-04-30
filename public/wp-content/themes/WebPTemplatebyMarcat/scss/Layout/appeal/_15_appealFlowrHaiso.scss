@@ -7,17 +7,20 @@
 LAYOUT
 ========================================================================== */
 .appealFlowrHaiso {
-    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.marginPercent(1920, 66, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 70, auto, 0, auto);
+        margin-top: 17.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .appealFlowrHaisoWap {}
 
 .appealFlowrHaisoBg {
-    @include mi.paddingPercent(1300, 23, 0, 22, 0);
+    @include mi.paddingPercent(1300, 23, 0, 18, 0);
 
     @include mi.mq(sp) {
         @include mi.paddingPercent(375, 24, 0, 42, 0);
@@ -25,7 +28,7 @@ LAYOUT
 }
 
 .appealFlowrHaisoLxn {
-    @include mi.ontenerWidth(1300, 1254);
+    @include mi.ontenerWidth(1300, 1257);
     margin: auto;
 
     @include mi.mq(sp) {
@@ -43,10 +46,14 @@ LAYOUT
 
 .secAppealFlowrHaiso {
     @include mi.ontenerWidth(1254, 625);
+    transform: translate(-1.45%, -2%);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 7.27%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -54,26 +61,29 @@ LAYOUT
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
-    @include mi.paddingPercent(625, 0, 0, 17, 0);
+    @include mi.paddingPercent(625, 0, 0, 7, 0);
     border-bottom: 1px solid #BEBDBD;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
-        @include mi.paddingPercent(330, 0, 0, 20, 0);
+        padding: 0% 0% 4.06% 0%;
         border-bottom: 1px solid #BEBDBD;
     }
 }
 
 .txtAppealFlowrHaiso {
-    @include mi.marginPercent(625, 20, auto, 0, auto);
+    @include mi.marginPercent(625, 12, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 4.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -81,14 +91,17 @@ LAYOUT
 }
 
 .h3AppealFlowrHaiso {
-    @include mi.marginPercent(625, 11, auto, 0, auto);
+    @include mi.marginPercent(625, 17, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     aspect-ratio: 625 / 28;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 4.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -97,10 +110,13 @@ LAYOUT
 }
 
 .fxAppealFlowrHaiso {
-    @include mi.marginPercent(625, 11, auto, 0, auto);
+    @include mi.marginPercent(625, 13, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 4.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -139,18 +155,23 @@ LAYOUT
 
 .telAppealFlowrHaiso {
     @include mi.ontenerWidth(625, 280);
+    margin: 1px 0 0 0;
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
         justify-content: flex-start;
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 0.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .txtTelAppealFlowrHaiso {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
-    @include mi.letterSpacing(0);
+    @include mi.letterSpacing(100);
+    transform: translate(3%, -16%);
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
@@ -162,12 +183,13 @@ LAYOUT
 .linkTelAppealFlowrHaiso {
     @include mi.fontSizePc(32);
     @include mi.lineheightP(150);
-    @include mi.letterSpacing(0);
+    @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(150);
-        @include mi.letterSpacing(10);
+        @include mi.letterSpacing(100);
+        margin: 0 0 0 2%;
     }
 }
 
@@ -175,7 +197,10 @@ LAYOUT
     @include mi.ontenerWidth(1254, 233);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 34, auto, 0, auto);
+        margin-top: 6.3%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 233);
     }
 }

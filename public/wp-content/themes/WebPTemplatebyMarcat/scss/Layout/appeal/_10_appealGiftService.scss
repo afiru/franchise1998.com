@@ -7,10 +7,10 @@
 LAYOUT
 ========================================================================== */
 .appealGiftService {
-    @include mi.paddingPercent(1920, 125, 0, 0, 0);
+    @include mi.paddingPercent(1920, 115, 0, 0, 0);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 125, 0, 0, 0);
+        padding: 11.33% 0% 0% 0%;
     }
 }
 
@@ -31,13 +31,17 @@ LAYOUT
 }
 
 .txtAppealGiftService {
-    @include mi.marginPercent(1300, 25, auto, 0, auto);
+    @include mi.marginPercent(1300, 10, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 30, auto, 0, auto);
+        margin-top: 4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 88%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -46,17 +50,20 @@ LAYOUT
 
 //
 .appealGiftServiceMain {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
-    @include mi.paddingPercent(1300, 55, 0, 48, 0);
+    @include mi.marginPercent(1300, 43, auto, 0, auto);
+    @include mi.paddingPercent(1300, 46, 0, 48, 0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 30, auto, 0, auto);
-        @include mi.paddingPercent(375, 30, 0, 31, 0);
+        margin-top: 5.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 6% 0% 8.26% 0%;
     }
 }
 
 .appealGiftServiceMainLxn {
-    @include mi.ontenerWidth(1300, 1212);
+    @include mi.ontenerWidth(1300, 1225);
     margin: auto;
 
     @include mi.mq(sp) {
@@ -67,7 +74,7 @@ LAYOUT
 .appealGiftServiceMainTopFx {}
 
 .secAppealGiftServiceTopLeft {
-    @include mi.ontenerWidth(1212, 450);
+    @include mi.ontenerWidth(1212, 452);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
@@ -75,14 +82,14 @@ LAYOUT
 }
 
 .h3AppealGiftServiceTop {
-    @include mi.paddingPercent(450, 0, 0, 15, 0);
+    @include mi.paddingPercent(450, 0, 0, 7, 0);
     border-bottom: 1px solid #BEBDBD;
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 0, 0, 15, 0);
+        padding: 0% 0% 3.54% 0%;
         border-bottom: 1px solid #BEBDBD;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(140);
@@ -91,13 +98,16 @@ LAYOUT
 }
 
 .txtAppealGiftServiceTop {
-    @include mi.marginPercent(450, 17.75, auto, 0, auto);
+    @include mi.marginPercent(450, 10, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 2.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -105,13 +115,16 @@ LAYOUT
 }
 
 .txtAppealGiftServiceTop02 {
-    @include mi.marginPercent(450, 17, auto, 0, auto);
+    @include mi.marginPercent(450, 3, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 2.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -120,23 +133,26 @@ LAYOUT
 
 //
 .secAppealGiftServiceTopRight {
-    @include mi.ontenerWidth(1212, 738);
+    @include mi.ontenerWidth(1212, 741);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 7.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 330);
     }
 }
 
 .h3AppealGiftServiceTopRight {
-    @include mi.paddingPercent(738, 0, 0, 15, 0);
+    @include mi.paddingPercent(738, 0, 0, 7, 0);
     border-bottom: 1px solid #BEBDBD;
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 0, 0, 15, 0);
+        padding: 0% 0% 3.54% 0%;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
@@ -144,13 +160,16 @@ LAYOUT
 }
 
 .txtAppealGiftServiceTopRight {
-    @include mi.marginPercent(738, 17.75, auto, 0, auto);
+    @include mi.marginPercent(738, 10, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 2.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -158,31 +177,38 @@ LAYOUT
 }
 
 .photoAppealGiftServiceTopRight {
-    @include mi.marginPercent(738, 44, auto, 0, auto);
+    @include mi.marginPercent(738, 35, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 35, auto, 0, auto);
+        margin-top: 8.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 }
 
 //
 .secAppealGiftServiceBtm {
-    @include mi.marginPercent(1212, 83, auto, 0, auto);
+    @include mi.marginPercent(1212, 72, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 10.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .h2AppealGiftServiceBtm {
-    @include mi.paddingPercent(1212, 0, 0, 15, 0);
+    @include mi.paddingPercent(1212, 0, 0, 6, 0);
     border-bottom: 1px solid #BEBDBD;
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 0, 0, 15, 0);
+        padding: 0% 0% 1.54% 0%;
         border-bottom: 1px solid #BEBDBD;
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(180);
@@ -191,13 +217,16 @@ LAYOUT
 }
 
 .txtAppealGiftServiceBtm {
-    @include mi.marginPercent(1212, 17.75, auto, 0, auto);
+    @include mi.marginPercent(1212, 13, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 2.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -205,9 +234,12 @@ LAYOUT
 }
 
 .picAppealGiftServiceBtm {
-    @include mi.marginPercent(1212, 50, auto, 0, auto);
+    @include mi.marginPercent(1212, 39, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 7.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

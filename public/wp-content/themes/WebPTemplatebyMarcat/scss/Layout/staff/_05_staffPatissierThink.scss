@@ -1,64 +1,79 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .staffPatissierThink {
     @include mi.paddingPercent(1920, 100, 0, 150, 0);
+
     @include mi.mq(sp) {
         @include mi.paddingPercent(375, 70, 0, 80, 0);
     }
 }
-.staffPatissierThinkWap {
-}
-.staffPatissierThinkFx {
-}
+
+.staffPatissierThinkWap {}
+
+.staffPatissierThinkFx {}
+
 .photoStaffPatissierThink {
     @include mi.ontenerWidth(1300, 495);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 300);
         margin: 0 0 0 auto;
     }
 }
+
 //右
 .cntStaffPatissierThink {
+    margin: 0.5% 0 0 0;
     @include mi.ontenerWidth(1300, 680);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
         @include mi.marginPercent(375, 52, auto, 0, auto);
     }
 }
+
 .txtCntStaffPatissierThinkFig {
     @include mi.ontenerWidth(633, 11.35);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 9.72);
     }
 }
+
 .secCntCntStaffPatissierThink {
     @include mi.ontenerWidth(680, 633);
+    margin: -3% 0 0 0;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 300);
         margin: 0 0 0 auto;
     }
 }
+
 .h2CntStaffPatissierThink {
     @include mi.fontSizePc(26);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
+
 .txtCntStaffPatissierThink {
-    @include mi.marginPercent(633, 34, 0, 0, 0);
+    @include mi.marginPercent(633, 15, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(300, 30, 0, 0, 0);
         @include mi.fontSizeSp(14);
@@ -66,74 +81,93 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .txtPicStaffPatissierThink {
-    @include mi.marginPercent(633, 32, 0, 0, 0);
+    @include mi.marginPercent(633, 24, 0, 0, 0);
     @include mi.ontenerWidth(633, 113);
-    transform: translateX(-15%);
+    transform: translateX(-22%);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(300, 52, 0, 0, 0);
         @include mi.ontenerWidth(300, 113);
     }
 }
+
 .navStaffPatissierThink {
-    @include mi.marginPercent(633, 9, 0, 0, auto);
+    @include mi.marginPercent(633, 3, 0, 0, auto);
     @include mi.ontenerWidth(633, 633);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(300, 9, 0, 0, 0);
     }
 }
+
 .h3NavStaffPatissierThink {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
+
 .ulNavStaffPatissierThink {
-    @include mi.marginPercent(633, 14, 0, 0, auto);
+    @include mi.marginPercent(633, 10, 0, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(300, 14, 0, 0, 0);
     }
 }
+
 .liNavStaffPatissierThink {
     &:nth-child(n + 2) {
         @include mi.marginPercent(633, 24, auto, 0, auto);
+
         @include mi.mq(sp) {
             @include mi.marginPercent(300, 40, auto, 0, auto);
         }
     }
 }
+
 .photoNavStaffPatissierThink {
     @include mi.ontenerWidth(633, 146);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(300, 146);
     }
 }
+
 .secNavStaffPatissierThink {
     @include mi.ontenerWidth(633, 457);
+    margin: 2.8% 0 0 0;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(300, 20, auto, 0, auto);
         width: 100%;
     }
 }
+
 .h4NavStaffPatissierThink {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
     }
 }
+
 .txtNavStaffPatissierThink {
-    @include mi.marginPercent(633, 14, 0, 0, 0);
+    @include mi.marginPercent(633, 5, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(300, 20, auto, 0, auto);
         @include mi.fontSizeSp(12);

@@ -28,12 +28,12 @@
 
                 <ul class="d_flex j_between row ulAppealCake">
                     <li class="liAppealCake">
-                        <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAppealCake" href="<?php echo home_url('/'); ?>">
+                        <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAppealCake" href="<?php echo home_url('/products/product-category/decoration/'); ?>">
                             <span class="iconBbtnAppealCakes">デコレーション一覧を見る</span>
                         </a>
                     </li>
                     <li class="liAppealCake">
-                        <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAppealCake" href="<?php echo home_url('/'); ?>">
+                        <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAppealCake" href="<?php echo home_url('/products/product-category/cake/'); ?>">
                             <span class="iconBbtnAppealCakes">ケーキ一覧を見る</span>
                         </a>
                     </li>

@@ -39,7 +39,7 @@
                             <figure class="picHeaderFixedSearch">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch04.png'); ?>" alt="<?php echo esc_attr('オリジナル プリントスイーツ'); ?>" width="100" height="100">
                             </figure>
-                            <p class="t_center cl_453C3C fw_500 txtset rubyHeaderFixedSearch">オリジナル<br>プリントスイーツ</p>
+                            <p class="t_center cl_453C3C fw_500 txtset rubyHeaderFixedSearch">オリジナル<br>プリント<br class="sp_only">スイーツ</p>
                         </a>
                     </li>
 
@@ -226,8 +226,8 @@
                 </li>
 
                 <li class="liCtaHeaderFixedSearch">
-                    <a class="d_flex j_center ali_center bg_fff cl_421D12 fw_500 txtset undernone btnCtaHeaderFixedSearch" href="<?php echo home_url(); ?>">
-                        <span class="d_block t_center iconCtaHeaderFixedSearch">ONLINE SHOP</span>
+                    <a class=" d_flex j_center ali_center bg_fff cl_421D12 fw_500 txtset undernone btnCtaHeaderFixedSearch" href="<?php echo home_url(); ?>">
+                        <span class="CormorantUnicase d_block t_center iconCtaHeaderFixedSearch">ONLINE SHOP</span>
                         <!--bg:../img/iconCtaHeaderFixedSearch.svg--->
                     </a>
                 </li>

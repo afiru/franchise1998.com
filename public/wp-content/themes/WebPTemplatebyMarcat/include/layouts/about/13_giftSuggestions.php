@@ -40,7 +40,7 @@ $args = [
             </ul>
 
             <div class="btnCntGiftSuggestionsLxn">
-                <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntGiftSuggestions" href="<?php echo home_url('/'); ?>">
+                <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntGiftSuggestions" href="<?php echo home_url('/suggestion/'); ?>">
                     <span class="iconBbtnCntGiftSuggestionss">一覧を見る</span>
                     <!--bg:../img/index/iconBbtnCntGiftSuggestionss.svg-->
                 </a>

@@ -14,7 +14,7 @@
                 <p class="cl_453C3C fw_400 txtset rubyAppealGift">焼き菓子・ギフト</p>
 
                 <h3 class="cl_453C3C fw_500 txtset h3AppealGift">
-                    フランシーズが大切にしているのは、<br>人と人とのつながり。
+                    フランシーズが大切に<br class="sp_only">しているのは、<br>人と人とのつながり。
                 </h3>
                 <p class="cl_453C3C fw_500 txtset text_justify txtAppealGift">
                     「ありがとう」「お元気ですか」──そんな想いをお菓子に込めて、たくさんの温かなつながりをお手伝いしています。<br>
@@ -26,7 +26,7 @@
                     フランシーズの焼き菓子が、やさしい時間をお届けします。
                 </p>
                 <div class="btnAppealGiftsLxn">
-                    <a class="d_flex j_center ali_center cl_F04E11 bg_fff undernone fw_500 kaku btnAppealGifts" href="<?php echo home_url('/'); ?>">
+                    <a class="d_flex j_center ali_center cl_F04E11 bg_fff undernone fw_500 kaku btnAppealGifts" href="<?php echo home_url('/products/product-category/baked-goods-and-gifts/'); ?>">
                         <span class="iconBtnAppealGifts">焼き菓子・ギフト一覧を見る</span>
                     </a>
                 </div>

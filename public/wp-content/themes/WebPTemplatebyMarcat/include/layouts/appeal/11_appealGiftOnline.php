@@ -40,7 +40,7 @@
                 <section class="secAppealGiftOnlineAlert">
                     <h2 class="t_center cl_453C3C fw_500 txtset h2AppealGiftOnlineAlert">全国配送承ります。お気軽にご相談ください。</h2>
                     <p class="cl_453C3C txtset text_justify fw_500 txtAppealGiftOnlineAlert">
-                        店頭・お電話・オンラインショップ(24時間受付)でご注文いただけます。ご注文方法・配送に関して詳しくは<a class="cl_F28962 undernone" href="">お買い物ガイド</a>をご覧ください。
+                        店頭・お電話・オンラインショップ(24時間受付)でご注文いただけます。ご注文方法・配送に関して詳しくは<a class="cl_F28962 undernone" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド</a>をご覧ください。
                     </p>
                     <h3 class="d_flex j_center ali_center bg_421D12 cl_fff fw_500 txtset h3AppealGiftOnlineAlert">お電話・店頭でのご注文</h3>
                     <div class="d_flex j_between row ali_end fxAppealGiftOnlineAlert">

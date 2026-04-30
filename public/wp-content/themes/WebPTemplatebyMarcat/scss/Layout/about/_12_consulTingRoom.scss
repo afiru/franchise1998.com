@@ -50,9 +50,9 @@ LAYOUT
 }
 
 .h2CntConsulTingRoom {
-    @include mi.fontSizePc(30);
+    @include mi.fontSizePc(32);
     @include mi.lineheightP(160);
-    @include mi.letterSpacing(90);
+    @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
@@ -112,12 +112,15 @@ LAYOUT
 .ulCntConsulTingRoom {
     margin-top: 7.1%;
     margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     @include mi.ontenerWidth(440, 290);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 7.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 290);
     }
 }
@@ -127,7 +130,10 @@ LAYOUT
         @include mi.marginPercent(290, 20, auto, 0, auto);
 
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 15, auto, 0, auto);
+            margin-top: 5.54%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }

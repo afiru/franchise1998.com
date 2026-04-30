@@ -4,7 +4,7 @@
             <div class="d_flex j_between row appealCakeRecFx">
                 <div class="secAppealCakeRecTitleLxn">
                     <section class="secAppealCakeRecTitle">
-                        <h2 class="t_center cl_421D12 fw_500 h2AppealCakeRecTitle">RESERVATION</h2>
+                        <h2 class="t_center cl_421D12 fw_500 CormorantUnicase h2AppealCakeRecTitle">RESERVATION</h2>
                         <p class="cl_453C3C fw_400 txtset txtAppealCakeRecTitle">
                             ケーキWEBご予約<br>（店頭受取）
                         </p>

@@ -8,14 +8,14 @@
     <nav class="d_flex j_between ali_center navHeaderPc">
         <ul class="d_flex j_between ali_center ulNavHeaderPc">
             <li class="liNavHeaderPc">
-                <a class="d_flex j_center ali_center mincho bg_421D12 cl_fff undernone fw_500 btnNavHeaderPc">
-                    <span class="bgBtnHeaderPc01"><?php echo esc_html('ケーキWEB予約'); ?></span>
+                <a class="d_flex j_center ali_center mincho bg_421D12 cl_fff undernone fw_500 btnNavHeaderPc" href="<?php echo home_url('/'); ?>">
+                    <span class=" bgBtnHeaderPc01"><?php echo esc_html('ケーキWEB予約'); ?></span>
                     <!--bg:../img/bgBtnHeaderPc01.svg-->
                 </a>
             </li>
             <li class="liNavHeaderPc">
-                <a class="d_flex j_center ali_center CormorantUnicase bg_fff undernone cl_421D12 fw_400 btnNavHeaderPc">
-                    <span class="bgBtnHeaderPc02"><?php echo esc_html('ONLINE SHOP'); ?></span>
+                <a class="d_flex j_center ali_center CormorantUnicase bg_fff undernone cl_421D12 fw_400 btnNavHeaderPc" href="<?php echo home_url('/'); ?>">
+                    <span class=" bgBtnHeaderPc02"><?php echo esc_html('ONLINE SHOP'); ?></span>
                     <!--bg:../img/bgBtnHeaderPc02.svg-->
                 </a>
             </li>

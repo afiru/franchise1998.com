@@ -1,14 +1,14 @@
 /* ==========================================================================
 
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .appealGift {
     @include mi.marginPercent(1920, 175, auto, 0, auto);
-    @include mi.paddingPercent(1920, 125, 0, 125, 0);
+    @include mi.paddingPercent(1920, 109, 0, 141, 0);
     border-radius: 0 5.208333333333333vw 0 0;
 
     @include mi.mq(sp) {
@@ -25,8 +25,7 @@ LAYOUT
     }
 }
 
-.appealGiftFx {
-}
+.appealGiftFx {}
 
 .secAppealGift {
     @include mi.ontenerWidth(1300, 560);
@@ -43,7 +42,10 @@ LAYOUT
     @include mi.letterSpacing(100);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 4.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(32);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(100);
@@ -51,13 +53,16 @@ LAYOUT
 }
 
 .rubyAppealGift {
-    @include mi.marginPercent(560, 15, auto, 0, auto);
+    @include mi.marginPercent(560, -5, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -1.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
@@ -65,13 +70,16 @@ LAYOUT
 }
 
 .h3AppealGift {
-    @include mi.marginPercent(560, 50, auto, 0, auto);
+    @include mi.marginPercent(560, 35, auto, 0, auto);
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
-    @include mi.letterSpacing(0);
+    @include mi.letterSpacing(20);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 4.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(20);
@@ -79,13 +87,16 @@ LAYOUT
 }
 
 .txtAppealGift {
-    @include mi.marginPercent(560, 40, auto, 0, auto);
+    @include mi.marginPercent(560, 25, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 3.29%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -93,11 +104,14 @@ LAYOUT
 }
 
 .btnAppealGiftsLxn {
-    @include mi.marginPercent(560, 40, 0, 0, 0);
+    @include mi.marginPercent(560, 33, 0, 0, 0);
     @include mi.ontenerWidth(560, 259);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 7.29%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 260);
     }
 }
@@ -126,18 +140,16 @@ LAYOUT
 .iconBtnAppealGifts {
     @include mi.ontenerWidth(259, 237);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-        center;
-    background-size: auto 20%;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background-size: auto 13%;
     display: block;
     text-align: center;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(260, 228);
+        width: 89.99%;
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-            center;
-        background-size: auto 20%;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background-size: auto 15%;
     }
 }
 

@@ -20,12 +20,12 @@
                     <br>
                     お祝いのシーンを彩るブーケから、<br>季節の花々を使った可憐なアレンジメントまで、<br>ひとつひとつ丁寧にお作りします。<br>
                     <br>
-                    贈るお相手の好みや、記念日・お祝い・お供えなどの用途、<br>そしてお菓子との組み合わせまで。お客様の想いを伺いながら、<br>
+                    贈るお相手の好みや、記念日・お祝い・お供えなどの用途、<br class="pc_only">そしてお菓子との組み合わせまで。お客様の想いを伺いながら、<br class="pc_only">
                     世界でたったひとつのギフトをお届けします。
                 </p>
 
                 <div class="d_flex j_between row ulAppealFlower">
-                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAppealFlower" href="<?php echo home_url('/'); ?>">
+                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnAppealFlower" href="<?php echo home_url('/products/product-category/flowers-and-arrangements/'); ?>">
                         <span class="iconBbtnAppealFlowers">お花・アレンジメント一覧を見る</span>
                     </a>
                 </div>

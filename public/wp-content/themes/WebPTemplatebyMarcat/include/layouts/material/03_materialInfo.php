@@ -5,7 +5,7 @@
 
         <section class="secMaterialInfo">
             <h2 class="t_center cl_453C3C fw_500 txtset h2MaterialInfo">“厳選した素材”</h2>
-            <p class="t_center cl_453C3C fw_500 txtset txtMaterialInfo">
+            <p class="t_center cl_453C3C fw_500 txtset txtMaterialInfoTop">
                 お菓子の美味しさは、素材の良さで決まると言っても過言ではありません。<br>
                 しかし、いい素材にはコストがかかる。<br>
                 それでもフランシーズでは、その素材にこだわり、より多くの方々に美味しい笑顔を届けたい。<br>

@@ -22,7 +22,7 @@
                 </p>
 
                 <div class="btnCntTopKikkakeLxn">
-                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopKikkake" href="<?php echo home_url('/'); ?>">
+                    <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopKikkake" href="<?php echo home_url('/about/'); ?>#brandStoryTitle">
                         <span class="iconBbtnCntTopKikkakes">詳しく見る</span>
                         <!--bg:../img/index/iconBbtnCntTopKikkakes.svg-->
                     </a>

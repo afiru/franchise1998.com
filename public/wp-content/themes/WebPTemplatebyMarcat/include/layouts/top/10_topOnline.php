@@ -2,7 +2,7 @@
     <nav class="wapper navTopOnline">
         <ul class="d_flex j_between row ulNavTopOnline">
             <li class="liNavTopOnline">
-                <a class="d_block btnNavTopOnline" href="<?php echo home_url(); ?>">
+                <a class="d_block btnNavTopOnline" href="https://selvice-lifedesign.jp/" target="_blank">
                     <picture>
                         <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/btnNavTopOnline01Pc.png'); ?>">
                         <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/btnNavTopOnline01Sp.png'); ?>">
@@ -12,7 +12,7 @@
             </li>
 
             <li class="liNavTopOnline">
-                <a class="d_block btnNavTopOnline" href="<?php echo home_url(); ?>">
+                <a class="d_block btnNavTopOnline" href="https://selvice-members.co.jp/" target="_blank">
                     <picture>
                         <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/btnNavTopOnline02Pc.png'); ?>">
                         <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/btnNavTopOnline02Sp.png'); ?>">

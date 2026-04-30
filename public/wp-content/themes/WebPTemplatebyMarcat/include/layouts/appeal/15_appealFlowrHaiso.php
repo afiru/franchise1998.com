@@ -15,7 +15,7 @@
                         全国配送承ります。<br>お気軽にご相談ください。
                     </h2>
                     <p class="cl_453C3C fw_500 text_justify txtset txtAppealFlowrHaiso">
-                        店頭・お電話でご注文いただけます。生花アレンジメント・プリザーブドフラワー・鉢物は配送対象です、花束はご送付できません。また、クール商品との同梱は不可、専用ボックスの費用が別途必要です。ご注文方法・配送に関して詳しくは<a class="cl_F28962 undernone" href="">お買い物ガイド</a>をご覧ください。
+                        店頭・お電話でご注文いただけます。生花アレンジメント・プリザーブドフラワー・鉢物は配送対象です、花束はご送付できません。また、クール商品との同梱は不可、専用ボックスの費用が別途必要です。ご注文方法・配送に関して詳しくは<a class="cl_F28962 undernone" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド</a>をご覧ください。
                     </p>
                     <h3 class="d_flex j_center ali_center bg_421D12 cl_fff fw_500 txtset h3AppealFlowrHaiso">お電話・店頭でのご注文</h3>
                     <div class="d_flex j_between row ali_end fxAppealFlowrHaiso">
