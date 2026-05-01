@@ -5,7 +5,7 @@
 
         <section class="secPartyPlanDrinkMenu">
             <h2 class="cl_453C3C fw_400 txtset h2PartyPlanDrinkMenu">パーティをさらにリッチに盛り上げるドリンクメニュー</h2>
-            <h3 class="cl_772D2D fw_500 txtset h3PartyPlanDrinkMenu">DRINK MENU</h3>
+            <h3 class="cl_772D2D fw_500 txtset CormorantUnicase h3PartyPlanDrinkMenu">DRINK MENU</h3>
             <p class="cl_453C3C fw_500 txtset rubyPartyPlanDrinkMenu">ドリンクメニュー</p>
         </section>
 

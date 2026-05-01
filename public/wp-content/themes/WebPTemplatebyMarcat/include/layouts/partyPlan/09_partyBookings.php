@@ -127,7 +127,7 @@
                         </p>
                         <div class="linkTakeOutMenuPartyBookingsLxn">
                             <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
-                                <span class="iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
+                                <span class="kaku iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
                             </a>
                         </div>
                     </section>
@@ -149,7 +149,7 @@
                         </p>
                         <div class="linkTakeOutMenuPartyBookingsLxn">
                             <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
-                                <span class="iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
+                                <span class="kaku iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
                                 <!--bg:../img/iconLinkTakeOutMenuPartyBookingsLxn.svg-->
                             </a>
                         </div>
@@ -172,7 +172,7 @@
                         </p>
                         <div class="linkTakeOutMenuPartyBookingsLxn">
                             <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
-                                <span class="iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
+                                <span class="kaku iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
                             </a>
                         </div>
                     </section>

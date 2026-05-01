@@ -8,7 +8,7 @@ LAYOUT
 ========================================================================== */
 .partyPlan {
     @include mi.marginPercent(1920, 70, auto, 0, auto);
-    @include mi.paddingPercent(1920, 100, 0, 100, 0);
+    @include mi.paddingPercent(1920, 98, 0, 100, 0);
     border-radius: 0 5.208333333333333vw 0 0;
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 50, auto, 0, auto);
@@ -43,9 +43,12 @@ LAYOUT
 }
 
 .secDetailPartyPlan {
-    @include mi.marginPercent(1100, 23, auto, 0, auto);
+    @include mi.marginPercent(1100, 18, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 17, auto, 0, auto);
+        margin-top: 3.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -78,7 +81,10 @@ LAYOUT
     @include mi.lineheightP(24);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 17, auto, 0, auto);
+        margin-top: 1.15%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -86,9 +92,9 @@ LAYOUT
 }
 
 .menuExeDetailPartyPlan {
-    @include mi.marginPercent(1100, 40, 0, 0, 0);
+    @include mi.marginPercent(1100, 35, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, 0, 0, 0);
+        margin: 4% 0% 0% 0%;
     }
 }
 
@@ -111,22 +117,27 @@ LAYOUT
 }
 
 .txtMenuExeDetailPartyPlan {
+    margin: 2% 0 0 0;
     @include mi.fontSizePc(16);
     @include mi.lineheightP(175);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
-        @include mi.fontSizeSp(12);
-        @include mi.lineheightP(140);
+        margin: 0% 0 0 0;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 
 //
 .tyuiMenuExeDetailPartyPlan {
+    margin: 0.8% 0 0 0;
     @include mi.ontenerWidth(1100, 748);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
@@ -143,12 +154,15 @@ LAYOUT
 }
 
 .txtTyuiMenuExeDetailPartyPlan02 {
-    @include mi.marginPercent(748, 22, 0, 0, 0);
+    @include mi.marginPercent(748, 14, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 14, auto, 0, auto);
+        margin-top: 3%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
@@ -157,24 +171,34 @@ LAYOUT
 
 //
 .ulDetailPartyPlanOther {
-    @include mi.marginPercent(1100, 45, 0, 0, 0);
+    @include mi.marginPercent(1100, 38, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 8.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
 
 .liDetailPartyPlanOther {
     @include mi.ontenerWidth(1100, 330);
+
     @include mi.mq(sp) {
         width: 100%;
+        &:nth-child(n + 2) {
+            margin: 7% 0 0 0;
+        }
     }
 }
 
 .titleDetailPartyPlanOther {
-    @include mi.marginPercent(330, 22, 0, 0, 0);
+    @include mi.marginPercent(330, 16, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 22, auto, 0, auto);
+        margin-top: 4.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -199,24 +223,30 @@ LAYOUT
 }
 
 .txtTitleDetailPartyPlanOther {
-    @include mi.marginPercent(330, 22, 0, 0, 0);
+    @include mi.marginPercent(330, 8, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 2%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .txtTitleDetailPartyPlanOther02 {
-    @include mi.marginPercent(330, 20, 0, 0, 0);
+    @include mi.marginPercent(330, 8, 0, 0, 0);
     @include mi.fontSizePc(12);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
@@ -224,12 +254,12 @@ LAYOUT
 }
 
 .txtTitleDetailPartyPlanOther03 {
-    @include mi.marginPercent(330, 15, 0, 0, 0);
+    @include mi.marginPercent(330, 5, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, 0, 0, 0);
+        margin: 1.54% 0% 0% 0%;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
@@ -247,11 +277,14 @@ LAYOUT
     }
 }
 .btnDetailPartyPlanOtherLxn {
-    @include mi.marginPercent(1100, 40, auto, 0, auto);
+    @include mi.marginPercent(1100, 36, auto, 0, auto);
     @include mi.ontenerWidth(1100, 260);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 47, auto, 0, auto);
-        @include mi.ontenerWidth(330, 260);
+        margin-top: 11.24%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 68.78%;
     }
 }
 .btnDetailPartyPlanOther {
@@ -271,7 +304,7 @@ LAYOUT
 
 //
 .txtDetailPartyPlanOther {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 34, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);

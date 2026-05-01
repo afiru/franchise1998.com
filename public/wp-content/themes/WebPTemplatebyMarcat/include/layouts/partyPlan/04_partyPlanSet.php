@@ -126,7 +126,7 @@
             ※写真はイメージです。※商品の変更や、商品サイズの変更なども承っております。お気軽にお問い合わせください。
         </p>
         <div class="btnDetailPartyPlanOtherLxn">
-            <a class="d_flex j_center ali_center bg_F28962 kaku cl_fff undernone btnDetailPartyPlanOther" href="">
+            <a class="d_flex j_center ali_center bg_F28962 kaku cl_fff fw_500 undernone btnDetailPartyPlanOther" href="">
                 ご注文・商品受け取り方法について
             </a>
         </div>

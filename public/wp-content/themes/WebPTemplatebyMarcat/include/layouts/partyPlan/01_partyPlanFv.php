@@ -1,8 +1,8 @@
 <div class="underFv aboutUnderFv">
     <div class="wapper aboutUnderFvWap">
         <section class="secAboutUnderFv">
-            <h1 class="cl_421D12 fw_500 CormorantUnicase txtset h1AboutUnderFv">COMMITMENT</h1>
-            <p class="cl_453C3C fw_500 txtset txtAboutUnderFv">素材へのこだわり</p>
+            <h1 class="cl_421D12 fw_500 CormorantUnicase txtset h1AboutUnderFv">PARTY PLAN</h1>
+            <p class="cl_453C3C fw_500 txtset txtAboutUnderFv">パーティープラン</p>
         </section>
     </div>
 

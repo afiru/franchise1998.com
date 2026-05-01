@@ -7,9 +7,12 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .partyPlanNav {
-    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.marginPercent(1920, 53, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 100, auto, 0, auto);
+        margin-top: 23.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -31,13 +34,17 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 103);
         &:nth-child(n + 4) {
-            @include mi.marginPercent(330, 18, auto, 0, auto);
+            margin-top: 4%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
 
 .btnPartyPlanNavBtm {
-    aspect-ratio: 200 / 51;
+    padding: 0% 0 6% 0;
+    aspect-ratio: 200 / 59;
     border-bottom: 1px solid #d9d9d9;
     text-align: center;
     text-decoration: none;
@@ -45,7 +52,8 @@ LAYOUT
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        aspect-ratio: 103/39;
+        padding: 0% 0 5% 0;
+        aspect-ratio: 103/46;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);

@@ -7625,11 +7625,15 @@ LAYOUT
   z-index: 10;
   right: 0;
   bottom: 0;
-  transform: scaleY(0);
+  transform: translateY(100%);
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  opacity: 0;
 }
 
 .spFixedMenu.active {
-  transform: scaleY(1);
+  opacity: 1;
+  transform: translateY(0%);
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .ulSpFixedMenu {
@@ -15550,7 +15554,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .materialFvBtmSec {
-    margin-top: 18.33%;
+    margin-top: 18%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -15624,6 +15628,7 @@ LAYOUT
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
+    text-align: center;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -25493,14 +25498,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .partyPlanNav {
-  margin-top: 70px;
+  margin-top: 53px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .partyPlanNav {
-    margin-top: 3.64%;
+    margin-top: 2.76%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -25508,15 +25513,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .partyPlanNav {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .partyPlanNav {
-    margin-top: 26.66%;
+    margin-top: 23.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -25558,15 +25555,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liPartyPlanNavBtm:nth-child(n+4) {
-    margin-top: 18px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPartyPlanNavBtm:nth-child(n+4) {
-    margin-top: 5.45%;
+    margin-top: 4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -25574,7 +25563,8 @@ LAYOUT
 }
 
 .btnPartyPlanNavBtm {
-  aspect-ratio: 200/51;
+  padding: 0% 0 6% 0;
+  aspect-ratio: 200/59;
   border-bottom: 1px solid #d9d9d9;
   text-align: center;
   text-decoration: none;
@@ -25591,7 +25581,8 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnPartyPlanNavBtm {
-    aspect-ratio: 103/39;
+    padding: 0% 0 5% 0;
+    aspect-ratio: 103/46;
     line-height: 160%;
     letter-spacing: 0em;
   }
@@ -25626,14 +25617,14 @@ LAYOUT
   }
 }
 .partyPlan {
-  padding-top: 100px;
+  padding-top: 98px;
   padding-bottom: 100px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .partyPlan {
-    padding: 5.2% 0% 5.2% 0%;
+    padding: 5.1% 0% 5.2% 0%;
   }
 }
 .partyPlan {
@@ -25725,14 +25716,14 @@ LAYOUT
 }
 
 .secDetailPartyPlan {
-  margin-top: 23px;
+  margin-top: 18px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .secDetailPartyPlan {
-    margin-top: 2.09%;
+    margin-top: 1.63%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -25740,15 +25731,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .secDetailPartyPlan {
-    margin-top: 17px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secDetailPartyPlan {
-    margin-top: 5.15%;
+    margin-top: 3.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -25841,20 +25824,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTitleDetailPartyPlan {
-    margin-top: 17px;
-    margin-bottom: 0px;
+    margin-top: 1.15%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTitleDetailPartyPlan {
-    margin-top: 5.15%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -25864,27 +25839,19 @@ LAYOUT
 }
 
 .menuExeDetailPartyPlan {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .menuExeDetailPartyPlan {
-    margin: 3.63% 0% 0% 0%;
+    margin: 3.18% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .menuExeDetailPartyPlan {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .menuExeDetailPartyPlan {
-    margin: 7.57% 0% 0% 0%;
+    margin: 4% 0% 0% 0%;
   }
 }
 
@@ -25927,6 +25894,7 @@ LAYOUT
 }
 
 .txtMenuExeDetailPartyPlan {
+  margin: 2% 0 0 0;
   font-size: 16px;
 }
 @media screen and (max-width: 1299px) {
@@ -25940,29 +25908,19 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtMenuExeDetailPartyPlan {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 140%;
+    margin: 0% 0 0 0;
+    line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtMenuExeDetailPartyPlan {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtMenuExeDetailPartyPlan {
-    font-size: 3.2vw;
+    font-size: 3.7333333333vw;
   }
 }
 
 .tyuiMenuExeDetailPartyPlan {
+  margin: 0.8% 0 0 0;
   width: 748px;
 }
 @media screen and (max-width: 1299px) {
@@ -25972,19 +25930,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .tyuiMenuExeDetailPartyPlan {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tyuiMenuExeDetailPartyPlan {
-    margin-top: 7.57%;
+    margin-top: 6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -26029,14 +25979,14 @@ LAYOUT
 }
 
 .txtTyuiMenuExeDetailPartyPlan02 {
-  margin-top: 22px;
+  margin-top: 14px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTyuiMenuExeDetailPartyPlan02 {
-    margin: 2.94% 0% 0% 0%;
+    margin: 1.87% 0% 0% 0%;
   }
 }
 .txtTyuiMenuExeDetailPartyPlan02 {
@@ -26053,20 +26003,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTyuiMenuExeDetailPartyPlan02 {
-    margin-top: 14px;
-    margin-bottom: 0px;
+    margin-top: 3%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTyuiMenuExeDetailPartyPlan02 {
-    margin-top: 4.24%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -26076,31 +26018,23 @@ LAYOUT
 }
 
 .ulDetailPartyPlanOther {
-  margin-top: 45px;
+  margin-top: 38px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .ulDetailPartyPlanOther {
-    margin: 4.09% 0% 0% 0%;
+    margin: 3.45% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .ulDetailPartyPlanOther {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulDetailPartyPlanOther {
-    margin-top: 9.09%;
+    margin-top: 8.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -26116,30 +26050,25 @@ LAYOUT
   .liDetailPartyPlanOther {
     width: 100%;
   }
+  .liDetailPartyPlanOther:nth-child(n+2) {
+    margin: 7% 0 0 0;
+  }
 }
 
 .titleDetailPartyPlanOther {
-  margin-top: 22px;
+  margin-top: 16px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .titleDetailPartyPlanOther {
-    margin: 6.66% 0% 0% 0%;
+    margin: 4.84% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .titleDetailPartyPlanOther {
-    margin-top: 22px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .titleDetailPartyPlanOther {
-    margin-top: 6.66%;
+    margin-top: 4.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -26210,14 +26139,14 @@ LAYOUT
 }
 
 .txtTitleDetailPartyPlanOther {
-  margin-top: 22px;
+  margin-top: 8px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTitleDetailPartyPlanOther {
-    margin: 6.66% 0% 0% 0%;
+    margin: 2.42% 0% 0% 0%;
   }
 }
 .txtTitleDetailPartyPlanOther {
@@ -26234,20 +26163,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTitleDetailPartyPlanOther {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 2%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTitleDetailPartyPlanOther {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -26257,14 +26178,14 @@ LAYOUT
 }
 
 .txtTitleDetailPartyPlanOther02 {
-  margin-top: 20px;
+  margin-top: 8px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTitleDetailPartyPlanOther02 {
-    margin: 6.06% 0% 0% 0%;
+    margin: 2.42% 0% 0% 0%;
   }
 }
 .txtTitleDetailPartyPlanOther02 {
@@ -26281,20 +26202,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTitleDetailPartyPlanOther02 {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 5%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTitleDetailPartyPlanOther02 {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -26304,14 +26217,14 @@ LAYOUT
 }
 
 .txtTitleDetailPartyPlanOther03 {
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTitleDetailPartyPlanOther03 {
-    margin: 4.54% 0% 0% 0%;
+    margin: 1.51% 0% 0% 0%;
   }
 }
 .txtTitleDetailPartyPlanOther03 {
@@ -26328,17 +26241,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTitleDetailPartyPlanOther03 {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 1.54% 0% 0% 0%;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTitleDetailPartyPlanOther03 {
-    margin: 4.54% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -26373,14 +26278,14 @@ LAYOUT
 }
 
 .btnDetailPartyPlanOtherLxn {
-  margin-top: 40px;
+  margin-top: 36px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .btnDetailPartyPlanOtherLxn {
-    margin-top: 3.63%;
+    margin-top: 3.27%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -26396,24 +26301,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnDetailPartyPlanOtherLxn {
-    margin-top: 47px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 260px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnDetailPartyPlanOtherLxn {
-    margin-top: 14.24%;
+    margin-top: 11.24%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnDetailPartyPlanOtherLxn {
-    width: 78.78%;
+    width: 68.78%;
   }
 }
 
@@ -26451,14 +26343,14 @@ LAYOUT
 }
 
 .txtDetailPartyPlanOther {
-  margin-top: 50px;
+  margin-top: 34px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtDetailPartyPlanOther {
-    margin-top: 3.84%;
+    margin-top: 2.61%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -26623,14 +26515,14 @@ LAYOUT
 }
 
 .secDetailfamilyPlan {
-  margin-top: 22px;
+  margin-top: 16px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .secDetailfamilyPlan {
-    margin-top: 2%;
+    margin-top: 1.45%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -26638,15 +26530,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .secDetailfamilyPlan {
-    margin-top: 17px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secDetailfamilyPlan {
-    margin-top: 5.15%;
+    margin-top: 4.2%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -26674,16 +26558,8 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .iconTitleDetailfamilyPlan {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 7px;
+    margin: 0% 2% 0% 0%;
     width: 16px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .iconTitleDetailfamilyPlan {
-    margin: 0% 0.63% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -26725,14 +26601,14 @@ LAYOUT
 }
 
 .txtTitleDetailfamilyPlan {
-  margin-top: 20px;
+  margin-top: 14px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTitleDetailfamilyPlan {
-    margin-top: 1.81%;
+    margin-top: 1.27%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -26768,37 +26644,29 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTitleDetailfamilyPlan {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 1.54%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTitleDetailfamilyPlan {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtTitleDetailfamilyPlan {
-    font-size: 3.2vw;
+    font-size: 3.7333333333vw;
   }
 }
 
 .menuExeDetailfamilyPlan {
-  margin-top: 40px;
+  margin-top: 32px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .menuExeDetailfamilyPlan {
-    margin: 3.63% 0% 0% 0%;
+    margin: 2.9% 0% 0% 0%;
   }
 }
 .menuExeDetailfamilyPlan {
@@ -26811,19 +26679,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .menuExeDetailfamilyPlan {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .menuExeDetailfamilyPlan {
-    margin-top: 7.57%;
+    margin-top: 5.57%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -26871,6 +26731,7 @@ LAYOUT
 }
 
 .txtMenuExeDetailfamilyPlan {
+  margin: 2.5% 0 0 0;
   width: 192px;
 }
 @media screen and (max-width: 1299px) {
@@ -26908,6 +26769,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtMenuExeDetailfamilyPlan {
+    margin: 2% 0 0 0;
     width: 100%;
     line-height: 160%;
     letter-spacing: 0em;
@@ -26920,6 +26782,7 @@ LAYOUT
 }
 
 .tyuiMenuExeDetailfamilyPlan {
+  margin: 0.8% 0 0 0;
   width: 424px;
 }
 @media screen and (max-width: 1299px) {
@@ -26958,20 +26821,12 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .tyuiMenuExeDetailfamilyPlan {
     width: 100%;
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tyuiMenuExeDetailfamilyPlan {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -27033,27 +26888,19 @@ LAYOUT
 }
 
 .txtTyuiMenuExeDetailfamilyPlan + .txtTyuiMenuExeDetailfamilyPlan {
-  margin-top: 15px;
+  margin-top: 4px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTyuiMenuExeDetailfamilyPlan + .txtTyuiMenuExeDetailfamilyPlan {
-    margin: 3.53% 0% 0% 0%;
+    margin: 0.94% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .txtTyuiMenuExeDetailfamilyPlan + .txtTyuiMenuExeDetailfamilyPlan {
-    margin-top: 24px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTyuiMenuExeDetailfamilyPlan + .txtTyuiMenuExeDetailfamilyPlan {
-    margin-top: 7.27%;
+    margin-top: 4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27109,19 +26956,17 @@ LAYOUT
   .liDetailfamilyPlanOther {
     width: 100%;
   }
-}
-
-@media screen and (max-width: 767px) {
-  .titleDetailfamilyPlanOther {
-    margin-top: 22px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+  .liDetailfamilyPlanOther:nth-child(n+2) {
+    margin: 8% 0 0 0;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
+
+.titleDetailfamilyPlanOther {
+  margin: 4.5% 0 0 0;
+}
+@media screen and (max-width: 767px) {
   .titleDetailfamilyPlanOther {
-    margin-top: 6.66%;
+    margin-top: 3.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27200,14 +27045,14 @@ LAYOUT
 }
 
 .txtTitleDetailfamilyPlanOther {
-  margin-top: 22px;
+  margin-top: 9px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTitleDetailfamilyPlanOther {
-    margin: 6.66% 0% 0% 0%;
+    margin: 2.72% 0% 0% 0%;
   }
 }
 .txtTitleDetailfamilyPlanOther {
@@ -27224,20 +27069,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTitleDetailfamilyPlanOther {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 1%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTitleDetailfamilyPlanOther {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -27247,14 +27084,14 @@ LAYOUT
 }
 
 .txtTitleDetailfamilyPlanOther02 {
-  margin-top: 20px;
+  margin-top: 8px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTitleDetailfamilyPlanOther02 {
-    margin: 6.06% 0% 0% 0%;
+    margin: 2.42% 0% 0% 0%;
   }
 }
 .txtTitleDetailfamilyPlanOther02 {
@@ -27271,20 +27108,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTitleDetailfamilyPlanOther02 {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 5.57%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTitleDetailfamilyPlanOther02 {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -27294,29 +27123,21 @@ LAYOUT
 }
 
 .txtTitleDetailfamilyPlanOther03 {
-  margin-top: 15px;
+  margin-top: 6px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTitleDetailfamilyPlanOther03 {
-    margin: 4.54% 0% 0% 0%;
+    margin: 1.81% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .txtTitleDetailfamilyPlanOther03 {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 6.54% 0% 0% 0%;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTitleDetailfamilyPlanOther03 {
-    margin: 4.54% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -27351,14 +27172,14 @@ LAYOUT
 }
 
 .txtDetailfamilyPlanOther {
-  margin-top: 45px;
+  margin-top: 36px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtDetailfamilyPlanOther {
-    margin-top: 4.09%;
+    margin-top: 3.27%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27415,14 +27236,14 @@ LAYOUT
 }
 
 .btnDetailfamilyPlanOtherLxn {
-  margin-top: 40px;
+  margin-top: 36px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .btnDetailfamilyPlanOtherLxn {
-    margin-top: 3.63%;
+    margin-top: 3.27%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27438,24 +27259,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnDetailfamilyPlanOtherLxn {
-    margin-top: 47px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 260px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnDetailfamilyPlanOtherLxn {
-    margin-top: 14.24%;
+    margin-top: 11.24%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnDetailfamilyPlanOtherLxn {
-    width: 78.78%;
+    width: 69.78%;
   }
 }
 
@@ -27502,14 +27310,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .partyPlanSideMenu {
-  margin-top: 100px;
+  margin-top: 99px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .partyPlanSideMenu {
-    margin-top: 5.2%;
+    margin-top: 5.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27526,29 +27334,17 @@ LAYOUT
     padding: 5.2% 0% 5.2% 0%;
   }
 }
+.partyPlanSideMenu {
+  border-radius: 0 5.2083333333vw 0 0;
+}
 @media screen and (max-width: 767px) {
   .partyPlanSideMenu {
-    margin-top: 55px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 85px;
-    padding-bottom: 70px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .partyPlanSideMenu {
-    margin-top: 14.66%;
+    margin-top: 15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .partyPlanSideMenu {
-    padding: 22.66% 0% 18.66% 0%;
+    padding: 22.5% 0% 19% 0%;
+    border-radius: 0 26.6666666667vw 0 0;
   }
 }
 
@@ -27589,29 +27385,29 @@ LAYOUT
   content: "";
 }
 .h2PartyPlanSideMenu {
-  letter-spacing: 0em;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h2PartyPlanSideMenu {
-    line-height: 140%;
+    line-height: 100%;
     letter-spacing: 0em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2PartyPlanSideMenu {
-    font-size: 3.4666666667vw;
+    font-size: 3.2vw;
   }
 }
 
 .h3PartyPlanSideMenu {
-  margin-top: 29px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h3PartyPlanSideMenu {
-    margin: 2.23% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 .h3PartyPlanSideMenu {
@@ -27623,25 +27419,17 @@ LAYOUT
   }
 }
 .h3PartyPlanSideMenu {
-  line-height: 160%;
+  line-height: 150%;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h3PartyPlanSideMenu {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 160%;
-    letter-spacing: 0.01em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3PartyPlanSideMenu {
-    margin-top: 4.54%;
+    margin-top: 1.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    line-height: 150%;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -27651,14 +27439,14 @@ LAYOUT
 }
 
 .rubyPartyPlanSideMenu {
-  margin-top: 30px;
+  margin-top: -3px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .rubyPartyPlanSideMenu {
-    margin: 2.3% 0% 0% 0%;
+    margin: -0.24% 0% 0% 0%;
   }
 }
 .rubyPartyPlanSideMenu {
@@ -27675,20 +27463,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyPartyPlanSideMenu {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -2.46%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyPartyPlanSideMenu {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -27698,14 +27478,14 @@ LAYOUT
 }
 
 .ulPartyPlanSideMenu {
-  margin-top: 41px;
+  margin-top: 35px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulPartyPlanSideMenu {
-    margin-top: 3.15%;
+    margin-top: 2.69%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27716,15 +27496,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulPartyPlanSideMenu {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulPartyPlanSideMenu {
-    margin-top: 12.12%;
+    margin-top: 10.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27771,42 +27543,26 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liPartyPlanSideMenu:nth-child(n+2) {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPartyPlanSideMenu:nth-child(n+2) {
-    margin-top: 9.09%;
+    margin-top: 8.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .liPartyPlanSideMenu:nth-child(n+5) {
-  margin-top: 45px;
+  margin-top: 41px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 45px;
 }
 @media screen and (max-width: 1299px) {
   .liPartyPlanSideMenu:nth-child(n+5) {
-    margin: 3.46% 3.46% 0% 0%;
+    margin: 3.15% 3.46% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .liPartyPlanSideMenu:nth-child(n+5) {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPartyPlanSideMenu:nth-child(n+5) {
-    margin-top: 9.09%;
+    margin-top: 8.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27831,28 +27587,20 @@ LAYOUT
 }
 
 .secPartyPlanSideMenuFx {
-  margin-top: 20px;
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .secPartyPlanSideMenuFx {
-    margin: 6.87% 0% 0% 0%;
+    margin: 4.46% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .secPartyPlanSideMenuFx {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: -1% 0% 0% 0%;
     width: 171px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secPartyPlanSideMenuFx {
-    margin: 0% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -27886,14 +27634,14 @@ LAYOUT
 }
 
 .pricePartyPlanSideMenu {
-  margin-top: 14px;
+  margin-top: 2px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .pricePartyPlanSideMenu {
-    margin-top: 4.81%;
+    margin-top: 0.68%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27913,20 +27661,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .pricePartyPlanSideMenu {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 1.77%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0.05em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .pricePartyPlanSideMenu {
-    margin-top: 8.77%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -27936,14 +27676,14 @@ LAYOUT
 }
 
 .txtPartyPlanSideMenu {
-  margin-top: 20px;
+  margin-top: 9px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtPartyPlanSideMenu {
-    margin-top: 6.87%;
+    margin-top: 3.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -27963,20 +27703,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtPartyPlanSideMenu {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 3.54%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPartyPlanSideMenu {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -27986,14 +27718,14 @@ LAYOUT
 }
 
 .txtDetailSideMenuOther {
-  margin-top: 45px;
+  margin-top: 37px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtDetailSideMenuOther {
-    margin: 3.46% 0% 0% 0%;
+    margin: 2.84% 0% 0% 0%;
   }
 }
 .txtDetailSideMenuOther {
@@ -28010,20 +27742,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtDetailSideMenuOther {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 7%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtDetailSideMenuOther {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -28033,14 +27757,14 @@ LAYOUT
 }
 
 .btnDetailSideMenuLxn {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .btnDetailSideMenuLxn {
-    margin-top: 3.07%;
+    margin-top: 2.69%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -28056,19 +27780,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnDetailSideMenuLxn {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 260px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnDetailSideMenuLxn {
-    margin-top: 9.09%;
+    margin-top: 7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 260px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -28176,34 +27892,26 @@ LAYOUT
 
 .partyPlanDrinkMenuWap {
   position: relative;
-  padding-top: 100px;
+  padding-top: 98px;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .partyPlanDrinkMenuWap {
-    padding: 5.2% 0% 0% 0%;
+    padding: 5.1% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .partyPlanDrinkMenuWap {
     width: 330px;
     margin: auto;
-    padding-top: 100px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 27.66% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .partyPlanDrinkMenuWap {
     width: 88%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .partyPlanDrinkMenuWap {
-    padding: 26.66% 0% 0% 0%;
   }
 }
 
@@ -28281,14 +27989,14 @@ LAYOUT
 }
 
 .h3PartyPlanDrinkMenu {
-  margin-top: 29px;
+  margin-top: 1px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h3PartyPlanDrinkMenu {
-    margin: 2.23% 0% 0% 0%;
+    margin: 0.07% 0% 0% 0%;
   }
 }
 .h3PartyPlanDrinkMenu {
@@ -28300,25 +28008,17 @@ LAYOUT
   }
 }
 .h3PartyPlanDrinkMenu {
-  line-height: 160%;
+  line-height: 150%;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h3PartyPlanDrinkMenu {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 160%;
-    letter-spacing: 0.01em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3PartyPlanDrinkMenu {
-    margin-top: 4.54%;
+    margin-top: -2.46%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -28328,14 +28028,14 @@ LAYOUT
 }
 
 .rubyPartyPlanDrinkMenu {
-  margin-top: 30px;
+  margin-top: -3px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .rubyPartyPlanDrinkMenu {
-    margin: 2.3% 0% 0% 0%;
+    margin: -0.24% 0% 0% 0%;
   }
 }
 .rubyPartyPlanDrinkMenu {
@@ -28352,20 +28052,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyPartyPlanDrinkMenu {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -2.46%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyPartyPlanDrinkMenu {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -28375,14 +28067,14 @@ LAYOUT
 }
 
 .ulPartyPlanDrinkMenu {
-  margin-top: 41px;
+  margin-top: 15px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulPartyPlanDrinkMenu {
-    margin-top: 3.15%;
+    margin-top: 1.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -28393,15 +28085,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulPartyPlanDrinkMenu {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulPartyPlanDrinkMenu {
-    margin-top: 12.12%;
+    margin-top: 9.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -28448,42 +28132,26 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liPartyPlanDrinkMenu:nth-child(n+2) {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPartyPlanDrinkMenu:nth-child(n+2) {
-    margin-top: 9.09%;
+    margin-top: 8.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .liPartyPlanDrinkMenu:nth-child(n+5) {
-  margin-top: 45px;
+  margin-top: 21px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 45px;
 }
 @media screen and (max-width: 1299px) {
   .liPartyPlanDrinkMenu:nth-child(n+5) {
-    margin: 2.34% 2.34% 0% 0%;
+    margin: 1.09% 2.34% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .liPartyPlanDrinkMenu:nth-child(n+5) {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPartyPlanDrinkMenu:nth-child(n+5) {
-    margin-top: 9.09%;
+    margin-top: 8.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -28507,6 +28175,11 @@ LAYOUT
     margin-right: auto;
   }
 }
+@media screen and (max-width: 767px) {
+  .liPartyPlanDrinkMenuFx {
+    margin: 0;
+  }
+}
 
 .photoPartyPlanDrinkMenu {
   width: 100%;
@@ -28523,14 +28196,14 @@ LAYOUT
 }
 
 .secPartyPlanDrinkMenuFx {
-  margin-top: 20px;
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .secPartyPlanDrinkMenuFx {
-    margin: 6.87% 0% 0% 0%;
+    margin: 4.46% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -28563,12 +28236,12 @@ LAYOUT
 }
 .h4PartyPlanDrinkMenu {
   line-height: normal;
-  letter-spacing: 0em;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h4PartyPlanDrinkMenu {
     line-height: 140%;
-    letter-spacing: 0em;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -28578,14 +28251,14 @@ LAYOUT
 }
 
 .pricePartyPlanDrinkMenu {
-  margin-top: 14px;
+  margin-top: 1px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .pricePartyPlanDrinkMenu {
-    margin-top: 4.81%;
+    margin-top: 0.34%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -28605,20 +28278,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .pricePartyPlanDrinkMenu {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 2.77%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0.05em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .pricePartyPlanDrinkMenu {
-    margin-top: 8.77%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -28628,14 +28293,14 @@ LAYOUT
 }
 
 .txtPartyPlanDrinkMenu {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtPartyPlanDrinkMenu {
-    margin-top: 6.87%;
+    margin-top: 3.43%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -28655,37 +28320,29 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtPartyPlanDrinkMenu {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: normal;
-    letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPartyPlanDrinkMenu {
-    margin-top: 4.54%;
+    margin-top: 3.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    line-height: 140%;
+    letter-spacing: 0em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtPartyPlanDrinkMenu {
-    font-size: 3.2vw;
+    font-size: 3.7333333333vw;
   }
 }
 
 .txtDetailDrinkMenuOther {
-  margin-top: 45px;
+  margin-top: 35px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtDetailDrinkMenuOther {
-    margin: 3.46% 0% 0% 0%;
+    margin: 2.69% 0% 0% 0%;
   }
 }
 .txtDetailDrinkMenuOther {
@@ -28702,20 +28359,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtDetailDrinkMenuOther {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 6.09%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtDetailDrinkMenuOther {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -28725,14 +28374,14 @@ LAYOUT
 }
 
 .btnDetailDrinkMenuLxn {
-  margin-top: 40px;
+  margin-top: 37px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .btnDetailDrinkMenuLxn {
-    margin-top: 3.07%;
+    margin-top: 2.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -28748,19 +28397,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnDetailDrinkMenuLxn {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 260px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnDetailDrinkMenuLxn {
-    margin-top: 9.09%;
+    margin-top: 8.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 260px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -28812,14 +28453,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .partyPlanGiftGoods {
-  margin-top: 100px;
+  margin-top: 96px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .partyPlanGiftGoods {
-    margin-top: 5.2%;
+    margin-top: 5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -28827,15 +28468,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .partyPlanGiftGoods {
-    margin-top: 70px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .partyPlanGiftGoods {
-    margin-top: 18.66%;
+    margin-top: 19%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -28890,19 +28523,19 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2PartyPlanGiftGoods {
-    font-size: 3.4666666667vw;
+    font-size: 3.2vw;
   }
 }
 
 .h3PartyPlanGiftGoods {
-  margin-top: 29px;
+  margin-top: 3px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h3PartyPlanGiftGoods {
-    margin: 2.23% 0% 0% 0%;
+    margin: 0.23% 0% 0% 0%;
   }
 }
 .h3PartyPlanGiftGoods {
@@ -28914,25 +28547,17 @@ LAYOUT
   }
 }
 .h3PartyPlanGiftGoods {
-  line-height: 160%;
+  line-height: 150%;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h3PartyPlanGiftGoods {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 160%;
-    letter-spacing: 0.01em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3PartyPlanGiftGoods {
-    margin-top: 4.54%;
+    margin-top: 0.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    line-height: 150%;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -28942,14 +28567,14 @@ LAYOUT
 }
 
 .rubyPartyPlanGiftGoods {
-  margin-top: 30px;
+  margin-top: -3px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .rubyPartyPlanGiftGoods {
-    margin: 2.3% 0% 0% 0%;
+    margin: -0.24% 0% 0% 0%;
   }
 }
 .rubyPartyPlanGiftGoods {
@@ -28966,20 +28591,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyPartyPlanGiftGoods {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -2.46%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyPartyPlanGiftGoods {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -28988,8 +28605,36 @@ LAYOUT
   }
 }
 
+.productsPlanGiftGoods {
+  margin-top: 55px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .productsPlanGiftGoods {
+    margin-top: 4.23%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsPlanGiftGoods {
+    margin-top: 11.23%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .titleProductsPlanGiftGoods {
   align-items: baseline;
+}
+@media screen and (max-width: 767px) {
+  .titleProductsPlanGiftGoods {
+    align-items: center;
+  }
 }
 
 .h4TitleProductsPlanGiftGoods {
@@ -29045,17 +28690,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyTitleProductsPlanGiftGoods {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 15px;
-    margin-right: 0px;
+    margin: 0% 0% 0% 4%;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyTitleProductsPlanGiftGoods {
-    margin: 0% 0% 0% 4.54%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -29065,14 +28702,14 @@ LAYOUT
 }
 
 .ulProductsPlanGiftGoods {
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulProductsPlanGiftGoods {
-    margin-top: 2.3%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29083,15 +28720,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulProductsPlanGiftGoods {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulProductsPlanGiftGoods {
-    margin-top: 12.12%;
+    margin-top: 9.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29125,15 +28754,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liProductsPlanGiftGoods:nth-child(n+2) {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liProductsPlanGiftGoods:nth-child(n+2) {
-    margin-top: 9.09%;
+    margin-top: 8.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29254,28 +28875,20 @@ LAYOUT
 }
 
 .secProductsPlanGiftGoods {
-  margin-top: 20px;
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .secProductsPlanGiftGoods {
-    margin: 6.87% 0% 0% 0%;
+    margin: 4.46% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .secProductsPlanGiftGoods {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: -1.5% 0% 0% 0%;
     width: 171px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secProductsPlanGiftGoods {
-    margin: 0% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -29309,14 +28922,14 @@ LAYOUT
 }
 
 .priceProductsPlanGiftGoods {
-  margin-top: 14px;
+  margin-top: 3px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .priceProductsPlanGiftGoods {
-    margin-top: 4.81%;
+    margin-top: 1.03%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29336,20 +28949,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .priceProductsPlanGiftGoods {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 1.77%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0.05em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .priceProductsPlanGiftGoods {
-    margin-top: 8.77%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -29359,14 +28964,14 @@ LAYOUT
 }
 
 .txtProductsPlanGiftGoods {
-  margin-top: 20px;
+  margin-top: 9px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtProductsPlanGiftGoods {
-    margin-top: 6.87%;
+    margin-top: 3.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29386,20 +28991,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtProductsPlanGiftGoods {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 3%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtProductsPlanGiftGoods {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -29456,27 +29053,19 @@ LAYOUT
 }
 
 .productsPlanGiftGoods02 {
-  margin-top: 80px;
+  margin-top: 67px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .productsPlanGiftGoods02 {
-    margin: 6.15% 0% 0% 0%;
+    margin: 5.15% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .productsPlanGiftGoods02 {
-    margin-top: 70px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .productsPlanGiftGoods02 {
-    margin-top: 21.21%;
+    margin-top: 18.21%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29571,28 +29160,28 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .partyBookings {
-  margin-top: 150px;
+  margin-top: 146px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .partyBookings {
-    margin-top: 7.81%;
+    margin-top: 7.6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .partyBookings {
-  padding-top: 99px;
+  padding-top: 83px;
   padding-bottom: 125px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .partyBookings {
-    padding: 5.15% 0% 6.51% 0%;
+    padding: 4.32% 0% 6.51% 0%;
   }
 }
 .partyBookings {
@@ -29600,28 +29189,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .partyBookings {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 0 26.6666666667vw 0 0;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .partyBookings {
-    margin-top: 26.66%;
+    margin-top: 25.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .partyBookings {
-    padding: 18.66% 0% 18.66% 0%;
+    padding: 16.66% 0% 18.66% 0%;
+    border-radius: 0 26.6666666667vw 0 0;
   }
 }
 
@@ -29661,14 +29234,14 @@ LAYOUT
 }
 
 .detailPartyBookings {
-  margin-top: 50px;
+  margin-top: 37px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .detailPartyBookings {
-    margin-top: 3.84%;
+    margin-top: 2.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29685,24 +29258,30 @@ LAYOUT
     padding: 5.38% 0% 7.76% 0%;
   }
 }
+.detailPartyBookings {
+  border-radius: 10px;
+  /* CSS3草案 */
+  -webkit-border-radius: 10px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 10px;
+  /* Firefox用 */
+}
 @media screen and (max-width: 767px) {
   .detailPartyBookings {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 6.09%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
     padding-bottom: 40px;
     padding-left: 0px;
     padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .detailPartyBookings {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 10px;
+    /* CSS3草案 */
+    -webkit-border-radius: 10px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;
+    /* Firefox用 */
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -29796,14 +29375,14 @@ LAYOUT
 }
 
 .h5DetailPartyBookings {
-  margin-top: 30px;
+  margin-top: 21px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h5DetailPartyBookings {
-    margin-top: 3%;
+    margin-top: 2.1%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29823,20 +29402,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h5DetailPartyBookings {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 5.66%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h5DetailPartyBookings {
-    margin-top: 6.66%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -29846,14 +29417,14 @@ LAYOUT
 }
 
 .telDetailPartyBookings {
-  margin-top: 15px;
+  margin-top: 7px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .telDetailPartyBookings {
-    margin-top: 1.5%;
+    margin-top: 0.7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29861,15 +29432,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .telDetailPartyBookings {
-    margin-top: 16px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .telDetailPartyBookings {
-    margin-top: 4.84%;
+    margin-top: 2.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29890,6 +29453,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h6TelDetailPartyBookings {
+    margin: 0 0.5% 0 0;
     line-height: normal;
     letter-spacing: 0.1em;
   }
@@ -29925,14 +29489,14 @@ LAYOUT
 }
 
 .txtBtmTelDetailPartyBookings {
-  margin-top: 15px;
+  margin-top: 4px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtBtmTelDetailPartyBookings {
-    margin-top: 1.5%;
+    margin-top: 0.4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -29952,20 +29516,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtBtmTelDetailPartyBookings {
-    margin-top: 12px;
-    margin-bottom: 0px;
+    margin-top: 0.7%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtBtmTelDetailPartyBookings {
-    margin-top: 3.63%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -29975,14 +29531,14 @@ LAYOUT
 }
 
 .txtBtmTelDetailPartyBookingsLxn {
-  margin-top: 30px;
+  margin-top: 19px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtBtmTelDetailPartyBookingsLxn {
-    margin-top: 3%;
+    margin-top: 1.9%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30002,20 +29558,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtBtmTelDetailPartyBookingsLxn {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 5.57%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtBtmTelDetailPartyBookingsLxn {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30025,27 +29573,39 @@ LAYOUT
 }
 
 .secJoinDetailPartyBookings {
-  margin-top: 45px;
+  margin-top: 40px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .secJoinDetailPartyBookings {
-    margin: 4.5% 0% 0% 0%;
+    margin: 4% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .secJoinDetailPartyBookings {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 8%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secJoinDetailPartyBookings {
-    margin-top: 7.57%;
+
+.secJoinDetailPartyBookings02 {
+  margin-top: 48px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .secJoinDetailPartyBookings02 {
+    margin: 4.8% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secJoinDetailPartyBookings02 {
+    margin-top: 9.57%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30086,14 +29646,14 @@ LAYOUT
 }
 
 .joinDetailPartyBookingsFx {
-  margin-top: 30px;
+  margin-top: 21px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .joinDetailPartyBookingsFx {
-    margin-top: 3%;
+    margin-top: 2.1%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30101,15 +29661,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .joinDetailPartyBookingsFx {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .joinDetailPartyBookingsFx {
-    margin-top: 7.57%;
+    margin-top: 6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30132,15 +29684,7 @@ LAYOUT
 
 @media screen and (max-width: 767px) {
   .secJoinDetailPartyBookingsFx02 {
-    margin-top: 35px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secJoinDetailPartyBookingsFx02 {
-    margin-top: 10.6%;
+    margin-top: 7.4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30149,13 +29693,13 @@ LAYOUT
 
 .h5JoinDetailPartyBookingsFx {
   padding-top: 0px;
-  padding-bottom: 15px;
+  padding-bottom: 7px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h5JoinDetailPartyBookingsFx {
-    padding: 0% 0% 3.12% 0%;
+    padding: 0% 0% 1.45% 0%;
   }
 }
 .h5JoinDetailPartyBookingsFx {
@@ -30173,17 +29717,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h5JoinDetailPartyBookingsFx {
-    padding-top: 0px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0% 0% 2% 0%;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h5JoinDetailPartyBookingsFx {
-    padding: 0% 0% 3.03% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30193,14 +29729,14 @@ LAYOUT
 }
 
 .txtJoinDetailPartyBookingsFx {
-  margin-top: 25px;
+  margin-top: 17px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtJoinDetailPartyBookingsFx {
-    margin-top: 5.2%;
+    margin-top: 3.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30220,20 +29756,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtJoinDetailPartyBookingsFx {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 2.5%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtJoinDetailPartyBookingsFx {
-    margin-top: 5%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30243,14 +29771,14 @@ LAYOUT
 }
 
 .txtJoinDetailPartyBookingsFx02 {
-  margin-top: 20px;
+  margin-top: 9px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtJoinDetailPartyBookingsFx02 {
-    margin-top: 4.16%;
+    margin-top: 1.87%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30270,20 +29798,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtJoinDetailPartyBookingsFx02 {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 2.66%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtJoinDetailPartyBookingsFx02 {
-    margin-top: 6.66%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30293,14 +29813,14 @@ LAYOUT
 }
 
 .photoJoinDetailPartyBookingsFx {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .photoJoinDetailPartyBookingsFx {
-    margin-top: 5.2%;
+    margin-top: 4.16%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30363,10 +29883,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 16px;
-    padding-bottom: 17px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 2.84% 0% 3.5% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -30375,11 +29892,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .partyCancelBookings {
-    padding: 4.84% 0% 5.15% 0%;
   }
 }
 
@@ -30397,12 +29909,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .partyCancelBookingsFx {
-    width: 268px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .partyCancelBookingsFx {
-    width: 81.21%;
+    width: 87.21%;
   }
 }
 
@@ -30441,14 +29948,14 @@ LAYOUT
 }
 
 .txtPartyCancelBookings {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 6px;
+  padding-bottom: 10px;
   padding-left: 33px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtPartyCancelBookings {
-    padding: 0% 0% 0% 3.58%;
+    padding: 0.65% 0% 1.08% 3.58%;
   }
 }
 .txtPartyCancelBookings {
@@ -30474,32 +29981,16 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtPartyCancelBookings {
-    margin-top: 13px;
-    margin-bottom: 0px;
+    margin-top: 1.93%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 17px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 4.15% 0% 0% 0%;
     border-top: 1px solid #bebdbd;
     border-left: unset;
     width: 100%;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPartyCancelBookings {
-    margin-top: 3.93%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPartyCancelBookings {
-    padding: 5.15% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30509,14 +30000,14 @@ LAYOUT
 }
 
 .secTakeOutMenuPartyBookingsOut {
-  margin-top: 125px;
+  margin-top: 116px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .secTakeOutMenuPartyBookingsOut {
-    margin-top: 9.61%;
+    margin-top: 8.92%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30524,15 +30015,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .secTakeOutMenuPartyBookingsOut {
-    margin-top: 70px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secTakeOutMenuPartyBookingsOut {
-    margin-top: 21.21%;
+    margin-top: 19.21%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30564,14 +30047,14 @@ LAYOUT
 }
 
 .ulTakeOutMenuPartyBookings {
-  margin-top: 15px;
+  margin-top: 41px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulTakeOutMenuPartyBookings {
-    margin-top: 1.15%;
+    margin-top: 3.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30587,19 +30070,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulTakeOutMenuPartyBookings {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 330px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulTakeOutMenuPartyBookings {
-    margin-top: 7.57%;
+    margin-top: 5.57%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 330px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -30645,29 +30120,21 @@ LAYOUT
 }
 
 .secTakeOutMenuPartyBookings {
-  padding-top: 26px;
+  padding-top: 16px;
   padding-bottom: 26px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .secTakeOutMenuPartyBookings {
-    padding: 7.22% 0% 7.22% 0%;
+    padding: 4.44% 0% 7.22% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .secTakeOutMenuPartyBookings {
-    padding-top: 14px;
-    padding-bottom: 12px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 3% 0% 7% 0%;
     width: 140px;
     margin: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secTakeOutMenuPartyBookings {
-    padding: 8.97% 0% 7.69% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -30685,7 +30152,7 @@ LAYOUT
   }
 }
 .h3TakeOutMenuPartyBookings {
-  line-height: 150%;
+  line-height: 140%;
   letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
@@ -30701,14 +30168,14 @@ LAYOUT
 }
 
 .h4TakeOutMenuPartyBookings {
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h4TakeOutMenuPartyBookings {
-    margin-top: 1.38%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30728,7 +30195,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h4TakeOutMenuPartyBookings {
-    margin-top: 7px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -30738,7 +30205,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .h4TakeOutMenuPartyBookings {
-    margin-top: 5%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30751,14 +30218,14 @@ LAYOUT
 }
 
 .txtTakeOutMenuPartyBookings {
-  margin-top: 14px;
+  margin-top: 7px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTakeOutMenuPartyBookings {
-    margin-top: 3.88%;
+    margin-top: 1.94%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30778,20 +30245,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTakeOutMenuPartyBookings {
-    margin-top: 14px;
-    margin-bottom: 0px;
+    margin-top: 5%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTakeOutMenuPartyBookings {
-    margin-top: 10%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30809,14 +30268,14 @@ LAYOUT
   }
 }
 .linkTakeOutMenuPartyBookingsLxn {
-  margin-top: 24px;
+  margin-top: 21px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .linkTakeOutMenuPartyBookingsLxn {
-    margin-top: 6.66%;
+    margin-top: 5.83%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30824,19 +30283,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .linkTakeOutMenuPartyBookingsLxn {
-    margin-top: 27px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .linkTakeOutMenuPartyBookingsLxn {
-    margin-top: 19.28%;
+    margin-top: 6.28%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -47530,14 +46981,14 @@ LAYOUT
 }
 
 .mainCntLiProducetFaqLxn {
-  margin-top: 31px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .mainCntLiProducetFaqLxn {
-    margin-top: 3.44%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;

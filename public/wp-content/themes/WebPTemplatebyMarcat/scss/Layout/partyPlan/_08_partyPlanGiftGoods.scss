@@ -8,10 +8,13 @@ LAYOUT
 ========================================================================== */
 
 .partyPlanGiftGoods {
-    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    @include mi.marginPercent(1920, 96, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 70, auto, 0, auto);
+        margin-top: 19%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .partyPlanGiftGoodsWap {
@@ -29,39 +32,55 @@ LAYOUT
     @include mi.lineheight(16, 28);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.fontSizeSp(13);
+        @include mi.fontSizeSp(12);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
 .h3PartyPlanGiftGoods {
-    @include mi.marginPercent(1300, 29, 0, 0, 0);
+    @include mi.marginPercent(1300, 3, 0, 0, 0);
     @include mi.fontSizePc(60);
-    @include mi.lineheightP(160);
+    @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 0.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(36);
-        @include mi.lineheightP(160);
-        @include mi.letterSpacing(10);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(100);
     }
 }
 .rubyPartyPlanGiftGoods {
-    @include mi.marginPercent(1300, 30, 0, 0, 0);
+    @include mi.marginPercent(1300, -3, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -2.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .productsPlanGiftGoods {
+    @include mi.marginPercent(1300, 55, auto, 0, auto);
+    @include mi.mq(sp) {
+        margin-top: 11.23%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .titleProductsPlanGiftGoods {
     align-items: baseline;
+    @include mi.mq(sp) {
+        align-items: center;
+    }
 }
 .h4TitleProductsPlanGiftGoods {
     @include mi.fontSizePc(30);
@@ -81,7 +100,7 @@ LAYOUT
     @include mi.letterSpacing(0);
     width: fit-content;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 0, 0, 0, 15);
+        margin: 0% 0% 0% 4%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -89,10 +108,13 @@ LAYOUT
 }
 
 .ulProductsPlanGiftGoods {
-    @include mi.marginPercent(1300, 30, auto, 0, auto);
+    @include mi.marginPercent(1300, 0, auto, 0, auto);
     flex-flow: row wrap;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 9.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liProductsPlanGiftGoods {
@@ -104,7 +126,10 @@ LAYOUT
     }
     &:nth-child(n + 2) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 30, auto, 0, auto);
+            margin-top: 8.5%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
     &:nth-child(n + 5) {
@@ -146,9 +171,9 @@ LAYOUT
     }
 }
 .secProductsPlanGiftGoods {
-    @include mi.marginPercent(291, 20, 0, 0, 0);
+    @include mi.marginPercent(291, 13, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 0, 0, 0, 0);
+        margin: -1.5% 0% 0% 0%;
         @include mi.ontenerWidth(330, 171);
     }
 }
@@ -163,24 +188,30 @@ LAYOUT
     }
 }
 .priceProductsPlanGiftGoods {
-    @include mi.marginPercent(291, 14, auto, 0, auto);
+    @include mi.marginPercent(291, 3, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(50);
     @include mi.mq(sp) {
-        @include mi.marginPercent(171, 15, auto, 0, auto);
+        margin-top: 1.77%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(50);
     }
 }
 .txtProductsPlanGiftGoods {
-    @include mi.marginPercent(291, 20, auto, 0, auto);
+    @include mi.marginPercent(291, 9, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 3%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
@@ -200,9 +231,12 @@ LAYOUT
 }
 
 .productsPlanGiftGoods02 {
-    @include mi.marginPercent(1300, 80, 0, 0, 0);
+    @include mi.marginPercent(1300, 67, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 70, auto, 0, auto);
+        margin-top: 18.21%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .btnDetailGiftGoodsLxn {

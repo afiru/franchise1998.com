@@ -2,7 +2,7 @@
     <div class="wapper partyPlanGiftGoodsWap">
         <section class="secPartyPlanGiftGoods">
             <h2 class="cl_453C3C fw_400 txtset h2PartyPlanGiftGoods">パーティーをさらに盛り上げるギフトやグッズも合わせてご注文いただけます</h2>
-            <h3 class="cl_772D2D fw_500 txtset h3PartyPlanGiftGoods">GIFT&GOODS</h3>
+            <h3 class="cl_772D2D fw_500 txtset CormorantUnicase h3PartyPlanGiftGoods">GIFT&GOODS</h3>
             <p class="cl_453C3C fw_500 txtset rubyPartyPlanGiftGoods">ギフト＆グッズ</p>
         </section>
 

@@ -97,7 +97,7 @@ LAYOUT
     }
 }
 .mainCntLiProducetFaqLxn {
-    @include mi.marginPercent(900, 31, auto, 0, auto);
+    @include mi.marginPercent(900, 0, auto, 0, auto);
     @include mi.paddingPercent(900, 0, 0, 22, 0);
     display: none;
     @include mi.mq(sp) {

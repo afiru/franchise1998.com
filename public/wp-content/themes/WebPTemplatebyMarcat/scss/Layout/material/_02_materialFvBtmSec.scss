@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -10,14 +10,15 @@ LAYOUT
     @include mi.marginPercent(1920, 118, auto, 0, auto);
 
     @include mi.mq(sp) {
-        margin-top: 18.33%;
+        margin-top: 18%;
         margin-bottom: 0%;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
-.MaterialFvBtmSecWap {}
+.MaterialFvBtmSecWap {
+}
 
 .h2MaterialFvBtmSec {
     @include mi.fontSizePc(26);
@@ -47,5 +48,6 @@ LAYOUT
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
+        text-align: center;
     }
 }
