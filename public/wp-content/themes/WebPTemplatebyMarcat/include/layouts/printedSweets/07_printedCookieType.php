@@ -1,7 +1,7 @@
 <div class="printedCookieType">
     <div class="wapper printedCookieTypeWap">
         <section class="secPrintedCookieType">
-            <h2 class="t_center cl_421D12 fw_500 txtset h2PrintedCookieType">TYPE</h2>
+            <h2 class="t_center cl_421D12 fw_500 txtset CormorantUnicase h2PrintedCookieType">TYPE</h2>
             <p class="t_center cl_453C3C fw_400 txtset rubyPrintedCookieType">クッキーの種類</p>
             <h3 class="t_center cl_453C3C fw_500 txtset h3PrintedCookieType">選べる3種類のクッキー</h3>
             <p class="t_center cl_453C3C fw_500 txtset txtPrintedCookieType">

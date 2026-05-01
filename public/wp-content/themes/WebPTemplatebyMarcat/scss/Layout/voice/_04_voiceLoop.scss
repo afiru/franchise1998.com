@@ -7,9 +7,12 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .voiceLoop {
-    @include mi.marginPercent(1920, 51, auto, 0, auto);
+    @include mi.marginPercent(1920, 44, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 40, auto, 0, auto);
+        margin-top: 9%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .voiceLoopWap {
@@ -26,9 +29,12 @@ LAYOUT
 }
 .liVoiceLoop {
     &:nth-child(n + 2) {
-        @include mi.marginPercent(1300, 30, auto, 0, auto);
+        @include mi.marginPercent(1300, 25, auto, 0, auto);
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 25, auto, 0, auto);
+            margin-top: 6%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -43,23 +49,29 @@ LAYOUT
     }
 }
 .h3VoiceLoop {
-    @include mi.marginPercent(1300, 10, auto, 0, auto);
+    @include mi.marginPercent(1300, 2, auto, 0, auto);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 10, auto, 0, auto);
+        margin-top: 0;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .cntVoiceLoop {
-    @include mi.marginPercent(1300, 20, auto, 0, auto);
-    @include mi.paddingPercent(1300, 24, 0, 24, 0);
+    @include mi.marginPercent(1300, 14, auto, 0, auto);
+    @include mi.paddingPercent(1300, 13, 0, 16, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 12, auto, 0, auto);
-        @include mi.paddingPercent(330, 20, 0, 20, 0);
+        margin-top: 2.4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 4.06% 0% 4.06% 0%;
     }
 }
 .cntVoiceLoopLxn {
@@ -79,13 +91,14 @@ LAYOUT
         }
     }
 }
-.pagerVoice {
-}
 
 .pagerVoiceUp {
-    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.marginPercent(1300, 14, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 11.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .pagerVoiceUptxt {
@@ -100,9 +113,12 @@ LAYOUT
 }
 //ページャー
 .pagerVoice {
-    @include mi.marginPercent(1300, 40, auto, 0, auto);
+    @include mi.marginPercent(1300, 37, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 50, auto, 0, auto);
+        margin-top: 14.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .pagerVoice .wp-pagenavi {
@@ -138,7 +154,7 @@ LAYOUT
             @include mi.ontenerWVw(375, 25);
             @include mi.fontSizeSp(14);
             @include mi.letterSpacing(0);
-            min-width: 25px;
+            min-width: auto;
         }
     }
     .current {
@@ -161,7 +177,7 @@ LAYOUT
             @include mi.ontenerWVw(375, 38);
             @include mi.fontSizeSp(14);
             @include mi.letterSpacing(0);
-            min-width: 38px;
+            min-width: auto;
         }
     }
     .nextpostslink {
@@ -181,12 +197,12 @@ LAYOUT
             @include mi.ontenerWVw(375, 38);
             @include mi.fontSizeSp(14);
             @include mi.letterSpacing(0);
-            min-width: 38px;
+            min-width: auto;
         }
     }
     .last {
         @include mi.ontenerWVw(1920, 33);
-        @include mi.marginVw(1920, 0, 11, 0, 11);
+        margin: 0vw 0.6vw 0vw 0vw;
         aspect-ratio: 33/33;
         @include mi.kadomaru(100px);
         @include mi.fontSizePc(14);
@@ -205,7 +221,7 @@ LAYOUT
             @include mi.ontenerWVw(375, 25);
             @include mi.fontSizeSp(14);
             @include mi.letterSpacing(0);
-            min-width: 25px;
+            min-width: auto;
         }
     }
 }

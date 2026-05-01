@@ -1,13 +1,13 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .accessFlanMap {
-    @include mi.marginPercent(1920, 60, auto, 0, auto);
+    @include mi.marginPercent(1920, 48, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 20, auto, 0, auto);

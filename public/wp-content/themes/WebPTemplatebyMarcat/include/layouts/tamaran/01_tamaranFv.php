@@ -1,8 +1,8 @@
 <div class="underFv aboutUnderFv">
     <div class="wapper aboutUnderFvWap">
         <section class="secAboutUnderFv">
-            <h1 class="cl_421D12 fw_500 CormorantUnicase txtset h1AboutUnderFv">PRINTED SWEETS</h1>
-            <p class="cl_453C3C fw_500 txtset txtAboutUnderFv">オリジナルプリントスイーツ</p>
+            <h1 class="cl_421D12 fw_500 CormorantUnicase txtset h1AboutUnderFv">TAMARAN CHEESE</h1>
+            <p class="cl_453C3C fw_500 txtset txtAboutUnderFv">たま卵チーズ</p>
         </section>
     </div>
 

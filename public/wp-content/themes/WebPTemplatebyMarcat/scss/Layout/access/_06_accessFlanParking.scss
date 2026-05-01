@@ -1,16 +1,19 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .accessFlanParking {
-    @include mi.marginPercent(1920, 60, auto, 0, auto);
+    @include mi.marginPercent(1920, 51, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 40, auto, 0, auto);
+        margin-top: 8.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -21,7 +24,8 @@ LAYOUT
     }
 }
 
-.secAccessFlanParking {}
+.secAccessFlanParking {
+}
 
 .h2AccessFlanParking {
     @include mi.fontSizePc(20);
@@ -36,13 +40,16 @@ LAYOUT
 }
 
 .txtAccessFlanParking {
-    @include mi.marginPercent(1300, 15, auto, 0, auto);
+    @include mi.marginPercent(1300, 1, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 3%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
@@ -51,9 +58,12 @@ LAYOUT
 }
 
 .photoAccessFlanParking {
-    @include mi.marginPercent(1300, 30, auto, 0, auto);
+    @include mi.marginPercent(1300, 25, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 5.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

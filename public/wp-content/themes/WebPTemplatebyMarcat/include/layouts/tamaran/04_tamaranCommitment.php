@@ -146,7 +146,7 @@
                 </li>
             </ul>
 
-            <p class="d_flex j_center ali_center bg_fff cl_772D2D fw_500 txtLastTamaranCommitment">お手元に届いてから2～3日以内に<br class="sp_only">お召し上がりください</p>
+            <p class="d_flex j_center ali_center bg_fff cl_772D2D fw_500 kaku txtLastTamaranCommitment">お手元に届いてから2～3日以内に<br class="sp_only">お召し上がりください</p>
         </section>
     </div>
 </div>

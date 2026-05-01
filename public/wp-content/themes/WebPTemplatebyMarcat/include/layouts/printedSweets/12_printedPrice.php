@@ -17,7 +17,7 @@
                 </section>
 
                 <section class="pricePrintedChoco">
-                    <h3 class="cl_453C3C f_400 txtset h3PricePrintedChoco">プリントクッキー料金</h3>
+                    <h3 class="cl_453C3C f_400 txtset h3PricePrintedChoco">プリントチョコプレート料金</h3>
                     <figure class="tablePricePrintedChoco">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/printedSweets/tablePricePrintedChocoPc.svg'); ?>">
@@ -32,8 +32,8 @@
             </div>
 
             <p class="cl_453C3C txtset txtPrintedPriceLast">
-                ●予告なく、パッケージ及び商品の変更をさせていただく場合もございます。<br>
-                ●プリントには食品衛生法をクリアした可食インクを使用しています。●詳しくはお問い合わせくださいませ。●クッキーのラッピングをご希望の場合は別途費用が掛かります。ラッピングは多数ご用意しております、デザインは店頭で配送ご確認ください。
+                ●予告なく、パッケージ及び商品の変更をさせていただく場合もございます。●プリントには食品衛生法をクリアした可食インクを使用しています。
+                <br>●詳しくはお問い合わせくださいませ。●クッキーのラッピングをご希望の場合は別途費用が掛かります。ラッピングは多数ご用意しております、デザインは店頭で配送ご確認ください。
             </p>
 
             <div class="btnPrintedPrice">

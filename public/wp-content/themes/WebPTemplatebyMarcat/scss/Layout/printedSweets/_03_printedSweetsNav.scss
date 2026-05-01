@@ -7,9 +7,12 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedSweetsFvBtmNav {
-    @include mi.marginPercent(1920, 71, auto, 0, auto);
+    @include mi.marginPercent(1920, 56, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 100, auto, 0, auto);
+        margin-top: 22.3%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .PrintedSweetsFvBtmNavWap {
@@ -28,18 +31,21 @@ LAYOUT
     border-bottom: 1px solid #d9d9d9;
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 154);
+        &:nth-child(n + 3) {
+            margin: 5% 0 0 0;
+        }
     }
 }
 .btnNavPrintedSweetsFvBtm {
-    @include mi.paddingPercent(200, 0, 0, 20, 0);
+    @include mi.paddingPercent(200, 0, 0, 15, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     text-decoration: none;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(154, 0, 0, 15, 0);
+        padding: 0% 0% 6.74% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
-        @include mi.letterSpacing(0);
+        letter-spacing: -0.05em;
     }
 }

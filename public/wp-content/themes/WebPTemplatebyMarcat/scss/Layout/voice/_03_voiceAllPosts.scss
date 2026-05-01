@@ -8,9 +8,12 @@ LAYOUT
 ========================================================================== */
 
 .voiceAllPosts {
-    @include mi.marginPercent(1920, 80, auto, 0, auto);
+    @include mi.marginPercent(1920, 69, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 80, auto, 0, auto);
+        margin-top: 18.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .voiceAllPostsWap {
@@ -29,10 +32,13 @@ LAYOUT
     }
 }
 .brdVoiceAllPosts {
-    @include mi.marginPercent(1300, 30, auto, 0, auto);
+    @include mi.marginPercent(1300, 25, auto, 0, auto);
     height: 1px;
     width: 100%;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 10, auto, 0, auto);
+        margin-top: 1.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

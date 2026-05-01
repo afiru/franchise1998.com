@@ -11,14 +11,14 @@
                 </figure>
 
                 <section class="secWeddingSweetsBnr">
-                    <h2 class="t_center cl_fff fw_500 txtset h2WeddingSweetsBnr">PRINTED SWEETS</h2>
+                    <h2 class="t_center cl_fff fw_500 txtset CormorantUnicase h2WeddingSweetsBnr">PRINTED SWEETS</h2>
                     <h3 class="t_center cl_fff fw_500 txtset h3WeddingSweetsBnr">
                         心に残る特別なギフトは<br>
                         世界にひとつの<br>
                         “オリジナルプリントスイーツ”で
                     </h3>
                     <p class="t_center cl_fff fw_500 txtset txtWeddingSweetsBnr">
-                        お好きなデザインでお作りいただけます。納期は10日前後ですので、お早めにご依頼ください。
+                        お好きなデザインでお作りいただけます。<br class="sp_only">納期は10日前後ですので、<br class="sp_only">お早めにご依頼ください。
                     </p>
                     <div class="btnWeddingSweetsBnrlxn">
                         <a class="d_flex j_center ali_center cl_fff undernone fw_400kaku btnWeddingSweetsBnr" href="">

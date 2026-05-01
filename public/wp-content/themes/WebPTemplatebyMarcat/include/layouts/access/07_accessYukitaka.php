@@ -41,7 +41,7 @@
                             </div>
                         </li>
                         <li class="d_flex j_between ali_center liMainAccessYukitaka">
-                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessYukitaka"></h3>
+                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessYukitaka">TEL</h3>
                             <div class="d_flex j_start cntMainAccessYukitaka">
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessYukitaka"><a href="tel:0120-656-567">0120-656-567</a>（通話無料）</p>
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessYukitaka txtCntMainAccessYukitaka02"><a href="tel:072-281-1010">072-281-1010</a></p>

@@ -18,7 +18,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/h2TotamaranOnlinePc.svg'); ?>" alt="<?php echo esc_attr('オンラインでも購入できます。'); ?>" width="389" height="27">
                         </picture>
                     </h2>
-                    <p class="cl_772D2D fw_500 txtset txtTotamaranOnline">
+                    <p class="cl_772D2D fw_500 txtset kaku txtTotamaranOnline">
                         大阪土産名物「たま卵チーズ」を是非、手土産に・ご家庭用に！<br>ふわとろの美味しさを体感してください！
                     </p>
                     <ul class="d_flex j_start row ulTotamaranOnline">

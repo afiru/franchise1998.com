@@ -1,20 +1,24 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .accessNav {
-    @include mi.marginPercent(1920, 145, auto, 0, auto);
+    @include mi.marginPercent(1920, 133, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 66, auto, 0, auto);
+        margin-top: 16.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
-.AccessNavWap {}
+.AccessNavWap {
+}
 
 .AccessNavBtm {
     @include mi.ontenerWidth(1300, 860);
@@ -31,8 +35,8 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 157);
 
-        &:nth-child(n+3) {
-            @include mi.marginPercent(375, 11, 0, 0, 0);
+        &:nth-child(n + 3) {
+            margin: 3.5% 0% 0% 0%;
         }
     }
 }
@@ -42,7 +46,7 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
-    border-bottom: 1px solid #D9D9D9;
+    border-bottom: 1px solid #d9d9d9;
     text-align: center;
     text-decoration: none;
 
@@ -51,7 +55,7 @@ LAYOUT
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
-        border-bottom: 1px solid #D9D9D9;
+        border-bottom: 1px solid #d9d9d9;
         text-align: center;
         text-decoration: none;
     }

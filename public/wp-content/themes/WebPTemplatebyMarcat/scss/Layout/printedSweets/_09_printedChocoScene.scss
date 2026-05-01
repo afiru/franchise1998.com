@@ -9,11 +9,11 @@ LAYOUT
 
 .printedChocoScene {
     @include mi.marginPercent(1920, 0, auto, 0, auto);
-    @include mi.paddingPercent(1920, 0, 0, 135, 0);
+    @include mi.paddingPercent(1920, 0, 0, 101, 0);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 0, auto, 0, auto);
-        @include mi.paddingPercent(330, 0, 0, 90, 0);
+        padding: 0% 0% 17.27% 0%;
     }
 }
 .printedChocoSceneWap {
@@ -30,43 +30,55 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(160);
-        @include mi.letterSpacing(10);
+        @include mi.letterSpacing(100);
     }
 }
 .rubyPrintedChocoScene {
-    @include mi.marginPercent(1300, 15, auto, 0, auto);
+    @include mi.marginPercent(1300, -9, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -0.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .ulPrintedChocoScene {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 43, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 10.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liPrintedChocoScene {
     @include mi.ontenerWidth(1300, 180);
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 100);
+        &:nth-child(n + 4) {
+            margin: 9% 0 0 0;
+        }
     }
 }
 .photoLiPrintedChocoScene {
     width: 100%;
 }
 .rubyLiPrintedChocoScene {
-    @include mi.marginPercent(180, 27, auto, 0, auto);
+    @include mi.marginPercent(180, 19, auto, 0, auto);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 18, auto, 0, auto);
+        margin-top: 12.45%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);

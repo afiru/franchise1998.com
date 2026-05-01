@@ -8,9 +8,12 @@ LAYOUT
 ========================================================================== */
 
 .weddingSweetsProducts {
-    @include mi.marginPercent(1920, 39, auto, 0, auto);
+    @include mi.marginPercent(1920, 30, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 60, auto, 0, auto);
+        margin-top: 13%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .weddingSweetsProductsWap {
@@ -31,9 +34,12 @@ LAYOUT
     }
 }
 .ulWeddingSweetsProducts {
-    @include mi.marginPercent(1300, 21, auto, 0, auto);
+    @include mi.marginPercent(1300, 14, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 7.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: space-between;
     }
 }
@@ -46,7 +52,7 @@ LAYOUT
     }
     &:nth-child(n + 3) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 20, 0, 0, 0);
+            margin: 7.06% 0% 0% 0%;
         }
     }
     &:nth-child(n + 5) {
@@ -65,25 +71,31 @@ LAYOUT
 .photoWeddingSweetsProducts {
 }
 .h3WeddingSweetsProducts {
-    @include mi.marginPercent(305, 20, auto, 0, auto);
+    @include mi.marginPercent(305, 13, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
     text-decoration: underline;
     @include mi.mq(sp) {
-        @include mi.marginPercent(158, 16, auto, 0, auto);
+        margin-top: 7.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .txtWeddingSweetsProducts {
-    @include mi.marginPercent(305, 20, auto, 0, auto);
+    @include mi.marginPercent(305, 10, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheight(14, 24);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(158, 18, auto, 0, auto);
+        margin-top: 7.39%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);

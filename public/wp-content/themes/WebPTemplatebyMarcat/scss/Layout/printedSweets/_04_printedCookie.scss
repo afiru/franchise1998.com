@@ -7,9 +7,12 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedCookie {
-    @include mi.marginPercent(1920, 89, auto, 0, auto);
+    @include mi.marginPercent(1920, 74, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 92, auto, 0, auto);
+        margin-top: 10.53%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .printedCookieWap {
@@ -31,9 +34,12 @@ LAYOUT
     }
 }
 .printedCookieFx {
-    @include mi.marginPercent(1300, 65, 0, 0, 0);
+    @include mi.marginPercent(1300, 53, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 5.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .photoPrintedCookieFx {
@@ -44,8 +50,12 @@ LAYOUT
 }
 .secPrintedCookieFx {
     @include mi.ontenerWidth(1300, 570);
+    @include mi.marginPercent(1300, -7, 70, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 9.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
@@ -60,21 +70,27 @@ LAYOUT
     }
 }
 .txtPrintedCookieFx {
-    @include mi.marginPercent(570, 46, 0, 0, 0);
+    @include mi.marginPercent(570, 34, 0, 0, 0);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 3.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .ulPrintedCookieFx {
-    @include mi.marginPercent(570, 15, auto, 0, auto);
+    @include mi.marginPercent(570, 10, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 5.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liPrintedCookieFx {

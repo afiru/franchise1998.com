@@ -7,9 +7,12 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedCookieVoice {
-    @include mi.marginPercent(1920, 135, auto, 0, auto);
+    @include mi.marginPercent(1920, 107, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 90, auto, 0, auto);
+        margin-top: 15.25%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .printedCookieVoiceWap {
@@ -26,36 +29,42 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(160);
-        @include mi.letterSpacing(10);
+        @include mi.letterSpacing(100);
     }
 }
 .rubyTitlePrintedCookieVoiceTitle {
-    @include mi.marginPercent(1300, 15, auto, 0, auto);
+    @include mi.marginPercent(1300, -9, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -0.96%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .ulPrintedCookieVoice {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 44, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 4.22%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         flex-flow: row wrap;
     }
 }
 .liPrintedCookieVoice {
-    @include mi.paddingPercent(1300, 35, 0, 32, 0);
+    @include mi.paddingPercent(1300, 31, 0, 29, 0);
     @include mi.ontenerWidth(1300, 413);
     border: 1px solid #d9d9d9;
     @include mi.kadomaru(6px);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, 0, 0, 0);
-        @include mi.paddingPercent(330, 25, 0, 24, 0);
+        padding: 6.27% 0% 15.27% 0%;
         width: 100%;
         &:nth-child(n + 4) {
             @include mi.marginPercent(330, 47, 0, 0, 0);
@@ -87,21 +96,28 @@ LAYOUT
     }
 }
 .ulLiPrintedCookieVoiceOpe {
-    @include mi.marginPercent(345, 37, auto, 0, auto);
+    @include mi.marginPercent(345, 29, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(275, 20, auto, 0, auto);
+        margin-top: 5.27%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liPrintedCookieVoiceOpe {
-    @include mi.paddingPercent(350, 0, 0, 13, 0);
+    @include mi.paddingPercent(350, 0, 0, 9, 0);
     border-bottom: 1px solid #f1ece8;
     &:nth-child(n + 2) {
-        @include mi.marginPercent(350, 12, auto, 0, auto);
+        @include mi.marginPercent(350, 9, auto, 0, auto);
+        border-bottom: none;
     }
     @include mi.mq(sp) {
-        @include mi.paddingPercent(275, 0, 0, 12, 0);
+        padding: 0% 0% 2.36% 0%;
         &:nth-child(n + 2) {
-            @include mi.marginPercent(275, 12, auto, 0, auto);
+            margin-top: 2.36%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -130,9 +146,12 @@ LAYOUT
     }
 }
 .detailPrintedCookieVoice {
-    @include mi.marginPercent(345, 19, auto, 0, auto);
+    @include mi.marginPercent(345, 4, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(275, 18, auto, 0, auto);
+        margin-top: 2.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .secDetailPrintedCookieVoice {
@@ -142,20 +161,20 @@ LAYOUT
     }
 }
 .h4DetailPrintedCookieVoice {
-    @include mi.paddingPercent(209, 6, 0, 6, 8);
+    @include mi.paddingPercent(209, 2, 0, 2, 8);
     @include mi.fontSizePc(13);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(0);
     @include mi.kadomaru(3px);
     @include mi.mq(sp) {
-        @include mi.paddingPercent(167, 4, 0, 4, 6);
+        padding: 0.39% 0% 1.39% 0.59%;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
     }
 }
 .txtDetailPrintedCookieVoice {
-    @include mi.marginPercent(209, 18, auto, 0, auto);
+    @include mi.marginPercent(209, 16, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheight(14, 23);
     @include mi.letterSpacing(0);

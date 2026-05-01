@@ -13,7 +13,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/printedSweets/photoLiPrintedChocoScene01Pc.png'); ?>" alt="<?php echo esc_attr('出産内祝い'); ?>" width="180" height="244">
                         </picture>
                     </figure>
-                    <p class="t_center cl_453C3C fw_400 txtset rubyLiPrintedChocoScene">出産内祝い</p>
+                    <p class="t_center cl_453C3C fw_400 txtset rubyLiPrintedChocoScene">お誕生日</p>
                 </li>
 
                 <li class="liPrintedChocoScene">
@@ -24,7 +24,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/printedSweets/photoLiPrintedChocoScene02Pc.png'); ?>" alt="<?php echo esc_attr('結婚式のプチギフト'); ?>" width="180" height="244">
                         </picture>
                     </figure>
-                    <p class="t_center cl_453C3C fw_400 txtset rubyLiPrintedChocoScene">結婚式の<br>プチギフト</p>
+                    <p class="t_center cl_453C3C fw_400 txtset rubyLiPrintedChocoScene">結婚記念日</p>
                 </li>
 
                 <li class="liPrintedChocoScene">
@@ -35,7 +35,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/printedSweets/photoLiPrintedChocoScene03Pc.png'); ?>" alt="<?php echo esc_attr('母の日・父の日'); ?>" width="180" height="244">
                         </picture>
                     </figure>
-                    <p class="t_center cl_453C3C fw_400 txtset rubyLiPrintedChocoScene">母の日・父の日<br>敬老の日</p>
+                    <p class="t_center cl_453C3C fw_400 txtset rubyLiPrintedChocoScene">お祝い事</p>
                 </li>
 
                 <li class="liPrintedChocoScene">
@@ -68,7 +68,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/printedSweets/photoLiPrintedChocoScene06Pc.png'); ?>" alt="<?php echo esc_attr('記念'); ?>" width="180" height="244">
                         </picture>
                     </figure>
-                    <p class="t_center cl_453C3C fw_400 txtset rubyLiPrintedChocoScene">記念<br>ノベルティ</p>
+                    <p class="t_center cl_453C3C fw_400 txtset rubyLiPrintedChocoScene">母の日・父の日<br>敬老の日</p>
                 </li>
             </ul>
         </section>

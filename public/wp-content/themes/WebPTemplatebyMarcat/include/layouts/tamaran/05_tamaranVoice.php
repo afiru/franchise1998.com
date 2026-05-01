@@ -15,7 +15,7 @@
                         <section class="secLiTamaranVoice">
                             <h3 class="cl_772D2D fw_500 txtset kaku h3LiTamaranVoice">究極のふわとろチーズケーキ！</h3>
                             <p class="cl_772D2D fw_500 txtset kaku rubyLiTamaranVoice">女性／30代</p>
-                            <p class="cl_453C3C fw_500 txtset text_justify txtLiTamaranVoice">
+                            <p class="cl_453C3C fw_500 txtset text_justify kaku txtLiTamaranVoice">
                                 口に入れると溶けてしまうチーズケーキ。<br>
                                 まるで飲み物みたい♪以前にテレビで紹介されているのを見て、新大阪駅まで買いに行って食べた時の感動を思い出しました♪久しぶりにネットで見つけ、買ってみましたが、やっぱり美味しい!!!チーズケーキが好きで、いろいろ食べ歩いているけど、やっぱり一押しです♪
                             </p>
@@ -26,7 +26,7 @@
                         <section class="secLiTamaranVoice">
                             <h3 class="cl_772D2D fw_500 txtset kaku h3LiTamaranVoice">嬉しい♪</h3>
                             <p class="cl_772D2D fw_500 txtset kaku rubyLiTamaranVoice">男性／40代</p>
-                            <p class="cl_453C3C fw_500 txtset text_justify txtLiTamaranVoice">
+                            <p class="cl_453C3C fw_500 txtset text_justify kaku txtLiTamaranVoice">
                                 新大阪駅で限定発売していて、出張の帰りに購入していました。美味しいからいつも買えたらいいなぁと思っていたら、ネットでも購入できるようになってとても嬉しいです。
                             </p>
                         </section>
@@ -36,7 +36,7 @@
                         <section class="secLiTamaranVoice">
                             <h3 class="cl_772D2D fw_500 txtset kaku h3LiTamaranVoice">好評でした。</h3>
                             <p class="cl_772D2D fw_500 txtset kaku rubyLiTamaranVoice">女性／40代</p>
-                            <p class="cl_453C3C fw_500 txtset text_justify txtLiTamaranVoice">
+                            <p class="cl_453C3C fw_500 txtset text_justify kaku txtLiTamaranVoice">
                                 五つ星の評価が多かったので購入してみました。敬老の日のプレゼントにしたのですが、チーズの味が濃くて、ふわふわしてプリンみたいだねと好評でした。評判通りで、購入する価値はあると思います。
                                 美味しかったです。
                             </p>
@@ -47,9 +47,9 @@
                         <section class="secLiTamaranVoice">
                             <h3 class="cl_772D2D fw_500 txtset kaku h3LiTamaranVoice">ふんわり！しゅくっ</h3>
                             <p class="cl_772D2D fw_500 txtset kaku rubyLiTamaranVoice">男性／40代</p>
-                            <p class="cl_453C3C fw_500 txtset text_justify txtLiTamaranVoice">
+                            <p class="cl_453C3C fw_500 txtset text_justify kaku txtLiTamaranVoice">
                                 ・・・という、スプーンを差し入れた時の軽い感触がたまらない。<br>
-                                元TVチャンピオンのお店と聞いて普段から愛用させていただいています。<br>
+                                元TVチャンピオンのお店と聞いて普段から愛用させていただいています。<br class="pc_only">
                                 今回はおもたせでいただきました。
                             </p>
                         </section>

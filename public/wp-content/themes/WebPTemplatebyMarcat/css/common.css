@@ -18914,14 +18914,14 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedSweetsFvBtmNav {
-  margin-top: 71px;
+  margin-top: 56px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedSweetsFvBtmNav {
-    margin-top: 3.69%;
+    margin-top: 2.91%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -18929,15 +18929,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedSweetsFvBtmNav {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedSweetsFvBtmNav {
-    margin-top: 30.3%;
+    margin-top: 22.3%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -18998,16 +18990,21 @@ LAYOUT
     width: 46.66%;
   }
 }
+@media screen and (max-width: 767px) {
+  .liNavPrintedSweetsFvBtm:nth-child(n+3) {
+    margin: 5% 0 0 0;
+  }
+}
 
 .btnNavPrintedSweetsFvBtm {
   padding-top: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .btnNavPrintedSweetsFvBtm {
-    padding: 0% 0% 10% 0%;
+    padding: 0% 0% 7.5% 0%;
   }
 }
 .btnNavPrintedSweetsFvBtm {
@@ -19025,17 +19022,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnNavPrintedSweetsFvBtm {
-    padding-top: 0px;
-    padding-bottom: 15px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0% 0% 6.74% 0%;
     line-height: 160%;
-    letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnNavPrintedSweetsFvBtm {
-    padding: 0% 0% 9.74% 0%;
+    letter-spacing: -0.05em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -19054,14 +19043,14 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedCookie {
-  margin-top: 89px;
+  margin-top: 74px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedCookie {
-    margin-top: 4.63%;
+    margin-top: 3.85%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19069,15 +19058,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedCookie {
-    margin-top: 92px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedCookie {
-    margin-top: 24.53%;
+    margin-top: 10.53%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19121,27 +19102,19 @@ LAYOUT
 }
 
 .printedCookieFx {
-  margin-top: 65px;
+  margin-top: 53px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .printedCookieFx {
-    margin: 5% 0% 0% 0%;
+    margin: 4.07% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .printedCookieFx {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedCookieFx {
-    margin-top: 7.57%;
+    margin-top: 5.57%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19170,21 +19143,24 @@ LAYOUT
     width: 43.84%;
   }
 }
-@media screen and (max-width: 767px) {
+.secPrintedCookieFx {
+  margin-top: -7px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 70px;
+}
+@media screen and (max-width: 1299px) {
   .secPrintedCookieFx {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    margin: -0.54% 5.38% 0% 0%;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
+@media screen and (max-width: 767px) {
   .secPrintedCookieFx {
-    margin-top: 12.12%;
+    margin-top: 9.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -19213,14 +19189,14 @@ LAYOUT
 }
 
 .txtPrintedCookieFx {
-  margin-top: 46px;
+  margin-top: 34px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtPrintedCookieFx {
-    margin: 8.07% 0% 0% 0%;
+    margin: 5.96% 0% 0% 0%;
   }
 }
 .txtPrintedCookieFx {
@@ -19237,20 +19213,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtPrintedCookieFx {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 3.57%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPrintedCookieFx {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -19260,14 +19228,14 @@ LAYOUT
 }
 
 .ulPrintedCookieFx {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulPrintedCookieFx {
-    margin-top: 2.63%;
+    margin-top: 1.75%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19275,15 +19243,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulPrintedCookieFx {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulPrintedCookieFx {
-    margin-top: 7.57%;
+    margin-top: 5.57%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19343,14 +19303,14 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedCookieScene {
-  margin-top: 135px;
+  margin-top: 114px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedCookieScene {
-    margin-top: 7.03%;
+    margin-top: 5.93%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19358,15 +19318,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedCookieScene {
-    margin-top: 60px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedCookieScene {
-    margin-top: 18.18%;
+    margin-top: 13.18%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19399,7 +19351,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .h2PrintedCookieScene {
     line-height: 160%;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -19409,14 +19361,14 @@ LAYOUT
 }
 
 .rubyPrintedCookieScene {
-  margin-top: 15px;
+  margin-top: -10px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyPrintedCookieScene {
-    margin-top: 1.15%;
+    margin-top: -0.77%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19436,20 +19388,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyPrintedCookieScene {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -0.46%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyPrintedCookieScene {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -19459,14 +19403,14 @@ LAYOUT
 }
 
 .ulPrintedCookieScene {
-  margin-top: 50px;
+  margin-top: 46px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulPrintedCookieScene {
-    margin-top: 3.84%;
+    margin-top: 3.53%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19474,19 +19418,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulPrintedCookieScene {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-flow: row wrap;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulPrintedCookieScene {
-    margin-top: 12.12%;
+    margin-top: 10.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    flex-flow: row wrap;
   }
 }
 
@@ -19510,15 +19446,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liPrintedCookieScene:nth-child(n+4) {
-    margin-top: 47px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPrintedCookieScene:nth-child(n+4) {
-    margin: 14.24% 0% 0% 0%;
+    margin: 7.24% 0% 0% 0%;
   }
 }
 
@@ -19527,14 +19455,14 @@ LAYOUT
 }
 
 .rubyLiPrintedCookieScene {
-  margin-top: 27px;
+  margin-top: 18px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyLiPrintedCookieScene {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19554,20 +19482,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyLiPrintedCookieScene {
-    margin-top: 18px;
-    margin-bottom: 0px;
+    margin-top: 11.45%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyLiPrintedCookieScene {
-    margin-top: 5.45%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -19586,14 +19506,14 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedCookieVoice {
-  margin-top: 135px;
+  margin-top: 107px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedCookieVoice {
-    margin-top: 7.03%;
+    margin-top: 5.57%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19601,15 +19521,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedCookieVoice {
-    margin-top: 90px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedCookieVoice {
-    margin-top: 24%;
+    margin-top: 15.25%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19642,7 +19554,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .h2TitlePrintedCookieVoiceTitle {
     line-height: 160%;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -19652,14 +19564,14 @@ LAYOUT
 }
 
 .rubyTitlePrintedCookieVoiceTitle {
-  margin-top: 15px;
+  margin-top: -9px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyTitlePrintedCookieVoiceTitle {
-    margin-top: 1.15%;
+    margin-top: -0.7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19679,20 +19591,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyTitlePrintedCookieVoiceTitle {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -0.96%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyTitlePrintedCookieVoiceTitle {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -19702,14 +19606,14 @@ LAYOUT
 }
 
 .ulPrintedCookieVoice {
-  margin-top: 50px;
+  margin-top: 44px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulPrintedCookieVoice {
-    margin-top: 3.84%;
+    margin-top: 3.38%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19717,31 +19621,23 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulPrintedCookieVoice {
-    margin-top: 40px;
-    margin-bottom: 0px;
+    margin-top: 4.22%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     flex-flow: row wrap;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulPrintedCookieVoice {
-    margin-top: 12.12%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 .liPrintedCookieVoice {
-  padding-top: 35px;
-  padding-bottom: 32px;
+  padding-top: 31px;
+  padding-bottom: 29px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liPrintedCookieVoice {
-    padding: 2.69% 0% 2.46% 0%;
+    padding: 2.38% 0% 2.23% 0%;
   }
 }
 .liPrintedCookieVoice {
@@ -19767,21 +19663,13 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    padding-top: 25px;
-    padding-bottom: 24px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 6.27% 0% 15.27% 0%;
     width: 100%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .liPrintedCookieVoice {
     margin: 6.06% 0% 0% 0%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPrintedCookieVoice {
-    padding: 7.57% 0% 7.27% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -19911,14 +19799,14 @@ LAYOUT
 }
 
 .ulLiPrintedCookieVoiceOpe {
-  margin-top: 37px;
+  margin-top: 29px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulLiPrintedCookieVoiceOpe {
-    margin-top: 10.72%;
+    margin-top: 8.4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19926,15 +19814,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulLiPrintedCookieVoiceOpe {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulLiPrintedCookieVoiceOpe {
-    margin-top: 7.27%;
+    margin-top: 5.27%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -19943,56 +19823,41 @@ LAYOUT
 
 .liPrintedCookieVoiceOpe {
   padding-top: 0px;
-  padding-bottom: 13px;
+  padding-bottom: 9px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liPrintedCookieVoiceOpe {
-    padding: 0% 0% 3.71% 0%;
+    padding: 0% 0% 2.57% 0%;
   }
 }
 .liPrintedCookieVoiceOpe {
   border-bottom: 1px solid #f1ece8;
 }
 .liPrintedCookieVoiceOpe:nth-child(n+2) {
-  margin-top: 12px;
+  margin-top: 9px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .liPrintedCookieVoiceOpe:nth-child(n+2) {
-    margin-top: 3.42%;
+    margin-top: 2.57%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
-@media screen and (max-width: 767px) {
-  .liPrintedCookieVoiceOpe {
-    padding-top: 0px;
-    padding-bottom: 12px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPrintedCookieVoiceOpe {
-    padding: 0% 0% 4.36% 0%;
-  }
+.liPrintedCookieVoiceOpe:nth-child(n+2) {
+  border-bottom: none;
 }
 @media screen and (max-width: 767px) {
-  .liPrintedCookieVoiceOpe:nth-child(n+2) {
-    margin-top: 12px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+  .liPrintedCookieVoiceOpe {
+    padding: 0% 0% 2.36% 0%;
   }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
   .liPrintedCookieVoiceOpe:nth-child(n+2) {
-    margin-top: 4.36%;
+    margin-top: 2.36%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20076,14 +19941,14 @@ LAYOUT
 }
 
 .detailPrintedCookieVoice {
-  margin-top: 19px;
+  margin-top: 4px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .detailPrintedCookieVoice {
-    margin-top: 5.5%;
+    margin-top: 1.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20091,15 +19956,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .detailPrintedCookieVoice {
-    margin-top: 18px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .detailPrintedCookieVoice {
-    margin-top: 6.54%;
+    margin-top: 2.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20126,14 +19983,14 @@ LAYOUT
 }
 
 .h4DetailPrintedCookieVoice {
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 8px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h4DetailPrintedCookieVoice {
-    padding: 2.87% 0% 2.87% 3.82%;
+    padding: 0.95% 0% 0.95% 3.82%;
   }
 }
 .h4DetailPrintedCookieVoice {
@@ -20156,17 +20013,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h4DetailPrintedCookieVoice {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 6px;
-    padding-right: 0px;
+    padding: 0.39% 0% 1.39% 0.59%;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h4DetailPrintedCookieVoice {
-    padding: 2.39% 0% 2.39% 3.59%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -20176,14 +20025,14 @@ LAYOUT
 }
 
 .txtDetailPrintedCookieVoice {
-  margin-top: 18px;
+  margin-top: 16px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtDetailPrintedCookieVoice {
-    margin-top: 8.61%;
+    margin-top: 7.65%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20270,14 +20119,14 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedCookieType {
-  margin-top: 135px;
+  margin-top: 115px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedCookieType {
-    margin-top: 7.03%;
+    margin-top: 5.98%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20285,15 +20134,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedCookieType {
-    margin-top: 46px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedCookieType {
-    margin-top: 12.26%;
+    margin-top: 9.26%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20336,14 +20177,14 @@ LAYOUT
 }
 
 .rubyPrintedCookieType {
-  margin-top: 15px;
+  margin-top: -10px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyPrintedCookieType {
-    margin-top: 1.15%;
+    margin-top: -0.77%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20363,20 +20204,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyPrintedCookieType {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -1.06%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyPrintedCookieType {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -20386,14 +20219,14 @@ LAYOUT
 }
 
 .h3PrintedCookieType {
-  margin-top: 50px;
+  margin-top: 37px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h3PrintedCookieType {
-    margin-top: 3.84%;
+    margin-top: 2.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20413,20 +20246,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3PrintedCookieType {
-    margin-top: 40px;
-    margin-bottom: 0px;
+    margin-top: 8.12%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3PrintedCookieType {
-    margin-top: 12.12%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -20436,14 +20261,14 @@ LAYOUT
 }
 
 .txtPrintedCookieType {
-  margin-top: 30px;
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtPrintedCookieType {
-    margin-top: 2.3%;
+    margin-top: 1%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20463,20 +20288,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtPrintedCookieType {
-    margin-top: 27px;
-    margin-bottom: 0px;
+    margin-top: 3.18%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPrintedCookieType {
-    margin-top: 8.18%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -20486,14 +20303,14 @@ LAYOUT
 }
 
 .ulPrintedCookieType {
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulPrintedCookieType {
-    margin-top: 1.53%;
+    margin-top: 1.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20509,19 +20326,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulPrintedCookieType {
-    margin-top: 45px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 330px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulPrintedCookieType {
-    margin-top: 13.63%;
+    margin-top: 11.63%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 330px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -20550,14 +20359,14 @@ LAYOUT
 }
 
 .h4LiPrintedCookieType {
-  margin-top: 6px;
+  margin-top: -1px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h4LiPrintedCookieType {
-    margin-top: 3.29%;
+    margin-top: -0.55%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20577,20 +20386,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h4LiPrintedCookieType {
-    margin-top: 17px;
-    margin-bottom: 0px;
+    margin-top: 9.15%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h4LiPrintedCookieType {
-    margin-top: 5.15%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -20600,14 +20401,14 @@ LAYOUT
 }
 
 .txtLiPrintedCookieType {
-  margin-top: 13px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtLiPrintedCookieType {
-    margin-top: 7.14%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20627,20 +20428,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtLiPrintedCookieType {
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-top: -0.97%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtLiPrintedCookieType {
-    margin-top: 3.03%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -20659,28 +20452,28 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedChoco {
-  margin-top: 180px;
+  margin-top: 130px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedChoco {
-    margin-top: 9.37%;
+    margin-top: 6.77%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .printedChoco {
-  padding-top: 135px;
-  padding-bottom: 135px;
+  padding-top: 121px;
+  padding-bottom: 114px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .printedChoco {
-    padding: 7.03% 0% 7.03% 0%;
+    padding: 6.3% 0% 5.93% 0%;
   }
 }
 .printedChoco {
@@ -20688,28 +20481,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedChoco {
-    margin-top: 125px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 0 26.6666666667vw 0 0;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedChoco {
-    margin-top: 33.33%;
+    margin-top: 27.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedChoco {
-    padding: 18.66% 0% 18.66% 0%;
+    padding: 15.66% 0% 15.66% 0%;
+    border-radius: 0 26.6666666667vw 0 0;
   }
 }
 
@@ -20738,14 +20515,14 @@ LAYOUT
 }
 
 .printedChocoFx {
-  margin-top: 73px;
+  margin-top: 61px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedChocoFx {
-    margin-top: 5.61%;
+    margin-top: 4.69%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20753,19 +20530,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedChocoFx {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 330px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedChocoFx {
-    margin-top: 6.66%;
+    margin-top: 4.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 330px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -20801,21 +20570,24 @@ LAYOUT
     width: 43.84%;
   }
 }
-@media screen and (max-width: 767px) {
+.secPrintedChocoFx {
+  margin-top: -11px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 70px;
+}
+@media screen and (max-width: 1299px) {
   .secPrintedChocoFx {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 330px;
+    margin: -0.85% 5.38% 0% 0%;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
+@media screen and (max-width: 767px) {
   .secPrintedChocoFx {
-    margin-top: 12.12%;
+    margin-top: 10.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 330px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -20849,14 +20621,14 @@ LAYOUT
 }
 
 .txtPrintedChocoFx {
-  margin-top: 46px;
+  margin-top: 34px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtPrintedChocoFx {
-    margin: 8.07% 0% 0% 0%;
+    margin: 5.96% 0% 0% 0%;
   }
 }
 .txtPrintedChocoFx {
@@ -20873,20 +20645,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtPrintedChocoFx {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 2.57%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPrintedChocoFx {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -20896,14 +20660,14 @@ LAYOUT
 }
 
 .ulPrintedChocoFx {
-  margin-top: 61px;
+  margin-top: 57px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulPrintedChocoFx {
-    margin-top: 10.7%;
+    margin-top: 10%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20911,15 +20675,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulPrintedChocoFx {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulPrintedChocoFx {
-    margin-top: 7.57%;
+    margin-top: 5.57%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -20994,13 +20750,13 @@ LAYOUT
 }
 .printedChocoScene {
   padding-top: 0px;
-  padding-bottom: 135px;
+  padding-bottom: 101px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .printedChocoScene {
-    padding: 0% 0% 7.03% 0%;
+    padding: 0% 0% 5.26% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -21009,10 +20765,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 0px;
-    padding-bottom: 90px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0% 0% 17.27% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -21021,11 +20774,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedChocoScene {
-    padding: 0% 0% 27.27% 0%;
   }
 }
 
@@ -21055,7 +20803,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .h2PrintedChocoScene {
     line-height: 160%;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -21065,14 +20813,14 @@ LAYOUT
 }
 
 .rubyPrintedChocoScene {
-  margin-top: 15px;
+  margin-top: -9px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyPrintedChocoScene {
-    margin-top: 1.15%;
+    margin-top: -0.7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21092,20 +20840,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyPrintedChocoScene {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -0.46%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyPrintedChocoScene {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -21115,14 +20855,14 @@ LAYOUT
 }
 
 .ulPrintedChocoScene {
-  margin-top: 50px;
+  margin-top: 43px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulPrintedChocoScene {
-    margin-top: 3.84%;
+    margin-top: 3.3%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21130,15 +20870,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulPrintedChocoScene {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulPrintedChocoScene {
-    margin-top: 12.12%;
+    margin-top: 10.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21163,20 +20895,25 @@ LAYOUT
     width: 30.3%;
   }
 }
+@media screen and (max-width: 767px) {
+  .liPrintedChocoScene:nth-child(n+4) {
+    margin: 9% 0 0 0;
+  }
+}
 
 .photoLiPrintedChocoScene {
   width: 100%;
 }
 
 .rubyLiPrintedChocoScene {
-  margin-top: 27px;
+  margin-top: 19px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyLiPrintedChocoScene {
-    margin-top: 15%;
+    margin-top: 10.55%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21196,20 +20933,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyLiPrintedChocoScene {
-    margin-top: 18px;
-    margin-bottom: 0px;
+    margin-top: 12.45%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyLiPrintedChocoScene {
-    margin-top: 5.45%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -21228,14 +20957,14 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedFlow {
-  margin-top: 135px;
+  margin-top: 114px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedFlow {
-    margin-top: 7.03%;
+    margin-top: 5.93%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21243,15 +20972,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedFlow {
-    margin-top: 70px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedFlow {
-    margin-top: 18.66%;
+    margin-top: 15.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21269,39 +20990,39 @@ LAYOUT
   }
 }
 
-.h3PrintedFlow {
+.h3PrintedFlowT {
   font-size: 40px;
 }
 @media screen and (max-width: 1299px) {
-  .h3PrintedFlow {
+  .h3PrintedFlowT {
     font-size: 3.0792917629vw;
   }
 }
-.h3PrintedFlow {
+.h3PrintedFlowT {
   line-height: 160%;
   letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
-  .h3PrintedFlow {
+  .h3PrintedFlowT {
     line-height: 160%;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
-  .h3PrintedFlow {
+  .h3PrintedFlowT {
     font-size: 6.4vw;
   }
 }
 
 .rubyPrintedFlow {
-  margin-top: 15px;
+  margin-top: -11px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyPrintedFlow {
-    margin-top: 1.15%;
+    margin-top: -0.85%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21321,20 +21042,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyPrintedFlow {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -0.46%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyPrintedFlow {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -21344,14 +21057,14 @@ LAYOUT
 }
 
 .h4PrintedFlow {
-  margin-top: 50px;
+  margin-top: 37px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h4PrintedFlow {
-    margin-top: 3.84%;
+    margin-top: 2.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21371,20 +21084,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h4PrintedFlow {
-    margin-top: 40px;
-    margin-bottom: 0px;
+    margin-top: 7.12%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h4PrintedFlow {
-    margin-top: 12.12%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -21393,65 +21098,57 @@ LAYOUT
   }
 }
 
-.txtPrintedFlow {
+.txtPrintedFlowT {
   margin-top: 30px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
-  .txtPrintedFlow {
+  .txtPrintedFlowT {
     margin-top: 2.3%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
-.txtPrintedFlow {
+.txtPrintedFlowT {
   font-size: 14px;
 }
 @media screen and (max-width: 1299px) {
-  .txtPrintedFlow {
+  .txtPrintedFlowT {
     font-size: 1.077752117vw;
   }
 }
-.txtPrintedFlow {
+.txtPrintedFlowT {
   line-height: 180%;
   letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
-  .txtPrintedFlow {
-    margin-top: 30px;
-    margin-bottom: 0px;
+  .txtPrintedFlowT {
+    margin-top: 5.24%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPrintedFlow {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media screen and (max-width: 767px) and (max-width: 767px) {
-  .txtPrintedFlow {
+  .txtPrintedFlowT {
     font-size: 3.7333333333vw;
   }
 }
 
 .ulPrintedFlow {
-  margin-top: 50px;
+  margin-top: 42px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulPrintedFlow {
-    margin-top: 3.84%;
+    margin-top: 3.23%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21459,31 +21156,23 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulPrintedFlow {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 7.09%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     flex-flow: row wrap;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulPrintedFlow {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 .liPrintedFlow {
   padding-top: 10px;
-  padding-bottom: 26px;
+  padding-bottom: 9px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liPrintedFlow {
-    padding: 0.76% 0% 2% 0%;
+    padding: 0.76% 0% 0.69% 0%;
   }
 }
 .liPrintedFlow {
@@ -21504,29 +21193,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liPrintedFlow {
-    padding-top: 20px;
-    padding-bottom: 21px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 3.06% 0% 4.36% 0%;
     width: 100%;
   }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPrintedFlow {
-    padding: 6.06% 0% 6.36% 0%;
-  }
-}
-@media screen and (max-width: 767px) {
   .liPrintedFlow:nth-child(n+2) {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liPrintedFlow:nth-child(n+2) {
-    margin-top: 6.06%;
+    margin-top: 12.06%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21580,14 +21251,14 @@ LAYOUT
 }
 
 .txtPrintedFlow {
-  margin-top: 16px;
+  margin-top: 7px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtPrintedFlow {
-    margin-top: 4.73%;
+    margin-top: 2.07%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21607,20 +21278,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtPrintedFlow {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -0.9%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPrintedFlow {
-    margin-top: 5.1%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -21630,14 +21293,14 @@ LAYOUT
 }
 
 .picLiPrintedFlow {
-  margin-top: 22px;
+  margin-top: 18px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .picLiPrintedFlow {
-    margin-top: 6.5%;
+    margin-top: 5.32%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21648,15 +21311,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .picLiPrintedFlow {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .picLiPrintedFlow {
-    margin-top: 6.8%;
+    margin-top: 5.8%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21664,14 +21319,14 @@ LAYOUT
 }
 
 .txtLiPrintedFlow {
-  margin-top: 24px;
+  margin-top: 17px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtLiPrintedFlow {
-    margin-top: 7.1%;
+    margin-top: 5.02%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21691,20 +21346,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtLiPrintedFlow {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 3.1%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtLiPrintedFlow {
-    margin-top: 5.1%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -21714,14 +21361,14 @@ LAYOUT
 }
 
 .h4LiPrintedFlow {
-  margin-top: 8px;
+  margin-top: 4px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h4LiPrintedFlow {
-    margin-top: 2.36%;
+    margin-top: 1.18%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21746,6 +21393,54 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h4LiPrintedFlow {
+    margin-top: 3.1%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: normal;
+    letter-spacing: 0em;
+    aspect-ratio: 294/20;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h4LiPrintedFlow {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.h4LiPrintedFlow02 {
+  margin-top: 46px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .h4LiPrintedFlow02 {
+    margin-top: 13.6%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.h4LiPrintedFlow02 {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .h4LiPrintedFlow02 {
+    font-size: 1.077752117vw;
+  }
+}
+.h4LiPrintedFlow02 {
+  line-height: normal;
+  letter-spacing: 0em;
+  aspect-ratio: 338/20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .h4LiPrintedFlow02 {
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: auto;
@@ -21756,7 +21451,7 @@ LAYOUT
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h4LiPrintedFlow {
+  .h4LiPrintedFlow02 {
     margin-top: 5.1%;
     margin-bottom: 0%;
     margin-left: auto;
@@ -21764,20 +21459,76 @@ LAYOUT
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
-  .h4LiPrintedFlow {
+  .h4LiPrintedFlow02 {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.h4LiPrintedFlow03 {
+  margin-top: 45px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .h4LiPrintedFlow03 {
+    margin-top: 13.31%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.h4LiPrintedFlow03 {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .h4LiPrintedFlow03 {
+    font-size: 1.077752117vw;
+  }
+}
+.h4LiPrintedFlow03 {
+  line-height: normal;
+  letter-spacing: 0em;
+  aspect-ratio: 338/20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .h4LiPrintedFlow03 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: normal;
+    letter-spacing: 0em;
+    aspect-ratio: 294/20;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .h4LiPrintedFlow03 {
+    margin-top: 5.1%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h4LiPrintedFlow03 {
     font-size: 3.7333333333vw;
   }
 }
 
 .linkLiPrintedFlow {
-  margin-top: 15px;
+  margin-top: 6px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .linkLiPrintedFlow {
-    margin-top: 4.43%;
+    margin-top: 1.77%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21797,20 +21548,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .linkLiPrintedFlow {
-    margin-top: 13px;
-    margin-bottom: 0px;
+    margin-top: 1.42%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0.1em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .linkLiPrintedFlow {
-    margin-top: 4.42%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -21819,15 +21562,66 @@ LAYOUT
   }
 }
 
+.linkLiPrintedFlow03 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .linkLiPrintedFlow03 {
+    margin-top: 2.95%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.linkLiPrintedFlow03 {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .linkLiPrintedFlow03 {
+    font-size: 1.077752117vw;
+  }
+}
+.linkLiPrintedFlow03 {
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .linkLiPrintedFlow03 {
+    margin-top: 13px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .linkLiPrintedFlow03 {
+    margin-top: 4.42%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .linkLiPrintedFlow03 {
+    font-size: 3.7333333333vw;
+  }
+}
+
 .timeLiPrintedFlow {
-  margin-top: 17px;
+  margin-top: 7px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .timeLiPrintedFlow {
-    margin-top: 5.02%;
+    margin-top: 2.07%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -21847,20 +21641,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .timeLiPrintedFlow {
-    margin-top: 13px;
-    margin-bottom: 0px;
+    margin-top: 1.42%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .timeLiPrintedFlow {
-    margin-top: 4.42%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -21921,14 +21707,14 @@ LAYOUT
 }
 
 .secPrintedAlert {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 36px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .secPrintedAlert {
-    padding: 3.07% 0% 3.07% 0%;
+    padding: 1.53% 0% 2.76% 0%;
   }
 }
 .secPrintedAlert {
@@ -21941,15 +21727,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .secPrintedAlert {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secPrintedAlert {
-    padding: 9.09% 0% 6.06% 0%;
+    padding: 4.09% 0% 6.06% 0%;
   }
 }
 
@@ -21988,6 +21766,7 @@ LAYOUT
   letter-spacing: 0em;
   width: -moz-fit-content;
   width: fit-content;
+  margin: auto;
 }
 @media screen and (max-width: 767px) {
   .h2PrintedAlert {
@@ -22018,6 +21797,7 @@ LAYOUT
 .brdPrintedAlert {
   border-bottom: 1px solid #b9b7b7;
   width: 100%;
+  padding: 0 0 6px 0;
 }
 @media screen and (max-width: 767px) {
   .brdPrintedAlert {
@@ -22037,27 +21817,19 @@ LAYOUT
 }
 
 .printedAlertFx {
-  margin-top: 30px;
+  margin-top: 24px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .printedAlertFx {
-    margin: 2.47% 0% 0% 0%;
+    margin: 1.98% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .printedAlertFx {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedAlertFx {
-    margin-top: 9.96%;
+    margin-top: 7.96%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22103,14 +21875,14 @@ LAYOUT
 }
 
 .txtDataPrintedAlertFx {
-  margin-top: 24px;
+  margin-top: 14px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtDataPrintedAlertFx {
-    margin-top: 4.15%;
+    margin-top: 2.42%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22130,20 +21902,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtDataPrintedAlertFx {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 2.64%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtDataPrintedAlertFx {
-    margin-top: 6.64%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -22153,14 +21917,14 @@ LAYOUT
 }
 
 .txtDataPrintedAlertFx02 {
-  margin-top: 36px;
+  margin-top: 26px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtDataPrintedAlertFx02 {
-    margin-top: 6.22%;
+    margin-top: 4.49%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22168,15 +21932,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtDataPrintedAlertFx02 {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtDataPrintedAlertFx02 {
-    margin-top: 6.64%;
+    margin-top: 5.64%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22194,6 +21950,12 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .secTyuiprintedAlertBx {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .secTyuiprintedAlertBx02 {
+    margin: 8% 0 0 0;
   }
 }
 
@@ -22222,14 +21984,14 @@ LAYOUT
 }
 
 .txtTyuiPrintedAlertFx {
-  margin-top: 24px;
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTyuiPrintedAlertFx {
-    margin-top: 4.15%;
+    margin-top: 2.24%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22249,20 +22011,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTyuiPrintedAlertFx {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 3.64%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTyuiPrintedAlertFx {
-    margin-top: 6.64%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -22272,14 +22026,14 @@ LAYOUT
 }
 
 .txtTyuiPrintedAlertFx02 {
-  margin-top: 16px;
+  margin-top: 6px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTyuiPrintedAlertFx02 {
-    margin-top: 2.76%;
+    margin-top: 1.03%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22287,15 +22041,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTyuiPrintedAlertFx02 {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTyuiPrintedAlertFx02 {
-    margin-top: 6.64%;
+    margin-top: 4.64%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22312,14 +22058,14 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedPrice {
-  margin-top: 135px;
+  margin-top: 114px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedPrice {
-    margin-top: 7.03%;
+    margin-top: 5.93%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22327,15 +22073,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedPrice {
-    margin-top: 70px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedPrice {
-    margin-top: 18.66%;
+    margin-top: 15.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22368,7 +22106,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .h2PrintedPrice {
     line-height: 160%;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -22378,14 +22116,14 @@ LAYOUT
 }
 
 .rubyPrintedPrice {
-  margin-top: 15px;
+  margin-top: -9px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyPrintedPrice {
-    margin-top: 1.15%;
+    margin-top: -0.7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22405,20 +22143,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyPrintedPrice {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: -1.46%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyPrintedPrice {
-    margin-top: 4.54%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -22428,14 +22158,14 @@ LAYOUT
 }
 
 .printedPriceFx {
-  margin-top: 50px;
+  margin-top: 42px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .printedPriceFx {
-    margin-top: 3.84%;
+    margin-top: 3.23%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22443,15 +22173,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .printedPriceFx {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .printedPriceFx {
-    margin-top: 12.12%;
+    margin-top: 10.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22529,14 +22251,14 @@ LAYOUT
 }
 
 .tablePricePrintedCookie {
-  margin-top: 23px;
+  margin-top: 21px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .tablePricePrintedCookie {
-    margin-top: 3.75%;
+    margin-top: 3.43%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22544,15 +22266,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .tablePricePrintedCookie {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tablePricePrintedCookie {
-    margin-top: 4.54%;
+    margin-top: 3.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22570,6 +22284,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .pricePrintedChoco {
     width: 100%;
+    margin: 10% 0 0 0;
   }
 }
 
@@ -22630,14 +22345,14 @@ LAYOUT
 }
 
 .tablePricePrintedChoco {
-  margin-top: 23px;
+  margin-top: 21px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .tablePricePrintedChoco {
-    margin-top: 3.75%;
+    margin-top: 3.42%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22645,15 +22360,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .tablePricePrintedChoco {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tablePricePrintedChoco {
-    margin-top: 4.54%;
+    margin-top: 5.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22701,20 +22408,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtPricePrintedChoco {
-    margin-top: 12px;
-    margin-bottom: 0px;
+    margin-top: 5.63%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtPricePrintedChoco {
-    margin-top: 3.63%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -22724,14 +22423,14 @@ LAYOUT
 }
 
 .txtPrintedPriceLast {
-  margin-top: 36px;
+  margin-top: 30px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtPrintedPriceLast {
-    margin-top: 3%;
+    margin-top: 2.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22774,14 +22473,14 @@ LAYOUT
 }
 
 .btnPrintedPrice {
-  margin-top: 71px;
+  margin-top: 66px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .btnPrintedPrice {
-    margin-top: 5.46%;
+    margin-top: 5.07%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22797,19 +22496,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnPrintedPrice {
-    margin-top: 59px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 317px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnPrintedPrice {
-    margin-top: 17.87%;
+    margin-top: 15.87%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 317px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -22864,6 +22555,7 @@ LAYOUT
   letter-spacing: 0.02em;
   text-decoration: none;
   text-align: center;
+  transform: translate(0px, 2px);
 }
 @media screen and (max-width: 767px) {
   .h3BtnPrintedPrice {
@@ -22964,14 +22656,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .tamaranCheese {
-  margin-top: 145px;
+  margin-top: 123px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .tamaranCheese {
-    margin-top: 7.55%;
+    margin-top: 6.4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -22993,28 +22685,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .tamaranCheese {
-    margin-top: 63px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
-    padding-bottom: 35px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 0 26.6666666667vw 0 0;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tamaranCheese {
-    margin-top: 16.8%;
+    margin-top: 19.8%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tamaranCheese {
     padding: 13.33% 0% 9.33% 0%;
+    border-radius: 0 26.6666666667vw 0 0;
   }
 }
 
@@ -23031,11 +22707,11 @@ LAYOUT
 }
 
 .h2TamaranCheese {
-  width: 588px;
+  width: 597px;
 }
 @media screen and (max-width: 1299px) {
   .h2TamaranCheese {
-    width: 45.23%;
+    width: 45.92%;
   }
 }
 .h2TamaranCheese {
@@ -23048,14 +22724,14 @@ LAYOUT
 }
 
 .txtTamaranCheese {
-  margin-top: 46px;
+  margin-top: 42px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTamaranCheese {
-    margin-top: 3.53%;
+    margin-top: 3.23%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -23269,15 +22945,12 @@ LAYOUT
 .secTamaranMvp {
   margin-top: 47px;
   margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .secTamaranMvp {
-    margin-top: 3.61%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 3.61% 0% 0% 0%;
   }
 }
 .secTamaranMvp {
@@ -23290,19 +22963,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .secTamaranMvp {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secTamaranMvp {
-    margin-top: 9.09%;
+    margin-top: 6.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -23331,14 +22996,14 @@ LAYOUT
 }
 
 .txtTamaranMvp {
-  margin-top: 44px;
+  margin-top: 34px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTamaranMvp {
-    margin-top: 7.35%;
+    margin-top: 5.68%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -23374,20 +23039,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTamaranMvp {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 5.57%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTamaranMvp {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -23397,14 +23054,14 @@ LAYOUT
 }
 
 .picTamaranMvp {
-  margin-top: 44px;
+  margin-top: 49px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .picTamaranMvp {
-    margin-top: 7.35%;
+    margin-top: 8.19%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: 0%;
@@ -23420,19 +23077,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .picTamaranMvp {
-    margin-top: 19px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: 0px;
-    width: 224px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .picTamaranMvp {
-    margin-top: 5.75%;
+    margin-top: 2.75%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: 0%;
+    width: 224px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -23457,15 +23106,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .productsTamaran {
-    margin-top: 26px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .productsTamaran {
-    margin-top: 7.87%;
+    margin-top: 4.87%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -23485,15 +23126,7 @@ LAYOUT
     width: 100%;
   }
   .liProductsTamaran:nth-child(n+2) {
-    margin-top: 51px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liProductsTamaran:nth-child(n+2) {
-    margin-top: 15.45%;
+    margin-top: 13.45%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -23501,14 +23134,14 @@ LAYOUT
 }
 
 .h3LiProductsTamaran {
-  margin-top: 27px;
+  margin-top: 18px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h3LiProductsTamaran {
-    margin-top: 4.36%;
+    margin-top: 2.91%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -23528,20 +23161,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3LiProductsTamaran {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 5.57%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3LiProductsTamaran {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -23551,30 +23176,23 @@ LAYOUT
 }
 
 .cntLiProductsTamaran {
-  margin-top: 21px;
+  margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .cntLiProductsTamaran {
-    margin: 3.39% 0% 0% 0%;
+    margin: 0.8% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .cntLiProductsTamaran {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .cntLiProductsTamaran {
-    margin-top: 3.03%;
+    margin-top: 1.03%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    align-items: flex-end;
   }
 }
 
@@ -23591,6 +23209,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .nameLiProductsTamaran {
+    align-items: flex-end;
     width: 266px;
   }
 }
@@ -23627,14 +23246,14 @@ LAYOUT
 .txtNameLiProductsTamaran {
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 20px;
+  margin-left: 16px;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) and (max-width: 1299px) {
   .txtNameLiProductsTamaran {
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 3.78%;
+    margin-left: 3.03%;
     margin-right: auto;
   }
 }
@@ -23649,23 +23268,17 @@ LAYOUT
 .txtNameLiProductsTamaran {
   line-height: normal;
   letter-spacing: 0.05em;
+  transform: translate(0px, -3px);
 }
 @media screen and (max-width: 767px) {
   .txtNameLiProductsTamaran {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 16px;
-    margin-right: auto;
-    line-height: normal;
-    letter-spacing: 0.05em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) and (max-width: 1299px) {
-  .txtNameLiProductsTamaran {
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 6.01%;
+    margin-left: 5.51%;
     margin-right: auto;
+    transform: translate(0px, 0px);
+    line-height: normal;
+    letter-spacing: 0.05em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -23704,6 +23317,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .iconNameLiProductsTamaran {
+    aspect-ratio: 72/21;
     width: 61px;
     line-height: normal;
     letter-spacing: 0.05em;
@@ -23756,14 +23370,14 @@ LAYOUT
 }
 
 .txtProductsTamaran {
-  margin-top: 35px;
+  margin-top: 26px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtProductsTamaran {
-    margin-top: 5.83%;
+    margin-top: 4.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -23783,20 +23397,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtProductsTamaran {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 4.06%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtProductsTamaran {
-    margin-top: 6.06%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -23815,28 +23421,28 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .tamaranCommitment {
-  margin-top: 125px;
+  margin-top: 124px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .tamaranCommitment {
-    margin-top: 6.51%;
+    margin-top: 6.45%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .tamaranCommitment {
-  padding-top: 124px;
-  padding-bottom: 163px;
+  padding-top: 119px;
+  padding-bottom: 102px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .tamaranCommitment {
-    padding: 6.45% 0% 8.48% 0%;
+    padding: 6.19% 0% 5.31% 0%;
   }
 }
 .tamaranCommitment {
@@ -23844,8 +23450,8 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .tamaranCommitment {
-    margin-top: 70px;
-    margin-bottom: 0px;
+    margin-top: 17.66%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
@@ -23853,14 +23459,6 @@ LAYOUT
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 0 26.6666666667vw 0 0;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tamaranCommitment {
-    margin-top: 18.66%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -23903,14 +23501,14 @@ LAYOUT
 }
 
 .txtTamaranCommitment {
-  margin-top: 36px;
+  margin-top: 25px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTamaranCommitment {
-    margin-top: 2.76%;
+    margin-top: 1.92%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -23930,20 +23528,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTamaranCommitment {
-    margin-top: 32px;
-    margin-bottom: 0px;
+    margin-top: 8.69%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTamaranCommitment {
-    margin-top: 9.69%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -23953,14 +23543,14 @@ LAYOUT
 }
 
 .ulTamaranCommitment {
-  margin-top: 62px;
+  margin-top: 54px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulTamaranCommitment {
-    margin-top: 4.76%;
+    margin-top: 4.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -23968,15 +23558,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulTamaranCommitment {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulTamaranCommitment {
-    margin-top: 15.15%;
+    margin-top: 13.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -23997,14 +23579,14 @@ LAYOUT
   }
 }
 .liTamaranCommitment:nth-child(n+4) {
-  margin-top: 52px;
+  margin-top: 44px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liTamaranCommitment:nth-child(n+4) {
-    margin: 4% 0% 0% 0%;
+    margin: 3.38% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -24055,14 +23637,14 @@ LAYOUT
 }
 
 .cntLiTamaranCommitment {
-  margin-top: 22px;
+  margin-top: 11px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .cntLiTamaranCommitment {
-    margin-top: 5.4%;
+    margin-top: 2.7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -24092,14 +23674,14 @@ LAYOUT
 }
 
 .intLiTamaranCommitment {
-  margin-top: 0px;
+  margin-top: 7px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 17px;
 }
 @media screen and (max-width: 1299px) {
   .intLiTamaranCommitment {
-    margin: 0% 4.17% 0% 0%;
+    margin: 1.71% 4.17% 0% 0%;
   }
 }
 .intLiTamaranCommitment {
@@ -24154,7 +23736,7 @@ LAYOUT
   .txtLiTamaranCommitment {
     width: 161px;
     line-height: 160%;
-    letter-spacing: 0.05em;
+    letter-spacing: 0em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -24169,28 +23751,28 @@ LAYOUT
 }
 
 .txtLastTamaranCommitment {
-  margin-top: 64px;
+  margin-top: 59px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtLastTamaranCommitment {
-    margin-top: 4.92%;
+    margin-top: 4.53%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .txtLastTamaranCommitment {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 8px;
+  padding-bottom: 13px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtLastTamaranCommitment {
-    padding: 1.38% 0% 1.38% 0%;
+    padding: 0.61% 0% 1% 0%;
   }
 }
 .txtLastTamaranCommitment {
@@ -24217,10 +23799,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 2.84% 0% 3.84% 0%;
     line-height: normal;
     letter-spacing: 0em;
     text-align: center;
@@ -24232,11 +23811,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtLastTamaranCommitment {
-    padding: 4.84% 0% 4.84% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -24267,15 +23841,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .tamaranVoice {
-    padding-top: 0px;
-    padding-bottom: 77px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tamaranVoice {
-    padding: 0% 0% 23.33% 0%;
+    padding: 0% 0% 20.33% 0%;
   }
 }
 
@@ -24308,14 +23874,14 @@ LAYOUT
 }
 
 .ulTamaranVoiceLxn {
-  margin-top: 46px;
+  margin-top: 43px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulTamaranVoiceLxn {
-    margin-top: 3.53%;
+    margin-top: 3.3%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -24342,14 +23908,14 @@ LAYOUT
 }
 
 .liTamaranVoice {
-  padding-top: 39px;
-  padding-bottom: 33px;
+  padding-top: 32px;
+  padding-bottom: 26px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liTamaranVoice {
-    padding: 3% 0% 2.53% 0%;
+    padding: 2.46% 0% 2% 0%;
   }
 }
 .liTamaranVoice {
@@ -24370,16 +23936,8 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liTamaranVoice {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 5.57% 0% 7.57% 0%;
     width: 330px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liTamaranVoice {
-    padding: 7.57% 0% 7.57% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -24389,15 +23947,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liTamaranVoice:nth-child(n+2) {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liTamaranVoice:nth-child(n+2) {
-    margin-top: 6.06%;
+    margin-top: 7.46%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -24428,13 +23978,13 @@ LAYOUT
 
 .h3LiTamaranVoice {
   padding-top: 0px;
-  padding-bottom: 13px;
+  padding-bottom: 7px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h3LiTamaranVoice {
-    padding: 0% 0% 4.33% 0%;
+    padding: 0% 0% 2.33% 0%;
   }
 }
 .h3LiTamaranVoice {
@@ -24452,17 +24002,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3LiTamaranVoice {
-    padding-top: 0px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0% 0% 1.33% 0%;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3LiTamaranVoice {
-    padding: 0% 0% 3.33% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -24472,14 +24014,14 @@ LAYOUT
 }
 
 .rubyLiTamaranVoice {
-  margin-top: 13px;
+  margin-top: 8px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .rubyLiTamaranVoice {
-    margin: 4.26% 0% 0% 0%;
+    margin: 2.62% 0% 0% 0%;
   }
 }
 .rubyLiTamaranVoice {
@@ -24496,20 +24038,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyLiTamaranVoice {
-    margin-top: 11px;
-    margin-bottom: 0px;
+    margin-top: 1.66%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: normal;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyLiTamaranVoice {
-    margin-top: 3.66%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -24519,14 +24053,14 @@ LAYOUT
 }
 
 .txtLiTamaranVoice {
-  margin-top: 25px;
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtLiTamaranVoice {
-    margin-top: 8.19%;
+    margin-top: 4.26%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -24546,25 +24080,17 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtLiTamaranVoice {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 3.66%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtLiTamaranVoice {
-    margin-top: 6.66%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtLiTamaranVoice {
-    font-size: 3.2vw;
+    font-size: 3.0666666667vw;
   }
 }
 
@@ -24578,13 +24104,14 @@ LAYOUT
 }
 .picTamaranVoice {
   position: absolute;
-  bottom: -10%;
-  right: 2%;
+  bottom: -8%;
+  right: 1%;
 }
 @media screen and (max-width: 767px) {
   .picTamaranVoice {
     width: 60px;
-    bottom: -6%;
+    bottom: -7%;
+    right: 5%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -24667,14 +24194,14 @@ LAYOUT
 }
 
 .tamaranHireFx {
-  margin-top: 82px;
+  margin-top: 70px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .tamaranHireFx {
-    margin-top: 6.3%;
+    margin-top: 5.38%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -24682,15 +24209,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .tamaranHireFx {
-    margin-top: 60px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tamaranHireFx {
-    margin-top: 18.18%;
+    margin-top: 6.18%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -24759,14 +24278,14 @@ LAYOUT
 }
 
 .h4TamaranHireOsaka {
-  margin-top: 39px;
+  margin-top: 22px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h4TamaranHireOsaka {
-    margin: 12.18% 0% 0% 0%;
+    margin: 6.87% 0% 0% 0%;
   }
 }
 .h4TamaranHireOsaka {
@@ -24783,20 +24302,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h4TamaranHireOsaka {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 4.09%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h4TamaranHireOsaka {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -24806,14 +24317,14 @@ LAYOUT
 }
 
 .txtTamaranHireOsaka {
-  margin-top: 14px;
+  margin-top: -2px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTamaranHireOsaka {
-    margin: 4.37% 0% 0% 0%;
+    margin: -0.63% 0% 0% 0%;
   }
 }
 .txtTamaranHireOsaka {
@@ -24830,20 +24341,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTamaranHireOsaka {
-    margin-top: 14px;
-    margin-bottom: 0px;
+    margin-top: -0.76%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTamaranHireOsaka {
-    margin-top: 4.24%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -24862,19 +24365,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .secTamaranHireShinOsaka {
-    margin-top: 60px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secTamaranHireShinOsaka {
-    margin-top: 18.18%;
+    margin-top: 14.08%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -24903,14 +24398,22 @@ LAYOUT
 }
 
 .secTamaranHireShinOsakaFx {
-  margin-top: 39px;
+  margin-top: 20px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .secTamaranHireShinOsakaFx {
-    margin-top: 4.56%;
+    margin-top: 2.34%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secTamaranHireShinOsakaFx {
+    margin-top: 3.34%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -24918,16 +24421,22 @@ LAYOUT
 }
 
 .ulTamaranHireShinOsakaFxLeft {
-  width: 361px;
+  width: 374px;
 }
 @media screen and (max-width: 1299px) {
   .ulTamaranHireShinOsakaFxLeft {
-    width: 42.27%;
+    width: 43.79%;
   }
 }
 @media screen and (max-width: 767px) {
   .ulTamaranHireShinOsakaFxLeft {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ulTamaranHireShinOsakaFxRight {
+    margin: 4.6% 0% 0% 0%;
   }
 }
 
@@ -24937,27 +24446,19 @@ LAYOUT
   }
 }
 .liTamaranHireShinOsakaFxLeft:nth-child(n+2) {
-  margin-top: 41px;
+  margin-top: 23px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liTamaranHireShinOsakaFxLeft:nth-child(n+2) {
-    margin: 4.8% 0% 0% 0%;
+    margin: 2.69% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .liTamaranHireShinOsakaFxLeft:nth-child(n+2) {
-    margin-top: 35px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liTamaranHireShinOsakaFxLeft:nth-child(n+2) {
-    margin: 10.6% 0% 0% 0%;
+    margin: 5.6% 0% 0% 0%;
   }
 }
 
@@ -24993,19 +24494,19 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4TamaranHireShinOsakaFxLeft {
-    font-size: 4.8vw;
+    font-size: 4.2666666667vw;
   }
 }
 
 .txtTamaranHireShinOsakaFxLeft {
-  margin-top: 14px;
+  margin-top: 1px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTamaranHireShinOsakaFxLeft {
-    margin: 3.87% 0% 0% 0%;
+    margin: 0.26% 0% 0% 0%;
   }
 }
 .txtTamaranHireShinOsakaFxLeft {
@@ -25022,20 +24523,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTamaranHireShinOsakaFxLeft {
-    margin-top: 14px;
-    margin-bottom: 0px;
+    margin-top: 0.24%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTamaranHireShinOsakaFxLeft {
-    margin-top: 4.24%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -25081,14 +24574,14 @@ LAYOUT
 }
 
 .txtTamaranHireShinOsakaFxRight {
-  margin-top: 14px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTamaranHireShinOsakaFxRight {
-    margin: 3.87% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 .txtTamaranHireShinOsakaFxRight {
@@ -25105,20 +24598,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTamaranHireShinOsakaFxRight {
-    margin-top: 14px;
-    margin-bottom: 0px;
+    margin-top: -0.96%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTamaranHireShinOsakaFxRight {
-    margin-top: 4.24%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -25137,14 +24622,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .tamaranOnline {
-  margin-top: 80px;
+  margin-top: 61px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .tamaranOnline {
-    margin-top: 4.16%;
+    margin-top: 3.17%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -25248,28 +24733,30 @@ LAYOUT
 
 @media screen and (max-width: 767px) {
   .tamaranOnlineFx {
-    width: 302px;
+    width: 89.51%;
     margin: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tamaranOnlineFx {
-    width: 91.51%;
   }
 }
 
 .phoTotamaranOnline {
-  width: 491px;
+  width: 494px;
 }
 @media screen and (max-width: 1299px) {
   .phoTotamaranOnline {
-    width: 40.61%;
+    width: 40.86%;
   }
+}
+.phoTotamaranOnline {
+  transform: translate(-4px, 1px);
 }
 @media screen and (max-width: 767px) {
   .phoTotamaranOnline {
     width: 100%;
   }
+}
+.phoTotamaranOnline img {
+  width: 100%;
+  height: auto;
 }
 
 .secTotamaranOnline {
@@ -25284,28 +24771,20 @@ LAYOUT
   }
 }
 .secTotamaranOnline {
-  width: 632px;
+  width: 639px;
 }
 @media screen and (max-width: 1299px) {
   .secTotamaranOnline {
-    width: 52.27%;
+    width: 52.85%;
   }
 }
 @media screen and (max-width: 767px) {
   .secTotamaranOnline {
-    margin-top: 34px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secTotamaranOnline {
-    margin-top: 11.25%;
+    margin-top: 1.05%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -25336,14 +24815,14 @@ LAYOUT
 }
 
 .txtTotamaranOnline {
-  margin-top: 34px;
+  margin-top: 31px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTotamaranOnline {
-    margin-top: 5.37%;
+    margin-top: 4.9%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -25379,20 +24858,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTotamaranOnline {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 5.62%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.875;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTotamaranOnline {
-    margin-top: 6.62%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30389,15 +29860,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .weddingNav {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .weddingNav {
-    margin-top: 26.66%;
+    margin-top: 22.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30440,14 +29903,14 @@ LAYOUT
 }
 
 .navWeddingMain {
-  margin-top: 40px;
+  margin-top: 33px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .navWeddingMain {
-    margin-top: 3.07%;
+    margin-top: 2.53%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30455,15 +29918,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .navWeddingMain {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .navWeddingMain {
-    margin-top: 9.09%;
+    margin-top: 7.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30490,15 +29945,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liNavWeddingMain:nth-child(n+3) {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liNavWeddingMain:nth-child(n+3) {
-    margin: 9.09% 0% 0% 0%;
+    margin: 8.09% 0% 0% 0%;
   }
 }
 
@@ -30507,14 +29954,14 @@ LAYOUT
 }
 
 .titleNavWeddingMain {
-  margin-top: 23px;
+  margin-top: 15px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .titleNavWeddingMain {
-    margin-top: 7.54%;
+    margin-top: 4.91%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30522,15 +29969,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .titleNavWeddingMain {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .titleNavWeddingMain {
-    margin-top: 9.49%;
+    margin-top: 6.49%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30559,14 +29998,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3TitleNavWeddingMain {
-    width: 140px;
+    width: 89.6%;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3TitleNavWeddingMain {
-    width: 88.6%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30604,28 +30038,28 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .weddingCake {
-  margin-top: 70px;
+  margin-top: 68px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .weddingCake {
-    margin-top: 3.64%;
+    margin-top: 3.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .weddingCake {
-  padding-top: 125px;
-  padding-bottom: 125px;
+  padding-top: 103px;
+  padding-bottom: 109px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .weddingCake {
-    padding: 6.51% 0% 6.51% 0%;
+    padding: 5.36% 0% 5.67% 0%;
   }
 }
 .weddingCake {
@@ -30633,39 +30067,18 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .weddingCake {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 0 26.6666666667vw 0 0;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .weddingCake {
-    margin-top: 13.33%;
+    margin-top: 12.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .weddingCake {
-    padding: 26.66% 0% 26.66% 0%;
+    padding: 22% 0% 26.66% 0%;
+    border-radius: 0 26.6666666667vw 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .weddingCakeWap {
-    width: 330px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .weddingCakeWap {
-    width: 88%;
+    width: 90%;
   }
 }
 
@@ -30694,14 +30107,14 @@ LAYOUT
 }
 
 .rubyWeddingCake {
-  margin-top: 18px;
+  margin-top: -5px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyWeddingCake {
-    margin-top: 1.38%;
+    margin-top: -0.39%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30721,20 +30134,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyWeddingCake {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 0.06%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyWeddingCake {
-    margin-top: 6.06%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30744,14 +30149,14 @@ LAYOUT
 }
 
 .txtWeddingCake {
-  margin-top: 50px;
+  margin-top: 36px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingCake {
-    margin-top: 3.84%;
+    margin-top: 2.76%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30771,20 +30176,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtWeddingCake {
-    margin-top: 70px;
-    margin-bottom: 0px;
+    margin-top: 17%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingCake {
-    margin-top: 21.21%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30794,14 +30191,14 @@ LAYOUT
 }
 
 .txtWeddingCake02 {
-  margin-top: 40px;
+  margin-top: 23px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingCake02 {
-    margin-top: 3.07%;
+    margin-top: 1.76%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30821,20 +30218,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtWeddingCake02 {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 4.5%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingCake02 {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30844,14 +30233,14 @@ LAYOUT
 }
 
 .photoWeddingCake {
-  margin-top: 50px;
+  margin-top: 42px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .photoWeddingCake {
-    margin-top: 3.84%;
+    margin-top: 3.23%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30859,15 +30248,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .photoWeddingCake {
-    margin-top: 35px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .photoWeddingCake {
-    margin-top: 10.6%;
+    margin-top: 7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30902,20 +30283,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtWeddingCakeLast {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 6%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingCakeLast {
-    margin-top: 7.57%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -30934,14 +30307,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .weddingSweets {
-  margin-top: 125px;
+  margin-top: 105px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .weddingSweets {
-    margin-top: 6.51%;
+    margin-top: 5.46%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -30949,15 +30322,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .weddingSweets {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .weddingSweets {
-    margin-top: 26.66%;
+    margin-top: 22.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31000,14 +30365,14 @@ LAYOUT
 }
 
 .rubyWeddingSweets {
-  margin-top: 21px;
+  margin-top: 5px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyWeddingSweets {
-    margin-top: 1.61%;
+    margin-top: 0.38%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31027,7 +30392,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyWeddingSweets {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -31037,7 +30402,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .rubyWeddingSweets {
-    margin-top: 6.06%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31050,14 +30415,14 @@ LAYOUT
 }
 
 .txtWeddingSweets {
-  margin-top: 50px;
+  margin-top: 35px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingSweets {
-    margin-top: 3.84%;
+    margin-top: 2.69%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31077,20 +30442,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtWeddingSweets {
-    margin-top: 70px;
-    margin-bottom: 0px;
+    margin-top: 16.21%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingSweets {
-    margin-top: 21.21%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -31100,14 +30457,14 @@ LAYOUT
 }
 
 .txtWeddingSweets02 {
-  margin-top: 40px;
+  margin-top: 24px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingSweets02 {
-    margin-top: 3.07%;
+    margin-top: 1.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31127,20 +30484,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtWeddingSweets02 {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 5.09%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingSweets02 {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -31150,14 +30499,14 @@ LAYOUT
 }
 
 .photoWeddingSweets {
-  margin-top: 50px;
+  margin-top: 43px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .photoWeddingSweets {
-    margin-top: 3.84%;
+    margin-top: 3.3%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31165,15 +30514,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .photoWeddingSweets {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .photoWeddingSweets {
-    margin-top: 9.09%;
+    margin-top: 7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31190,14 +30531,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .weddingSweetsProducts {
-  margin-top: 39px;
+  margin-top: 30px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .weddingSweetsProducts {
-    margin-top: 2.03%;
+    margin-top: 1.56%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31205,15 +30546,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .weddingSweetsProducts {
-    margin-top: 60px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .weddingSweetsProducts {
-    margin-top: 16%;
+    margin-top: 13%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31256,14 +30589,14 @@ LAYOUT
 }
 
 .ulWeddingSweetsProducts {
-  margin-top: 21px;
+  margin-top: 14px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulWeddingSweetsProducts {
-    margin-top: 1.61%;
+    margin-top: 1.07%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31271,19 +30604,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulWeddingSweetsProducts {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulWeddingSweetsProducts {
-    margin-top: 9.09%;
+    margin-top: 7.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-between;
   }
 }
 
@@ -31319,15 +30644,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liWeddingSweetsProducts:nth-child(n+3) {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liWeddingSweetsProducts:nth-child(n+3) {
-    margin: 6.06% 0% 0% 0%;
+    margin: 7.06% 0% 0% 0%;
   }
 }
 .liWeddingSweetsProducts:nth-child(n+5) {
@@ -31363,14 +30680,14 @@ LAYOUT
 }
 
 .h3WeddingSweetsProducts {
-  margin-top: 20px;
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h3WeddingSweetsProducts {
-    margin-top: 6.55%;
+    margin-top: 4.26%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31391,20 +30708,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3WeddingSweetsProducts {
-    margin-top: 16px;
-    margin-bottom: 0px;
+    margin-top: 7.12%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3WeddingSweetsProducts {
-    margin-top: 10.12%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -31414,14 +30723,14 @@ LAYOUT
 }
 
 .txtWeddingSweetsProducts {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingSweetsProducts {
-    margin-top: 6.55%;
+    margin-top: 3.27%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31457,20 +30766,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtWeddingSweetsProducts {
-    margin-top: 18px;
-    margin-bottom: 0px;
+    margin-top: 7.39%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 140%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingSweetsProducts {
-    margin-top: 11.39%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -31489,14 +30790,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .weddingSweetsBnr {
-  margin-top: 40px;
+  margin-top: 70px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .weddingSweetsBnr {
-    margin-top: 2.08%;
+    margin-top: 3.64%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31593,6 +30894,7 @@ LAYOUT
 }
 
 .secWeddingSweetsBnr {
+  margin: -0.5% auto 0 auto;
   width: 603px;
 }
 @media screen and (max-width: 1299px) {
@@ -31602,19 +30904,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .secWeddingSweetsBnr {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .secWeddingSweetsBnr {
-    margin-top: 12.12%;
+    margin-top: 8.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -31628,12 +30922,12 @@ LAYOUT
 }
 .h2WeddingSweetsBnr {
   line-height: 160%;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h2WeddingSweetsBnr {
     line-height: 160%;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -31643,14 +30937,14 @@ LAYOUT
 }
 
 .h3WeddingSweetsBnr {
-  margin-top: 22px;
+  margin-top: -5px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h3WeddingSweetsBnr {
-    margin-top: 3.64%;
+    margin-top: -0.83%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31670,20 +30964,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3WeddingSweetsBnr {
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 1.33%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3WeddingSweetsBnr {
-    margin-top: 8.33%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -31693,47 +30979,55 @@ LAYOUT
 }
 
 .txtWeddingSweetsBnr {
-  margin-top: 22px;
+  margin-top: 11px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingSweetsBnr {
-    margin-top: 3.64%;
+    margin-top: 1.82%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .txtWeddingSweetsBnr {
-  font-size: 18px;
+  font-size: 14px;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingSweetsBnr {
-    font-size: 1.3856812933vw;
+    font-size: 1.077752117vw;
   }
 }
 .txtWeddingSweetsBnr {
-  line-height: 150%;
+  line-height: 1.7142857143;
+}
+.txtWeddingSweetsBnr::before {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: calc((1 - 1.7142857143) * 0.5em);
+  content: "";
+}
+.txtWeddingSweetsBnr::after {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-bottom: calc((1 - 1.7142857143) * 0.5em);
+  content: "";
+}
+.txtWeddingSweetsBnr {
   letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtWeddingSweetsBnr {
-    margin-top: 40px;
-    margin-bottom: 0px;
+    margin-top: 7.33%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingSweetsBnr {
-    margin-top: 13.33%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -31770,7 +31064,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    width: 192px;
+    width: 65%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -31779,11 +31073,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnWeddingSweetsBnrlxn {
-    width: 64%;
   }
 }
 
@@ -31823,26 +31112,21 @@ LAYOUT
 }
 
 .iconBtnWeddingSweetsBnr {
-  width: 154px;
+  width: 165px;
 }
 @media screen and (max-width: 1299px) {
   .iconBtnWeddingSweetsBnr {
-    width: 80.2%;
+    width: 85.93%;
   }
 }
 .iconBtnWeddingSweetsBnr {
   background: url(../img/wedding/iconBtnWeddingSweetsBnr.svg) no-repeat right center;
-  background-size: auto 20%;
+  background-size: auto 17%;
   margin: auto;
 }
 @media screen and (max-width: 767px) {
   .iconBtnWeddingSweetsBnr {
-    width: 166px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .iconBtnWeddingSweetsBnr {
-    width: 86.45%;
+    width: 88.45%;
   }
 }
 
@@ -31873,14 +31157,14 @@ LAYOUT
 }
 
 .txtWeddingSweetsNavTop {
-  margin-top: 36px;
+  margin-top: 28px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingSweetsNavTop {
-    margin-top: 2.76%;
+    margin-top: 2.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31900,20 +31184,13 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtWeddingSweetsNavTop {
-    margin-top: 100px;
-    margin-bottom: 0px;
+    margin-top: 28%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingSweetsNavTop {
-    margin-top: 30.3%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    word-break: keep-all;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -31923,14 +31200,14 @@ LAYOUT
 }
 
 .navWeddingSweetsOther {
-  margin-top: 35px;
+  margin-top: 26px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .navWeddingSweetsOther {
-    margin-top: 2.69%;
+    margin-top: 2%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -31962,6 +31239,10 @@ LAYOUT
   }
 }
 
+.ulWeddingSweetsOther {
+  justify-content: space-between;
+}
+
 .liWeddingSweetsOther {
   width: 146px;
 }
@@ -31991,28 +31272,28 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .weddingBouquet {
-  margin-top: 125px;
+  margin-top: 116px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .weddingBouquet {
-    margin-top: 6.51%;
+    margin-top: 6.04%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .weddingBouquet {
-  padding-top: 125px;
+  padding-top: 105px;
   padding-bottom: 125px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .weddingBouquet {
-    padding: 6.51% 0% 6.51% 0%;
+    padding: 5.46% 0% 6.51% 0%;
   }
 }
 .weddingBouquet {
@@ -32020,28 +31301,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .weddingBouquet {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-radius: 0 26.6666666667vw 0 0;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .weddingBouquet {
-    margin-top: 26.66%;
+    margin-top: 25%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .weddingBouquet {
-    padding: 26.66% 0% 26.66% 0%;
+    padding: 21.66% 0% 25.66% 0%;
+    border-radius: 0 26.6666666667vw 0 0;
   }
 }
 
@@ -32066,7 +31331,7 @@ LAYOUT
 }
 .h2WeddingBouquet {
   line-height: 160%;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h2WeddingBouquet {
@@ -32081,14 +31346,14 @@ LAYOUT
 }
 
 .rubyWeddingBouquetOut {
-  margin-top: 20px;
+  margin-top: -4px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyWeddingBouquetOut {
-    margin-top: 1.53%;
+    margin-top: -0.31%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32108,20 +31373,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyWeddingBouquetOut {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 0.06%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyWeddingBouquetOut {
-    margin-top: 6.06%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -32131,14 +31388,14 @@ LAYOUT
 }
 
 .h3WeddingBouquet {
-  margin-top: 50px;
+  margin-top: 36px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h3WeddingBouquet {
-    margin-top: 3.84%;
+    margin-top: 2.76%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32158,20 +31415,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3WeddingBouquet {
-    margin-top: 70px;
-    margin-bottom: 0px;
+    margin-top: 17.21%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3WeddingBouquet {
-    margin-top: 21.21%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -32181,14 +31430,14 @@ LAYOUT
 }
 
 .txtWeddingBouquet {
-  margin-top: 40px;
+  margin-top: 25px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingBouquet {
-    margin-top: 3.07%;
+    margin-top: 1.92%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32208,25 +31457,59 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtWeddingBouquet {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 4.09%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
+@media screen and (max-width: 767px) and (max-width: 767px) {
   .txtWeddingBouquet {
-    margin-top: 9.09%;
+    font-size: 3.7333333333vw;
+  }
+}
+
+.txtWeddingBouquet02 {
+  margin-top: 37px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtWeddingBouquet02 {
+    margin-top: 2.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
+.txtWeddingBouquet02 {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .txtWeddingBouquet02 {
+    font-size: 1.2317167052vw;
+  }
+}
+.txtWeddingBouquet02 {
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 767px) {
+  .txtWeddingBouquet02 {
+    margin-top: 11.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
 @media screen and (max-width: 767px) and (max-width: 767px) {
-  .txtWeddingBouquet {
-    font-size: 3.7333333333vw;
+  .txtWeddingBouquet02 {
+    font-size: 3.2vw;
   }
 }
 
@@ -32246,15 +31529,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .photoWeddingBouquet {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .photoWeddingBouquet {
-    margin-top: 9.09%;
+    margin-top: 7.06%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32262,14 +31537,14 @@ LAYOUT
 }
 
 .ulWeddingBouquet {
-  margin-top: 20px;
+  margin-top: 27px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulWeddingBouquet {
-    margin-top: 1.53%;
+    margin-top: 2.07%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32310,16 +31585,25 @@ LAYOUT
     width: 47.87%;
   }
 }
+@media screen and (max-width: 767px) {
+  .liWeddingBouquet:nth-child(n+3) {
+    margin: 4% 0 0 0;
+  }
+}
+
+.liWeddingBouquet .photoWeddingBouquet {
+  margin: 0;
+}
 
 .rubyWeddingBouquet {
-  margin-top: 20px;
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .rubyWeddingBouquet {
-    margin: 6.55% 0% 0% 0%;
+    margin: 4.26% 0% 0% 0%;
   }
 }
 .rubyWeddingBouquet {
@@ -32336,75 +31620,17 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyWeddingBouquet {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 5.49%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyWeddingBouquet {
-    margin-top: 9.49%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .rubyWeddingBouquet {
     font-size: 3.7333333333vw;
-  }
-}
-
-.txtWeddingBouquet {
-  margin-top: 72px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media screen and (max-width: 1299px) {
-  .txtWeddingBouquet {
-    margin-top: 5.53%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-.txtWeddingBouquet {
-  font-size: 16px;
-}
-@media screen and (max-width: 1299px) {
-  .txtWeddingBouquet {
-    font-size: 1.2317167052vw;
-  }
-}
-.txtWeddingBouquet {
-  line-height: 150%;
-  letter-spacing: 0.05em;
-}
-@media screen and (max-width: 767px) {
-  .txtWeddingBouquet {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 160%;
-    letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingBouquet {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 767px) {
-  .txtWeddingBouquet {
-    font-size: 3.2vw;
   }
 }
 
@@ -32418,14 +31644,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .weddingVenue {
-  margin-top: 125px;
+  margin-top: 105px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .weddingVenue {
-    margin-top: 6.51%;
+    margin-top: 5.46%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32433,15 +31659,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .weddingVenue {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .weddingVenue {
-    margin-top: 26.66%;
+    margin-top: 22.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32469,7 +31687,7 @@ LAYOUT
 }
 .h2WeddingVenue {
   line-height: 160%;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h2WeddingVenue {
@@ -32484,14 +31702,14 @@ LAYOUT
 }
 
 .rubyWeddingVenue {
-  margin-top: 20px;
+  margin-top: -3px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyWeddingVenue {
-    margin-top: 1.53%;
+    margin-top: -0.24%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32511,7 +31729,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyWeddingVenue {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -32521,7 +31739,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .rubyWeddingVenue {
-    margin-top: 6.06%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32534,14 +31752,14 @@ LAYOUT
 }
 
 .h3WeddingVenue {
-  margin-top: 50px;
+  margin-top: 37px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h3WeddingVenue {
-    margin-top: 3.84%;
+    margin-top: 2.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32561,20 +31779,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3WeddingVenue {
-    margin-top: 70px;
-    margin-bottom: 0px;
+    margin-top: 16.21%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3WeddingVenue {
-    margin-top: 21.21%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -32584,14 +31794,14 @@ LAYOUT
 }
 
 .txtWeddingVenue {
-  margin-top: 40px;
+  margin-top: 23px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtWeddingVenue {
-    margin-top: 3.07%;
+    margin-top: 1.76%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32611,20 +31821,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtWeddingVenue {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 5.09%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingVenue {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -32634,14 +31836,14 @@ LAYOUT
 }
 
 .photoWeddingVenue {
-  margin-top: 50px;
+  margin-top: 42px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .photoWeddingVenue {
-    margin-top: 3.84%;
+    margin-top: 3.23%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32649,15 +31851,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .photoWeddingVenue {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .photoWeddingVenue {
-    margin-top: 9.09%;
+    margin-top: 6.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32665,14 +31859,14 @@ LAYOUT
 }
 
 .ulWeddingVenue {
-  margin-top: 20px;
+  margin-top: 28px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .ulWeddingVenue {
-    margin-top: 1.53%;
+    margin-top: 2.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32714,112 +31908,100 @@ LAYOUT
   }
 }
 
-.rubyWeddingVenue {
-  margin-top: 20px;
+.liWeddingVenue .photoWeddingVenue {
+  margin: 0;
+}
+
+.liWeddingVenue .rubyWeddingVenue {
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
-  .rubyWeddingVenue {
-    margin: 6.55% 0% 0% 0%;
+  .liWeddingVenue .rubyWeddingVenue {
+    margin: 4.26% 0% 0% 0%;
   }
 }
-.rubyWeddingVenue {
+.liWeddingVenue .rubyWeddingVenue {
   font-size: 16px;
 }
 @media screen and (max-width: 1299px) {
-  .rubyWeddingVenue {
+  .liWeddingVenue .rubyWeddingVenue {
     font-size: 1.2317167052vw;
   }
 }
-.rubyWeddingVenue {
+.liWeddingVenue .rubyWeddingVenue {
   line-height: 140%;
   letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
-  .rubyWeddingVenue {
-    margin-top: 15px;
-    margin-bottom: 0px;
+  .liWeddingVenue .rubyWeddingVenue {
+    margin-top: 6.49%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyWeddingVenue {
-    margin-top: 9.49%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media screen and (max-width: 767px) and (max-width: 767px) {
-  .rubyWeddingVenue {
+  .liWeddingVenue .rubyWeddingVenue {
     font-size: 3.7333333333vw;
   }
 }
 
-.txtWeddingVenue {
-  margin-top: 72px;
+.txtWeddingVenue02 {
+  margin-top: 38px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
-  .txtWeddingVenue {
-    margin-top: 5.53%;
+  .txtWeddingVenue02 {
+    margin-top: 2.92%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
-.txtWeddingVenue {
+.txtWeddingVenue02 {
   font-size: 16px;
 }
 @media screen and (max-width: 1299px) {
-  .txtWeddingVenue {
+  .txtWeddingVenue02 {
     font-size: 1.2317167052vw;
   }
 }
-.txtWeddingVenue {
+.txtWeddingVenue02 {
   line-height: 150%;
   letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
-  .txtWeddingVenue {
-    margin-top: 30px;
-    margin-bottom: 0px;
+  .txtWeddingVenue02 {
+    margin-top: 11.09%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtWeddingVenue {
-    margin-top: 9.09%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media screen and (max-width: 767px) and (max-width: 767px) {
-  .txtWeddingVenue {
+  .txtWeddingVenue02 {
     font-size: 3.2vw;
   }
 }
 
 .btnWeddingVenueLxn {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .btnWeddingVenueLxn {
-    margin-top: 3.07%;
+    margin-top: 2.69%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32835,24 +32017,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnWeddingVenueLxn {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 240px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnWeddingVenueLxn {
-    margin-top: 13.33%;
+    margin-top: 11%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnWeddingVenueLxn {
-    width: 80%;
+    width: 73%;
   }
 }
 
@@ -32943,14 +32112,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .accessNav {
-  margin-top: 145px;
+  margin-top: 133px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessNav {
-    margin-top: 7.55%;
+    margin-top: 6.92%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -32958,15 +32127,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .accessNav {
-    margin-top: 66px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessNav {
-    margin-top: 17.6%;
+    margin-top: 16.6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33015,15 +32176,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liAccessNavBtm:nth-child(n+3) {
-    margin-top: 11px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liAccessNavBtm:nth-child(n+3) {
-    margin: 2.93% 0% 0% 0%;
+    margin: 3.5% 0% 0% 0%;
   }
 }
 
@@ -33039,7 +32192,7 @@ LAYOUT
 .btnAccessNavBtm {
   line-height: 160%;
   letter-spacing: 0em;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
   text-align: center;
   text-decoration: none;
 }
@@ -33048,7 +32201,7 @@ LAYOUT
     aspect-ratio: 157/54;
     line-height: 160%;
     letter-spacing: 0em;
-    border-bottom: 1px solid #D9D9D9;
+    border-bottom: 1px solid #d9d9d9;
     text-align: center;
     text-decoration: none;
   }
@@ -33069,14 +32222,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .accessFlan {
-  margin-top: 100px;
+  margin-top: 93px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessFlan {
-    margin-top: 5.2%;
+    margin-top: 4.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33084,15 +32237,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .accessFlan {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessFlan {
-    margin-top: 13.33%;
+    margin-top: 11.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33147,14 +32292,14 @@ LAYOUT
 }
 
 .accessFlanFx {
-  margin-top: 70px;
+  margin-top: 65px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessFlanFx {
-    margin-top: 5.38%;
+    margin-top: 5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33162,15 +32307,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .accessFlanFx {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessFlanFx {
-    margin-top: 9.09%;
+    margin-top: 7.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33298,13 +32435,14 @@ LAYOUT
     width: 48.38%;
   }
 }
+.mainAccessFlan {
+  margin: -0.3% 0 0 0;
+}
 @media screen and (max-width: 767px) {
   .mainAccessFlan {
     width: 330px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 7% 0 0 0;
+    border-top: 1px solid #d9d9d9;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -33312,37 +32450,24 @@ LAYOUT
     width: 100%;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .mainAccessFlan {
-    margin: 9.09% 0% 0% 0%;
-  }
-}
 
 .liMainAccessFlan {
   padding-top: 0px;
-  padding-bottom: 18px;
+  padding-bottom: 19px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liMainAccessFlan {
-    padding: 0% 0% 2.86% 0%;
+    padding: 0% 0% 3.02% 0%;
   }
 }
 .liMainAccessFlan {
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
 }
 @media screen and (max-width: 767px) {
   .liMainAccessFlan {
-    padding-top: 0px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liMainAccessFlan {
-    padding: 0% 0% 6.06% 0%;
+    padding: 3.7% 0% 4.3% 0%;
   }
 }
 .liMainAccessFlan:nth-child(n+2) {
@@ -33358,7 +32483,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liMainAccessFlan:nth-child(n+2) {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -33366,7 +32491,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .liMainAccessFlan:nth-child(n+2) {
-    margin: 6.06% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 
@@ -33393,7 +32518,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .h3MainAccessFlan {
     width: 84px;
-    line-height: 1;
+    line-height: 160%;
     letter-spacing: 0em;
   }
 }
@@ -33405,22 +32530,6 @@ LAYOUT
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3MainAccessFlan {
     font-size: 3.7333333333vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .h3MainAccessFlan::before {
-    display: block;
-    width: 0;
-    height: 0;
-    margin-top: calc((1 - 1) * 0.5em);
-    content: "";
-  }
-  .h3MainAccessFlan::after {
-    display: block;
-    width: 0;
-    height: 0;
-    margin-bottom: calc((1 - 1) * 0.5em);
-    content: "";
   }
 }
 
@@ -33468,7 +32577,7 @@ LAYOUT
   }
 }
 .txtCntMainAccessFlan a {
-  color: #453C3C;
+  color: #453c3c;
 }
 
 .txtCntMainAccessFlan02 {
@@ -33485,17 +32594,9 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .txtCntMainAccessFlan02 {
     width: 100%;
-    margin-top: 3px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0.2% 0% 0% 0%;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtCntMainAccessFlan02 {
-    margin: 1.22% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -33505,14 +32606,14 @@ LAYOUT
 }
 
 .txtCntMainAccessFlanDouble {
-  margin-top: 10px;
+  margin-top: -1px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtCntMainAccessFlanDouble {
-    margin: 1.58% 0% 0% 0%;
+    margin: -0.16% 0% 0% 0%;
   }
 }
 .txtCntMainAccessFlanDouble {
@@ -33548,7 +32649,7 @@ LAYOUT
   }
 }
 .txtCntMainAccessFlanDouble a {
-  color: #453C3C;
+  color: #453c3c;
 }
 
 .txtCntMainAccessFlanList {
@@ -33585,32 +32686,30 @@ LAYOUT
 }
 
 .txtCntMainAccessFlanList02 {
-  margin-top: 15px;
+  margin-top: 8px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtCntMainAccessFlanList02 {
-    margin: 2.38% 0% 0% 0%;
+    margin: 1.27% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .txtCntMainAccessFlanList02 {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtCntMainAccessFlanList02 {
-    margin: 8.19% 0% 0% 0%;
+    margin: 4.19% 0% 0% 0%;
   }
 }
 
 .snsMainAccessFlan {
   width: 100%;
+  margin: 1% 0 1% 1%;
+}
+@media screen and (max-width: 767px) {
+  .snsMainAccessFlan {
+    margin: 2% 0 2% 1%;
+  }
 }
 
 .liSnsMainAccessFlan {
@@ -33671,14 +32770,14 @@ LAYOUT
   }
 }
 .tyuiMainAccessFlan {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .tyuiMainAccessFlan {
-    padding: 3.97% 0% 3.97% 0%;
+    padding: 2.7% 0% 2.7% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -33687,10 +32786,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 3.06% 0% 3.06% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -33699,11 +32795,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tyuiMainAccessFlan {
-    padding: 6.06% 0% 6.06% 0%;
   }
 }
 
@@ -33754,14 +32845,14 @@ LAYOUT
 }
 
 .txtTyuiMainAccessFlan {
-  margin-top: 17px;
+  margin-top: 4px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTyuiMainAccessFlan {
-    margin-top: 2.7%;
+    margin-top: 0.63%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33781,20 +32872,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTyuiMainAccessFlan {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 1.5%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTyuiMainAccessFlan {
-    margin-top: 4.93%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -33813,14 +32896,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .accessFlanMap {
-  margin-top: 60px;
+  margin-top: 48px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessFlanMap {
-    margin-top: 3.12%;
+    margin-top: 2.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33878,14 +32961,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .accessFlanParking {
-  margin-top: 60px;
+  margin-top: 51px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessFlanParking {
-    margin-top: 3.12%;
+    margin-top: 2.65%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33893,15 +32976,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .accessFlanParking {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessFlanParking {
-    margin-top: 10.66%;
+    margin-top: 8.66%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33956,14 +33031,14 @@ LAYOUT
 }
 
 .txtAccessFlanParking {
-  margin-top: 15px;
+  margin-top: 1px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtAccessFlanParking {
-    margin-top: 1.15%;
+    margin-top: 0.07%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -33983,21 +33058,13 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtAccessFlanParking {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 3%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
     text-align: left;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtAccessFlanParking {
-    margin-top: 6.06%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -34007,14 +33074,14 @@ LAYOUT
 }
 
 .photoAccessFlanParking {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .photoAccessFlanParking {
-    margin-top: 2.3%;
+    margin-top: 1.92%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34022,15 +33089,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .photoAccessFlanParking {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .photoAccessFlanParking {
-    margin-top: 7.57%;
+    margin-top: 5.57%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34083,14 +33142,14 @@ LAYOUT
 
 .accessYukitakaWap {
   position: relative;
-  padding-top: 125px;
+  padding-top: 116px;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .accessYukitakaWap {
-    padding: 6.51% 0% 0% 0%;
+    padding: 6.04% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -34101,10 +33160,7 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    padding-top: 70px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 17% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -34118,11 +33174,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessYukitakaWap {
-    padding: 18.66% 0% 0% 0%;
   }
 }
 
@@ -34184,14 +33235,14 @@ LAYOUT
 }
 
 .accessYukitakaFx {
-  margin-top: 70px;
+  margin-top: 62px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessYukitakaFx {
-    margin-top: 5.38%;
+    margin-top: 4.76%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34199,15 +33250,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .accessYukitakaFx {
-    margin-top: 33px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessYukitakaFx {
-    margin-top: 10%;
+    margin-top: 7.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34335,13 +33378,14 @@ LAYOUT
     width: 48.38%;
   }
 }
+.mainAccessYukitaka {
+  margin: -0.5% 0 0 0;
+}
 @media screen and (max-width: 767px) {
   .mainAccessYukitaka {
     width: 330px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 7% 0 0 0;
+    border-top: 1px solid #d9d9d9;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -34349,37 +33393,24 @@ LAYOUT
     width: 100%;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .mainAccessYukitaka {
-    margin: 9.09% 0% 0% 0%;
-  }
-}
 
 .liMainAccessYukitaka {
   padding-top: 0px;
-  padding-bottom: 18px;
+  padding-bottom: 20px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liMainAccessYukitaka {
-    padding: 0% 0% 2.86% 0%;
+    padding: 0% 0% 3.17% 0%;
   }
 }
 .liMainAccessYukitaka {
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
 }
 @media screen and (max-width: 767px) {
   .liMainAccessYukitaka {
-    padding-top: 0px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liMainAccessYukitaka {
-    padding: 0% 0% 6.06% 0%;
+    padding: 3.7% 0% 4.3% 0%;
   }
 }
 .liMainAccessYukitaka:nth-child(n+2) {
@@ -34395,7 +33426,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liMainAccessYukitaka:nth-child(n+2) {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -34403,7 +33434,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .liMainAccessYukitaka:nth-child(n+2) {
-    margin: 6.06% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 
@@ -34430,7 +33461,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .h3MainAccessYukitaka {
     width: 84px;
-    line-height: 1;
+    line-height: 160%;
     letter-spacing: 0em;
   }
 }
@@ -34442,22 +33473,6 @@ LAYOUT
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3MainAccessYukitaka {
     font-size: 3.7333333333vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .h3MainAccessYukitaka::before {
-    display: block;
-    width: 0;
-    height: 0;
-    margin-top: calc((1 - 1) * 0.5em);
-    content: "";
-  }
-  .h3MainAccessYukitaka::after {
-    display: block;
-    width: 0;
-    height: 0;
-    margin-bottom: calc((1 - 1) * 0.5em);
-    content: "";
   }
 }
 
@@ -34505,7 +33520,7 @@ LAYOUT
   }
 }
 .txtCntMainAccessYukitaka a {
-  color: #453C3C;
+  color: #453c3c;
 }
 
 .txtCntMainAccessYukitaka02 {
@@ -34575,14 +33590,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .accessYukitakaMap {
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessYukitakaMap {
-    margin-top: 3.12%;
+    margin-top: 2.6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34590,15 +33605,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .accessYukitakaMap {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessYukitakaMap {
-    margin-top: 5.33%;
+    margin-top: 9.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34640,14 +33647,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .accessSlon {
-  margin-top: 100px;
+  margin-top: 120px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessSlon {
-    margin-top: 5.2%;
+    margin-top: 6.25%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34676,14 +33683,14 @@ LAYOUT
 
 .accessSlonWap {
   position: relative;
-  padding-top: 125px;
+  padding-top: 117px;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .accessSlonWap {
-    padding: 6.51% 0% 0% 0%;
+    padding: 6.09% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -34694,10 +33701,7 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    padding-top: 70px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 4.66% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -34711,11 +33715,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessSlonWap {
-    padding: 18.66% 0% 0% 0%;
   }
 }
 
@@ -34777,14 +33776,14 @@ LAYOUT
 }
 
 .rubyAccessSlon {
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyAccessSlon {
-    margin-top: 1.53%;
+    margin-top: 0.38%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34804,20 +33803,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyAccessSlon {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 1.06%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0.02em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyAccessSlon {
-    margin-top: 6.06%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -34827,14 +33818,14 @@ LAYOUT
 }
 
 .accessSlonFx {
-  margin-top: 70px;
+  margin-top: 65px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessSlonFx {
-    margin-top: 5.38%;
+    margin-top: 5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34842,15 +33833,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .accessSlonFx {
-    margin-top: 33px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessSlonFx {
-    margin-top: 10%;
+    margin-top: 9%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -34978,13 +33961,14 @@ LAYOUT
     width: 48.38%;
   }
 }
+.mainAccessSlon {
+  margin: -0.5% 0 0 0;
+}
 @media screen and (max-width: 767px) {
   .mainAccessSlon {
     width: 330px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 7% 0 0 0;
+    border-top: 1px solid #d9d9d9;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -34992,37 +33976,24 @@ LAYOUT
     width: 100%;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .mainAccessSlon {
-    margin: 9.09% 0% 0% 0%;
-  }
-}
 
 .liMainAccessSlon {
   padding-top: 0px;
-  padding-bottom: 18px;
+  padding-bottom: 20px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .liMainAccessSlon {
-    padding: 0% 0% 2.86% 0%;
+    padding: 0% 0% 3.17% 0%;
   }
 }
 .liMainAccessSlon {
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
 }
 @media screen and (max-width: 767px) {
   .liMainAccessSlon {
-    padding-top: 0px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liMainAccessSlon {
-    padding: 0% 0% 6.06% 0%;
+    padding: 3.7% 0% 4.3% 0%;
   }
 }
 .liMainAccessSlon:nth-child(n+2) {
@@ -35038,7 +34009,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liMainAccessSlon:nth-child(n+2) {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -35046,7 +34017,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .liMainAccessSlon:nth-child(n+2) {
-    margin: 6.06% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 
@@ -35073,7 +34044,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .h3MainAccessSlon {
     width: 84px;
-    line-height: 1;
+    line-height: 160%;
     letter-spacing: 0em;
   }
 }
@@ -35085,22 +34056,6 @@ LAYOUT
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3MainAccessSlon {
     font-size: 3.7333333333vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .h3MainAccessSlon::before {
-    display: block;
-    width: 0;
-    height: 0;
-    margin-top: calc((1 - 1) * 0.5em);
-    content: "";
-  }
-  .h3MainAccessSlon::after {
-    display: block;
-    width: 0;
-    height: 0;
-    margin-bottom: calc((1 - 1) * 0.5em);
-    content: "";
   }
 }
 
@@ -35148,7 +34103,7 @@ LAYOUT
   }
 }
 .txtCntMainAccessSlon a {
-  color: #453C3C;
+  color: #453c3c;
 }
 
 .txtCntMainAccessSlonList {
@@ -35185,32 +34140,30 @@ LAYOUT
 }
 
 .txtCntMainAccessSlonList02 {
-  margin-top: 15px;
+  margin-top: 4px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtCntMainAccessSlonList02 {
-    margin: 2.38% 0% 0% 0%;
+    margin: 0.63% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .txtCntMainAccessSlonList02 {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtCntMainAccessSlonList02 {
-    margin: 8.19% 0% 0% 0%;
+    margin: 4.19% 0% 0% 0%;
   }
 }
 
 .snsMainAccessSlon {
   width: 100%;
+  margin: 1% 0 1% 1%;
+}
+@media screen and (max-width: 767px) {
+  .snsMainAccessSlon {
+    margin: 3% 0 3% 1%;
+  }
 }
 
 .liSnsMainAccessSlon {
@@ -35271,48 +34224,32 @@ LAYOUT
   }
 }
 .tyuiMainAccessSlon {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 17px;
+  padding-bottom: 21px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .tyuiMainAccessSlon {
-    padding: 3.97% 0% 3.97% 0%;
+    padding: 2.7% 0% 3.33% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .tyuiMainAccessSlon {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tyuiMainAccessSlon {
-    margin-top: 6.06%;
+    margin-top: 22.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .tyuiMainAccessSlon {
-    padding: 6.06% 0% 6.06% 0%;
+    padding: 4.06% 0% 4.5% 0%;
   }
 }
 
 .secTyuiMainAccessSlon {
-  width: 579px;
+  width: 576px;
 }
 @media screen and (max-width: 1299px) {
   .secTyuiMainAccessSlon {
-    width: 92.05%;
+    width: 91.57%;
   }
 }
 .secTyuiMainAccessSlon {
@@ -35354,14 +34291,14 @@ LAYOUT
 }
 
 .txtTyuiMainAccessSlon {
-  margin-top: 17px;
+  margin-top: 15px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtTyuiMainAccessSlon {
-    margin-top: 2.7%;
+    margin-top: 2.38%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -35381,20 +34318,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtTyuiMainAccessSlon {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-top: 1%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtTyuiMainAccessSlon {
-    margin-top: 4.93%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -35413,14 +34342,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .accessSlonMap {
-  margin-top: 60px;
+  margin-top: 49px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .accessSlonMap {
-    margin-top: 3.12%;
+    margin-top: 2.55%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -35428,15 +34357,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .accessSlonMap {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessSlonMap {
-    margin-top: 5.33%;
+    margin-top: 4.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -35514,14 +34435,14 @@ LAYOUT
 
 .accessLocationWap {
   position: relative;
-  padding-top: 100px;
+  padding-top: 115px;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .accessLocationWap {
-    padding: 5.2% 0% 0% 0%;
+    padding: 5.98% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -35532,10 +34453,7 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    padding-top: 70px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 17.66% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -35549,11 +34467,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessLocationWap {
-    padding: 18.66% 0% 0% 0%;
   }
 }
 
@@ -35625,14 +34538,14 @@ LAYOUT
 .rubyAccessLocation {
   line-height: 150%;
   letter-spacing: 0em;
-  margin-top: 15px;
+  margin-top: 1px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyAccessLocation {
-    margin-top: 1.15%;
+    margin-top: 0.07%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -35640,50 +34553,37 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyAccessLocation {
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    line-height: 150%;
+    letter-spacing: 0em;
+    margin-top: 2%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .rubyAccessLocation {
-    font-size: 4.2666666667vw;
+    font-size: 3.7333333333vw;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyAccessLocation {
-    margin-top: 6.06%;
+
+.photosAccessLocation {
+  margin-top: 26px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .photosAccessLocation {
+    margin-top: 2%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
-
-.photosAccessLocation {
-  padding-top: 30px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-@media screen and (max-width: 1299px) {
-  .photosAccessLocation {
-    padding: 2.3% 0% 0% 0%;
-  }
-}
 @media screen and (max-width: 767px) {
   .photosAccessLocation {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .photosAccessLocation {
-    margin-top: 9.09%;
+    margin-top: 7.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -35811,15 +34711,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liAccessShops:nth-child(n+3) {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liAccessShops:nth-child(n+3) {
-    margin: 12.12% 0% 0% 0%;
+    margin: 11.5% 0% 0% 0%;
   }
 }
 
@@ -35848,17 +34740,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3AccessShops {
-    margin-top: 14px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 5.91% 0% 0% 0%;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3AccessShops {
-    margin: 8.91% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -35868,14 +34752,14 @@ LAYOUT
 }
 
 .h4AccessShops {
-  margin-top: 7px;
+  margin-top: 2px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h4AccessShops {
-    margin: 2.4% 0% 0% 0%;
+    margin: 0.68% 0% 0% 0%;
   }
 }
 .h4AccessShops {
@@ -35892,17 +34776,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h4AccessShops {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: -0.5% 0% 0% 0%;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h4AccessShops {
-    margin: 6.36% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -35937,18 +34813,10 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtAccessShops {
-    margin-top: 16px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    line-height: 160%;
+    margin: 2.19% 0% 0% 0%;
+    line-height: 154%;
     letter-spacing: 0em;
     aspect-ratio: 157/80;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtAccessShops {
-    margin: 10.19% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -35958,14 +34826,14 @@ LAYOUT
 }
 
 .btnAccessShopsLxn {
-  margin-top: 20px;
+  margin-top: 1px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .btnAccessShopsLxn {
-    margin-top: 6.87%;
+    margin-top: 0.34%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -35981,19 +34849,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnAccessShopsLxn {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnAccessShopsLxn {
-    margin-top: 9.55%;
+    margin-top: 2.55%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -36011,7 +34871,7 @@ LAYOUT
   /* Safari,Google Chrome用 */
   -moz-border-radius: 30px;
   /* Firefox用 */
-  border: 1px solid #F04E11;
+  border: 1px solid #f04e11;
   text-decoration: none;
 }
 @media screen and (max-width: 767px) {
@@ -36048,18 +34908,13 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .icnBtnAccessShops {
-    width: 80px;
+    width: 81%;
     margin: auto;
     line-height: 100%;
     letter-spacing: 0em;
     background: url(../img/access/icnBtnAccessShops.svg) no-repeat right center;
     background-size: auto 80%;
     text-align: left;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .icnBtnAccessShops {
-    width: 80%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -36077,14 +34932,14 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.accessYukitakaMap {
+.accessYukitakaMap02 {
   margin-top: 70px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
-  .accessYukitakaMap {
+  .accessYukitakaMap02 {
     margin-top: 3.64%;
     margin-bottom: 0%;
     margin-left: auto;
@@ -36092,7 +34947,7 @@ LAYOUT
   }
 }
 @media screen and (max-width: 767px) {
-  .accessYukitakaMap {
+  .accessYukitakaMap02 {
     margin-top: 55px;
     margin-bottom: 0px;
     margin-left: auto;
@@ -36100,7 +34955,7 @@ LAYOUT
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessYukitakaMap {
+  .accessYukitakaMap02 {
     margin-top: 14.66%;
     margin-bottom: 0%;
     margin-left: auto;
@@ -36108,23 +34963,23 @@ LAYOUT
   }
 }
 
-.accessYukitakaMapLxn {
+.accessYukitakaMap02 .accessYukitakaMapLxn {
   position: relative;
   aspect-ratio: 1300/395;
 }
 @media screen and (max-width: 767px) {
-  .accessYukitakaMapLxn {
+  .accessYukitakaMap02 .accessYukitakaMapLxn {
     width: 330px;
     aspect-ratio: 330/161;
     margin: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
-  .accessYukitakaMapLxn {
+  .accessYukitakaMap02 .accessYukitakaMapLxn {
     width: 88%;
   }
 }
-.accessYukitakaMapLxn iframe {
+.accessYukitakaMap02 .accessYukitakaMapLxn iframe {
   position: absolute;
   left: 0;
   top: 0;
@@ -38008,6 +36863,29 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.mainVoice {
+  margin-top: 138px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .mainVoice {
+    margin-top: 7.18%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mainVoice {
+    margin-top: 6.9%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .voiceFvWap {
     width: 330px;
@@ -38034,7 +36912,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .h2VoiceFvWap {
     line-height: 160%;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.1em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38044,14 +36922,14 @@ LAYOUT
 }
 
 .h3VoiceFvWap {
-  margin-top: 36px;
+  margin-top: -4px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h3VoiceFvWap {
-    margin: 2.76% 0% 0% 0%;
+    margin: -0.31% 0% 0% 0%;
   }
 }
 .h3VoiceFvWap {
@@ -38068,17 +36946,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3VoiceFvWap {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: -3.46% 0% 0% 0%;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3VoiceFvWap {
-    margin: 4.54% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38089,53 +36959,37 @@ LAYOUT
 
 .bordVoiceFvWap {
   position: relative;
-  margin-top: 53px;
+  margin-top: 45px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .bordVoiceFvWap {
-    margin-top: 2.76%;
+    margin-top: 2.34%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .bordVoiceFvWap {
-  padding-top: 30px;
+  padding-top: 25px;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .bordVoiceFvWap {
-    padding: 1.56% 0% 0% 0%;
+    padding: 1.3% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .bordVoiceFvWap {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .bordVoiceFvWap {
-    margin-top: 13.33%;
+    margin-top: 13%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .bordVoiceFvWap {
-    padding: 4% 0% 0% 0%;
+    padding: 3.5% 0% 0% 0%;
   }
 }
 
@@ -38250,14 +37104,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .voiceAllPosts {
-  margin-top: 80px;
+  margin-top: 69px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .voiceAllPosts {
-    margin-top: 4.16%;
+    margin-top: 3.59%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38265,15 +37119,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .voiceAllPosts {
-    margin-top: 80px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .voiceAllPosts {
-    margin-top: 21.33%;
+    margin-top: 18.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38316,14 +37162,14 @@ LAYOUT
 }
 
 .brdVoiceAllPosts {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .brdVoiceAllPosts {
-    margin-top: 2.3%;
+    margin-top: 1.92%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38335,15 +37181,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .brdVoiceAllPosts {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .brdVoiceAllPosts {
-    margin-top: 3.03%;
+    margin-top: 1.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38360,14 +37198,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .voiceLoop {
-  margin-top: 51px;
+  margin-top: 44px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .voiceLoop {
-    margin-top: 2.65%;
+    margin-top: 2.29%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38375,15 +37213,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .voiceLoop {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .voiceLoop {
-    margin-top: 10.66%;
+    margin-top: 9%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38430,14 +37260,14 @@ LAYOUT
 }
 
 .liVoiceLoop:nth-child(n+2) {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .liVoiceLoop:nth-child(n+2) {
-    margin-top: 2.3%;
+    margin-top: 1.92%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38445,15 +37275,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liVoiceLoop:nth-child(n+2) {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liVoiceLoop:nth-child(n+2) {
-    margin-top: 7.57%;
+    margin-top: 6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38485,14 +37307,14 @@ LAYOUT
 }
 
 .h3VoiceLoop {
-  margin-top: 10px;
+  margin-top: 2px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h3VoiceLoop {
-    margin-top: 0.76%;
+    margin-top: 0.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38512,20 +37334,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3VoiceLoop {
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3VoiceLoop {
-    margin-top: 3.03%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38535,53 +37349,37 @@ LAYOUT
 }
 
 .cntVoiceLoop {
-  margin-top: 20px;
+  margin-top: 14px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .cntVoiceLoop {
-    margin-top: 1.53%;
+    margin-top: 1.07%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .cntVoiceLoop {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 13px;
+  padding-bottom: 16px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .cntVoiceLoop {
-    padding: 1.84% 0% 1.84% 0%;
+    padding: 1% 0% 1.23% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .cntVoiceLoop {
-    margin-top: 12px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .cntVoiceLoop {
-    margin-top: 3.63%;
+    margin-top: 2.4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .cntVoiceLoop {
-    padding: 6.06% 0% 6.06% 0%;
+    padding: 4.06% 0% 4.06% 0%;
   }
 }
 
@@ -38631,14 +37429,14 @@ LAYOUT
 }
 
 .pagerVoiceUp {
-  margin-top: 20px;
+  margin-top: 14px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .pagerVoiceUp {
-    margin-top: 1.53%;
+    margin-top: 1.07%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38646,15 +37444,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .pagerVoiceUp {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .pagerVoiceUp {
-    margin-top: 12.12%;
+    margin-top: 11.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38686,14 +37476,14 @@ LAYOUT
 }
 
 .pagerVoice {
-  margin-top: 40px;
+  margin-top: 37px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .pagerVoice {
-    margin-top: 3.07%;
+    margin-top: 2.84%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38701,15 +37491,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .pagerVoice {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .pagerVoice {
-    margin-top: 15.15%;
+    margin-top: 14.6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38765,7 +37547,7 @@ LAYOUT
     margin: 0vw 2.1333333333vw 0vw 0vw;
     width: 6.66vw;
     letter-spacing: 0em;
-    min-width: 25px;
+    min-width: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38807,7 +37589,7 @@ LAYOUT
     margin: 0vw 3.4666666667vw 0vw 0vw;
     width: 10.13vw;
     letter-spacing: 0em;
-    min-width: 38px;
+    min-width: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38845,7 +37627,7 @@ LAYOUT
     margin: 0vw 0vw 0vw 3.4666666667vw;
     width: 10.13vw;
     letter-spacing: 0em;
-    min-width: 38px;
+    min-width: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38855,7 +37637,7 @@ LAYOUT
 }
 .pagerVoice .wp-pagenavi .last {
   width: 1.71vw;
-  margin: 0vw 0.5729166667vw 0vw 0.5729166667vw;
+  margin: 0vw 0.6vw 0vw 0vw;
   aspect-ratio: 33/33;
   border-radius: 100px;
   /* CSS3草案 */
@@ -38887,7 +37669,7 @@ LAYOUT
     margin: 0vw 2.1333333333vw 0vw 2.1333333333vw;
     width: 6.66vw;
     letter-spacing: 0em;
-    min-width: 25px;
+    min-width: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38915,14 +37697,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .shoppingguideAllPosts {
-  margin-top: 80px;
+  margin-top: 67px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .shoppingguideAllPosts {
-    margin-top: 4.16%;
+    margin-top: 3.48%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38930,15 +37712,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .shoppingguideAllPosts {
-    margin-top: 80px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .shoppingguideAllPosts {
-    margin-top: 21.33%;
+    margin-top: 18.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38957,14 +37731,14 @@ LAYOUT
 }
 
 .liShoppingguideAllPosts:nth-child(n+2) {
-  margin-top: 100px;
+  margin-top: 93px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .liShoppingguideAllPosts:nth-child(n+2) {
-    margin-top: 7.69%;
+    margin-top: 7.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38972,15 +37746,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liShoppingguideAllPosts:nth-child(n+2) {
-    margin-top: 6px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liShoppingguideAllPosts:nth-child(n+2) {
-    margin-top: 1.81%;
+    margin-top: 15.81%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -39012,14 +37778,14 @@ LAYOUT
 }
 
 .sbShoppingguideAllPosts {
-  margin-top: 30px;
+  margin-top: 23px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .sbShoppingguideAllPosts {
-    margin-top: 2.3%;
+    margin-top: 1.76%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -39058,15 +37824,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liSbShoppingguideAllPosts:nth-child(n+2) {
-    margin-top: 17px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liSbShoppingguideAllPosts:nth-child(n+2) {
-    margin-top: 5.15%;
+    margin-top: 3%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -39113,14 +37871,14 @@ LAYOUT
 }
 
 .titleCntLiSbShoppingguideAllPosts {
-  padding-top: 27px;
-  padding-bottom: 26px;
+  padding-top: 19px;
+  padding-bottom: 19px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .titleCntLiSbShoppingguideAllPosts {
-    padding: 2.07% 0% 2% 0%;
+    padding: 1.46% 0% 1.46% 0%;
   }
 }
 .titleCntLiSbShoppingguideAllPosts {
@@ -39128,15 +37886,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .titleCntLiSbShoppingguideAllPosts {
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .titleCntLiSbShoppingguideAllPosts {
-    padding: 6.66% 0% 6.66% 0%;
+    padding: 5.5% 0%;
   }
 }
 
@@ -39221,13 +37971,13 @@ LAYOUT
 }
 .mainCntLiSbShoppingguideAllPostsLxn {
   padding-top: 0px;
-  padding-bottom: 22px;
+  padding-bottom: 18px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .mainCntLiSbShoppingguideAllPostsLxn {
-    padding: 0% 0% 1.78% 0%;
+    padding: 0% 0% 1.46% 0%;
   }
 }
 .mainCntLiSbShoppingguideAllPostsLxn {
@@ -39239,10 +37989,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 0px;
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0% 0% 5.96% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -39251,11 +37998,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .mainCntLiSbShoppingguideAllPostsLxn {
-    padding: 0% 0% 9.96% 0%;
   }
 }
 

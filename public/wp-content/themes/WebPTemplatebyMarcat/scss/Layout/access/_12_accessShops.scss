@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -44,13 +44,14 @@ LAYOUT
     }
 
     @include mi.mq(sp) {
-        &:nth-child(n+3) {
-            @include mi.marginPercent(330, 40, 0, 0, 0);
+        &:nth-child(n + 3) {
+            margin: 11.5% 0% 0% 0%;
         }
     }
 }
 
-.photoAccessShops {}
+.photoAccessShops {
+}
 
 .h3AccessShops {
     @include mi.marginPercent(291, 10, 0, 0, 0);
@@ -59,7 +60,7 @@ LAYOUT
     @include mi.letterSpacing(20);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(157, 14, 0, 0, 0);
+        margin: 5.91% 0% 0% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -67,13 +68,13 @@ LAYOUT
 }
 
 .h4AccessShops {
-    @include mi.marginPercent(291, 7, 0, 0, 0);
+    @include mi.marginPercent(291, 2, 0, 0, 0);
     @include mi.fontSizePc(15);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(157, 10, 0, 0, 0);
+        margin: -0.5% 0% 0% 0%;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -88,20 +89,23 @@ LAYOUT
     aspect-ratio: 291 / 75;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(157, 16, 0, 0, 0);
+        margin: 2.19% 0% 0% 0%;
         @include mi.fontSizeSp(12);
-        @include mi.lineheightP(160);
+        @include mi.lineheightP(154);
         @include mi.letterSpacing(0);
         aspect-ratio: 157 / 80;
     }
 }
 
 .btnAccessShopsLxn {
-    @include mi.marginPercent(291, 20, auto, 0, auto);
+    @include mi.marginPercent(291, 1, auto, 0, auto);
     @include mi.ontenerWidth(291, 145);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(157, 15, auto, 0, auto);
+        margin-top: 2.55%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(157, 100);
     }
 }
@@ -110,7 +114,7 @@ LAYOUT
     width: 100%;
     aspect-ratio: 145 / 35;
     @include mi.kadomaru(30px);
-    border: 1px solid #F04E11;
+    border: 1px solid #f04e11;
     text-decoration: none;
 
     @include mi.mq(sp) {
@@ -131,12 +135,13 @@ LAYOUT
     background-size: auto 20%;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(100, 80);
+        width: 81%;
         margin: auto;
         @include mi.fontSizeSp(10);
         @include mi.lineheightP(100);
         @include mi.letterSpacing(0);
-        background: url(../img/access/icnBtnAccessShops.svg) no-repeat right center;
+        background: url(../img/access/icnBtnAccessShops.svg) no-repeat right
+            center;
         background-size: auto 80%;
         text-align: left;
     }

@@ -8,9 +8,12 @@ LAYOUT
 ========================================================================== */
 
 .printedFlow {
-    @include mi.marginPercent(1920, 135, auto, 0, auto);
+    @include mi.marginPercent(1920, 114, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 70, auto, 0, auto);
+        margin-top: 15.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .printedFlowWap {
@@ -20,68 +23,83 @@ LAYOUT
 }
 .titlePrintedFlow {
 }
-.h3PrintedFlow {
+.h3PrintedFlowT {
     @include mi.fontSizePc(40);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(100);
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(160);
-        @include mi.letterSpacing(10);
+        @include mi.letterSpacing(100);
     }
 }
 .rubyPrintedFlow {
-    @include mi.marginPercent(1300, 15, auto, 0, auto);
+    @include mi.marginPercent(1300, -11, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -0.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .h4PrintedFlow {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 37, auto, 0, auto);
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 7.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
-.txtPrintedFlow {
+.txtPrintedFlowT {
     @include mi.marginPercent(1300, 30, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 5.24%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
     }
 }
 .ulPrintedFlow {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 42, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 7.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         flex-flow: row wrap;
     }
 }
 .liPrintedFlow {
-    @include mi.paddingPercent(1300, 10, 0, 26, 0);
+    @include mi.paddingPercent(1300, 10, 0, 9, 0);
     @include mi.ontenerWidth(1300, 386);
     @include mi.kadomaru(6px);
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 20, 0, 21, 0);
+        padding: 3.06% 0% 4.36% 0%;
         width: 100%;
         &:nth-child(n + 2) {
-            @include mi.marginPercent(330, 20, auto, 0, auto);
+            margin-top: 12.06%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -103,38 +121,86 @@ LAYOUT
     }
 }
 .txtPrintedFlow {
-    @include mi.marginPercent(338, 16, auto, 0, auto);
+    @include mi.marginPercent(338, 7, auto, 0, auto);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(294, 15, auto, 0, auto);
+        margin-top: -0.9%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
     }
 }
 .picLiPrintedFlow {
-    @include mi.marginPercent(338, 22, auto, 0, auto);
+    @include mi.marginPercent(338, 18, auto, 0, auto);
     width: 100%;
     @include mi.mq(sp) {
-        @include mi.marginPercent(294, 20, auto, 0, auto);
+        margin-top: 5.8%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .txtLiPrintedFlow {
-    @include mi.marginPercent(338, 24, auto, 0, auto);
+    @include mi.marginPercent(338, 17, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(294, 15, auto, 0, auto);
+        margin-top: 3.1%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .h4LiPrintedFlow {
-    @include mi.marginPercent(338, 8, auto, 0, auto);
+    @include mi.marginPercent(338, 4, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    aspect-ratio: 338/20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    @include mi.mq(sp) {
+        margin-top: 3.1%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+        aspect-ratio: 294/20;
+    }
+}
+.h4LiPrintedFlow02 {
+    @include mi.marginPercent(338, 46, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    aspect-ratio: 338/20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(294, 15, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+        aspect-ratio: 294/20;
+    }
+}
+.h4LiPrintedFlow03 {
+    @include mi.marginPercent(338, 45, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
@@ -152,24 +218,44 @@ LAYOUT
     }
 }
 .linkLiPrintedFlow {
-    @include mi.marginPercent(338, 15, auto, 0, auto);
+    @include mi.marginPercent(338, 6, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(100);
     @include mi.mq(sp) {
-        @include mi.marginPercent(294, 13, auto, 0, auto);
+        margin-top: 1.42%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(100);
     }
 }
+
+.linkLiPrintedFlow03 {
+    @include mi.marginPercent(338, 10, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(100);
+    text-align: left;
+    @include mi.mq(sp) {
+        @include mi.marginPercent(294, 13, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
 .timeLiPrintedFlow {
-    @include mi.marginPercent(338, 17, auto, 0, auto);
+    @include mi.marginPercent(338, 7, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(294, 13, auto, 0, auto);
+        margin-top: 1.42%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);

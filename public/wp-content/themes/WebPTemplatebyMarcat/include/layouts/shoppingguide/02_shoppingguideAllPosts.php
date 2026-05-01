@@ -33,7 +33,7 @@ $terms = get_terms(array(
                         <div class="cntLiSbShoppingguideAllPosts">
                             <div class="d_flex j_between c_pointer titleCntLiSbShoppingguideAllPosts jstitleCntLiSbShoppingguideAllPosts off">
                                 <h3 class="cl_453C3C kaku fw_500 txtset h3SbShoppingguideAllPosts">
-                                    Q.<?php echo get_the_title($post->ID); ?>
+                                    <?php echo get_the_title($post->ID); ?>
                                 </h3>
                                 <figure class="iconSbShoppingguideAllPosts">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="8" viewBox="0 0 13 8" fill="none">

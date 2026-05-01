@@ -7,9 +7,12 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedPrice {
-    @include mi.marginPercent(1920, 135, auto, 0, auto);
+    @include mi.marginPercent(1920, 114, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 70, auto, 0, auto);
+        margin-top: 15.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .printedPriceWap {
@@ -26,25 +29,31 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(160);
-        @include mi.letterSpacing(10);
+        @include mi.letterSpacing(100);
     }
 }
 .rubyPrintedPrice {
-    @include mi.marginPercent(1300, 15, auto, 0, auto);
+    @include mi.marginPercent(1300, -9, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -1.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .printedPriceFx {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 42, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 10.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .pricePrintedCookie {
@@ -64,9 +73,12 @@ LAYOUT
     }
 }
 .tablePricePrintedCookie {
-    @include mi.marginPercent(612, 23, auto, 0, auto);
+    @include mi.marginPercent(612, 21, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 3.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 //
@@ -74,6 +86,7 @@ LAYOUT
     @include mi.ontenerWidth(1300, 613);
     @include mi.mq(sp) {
         width: 100%;
+        margin: 10% 0 0 0;
     }
 }
 .h3PricePrintedChoco {
@@ -87,9 +100,12 @@ LAYOUT
     }
 }
 .tablePricePrintedChoco {
-    @include mi.marginPercent(613, 23, auto, 0, auto);
+    @include mi.marginPercent(613, 21, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 5.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .txtPricePrintedChoco {
@@ -98,14 +114,17 @@ LAYOUT
     @include mi.lineheight(14, 36);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 12, auto, 0, auto);
+        margin-top: 5.63%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
 .txtPrintedPriceLast {
-    @include mi.marginPercent(1200, 36, auto, 0, auto);
+    @include mi.marginPercent(1200, 30, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
@@ -117,10 +136,13 @@ LAYOUT
     }
 }
 .btnPrintedPrice {
-    @include mi.marginPercent(1300, 71, auto, 0, auto);
+    @include mi.marginPercent(1300, 66, auto, 0, auto);
     @include mi.ontenerWidth(1300, 317);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 59, auto, 0, auto);
+        margin-top: 15.87%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 317);
     }
 }
@@ -141,6 +163,7 @@ LAYOUT
     @include mi.letterSpacing(20);
     text-decoration: none;
     text-align: center;
+    transform: translate(0px, 2px);
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheight(14, 20);

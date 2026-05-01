@@ -9,7 +9,7 @@ LAYOUT
 .tamaranVoice {
     @include mi.paddingPercent(1920, 0, 0, 163, 0);
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 0, 0, 77, 0);
+        padding: 0% 0% 20.33% 0%;
     }
 }
 .tamaranVoiceWap {
@@ -27,7 +27,7 @@ LAYOUT
     }
 }
 .ulTamaranVoiceLxn {
-    @include mi.marginPercent(1300, 46, auto, 0, auto);
+    @include mi.marginPercent(1300, 43, auto, 0, auto);
     position: relative;
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 25, auto, 0, auto);
@@ -36,14 +36,17 @@ LAYOUT
 .ulTamaranVoice {
 }
 .liTamaranVoice {
-    @include mi.paddingPercent(1300, 39, 0, 33, 0);
+    @include mi.paddingPercent(1300, 32, 0, 26, 0);
     @include mi.ontenerWidth(1300, 305);
     @include mi.kadomaru(10px);
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 25, 0, 25, 0);
+        padding: 5.57% 0% 7.57% 0%;
         @include mi.ontenerWidth(330, 330);
         &:nth-child(n + 2) {
-            @include mi.marginPercent(330, 20, auto, 0, auto);
+            margin-top: 7.46%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -55,38 +58,44 @@ LAYOUT
     }
 }
 .h3LiTamaranVoice {
-    @include mi.paddingPercent(300, 0, 0, 13, 0);
+    @include mi.paddingPercent(300, 0, 0, 7, 0);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
     border-bottom: 1px solid #eb5925;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(300, 0, 0, 10, 0);
+        padding: 0% 0% 1.33% 0%;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
     }
 }
 .rubyLiTamaranVoice {
-    @include mi.marginPercent(305, 13, 0, 0, 0);
+    @include mi.marginPercent(305, 8, 0, 0, 0);
     @include mi.fontSizePc(12);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 11, auto, 0, auto);
+        margin-top: 1.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
     }
 }
 .txtLiTamaranVoice {
-    @include mi.marginPercent(305, 25, auto, 0, auto);
+    @include mi.marginPercent(305, 13, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 20, auto, 0, auto);
-        @include mi.fontSizeSp(12);
+        margin-top: 3.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include mi.fontSizeSp(11.5);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
@@ -94,10 +103,11 @@ LAYOUT
 .picTamaranVoice {
     @include mi.ontenerWidth(1300, 111);
     position: absolute;
-    bottom: -10%;
-    right: 2%;
+    bottom: -8%;
+    right: 1%;
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 60);
-        bottom: -6%;
+        bottom: -7%;
+        right: 5%;
     }
 }

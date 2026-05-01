@@ -7,9 +7,12 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .shoppingguideAllPosts {
-    @include mi.marginPercent(1920, 80, auto, 0, auto);
+    @include mi.marginPercent(1920, 67, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 80, auto, 0, auto);
+        margin-top: 18.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .shoppingguideAllPostsWap {
@@ -21,9 +24,12 @@ LAYOUT
 }
 .liShoppingguideAllPosts {
     &:nth-child(n + 2) {
-        @include mi.marginPercent(1300, 100, auto, 0, auto);
+        @include mi.marginPercent(1300, 93, auto, 0, auto);
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 6, auto, 0, auto);
+            margin-top: 15.81%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -38,7 +44,7 @@ LAYOUT
     }
 }
 .sbShoppingguideAllPosts {
-    @include mi.marginPercent(1300, 30, auto, 0, auto);
+    @include mi.marginPercent(1300, 23, auto, 0, auto);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 17, auto, 0, auto);
     }
@@ -47,7 +53,10 @@ LAYOUT
     &:nth-child(n + 2) {
         @include mi.marginPercent(1300, 8, auto, 0, auto);
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 17, auto, 0, auto);
+            margin-top: 3%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -60,10 +69,10 @@ LAYOUT
     }
 }
 .titleCntLiSbShoppingguideAllPosts {
-    @include mi.paddingPercent(1300, 27, 0, 26, 0);
+    @include mi.paddingPercent(1300, 19, 0, 19, 0);
     cursor: pointer;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 22, 0, 22, 0);
+        padding: 5.5% 0%;
     }
 }
 .h3SbShoppingguideAllPosts {
@@ -93,11 +102,11 @@ LAYOUT
 }
 .mainCntLiSbShoppingguideAllPostsLxn {
     @include mi.marginPercent(1230, 0, auto, 0, auto);
-    @include mi.paddingPercent(1230, 0, 0, 22, 0);
+    @include mi.paddingPercent(1230, 0, 0, 18, 0);
     display: none;
     @include mi.mq(sp) {
         @include mi.marginPercent(301, 0, auto, 0, auto);
-        @include mi.paddingPercent(301, 0, 0, 30, 0);
+        padding: 0% 0% 5.96% 0%;
     }
 }
 .mainCntLiSbShoppingguideAllPosts {

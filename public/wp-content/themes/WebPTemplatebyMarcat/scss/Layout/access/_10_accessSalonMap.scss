@@ -1,20 +1,24 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .accessSlonMap {
-    @include mi.marginPercent(1920, 60, auto, 0, auto);
+    @include mi.marginPercent(1920, 49, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 20, auto, 0, auto);
+        margin-top: 4.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
-.accessSlonMapWap {}
+.accessSlonMapWap {
+}
 
 .accessSlonMapLxn {
     position: relative;

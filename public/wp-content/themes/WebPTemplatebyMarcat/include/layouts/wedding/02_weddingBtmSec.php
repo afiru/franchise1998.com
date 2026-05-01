@@ -1,7 +1,7 @@
 <div class="appealFvBtmSec">
     <section class="wapper appealFvBtmSecWap">
         <h2 class="t_center cl_453C3C fw_500 txtset h2AppealFvBtmSec">
-            幸せのひとときを、心をこめてカタチに。
+            幸せのひとときを、<br class="sp_only">心をこめてカタチに。
         </h2>
         <p class="t_center cl_453C3C fw_500 txtset txtAppealFvBtmSec">
             フランシーズは創業以来、ウェディングケーキをはじめ、引菓子やお花など、心をこめた手づくりで多くの幸せを見届けてきました。おふたりのテーマやストーリーに合わせて、世界にひとつだけのケーキ、ギフト、フラワーをトータルでご提案。<br>

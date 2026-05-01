@@ -62,7 +62,7 @@
                 </li>
             </ul>
 
-            <p class="t_center cl_453C3C fw_500 txtset txtWeddingVenue">
+            <p class="t_center cl_453C3C fw_500 txtset txtWeddingVenue02">
                 100名を超える華やかなパーティから、家族や親しい友人と過ごすあたたかな少人数のパーティまで。<br>
                 大阪で結婚式をお考えの方はぜひ、ご相談ください。
             </p>

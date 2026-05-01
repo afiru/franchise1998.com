@@ -27,9 +27,12 @@ LAYOUT
     }
 }
 .tamaranHireFx {
-    @include mi.marginPercent(1300, 82, auto, 0, auto);
+    @include mi.marginPercent(1300, 70, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 60, auto, 0, auto);
+        margin-top: 6.18%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .secTamaranHireOsaka {
@@ -51,24 +54,30 @@ LAYOUT
     }
 }
 .h4TamaranHireOsaka {
-    @include mi.marginPercent(320, 39, 0, 0, 0);
+    @include mi.marginPercent(320, 22, 0, 0, 0);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 4.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
     }
 }
 .txtTamaranHireOsaka {
-    @include mi.marginPercent(320, 14, 0, 0, 0);
+    @include mi.marginPercent(320, -2, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 14, auto, 0, auto);
+        margin-top: -0.76%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -78,7 +87,10 @@ LAYOUT
 .secTamaranHireShinOsaka {
     @include mi.ontenerWidth(1300, 854);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 60, auto, 0, auto);
+        margin-top: 14.08%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
@@ -93,12 +105,23 @@ LAYOUT
     }
 }
 .secTamaranHireShinOsakaFx {
-    @include mi.marginPercent(854, 39, auto, 0, auto);
+    @include mi.marginPercent(854, 20, auto, 0, auto);
+    @include mi.mq(sp) {
+        margin-top: 3.34%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .ulTamaranHireShinOsakaFxLeft {
-    @include mi.ontenerWidth(854, 361);
+    @include mi.ontenerWidth(854, 374);
     @include mi.mq(sp) {
         width: 100%;
+    }
+}
+.ulTamaranHireShinOsakaFxRight {
+    @include mi.mq(sp) {
+        margin: 4.6% 0% 0% 0%;
     }
 }
 .liTamaranHireShinOsakaFxLeft {
@@ -106,9 +129,9 @@ LAYOUT
         width: 100%;
     }
     &:nth-child(n + 2) {
-        @include mi.marginPercent(854, 41, 0, 0, 0);
+        @include mi.marginPercent(854, 23, 0, 0, 0);
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 35, 0, 0, 0);
+            margin: 5.6% 0% 0% 0%;
         }
     }
 }
@@ -118,18 +141,21 @@ LAYOUT
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 0, auto, 0, auto);
-        @include mi.fontSizeSp(18);
+        @include mi.fontSizeSp(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
     }
 }
 .txtTamaranHireShinOsakaFxLeft {
-    @include mi.marginPercent(361, 14, 0, 0, 0);
+    @include mi.marginPercent(374, 1, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 14, auto, 0, auto);
+        margin-top: 0.24%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -148,12 +174,15 @@ LAYOUT
     }
 }
 .txtTamaranHireShinOsakaFxRight {
-    @include mi.marginPercent(361, 14, 0, 0, 0);
+    @include mi.marginPercent(374, 0, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 14, auto, 0, auto);
+        margin-top: -0.96%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);

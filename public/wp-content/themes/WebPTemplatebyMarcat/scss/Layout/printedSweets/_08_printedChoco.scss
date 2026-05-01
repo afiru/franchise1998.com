@@ -8,12 +8,15 @@ LAYOUT
 ========================================================================== */
 
 .printedChoco {
-    @include mi.marginPercent(1920, 180, auto, 0, auto);
-    @include mi.paddingPercent(1920, 135, 0, 135, 0);
+    @include mi.marginPercent(1920, 130, auto, 0, auto);
+    @include mi.paddingPercent(1920, 121, 0, 114, 0);
     border-radius: 0 5.208333333333333vw 0 0;
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 125, auto, 0, auto);
-        @include mi.paddingPercent(375, 70, 0, 70, 0);
+        margin-top: 27.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15.66% 0% 15.66% 0%;
         border-radius: 0 26.666666666666668vw 0 0;
     }
 }
@@ -32,9 +35,12 @@ LAYOUT
     }
 }
 .printedChocoFx {
-    @include mi.marginPercent(1300, 73, auto, 0, auto);
+    @include mi.marginPercent(1300, 61, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 25, auto, 0, auto);
+        margin-top: 4.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(375, 330);
     }
 }
@@ -46,8 +52,12 @@ LAYOUT
 }
 .secPrintedChocoFx {
     @include mi.ontenerWidth(1300, 570);
+    @include mi.marginPercent(1300, -11, 70, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 10.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 330);
     }
 }
@@ -62,21 +72,27 @@ LAYOUT
     }
 }
 .txtPrintedChocoFx {
-    @include mi.marginPercent(570, 46, 0, 0, 0);
+    @include mi.marginPercent(570, 34, 0, 0, 0);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 2.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .ulPrintedChocoFx {
-    @include mi.marginPercent(570, 61, auto, 0, auto);
+    @include mi.marginPercent(570, 57, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 5.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liPrintedChocoFx {

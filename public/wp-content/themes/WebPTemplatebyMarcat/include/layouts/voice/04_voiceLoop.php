@@ -33,7 +33,7 @@ $query = new WP_Query($args);
                 ※Google以外の口コミもこちらに表示しています。
             </p>
         </div>
-        <div class="d_flex j_center pagerVoice">
+        <div class="d_flex j_center CormorantUnicase pagerVoice">
             <?php if (function_exists('wp_pagenavi')) {
                     wp_pagenavi(array('query' => $query));
                 } ?>

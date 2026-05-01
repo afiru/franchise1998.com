@@ -1,12 +1,12 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.accessYukitakaMap {
+.accessYukitakaMap02 {
     @include mi.marginPercent(1920, 70, auto, 0, auto);
 
     @include mi.mq(sp) {
@@ -14,9 +14,10 @@ LAYOUT
     }
 }
 
-.accessYukitakaMapWap {}
+.accessYukitakaMapWap {
+}
 
-.accessYukitakaMapLxn {
+.accessYukitakaMap02 .accessYukitakaMapLxn {
     position: relative;
     aspect-ratio: 1300 / 395;
 

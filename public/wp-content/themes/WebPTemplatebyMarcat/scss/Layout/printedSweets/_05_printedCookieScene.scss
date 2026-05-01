@@ -7,9 +7,12 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .printedCookieScene {
-    @include mi.marginPercent(1920, 135, auto, 0, auto);
+    @include mi.marginPercent(1920, 114, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 60, auto, 0, auto);
+        margin-top: 13.18%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .printedCookieSceneWap {
@@ -26,25 +29,31 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(160);
-        @include mi.letterSpacing(10);
+        @include mi.letterSpacing(100);
     }
 }
 .rubyPrintedCookieScene {
-    @include mi.marginPercent(1300, 15, auto, 0, auto);
+    @include mi.marginPercent(1300, -10, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -0.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .ulPrintedCookieScene {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 46, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 10.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         flex-flow: row wrap;
     }
 }
@@ -53,7 +62,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 100);
         &:nth-child(n + 4) {
-            @include mi.marginPercent(330, 47, 0, 0, 0);
+            margin: 7.24% 0% 0% 0%;
         }
     }
 }
@@ -61,12 +70,15 @@ LAYOUT
     width: 100%;
 }
 .rubyLiPrintedCookieScene {
-    @include mi.marginPercent(180, 27, auto, 0, auto);
+    @include mi.marginPercent(180, 18, auto, 0, auto);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 18, auto, 0, auto);
+        margin-top: 11.45%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);

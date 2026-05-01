@@ -7,7 +7,7 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .tamaranOnline {
-    @include mi.marginPercent(1920, 80, auto, 0, auto);
+    @include mi.marginPercent(1920, 61, auto, 0, auto);
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 50, auto, 0, auto);
     }
@@ -30,21 +30,29 @@ LAYOUT
 }
 .tamaranOnlineFx {
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 302);
+        width: 89.51%;
         margin: auto;
     }
 }
 .phoTotamaranOnline {
-    @include mi.ontenerWidth(1209, 491);
+    @include mi.ontenerWidth(1209, 494);
+    transform: translate(-4px, 1px);
     @include mi.mq(sp) {
         width: 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
     }
 }
 .secTotamaranOnline {
     @include mi.marginPercent(1209, 52, 0, 0, 0);
-    @include mi.ontenerWidth(1209, 632);
+    @include mi.ontenerWidth(1209, 639);
     @include mi.mq(sp) {
-        @include mi.marginPercent(302, 34, auto, 0, auto);
+        margin-top: 1.05%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
@@ -56,12 +64,15 @@ LAYOUT
     }
 }
 .txtTotamaranOnline {
-    @include mi.marginPercent(632, 34, auto, 0, auto);
+    @include mi.marginPercent(632, 31, auto, 0, auto);
     @include mi.fontSizePc(18);
     @include mi.lineheight(18, 30);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(302, 20, auto, 0, auto);
+        margin-top: 5.62%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         @include mi.lineheight(16, 30);
         @include mi.letterSpacing(0);

@@ -5,8 +5,8 @@
             <p class="t_center cl_453C3C fw_500 txtset rubyWeddingBouquetOut">花束</p>
             <h3 class="t_center cl_453C3C fw_500 txtse h3WeddingBouquet">お花は、言葉のいらないメッセージ。</h3>
             <p class="t_center cl_453C3C fw_500 txtset txtWeddingBouquet">
-                フランシーズでは、ご両親への贈呈用花束やお祝いの花束をお作りいたします。<br>
-                結婚式のコンセプトに添うように、花の種類や色合いにこだわり、<br>
+                フランシーズでは、ご両親への贈呈用花束やお祝いの花束をお作りいたします。<br class="pc_only">
+                結婚式のコンセプトに添うように、花の種類や色合いにこだわり、<br class="pc_only">
                 その魅力を引き出しながらウェディングストーリーにお花を添えます。
             </p>
             <figure class="photoWeddingBouquet">
@@ -63,7 +63,7 @@
                 </li>
             </ul>
 
-            <p class="t_center cl_453C3C fw_500 txtset txtWeddingBouquet">
+            <p class="t_center cl_453C3C fw_500 txtset txtWeddingBouquet txtWeddingBouquet02">
                 その他にも、花嫁様へのブーケやパーティ会場への装花も承っております。<br>数々の結婚式をお手伝いしてきたフランシーズにぜひ、ご相談ください。
             </p>
         </section>
