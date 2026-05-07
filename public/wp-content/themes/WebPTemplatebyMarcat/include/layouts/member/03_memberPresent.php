@@ -4,7 +4,7 @@
             <div class="memberPresentMainLxn">
                 <h2 class="t_center CormorantUnicase cl_421D12 fw_500 h2MemberPresentMain">PRESENT</h2>
                 <h3 class="t_center cl_453C3C fw_500 txtset h3MemberPresentMain">フランシーズのお誕生日特典</h3>
-                <p class="t_center cl_453C3C fw_400 txtse rubyMemberPresentMain">会員様限定</p>
+                <p class="t_center cl_453C3C fw_400 txtse rubyMemberPresentMainT">会員様限定</p>
                 <div class="bg_D9D9D9 brdMemberPresentMain"></div>
                 <ul class="d_flex j_between row ulMemberPresentMain">
                     <li class="d_flex j_between row liMemberPresentMain">
@@ -21,7 +21,7 @@
                                 <p class="cl_453C3C fw_500 CormorantUnicase txtset intTitleMemberPresentMain">01</p>
                             </div>
                             <h4 class="cl_453C3C fw_500 txtset h4MemberPresentMain">お誕生日月とその前月にご利用いただける</h4>
-                            <p class="cl_772D2D fw_500 txtset rubyMemberPresentMain">アプリに500円割引クーポンをお届け</p>
+                            <p class="cl_772D2D fw_500 txtset rubyMemberPresentMain">アプリに500円割引<br class="sp_only">クーポンをお届け</p>
                             <p class="cl_453C3C fw_500 txtset text_justify txtMemberPresentMain">
                                 ※アプリの新規登録がお誕生日まで約45日未満の場合、クーポンが届かないことがあります。
                             </p>

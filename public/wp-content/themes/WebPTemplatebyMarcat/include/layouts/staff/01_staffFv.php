@@ -27,7 +27,7 @@
 
 <div class="breadUnder">
     <div class="wapper breadUnderWap">
-        <aside class="breadList">
+        <aside class="kaku breadList">
             <?php if (function_exists('bcn_display')) {
                 bcn_display();
             } ?>

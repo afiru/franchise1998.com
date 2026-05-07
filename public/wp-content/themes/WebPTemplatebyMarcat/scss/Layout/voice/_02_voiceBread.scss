@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -16,15 +16,18 @@ LAYOUT
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 0, auto, 0, auto);
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
+
     a,
     span {
         color: #929292;
         text-decoration: none;
+        font-weight: 400;
     }
 }

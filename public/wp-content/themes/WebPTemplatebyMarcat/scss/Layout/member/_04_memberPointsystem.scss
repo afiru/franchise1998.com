@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -9,61 +9,81 @@ LAYOUT
 
 .memberPointsystem {
     @include mi.marginPercent(1920, 85, auto, 0, auto);
-    @include mi.paddingPercent(1920, 100, 0, 100, 0);
+    @include mi.paddingPercent(1920, 80, 0, 89, 0);
     border-radius: 0 5.208333333333333vw 0 0;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 50, auto, 0, auto);
-        @include mi.paddingPercent(375, 70, 0, 70, 0);
+        padding: 14.66% 0% 16.66% 0%;
         border-radius: 0 26.666666666666668vw 0 0;
     }
 }
+
 .memberPointsystemWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
-.secMemberPointsystem {
-}
+
+.secMemberPointsystem {}
+
 .h2MemberPointsystem {
     @include mi.fontSizePc(40);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(100);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(32);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(100);
     }
 }
+
 .rubyMemberPointsystem {
-    @include mi.marginPercent(1300, 35, auto, 0, auto);
+    @include mi.marginPercent(1300, -3, auto, 0, auto);
     @include mi.fontSizePc(26);
     @include mi.lineheightP(210);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 24, auto, 0, auto);
+        margin-top: -0.73%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
+
 .txtMemberPointsystem {
-    @include mi.marginPercent(1300, 20, auto, 0, auto);
+    @include mi.marginPercent(1300, -4, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 26, auto, 0, auto);
+        margin-top: 3.97%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
+
 .picMemberPointsystem {
-    @include mi.marginPercent(1300, 70, auto, 0, auto);
+    @include mi.marginPercent(1300, 65, auto, 0, auto);
     width: 100%;
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 34, auto, 0, auto);
+        margin-top: 9.3%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
+
     img {
         width: 100%;
     }
@@ -71,99 +91,137 @@ LAYOUT
 
 .memberPointsystemDetail {
     @include mi.marginPercent(1300, 60, auto, 0, auto);
-    @include mi.paddingPercent(1300, 75, 0, 109, 0);
+    @include mi.paddingPercent(1300, 65, 0, 100, 0);
     @include mi.kadomaru(10px);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 53, auto, 0, auto);
-        @include mi.paddingPercent(330, 67, 0, 50, 0);
+        padding: 17.3% 0% 15.15% 0%;
     }
 }
+
 .memberPointsystemDetailLxn {
     @include mi.ontenerWidth(1300, 1000);
     margin: auto;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
     }
 }
-.secMemberPointsystemDetail {
-}
+
+.secMemberPointsystemDetail {}
+
 .h3MemberPointsystemDetail {
     @include mi.fontSizePc(24);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
+
 .bnrMemberPointsystemDetail {
-    @include mi.marginPercent(1000, 45, auto, 0, auto);
+    @include mi.marginPercent(1000, 37, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 35, auto, 0, auto);
+        margin-top: 8.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
 .appDownload {
     @include mi.marginPercent(1000, 60, auto, 0, auto);
     @include mi.paddingPercent(1000, 43, 0, 42, 0);
     @include mi.kadomaru(10px);
     position: relative;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 300);
         @include mi.marginPercent(330, 52, auto, 0, auto);
         @include mi.paddingPercent(330, 23, 0, 26, 0);
     }
 }
+
 .picAppDownload {
     position: absolute;
     right: 2%;
-    top: 12%;
+    top: 9%;
     @include mi.ontenerWidth(1000, 120);
+
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 68);
-        right: -4%;
-        top: -5%;
+        width: 22.6%;
+        right: -3.1%;
+        top: -7.5%;
     }
 }
+
 .appDownloadFx {
-    @include mi.ontenerWidth(1000, 664);
+    @include mi.ontenerWidth(1000, 675);
     @include mi.marginPercent(1000, 0, 204, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(300, 262);
         @include mi.marginPercent(300, 0, auto, 0, auto);
     }
 }
+
 .picCntAppDownLoad {
-    @include mi.ontenerWidth(664, 324);
+    @include mi.ontenerWidth(664, 334);
+    transform: translate(0px, -4%);
+
     @include mi.mq(sp) {
+        width: 100%;
+        transform: translate(0px, 0%);
+    }
+
+    img {
         width: 100%;
     }
 }
+
 .urlCntAppDownLoad {
     @include mi.ontenerWidth(664, 269);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(262, 16, auto, 0, auto);
+        margin-top: 5.1%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(262, 250);
     }
 }
+
 .liCntAppDownLoad {
     @include mi.ontenerWidth(269, 109);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(250, 97);
     }
 }
+
 .liCntAppDownLoad02 {
     @include mi.ontenerWidth(269, 135);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(250, 120);
     }
 }
-.btnCntAppDownLoad {
-}
+
+.btnCntAppDownLoad {}
+
 .downloadInfo {
-    @include mi.marginPercent(1000, 48, auto, 0, auto);
+    @include mi.marginPercent(1000, 32, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 33, auto, 0, auto);
+        margin-top: 7%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 292);
     }
 }
