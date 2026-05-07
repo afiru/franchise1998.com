@@ -23,25 +23,25 @@
                 <li class="liSitemapMain">
                     <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/products/'); ?>">商品一覧</a>
                 </li>
-                <li class="liSitemapMain">
+                <li class="liSitemapMain liSitemapMain02">
                     <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/products/product-category/decoration/'); ?>">－ デコレーション</a>
                 </li>
-                <li class="liSitemapMain">
+                <li class="liSitemapMain liSitemapMain02">
                     <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/products/product-category/cake/'); ?>">－ ケーキ</a>
                 </li>
-                <li class="liSitemapMain">
+                <li class="liSitemapMain liSitemapMain02">
                     <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/products/product-category/baked-goods-and-gifts/'); ?>">－ 焼き菓子・ギフト</a>
                 </li>
-                <li class="liSitemapMain">
+                <li class="liSitemapMain liSitemapMain02">
                     <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/products/product-category/original-sweets/'); ?>">－ オリジナルプリントスイーツ</a>
                 </li>
-                <li class="liSitemapMain">
+                <li class="liSitemapMain liSitemapMain02">
                     <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain02" href="<?php echo home_url('/products/product-category/tama-egg-cheese/'); ?>">－ たま卵チーズ</a>
                 </li>
-                <li class="liSitemapMain">
+                <li class="liSitemapMain liSitemapMain02">
                     <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain02" href="<?php echo home_url('/products/product-category/wedding/'); ?>">－ ウェディング</a>
                 </li>
-                <li class="liSitemapMain">
+                <li class="liSitemapMain liSitemapMain02">
                     <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain02" href="<?php echo home_url('/products/product-category/flowers-and-arrangements/'); ?>">－ お花・アレンジメント</a>
                 </li>
             </ul>

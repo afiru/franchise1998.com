@@ -1,16 +1,19 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .topicsAllPost {
-    @include mi.marginPercent(1920, 50, auto, 0, auto);
+    @include mi.marginPercent(1920, 47, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 80, auto, 0, auto);
+        margin-top: 20.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -20,8 +23,7 @@ LAYOUT
     }
 }
 
-.ulTopicsAllPost {
-}
+.ulTopicsAllPost {}
 
 .liTopicsAllPost {
     @include mi.ontenerWidth(1300, 398);
@@ -36,13 +38,13 @@ LAYOUT
         @include mi.marginPercent(1300, 0, 0, 50, 0);
 
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 0, 0, 0, 0);
+            margin: 7.59% 0% 0% 0%;
         }
     }
 
     &:nth-child(n + 2) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 30, 0, 0, 0);
+            margin: 7.59% 0% 0% 0%;
         }
     }
 }
@@ -52,17 +54,16 @@ LAYOUT
     text-decoration: none;
 }
 
-.photoTopicsAllPost {
-}
+.photoTopicsAllPost {}
 
 .timeTopicsLoop {
-    @include mi.marginPercent(398, 24, 0, 0, 0);
+    @include mi.marginPercent(398, 18, 0, 0, 0);
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, 0, 0, 0);
+        margin: 2.04% 0% 0% 0%;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
@@ -70,13 +71,13 @@ LAYOUT
 }
 
 .txtTopicsLoop {
-    @include mi.marginPercent(398, 19, 0, 0, 0);
+    @include mi.marginPercent(398, 5, 0, 0, 0);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, 0, 0, 0);
+        margin: 1.54% 0% 0% 0%;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
