@@ -19,7 +19,7 @@
                             </figure>
                         </div>
                         <div class="mainCntLiProducetFaqLxn jsmainCntLiSbShoppingguideAllPostsLxn">
-                            <div class="mainCntLiProducetFaq">
+                            <div class="kaku mainCntLiProducetFaq">
                                 <?php echo get_post_content_by_id($val); ?>
 
                             </div>

@@ -7,15 +7,18 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .pagerPoductsPager {
-    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.marginPercent(1300, 95, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 50, auto, 0, auto);
+        margin-top: 14.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .pagerPoductsPagerWap {
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 50, auto, 0, auto);
-        @include mi.ontenerWidth(375, 330);
+        width: 100%;
     }
 }
 .pagerMainPoductsPager {
@@ -47,7 +50,7 @@ LAYOUT
 .iconPoductsPager {
     @include mi.ontenerWidth(101, 9);
     @include mi.mq(sp) {
-        width: 16.09%;
+        width: 14.09%;
     }
 }
 .txtPoductsPager {
@@ -69,7 +72,7 @@ LAYOUT
     border-left: 1px solid #f04e11;
     border-right: 1px solid #f04e11;
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(288, 88);
+        width: 31.55%;
     }
 }
 .btnPagerPoducts {
@@ -95,13 +98,13 @@ LAYOUT
     @include mi.ontenerWidth(101, 89);
     margin: 0 0 0 auto;
     @include mi.mq(sp) {
-        width: 93%;
+        width: 88%;
     }
 }
 .iconPoductsPager {
     @include mi.ontenerWidth(101, 9);
     @include mi.mq(sp) {
-        width: 16.09%;
+        width: 14.09%;
     }
 }
 .txtPoductsPager {

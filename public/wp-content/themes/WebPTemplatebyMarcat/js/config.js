@@ -304,5 +304,10 @@ $(function () {
         $(this).toggleClass('on off');
 
     });
+    //商品下お買い物ガイド・よくあるご質問
 
+    $('.jstitleCntLiProductFaq ').on('click', function () {
+        $(this).next('.jsmainCntLiProductFaqLxn').slideToggle();
+        $(this).toggleClass('on off');
+    });
 });

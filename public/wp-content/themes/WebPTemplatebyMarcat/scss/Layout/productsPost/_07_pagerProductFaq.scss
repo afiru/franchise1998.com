@@ -8,12 +8,12 @@ LAYOUT
 ========================================================================== */
 .productFaq {
     @include mi.marginPercent(1920, 175, auto, 0, auto);
-    @include mi.paddingPercent(1920, 105, 0, 86, 0);
+    @include mi.paddingPercent(1920, 95, 0, 86, 0);
     border-radius: 0 5.208333333333333vw 0 0;
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 80, auto, 0, auto);
-        @include mi.paddingPercent(375, 80, 0, 70, 0);
-        border-radius: 0 26.666666666666668vw 0 0;
+        padding: 19.33% 0% 18.66% 0%;
+        border-radius: 0 22vw 0 0;
     }
 }
 .productFaqWap {
@@ -38,9 +38,13 @@ LAYOUT
 }
 .ulProductFaq {
     @include mi.ontenerWidth(900, 900);
-    @include mi.marginPercent(900, 47, auto, 0, auto);
+    @include mi.marginPercent(900, 40, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 307);
+        margin-top: 7.44%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 }
 .liProductFaq {
@@ -60,10 +64,10 @@ LAYOUT
     }
 }
 .titleCntLiProductFaq {
-    @include mi.paddingPercent(843, 27, 0, 26, 0);
+    @include mi.paddingPercent(843, 20, 0, 17, 0);
     cursor: pointer;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(307, 22, 0, 22, 0);
+        padding: 5.16% 0%;
     }
 }
 .h3ProductFaq {
@@ -97,10 +101,20 @@ LAYOUT
     display: none;
     @include mi.mq(sp) {
         @include mi.marginPercent(307, 0, auto, 0, auto);
-        @include mi.paddingPercent(307, 0, 0, 30, 0);
+        padding: 0% 0% 5.96% 0%;
     }
 }
 .mainCntLiProductFaq {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+.mainCntLiProductFaq p {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);

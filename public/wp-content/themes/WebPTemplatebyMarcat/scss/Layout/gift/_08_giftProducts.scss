@@ -53,11 +53,10 @@ LAYOUT
 .giftProductsSliderLxn {
     @include mi.marginPercent(1300, 42, auto, 0, auto);
     @include mi.mq(sp) {
-       margin-top: 11%;
+        margin-top: 11%;
         margin-bottom: 0%;
         margin-left: auto;
         margin-right: auto;
-    }
     }
 }
 .GiftProductsSlider {
@@ -153,7 +152,7 @@ LAYOUT
         margin-bottom: 0%;
         margin-left: auto;
         margin-right: auto;
-               width: 70.42%;
+        width: 70.42%;
     }
 }
 .btnCntGiftProducts {

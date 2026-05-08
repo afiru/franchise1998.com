@@ -19,12 +19,12 @@ LAYOUT
 .yakigashiProductNoshiLxn {
 }
 .btnYakigashiProductNoshi {
-    @include mi.paddingPercent(1300, 22, 0, 24, 0);
+    @include mi.paddingPercent(1300, 15, 0, 14, 0);
     cursor: pointer;
     border-top: 1px solid #d9d9d9;
     border-bottom: 1px solid #d9d9d9;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 46, 0, 19, 0);
+        padding: 2.93% 0% 3% 0%;
     }
 }
 .btnYakigashiProductNoshiFx {
@@ -58,22 +58,28 @@ LAYOUT
     }
 }
 .txtBtnYakigashiProductNoshiFx {
-    @include mi.marginPercent(1300, 4, auto, 0, auto);
+    @include mi.marginPercent(1300, -4, auto, 0, auto);
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: -0.46%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(20);
     }
 }
 .cntYakigashiProductNoshi {
-    @include mi.marginPercent(1300, 45, auto, 0, auto);
+    @include mi.marginPercent(1300, 35, auto, 0, auto);
     display: none;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 9%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -84,15 +90,18 @@ LAYOUT
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.fontSizeSp(20);
-        @include mi.lineheightP(160);
-        @include mi.letterSpacing(20);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
     }
 }
 .cntYakigashiProductNoshiFx {
-    @include mi.marginPercent(1300, 36, 0, 0, 0);
+    @include mi.marginPercent(1300, 20, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
+        margin-top: 13.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .secYakigashiProductNoshiLeft {
@@ -106,34 +115,44 @@ LAYOUT
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.fontSizeSp(20);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(50);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
     }
 }
 .brdYakigashiProductNoshiLeft {
     height: 1px;
     width: 100%;
+    margin: 1.5% 0 0 0;
+    @include mi.mq(sp) {
+        margin: 3.5% 0 0 0;
+    }
 }
 .txtYakigashiProductNoshiLeft {
-    @include mi.marginPercent(450, 18, 0, 0, 0);
+    @include mi.marginPercent(450, 11, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 19, auto, 0, auto);
+        margin-top: 2.75%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .txtYakigashiProductNoshiLeft02 {
-    @include mi.marginPercent(450, 23, 0, 0, 0);
+    @include mi.marginPercent(450, 10, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 2.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -141,9 +160,12 @@ LAYOUT
 }
 
 .secYakigashiProductNoshiRight {
-    @include mi.ontenerWidth(1300, 771);
+    @include mi.ontenerWidth(1300, 819);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 35, auto, 0, auto);
+        margin-top: 5.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
@@ -160,33 +182,46 @@ LAYOUT
 .brdYakigashiProductNoshiRight {
     height: 1px;
     width: 100%;
+    @include mi.marginPercent(819, 7, auto, 0, auto);
+    @include mi.mq(sp) {
+        margin-top: 2.85%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .txtYakigashiProductNoshiRight {
-    @include mi.marginPercent(771, 18, auto, 0, auto);
+    @include mi.marginPercent(819, 20, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(16);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 2.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .picYakigashiProductNoshiRight {
-    @include mi.marginPercent(771, 39, auto, 0, auto);
+    @include mi.marginPercent(771, 49, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 23, auto, 0, auto);
+        margin-top: 7.96%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .secLastYakigashiProductNoshi {
-    @include mi.marginPercent(1300, 83, auto, 0, auto);
+    @include mi.marginPercent(1300, 78, auto, 0, auto);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 40, auto, 0, auto);
     }
 }
 .h2LastYakigashiProductNoshi {
-    @include mi.paddingPercent(1300, 0, 0, 11, 0);
+    @include mi.paddingPercent(1300, 0, 0, 8, 0);
     border-bottom: 1px solid #e1e1e1;
     @include mi.fontSizePc(18);
     @include mi.lineheightP(160);
@@ -199,7 +234,7 @@ LAYOUT
     }
 }
 .txtLastYakigashiProductNoshi {
-    @include mi.marginPercent(1300, 19, auto, 0, auto);
+    @include mi.marginPercent(1300, 12, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
@@ -211,7 +246,7 @@ LAYOUT
     }
 }
 .photoLastYakigashiProductNoshi {
-    @include mi.marginPercent(1300, 44, auto, 0, 0);
+    @include mi.marginPercent(1300, 37, auto, 0, 0);
     @include mi.ontenerWidth(1300, 1093);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 25, auto, 0, auto);

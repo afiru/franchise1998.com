@@ -42,7 +42,7 @@ $terms = get_terms(array(
                                 </figure>
                             </div>
                             <div class="mainCntLiSbShoppingguideAllPostsLxn jsmainCntLiSbShoppingguideAllPostsLxn">
-                                <div class="mainCntLiSbShoppingguideAllPosts">
+                                <div class="kaku mainCntLiSbShoppingguideAllPosts">
                                     <?php the_content(); ?>
                                 </div>
                             </div>

@@ -1,5 +1,5 @@
 <div class="pagerPoductsPager">
-    <div class="wapper pagerPoductsPagerWap">
+    <div class="pagerPoductsPagerWap">
         <div class="d_flex j_center ali_center bg_F6F4F2 pagerMainPoductsPager">
             <?php
             $prev = get_adjacent_post(true, '', true, 'category');

@@ -9,13 +9,19 @@ LAYOUT
 
 //右
 .cntProductPost {
+    @include mi.marginPercent(632, 27, 0, 0, 0);
     @include mi.ontenerWidth(1300, 632);
     @include mi.mq(sp) {
         width: 100%;
+        margin-top: 9.12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .secCntProductPost {
-    @include mi.marginPercent(330, 40, auto, 0, auto);
+    @include mi.mq(sp) {
+    }
 }
 .h1CntProductPost {
     @include mi.fontSizePc(20);
@@ -28,44 +34,76 @@ LAYOUT
     }
 }
 .rubyH1CntProductPost {
-    @include mi.marginPercent(632, 15, auto, 0, auto);
+    @include mi.marginPercent(632, 2, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, 0, 0, 0);
+        margin: 0.54% 0% 0% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .txtCntProductPostTop {
-    @include mi.marginPercent(632, 25, auto, 0, auto);
+    @include mi.marginPercent(632, 14, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, 0, 0, 0);
+        margin: 4% 0% 0% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .brdCntProductPostTop {
-    @include mi.marginPercent(632, 25, auto, 0, auto);
+    @include mi.marginPercent(632, 20, auto, 0, auto);
     height: 1px;
     width: 100%;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 4.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .priceCntProductPostTop {
-    @include mi.marginPercent(632, 26, auto, 0, auto);
+    @include mi.marginPercent(632, 17, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 3.57%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .tablePriceCntProductPostTop {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
+}
+.tablePriceCntProductPostTop td {
+    max-width: 25%;
+    & + td {
+        @include mi.fontSizePc(16);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+        max-width: unset;
+        @include mi.mq(sp) {
+            @include mi.fontSizeSp(16);
+            @include mi.lineheightP(180);
+            @include mi.letterSpacing(0);
+            max-width: unset;
+        }
+    }
+}
+.tablePriceCntProductPostTop p {
+    margin: 2% 0 0 0;
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
@@ -77,14 +115,23 @@ LAYOUT
 }
 
 .ulPriceCntProductPostTop {
-    @include mi.marginPercent(632, 24, auto, 0, auto);
+    @include mi.marginPercent(632, 14, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
+        margin-top: 2%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liPriceCntProductPostTop {
-    @include mi.marginPercent(632, 15, auto, 0, auto);
+    @include mi.marginPercent(632, 5, auto, 0, auto);
     align-items: center;
+    @include mi.mq(sp) {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .h3PriceCntProductPostTop {
     @include mi.fontSizePc(14);
@@ -113,10 +160,13 @@ LAYOUT
 }
 
 .brdCntProductPostTop02 {
-    @include mi.marginPercent(632, 25, auto, 0, auto);
+    @include mi.marginPercent(632, 19, auto, 0, auto);
     height: 1px;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 //新商品や期間限定
@@ -134,18 +184,18 @@ LAYOUT
     @include mi.letterSpacing(0);
     width: fit-content;
     @include mi.kadomaru(3px);
-    @include mi.paddingVw(1920, 5, 5, 5, 5);
+    padding: 0.1vw 0.2604166667vw;
     @include mi.kadomaru(3px);
     @include mi.mq(sp) {
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
-        @include mi.paddingVw(375, 5, 5, 5, 5);
+        padding: 0vw 1vw;
     }
 }
 //タグ一覧
 .ulPostTags {
-    @include mi.marginPercent(632, 10, 0, 0, 0);
+    @include mi.marginPercent(632, 4, 0, 0, 0);
     gap: 5px;
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 5, auto, 0, auto);
@@ -157,10 +207,11 @@ LAYOUT
     @include mi.letterSpacing(0);
     width: fit-content;
     @include mi.kadomaru(3px);
-    @include mi.paddingVw(1920, 5, 5, 5, 5);
+    padding: 0vw 0.2604166667vw;
     @include mi.kadomaru(3px);
     border: 1px solid #c3c3c3;
     @include mi.mq(sp) {
+        padding: 0vw 1vw;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
@@ -171,7 +222,10 @@ LAYOUT
     @include mi.marginPercent(632, 25, 0, 0, 0);
     @include mi.ontenerWidth(632, 240);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 8.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 300);
     }
 }
@@ -190,33 +244,48 @@ LAYOUT
     }
 }
 .iconBtnFlugProductCake {
-    background: url(../img/productsPost/iconBtnFlugProductCake.svg) no-repeat
-        center left;
-    background-size: auto 100%;
+    background: url(../img/iconBtnFlugProductCake.svg) no-repeat center left;
+    background-size: auto 75%;
+    padding: 0 0% 0 11%;
+    @include mi.mq(sp) {
+        background-size: auto 75%;
+        padding: 0 2% 0 11%;
+    }
 }
+
 //オンライン予約
 .secBtnOnlineProducts {
-    @include mi.marginPercent(632, 32, 0, 0, 0);
+    @include mi.marginPercent(632, 27, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 7.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .h2BtnOnlineProducts {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+    background: url(../img/iconH2BtnOnlineProducts.svg) no-repeat center left;
+    background-size: auto 75%;
+    padding: 0 0% 0 4%;
     @include mi.mq(sp) {
-        @include mi.fontSizeSp(18);
-        @include mi.lineheightP(auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
+        padding: 0 0% 0 6.5%;
     }
 }
 .ulBtnOnlineProducts {
-    @include mi.marginPercent(632, 20, auto, 0, auto);
+    @include mi.marginPercent(632, -5, auto, 0, auto);
     display: flex;
     flex-flow: row wrap;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 18, auto, 0, auto);
+        margin-top: 3%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: space-between;
     }
 }
@@ -224,18 +293,18 @@ LAYOUT
     @include mi.ontenerWidth(632, 146);
     @include mi.marginPercent(632, 16, 16, 0, 0);
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 160);
+        width: 49.9%;
         @include mi.marginPercent(330, 0, 0, 0, 0);
     }
     &:nth-child(n + 3) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 10, 0, 0, 0);
+            @include mi.marginPercent(330, 0, 0, 0, 0);
         }
     }
     &:nth-child(n + 5) {
-        @include mi.marginPercent(632, 0, 16, 0, 0);
+        @include mi.marginPercent(632, 0, 3, 0, 0);
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 10, 0, 0, 0);
+            @include mi.marginPercent(330, 0, 0, 0, 0);
         }
     }
     &:nth-child(4n) {
@@ -246,7 +315,7 @@ LAYOUT
 }
 //お電話で注文する
 .btnBtnProductTellxn {
-    @include mi.marginPercent(632, 20, 0, 0, 0);
+    @include mi.marginPercent(632, 16, 0, 0, 0);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, 0, 0, 0);
     }
@@ -271,7 +340,7 @@ LAYOUT
     align-items: center;
     background: url(../img/productsPost/iconBtnProductTel.svg) no-repeat 0%
         center;
-    background-size: auto 60%;
+    background-size: auto 44%;
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 296);
         background-size: auto 40%;
@@ -283,11 +352,13 @@ LAYOUT
     @include mi.lineheightP(100);
     @include mi.letterSpacing(0);
     width: 100%;
+    transform: translateY(23%);
     @include mi.mq(sp) {
         @include mi.marginPercent(300, 0, 0, 0, 0);
-        @include mi.fontSizeSp(14);
+        @include mi.fontSizeSp(18);
         @include mi.lineheightP(150);
-        @include mi.letterSpacing(100);
+        @include mi.letterSpacing(0);
+        transform: translateY(30%);
     }
 }
 .txtTelBtnProductTel {
@@ -296,34 +367,38 @@ LAYOUT
     @include mi.lineheightP(100);
     @include mi.letterSpacing(0);
     width: 100%;
-    transform: translateY(-20%);
+    transform: translateY(-19%);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 0, auto, 0, auto);
-        @include mi.fontSizeSp(13);
+        @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
-        @include mi.letterSpacing(20);
+        @include mi.letterSpacing(100);
     }
 }
 .txtBtnProductTel {
-    @include mi.marginPercent(632, 11, 0, 0, 0);
+    @include mi.marginPercent(632, 6, 0, 0, 10);
     text-align: left;
     @include mi.fontSizePc(13);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 3.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
+        text-align: center;
     }
 }
 //本品に含まれている主なアレルゲン
 .listInfoProductsPosts {
-    @include mi.marginPercent(632, 30, 0, 0, 0);
-    @include mi.paddingPercent(632, 19, 0, 15, 0);
+    @include mi.marginPercent(632, 24, 0, 0, 0);
+    @include mi.paddingPercent(632, 13, 0, 15, 0);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, auto, 0, auto);
-        @include mi.paddingPercent(330, 15, 0, 15, 0);
+        padding: 2.54% 0% 2.54% 0%;
     }
 }
 .listInfoProductsPostsLxn {
@@ -355,37 +430,41 @@ LAYOUT
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
         width: 100%;
+        margin: 2% 0 0 0;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
     }
 }
 .ulListInfoProductsPosts {
-    @include mi.marginPercent(598, 23, 0, 0, 0);
+    @include mi.marginPercent(598, 5, 0, 0, 0);
     gap: 0.15625vw;
     flex-flow: row wrap;
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 8, 0, 0, 0);
+        margin: 1.66% 0% 0% 0%;
         gap: 0.8vw;
     }
 }
 .liListInfoProductsPosts {
-    @include mi.paddingVw(1920, 5, 5, 5, 5);
+    padding: 0vw 0.2vw;
     @include mi.kadomaru(3px);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.paddingVw(375, 3, 3, 3, 3);
+        padding: 0vw 0.4vw;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .secListInfoProductsPosts02 {
-    @include mi.marginPercent(598, 23, 0, 0, 0);
+    @include mi.marginPercent(598, 16, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 //本品に含まれている主なアレルゲン/特定原材料に準ずるもの
@@ -398,9 +477,12 @@ LAYOUT
     }
 }
 .editorCntProductPost {
-    @include mi.marginPercent(632, 25, 0, 0, 0);
+    @include mi.marginPercent(632, 20, 0, 0, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 4.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .editorCntProductPost p {

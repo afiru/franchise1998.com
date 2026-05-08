@@ -33,7 +33,7 @@ LAYOUT
     }
 }
 .rubyPrductLoopDefo {
-    @include mi.marginPercent(1036, 0, 0, 0, 0);
+    margin: 1.3% 0 0 0;
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);

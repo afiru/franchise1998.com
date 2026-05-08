@@ -7,9 +7,12 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .topicsSinglePost {
-    @include mi.marginPercent(1920, 65, auto, 0, auto);
+    @include mi.marginPercent(1920, 55, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 60, auto, 0, auto);
+        margin-top: 12%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .topicsSinglePostWap {
@@ -35,25 +38,31 @@ LAYOUT
     }
 }
 .h1TopicsSinglePost {
-    @include mi.marginPercent(900, 30, auto, 0, auto);
+    @include mi.marginPercent(900, 15, auto, 0, auto);
     @include mi.fontSizePc(24);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 2.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .brdTopicsSinglePostWap {
-    @include mi.marginPercent(900, 40, auto, 0, auto);
-    @include mi.paddingPercent(900, 45, 0, 80, 0);
+    @include mi.marginPercent(900, 32, auto, 0, auto);
+    @include mi.paddingPercent(900, 28, 0, 71, 0);
     border-top: 1px solid #6c6262;
     border-bottom: 1px solid #6c6262;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 21, auto, 0, auto);
-        @include mi.paddingPercent(330, 30, 0, 70, 0);
+        margin-top: 4.36%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5.09% 0% 21.21% 0%;
     }
 }
 
@@ -252,27 +261,32 @@ LAYOUT
 
 /*ページャー*/
 .pagerSinglePager {
-    @include mi.marginPercent(1300, 60, auto, 0, auto);
-    @include mi.ontenerWidth(1300, 247);
+    @include mi.marginPercent(1920, 60, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 90, auto, 0, auto);
-        @include mi.ontenerWidth(375, 198);
+        margin-top: 6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .pagerSinglePagerWap {
 }
 .pagerMainSinglePager {
+    @include mi.ontenerWidth(1300, 247);
     margin: auto;
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(198, 198);
+        width: 53.8%;
     }
 }
+
 .prevSinglePagerWap {
     @include mi.ontenerWidth(247, 50);
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(198, 38);
+        width: 30.19%;
     }
 }
+
 .prevSinglePager {
     svg {
         width: 100%;
@@ -286,15 +300,25 @@ LAYOUT
         width: 40.63%;
     }
     @include mi.mq(sp) {
-        @include mi.marginPercent(198, 0, 26, 0, 26);
-        width: 47.36%;
+        margin: 0% 11%;
+        width: 52.36%;
+    }
+}
+.btnPagerSingle {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(180);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
     }
 }
 
 .nextSinglePagerWap {
     @include mi.ontenerWidth(247, 50);
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(198, 38);
+        width: 30.19%;
     }
 }
 .nextSinglePager {

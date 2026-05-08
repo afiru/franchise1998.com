@@ -9,7 +9,10 @@ LAYOUT
 .mainProductPost {
     @include mi.marginPercent(1920, 28, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 21, auto, 0, auto);
+        margin-top: 4.4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .productPostMain {

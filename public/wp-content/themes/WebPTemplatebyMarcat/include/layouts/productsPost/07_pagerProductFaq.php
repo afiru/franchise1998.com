@@ -21,7 +21,7 @@
                         </div>
                         <div class="mainCntLiProductFaqLxn jsmainCntLiProductFaqLxn">
                             <div class="mainCntLiProductFaq">
-                                <?php get_post_content_by_id($val); ?>
+                                <?php echo get_post_content_by_id($val); ?>
                             </div>
                         </div>
                     </div>
@@ -29,5 +29,6 @@
                 <?php endforeach; ?>
             </ul>
         </section>
+
     </div>
 </div>
