@@ -7,7 +7,7 @@
                 <div class="poab bg_EBEBEB brdLongBordVoiceFvWap"></div>
                 <div class="poab bg_F28962 brdShortBordVoiceFvWap"></div>
             </div>
-            <aside class="breadListUnderDefoType02">
+            <aside class="kaku breadListUnderDefoType02">
                 <?php if (function_exists('bcn_display')) {
                     bcn_display();
                 } ?>
