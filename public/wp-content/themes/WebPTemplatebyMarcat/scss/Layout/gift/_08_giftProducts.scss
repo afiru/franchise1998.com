@@ -7,10 +7,13 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .giftProducts {
-    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    @include mi.marginPercent(1920, 86, auto, 0, auto);
     @include mi.paddingPercent(1920, 0, 0, 100, 0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 99, auto, 0, auto);
+        margin-top: 20.4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.paddingPercent(375, 0, 0, 100, 0);
     }
 }
@@ -33,27 +36,34 @@ LAYOUT
     }
 }
 .rubyGiftProducts {
-    @include mi.marginPercent(1300, 35, auto, 0, auto);
+    @include mi.marginPercent(1300, 17, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 5.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
 .giftProductsSliderLxn {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 42, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(340, 40, auto, 0, auto);
+       margin-top: 11%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     }
 }
 .GiftProductsSlider {
     overflow: hidden;
     position: relative;
-    @include mi.paddingPercent(1300, 0, 0, 40, 0);
+    @include mi.paddingPercent(1300, 0, 0, 45, 0);
 
     @include mi.mq(sp) {
         @include mi.paddingPercent(340, 0, 0, 40, 0);
@@ -70,36 +80,45 @@ LAYOUT
 }
 
 .catsSliderGiftProducts {
-    @include mi.marginPercent(298, 20, auto, 0, auto);
+    @include mi.marginPercent(298, 13, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(160, 15, auto, 0, auto);
+        margin-top: 3.37%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
     }
 }
 .h3SliderGiftProducts {
-    @include mi.marginPercent(298, 10, auto, 0, auto);
+    @include mi.marginPercent(298, 0, auto, 0, auto);
     @include mi.fontSizePc(15);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(160, 10, auto, 0, auto);
+        margin-top: 3.25%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .priceSliderGiftProducts {
-    @include mi.marginPercent(298, 15, auto, 0, auto);
+    @include mi.marginPercent(298, 5, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(160, 15, auto, 0, auto);
+        margin-top: 5.37%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(50);
@@ -126,12 +145,15 @@ LAYOUT
 
 //ボタン
 .btnCntGiftProductsLxn {
-    @include mi.marginPercent(1300, 33, auto, 0, auto);
+    @include mi.marginPercent(1300, 30, auto, 0, auto);
     @include mi.ontenerWidth(1300, 240);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
-        @include mi.ontenerWidth(330, 240);
+        margin-top: 10.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+               width: 70.42%;
     }
 }
 .btnCntGiftProducts {
@@ -146,7 +168,7 @@ LAYOUT
     overflow: hidden;
 
     @include mi.mq(sp) {
-        aspect-ratio: 193 / 39;
+        aspect-ratio: 239 / 40;
         @include mi.kadomaru(30px);
         border: 1px solid #f04e11;
         @include mi.fontSizeSp(14);
@@ -168,6 +190,6 @@ LAYOUT
         margin: auto;
         background: url(../img/index/iconBbtnCntTopLimiteds.svg) no-repeat right
             center;
-        background-size: auto 20%;
+        background-size: auto 16%;
     }
 }

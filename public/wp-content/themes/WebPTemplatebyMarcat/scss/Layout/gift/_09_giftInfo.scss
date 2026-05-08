@@ -8,9 +8,9 @@ LAYOUT
 ========================================================================== */
 
 .giftInfo {
-    @include mi.paddingPercent(1920, 100, 0, 100, 0);
+    @include mi.paddingPercent(1920, 86, 0, 94, 0);
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 75, 0, 75, 0);
+        padding: 18% 0% 17.5% 0%;
     }
 }
 .giftInfoWap {
@@ -31,9 +31,12 @@ LAYOUT
     }
 }
 .ulGiftInfo {
-    @include mi.marginPercent(1300, 49, auto, 0, auto);
+    @include mi.marginPercent(1300, 37, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 50, auto, 0, auto);
+        margin-top: 12.15%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liGiftInfo {
@@ -43,7 +46,10 @@ LAYOUT
     }
     &:nth-child(n + 2) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 50, auto, 0, auto);
+            margin-top: 13.15%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -55,25 +61,31 @@ LAYOUT
     }
 }
 .h3GiftInfo {
-    @include mi.marginPercent(398, 27, auto, 0, auto);
+    @include mi.marginPercent(398, 18, auto, 0, auto);
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 2%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .txtGiftInfo {
-    @include mi.marginPercent(398, 25, auto, 0, auto);
+    @include mi.marginPercent(398, 10, auto, 0, auto);
     @include mi.fontSizePc(15);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     color: #fff;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 2.06%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);

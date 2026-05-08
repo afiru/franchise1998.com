@@ -8,9 +8,12 @@ LAYOUT
 ========================================================================== */
 
 .giftHushime {
-    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    @include mi.marginPercent(1920, 85, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 100, auto, 0, auto);
+        margin-top: 24.66%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .giftHushimeWap {
@@ -29,21 +32,27 @@ LAYOUT
     }
 }
 .rubyGiftHushime {
-    @include mi.marginPercent(1300, 35, auto, 0, auto);
+    @include mi.marginPercent(1300, 15, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 5.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .ulGiftHushime {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 42, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 7.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: space-between;
     }
 }
@@ -54,7 +63,7 @@ LAYOUT
     @include mi.kadomaru(10px);
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 0, 0, 0, 0);
-        @include mi.paddingPercent(330, 21, 0, 15, 0);
+        padding: 4.36% 0% 4.54% 0%;
         @include mi.ontenerWidth(330, 159);
     }
     &:nth-child(n + 3) {
@@ -96,40 +105,52 @@ LAYOUT
     overflow: hidden;
     aspect-ratio: 365/183;
     @include mi.mq(sp) {
-        @include mi.marginPercent(135, 13, auto, 0, auto);
+        margin-top: 5.62%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         aspect-ratio: 135/70;
     }
 }
 
 .h4GiftHushime {
-    @include mi.marginPercent(365, 26, auto, 0, auto);
+    @include mi.marginPercent(365, 16, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(135, 14, auto, 0, auto);
+        margin-top: 8.37%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
 .txtGiftHushime {
-    @include mi.marginPercent(365, 15, auto, 0, auto);
+    @include mi.marginPercent(365, 1, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(135, 19, auto, 0, auto);
+        margin-top: 5.07%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .btnGiftHushimeLxn {
-    @include mi.marginPercent(365, 41, auto, 0, auto);
+    @include mi.marginPercent(365, 36, auto, 0, auto);
     @include mi.ontenerWidth(365, 178);
     @include mi.mq(sp) {
-        @include mi.marginPercent(135, 35, auto, 0, auto);
+        margin-top: 8.92%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(135, 120);
     }
 }
@@ -149,7 +170,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.kadomaru(30px);
-        aspect-ratio: 200/40;
+        aspect-ratio: 200/50;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
@@ -162,6 +183,6 @@ LAYOUT
 .iconBtnGiftHushime {
     width: 88%;
     background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
-    background-size: auto 20%;
+    background-size: auto 16%;
     text-align: center;
 }

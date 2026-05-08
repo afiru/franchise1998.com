@@ -1,13 +1,19 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .giftFvBtmNav {
-    @include mi.marginPercent(1920, 56, auto, 0, auto);
+    @include mi.marginPercent(1920, 47, auto, 0, auto);
+    @include mi.mq(sp) {
+        margin-top: 22%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .GiftFvBtmNavWap {
@@ -41,11 +47,11 @@ LAYOUT
 
 .btnNavGiftFvBtm {
     width: 100%;
-    aspect-ratio: 248 / 51;
+    aspect-ratio: 248 / 66;
     border-bottom: 1px solid #8d8181;
-    @include mi.fontSizePc(14);
-    @include mi.lineheightP(180);
-    @include mi.letterSpacing(0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
     text-align: center;
     text-decoration: none;
 
