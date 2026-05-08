@@ -12,7 +12,7 @@ $args = [
 <?php if ($query1->have_posts()): ?>
 <div class="giftPickUp">
     <div class="wapper giftPickUpWap">
-        <h2 class="cl_212121 fw_500 h2GiftPickUp">PICK UP</h2>
+        <h2 class="cl_212121 fw_500 CormorantUnicase h2GiftPickUp">PICK UP</h2>
         <?php $i = 1; ?>
         <ul class="d_flex row j_between ulGiftPickUp">
             <?php while ($query1->have_posts()): $query1->the_post(); ?>

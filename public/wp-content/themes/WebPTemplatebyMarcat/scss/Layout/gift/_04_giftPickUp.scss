@@ -7,9 +7,12 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .giftPickUp {
-    @include mi.marginPercent(1920, 70, auto, 0, auto);
+    @include mi.marginPercent(1920, 62, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 45, auto, 0, auto);
+        margin-top: 9%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .giftPickUpWap {
@@ -28,9 +31,12 @@ LAYOUT
     }
 }
 .ulGiftPickUp {
-    @include mi.marginPercent(1300, 25, auto, 0, auto);
+    @include mi.marginPercent(1300, 18, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 15, auto, 0, auto);
+        margin-top: 1.54%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liGiftPickUp {
@@ -52,11 +58,11 @@ LAYOUT
     }
 }
 .liGiftPickUpLxn {
-    @include mi.paddingPercent(626, 30, 0, 20, 0);
+    @include mi.paddingPercent(626, 21, 0, 20, 0);
     @include mi.ontenerWidth(626, 530);
     margin: auto;
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 20, 0, 24, 0);
+        padding: 3.06% 0% 7.27% 0%;
         @include mi.ontenerWidth(330, 280);
     }
 }
@@ -71,13 +77,16 @@ LAYOUT
     }
 }
 .photoGiftPickUp {
-    @include mi.marginPercent(530, 28, auto, 0, auto);
+    @include mi.marginPercent(530, 19, auto, 0, auto);
     position: relative;
     @include mi.kadomaru(10px);
     overflow: hidden;
-    aspect-ratio: 530/227;
+    aspect-ratio: 530/280;
     @include mi.mq(sp) {
-        @include mi.marginPercent(280, 20, auto, 0, auto);
+        margin-top: 5.8%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         aspect-ratio: 279/146;
     }
 }
@@ -89,39 +98,48 @@ LAYOUT
     bottom: 0;
     margin: auto;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: auto;
 }
 
 .h4GiftPickUp {
-    @include mi.marginPercent(530, 24, auto, 0, auto);
+    @include mi.marginPercent(530, 20, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheight(16, 25);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(280, 20, auto, 0, auto);
+        margin-top: 6.14%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         @include mi.lineheight(16, 25);
         @include mi.letterSpacing(0);
     }
 }
 .txtGiftPickUp {
-    @include mi.marginPercent(530, 20, auto, 0, auto);
+    @include mi.marginPercent(530, 13, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(280, 16, auto, 0, auto);
+        margin-top: 2.71%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
 .btnGiftPickUpLxn {
-    @include mi.marginPercent(530, 18, auto, 0, auto);
+    @include mi.marginPercent(530, 13, auto, 0, auto);
     @include mi.ontenerWidth(530, 178);
     @include mi.mq(sp) {
-        @include mi.marginPercent(280, 25, auto, 0, auto);
+        margin-top: 5.92%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(280, 200);
     }
 }
@@ -153,7 +171,7 @@ LAYOUT
 }
 .iconBtnGiftPickUp {
     background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
-    background-size: auto 20%;
+    background-size: auto 14%;
     text-align: center;
     width: 88%;
     @include mi.mq(sp) {
