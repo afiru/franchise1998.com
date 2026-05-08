@@ -5,6 +5,7 @@
  * Template Post Type: page
  */
 ?>
+<?php remove_filter('the_content', 'wpautop'); ?>
 <?php get_template_part('include/common/header/header'); ?>
 <main class="mainUnder mainContact">
     <?php get_template_part('include/layouts/contact/01_contactFv'); ?>

@@ -193,9 +193,9 @@ window.addEventListener('load', function () {
 
     const mainSwiper = new Swiper('.singleProductSlider', {
         loop: false,
-        effect: 'fade',          // フェード切替
+        effect: 'fade', // フェード切替
         fadeEffect: {
-            crossFade: true      // クロスフェード
+            crossFade: true // クロスフェード
         },
         thumbs: {
             swiper: thumbSwiper,
@@ -310,4 +310,44 @@ $(function () {
         $(this).next('.jsmainCntLiProductFaqLxn').slideToggle();
         $(this).toggleClass('on off');
     });
+});
+
+//お問い合せ
+$(function () {
+    let name;
+    name = $('.jscheckcontct:checked').val();
+    setbx(name);
+
+    $('.jscheckcontct').on('change', function () {
+        name = $('.jscheckcontct:checked').val();
+        setbx(name);
+    });
+
+
+    function setbx(name) {
+        if (name === "通常のお問い合わせ") {
+            $('.jstujouContact').fadeIn();
+            $('.jsTairyoContact').fadeOut();
+        } else if (name === "大量注文のお問い合わせ（30セット以上）") {
+            $('.jstujouContact').fadeOut();
+            $('.jsTairyoContact').fadeIn();
+        } else {
+            $('.jstujouContact').fadeOut();
+            $('.jsTairyoContact').fadeOut();
+        }
+    }
+
+
+    //確認画面
+    let confirmname;
+    confirmname = $('.thisPageConfirm .checkWap').text();
+    if (confirmname.includes('通常のお問い合わせ')) {
+        $('.jstujouContact').fadeIn();
+        $('.jsTairyoContact').fadeOut();
+
+    } else if (confirmname.includes('大量注文のお問い合わせ（30セット以上）')) {
+        $('.jstujouContact').fadeOut();
+        $('.jsTairyoContact').fadeIn();
+
+    }
 });

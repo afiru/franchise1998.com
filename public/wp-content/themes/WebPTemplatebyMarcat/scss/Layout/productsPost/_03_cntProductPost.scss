@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -11,6 +11,7 @@ LAYOUT
 .cntProductPost {
     @include mi.marginPercent(632, 27, 0, 0, 0);
     @include mi.ontenerWidth(1300, 632);
+
     @include mi.mq(sp) {
         width: 100%;
         margin-top: 9.12%;
@@ -19,25 +20,29 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .secCntProductPost {
-    @include mi.mq(sp) {
-    }
+    @include mi.mq(sp) {}
 }
+
 .h1CntProductPost {
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(20);
     }
 }
+
 .rubyH1CntProductPost {
     @include mi.marginPercent(632, 2, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         margin: 0.54% 0% 0% 0%;
         @include mi.fontSizeSp(14);
@@ -45,11 +50,13 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .txtCntProductPostTop {
     @include mi.marginPercent(632, 14, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         margin: 4% 0% 0% 0%;
         @include mi.fontSizeSp(14);
@@ -57,10 +64,12 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .brdCntProductPostTop {
     @include mi.marginPercent(632, 20, auto, 0, auto);
     height: 1px;
     width: 100%;
+
     @include mi.mq(sp) {
         margin-top: 4.57%;
         margin-bottom: 0%;
@@ -68,8 +77,10 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .priceCntProductPostTop {
     @include mi.marginPercent(632, 17, 0, 0, 0);
+
     @include mi.mq(sp) {
         margin-top: 3.57%;
         margin-bottom: 0%;
@@ -77,23 +88,28 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .tablePriceCntProductPostTop {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
     }
 }
+
 .tablePriceCntProductPostTop td {
     max-width: 25%;
-    & + td {
+
+    &+td {
         @include mi.fontSizePc(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
         max-width: unset;
+
         @include mi.mq(sp) {
             @include mi.fontSizeSp(16);
             @include mi.lineheightP(180);
@@ -102,11 +118,13 @@ LAYOUT
         }
     }
 }
+
 .tablePriceCntProductPostTop p {
     margin: 2% 0 0 0;
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(180);
@@ -116,6 +134,7 @@ LAYOUT
 
 .ulPriceCntProductPostTop {
     @include mi.marginPercent(632, 14, auto, 0, auto);
+
     @include mi.mq(sp) {
         margin-top: 2%;
         margin-bottom: 0%;
@@ -123,9 +142,11 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .liPriceCntProductPostTop {
     @include mi.marginPercent(632, 5, auto, 0, auto);
     align-items: center;
+
     @include mi.mq(sp) {
         margin-top: 0%;
         margin-bottom: 0%;
@@ -133,11 +154,13 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .h3PriceCntProductPostTop {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     @include mi.ontenerWidth(169, 72);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 74);
         @include mi.fontSizeSp(14);
@@ -145,12 +168,14 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .txtPriceCntProductPostTop {
     @include mi.marginPercent(632, 0, 0, 0, 0);
     @include mi.ontenerWidth(169, 97);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 255);
         @include mi.fontSizeSp(14);
@@ -162,6 +187,7 @@ LAYOUT
 .brdCntProductPostTop02 {
     @include mi.marginPercent(632, 19, auto, 0, auto);
     height: 1px;
+
     @include mi.mq(sp) {
         margin-top: 4%;
         margin-bottom: 0%;
@@ -169,15 +195,18 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 //新商品や期間限定
 .ulGenrePurpose {
     @include mi.marginPercent(632, 25, auto, 0, auto);
     gap: 0.2604166vw;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, auto, 0, auto);
         gap: 1.333vw;
     }
 }
+
 .liGenrePurpose {
     @include mi.fontSizePc(12);
     @include mi.lineheightP(auto);
@@ -186,6 +215,7 @@ LAYOUT
     @include mi.kadomaru(3px);
     padding: 0.1vw 0.2604166667vw;
     @include mi.kadomaru(3px);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(auto);
@@ -193,14 +223,17 @@ LAYOUT
         padding: 0vw 1vw;
     }
 }
+
 //タグ一覧
 .ulPostTags {
     @include mi.marginPercent(632, 4, 0, 0, 0);
     gap: 5px;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 5, auto, 0, auto);
     }
 }
+
 .liPostTags {
     @include mi.fontSizePc(12);
     @include mi.lineheightP(auto);
@@ -210,6 +243,7 @@ LAYOUT
     padding: 0vw 0.2604166667vw;
     @include mi.kadomaru(3px);
     border: 1px solid #c3c3c3;
+
     @include mi.mq(sp) {
         padding: 0vw 1vw;
         @include mi.fontSizeSp(12);
@@ -217,10 +251,12 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 //ケーキ受け取り
 .btnFlugProductCakeLxn {
     @include mi.marginPercent(632, 25, 0, 0, 0);
     @include mi.ontenerWidth(632, 240);
+
     @include mi.mq(sp) {
         margin-top: 8.06%;
         margin-bottom: 0%;
@@ -229,6 +265,7 @@ LAYOUT
         @include mi.ontenerWidth(330, 300);
     }
 }
+
 .btnFlugProductCake {
     @include mi.kadomaru(30px);
     aspect-ratio: 240/45;
@@ -236,6 +273,7 @@ LAYOUT
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
     text-decoration: none;
+
     @include mi.mq(sp) {
         aspect-ratio: 300/60;
         @include mi.fontSizeSp(18);
@@ -243,10 +281,12 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .iconBtnFlugProductCake {
     background: url(../img/iconBtnFlugProductCake.svg) no-repeat center left;
     background-size: auto 75%;
     padding: 0 0% 0 11%;
+
     @include mi.mq(sp) {
         background-size: auto 75%;
         padding: 0 2% 0 11%;
@@ -256,6 +296,7 @@ LAYOUT
 //オンライン予約
 .secBtnOnlineProducts {
     @include mi.marginPercent(632, 27, 0, 0, 0);
+
     @include mi.mq(sp) {
         margin-top: 7.06%;
         margin-bottom: 0%;
@@ -263,6 +304,7 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .h2BtnOnlineProducts {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
@@ -270,6 +312,7 @@ LAYOUT
     background: url(../img/iconH2BtnOnlineProducts.svg) no-repeat center left;
     background-size: auto 75%;
     padding: 0 0% 0 4%;
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
@@ -277,10 +320,12 @@ LAYOUT
         padding: 0 0% 0 6.5%;
     }
 }
+
 .ulBtnOnlineProducts {
     @include mi.marginPercent(632, -5, auto, 0, auto);
     display: flex;
     flex-flow: row wrap;
+
     @include mi.mq(sp) {
         margin-top: 3%;
         margin-bottom: 0%;
@@ -289,42 +334,52 @@ LAYOUT
         justify-content: space-between;
     }
 }
+
 .liBtnOnlineProducts {
     @include mi.ontenerWidth(632, 146);
     @include mi.marginPercent(632, 16, 16, 0, 0);
+
     @include mi.mq(sp) {
         width: 49.9%;
         @include mi.marginPercent(330, 0, 0, 0, 0);
     }
+
     &:nth-child(n + 3) {
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 0, 0, 0, 0);
         }
     }
+
     &:nth-child(n + 5) {
         @include mi.marginPercent(632, 0, 3, 0, 0);
+
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 0, 0, 0, 0);
         }
     }
+
     &:nth-child(4n) {
         margin-right: 0;
     }
 }
-.btnOnlineProducts {
-}
+
+.btnOnlineProducts {}
+
 //お電話で注文する
 .btnBtnProductTellxn {
     @include mi.marginPercent(632, 16, 0, 0, 0);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, 0, 0, 0);
     }
 }
+
 .btnBtnProductTel {
     @include mi.ontenerWidth(632, 240);
     @include mi.kadomaru(30px);
     text-decoration: none;
     aspect-ratio: 240/45;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 300);
         aspect-ratio: 300/60;
@@ -338,14 +393,15 @@ LAYOUT
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    background: url(../img/productsPost/iconBtnProductTel.svg) no-repeat 0%
-        center;
+    background: url(../img/productsPost/iconBtnProductTel.svg) no-repeat 0% center;
     background-size: auto 44%;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 296);
         background-size: auto 40%;
     }
 }
+
 .txtNameBtnProductTel {
     @include mi.marginPercent(632, 0, 0, 0, 0);
     @include mi.fontSizePc(14);
@@ -353,6 +409,7 @@ LAYOUT
     @include mi.letterSpacing(0);
     width: 100%;
     transform: translateY(23%);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(300, 0, 0, 0, 0);
         @include mi.fontSizeSp(18);
@@ -361,6 +418,7 @@ LAYOUT
         transform: translateY(30%);
     }
 }
+
 .txtTelBtnProductTel {
     @include mi.marginPercent(240, 0, 0, 0, 0);
     @include mi.fontSizePc(13);
@@ -368,6 +426,7 @@ LAYOUT
     @include mi.letterSpacing(0);
     width: 100%;
     transform: translateY(-19%);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 0, auto, 0, auto);
         @include mi.fontSizeSp(14);
@@ -375,12 +434,14 @@ LAYOUT
         @include mi.letterSpacing(100);
     }
 }
+
 .txtBtnProductTel {
     @include mi.marginPercent(632, 6, 0, 0, 10);
     text-align: left;
     @include mi.fontSizePc(13);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         margin-top: 3.06%;
         margin-bottom: 0%;
@@ -392,31 +453,38 @@ LAYOUT
         text-align: center;
     }
 }
+
 //本品に含まれている主なアレルゲン
 .listInfoProductsPosts {
     @include mi.marginPercent(632, 24, 0, 0, 0);
     @include mi.paddingPercent(632, 13, 0, 15, 0);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, auto, 0, auto);
         padding: 2.54% 0% 2.54% 0%;
     }
 }
+
 .listInfoProductsPostsLxn {
     @include mi.ontenerWidth(632, 598);
     margin: auto;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 300);
     }
 }
-.secListInfoProductsPosts {
-}
+
+.secListInfoProductsPosts {}
+
 .h2ListInfoProductsPosts {
     flex-flow: row wrap;
 }
+
 .BigH2ListInfoProductsPosts {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         width: 100%;
         @include mi.fontSizeSp(14);
@@ -424,10 +492,12 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .littleH2ListInfoProductsPosts {
     @include mi.fontSizePc(13);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         width: 100%;
         margin: 2% 0 0 0;
@@ -436,21 +506,25 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .ulListInfoProductsPosts {
     @include mi.marginPercent(598, 5, 0, 0, 0);
     gap: 0.15625vw;
     flex-flow: row wrap;
+
     @include mi.mq(sp) {
         margin: 1.66% 0% 0% 0%;
         gap: 0.8vw;
     }
 }
+
 .liListInfoProductsPosts {
     padding: 0vw 0.2vw;
     @include mi.kadomaru(3px);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         padding: 0vw 0.4vw;
         @include mi.fontSizeSp(14);
@@ -458,8 +532,10 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .secListInfoProductsPosts02 {
     @include mi.marginPercent(598, 16, 0, 0, 0);
+
     @include mi.mq(sp) {
         margin-top: 4%;
         margin-bottom: 0%;
@@ -467,17 +543,21 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 //本品に含まれている主なアレルゲン/特定原材料に準ずるもの
 .brdCntProductPostTop03 {
     @include mi.marginPercent(632, 25, 0, 0, 0);
     height: 1px;
     width: 100%;
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, auto, 0, auto);
     }
 }
+
 .editorCntProductPost {
     @include mi.marginPercent(632, 20, 0, 0, 0);
+
     @include mi.mq(sp) {
         margin-top: 4.06%;
         margin-bottom: 0%;
@@ -485,13 +565,51 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .editorCntProductPost p {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+    }
+}
+
+//商品：デコレーションアレルギーについて
+.postDecorationAllergy {
+    @include mi.marginPercent(632, 20, 0, 0, 0);
+    @include mi.paddingPercent(632, 20, 0, 20, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, 0, 0, 0);
+        @include mi.paddingPercent(330, 20, 0, 20, 0);
+    }
+}
+
+.h2PostDecorationAllergy {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtPostDecorationAllergy {
+    @include mi.marginPercent(632, 20, auto, 0, auto);
+    @include mi.ontenerWidth(632, 592);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20, auto, 0, auto);
+        @include mi.ontenerWidth(330, 300);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }

@@ -1,125 +1,169 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .contact {
-    @include mi.marginPercent(1920, 84, auto, 0, auto);
+    @include mi.marginPercent(1920, 106, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 80, auto, 0, auto);
+        margin-top: 18.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
 .contactWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
+
 .secContactTop {
     @include mi.ontenerWidth(1300, 1000);
     margin: auto;
+
     @include mi.mq(sp) {
         width: 100%;
     }
 }
+
 .h2ContactTop {
     @include mi.fontSizePc(26);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(50);
     }
 }
+
 .txtContactTop {
-    @include mi.marginPercent(1000, 50, auto, 0, auto);
+    @include mi.marginPercent(1000, 29, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+    width: 91.5%;
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 35, auto, 0, auto);
+        width: 100%;
+        margin-top: 6.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
+
 .telContactPage {
-    @include mi.marginPercent(1000, 40, auto, 0, auto);
+    @include mi.marginPercent(1000, 24, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 50, auto, 0, auto);
+        margin-top: 11.15%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
 .h3TelContactPage {
     @include mi.fontSizePc(18);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     text-align: center;
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(15);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
+
 .telContactPageFx {
-    @include mi.marginPercent(1000, 19, auto, 0, auto);
+    @include mi.marginPercent(1000, 6, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 21, auto, 0, auto);
+        margin-top: 2.36%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
 .littleContactPageFx {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
-    @include mi.marginPercent(1000, 0, 5, 0, 0);
+    @include mi.marginPercent(1000, 0, 5, 3, 0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(100);
-        @include mi.marginPercent(330, 0, 5, 0, 0);
+        margin: 0% 1.51% 1% 0%;
     }
 }
+
 .telMainContactPageFx {
     @include mi.fontSizePc(21);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(21);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(100);
     }
 }
+
 .txtLastMainContactPage {
-    @include mi.marginPercent(1000, 20, auto, 0, auto);
+    @include mi.marginPercent(1000, 8, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 16, auto, 0, auto);
+        margin-top: 0.84%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
+
 //フォーム
 .formContact {
-    @include mi.marginPercent(1300, 50, auto, 0, auto);
+    @include mi.marginPercent(1300, 44, auto, 0, auto);
     @include mi.ontenerWidth(1300, 1000);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 45, auto, 0, auto);
+        margin-top: 11.93%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 330);
     }
 }
-.secFomrCnt {
-}
+
+.secFomrCnt {}
+
 .h2SecFomrCnt {
     @include mi.paddingPercent(1000, 14, 0, 14, 24);
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(20);
     @include mi.kadomaru(5px);
+
     @include mi.mq(sp) {
         @include mi.paddingPercent(330, 12, 0, 12, 15);
         @include mi.fontSizeSp(16);
@@ -127,23 +171,31 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
-.ulFormCnt {
-}
+
+.ulFormCnt {}
+
 .liFormCnt {
     font-family: "Zen Kaku Gothic New", sans-serif;
     align-items: center;
+
     &:nth-child(n + 2) {
         @include mi.marginPercent(1000, 28, auto, 0, auto);
+
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 20, auto, 0, auto);
+            margin-top: 3.86%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
+
 .h3FormCnt {
     @include mi.ontenerWidth(1000, 191);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         width: 100%;
         @include mi.fontSizeSp(16);
@@ -151,20 +203,30 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .ulFormCnt {
     @include mi.marginPercent(1000, 30, auto, 0, auto);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 5.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .inputLiFormCntLxn {
     @include mi.ontenerWidth(1000, 809);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 12, auto, 0, auto);
+        margin-top: 1.63%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 }
+
 .inputW100 {
     @include mi.paddingPercent(809, 14, 20, 14, 20);
     border: 1px solid #929292;
@@ -174,12 +236,14 @@ LAYOUT
     @include mi.letterSpacing(0);
     width: 100%;
     color: #453c3c;
+
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 19, 15, 19, 15);
+        padding: 3.25% 4.54% 3.25% 4.54%;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
+
     &::placeholder {
         color: #d9d9d9;
     }
@@ -187,19 +251,47 @@ LAYOUT
 
 .secFomrCnt02 {
     @include mi.marginPercent(1000, 60, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 40, auto, 0, auto);
     }
 }
+
 .checkWap {
     margin: 1% 0 0 0;
     align-items: center;
+    display: flex;
+    justify-content: flex-start;
+
     @include mi.mq(sp) {
-        margin: 0;
+        margin: 2% 0 0 0;
+        flex-flow: row wrap;
     }
-    .mwform-radio-field {
+
+    .mwform-radio-field {}
+}
+
+span.mwform-radio-field.horizontal-item label {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        width: 100%;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
     }
 }
+
+.mw_wp_form .horizontal-item+.horizontal-item {
+    @include mi.marginPercent(1000, 0, 0, 0, 50);
+
+    @include mi.mq(sp) {
+        margin: 5.06% 0% 0% 0%;
+    }
+}
+
 .checkWap label {
     display: flex;
     justify-content: flex-start;
@@ -208,20 +300,24 @@ LAYOUT
     @include mi.lineheightP(21);
     @include mi.letterSpacing(0);
     color: #453c3c;
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(21);
         @include mi.letterSpacing(0);
     }
 }
+
 .checkcontct {
     width: 20px !important;
     aspect-ratio: 1/1;
     margin: 0 10px 0 0 !important;
     accent-color: #f04e11;
+
     @include mi.mq(tab) {
         width: 1.2 !important;
     }
+
     @include mi.mq(sp) {
         margin: 0 7px 0 0 !important;
         width: 20px !important;
@@ -229,10 +325,11 @@ LAYOUT
 }
 
 .txtLiFormCntLxn {
-    @include mi.marginPercent(809, 28, 0, 0, 0);
+    @include mi.marginPercent(809, 22, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 24, auto, 0, auto);
         @include mi.fontSizeSp(12);
@@ -240,6 +337,7 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .txtW100 {
     @include mi.paddingPercent(809, 14, 20, 14, 20);
     border: 1px solid #929292;
@@ -250,6 +348,7 @@ LAYOUT
     width: 100%;
     aspect-ratio: 809/101;
     color: #453c3c;
+
     @include mi.mq(sp) {
         @include mi.paddingPercent(330, 19, 15, 19, 15);
         @include mi.fontSizeSp(16);
@@ -257,6 +356,7 @@ LAYOUT
         @include mi.letterSpacing(0);
         aspect-ratio: 330/220;
     }
+
     &::placeholder {
         color: #d9d9d9;
     }
@@ -265,17 +365,20 @@ LAYOUT
 .tujoCheckWap {
     margin: 1% 0 0 0;
     align-items: center;
+
     @include mi.mq(sp) {
         margin: 0;
     }
 }
+
 .tujoCheckLx {
+
     //@include mi.ontenerWidth(809, 100);
-    @include mi.mq(sp) {
-    }
-    .mwform-radio-field {
-    }
+    @include mi.mq(sp) {}
+
+    .mwform-radio-field {}
 }
+
 .tujoCheckLx label {
     display: flex;
     justify-content: flex-start;
@@ -283,36 +386,44 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(21);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheight(14, 21);
         @include mi.letterSpacing(0);
     }
 }
+
 .checkcontct {
     width: 20px !important;
     aspect-ratio: 1/1;
     margin: 0 10px 0 0 !important;
     accent-color: #f04e11;
+
     @include mi.mq(tab) {
         width: 1.2 !important;
     }
+
     @include mi.mq(sp) {
         margin: 0 7px 0 0 !important;
         width: 20px !important;
     }
 }
+
 .txtTujoCheckWap {
-    @include mi.marginPercent(249, 0, 0, 0, 18);
+    @include mi.marginPercent(249, 0, 0, 4, 18);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 0, 0, 0, 7);
     }
 }
+
 .txtTujoCheckWap a {
     color: #453c3c;
     @include mi.fontSizePc(12);
     @include mi.lineheightP(21);
     @include mi.letterSpacing(100);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(12);
         @include mi.lineheight(12, 21);
@@ -325,22 +436,33 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 31, auto, 0, auto);
+        margin-top: 8.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
 }
+
 .btnToConfirmLxn {
-    @include mi.marginPercent(1000, 50, auto, 0, auto);
+    @include mi.marginPercent(1000, 47, auto, 0, auto);
     @include mi.ontenerWidth(1000, 260);
     position: relative;
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 7.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 260);
     }
 }
+
 .btnToConfirm {
     width: 100%;
     aspect-ratio: 260/50;
@@ -352,12 +474,35 @@ LAYOUT
     transition-duration: 0.5s;
     cursor: pointer;
     border: 1px solid #f28962;
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
     }
+
     &:hover {
         opacity: 0.6;
+    }
+}
+
+.jstujouContact {
+    display: none;
+}
+
+.jsTairyoContact {
+    display: none;
+}
+
+.mw_wp_form .error {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    margin: 5px 0 0 0;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
     }
 }

@@ -1,38 +1,65 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .thanksContactWap {
-    @include mi.marginPercent(1920, 125, auto, 0, auto);
+    @include mi.marginPercent(1920, 106, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 80, auto, 0, auto);
+    }
 }
-.secThanksContact {
-}
+
+.secThanksContact {}
+
 .h2ThanksContact {
     @include mi.fontSizePc(26);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(20);
-}
-.txtThanksContact {
-    @include mi.marginPercent(1100, 48, auto, 0, auto);
 
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(50);
+    }
+}
+
+.txtThanksContact {
+    @include mi.marginPercent(1100, 28, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        margin-top: 5.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(180);
+        @include mi.letterSpacing(0);
+    }
 }
+
 //送信する
 .btnThanksContactLxn {
-    @include mi.marginPercent(1000, 50, auto, 0, auto);
+    @include mi.marginPercent(1000, 66, auto, 0, auto);
     @include mi.ontenerWidth(1000, 260);
     position: relative;
+
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 20.59%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 260);
     }
 }
+
 .btnThanksContact {
     width: 100%;
     aspect-ratio: 260/50;
@@ -45,11 +72,13 @@ LAYOUT
     cursor: pointer;
     border: 1px solid #f28962;
     text-decoration: none;
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
     }
+
     &:hover {
         opacity: 0.6;
     }
