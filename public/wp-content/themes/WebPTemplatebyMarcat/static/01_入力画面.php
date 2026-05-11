@@ -1,9 +1,9 @@
 <div class="contact">
     <div class="wapper contactWap">
         <section class="secContactTop">
-            <h2 class="t_center cl_453C3C fw_500 txtset h2ContactTop">お問い合わせ・相談内容をご記入ください。</h2>
+            <h2 class="t_center cl_453C3C fw_500 txtset h2ContactTop">お問い合わせ・相談内容を<br class="sp_only">ご記入ください。</h2>
             <p class="cl_453C3C txtset fw_500 text_justify txtContactTop">
-                下記フォームにご入力の上、確認ページへ進んでください。*は必須入力項目です。いただいた内容を確認のうえ、2営業日以内に、担当者よりご連絡させていただきます。お寄せいただいたお問い合わせなどは「<a class="cl_F04E11" href="[home_url]/shoppingguide/">お買い物ガイド・よくある質問</a>」に掲載しております。<br>
+                下記フォームにご入力の上、確認ページへ進んでください。<span class="cl_F04E11">*</span>は必須入力項目です。いただいた内容を確認のうえ、2営業日以内に、担当者よりご連絡させていただきます。<br class="sp_only"><br class="sp_only">お寄せいただいたお問い合わせなどは「<a class="cl_F04E11" href="[home_url]/shoppingguide/">お買い物ガイド・よくある質問</a>」に掲載しております。<br class="pc_only">
                 お問い合わせの際は、まずそちらをご参照ください。コンサルティングルームで直接ご相談いただくことも可能ですので、是非ご来店ください。
             </p>
             <section class="telContactPage">

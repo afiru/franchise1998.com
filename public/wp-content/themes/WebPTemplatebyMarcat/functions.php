@@ -515,15 +515,122 @@ function get_child_category_id($parent_id = 15, $post_id = null)
 
     $getcatid;
     foreach ($categories as $cat) {
-        if($cat->parent == $parent_id) {
-            $getcatid[]= (int)$cat->cat_ID;
+        if ($cat->parent == $parent_id) {
+            $getcatid[] = (int)$cat->cat_ID;
         }
     }
-    if(!empty($getcatid[0])) {
-    return $getcatid[0];
+    if (!empty($getcatid[0])) {
+        return $getcatid[0];
+    } else {
+        return 0;
     }
-    else {
-    return 0;
+}
+/**
+ * お問い合せフォーム
+ */
+add_filter('mwform_validation_mw-wp-form-425', 'my_mwform_validation', 10, 3);
+
+function my_mwform_validation($Validation, $data)
+{
+
+    $type = isset($data['お問い合わせ区分']) ? $data['お問い合わせ区分'] : '';
+
+    /*
+    |--------------------------------------------------------------------------
+    | 通常のお問い合わせ
+    |--------------------------------------------------------------------------
+    */
+    if ($type === '通常のお問い合わせ') {
+
+        // 通常お問い合わせ内容
+        $Validation->set_rule(
+            '通常お問い合わせ内容',
+            'noempty',
+            array(
+                'message' => 'お問い合わせ内容を入力してください。'
+            )
+        );
+
+        // 通常個人情報保護方針
+        $Validation->set_rule(
+            '通常個人情報保護方針',
+            'required',
+            array(
+                'message' => '個人情報保護方針に同意してください。'
+            )
+        );
     }
 
+    /*
+    |--------------------------------------------------------------------------
+    | 大量注文のお問い合わせ（30セット以上）
+    |--------------------------------------------------------------------------
+    */
+    if ($type === '大量注文のお問い合わせ（30セット以上）') {
+
+        // 社名・学校名
+        $Validation->set_rule(
+            '社名・学校名',
+            'noempty',
+            array(
+                'message' => '社名・学校名を入力してください。'
+            )
+        );
+
+        // ご使用用途
+        $Validation->set_rule(
+            'ご使用用途',
+            'noempty',
+            array(
+                'message' => 'ご使用用途を入力してください。'
+            )
+        );
+
+        // ご希望個数 必須
+        $Validation->set_rule(
+            'ご希望個数',
+            'noempty',
+            array(
+                'message' => 'ご希望個数を入力してください。'
+            )
+        );
+
+        // ご希望個数 数値
+        $Validation->set_rule(
+            'ご希望個数',
+            'numeric',
+            array(
+                'message' => 'ご希望個数は数字のみ入力してください。'
+            )
+        );
+
+        // ご希望納期 必須
+        $Validation->set_rule(
+            'ご希望納期',
+            'noempty',
+            array(
+                'message' => 'ご希望納期を入力してください。'
+            )
+        );
+
+        // その他要望等
+        $Validation->set_rule(
+            'その他要望等',
+            'noempty',
+            array(
+                'message' => 'その他要望等を入力してください。'
+            )
+        );
+
+        // 大量個人情報保護方針
+        $Validation->set_rule(
+            '大量個人情報保護方針',
+            'required',
+            array(
+                'message' => '個人情報保護方針に同意してください。'
+            )
+        );
+    }
+
+    return $Validation;
 }
