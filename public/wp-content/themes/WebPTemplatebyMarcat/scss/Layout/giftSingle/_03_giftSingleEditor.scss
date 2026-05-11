@@ -8,9 +8,12 @@ LAYOUT
 ========================================================================== */
 
 .giftSingleEditor {
-    @include mi.marginPercent(1100, 40, auto, 0, auto);
+    @include mi.marginPercent(1100, 33, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(300, 40, auto, 0, auto);
+        margin-top: 11.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -18,14 +21,14 @@ LAYOUT
     /*h2*/
     h2 {
         margin: 0;
-        @include mi.fontSizePc(24);
-        @include mi.lineheightP(160);
+        @include mi.fontSizePc(20);
+        @include mi.lineheightP(auto);
         @include mi.letterSpacing(0);
         background: #f1ece8;
-        @include mi.paddingPercent(1100, 10, 16, 10, 16);
+        @include mi.paddingPercent(1100, 8, 16, 11, 16);
 
         @include mi.mq(sp) {
-            @include mi.paddingPercent(300, 15, 0, 11, 0);
+            padding: 2% 4%;
             @include mi.fontSizeSp(16);
             @include mi.lineheightP(180);
             @include mi.letterSpacing(0);
@@ -42,7 +45,7 @@ LAYOUT
     div + h2,
     img + h2,
     table + h2 {
-        @include mi.marginPercent(1100, 45, 0, 0, 0);
+        @include mi.marginPercent(1100, 26, 0, 0, 0);
 
         @include mi.mq(sp) {
             @include mi.marginPercent(300, 30, 0, 0, 0);
@@ -50,7 +53,7 @@ LAYOUT
     }
 
     p {
-        @include mi.marginPercent(1100, 25, auto, 0, auto);
+        @include mi.marginPercent(1100, 20, auto, 0, auto);
         @include mi.fontSizePc(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -72,9 +75,9 @@ LAYOUT
     div + p,
     img + p,
     table + p {
-        @include mi.marginPercent(1100, 30, 0, 0, 0);
+        @include mi.marginPercent(1100, 20, 0, 0, 0);
         @include mi.mq(sp) {
-            @include mi.marginPercent(300, 20, 0, 0, 0);
+            margin: 4.66% 0% 0% 0%;
         }
     }
 
@@ -95,10 +98,10 @@ LAYOUT
     div + p img,
     img + p img,
     table + p img {
-        @include mi.marginPercent(900, 30, 0, 0, 0);
+        @include mi.marginPercent(900, 22, 0, 0, 0);
 
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 20, 0, 0, 0);
+            margin: 4.06% 0% 0% 0%;
         }
     }
 

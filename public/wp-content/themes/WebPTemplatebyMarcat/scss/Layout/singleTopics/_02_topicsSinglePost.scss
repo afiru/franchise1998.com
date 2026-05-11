@@ -261,7 +261,7 @@ LAYOUT
 
 /*ページャー*/
 .pagerSinglePager {
-    @include mi.marginPercent(1920, 60, auto, 0, auto);
+    @include mi.marginPercent(1920, 51, auto, 0, auto);
 
     @include mi.mq(sp) {
         margin-top: 6%;

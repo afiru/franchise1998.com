@@ -39185,6 +39185,36 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.thisPageConfirm {
+  margin-top: 120px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .thisPageConfirm {
+    margin-top: 9.23%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .thisPageConfirm {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .thisPageConfirm {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .thisPageConfirm .h3FormCnt {
   width: 210px;
 }
@@ -39224,6 +39254,10 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .thisPageConfirm .inputLiFormCntLxn {
+    margin-top: 1.63%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     line-height: 160%;
     letter-spacing: 0em;
@@ -39234,15 +39268,23 @@ LAYOUT
     font-size: 4.2666666667vw;
   }
 }
+@media screen and (max-width: 767px) {
+  .thisPageConfirm .ulFormCnt {
+    margin-top: 6.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .thisPageConfirm .liFormCnt:nth-child(n+2) {
-  margin-top: 64px;
+  margin-top: 51px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .thisPageConfirm .liFormCnt:nth-child(n+2) {
-    margin-top: 6.4%;
+    margin-top: 5.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -39250,29 +39292,21 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .thisPageConfirm .liFormCnt:nth-child(n+2) {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .thisPageConfirm .liFormCnt:nth-child(n+2) {
-    margin-top: 12.12%;
+    margin-top: 8.12%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .thisPageConfirm .secFomrCnt02 {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .thisPageConfirm .secFomrCnt02 {
-    margin-top: 8%;
+    margin-top: 7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -39293,6 +39327,15 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
   }
+}
+.thisPageConfirm .txtLiFormCntLxn {
+  display: none;
+}
+.thisPageConfirm .txtTujoCheckWap {
+  display: none;
+}
+.thisPageConfirm .lastTxtContact {
+  display: none;
 }
 
 .toThankBackLxn {
@@ -39322,19 +39365,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .toThankBackLxn {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 260px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .toThankBackLxn {
-    margin-top: 9.09%;
+    margin-top: 13.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 260px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -39348,7 +39383,7 @@ LAYOUT
 }
 @media screen and (max-width: 1299px) {
   .btnBackLxn {
-    width: 26%;
+    width: 47.79%;
   }
 }
 .btnBackLxn {
@@ -39405,7 +39440,7 @@ LAYOUT
 }
 @media screen and (max-width: 1299px) {
   .btnToThanksLxn {
-    width: 26%;
+    width: 47.79%;
   }
 }
 .btnToThanksLxn {
@@ -40434,14 +40469,14 @@ LAYOUT
 
 /*ページャー*/
 .pagerSinglePager {
-  margin-top: 60px;
+  margin-top: 51px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .pagerSinglePager {
-    margin-top: 3.12%;
+    margin-top: 2.65%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -41775,7 +41810,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .giftProducts {
-    margin-top: 20.4%;
+    margin-top: 30.4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -41828,14 +41863,14 @@ LAYOUT
 }
 
 .rubyGiftProducts {
-  margin-top: 17px;
+  margin-top: 13px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyGiftProducts {
-    margin-top: 1.3%;
+    margin-top: 1%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -41870,14 +41905,14 @@ LAYOUT
 }
 
 .giftProductsSliderLxn {
-  margin-top: 42px;
+  margin-top: 35px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .giftProductsSliderLxn {
-    margin-top: 3.23%;
+    margin-top: 2.69%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -42577,14 +42612,14 @@ LAYOUT
 }
 
 .mainGiftCnt {
-  padding-top: 95px;
+  padding-top: 78px;
   padding-bottom: 100px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .mainGiftCnt {
-    padding: 4.94% 0% 5.2% 0%;
+    padding: 4.06% 0% 5.2% 0%;
   }
 }
 .mainGiftCnt {
@@ -42597,16 +42632,8 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .mainGiftCnt {
-    padding-top: 30px;
-    padding-bottom: 80px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 5% 0% 21.33% 0%;
     width: 330px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .mainGiftCnt {
-    padding: 8% 0% 21.33% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -42648,13 +42675,13 @@ LAYOUT
 ========================================================================== */
 .h1GiftSingleTitle {
   padding-top: 0px;
-  padding-bottom: 24px;
+  padding-bottom: 13px;
   padding-left: 0px;
   padding-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .h1GiftSingleTitle {
-    padding: 0% 0% 2.18% 0%;
+    padding: 0% 0% 1.18% 0%;
   }
 }
 .h1GiftSingleTitle {
@@ -42672,17 +42699,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h1GiftSingleTitle {
-    padding-top: 0px;
-    padding-bottom: 25px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0% 0% 5.8% 0%;
     line-height: 160%;
     letter-spacing: 0.02em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h1GiftSingleTitle {
-    padding: 0% 0% 8.33% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -42731,14 +42750,14 @@ LAYOUT
 }
 
 .h4GiftSingleTitle {
-  margin-top: 45px;
+  margin-top: 37px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h4GiftSingleTitle {
-    margin-top: 4.09%;
+    margin-top: 3.36%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -42758,20 +42777,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h4GiftSingleTitle {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 7%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h4GiftSingleTitle {
-    margin-top: 10%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -42781,14 +42792,14 @@ LAYOUT
 }
 
 .rubyGiftSingleTitle {
-  margin-top: 25px;
+  margin-top: 8px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .rubyGiftSingleTitle {
-    margin-top: 2.27%;
+    margin-top: 0.72%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -42808,20 +42819,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyGiftSingleTitle {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 0.66%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .rubyGiftSingleTitle {
-    margin-top: 6.66%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -42840,14 +42843,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .giftSingleEditor {
-  margin-top: 40px;
+  margin-top: 33px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .giftSingleEditor {
-    margin-top: 3.63%;
+    margin-top: 3%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -42855,15 +42858,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .giftSingleEditor {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .giftSingleEditor {
-    margin-top: 13.33%;
+    margin-top: 11.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -42875,40 +42870,32 @@ LAYOUT
 }
 .giftSingleEditor h2 {
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 @media screen and (max-width: 1299px) {
   .giftSingleEditor h2 {
-    font-size: 1.8475750577vw;
+    font-size: 1.5396458814vw;
   }
 }
 .giftSingleEditor h2 {
-  line-height: 160%;
+  line-height: normal;
   letter-spacing: 0em;
   background: #f1ece8;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 11px;
   padding-left: 16px;
   padding-right: 16px;
 }
 @media screen and (max-width: 1299px) {
   .giftSingleEditor h2 {
-    padding: 0.9% 1.45% 0.9% 1.45%;
+    padding: 0.72% 1.45% 1% 1.45%;
   }
 }
 @media screen and (max-width: 767px) {
   .giftSingleEditor h2 {
-    padding-top: 15px;
-    padding-bottom: 11px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 2% 4%;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .giftSingleEditor h2 {
-    padding: 5% 0% 3.66% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -42929,7 +42916,7 @@ LAYOUT
 .giftSingleEditor div + h2,
 .giftSingleEditor img + h2,
 .giftSingleEditor table + h2 {
-  margin-top: 45px;
+  margin-top: 26px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
@@ -42945,7 +42932,7 @@ LAYOUT
   .giftSingleEditor div + h2,
   .giftSingleEditor img + h2,
   .giftSingleEditor table + h2 {
-    margin: 4.09% 0% 0% 0%;
+    margin: 2.36% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -42980,14 +42967,14 @@ LAYOUT
   }
 }
 .giftSingleEditor p {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .giftSingleEditor p {
-    margin-top: 2.27%;
+    margin-top: 1.81%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -43036,7 +43023,7 @@ LAYOUT
 .giftSingleEditor div + p,
 .giftSingleEditor img + p,
 .giftSingleEditor table + p {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
@@ -43053,7 +43040,7 @@ LAYOUT
   .giftSingleEditor div + p,
   .giftSingleEditor img + p,
   .giftSingleEditor table + p {
-    margin: 2.72% 0% 0% 0%;
+    margin: 1.81% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -43068,25 +43055,7 @@ LAYOUT
   .giftSingleEditor div + p,
   .giftSingleEditor img + p,
   .giftSingleEditor table + p {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .giftSingleEditor h2 + p,
-  .giftSingleEditor h3 + p,
-  .giftSingleEditor h4 + p,
-  .giftSingleEditor h5 + p,
-  .giftSingleEditor p + p,
-  .giftSingleEditor ol + p,
-  .giftSingleEditor ul + p,
-  .giftSingleEditor a + p,
-  .giftSingleEditor div + p,
-  .giftSingleEditor img + p,
-  .giftSingleEditor table + p {
-    margin: 6.66% 0% 0% 0%;
+    margin: 4.66% 0% 0% 0%;
   }
 }
 .giftSingleEditor {
@@ -43107,7 +43076,7 @@ LAYOUT
 .giftSingleEditor div + p img,
 .giftSingleEditor img + p img,
 .giftSingleEditor table + p img {
-  margin-top: 30px;
+  margin-top: 22px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
@@ -43124,7 +43093,7 @@ LAYOUT
   .giftSingleEditor div + p img,
   .giftSingleEditor img + p img,
   .giftSingleEditor table + p img {
-    margin: 3.33% 0% 0% 0%;
+    margin: 2.44% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -43139,25 +43108,7 @@ LAYOUT
   .giftSingleEditor div + p img,
   .giftSingleEditor img + p img,
   .giftSingleEditor table + p img {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .giftSingleEditor h2 + p img,
-  .giftSingleEditor h3 + p img,
-  .giftSingleEditor h4 + p img,
-  .giftSingleEditor h5 + p img,
-  .giftSingleEditor p + p img,
-  .giftSingleEditor ol + p img,
-  .giftSingleEditor ul + p img,
-  .giftSingleEditor a + p img,
-  .giftSingleEditor div + p img,
-  .giftSingleEditor img + p img,
-  .giftSingleEditor table + p img {
-    margin: 6.06% 0% 0% 0%;
+    margin: 4.06% 0% 0% 0%;
   }
 }
 .giftSingleEditor .aligncenter {
@@ -43379,14 +43330,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .giftSingleRecMend {
-  margin-top: 0px;
+  margin-top: 60px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .giftSingleRecMend {
-    margin-top: 0%;
+    margin-top: 5.45%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -43394,15 +43345,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .giftSingleRecMend {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .giftSingleRecMend {
-    margin-top: 0%;
+    margin-top: 13.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -43410,15 +43353,15 @@ LAYOUT
 }
 
 .h2GiftSingleRecMend {
-  font-size: 24px;
+  font-size: 20px;
 }
 @media screen and (max-width: 1299px) {
   .h2GiftSingleRecMend {
-    font-size: 1.8475750577vw;
+    font-size: 1.5396458814vw;
   }
 }
 .h2GiftSingleRecMend {
-  line-height: 160%;
+  line-height: normal;
   letter-spacing: 0em;
   background: #f1ece8;
   padding-top: 10px;
@@ -43433,17 +43376,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h2GiftSingleRecMend {
-    padding-top: 15px;
-    padding-bottom: 11px;
-    padding-left: 17px;
-    padding-right: 17px;
+    padding: 2% 3.66%;
     line-height: 180%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h2GiftSingleRecMend {
-    padding: 5% 5.66% 3.66% 5.66%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -43593,14 +43528,14 @@ LAYOUT
 }
 
 .h3GiftSingleRecMend {
-  margin-top: 14px;
+  margin-top: 58px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .h3GiftSingleRecMend {
-    margin-top: 2.54%;
+    margin-top: 10.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -43620,17 +43555,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3GiftSingleRecMend {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 7.44% 0% 0% 0%;
     line-height: 150%;
     letter-spacing: 0.02em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .h3GiftSingleRecMend {
-    margin: 13.44% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -43640,14 +43567,14 @@ LAYOUT
 }
 
 .priceGiftSingleRecMend {
-  margin-top: 48px;
+  margin-top: 4px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .priceGiftSingleRecMend {
-    margin: 8.72% 0% 0% 0%;
+    margin: 0.72% 0% 0% 0%;
   }
 }
 .priceGiftSingleRecMend {
@@ -43664,7 +43591,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .priceGiftSingleRecMend {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -43674,7 +43601,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
   .priceGiftSingleRecMend {
-    margin: 13.44% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -43684,14 +43611,14 @@ LAYOUT
 }
 
 .btnGiftSingleRecMendLxn {
-  margin-top: 23px;
+  margin-top: 17px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .btnGiftSingleRecMendLxn {
-    margin: 4.18% 0% 0% 0%;
+    margin: 3.09% 0% 0% 0%;
   }
 }
 .btnGiftSingleRecMendLxn {
@@ -43704,16 +43631,8 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnGiftSingleRecMendLxn {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 4.8% 0% 0% 0%;
     width: 148px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnGiftSingleRecMendLxn {
-    margin: 8.06% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {

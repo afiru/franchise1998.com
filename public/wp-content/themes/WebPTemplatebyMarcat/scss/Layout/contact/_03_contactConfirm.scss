@@ -7,6 +7,10 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .thisPageConfirm {
+    @include mi.marginPercent(1300, 120, auto, 0, auto);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 0, auto, 0, auto);
+    }
     .h3FormCnt {
         @include mi.ontenerWidth(1000, 210);
         @include mi.mq(sp) {
@@ -23,25 +27,49 @@ LAYOUT
         @include mi.letterSpacing(0);
         color: #453c3c;
         @include mi.mq(sp) {
+            margin-top: 1.63%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
             width: 100%;
             @include mi.fontSizeSp(16);
             @include mi.lineheightP(160);
             @include mi.letterSpacing(0);
         }
     }
+    .ulFormCnt {
+        @include mi.mq(sp) {
+            margin-top: 6.09%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
     .liFormCnt {
         &:nth-child(n + 2) {
-            @include mi.marginPercent(1000, 64, auto, 0, auto);
+            @include mi.marginPercent(1000, 51, auto, 0, auto);
             @include mi.mq(sp) {
-                @include mi.marginPercent(330, 40, auto, 0, auto);
+                margin-top: 8.12%;
+                margin-bottom: 0%;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     }
     .secFomrCnt02 {
-        @include mi.marginPercent(1000, 80, auto, 0, auto);
+        @include mi.marginPercent(1000, 70, auto, 0, auto);
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 50, auto, 0, auto);
         }
+    }
+    .txtLiFormCntLxn {
+        display: none;
+    }
+    .txtTujoCheckWap {
+        display: none;
+    }
+    .lastTxtContact {
+        display: none;
     }
 }
 
@@ -51,14 +79,17 @@ LAYOUT
     @include mi.ontenerWidth(1000, 544);
     position: relative;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, auto, 0, auto);
+        margin-top: 13.09%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 260);
     }
 }
 .toThankBackFx {
 }
 .btnBackLxn {
-    @include mi.ontenerWidth(1000, 260);
+    @include mi.ontenerWidth(544, 260);
     position: relative;
     @include mi.mq(sp) {
         width: 100%;
@@ -86,7 +117,7 @@ LAYOUT
     }
 }
 .btnToThanksLxn {
-    @include mi.ontenerWidth(1000, 260);
+    @include mi.ontenerWidth(544, 260);
     position: relative;
     @include mi.mq(sp) {
         @include mi.marginPercent(260, 15, auto, 0, auto);

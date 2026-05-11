@@ -10,7 +10,7 @@ LAYOUT
     @include mi.marginPercent(1920, 86, auto, 0, auto);
     @include mi.paddingPercent(1920, 0, 0, 100, 0);
     @include mi.mq(sp) {
-        margin-top: 20.4%;
+        margin-top: 30.4%;
         margin-bottom: 0%;
         margin-left: auto;
         margin-right: auto;
@@ -36,7 +36,7 @@ LAYOUT
     }
 }
 .rubyGiftProducts {
-    @include mi.marginPercent(1300, 17, auto, 0, auto);
+    @include mi.marginPercent(1300, 13, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
@@ -51,7 +51,7 @@ LAYOUT
     }
 }
 .giftProductsSliderLxn {
-    @include mi.marginPercent(1300, 42, auto, 0, auto);
+    @include mi.marginPercent(1300, 35, auto, 0, auto);
     @include mi.mq(sp) {
         margin-top: 11%;
         margin-bottom: 0%;
