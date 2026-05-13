@@ -1,6 +1,6 @@
 <div class="accessFlan">
     <div class="wapper accessFlanWap">
-        <section class="secAccessFlan">
+        <section id="flan" class="secAccessFlan">
             <h2 class="t_center cl_453C3C txtset fw_500 h2AccessFlan">花とお菓子の工房 フランシーズ</h2>
 
             <div class="d_flex j_between row accessFlanFx">

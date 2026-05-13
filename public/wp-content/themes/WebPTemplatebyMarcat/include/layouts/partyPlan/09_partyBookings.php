@@ -1,4 +1,4 @@
-<div class="bg_F1ECE8 partyBookings">
+<div id="booking" class="bg_F1ECE8 partyBookings">
     <div class="wapper partyBookingsWap">
         <section class="secPartyBookings">
             <h2 class="t_center cl_453C3C txtset h2PartyBookings">ご注文・商品受け取り方法について</h2>

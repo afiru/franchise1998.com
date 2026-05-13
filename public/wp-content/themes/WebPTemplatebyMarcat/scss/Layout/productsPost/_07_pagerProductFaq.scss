@@ -124,3 +124,54 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+.btnproductFaqLxn {
+    @include mi.marginPercent(900, 31, auto, 0, auto);
+    @include mi.ontenerWidth(900, 200);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 30, auto, 0, auto);
+        @include mi.ontenerWidth(330, 193);
+    }
+}
+.btnproductFaq {
+    width: 100%;
+    @include mi.kadomaru(30px);
+    border: 1px solid #f04e11;
+    aspect-ratio: 200/40;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.6;
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.kadomaru(30px);
+        aspect-ratio: 193/39;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.iconBtnproductFaq {
+    @include mi.ontenerWidth(200, 180);
+    margin: auto;
+    background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
+    background-size: auto 20%;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        width: 88.45%;
+        margin: auto;
+        background: url(../img/index/iconBtnTopTopics.svg) no-repeat right
+            center;
+        background-size: auto 20%;
+    }
+}

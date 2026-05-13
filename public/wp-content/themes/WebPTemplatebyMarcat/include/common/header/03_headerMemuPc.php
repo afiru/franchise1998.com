@@ -76,7 +76,7 @@
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/wedding/'); ?>">-ウェディングサービス</a>
                 </li>
                 <li class="liNavHeaderPcmenu">
-                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/'); ?>">-採用情報</a>
+                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="https://www.career-map.biz/recruit/page_selvice/position?office=63154" target="_blank">-採用情報</a>
                 </li>
                 <li class="liNavHeaderPcmenu">
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/sitemap/'); ?>">-サイトマップ</a>

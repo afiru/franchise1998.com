@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -22,7 +22,8 @@ LAYOUT
 }
 
 .secCntProductPost {
-    @include mi.mq(sp) {}
+    @include mi.mq(sp) {
+    }
 }
 
 .h1CntProductPost {
@@ -104,7 +105,7 @@ LAYOUT
 .tablePriceCntProductPostTop td {
     max-width: 25%;
 
-    &+td {
+    & + td {
         @include mi.fontSizePc(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -363,7 +364,8 @@ LAYOUT
     }
 }
 
-.btnOnlineProducts {}
+.btnOnlineProducts {
+}
 
 //お電話で注文する
 .btnBtnProductTellxn {
@@ -393,7 +395,8 @@ LAYOUT
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    background: url(../img/productsPost/iconBtnProductTel.svg) no-repeat 0% center;
+    background: url(../img/productsPost/iconBtnProductTel.svg) no-repeat 0%
+        center;
     background-size: auto 44%;
 
     @include mi.mq(sp) {
@@ -474,7 +477,8 @@ LAYOUT
     }
 }
 
-.secListInfoProductsPosts {}
+.secListInfoProductsPosts {
+}
 
 .h2ListInfoProductsPosts {
     flex-flow: row wrap;
@@ -581,7 +585,7 @@ LAYOUT
 //商品：デコレーションアレルギーについて
 .postDecorationAllergy {
     @include mi.marginPercent(632, 20, 0, 0, 0);
-    @include mi.paddingPercent(632, 20, 0, 20, 0);
+    @include mi.paddingPercent(632, 12, 0, 14, 0);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, 0, 0, 0);
@@ -602,11 +606,17 @@ LAYOUT
 }
 
 .txtPostDecorationAllergy {
-    @include mi.marginPercent(632, 20, auto, 0, auto);
+    @include mi.marginPercent(632, 7, auto, 0, auto);
     @include mi.ontenerWidth(632, 592);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 20, auto, 0, auto);
+        margin-top: 2.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 300);
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);

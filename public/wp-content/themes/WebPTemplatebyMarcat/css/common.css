@@ -1893,12 +1893,11 @@ LAYOUT
 }
 
 .iconCtaHeaderFixedSearch {
-  padding: 0 0 0 0%;
+  padding: 0 0 0 10%;
   background: url(../img/iconCtaHeaderFixedSearch.svg) no-repeat center left;
-  background-size: auto 54%;
-  width: 88%;
+  background-size: auto 80%;
+  width: 75%;
 }
-
 .closeHeaderFixedSearch {
   margin-top: 40px;
   margin-bottom: 0px;
@@ -2579,6 +2578,16 @@ LAYOUT
   justify-content: center;
   align-items: center;
   transition-duration: 0.6;
+  font-size: 12px;
+}
+@media screen and (max-width: 1299px) {
+  .btnTopTopics {
+    font-size: 0.9237875289vw;
+  }
+}
+.btnTopTopics {
+  line-height: normal;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .btnTopTopics {
@@ -2589,6 +2598,13 @@ LAYOUT
     -moz-border-radius: 30px;
     /* Firefox用 */
     aspect-ratio: 200/40;
+    line-height: normal;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .btnTopTopics {
+    font-size: 3.7333333333vw;
   }
 }
 .btnTopTopics:hover {
@@ -7058,20 +7074,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtBtnSearchFooterNav {
-    margin-top: 8px;
-    margin-bottom: 0px;
+    margin-top: -1.58%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0.02em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtBtnSearchFooterNav {
-    margin-top: 2.42%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -7419,20 +7427,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liNavFooter:nth-child(n+2) {
-    margin: 4.57% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .liNavFooter:nth-child(n+3) {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liNavFooter:nth-child(n+3) {
-    margin: 7.57% 0% 0% 0%;
+    margin: 4.57% 0% 0% 0%;
   }
 }
 
@@ -38064,14 +38064,22 @@ LAYOUT
 }
 
 .pagerTopics {
-  margin-top: 0px;
+  margin-top: 36px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .pagerTopics {
-    margin: 0% 0% 0% 0%;
+    margin: 2.76% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pagerTopics {
+    margin-top: 12.8%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -38094,14 +38102,14 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .contact {
-  margin-top: 84px;
+  margin-top: 106px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .contact {
-    margin-top: 4.37%;
+    margin-top: 5.52%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38109,15 +38117,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .contact {
-    margin-top: 80px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .contact {
-    margin-top: 21.33%;
+    margin-top: 18.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38177,14 +38177,14 @@ LAYOUT
 }
 
 .txtContactTop {
-  margin-top: 50px;
+  margin-top: 29px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtContactTop {
-    margin-top: 5%;
+    margin-top: 2.9%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38201,23 +38201,17 @@ LAYOUT
 .txtContactTop {
   line-height: 180%;
   letter-spacing: 0em;
+  width: 91.5%;
 }
 @media screen and (max-width: 767px) {
   .txtContactTop {
-    margin-top: 35px;
-    margin-bottom: 0px;
+    width: 100%;
+    margin-top: 6.6%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtContactTop {
-    margin-top: 10.6%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38227,14 +38221,14 @@ LAYOUT
 }
 
 .telContactPage {
-  margin-top: 40px;
+  margin-top: 24px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .telContactPage {
-    margin-top: 4%;
+    margin-top: 2.4%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38242,15 +38236,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .telContactPage {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .telContactPage {
-    margin-top: 15.15%;
+    margin-top: 11.15%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38283,14 +38269,14 @@ LAYOUT
 }
 
 .telContactPageFx {
-  margin-top: 19px;
+  margin-top: 6px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .telContactPageFx {
-    margin-top: 1.9%;
+    margin-top: 0.6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38298,15 +38284,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .telContactPageFx {
-    margin-top: 21px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .telContactPageFx {
-    margin-top: 6.36%;
+    margin-top: 2.36%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38325,33 +38303,25 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.1em;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 3px;
   margin-left: 0px;
   margin-right: 5px;
 }
 @media screen and (max-width: 1299px) {
   .littleContactPageFx {
-    margin: 0% 0.5% 0% 0%;
+    margin: 0% 0.5% 0.3% 0%;
   }
 }
 @media screen and (max-width: 767px) {
   .littleContactPageFx {
     line-height: 150%;
     letter-spacing: 0.1em;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 5px;
+    margin: 0% 1.51% 1% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .littleContactPageFx {
     font-size: 4.2666666667vw;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .littleContactPageFx {
-    margin: 0% 1.51% 0% 0%;
   }
 }
 
@@ -38380,14 +38350,14 @@ LAYOUT
 }
 
 .txtLastMainContactPage {
-  margin-top: 20px;
+  margin-top: 8px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtLastMainContactPage {
-    margin-top: 2%;
+    margin-top: 0.8%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38407,20 +38377,12 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtLastMainContactPage {
-    margin-top: 16px;
-    margin-bottom: 0px;
+    margin-top: 0.84%;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .txtLastMainContactPage {
-    margin-top: 4.84%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38430,14 +38392,14 @@ LAYOUT
 }
 
 .formContact {
-  margin-top: 50px;
+  margin-top: 44px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .formContact {
-    margin-top: 3.84%;
+    margin-top: 3.38%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38453,19 +38415,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .formContact {
-    margin-top: 45px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 330px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .formContact {
-    margin-top: 13.63%;
+    margin-top: 11.93%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 330px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -38544,15 +38498,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .liFormCnt:nth-child(n+2) {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .liFormCnt:nth-child(n+2) {
-    margin-top: 6.06%;
+    margin-top: 3.86%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38608,15 +38554,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .ulFormCnt {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .ulFormCnt {
-    margin-top: 9.09%;
+    margin-top: 5.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -38633,19 +38571,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .inputLiFormCntLxn {
-    margin-top: 12px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .inputLiFormCntLxn {
-    margin-top: 3.63%;
+    margin-top: 1.63%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }
 
@@ -38683,17 +38613,9 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .inputW100 {
-    padding-top: 19px;
-    padding-bottom: 19px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 3.25% 4.54% 3.25% 4.54%;
     line-height: 160%;
     letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .inputW100 {
-    padding: 5.75% 4.54% 5.75% 4.54%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -38742,12 +38664,57 @@ LAYOUT
 .checkWap {
   margin: 1% 0 0 0;
   align-items: center;
+  display: flex;
+  justify-content: flex-start;
 }
 @media screen and (max-width: 767px) {
   .checkWap {
-    margin: 0;
+    margin: 2% 0 0 0;
+    flex-flow: row wrap;
   }
 }
+span.mwform-radio-field.horizontal-item label {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  span.mwform-radio-field.horizontal-item label {
+    font-size: 1.2317167052vw;
+  }
+}
+span.mwform-radio-field.horizontal-item label {
+  line-height: 160%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  span.mwform-radio-field.horizontal-item label {
+    width: 100%;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  span.mwform-radio-field.horizontal-item label {
+    font-size: 3.7333333333vw;
+  }
+}
+
+.mw_wp_form .horizontal-item + .horizontal-item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .mw_wp_form .horizontal-item + .horizontal-item {
+    margin: 0% 0% 0% 5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mw_wp_form .horizontal-item + .horizontal-item {
+    margin: 5.06% 0% 0% 0%;
+  }
+}
+
 .checkWap label {
   display: flex;
   justify-content: flex-start;
@@ -38795,14 +38762,14 @@ LAYOUT
 }
 
 .txtLiFormCntLxn {
-  margin-top: 28px;
+  margin-top: 22px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtLiFormCntLxn {
-    margin: 3.46% 0% 0% 0%;
+    margin: 2.71% 0% 0% 0%;
   }
 }
 .txtLiFormCntLxn {
@@ -38975,13 +38942,13 @@ LAYOUT
 
 .txtTujoCheckWap {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 4px;
   margin-left: 18px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtTujoCheckWap {
-    margin: 0% 0% 0% 7.22%;
+    margin: 0% 0% 1.6% 7.22%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -39067,20 +39034,13 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .lastTxtContact {
-    margin-top: 31px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 150%;
-    letter-spacing: 0em;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .lastTxtContact {
-    margin-top: 9.39%;
+    margin-top: 8.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
+    line-height: 150%;
+    letter-spacing: 0em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -39090,14 +39050,14 @@ LAYOUT
 }
 
 .btnToConfirmLxn {
-  margin-top: 50px;
+  margin-top: 47px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .btnToConfirmLxn {
-    margin-top: 5%;
+    margin-top: 4.7%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -39116,19 +39076,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnToConfirmLxn {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 260px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnToConfirmLxn {
-    margin-top: 9.09%;
+    margin-top: 7.09%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 260px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -39174,6 +39126,39 @@ LAYOUT
 }
 .btnToConfirm:hover {
   opacity: 0.6;
+}
+
+.jstujouContact {
+  display: none;
+}
+
+.jsTairyoContact {
+  display: none;
+}
+
+.mw_wp_form .error {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .mw_wp_form .error {
+    font-size: 1.077752117vw;
+  }
+}
+.mw_wp_form .error {
+  line-height: 150%;
+  letter-spacing: 0em;
+  margin: 5px 0 0 0;
+}
+@media screen and (max-width: 767px) {
+  .mw_wp_form .error {
+    line-height: normal;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .mw_wp_form .error {
+    font-size: 3.7333333333vw;
+  }
 }
 
 /* ==========================================================================
@@ -39514,14 +39499,30 @@ use&nameSpace
 LAYOUT
 ========================================================================== */
 .thanksContactWap {
-  margin-top: 125px;
+  margin-top: 106px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .thanksContactWap {
-    margin-top: 6.51%;
+    margin-top: 5.52%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .thanksContactWap {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .thanksContactWap {
+    margin-top: 21.33%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -39540,16 +39541,27 @@ LAYOUT
   line-height: 180%;
   letter-spacing: 0.02em;
 }
+@media screen and (max-width: 767px) {
+  .h2ThanksContact {
+    line-height: 150%;
+    letter-spacing: 0.05em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2ThanksContact {
+    font-size: 5.3333333333vw;
+  }
+}
 
 .txtThanksContact {
-  margin-top: 48px;
+  margin-top: 28px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .txtThanksContact {
-    margin-top: 4.36%;
+    margin-top: 2.54%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -39567,16 +39579,31 @@ LAYOUT
   line-height: 180%;
   letter-spacing: 0em;
 }
+@media screen and (max-width: 767px) {
+  .txtThanksContact {
+    margin-top: 5.6%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 180%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtThanksContact {
+    font-size: 3.7333333333vw;
+  }
+}
 
 .btnThanksContactLxn {
-  margin-top: 50px;
+  margin-top: 66px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 1299px) {
   .btnThanksContactLxn {
-    margin-top: 5%;
+    margin-top: 6.6%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -39595,19 +39622,11 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .btnThanksContactLxn {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 260px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1299px) {
-  .btnThanksContactLxn {
-    margin-top: 9.09%;
+    margin-top: 20.59%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
+    width: 260px;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -41003,6 +41022,7 @@ LAYOUT
   width: 100%;
   height: 100%;
   margin: auto;
+  transition-duration: 0.5s;
 }
 
 .h4GiftPickUp {
@@ -44426,6 +44446,7 @@ LAYOUT
 .iconLimitedProductLoop {
   line-height: normal;
   letter-spacing: 0em;
+  display: inline-flex;
 }
 @media screen and (max-width: 767px) {
   .iconLimitedProductLoop {
@@ -46877,6 +46898,131 @@ LAYOUT
   }
 }
 
+.postDecorationAllergy {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .postDecorationAllergy {
+    margin: 3.16% 0% 0% 0%;
+  }
+}
+.postDecorationAllergy {
+  padding-top: 12px;
+  padding-bottom: 14px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1299px) {
+  .postDecorationAllergy {
+    padding: 1.89% 0% 2.21% 0%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .postDecorationAllergy {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .postDecorationAllergy {
+    margin: 6.06% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .postDecorationAllergy {
+    padding: 6.06% 0% 6.06% 0%;
+  }
+}
+
+.h2PostDecorationAllergy {
+  font-size: 16px;
+}
+@media screen and (max-width: 1299px) {
+  .h2PostDecorationAllergy {
+    font-size: 1.2317167052vw;
+  }
+}
+.h2PostDecorationAllergy {
+  line-height: 160%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .h2PostDecorationAllergy {
+    line-height: 140%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h2PostDecorationAllergy {
+    font-size: 4.2666666667vw;
+  }
+}
+
+.txtPostDecorationAllergy {
+  margin-top: 7px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .txtPostDecorationAllergy {
+    margin-top: 1.1%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.txtPostDecorationAllergy {
+  width: 592px;
+}
+@media screen and (max-width: 1299px) {
+  .txtPostDecorationAllergy {
+    width: 93.67%;
+  }
+}
+.txtPostDecorationAllergy {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .txtPostDecorationAllergy {
+    font-size: 1.077752117vw;
+  }
+}
+.txtPostDecorationAllergy {
+  line-height: 150%;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtPostDecorationAllergy {
+    margin-top: 2.5%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .txtPostDecorationAllergy {
+    width: 90.9%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtPostDecorationAllergy {
+    font-size: 3.7333333333vw;
+  }
+}
+
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
@@ -46988,7 +47134,7 @@ LAYOUT
   }
 }
 .prevPoductsPager {
-  margin: 0 0 0 auto;
+  margin: 0 auto 0 0;
   text-decoration: none;
 }
 @media screen and (max-width: 767px) {
@@ -47030,6 +47176,7 @@ LAYOUT
 .txtPoductsPager {
   line-height: normal;
   letter-spacing: 0em;
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .txtPoductsPager {
@@ -47163,6 +47310,9 @@ LAYOUT
 .txtPoductsPager {
   line-height: normal;
   letter-spacing: 0em;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
 }
 @media screen and (max-width: 767px) {
   .txtPoductsPager {
@@ -48697,6 +48847,122 @@ LAYOUT
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .mainCntLiProductFaq p {
     font-size: 3.7333333333vw;
+  }
+}
+
+.btnproductFaqLxn {
+  margin-top: 31px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1299px) {
+  .btnproductFaqLxn {
+    margin-top: 3.44%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.btnproductFaqLxn {
+  width: 200px;
+}
+@media screen and (max-width: 1299px) {
+  .btnproductFaqLxn {
+    width: 22.22%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .btnproductFaqLxn {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 193px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnproductFaqLxn {
+    margin-top: 9.09%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1299px) {
+  .btnproductFaqLxn {
+    width: 58.48%;
+  }
+}
+
+.btnproductFaq {
+  width: 100%;
+  border-radius: 30px;
+  /* CSS3草案 */
+  -webkit-border-radius: 30px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 30px;
+  /* Firefox用 */
+  border: 1px solid #f04e11;
+  aspect-ratio: 200/40;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.6;
+  font-size: 12px;
+}
+@media screen and (max-width: 1299px) {
+  .btnproductFaq {
+    font-size: 0.9237875289vw;
+  }
+}
+.btnproductFaq {
+  line-height: normal;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .btnproductFaq {
+    border-radius: 30px;
+    /* CSS3草案 */
+    -webkit-border-radius: 30px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 30px;
+    /* Firefox用 */
+    aspect-ratio: 193/39;
+    line-height: normal;
+    letter-spacing: 0em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .btnproductFaq {
+    font-size: 3.7333333333vw;
+  }
+}
+.btnproductFaq:hover {
+  opacity: 0.6;
+}
+
+.iconBtnproductFaq {
+  width: 180px;
+}
+@media screen and (max-width: 1299px) {
+  .iconBtnproductFaq {
+    width: 90%;
+  }
+}
+.iconBtnproductFaq {
+  margin: auto;
+  background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
+  background-size: auto 20%;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .iconBtnproductFaq {
+    width: 88.45%;
+    margin: auto;
+    background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
+    background-size: auto 20%;
   }
 }
 

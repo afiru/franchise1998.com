@@ -2,7 +2,7 @@
     <div class="wapper pore accessYukitakaWap">
         <div class="poab bg_EBEBEB brdLongAccessYukitakaWap"></div>
         <div class="poab bg_F28962 brdShortAccessYukitakaWap"></div>
-        <section class="secAccessYukitaka">
+        <section id="ekitaka" class="secAccessYukitaka">
             <h2 class="t_center cl_453C3C txtset fw_500 h2AccessYukitaka">花とお菓子の工房 フランシーズ<br>エキ・タカ泉ケ丘店</h2>
 
             <div class="d_flex j_between row accessYukitakaFx">

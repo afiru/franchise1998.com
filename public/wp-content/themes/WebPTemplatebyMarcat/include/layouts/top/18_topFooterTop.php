@@ -55,7 +55,7 @@
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/topics/'); ?>">トピックス</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/suggestio/'); ?>">お祝い・ギフトのご提案</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/suggestion/'); ?>">お祝い・ギフトのご提案</a>
                             </li>
                             <li class="liNavFooterTop">
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくある質問</a>
@@ -82,7 +82,7 @@
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/wedding/'); ?>">ウェディングサービス</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/sitemap/'); ?>">採用情報</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="https://www.career-map.biz/recruit/page_selvice/position?office=63154" target="_blank">採用情報</a>
                             </li>
                             <li class="liNavFooterTop">
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/sitemap/'); ?>">サイトマップ</a>

@@ -98,7 +98,7 @@
                         ※その他、デコレーションケーキも変更可能です。※デコレーションのページよりお選び下さい。※変更内容に応じて差額が発生いたしますので、詳しくはお問い合わせください。
                     </p>
                     <p class="cl_453C3C fw_400 txtset text_justify txtTitleDetailfamilyPlanOther03">
-                        <a class="cl_772D2D txtset fw_400 urlTitleDetailfamilyPlanOther03">デコレーション一覧</a>
+                        <a href="<?php echo home_url('/products/product-category/decoration/'); ?>" class="cl_772D2D txtset fw_400 urlTitleDetailfamilyPlanOther03">デコレーション一覧</a>
                     </p>
                 </li>
 

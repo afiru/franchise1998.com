@@ -18,7 +18,7 @@
             </figure>
         </section>
         <div class="btnStaffRecruitWap">
-            <a href="#" class="btnStaffRecruit" target="_blank">
+            <a href="https://www.career-map.biz/recruit/page_selvice/position?office=63154" class="btnStaffRecruit" target="_blank">
                 <picture>
                     <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/staff/btnStaffRecruitPc.svg'); ?>">
                     <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/staff/btnStaffRecruitSp.svg'); ?>">

@@ -1,4 +1,4 @@
-<div id="" class="partyPlanGiftGoods">
+<div id="gift" class="partyPlanGiftGoods">
     <div class="wapper partyPlanGiftGoodsWap">
         <section class="secPartyPlanGiftGoods">
             <h2 class="cl_453C3C fw_400 txtset h2PartyPlanGiftGoods">パーティーをさらに盛り上げるギフトやグッズも合わせてご注文いただけます</h2>

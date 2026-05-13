@@ -15,7 +15,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/suggestio/'); ?>">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/suggestion/'); ?>">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav02Pc.png'); ?>">
@@ -54,7 +54,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/'); ?>#topAccess">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/access/'); ?>">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav05Pc.png'); ?>">
@@ -67,7 +67,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="">
+                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/access/#salon'); ?>">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav06Pc.png'); ?>">
@@ -93,7 +93,7 @@
             </li>
 
             <li class="liTopNav">
-                <a class="undernone d_block btnliTopNav" href="<?php echo home_url('/'); ?>">
+                <a class="undernone d_block btnliTopNav" href="https://www.career-map.biz/recruit/page_selvice/position?office=63154" target="_blank">
                     <figure class="photoTopNav">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/index/photoTopNav08Pc.png'); ?>">
