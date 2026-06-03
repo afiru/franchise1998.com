@@ -2140,11 +2140,6 @@ LAYOUT
   width: 100%;
   height: 100%;
   position: absolute;
-  transform: scale(1.05);
-}
-
-.topMovie.active video {
-  transform: scale(1);
 }
 
 .picTopMovie {
@@ -2308,6 +2303,8 @@ LAYOUT
 }
 .sliderTopTopics {
   position: relative;
+  opacity: 0;
+  transition-duration: 1s;
 }
 @media screen and (max-width: 767px) {
   .sliderTopTopics {
@@ -2318,8 +2315,24 @@ LAYOUT
   }
 }
 
+.sliderTopTopics.active {
+  opacity: 1;
+}
+
 .jsSliderTopTopics {
   position: relative;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  display: flex;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }
 
 /*矢印*/
@@ -2974,6 +2987,7 @@ LAYOUT
   position: absolute;
   right: 0;
   top: 2%;
+  overflow: hidden;
 }
 @media screen and (max-width: 767px) {
   .picMainTopAbout {
@@ -2987,6 +3001,11 @@ LAYOUT
 }
 .picMainTopAbout img {
   width: 100%;
+}
+
+.mainIndex .activeImg img {
+  filter: blur(0px);
+  transform: scale(1);
 }
 
 /* ==========================================================================
@@ -3151,6 +3170,7 @@ LAYOUT
   position: absolute;
   left: 0;
   top: 0.8%;
+  overflow: hidden;
 }
 @media screen and (max-width: 767px) {
   .picMainTopKikkake {

@@ -21,6 +21,7 @@ LAYOUT
     position: absolute;
     left: 0;
     top: 0.8%;
+    overflow: hidden;
 
     @include mi.mq(sp) {
         position: relative;
@@ -29,6 +30,9 @@ LAYOUT
 
     img {
         width: 100%;
+        // filter: blur(5px);
+        // transition-duration: 1s;
+        // transform: scale(1.05);
     }
 }
 
