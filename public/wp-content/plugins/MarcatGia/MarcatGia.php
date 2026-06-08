@@ -264,16 +264,19 @@ function MarcatGiaCustomAllInOneSEOTitle( $title ) {
     return $title;
 }
 add_filter('aioseo_title' , 'MarcatGiaCustomAllInOneSEOTitle');
-function meta_headcustomtags() {
+
+function meta_headcustomtags()
+{
     global $cat;
-    if ( is_category() ) { 
-        $catdate = get_cat_tax_img('category',$cat);
-        $title = $catdate['SEO_Title'];
-        $description = $catdate['SEO_Description'];
+    if (is_category()) {
+        $catdate = get_cat_tax_img('category', $cat);
+        $title = SCF::get_term_meta($cat, 'category', 'seo_title');
+        $description = SCF::get_term_meta($cat, 'category', 'seo_description');
         $now_url = get_category_link($cat);
         $blog_title = get_bloginfo('name');
-        $aiosp_opengraph_dimg = $catdate['OGimage'];
-		$headcustomtag = <<<EOM
+        $aiosp_opengraph_dimg = SCF::get_term_meta($cat, 'category', 'og');
+        $keyword = SCF::get_term_meta($cat, 'category', 'seo_keyword');
+        $headcustomtag = <<<EOM
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="$title" />
 		<meta property="og:description" content="$description" />
@@ -282,14 +285,14 @@ function meta_headcustomtags() {
 		<meta property="og:image" content="$aiosp_opengraph_dimg" />
 		<meta property="og:image:secure_url" content="$aiosp_opengraph_dimg" />
 		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:title" content="$blog_title" />
+		<meta name="twitter:title" content="$blog_title" /><meta name="keywords" content="$keyword" />
 		<meta name="twitter:description" content="$description" />
 		<meta name="twitter:image" content="$aiosp_opengraph_dimg" />
 		EOM;
-		echo $headcustomtag;
-	}
+        echo $headcustomtag;
+    }
 }
-add_action( 'wp_head', 'meta_headcustomtags', 99);
+add_action('wp_head', 'meta_headcustomtags', 99);
 
 function MarcatGiaCustomAllInOneSEODescription( $description ) {
     global $cat;
