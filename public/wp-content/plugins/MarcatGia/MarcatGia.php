@@ -141,7 +141,7 @@ function get_the_link_parmalinks($type = 'page',$slub = 'slug'){
         $cat_id = $cat_id->term_id;
         $link_about = get_category_link($cat_id);
     }
-
+    
     return $link_about;
 }
 //画像のリンク先を探す
@@ -154,7 +154,7 @@ add_shortcode('theme_img', 'theme_img_page');
 function themes_img_sauce_fc($atts) {
     extract(shortcode_atts(array(
         'class' =>'default',
-        'id' =>'default',
+        'id' =>'default',        
         'type'=>'default',
         'media'=>'default',
         'fifle_pass' => 'default',
@@ -193,7 +193,7 @@ function custom_fild_temp_single2($atts) {
         return $output;
     }else {
         return $custom[$custom_name];
-    }
+    }    
 }
 
 add_shortcode('single_custom2', 'custom_fild_temp_single2');
@@ -206,11 +206,11 @@ function page_innner_nav_fc($atts) {
     $nav_id_class = $nav_id. '_nav';
     $nav_id_ul_class = $nav_id. '_ul';
     ob_start();
-    if( has_nav_menu( $nav_id ) ){
+    if( has_nav_menu( $nav_id ) ){ 
         wp_nav_menu ( array (
             'menu' => $nav_id,
             'menu_id' => $nav_id,
-            'theme_location' => $nav_id,
+            'theme_location' => $nav_id, 
             'depth' => 2,
             'fallback_cb'     => 'wp_page_menu',
             'container' => 'nav',
@@ -237,7 +237,7 @@ function page_in_other_page_fc($atts){
             the_content();
             $pref = ob_get_clean();
         endwhile;
-    endif;
+    endif;	
     wp_reset_postdata();
     return $pref;
 }
@@ -258,22 +258,25 @@ add_filter('wp_terms_checklist_args', 'solecolor_wp_terms_checklist_args',10,2);
 //カテゴリー一覧だけall in one 以外のタイトルやキーワードをつける
 function MarcatGiaCustomAllInOneSEOTitle( $title ) {
     global $cat;
-    if ( is_category() ) {
-        $title = SCF::get_term_meta($cat,'category','seo_title');
+    if ( is_category() ) {        
+        $title = SCF::get_term_meta($cat,'category','seo_title');        
     }
     return $title;
 }
 add_filter('aioseo_title' , 'MarcatGiaCustomAllInOneSEOTitle');
-function meta_headcustomtags() {
+
+function meta_headcustomtags()
+{
     global $cat;
-    if ( is_category() ) {
-        $catdate = get_cat_tax_img('category',$cat);
-        $title = $catdate['SEO_Title'];
-        $description = $catdate['SEO_Description'];
+    if (is_category()) {
+        $catdate = get_cat_tax_img('category', $cat);
+        $title = SCF::get_term_meta($cat, 'category', 'seo_title');
+        $description = SCF::get_term_meta($cat, 'category', 'seo_description');
         $now_url = get_category_link($cat);
         $blog_title = get_bloginfo('name');
-        $aiosp_opengraph_dimg = $catdate['OGimage'];
-		$headcustomtag = <<<EOM
+        $aiosp_opengraph_dimg = SCF::get_term_meta($cat, 'category', 'og');
+        $keyword = SCF::get_term_meta($cat, 'category', 'seo_keyword');
+        $headcustomtag = <<<EOM
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="$title" />
 		<meta property="og:description" content="$description" />
@@ -282,14 +285,14 @@ function meta_headcustomtags() {
 		<meta property="og:image" content="$aiosp_opengraph_dimg" />
 		<meta property="og:image:secure_url" content="$aiosp_opengraph_dimg" />
 		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:title" content="$blog_title" />
+		<meta name="twitter:title" content="$blog_title" /><meta name="keywords" content="$keyword" />
 		<meta name="twitter:description" content="$description" />
 		<meta name="twitter:image" content="$aiosp_opengraph_dimg" />
 		EOM;
-		echo $headcustomtag;
-	}
+        echo $headcustomtag;
+    }
 }
-add_action( 'wp_head', 'meta_headcustomtags', 99);
+add_action('wp_head', 'meta_headcustomtags', 99);
 
 function MarcatGiaCustomAllInOneSEODescription( $description ) {
     global $cat;
@@ -310,6 +313,6 @@ function MarcatGiaCustomAllInOneSEOKeyword( $keyword ) {
 add_filter('aioseo_keywords' , 'MarcatGiaCustomAllInOneSEOKeyword');
 
 
-
+ 
 
 ?>
