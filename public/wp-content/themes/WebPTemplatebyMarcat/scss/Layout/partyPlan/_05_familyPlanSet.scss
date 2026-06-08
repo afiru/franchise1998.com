@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -14,7 +14,8 @@ LAYOUT
     }
 }
 
-.familyPlanWap {}
+.familyPlanWap {
+}
 
 .familyPlanLxn {
     @include mi.ontenerWidth(1300, 1100);
@@ -53,7 +54,8 @@ LAYOUT
     }
 }
 
-.titleDetailfamilyPlan {}
+.titleDetailfamilyPlan {
+}
 
 .iconTitleDetailfamilyPlan {
     @include mi.ontenerWidth(1100, 16);
@@ -176,7 +178,7 @@ LAYOUT
     }
 }
 
-.txtTyuiMenuExeDetailfamilyPlan+.txtTyuiMenuExeDetailfamilyPlan {
+.txtTyuiMenuExeDetailfamilyPlan + .txtTyuiMenuExeDetailfamilyPlan {
     @include mi.marginPercent(424, 4, 0, 0, 0);
 
     @include mi.mq(sp) {
@@ -209,7 +211,8 @@ LAYOUT
     }
 }
 
-.photoDetailfamilyPlanOther {}
+.photoDetailfamilyPlanOther {
+}
 
 .titleDetailfamilyPlanOther {
     margin: 4.5% 0 0 0;
