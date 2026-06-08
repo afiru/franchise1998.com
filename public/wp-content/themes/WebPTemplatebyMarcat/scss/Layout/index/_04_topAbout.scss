@@ -153,6 +153,7 @@ LAYOUT
     position: absolute;
     right: 0;
     top: 2%;
+    overflow: hidden;
 
     @include mi.mq(sp) {
         margin-top: 11.12%;
@@ -165,5 +166,12 @@ LAYOUT
 
     img {
         width: 100%;
+        // filter: blur(5px);
+        // transition-duration: 1s;
+        // transform: scale(1.05);
     }
+}
+.mainIndex .activeImg img {
+    filter: blur(0px);
+    transform: scale(1);
 }

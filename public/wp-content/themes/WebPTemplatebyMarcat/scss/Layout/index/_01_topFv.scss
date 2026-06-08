@@ -107,6 +107,8 @@ LAYOUT
     height: 100%;
     position: absolute;
 }
+.topMovie.active video {
+}
 
 .picTopMovie {
     @include mi.ontenerWVw(1920, 303);

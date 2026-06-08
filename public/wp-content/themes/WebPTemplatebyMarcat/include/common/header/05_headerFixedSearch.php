@@ -8,7 +8,7 @@
 
                 <ul class="d_flex j_between ulHeaderFixedSearch">
                     <li class="liHeaderFixedSearch">
-                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/'); ?>">
+                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/products/product-category/decoration/'); ?>">
                             <figure class="picHeaderFixedSearch">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch01.png'); ?>" alt="<?php echo esc_attr('デコレーション'); ?>" width="100" height="100">
                             </figure>
@@ -17,7 +17,7 @@
                     </li>
 
                     <li class="liHeaderFixedSearch">
-                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/'); ?>">
+                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/products/product-category/cake/'); ?>">
                             <figure class="picHeaderFixedSearch">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch02.png'); ?>" alt="<?php echo esc_attr('ケーキ'); ?>" width="100" height="100">
                             </figure>
@@ -26,7 +26,7 @@
                     </li>
 
                     <li class="liHeaderFixedSearch">
-                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/'); ?>">
+                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/products/product-category/baked-goods-and-gifts/'); ?>">
                             <figure class="picHeaderFixedSearch">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch03.png'); ?>" alt="<?php echo esc_attr('焼菓子・ギフト'); ?>" width="100" height="100">
                             </figure>
@@ -35,7 +35,7 @@
                     </li>
 
                     <li class="liHeaderFixedSearch">
-                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/'); ?>">
+                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/products/product-category/original-sweets/'); ?>">
                             <figure class="picHeaderFixedSearch">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch04.png'); ?>" alt="<?php echo esc_attr('オリジナル プリントスイーツ'); ?>" width="100" height="100">
                             </figure>
@@ -44,7 +44,7 @@
                     </li>
 
                     <li class="liHeaderFixedSearch">
-                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/'); ?>">
+                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/products/product-category/tama-egg-cheese/'); ?>">
                             <figure class="picHeaderFixedSearch">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch05.png'); ?>" alt="<?php echo esc_attr('たま卵チーズ'); ?>" width="100" height="100">
                             </figure>
@@ -53,7 +53,7 @@
                     </li>
 
                     <li class="liHeaderFixedSearch">
-                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/'); ?>">
+                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/products/product-category/wedding/'); ?>">
                             <figure class="picHeaderFixedSearch">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch06.png'); ?>" alt="<?php echo esc_attr('ウェディング'); ?>" width="100" height="100">
                             </figure>
@@ -62,7 +62,7 @@
                     </li>
 
                     <li class="liHeaderFixedSearch">
-                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/'); ?>">
+                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/products/product-category/flowers-and-arrangements/'); ?>">
                             <figure class="picHeaderFixedSearch">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch07.png'); ?>" alt="<?php echo esc_attr('お花・アレンジメント'); ?>" width="100" height="100">
                             </figure>
@@ -79,7 +79,7 @@
                     <h2 class="mincho cl_453C3C fw_500 txtset h2OpeHeaderFixedSearch">目的から選ぶ</h2>
                     <ul class="ulOpeHeaderFixedSearch">
                         <li class="liOpeHeaderFixedSearch">
-                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('//'); ?>">
+                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('/products/purpose/new-products-limited-time-period/'); ?>">
                                 <figure class="iconOpeHeaderFixedSearch">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                                         <g clip-path="url(#clip0_2525_51654)">
@@ -102,7 +102,7 @@
                         </li>
 
                         <li class="liOpeHeaderFixedSearch">
-                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('//'); ?>">
+                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('/products/purpose/birthday-anniversary/'); ?>">
                                 <figure class="iconOpeHeaderFixedSearch">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16" fill="none">
                                         <path d="M1.20312 12.5V15H11.7914V12.5" stroke="#EA670F" stroke-linecap="round" stroke-linejoin="round" />
@@ -122,7 +122,7 @@
 
 
                         <li class="liOpeHeaderFixedSearch">
-                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('//'); ?>">
+                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('/products/purpose/baked-goods-and-gifts/'); ?>">
                                 <figure class="iconOpeHeaderFixedSearch">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                                         <g clip-path="url(#clip0_2525_51665)">
@@ -146,7 +146,7 @@
                         </li>
 
                         <li class="liOpeHeaderFixedSearch">
-                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('//'); ?>">
+                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('/products/purpose/family-celebration/'); ?>">
                                 <figure class="iconOpeHeaderFixedSearch">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
                                         <g clip-path="url(#clip0_2525_51689)">
@@ -172,7 +172,7 @@
                         </li>
 
                         <li class="liOpeHeaderFixedSearch">
-                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('//'); ?>">
+                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('/products/purpose/buddhist-memorial-service/'); ?>">
                                 <figure class="iconOpeHeaderFixedSearch">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                                         <g clip-path="url(#clip0_2525_51679)">
@@ -194,7 +194,7 @@
                         </li>
 
                         <li class="liOpeHeaderFixedSearch">
-                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('//'); ?>">
+                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo home_url('/products/purpose/sending-flowers/'); ?>">
                                 <figure class="iconOpeHeaderFixedSearch">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                                         <g clip-path="url(#clip0_2525_51702)">
@@ -220,13 +220,13 @@
         <div class="wapper ctaHeaderFixedSearch">
             <ul class="d_flex j_between row ulCtaHeaderFixedSearch">
                 <li class="liCtaHeaderFixedSearch">
-                    <a class="d_flex j_center ali_center bg_fff cl_421D12 fw_500 txtset undernone btnCtaHeaderFixedSearch" href="<?php echo home_url(); ?>">
+                    <a class="d_flex j_center ali_center bg_fff cl_421D12 fw_500 txtset undernone btnCtaHeaderFixedSearch" href="<?php echo home_url('/products/'); ?>">
                         商品一覧を見る
                     </a>
                 </li>
 
                 <li class="liCtaHeaderFixedSearch">
-                    <a class=" d_flex j_center ali_center bg_fff cl_421D12 fw_500 txtset undernone btnCtaHeaderFixedSearch" href="<?php echo home_url(); ?>">
+                    <a class=" d_flex j_center ali_center bg_fff cl_421D12 fw_500 txtset undernone btnCtaHeaderFixedSearch" href="https://selvice-lifedesign.jp/" target="_blank">
                         <span class="CormorantUnicase d_block t_center iconCtaHeaderFixedSearch">ONLINE SHOP</span>
                         <!--bg:../img/iconCtaHeaderFixedSearch.svg--->
                     </a>

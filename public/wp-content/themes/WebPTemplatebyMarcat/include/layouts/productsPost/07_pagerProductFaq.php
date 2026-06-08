@@ -28,6 +28,11 @@
                 </li>
                 <?php endforeach; ?>
             </ul>
+            <div class="btnproductFaqLxn">
+                <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnproductFaq" href="<?php echo home_url('/faq/'); ?>">
+                    <span class="iconBtnproductFaq">一覧を見る</span>
+                </a>
+            </div>
         </section>
 
     </div>

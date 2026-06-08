@@ -13,10 +13,10 @@ LAYOUT
     }
 }
 .mainGiftCnt {
-    @include mi.paddingPercent(1920, 95, 0, 100, 0);
+    @include mi.paddingPercent(1920, 78, 0, 100, 0);
     @include mi.kadomaru(15px);
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 30, 0, 80, 0);
+        padding: 5% 0% 21.33% 0%;
         @include mi.ontenerWidth(375, 330);
     }
 }

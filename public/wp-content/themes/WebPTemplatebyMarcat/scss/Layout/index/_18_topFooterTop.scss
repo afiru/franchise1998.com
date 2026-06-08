@@ -206,7 +206,10 @@ LAYOUT
     @include mi.letterSpacing(20);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 8, auto, 0, auto);
+        margin-top: -1.58%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);

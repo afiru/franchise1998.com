@@ -5,20 +5,20 @@
 
         <p class="t_center cl_31150D fw_500 txtTopContact">
             商品に関するご質問は、こちらからお気軽に<br class="sp_only">お問い合わせください。<br>
-            サービス・店舗に関するご質問などは、<br class="sp_only"><a class="cl_31150D" href="<?php echo home_url('/'); ?>">お買い物ガイド・よくあるご質問</a>もご覧ください。
+            サービス・店舗に関するご質問などは、<br class="sp_only"><a class="cl_31150D" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくあるご質問</a>もご覧ください。
         </p>
 
         <ul class="d_flex j_between row ulTopContact">
             <li class="liTopContact">
-                <a class="d_flex j_center ali_center bg_F28962 cl_fff undernone kaku btnTopContact" href="<?php echo home_url('/'); ?>">お問い合わせはこちら</a>
+                <a class="d_flex j_center ali_center bg_F28962 cl_fff undernone kaku btnTopContact" href="<?php echo home_url('/contact/'); ?>">お問い合わせはこちら</a>
             </li>
 
             <li class="liTopContact">
-                <a class="d_flex j_center ali_center bg_795E55 cl_fff undernone kaku btnTopContact" href="<?php echo home_url('/'); ?>">大量発注のご相談はこちら</a>
+                <a class="d_flex j_center ali_center bg_795E55 cl_fff undernone kaku btnTopContact" href="<?php echo home_url('/contact/'); ?>">大量発注のご相談はこちら</a>
             </li>
 
             <li class="liTopContact">
-                <a class="d_flex j_center ali_center bg_fff cl_453C3C row undernone kaku btnTopContact02" href="<?php echo home_url('/'); ?>">
+                <a class="d_flex j_center ali_center bg_fff cl_453C3C row undernone kaku btnTopContact02" href="tel:0120-656-567">
                     <p class="t_center cl_453C3C txtBtnTopContact0201">0120-656-567</p>
                     <p class="t_center cl_453C3C txtBtnTopContact0202">9:00～19:00・火曜日定休（祝日営業）</p>
                 </a>

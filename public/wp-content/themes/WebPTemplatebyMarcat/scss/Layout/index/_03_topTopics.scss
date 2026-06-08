@@ -43,7 +43,8 @@ LAYOUT
 .sliderTopTopics {
     @include mi.marginPercent(1300, 28, auto, 0, auto);
     position: relative;
-
+    opacity: 0;
+    transition-duration: 1s;
     @include mi.mq(sp) {
         margin-top: 2.06%;
         margin-bottom: 0%;
@@ -51,9 +52,24 @@ LAYOUT
         margin-right: auto;
     }
 }
+.sliderTopTopics.active {
+    opacity: 1;
+}
 
 .jsSliderTopTopics {
     position: relative;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+    display: flex;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
 }
 
 /*矢印*/
@@ -106,6 +122,8 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
     }
+}
+.btnSliderTopTopics {
 }
 .btnAction {
     text-decoration: none;
@@ -184,10 +202,15 @@ LAYOUT
     justify-content: center;
     align-items: center;
     transition-duration: 0.6;
-
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
     @include mi.mq(sp) {
         @include mi.kadomaru(30px);
         aspect-ratio: 200/40;
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
     }
 
     &:hover {

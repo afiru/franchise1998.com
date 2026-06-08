@@ -113,13 +113,13 @@ LAYOUT
         @include mi.marginPercent(1300, 27, auto, 0, auto);
 
         @include mi.mq(sp) {
-            margin: 4.57% 0% 0% 0%;
+            margin: 0% 0% 0% 0%;
         }
     }
 
     &:nth-child(n + 3) {
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 25, 0, 0, 0);
+            margin: 4.57% 0% 0% 0%;
         }
     }
 }

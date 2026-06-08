@@ -62,7 +62,7 @@
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/wedding/'); ?>">ウェディングサービス</a>
                 </li>
                 <li class=" liHeaderFixedBxSp02">
-                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/'); ?>">採用情報</a>
+                    <a class="cl_fff undernone btnHeaderFixedBxSp" href="https://www.career-map.biz/recruit/page_selvice/position?office=63154" target="_blank">採用情報</a>
                 </li>
                 <li class=" liHeaderFixedBxSp02">
                     <a class="cl_fff undernone btnHeaderFixedBxSp" href="<?php echo home_url('/sitemap/'); ?>">サイトマップ</a>

@@ -1,4 +1,4 @@
-<section class="giftSingleRecMend">
+<section class="kaku giftSingleRecMend">
     <h2 class="bg_F1ECE8 d_flex j_start ali_center cl_453C3C fw_500 h2GiftSingleRecMend">おすすめ商品</h2>
     <ul class="ulGiftSingleRecMend">
         <?php foreach (scf::get('connectionSuggestion') as $ids =>$val): ?>

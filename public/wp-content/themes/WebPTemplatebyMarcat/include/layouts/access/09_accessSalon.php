@@ -1,4 +1,4 @@
-<div class="accessSlon">
+<div id="salon" class="accessSlon">
     <div class="wapper pore accessSlonWap">
         <div class="poab bg_EBEBEB brdLongAccessSlonWap"></div>
         <div class="poab bg_F28962 brdShortAccessSlonWap"></div>
@@ -77,7 +77,7 @@
                             </div>
                         </li>
                         <li class="d_flex j_between ali_center liMainAccessSlon">
-                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessSlon"></h3>
+                            <h3 class="cl_453C3C fw_500 txtset h3MainAccessSlon">TEL</h3>
                             <div class="d_flex j_start cntMainAccessSlon">
                                 <p class="cl_453C3C fw_400 txtset txtCntMainAccessSlon"><a href="tel:072-275-7887">072-275-7887</a></p>
                             </div>

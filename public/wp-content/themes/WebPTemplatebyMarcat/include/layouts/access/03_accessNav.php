@@ -9,13 +9,13 @@
                 </li>
 
                 <li class="liAccessNavBtm">
-                    <a class="d_flex j_center ali_center cl_453C3C fw_500 txtset undernone btnAccessNavBtm" href="#yuki">
+                    <a class="d_flex j_center ali_center cl_453C3C fw_500 txtset undernone btnAccessNavBtm" href="#ekitaka">
                         エキ・タカ泉ヶ丘店
                     </a>
                 </li>
 
                 <li class="liAccessNavBtm">
-                    <a class="d_flex j_center ali_center cl_453C3C fw_500 txtset undernone btnAccessNavBtm" href="#slon">
+                    <a class="d_flex j_center ali_center cl_453C3C fw_500 txtset undernone btnAccessNavBtm" href="#salon">
                         サロン・ド・<br>フランシーズ
                     </a>
                 </li>

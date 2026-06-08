@@ -41,7 +41,7 @@ LAYOUT
 }
 .prevPoductsPager {
     @include mi.ontenerWidth(101, 89);
-    margin: 0 0 0 auto;
+    margin: 0 auto 0 0;
     text-decoration: none;
     @include mi.mq(sp) {
         width: 93%;
@@ -58,6 +58,7 @@ LAYOUT
     @include mi.fontSizePc(12);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+    text-align: center;
     @include mi.mq(sp) {
         @include mi.ontenerWidth(99, 66);
         @include mi.fontSizeSp(12);
@@ -112,6 +113,8 @@ LAYOUT
     @include mi.fontSizePc(12);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+    width: fit-content;
+    margin: auto;
     @include mi.mq(sp) {
         @include mi.ontenerWidth(99, 66);
         @include mi.fontSizeSp(12);

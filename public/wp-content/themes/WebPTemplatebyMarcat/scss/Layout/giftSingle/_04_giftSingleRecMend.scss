@@ -6,21 +6,26 @@ use&nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.giftSingleEditor {
+}
 .giftSingleRecMend {
-    @include mi.marginPercent(1920, 0, auto, 0, auto);
+    @include mi.marginPercent(1100, 60, auto, 0, auto);
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 0, auto, 0, auto);
+        margin-top: 13.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .h2GiftSingleRecMend {
-    @include mi.fontSizePc(24);
-    @include mi.lineheightP(160);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
     background: #f1ece8;
     @include mi.paddingPercent(1100, 10, 16, 10, 16);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(300, 15, 17, 11, 17);
+        padding: 2% 3.66%;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -73,34 +78,34 @@ LAYOUT
     }
 }
 .h3GiftSingleRecMend {
-    @include mi.marginPercent(550, 14, auto, 0, auto);
+    @include mi.marginPercent(550, 58, auto, 0, auto);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(186, 25, 0, 0, 0);
+        margin: 7.44% 0% 0% 0%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
     }
 }
 .priceGiftSingleRecMend {
-    @include mi.marginPercent(550, 48, 0, 0, 0);
+    @include mi.marginPercent(550, 4, 0, 0, 0);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
     @include mi.mq(sp) {
-        @include mi.marginPercent(186, 25, 0, 0, 0);
+        @include mi.marginPercent(186, 0, 0, 0, 0);
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
     }
 }
 .btnGiftSingleRecMendLxn {
-    @include mi.marginPercent(550, 23, 0, 0, 0);
+    @include mi.marginPercent(550, 17, 0, 0, 0);
     @include mi.ontenerWidth(550, 148);
     @include mi.mq(sp) {
-        @include mi.marginPercent(186, 15, 0, 0, 0);
+        margin: 4.8% 0% 0% 0%;
         @include mi.ontenerWidth(186, 148);
     }
 }
