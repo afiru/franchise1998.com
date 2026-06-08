@@ -4,7 +4,7 @@
         <div class="poab bg_F28962 brdShortTopDrinkMenu"></div>
 
         <section class="secPartyPlanDrinkMenu">
-            <h2 class="cl_453C3C fw_400 txtset h2PartyPlanDrinkMenu">パーティをさらにリッチに盛り上げるドリンクメニュー</h2>
+            <h2 class="cl_453C3C fw_400 txtset h2PartyPlanDrinkMenu">パーティーをさらにリッチに盛り上げるドリンクメニュー</h2>
             <h3 class="cl_772D2D fw_500 txtset CormorantUnicase h3PartyPlanDrinkMenu">DRINK MENU</h3>
             <p class="cl_453C3C fw_500 txtset rubyPartyPlanDrinkMenu">ドリンクメニュー</p>
         </section>
@@ -35,7 +35,7 @@
             ※写真はイメージです。※掲載の商品以外にもお取り扱いがございます。お気軽にお問い合わせください。
         </p>
         <div class="btnDetailDrinkMenuLxn">
-            <a class="d_flex j_center ali_center bg_F28962 kaku cl_fff undernone btnDetailDrinkMenu" href="">
+            <a class="d_flex j_center ali_center bg_F28962 kaku cl_fff undernone btnDetailDrinkMenu" href="#booking">
                 ご注文・商品受け取り方法について
             </a>
         </div>

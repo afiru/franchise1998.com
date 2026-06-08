@@ -1,17 +1,18 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .giftUchiiwai {
-    @include mi.marginPercent(1920, 86, auto, 0, auto);
+    @include mi.paddingPercent(1920, 86, auto, 0, auto);
+
     @include mi.mq(sp) {
-        margin-top: 24.3%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: auto;
+        padding-top: 24.3%;
+        padding-bottom: 0%;
+        padding-left: auto;
+        padding-right: auto;
     }
 }

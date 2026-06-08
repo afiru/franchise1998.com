@@ -103,7 +103,7 @@
 
         <p class="t_center cl_453C3C fw_500 txtset txtTopSelect">
             贈り物のご相談なら、“フランシーズ”専任のコンシェルジュが心をこめてご提案いたします。<br>
-            ぜひ「コンサルティングルーム」をご利用ください。
+            ぜひ「<a class="txtTopSelectLine" href="<?php echo home_url('/about/'); ?>#consultingRoom">コンサルティングルーム</a>」をご利用ください。
         </p>
     </div>
 </div>

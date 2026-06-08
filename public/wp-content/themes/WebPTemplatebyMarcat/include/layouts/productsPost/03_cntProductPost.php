@@ -27,7 +27,10 @@
             </li>
 
             <li class="d_flex j_start row liPriceCntProductPostTop">
-                <h3 class="cl_453C3C kaku txtset fw_500 h3PriceCntProductPostTop">発売期間</h3>
+                <?php if (!empty(scf::get('kikanProductPost'))): ?>
+                    <h3 class="cl_453C3C kaku txtset fw_500 h3PriceCntProductPostTop">発売期間</h3>
+                <?php endif; ?>
+
                 <p class="cl_453C3C fw_400 kaku txtset txtPriceCntProductPostTop">
                     <?php echo esc_html(scf::get('kikanProductPost')); ?>
                 </p>

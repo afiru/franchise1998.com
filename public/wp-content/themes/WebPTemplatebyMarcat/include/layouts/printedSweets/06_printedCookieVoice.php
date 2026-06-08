@@ -35,12 +35,12 @@
                             </p>
                         </li>
                     </ul>
-                    <div class="d_flex j_between detailPrintedCookieVoice">
+                    <div class="d_flex j_between row detailPrintedCookieVoice">
                         <section class="secDetailPrintedCookieVoice">
                             <h4 class="d_flex j_start ali_center bg_F1ECE8 cl_453C3C kaku h4DetailPrintedCookieVoice">
                                 お客様の声
                             </h4>
-                            <p class="cl_453C3C fw_500 txtset text_justify txtDetailPrintedCookieVoice">
+                            <p class="cl_453C3C kaku fw_400 txtset text_justify txtDetailPrintedCookieVoice">
                                 私たちならではの引き出物で、とてもいい記念になりました。
                             </p>
                         </section>
@@ -85,10 +85,10 @@
                             </p>
                         </li>
                     </ul>
-                    <div class="d_flex j_between detailPrintedCookieVoice">
+                    <div class="d_flex j_between row detailPrintedCookieVoice">
                         <section class="secDetailPrintedCookieVoice">
                             <h4 class="d_flex j_start ali_center bg_F1ECE8 cl_453C3C kaku h4DetailPrintedCookieVoice">お客様の声</h4>
-                            <p class="cl_453C3C fw_500 txtset text_justify txtDetailPrintedCookieVoice">
+                            <p class="cl_453C3C kaku fw_400 txtset text_justify txtDetailPrintedCookieVoice">
                                 長い間お世話になった皆様へ手紙も添えて渡しました。
                             </p>
                         </section>
@@ -136,7 +136,7 @@
                     <div class="d_flex j_between detailPrintedCookieVoice">
                         <section class="secDetailPrintedCookieVoice">
                             <h4 class="d_flex j_start ali_center bg_F1ECE8 cl_453C3C kaku h4DetailPrintedCookieVoice">お客様の声</h4>
-                            <p class="cl_453C3C fw_500 txtset text_justify txtDetailPrintedCookieVoice">
+                            <p class="cl_453C3C kaku fw_400 txtset text_justify txtDetailPrintedCookieVoice">
                                 息子の名前をお披露目できるクッキーと焼き菓子の詰合わせは、ラッピングもかわいらしくて喜ばれました。
                             </p>
                         </section>

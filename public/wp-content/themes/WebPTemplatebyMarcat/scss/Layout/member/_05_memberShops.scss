@@ -89,7 +89,7 @@ LAYOUT
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
-        aspect-ratio: 157/45;
+        aspect-ratio: auto;
     }
 }
 
@@ -118,6 +118,7 @@ LAYOUT
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     aspect-ratio: 157 / 37;
+    width: 100%;
 
     @include mi.mq(sp) {
         margin-top: 4.19%;

@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -48,8 +48,7 @@ LAYOUT
     }
 }
 
-.secAccessYukitaka {
-}
+.secAccessYukitaka {}
 
 .h2AccessYukitaka {
     @include mi.fontSizePc(20);
@@ -82,8 +81,7 @@ LAYOUT
     }
 }
 
-.mainPhotosAccessYukitaka {
-}
+.mainPhotosAccessYukitaka {}
 
 .ulPhotosAccessYukitaka {
     @include mi.marginPercent(570, 11, auto, 0, auto);
@@ -115,6 +113,7 @@ LAYOUT
 .mainAccessYukitaka {
     @include mi.ontenerWidth(1300, 629);
     margin: -0.5% 0 0 0;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
         margin: 7% 0 0 0;
@@ -122,8 +121,7 @@ LAYOUT
     }
 }
 
-.ulMainAccessYukitaka {
-}
+.ulMainAccessYukitaka {}
 
 .liMainAccessYukitaka {
     @include mi.paddingPercent(629, 0, 0, 20, 0);
@@ -181,8 +179,18 @@ LAYOUT
     }
 }
 
+@media screen and (hover: hover) {
+    a[href^="tel:"] {
+        pointer-events: none;
+    }
+}
+
 .txtCntMainAccessYukitaka02 {
     @include mi.marginPercent(629, 0, 0, 0, 20);
+
+    a {
+        color: #453c3c;
+    }
 
     @include mi.mq(sp) {
         width: 100%;

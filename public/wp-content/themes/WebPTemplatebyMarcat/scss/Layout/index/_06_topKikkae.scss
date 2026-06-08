@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -30,9 +30,9 @@ LAYOUT
 
     img {
         width: 100%;
-        // filter: blur(5px);
-        // transition-duration: 1s;
-        // transform: scale(1.05);
+        filter: blur(5px);
+        transition-duration: 1s;
+        transform: scale(1.05);
     }
 }
 
@@ -56,8 +56,7 @@ LAYOUT
     }
 }
 
-.secCntTopKikkake {
-}
+.secCntTopKikkake {}
 
 .h2CntTopKikkake {
     @include mi.fontSizePc(16);
@@ -157,8 +156,7 @@ LAYOUT
 .iconBbtnCntTopKikkakes {
     @include mi.ontenerWidth(200, 180);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-        center;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
     background-size: auto 16%;
     display: block;
     text-align: center;
@@ -166,8 +164,7 @@ LAYOUT
     @include mi.mq(sp) {
         width: 89.45%;
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-            center;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
         background-size: auto 16%;
     }
 }

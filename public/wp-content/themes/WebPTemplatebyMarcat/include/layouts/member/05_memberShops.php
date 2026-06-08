@@ -16,8 +16,8 @@
                             <?php echo nl2br($fields['txtloopMemberShop']); ?>
                         </p>
                         <div class="btnMemberShopsLxn">
-                            <a class="d_flex j_center ali_center txtset t_center cl_F04E11 fw_500 btnMemberShops" href="<?php echo $fields['urlloopMemberShop']; ?>">
-                                <span class="icnBtnMemberShops">サイトはこちら</span>
+                            <a class="d_flex j_center ali_center txtset t_center cl_F04E11 fw_500 btnMemberShops" href="<?php echo $fields['urlloopMemberShop']; ?>" target="_blank">
+                                <span class="kaku icnBtnMemberShops">サイトはこちら</span>
                                 <!--bg:../img/member/icnBtnMemberShops.svg-->
                             </a>
                         </div>

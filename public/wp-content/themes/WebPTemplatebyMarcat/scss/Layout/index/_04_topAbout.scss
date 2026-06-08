@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -10,6 +10,7 @@ LAYOUT
     position: relative;
     overflow: hidden;
     @include mi.marginPercent(1920, 206, auto, 0, auto);
+
     @include mi.mq(sp) {
         margin-top: 29.72%;
         margin-bottom: 0%;
@@ -133,8 +134,7 @@ LAYOUT
 .iconBbtnCntTopAbouts {
     @include mi.ontenerWidth(200, 184);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-        center;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
     background-size: auto 20%;
     display: block;
     text-align: center;
@@ -142,8 +142,7 @@ LAYOUT
     @include mi.mq(sp) {
         width: 90.45%;
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-            center;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
         background-size: auto 16%;
     }
 }
@@ -166,12 +165,13 @@ LAYOUT
 
     img {
         width: 100%;
-        // filter: blur(5px);
-        // transition-duration: 1s;
-        // transform: scale(1.05);
+        filter: blur(5px);
+        transition-duration: 1s;
+        transform: scale(1.05);
     }
 }
+
 .mainIndex .activeImg img {
     filter: blur(0px);
-    transform: scale(1);
+    transform: unset;
 }

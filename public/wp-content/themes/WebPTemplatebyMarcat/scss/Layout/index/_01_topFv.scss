@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -36,8 +36,7 @@ LAYOUT
 }
 
 .picTopFvScroll {
-    @include mi.mq(sp) {
-    }
+    @include mi.mq(sp) {}
 }
 
 .scrollbar_05 {
@@ -98,7 +97,8 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 350);
         aspect-ratio: 350/660;
-        border-radius: 6vw 0 0 0;
+        //border-radius: 6vw 0 0 0;
+        border-radius: 0;
     }
 }
 
@@ -107,8 +107,8 @@ LAYOUT
     height: 100%;
     position: absolute;
 }
-.topMovie.active video {
-}
+
+.topMovie.active video {}
 
 .picTopMovie {
     @include mi.ontenerWVw(1920, 303);

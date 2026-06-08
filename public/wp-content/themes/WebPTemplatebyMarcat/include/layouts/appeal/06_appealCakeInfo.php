@@ -25,7 +25,7 @@
                 </li>
 
                 <li class="liAppealCakeInfo">
-                    <a class="d_block btnLiAppealCakeInfo" href="<?php echo home_url('/'); ?>">
+                    <a class="d_block btnLiAppealCakeInfo" href="<?php echo home_url('/printedsweets/'); ?>#choco">
                         <figure class="photoLiAppealCakeInfo">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnLiAppealCakeInfo02Pc.png'); ?>">

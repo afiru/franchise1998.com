@@ -88,7 +88,7 @@
         <li class="d_flex j_between row liFormCnt">
             <h3 class="cl_453C3C txtset fw_500 h3FormCnt">ご希望個数<span class="cl_F04E11">＊</span></h3>
             <div class="inputLiFormCntLxn">
-                [mwform_text name="ご希望個数" id="kibokosuu" class="inputW100" size="60" maxlength="255" placeholder="例）000個"]
+                [mwform_text name="ご希望個数" id="kibokosuu" class="inputW100" size="60" maxlength="255" placeholder="例）30"]
             </div>
         </li>
         <li class="d_flex j_between row liFormCnt">
@@ -131,10 +131,10 @@
 <div class="toThankBackLxn">
     <ul class="d_flex j_between ali_center row toThankBackFx">
         <li class="btnBackLxn">
-            [mwform_bback class="d_flex j_center ali_center bg_fff brd_F28962 fw_500 cl_F28962 kaku btnBack" value="back"]入力内容を修正する[/mwform_bback]
+            [mwform_bback class="d_flex j_center ali_center bg_fff brd_F28962 fw_500 cl_F28962 kaku btnBack" value="back"]入力画面にもどる[/mwform_bback]
         </li>
         <li class="btnToThanksLxn">
-            [mwform_bsubmit name="送信する" class="d_flex j_center ali_center bg_F28962 fw_500 cl_fff kaku btnToThanks" value="send"]送信する[/mwform_bsubmit]
+            [mwform_bsubmit name="送信する" class="d_flex j_center ali_center bg_F28962 fw_500 cl_fff kaku btnToThanks" value="send"]内容を確認して送信[/mwform_bsubmit]
         </li>
     </ul>
 </div>

@@ -46,7 +46,7 @@
                         ご希望受け取り日の<span class="cl_F04E11">10日前</span>までにデータをご送付ください。データ形式はjpgでお願いします。
                     </p>
                     <h4 class="d_flex j_center t_center ali_center bg_795E55 cl_fff kaku fw_500 h4LiPrintedFlow h4LiPrintedFlow02">メールアドレス</h4>
-                    <p class="t_center cl_453C3C fw_400 kaku txtset linkLiPrintedFlow"><a class="cl_453C3C underline" href="mailto:shop＠franchise1998.com">shop＠franchise1998.com</a></p>
+                    <p class="t_center cl_453C3C fw_400 kaku txtset linkLiPrintedFlow"><a class="cl_453C3C underline" href="mailto:shop@franchise1998.com">shop@franchise1998.com</a></p>
                 </section>
             </li>
 

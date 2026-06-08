@@ -9,10 +9,21 @@
     </div>
     <div class="pore topMovie">
         <div class="pc_only">
-            <video src="<?php echo esc_url(get_template_directory_uri() . '/img/index/topMoviePc.mp4'); ?>" autoplay muted></video>
+            <video
+                src="<?php echo esc_url(get_template_directory_uri() . '/img/index/topMoviePc.mp4'); ?>"
+                autoplay
+                muted
+                loop
+                playsinline></video>
         </div>
         <div class="sp_only">
-            <video src="<?php echo esc_url(get_template_directory_uri() . '/img/index/topMovieSp.mp4'); ?>" autoplay muted></video>
+            <video
+                src="<?php echo esc_url(get_template_directory_uri() . '/img/index/topMovieSp.mp4'); ?>"
+                autoplay
+                muted
+                loop
+                playsinline></video>
+
         </div>
 
         <h1 class="poab picTopMovie">

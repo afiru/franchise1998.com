@@ -28,19 +28,31 @@
                                     大阪メトロ御堂筋線 新大阪駅5番出口降りてすぐ
                                 </p>
                             </li>
-                            <li class="liTamaranHireShinOsakaFxLeft">
+                            <li class="pc_only liTamaranHireShinOsakaFxLeft">
                                 <h4 class="kaku cl_772D2D fw_500 txtset h4TamaranHireShinOsakaFxLeft">アントレマルシェ新大阪中央口店</h4>
                                 <p class="kaku cl_772D2D fw_400 txtset txtTamaranHireShinOsakaFxLeft">
                                     新幹線中央乗り場 みどりの窓口横
                                 </p>
                             </li>
-                        </ul>
-
-                        <ul class="ulTamaranHireShinOsakaFxRight">
-                            <li class="liTamaranHireShinOsakaFxLeft">
+                            <li class="sp_only liTamaranHireShinOsakaFxLeft">
                                 <h4 class="kaku cl_772D2D fw_500 txtset h4TamaranHireShinOsakaFxRight">駅マルシェ新大阪店</h4>
                                 <p class="kaku cl_772D2D fw_400 txtset txtTamaranHireShinOsakaFxRight">
                                     JR在来線 待合席横スウィートストリートすぐ
+                                </p>
+                            </li>
+                        </ul>
+
+                        <ul class="ulTamaranHireShinOsakaFxRight">
+                            <li class="pc_only liTamaranHireShinOsakaFxLeft">
+                                <h4 class="kaku cl_772D2D fw_500 txtset h4TamaranHireShinOsakaFxRight">駅マルシェ新大阪店</h4>
+                                <p class="kaku cl_772D2D fw_400 txtset txtTamaranHireShinOsakaFxRight">
+                                    JR在来線 待合席横スウィートストリートすぐ
+                                </p>
+                            </li>
+                            <li class="sp_only liTamaranHireShinOsakaFxLeft">
+                                <h4 class="kaku cl_772D2D fw_500 txtset h4TamaranHireShinOsakaFxLeft">アントレマルシェ新大阪中央口店</h4>
+                                <p class="kaku cl_772D2D fw_400 txtset txtTamaranHireShinOsakaFxLeft">
+                                    新幹線中央乗り場 みどりの窓口横
                                 </p>
                             </li>
                             <li class="liTamaranHireShinOsakaFxLeft">

@@ -5,7 +5,7 @@
             <p class="t_center cl_F04E11 fw_500 txtMemberBnr">
                 いつでもお買い物が<span class="bigTxtMemberBnr">10%</span>OFF!
             </p>
-            <a class="d_block btnMemberBnr">
+            <a class="d_block btnMemberBnr" href="https://selvice-members.co.jp/" target="_blank">
                 <picture>
                     <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/member/btnMemberBnrPc.png'); ?>">
                     <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/member/btnMemberBnrSp.png'); ?>">

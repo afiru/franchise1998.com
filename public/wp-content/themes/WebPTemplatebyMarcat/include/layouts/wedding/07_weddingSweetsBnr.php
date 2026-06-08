@@ -11,7 +11,7 @@
                 </figure>
 
                 <section class="secWeddingSweetsBnr">
-                    <h2 class="t_center cl_fff fw_500 txtset CormorantUnicase h2WeddingSweetsBnr">PRINTED SWEETS</h2>
+                    <h2 class="t_center cl_fff fw_500 txtset CormorantUnicase h2WeddingSweetsBnr">ORIGINAL PRINT SWEETS</h2>
                     <h3 class="t_center cl_fff fw_500 txtset h3WeddingSweetsBnr">
                         心に残る特別なギフトは<br>
                         世界にひとつの<br>
@@ -21,7 +21,7 @@
                         お好きなデザインでお作りいただけます。<br class="sp_only">納期は10日前後ですので、<br class="sp_only">お早めにご依頼ください。
                     </p>
                     <div class="btnWeddingSweetsBnrlxn">
-                        <a class="d_flex j_center ali_center cl_fff undernone fw_400kaku btnWeddingSweetsBnr" href="">
+                        <a class="d_flex j_center ali_center cl_fff undernone fw_400kaku btnWeddingSweetsBnr" href="https://sunplads-staging2.com/test_up/kobe/franchise1998.com/printedsweets/" target="_blank">
                             <span class="iconBtnWeddingSweetsBnr">詳しく見る</span>
                             <!--bg:../img/wedding/iconBtnWeddingSweetsBnr.svg-->
                         </a>

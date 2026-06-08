@@ -14,14 +14,15 @@
                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/about/txtAboutUnderFvPc.svg'); ?>" alt="<?php echo esc_attr('素材へのこだわり'); ?>" width="9.07" height="222.44">
             </picture>
         </figure>
-
-        <figure class="picAboutUnderFv">
-            <picture>
-                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/productTop/picProductTopUnderFvPc.png'); ?>">
-                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/productTop/picProductTopUnderFvSp.png'); ?>">
-                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/productTop/picProductTopUnderFvPc.png'); ?>" alt="<?php echo esc_attr('素材へのこだわり'); ?>" width="1698" height="696">
-            </picture>
-        </figure>
+        <?php if ($cat == 2): ?>
+            <figure class="picAboutUnderFv">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/productTop/picProductTopUnderFvPc.png'); ?>">
+                    <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/productTop/picProductTopUnderFvSp.png'); ?>">
+                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/productTop/picProductTopUnderFvPc.png'); ?>" alt="<?php echo esc_attr('素材へのこだわり'); ?>" width="1698" height="696">
+                </picture>
+            </figure>
+        <?php endif; ?>
     </div>
 </div>
 

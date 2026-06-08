@@ -17,9 +17,9 @@
                     <li class="liAppealGiftOnlineInfo">
                         <a class="btnAppealGiftOnlineInfo" href="https://selvice-lifedesign.jp/" target="_blank">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo01Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo01Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo01Pc.png'); ?>" alt="<?php echo esc_attr('ONLINE SHOP'); ?>" width="574" height="72">
+                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo01Pc.svg'); ?>">
+                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo01Sp.svg'); ?>">
+                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo01Pc.svg'); ?>" alt="<?php echo esc_attr('ONLINE SHOP'); ?>" width="574" height="72">
                             </picture>
                         </a>
                     </li>
@@ -27,9 +27,9 @@
                     <li class="liAppealGiftOnlineInfo">
                         <a class="btnAppealGiftOnlineInfo" href="https://www.rakuten.co.jp/selvice/" target="_blank">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo02Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo02Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo02Pc.png'); ?>" alt="<?php echo esc_attr('ONLINE SHOP'); ?>" width="574" height="72">
+                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo02Pc.svg'); ?>">
+                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo02Sp.svg'); ?>">
+                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/appeal/btnAppealGiftOnlineInfo02Pc.svg'); ?>" alt="<?php echo esc_attr('ONLINE SHOP'); ?>" width="574" height="72">
                             </picture>
                         </a>
                     </li>
@@ -40,7 +40,7 @@
                 <section class="secAppealGiftOnlineAlert">
                     <h2 class="t_center cl_453C3C fw_500 txtset h2AppealGiftOnlineAlert">全国配送承ります。お気軽にご相談ください。</h2>
                     <p class="cl_453C3C txtset text_justify fw_500 txtAppealGiftOnlineAlert">
-                        店頭・お電話・オンラインショップ(24時間受付)でご注文いただけます。ご注文方法・配送に関して詳しくは<a class="cl_F28962 undernone" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド</a>をご覧ください。
+                        店頭・お電話・オンラインショップ(24時間受付)でご注文いただけます。ご注文方法・配送に関して詳しくは<a class="cl_F28962" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド</a>をご覧ください。
                     </p>
                     <h3 class="d_flex j_center ali_center bg_421D12 cl_fff fw_500 txtset h3AppealGiftOnlineAlert">お電話・店頭でのご注文</h3>
                     <div class="d_flex j_between row ali_end fxAppealGiftOnlineAlert">

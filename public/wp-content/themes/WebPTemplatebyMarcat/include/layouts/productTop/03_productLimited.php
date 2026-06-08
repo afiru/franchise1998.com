@@ -13,7 +13,7 @@ $args = [
 <?php if ($query1->have_posts()): ?>
     <div class="prductLoopDefo prductLoopLimited">
         <section class="secPrductLoopDefo secPrductLoopLimited">
-            <h2 class="cl_F28962 fw_500 txtset CormorantUnicase h2PrductLoopDefo">LIMITED</h2>
+            <h2 class="cl_F28962 fw_500 txtset CormorantUnicase h2PrductLoopDefo">NEW / LIMITED</h2>
             <p class="cl_453C3C fw_500 txtset rubyPrductLoopDefo">新商品・期間限定</p>
             <ul class="d_flex j_start row ulPrductLoopDefo">
                 <?php $i = 1; ?>

@@ -69,7 +69,7 @@
                     <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/tamaran/'); ?>">-たま卵チーズ</a>
                 </li>
                 <li class="liNavHeaderPcmenu">
-                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/partyplan/'); ?>">-パーティプラン</a>
+                    <a class="cl_fff undernone fw_500 btnNavHeaderPcLxn" href="<?php echo home_url('/partyplan/'); ?>">-パーティープラン</a>
                 </li>
 
                 <li class="liNavHeaderPcmenu">

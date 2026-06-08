@@ -17,7 +17,7 @@
                     </div>
                     <div class="sp_only cntliTopAccess">
                         <p class="cl_453C3C fw_500 txtset txtLiTopAccess">
-                            〒599-8237  大阪府堺市中区深井水池町3254番地 <a class="cl_F04E11" href="" target="_blank">Google Maps</a>
+                            〒599-8237  大阪府堺市中区深井水池町3254番地 <a class="cl_F04E11" href="https://maps.app.goo.gl/mxoYqD7hPqSeBza3A" target="_blank">Google Maps</a>
                         </p>
                     </div>
                 </li>
@@ -38,7 +38,7 @@
                 <li class="d_flex j_between liTopAccess">
                     <h4 class="cl_31150D fw_500 txtset h4liTopAccess">定休日</h4>
                     <div class="cntliTopAccess">
-                        <p class="cl_453C3C fw_500 txtset txtLiTopAccess">火曜日（祝日営業）<br>※臨時休業は営業日カレンダーをご覧ください。</p>
+                        <p class="cl_453C3C fw_500 txtset txtLiTopAccess">火曜日（祝日営業）<br>※臨時休業は<a href="#" target="_blank">営業日カレンダー</a>をご覧ください。</p>
                     </div>
                 </li>
 

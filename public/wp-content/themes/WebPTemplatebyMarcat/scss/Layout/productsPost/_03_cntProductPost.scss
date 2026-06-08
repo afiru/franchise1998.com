@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -22,8 +22,7 @@ LAYOUT
 }
 
 .secCntProductPost {
-    @include mi.mq(sp) {
-    }
+    @include mi.mq(sp) {}
 }
 
 .h1CntProductPost {
@@ -105,7 +104,7 @@ LAYOUT
 .tablePriceCntProductPostTop td {
     max-width: 25%;
 
-    & + td {
+    &+td {
         @include mi.fontSizePc(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
@@ -172,7 +171,7 @@ LAYOUT
 
 .txtPriceCntProductPostTop {
     @include mi.marginPercent(632, 0, 0, 0, 0);
-    @include mi.ontenerWidth(169, 97);
+    width: fit-content;
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
@@ -323,9 +322,10 @@ LAYOUT
 }
 
 .ulBtnOnlineProducts {
-    @include mi.marginPercent(632, -5, auto, 0, auto);
+    @include mi.marginPercent(632, 16, auto, 0, auto);
     display: flex;
     flex-flow: row wrap;
+    gap: 0.15625vw;
 
     @include mi.mq(sp) {
         margin-top: 3%;
@@ -338,7 +338,7 @@ LAYOUT
 
 .liBtnOnlineProducts {
     @include mi.ontenerWidth(632, 146);
-    @include mi.marginPercent(632, 16, 16, 0, 0);
+
 
     @include mi.mq(sp) {
         width: 49.9%;
@@ -352,7 +352,7 @@ LAYOUT
     }
 
     &:nth-child(n + 5) {
-        @include mi.marginPercent(632, 0, 3, 0, 0);
+
 
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 0, 0, 0, 0);
@@ -364,8 +364,7 @@ LAYOUT
     }
 }
 
-.btnOnlineProducts {
-}
+.btnOnlineProducts {}
 
 //お電話で注文する
 .btnBtnProductTellxn {
@@ -385,6 +384,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 300);
         aspect-ratio: 300/60;
+        margin: auto;
     }
 }
 
@@ -395,8 +395,7 @@ LAYOUT
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    background: url(../img/productsPost/iconBtnProductTel.svg) no-repeat 0%
-        center;
+    background: url(../img/productsPost/iconBtnProductTel.svg) no-repeat 0% center;
     background-size: auto 44%;
 
     @include mi.mq(sp) {
@@ -477,8 +476,7 @@ LAYOUT
     }
 }
 
-.secListInfoProductsPosts {
-}
+.secListInfoProductsPosts {}
 
 .h2ListInfoProductsPosts {
     flex-flow: row wrap;
@@ -498,6 +496,7 @@ LAYOUT
 }
 
 .littleH2ListInfoProductsPosts {
+    margin: 0 0 0 1.2%;
     @include mi.fontSizePc(13);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
@@ -574,6 +573,7 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+    font-weight: 400;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);

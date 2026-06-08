@@ -116,11 +116,13 @@ LAYOUT
     @include mi.fontSizePc(21);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
+    pointer-events: none;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(21);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(100);
+        pointer-events: all;
     }
 }
 

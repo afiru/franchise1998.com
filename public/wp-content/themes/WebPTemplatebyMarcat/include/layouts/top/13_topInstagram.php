@@ -13,7 +13,7 @@
         </div>
 
         <div class="btnCntTopInstagramLxn">
-            <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopInstagram" href="<?php echo home_url('/'); ?>">
+            <a class="d_flex j_center ali_center cl_F04E11 undernone fw_500 kaku btnCntTopInstagram" href="https://www.instagram.com/franchise.sakai/?hl=ja" target="_blank">
                 <span class="iconBbtnCntTopInstagrams">投稿を見る</span>
                 <!--bg:../img/index/iconBbtnCntTopInstagrams.svg-->
             </a>

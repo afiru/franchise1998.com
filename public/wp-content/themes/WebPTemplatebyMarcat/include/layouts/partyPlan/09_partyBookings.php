@@ -23,7 +23,7 @@
                     </div>
                     <p class="t_center cl_453C3C fw_400 txtBtmTelDetailPartyBookings">9:00～19:00・火曜日定休（祝日営業）</p>
                     <p class="t_center cl_453C3C fw_400 txtBtmTelDetailPartyBookingsLxn">
-                        ※各ショップの休日及び、クリスマス時期（12/20～1/10）は上記パーティセットはご予約いただけません。あらかじめご了承ください。
+                        ※各ショップの休日及び、クリスマス時期（12/20～1/10）は上記パーティーセットはご予約いただけません。あらかじめご了承ください。
                     </p>
 
 
@@ -43,7 +43,7 @@
                             <section class="secJoinDetailPartyBookingsFx secJoinDetailPartyBookingsFx02">
                                 <h5 class="cl_453C3C fw_500 txtset h5JoinDetailPartyBookingsFx">2.配達の場合</h5>
                                 <p class="cl_453C3C fw_500 txtset text_justify txtJoinDetailPartyBookingsFx">
-                                    商品の受け取り時に直接配達員にお支払いください。
+                                    下記配達可能地域であれば、ご指定の日時にお届けします。
                                 </p>
                                 <p class="cl_453C3C fw_500 txtset text_justify txtJoinDetailPartyBookingsFx02">
                                     【支払い方法】 現金のみ
@@ -75,7 +75,7 @@
                             <section class="secJoinDetailPartyBookingsFx secJoinDetailPartyBookingsFx02">
                                 <h5 class="cl_453C3C fw_500 txtset h5JoinDetailPartyBookingsFx">2.配達の場合</h5>
                                 <p class="cl_453C3C fw_500 txtset text_justify txtJoinDetailPartyBookingsFx">
-                                    商品の受け取り時に直接配達員にお支払いください。
+                                    下記配達可能地域であれば、ご指定の日時にお届けします。
                                     <span class="d_flex j_start ">
                                         <span class="dotto">・</span>
                                         <span class="txtJoinDetailPartyBookings">配達区域：堺市・大阪狭山市・和泉市・高石市</span>
@@ -126,7 +126,7 @@
                             カフェを併設した<br>おしゃれなベーカリー
                         </p>
                         <div class="linkTakeOutMenuPartyBookingsLxn">
-                            <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
+                            <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="https://pain-d-esse.jp/" target="_blank">
                                 <span class="kaku iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
                             </a>
                         </div>
@@ -148,7 +148,7 @@
                             旬の食材の自然食レストラン<br>手づくり豆腐・安心なお米・お惣菜・お弁当販売
                         </p>
                         <div class="linkTakeOutMenuPartyBookingsLxn">
-                            <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
+                            <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="https://sakai-natural-garden.jp/" target="_blank">
                                 <span class="kaku iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
                                 <!--bg:../img/iconLinkTakeOutMenuPartyBookingsLxn.svg-->
                             </a>
@@ -171,7 +171,7 @@
                             創作イタリアンレストラン<br>＜サンパレス2F＞
                         </p>
                         <div class="linkTakeOutMenuPartyBookingsLxn">
-                            <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="">
+                            <a class="d_flex j_center ali_center  cl_F04E11 btnLinkTakeOutMenuPartyBookingsLxn" href="https://sunpalace.co.jp/papa-hemingway/" target="_blank">
                                 <span class="kaku iconLinkTakeOutMenuPartyBookingsLxn">サイトはこちら</span>
                             </a>
                         </div>

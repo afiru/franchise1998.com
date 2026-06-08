@@ -11,7 +11,10 @@ LAYOUT
     position: relative;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 110, auto, 0, auto);
+        margin-top: 12.18%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

@@ -138,6 +138,7 @@ LAYOUT
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
+
     @include mi.mq(sp) {
         margin-top: 2.98%;
         margin-bottom: 0%;
@@ -148,6 +149,8 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
+.txtAppealGiftOnlineAlert a {}
 
 .h3AppealGiftOnlineAlert {
     @include mi.marginPercent(568, 15, auto, 0, auto);

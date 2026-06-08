@@ -69,9 +69,9 @@
 
                         <figure class="downloadInfo">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/member/downloadInfoPc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/member/downloadInfoSp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/member/downloadInfoPc.png'); ?>" alt="<?php echo esc_attr('すでにぽんとカードをお持ちの方は引き継ぎが可能！'); ?>" width="1000" height="85">
+                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/member/downloadInfoPc.svg'); ?>">
+                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/member/downloadInfoSp.svg'); ?>">
+                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/member/downloadInfoPc.svg'); ?>" alt="<?php echo esc_attr('すでにぽんとカードをお持ちの方は引き継ぎが可能！'); ?>" width="1000" height="85">
                             </picture>
                         </figure>
                     </section>

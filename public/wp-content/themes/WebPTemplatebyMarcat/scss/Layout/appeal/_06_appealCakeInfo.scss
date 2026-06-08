@@ -88,6 +88,11 @@ LAYOUT
     }
 }
 
+.btnLiAppealCakeInfo {
+    text-decoration: underline;
+    color: #453C3C;
+}
+
 .txtLiAppealCakeInfo {
     @include mi.marginPercent(234, 12, auto, 0, auto);
     @include mi.fontSizePc(14);

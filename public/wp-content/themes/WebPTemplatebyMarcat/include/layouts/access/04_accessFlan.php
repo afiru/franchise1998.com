@@ -1,11 +1,11 @@
-<div class="accessFlan">
+<div id="flan" class="accessFlan">
     <div class="wapper accessFlanWap">
-        <section id="flan" class="secAccessFlan">
+        <section id="" class="secAccessFlan">
             <h2 class="t_center cl_453C3C txtset fw_500 h2AccessFlan">花とお菓子の工房 フランシーズ</h2>
 
             <div class="d_flex j_between row accessFlanFx">
                 <div class="photosAccessFlan">
-                    <figure class="mainPhotosAccessFlan">
+                    <figure class="mainPhotosAccessFlan jsmainPhotosAccessFlan01">
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/mainPhotosAccessFlanPc.png'); ?>">
                             <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/mainPhotosAccessFlanSp.png'); ?>">
@@ -13,56 +13,56 @@
                         </picture>
                     </figure>
                     <ul class="d_flex j_start row ulPhotosAccessFlan">
-                        <li class="liPhotosAccessFlan">
+                        <li class="liPhotosAccessFlan jsliPhotosAccessFlan01" data-img="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan01Sp.png'); ?>">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan01Pc.png'); ?>">
                                 <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan01Sp.png'); ?>">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan01Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
                             </picture>
                         </li>
-                        <li class="liPhotosAccessFlan">
+                        <li class="liPhotosAccessFlan jsliPhotosAccessFlan01" data-img="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan02Sp.png'); ?>">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan02Pc.png'); ?>">
                                 <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan02Sp.png'); ?>">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan02Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
                             </picture>
                         </li>
-                        <li class="liPhotosAccessFlan">
+                        <li class="liPhotosAccessFlan jsliPhotosAccessFlan01" data-img="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan03Sp.png'); ?>">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan03Pc.png'); ?>">
                                 <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan03Sp.png'); ?>">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan03Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
                             </picture>
                         </li>
-                        <li class="liPhotosAccessFlan">
+                        <li class="liPhotosAccessFlan jsliPhotosAccessFlan01" data-img="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan04Sp.png'); ?>">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan04Pc.png'); ?>">
                                 <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan04Sp.png'); ?>">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan04Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
                             </picture>
                         </li>
-                        <li class="liPhotosAccessFlan">
+                        <li class="liPhotosAccessFlan jsliPhotosAccessFlan01" data-img="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan05Sp.png'); ?>">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan05Pc.png'); ?>">
                                 <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan05Sp.png'); ?>">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan05Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
                             </picture>
                         </li>
-                        <li class="liPhotosAccessFlan">
+                        <li class="liPhotosAccessFlan jsliPhotosAccessFlan01" data-img="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan06Sp.png'); ?>">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan06Pc.png'); ?>">
                                 <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan06Sp.png'); ?>">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan06Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
                             </picture>
                         </li>
-                        <li class="liPhotosAccessFlan">
+                        <li class="liPhotosAccessFlan jsliPhotosAccessFlan01" data-img="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan07Sp.png'); ?>">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan07Pc.png'); ?>">
                                 <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan07Sp.png'); ?>">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan07Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
                             </picture>
                         </li>
-                        <li class="liPhotosAccessFlan">
+                        <li class="liPhotosAccessFlan jsliPhotosAccessFlan01" data-img="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan08Sp.png'); ?>">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan08Pc.png'); ?>">
                                 <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessFlan08Sp.png'); ?>">

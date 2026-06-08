@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -35,8 +35,7 @@ LAYOUT
     min-height: 100%;
 }
 
-.cntHeaderFixedSearchLxn {
-}
+.cntHeaderFixedSearchLxn {}
 
 .btnCntHeaderFixedSearch {
     @include mi.ontenerWidth(1300, 1000);
@@ -47,8 +46,7 @@ LAYOUT
     }
 }
 
-.titleBtnCntHeaderFixedSearch {
-}
+.titleBtnCntHeaderFixedSearch {}
 
 .h2TitleBtnCntHeaderFixedSearch {
     @include mi.fontSizePc(20);
@@ -141,8 +139,7 @@ LAYOUT
     }
 }
 
-.opeHeaderFixedSearchWap {
-}
+.opeHeaderFixedSearchWap {}
 
 .secOpeHeaderFixedSearch {
     @include mi.ontenerWidth(1300, 1000);
@@ -218,6 +215,11 @@ LAYOUT
     @include mi.ontenerWVw(1920, 15);
     @include mi.marginPercent(1000, 0, 10, 0, 0);
 
+    @include mi.mq(tab) {
+        margin: 0% 0.5vw 0% 0%;
+        width: 1.2vw;
+    }
+
     @include mi.mq(sp) {
         @include mi.ontenerWVw(375, 15);
         @include mi.marginPercent(343, 0, 15, 0, 0);
@@ -228,6 +230,7 @@ LAYOUT
     @include mi.fontSizePc(16);
     @include mi.lineheightP(140);
     @include mi.letterSpacing(0);
+    white-space: nowrap;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
@@ -293,8 +296,8 @@ LAYOUT
     background: url(../img/iconCtaHeaderFixedSearch.svg) no-repeat center left;
     background-size: auto 80%;
     width: 75%;
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
 
 .closeHeaderFixedSearch {
@@ -324,8 +327,7 @@ LAYOUT
 .iconBtncloseHeaderFixedSearch {
     @include mi.ontenerWidth(148, 118);
     margin: auto;
-    background: url(../img/iconBtncloseHeaderFixedSearch.svg) no-repeat center
-        right;
+    background: url(../img/iconBtncloseHeaderFixedSearch.svg) no-repeat center right;
     background-size: auto 40%;
     @include mi.fontSizePc(14);
     @include mi.lineheightP(auto);

@@ -14,7 +14,7 @@
             </li>
 
             <li class="liTopContact">
-                <a class="d_flex j_center ali_center bg_795E55 cl_fff undernone kaku btnTopContact" href="<?php echo home_url('/contact/'); ?>">大量発注のご相談はこちら</a>
+                <a class="d_flex j_center ali_center bg_795E55 cl_fff undernone kaku btnTopContact" href="<?php echo home_url('/contact/'); ?>?genre=1">大量発注のご相談はこちら</a>
             </li>
 
             <li class="liTopContact">

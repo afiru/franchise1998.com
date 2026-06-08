@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -20,8 +20,7 @@ LAYOUT
     }
 }
 
-.footerTopFx {
-}
+.footerTopFx {}
 
 .footerLogoArea {
     @include mi.ontenerWidth(1300, 310);
@@ -91,8 +90,7 @@ LAYOUT
     }
 }
 
-.btnFooterSns {
-}
+.btnFooterSns {}
 
 .footerTopNavsArea {
     @include mi.ontenerWidth(1300, 885);
@@ -106,8 +104,7 @@ LAYOUT
     @include mi.ontenerWidth(885, 655);
 }
 
-.navFooterTopFx {
-}
+.navFooterTopFx {}
 
 .ulNavFooterTop {
     @include mi.ontenerWidth(655, 218);
@@ -178,12 +175,19 @@ LAYOUT
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+    transition-duration: .5s;
+    cursor: pointer;
 
     @include mi.mq(sp) {
         aspect-ratio: 160/42;
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
+    }
+
+    &:hover {
+        opacity: 0.7;
+
     }
 }
 
@@ -266,5 +270,4 @@ LAYOUT
     }
 }
 
-.btnOnleinInfoFooter {
-}
+.btnOnleinInfoFooter {}

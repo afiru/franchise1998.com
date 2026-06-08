@@ -50,7 +50,7 @@ LAYOUT
 
 .secBrandStory02 {
     @include mi.ontenerWidth(1300, 600);
-    @include mi.marginPercent(1300, -18, 0, 0, auto);
+    @include mi.marginPercent(1300, 0, 0, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);

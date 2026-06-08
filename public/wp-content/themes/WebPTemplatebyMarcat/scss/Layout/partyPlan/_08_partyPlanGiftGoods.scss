@@ -1,22 +1,23 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 
 .partyPlanGiftGoods {
-    @include mi.marginPercent(1920, 96, auto, 0, auto);
+    @include mi.paddingPercent(1920, 96, auto, 0, auto);
 
     @include mi.mq(sp) {
-        margin-top: 19%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: auto;
+        padding-top: 19%;
+        padding-bottom: 0%;
+        padding-left: auto;
+        padding-right: auto;
     }
 }
+
 .partyPlanGiftGoodsWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
@@ -25,23 +26,26 @@ LAYOUT
 }
 
 //
-.secPartyPlanGiftGoods {
-}
+.secPartyPlanGiftGoods {}
+
 .h2PartyPlanGiftGoods {
     @include mi.fontSizePc(16);
     @include mi.lineheight(16, 28);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
+
 .h3PartyPlanGiftGoods {
     @include mi.marginPercent(1300, 3, 0, 0, 0);
     @include mi.fontSizePc(60);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
+
     @include mi.mq(sp) {
         margin-top: 0.54%;
         margin-bottom: 0%;
@@ -52,11 +56,13 @@ LAYOUT
         @include mi.letterSpacing(100);
     }
 }
+
 .rubyPartyPlanGiftGoods {
     @include mi.marginPercent(1300, -3, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         margin-top: -2.46%;
         margin-bottom: 0%;
@@ -67,8 +73,10 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .productsPlanGiftGoods {
     @include mi.marginPercent(1300, 55, auto, 0, auto);
+
     @include mi.mq(sp) {
         margin-top: 11.23%;
         margin-bottom: 0%;
@@ -76,29 +84,35 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .titleProductsPlanGiftGoods {
     align-items: baseline;
+
     @include mi.mq(sp) {
         align-items: center;
     }
 }
+
 .h4TitleProductsPlanGiftGoods {
     @include mi.fontSizePc(30);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(100);
     width: fit-content;
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(30);
         @include mi.lineheightP(auto);
         @include mi.letterSpacing(100);
     }
 }
+
 .rubyTitleProductsPlanGiftGoods {
     @include mi.marginPercent(1300, 0, 0, 0, 15);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
     width: fit-content;
+
     @include mi.mq(sp) {
         margin: 0% 0% 0% 4%;
         @include mi.fontSizeSp(14);
@@ -110,6 +124,7 @@ LAYOUT
 .ulProductsPlanGiftGoods {
     @include mi.marginPercent(1300, 0, auto, 0, auto);
     flex-flow: row wrap;
+
     @include mi.mq(sp) {
         margin-top: 9.12%;
         margin-bottom: 0%;
@@ -117,13 +132,16 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .liProductsPlanGiftGoods {
     @include mi.ontenerWidth(1300, 291);
     @include mi.marginPercent(1300, 0, 45, 0, 0);
+
     @include mi.mq(sp) {
         width: 100%;
         margin: 0;
     }
+
     &:nth-child(n + 2) {
         @include mi.mq(sp) {
             margin-top: 8.5%;
@@ -132,8 +150,10 @@ LAYOUT
             margin-right: auto;
         }
     }
+
     &:nth-child(n + 5) {
         @include mi.marginPercent(1300, 45, 45, 0, 0);
+
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 30, auto, 0, auto);
         }
@@ -143,17 +163,21 @@ LAYOUT
         margin-right: 0;
     }
 }
+
 .liProductsPlanGiftGoodsFx {
     @include mi.marginPercent(291, 20, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
         @include mi.marginPercent(330, 0, 0, 0, 0);
     }
+
     &:nth-child(n + 2) {
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 30, auto, 0, auto);
         }
     }
+
     &:nth-child(n + 5) {
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 30, auto, 0, auto);
@@ -164,34 +188,42 @@ LAYOUT
         margin-right: 0;
     }
 }
+
 .photoProductsPlanGiftGoods {
     width: 100%;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 153);
     }
 }
+
 .secProductsPlanGiftGoods {
     @include mi.marginPercent(291, 13, 0, 0, 0);
+
     @include mi.mq(sp) {
         margin: -1.5% 0% 0% 0%;
         @include mi.ontenerWidth(330, 171);
     }
 }
+
 .h4ProductsPlanGiftGoods {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
+
 .priceProductsPlanGiftGoods {
     @include mi.marginPercent(291, 3, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(50);
+
     @include mi.mq(sp) {
         margin-top: 1.77%;
         margin-bottom: 0%;
@@ -202,11 +234,13 @@ LAYOUT
         @include mi.letterSpacing(50);
     }
 }
+
 .txtProductsPlanGiftGoods {
     @include mi.marginPercent(291, 9, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         margin-top: 3%;
         margin-bottom: 0%;
@@ -217,11 +251,13 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .txtDetailDrinkMenuOther {
     @include mi.marginPercent(1300, 45, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 30, auto, 0, auto);
         @include mi.fontSizeSp(10);
@@ -232,6 +268,7 @@ LAYOUT
 
 .productsPlanGiftGoods02 {
     @include mi.marginPercent(1300, 67, 0, 0, 0);
+
     @include mi.mq(sp) {
         margin-top: 18.21%;
         margin-bottom: 0%;
@@ -239,14 +276,17 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .btnDetailGiftGoodsLxn {
     @include mi.marginPercent(1300, 40, auto, 0, auto);
     @include mi.ontenerWidth(1100, 260);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 30, auto, 0, auto);
         @include mi.ontenerWidth(330, 260);
     }
 }
+
 .btnDetailGiftGoods {
     @include mi.kadomaru(30px);
     aspect-ratio: 260/50;
@@ -254,6 +294,7 @@ LAYOUT
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
     text-decoration: none;
+
     @include mi.mq(sp) {
         aspect-ratio: 260/50;
         @include mi.fontSizeSp(14);

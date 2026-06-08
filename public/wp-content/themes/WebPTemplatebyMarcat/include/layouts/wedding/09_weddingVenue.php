@@ -36,7 +36,7 @@
                             <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/wedding/photoWeddingVenue02Pc.png'); ?>" alt="<?php echo esc_attr('趣の異なる多彩な５つのパーティ会場'); ?>" width="305" height="195">
                         </picture>
                     </figure>
-                    <p class="cl_453C3C fw_500 txtset rubyWeddingVenue">趣の異なる多彩な５つのパーティ会場</p>
+                    <p class="cl_453C3C fw_500 txtset rubyWeddingVenue">趣の異なる多彩な５つのパーティー会場</p>
                 </li>
 
                 <li class="liWeddingVenue">
@@ -55,15 +55,15 @@
                         <picture>
                             <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/wedding/photoWeddingVenue04Pc.png'); ?>">
                             <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/wedding/photoWeddingVenue04Sp.png'); ?>">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/wedding/photoWeddingVenue04Pc.png'); ?>" alt="<?php echo esc_attr('親しい方と過ごす少人数のパーティ'); ?>" width="305" height="195">
+                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/wedding/photoWeddingVenue04Pc.png'); ?>" alt="<?php echo esc_attr('親しい方と過ごす少人数のパーティー'); ?>" width="305" height="195">
                         </picture>
                     </figure>
-                    <p class="cl_453C3C fw_500 txtset rubyWeddingVenue">親しい方と過ごす少人数のパーティ</p>
+                    <p class="cl_453C3C fw_500 txtset rubyWeddingVenue">親しい方と過ごす少人数のパーティー</p>
                 </li>
             </ul>
 
             <p class="t_center cl_453C3C fw_500 txtset txtWeddingVenue02">
-                100名を超える華やかなパーティから、家族や親しい友人と過ごすあたたかな少人数のパーティまで。<br>
+                100名を超える華やかなパーティーから、家族や親しい友人と過ごすあたたかな少人数のパーティーまで。<br>
                 大阪で結婚式をお考えの方はぜひ、ご相談ください。
             </p>
 

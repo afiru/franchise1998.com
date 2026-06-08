@@ -1,13 +1,14 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .voiceLoop {
     @include mi.marginPercent(1920, 44, auto, 0, auto);
+
     @include mi.mq(sp) {
         margin-top: 9%;
         margin-bottom: 0%;
@@ -15,21 +16,26 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .voiceLoopWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
+
 .ulVoiceLoop {
     @include mi.paddingPercent(1300, 0, 0, 30, 0);
     border-bottom: 1px solid #ebebeb;
+
     @include mi.mq(sp) {
         @include mi.paddingPercent(330, 0, 0, 40, 0);
     }
 }
+
 .liVoiceLoop {
     &:nth-child(n + 2) {
         @include mi.marginPercent(1300, 25, auto, 0, auto);
+
         @include mi.mq(sp) {
             margin-top: 6%;
             margin-bottom: 0%;
@@ -38,21 +44,25 @@ LAYOUT
         }
     }
 }
+
 .timeVoiceLoop {
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(20);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(20);
     }
 }
+
 .h3VoiceLoop {
     @include mi.marginPercent(1300, 2, auto, 0, auto);
     @include mi.fontSizePc(18);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         margin-top: 0;
         margin-bottom: 0%;
@@ -63,9 +73,11 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .cntVoiceLoop {
     @include mi.marginPercent(1300, 14, auto, 0, auto);
     @include mi.paddingPercent(1300, 13, 0, 16, 0);
+
     @include mi.mq(sp) {
         margin-top: 2.4%;
         margin-bottom: 0%;
@@ -74,16 +86,21 @@ LAYOUT
         padding: 4.06% 0% 4.06% 0%;
     }
 }
+
 .cntVoiceLoopLxn {
     @include mi.ontenerWidth(1300, 1252);
     margin: auto;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 300);
     }
+
     p {
         @include mi.fontSizePc(16);
         @include mi.lineheightP(180);
         @include mi.letterSpacing(0);
+        font-weight: 400;
+
         @include mi.mq(sp) {
             @include mi.fontSizeSp(13);
             @include mi.lineheightP(160);
@@ -94,6 +111,7 @@ LAYOUT
 
 .pagerVoiceUp {
     @include mi.marginPercent(1300, 14, auto, 0, auto);
+
     @include mi.mq(sp) {
         margin-top: 11.12%;
         margin-bottom: 0%;
@@ -101,19 +119,23 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .pagerVoiceUptxt {
     @include mi.fontSizePc(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
+
 //ページャー
 .pagerVoice {
     @include mi.marginPercent(1300, 37, auto, 0, auto);
+
     @include mi.mq(sp) {
         margin-top: 14.6%;
         margin-bottom: 0%;
@@ -121,6 +143,7 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .pagerVoice .wp-pagenavi {
     display: flex;
     align-items: center;
@@ -157,10 +180,12 @@ LAYOUT
             min-width: auto;
         }
     }
+
     .current {
         background: #f04e11;
         color: #fff;
     }
+
     .previouspostslink {
         @include mi.ontenerWVw(1920, 50);
         @include mi.marginVw(1920, 0, 11, 0, 0);
@@ -172,6 +197,7 @@ LAYOUT
         min-width: 50px;
         background: #f1ece8;
         color: #f04e11;
+
         @include mi.mq(sp) {
             @include mi.marginVw(375, 0, 13, 0, 0);
             @include mi.ontenerWVw(375, 38);
@@ -180,6 +206,7 @@ LAYOUT
             min-width: auto;
         }
     }
+
     .nextpostslink {
         @include mi.ontenerWVw(1920, 50);
         @include mi.marginVw(1920, 0, 0, 0, 11);
@@ -192,6 +219,7 @@ LAYOUT
         background: #f1ece8;
         color: #f04e11;
         order: 9;
+
         @include mi.mq(sp) {
             @include mi.marginVw(375, 0, 0, 0, 13);
             @include mi.ontenerWVw(375, 38);
@@ -200,6 +228,7 @@ LAYOUT
             min-width: auto;
         }
     }
+
     .last {
         @include mi.ontenerWVw(1920, 33);
         margin: 0vw 0.6vw 0vw 0vw;
@@ -216,6 +245,7 @@ LAYOUT
         transition-duration: 0.5s;
         text-decoration: none;
         min-width: 33px;
+
         @include mi.mq(sp) {
             @include mi.marginVw(375, 0, 8, 0, 8);
             @include mi.ontenerWVw(375, 25);

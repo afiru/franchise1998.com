@@ -28,9 +28,9 @@
                     <li class="liHeaderFixedSearch">
                         <a class="btnHeaderFixedSearch" href="<?php echo home_url('/products/product-category/baked-goods-and-gifts/'); ?>">
                             <figure class="picHeaderFixedSearch">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch03.png'); ?>" alt="<?php echo esc_attr('焼菓子・ギフト'); ?>" width="100" height="100">
+                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch03.png'); ?>" alt="<?php echo esc_attr('焼き菓子・ギフト'); ?>" width="100" height="100">
                             </figure>
-                            <p class="t_center cl_453C3C fw_500 txtset rubyHeaderFixedSearch">焼菓子・ギフト</p>
+                            <p class="t_center cl_453C3C fw_500 txtset rubyHeaderFixedSearch">焼き菓子・ギフト</p>
                         </a>
                     </li>
 

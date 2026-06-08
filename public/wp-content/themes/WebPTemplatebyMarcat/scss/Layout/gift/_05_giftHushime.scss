@@ -1,41 +1,47 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 
 .giftHushime {
-    @include mi.marginPercent(1920, 85, auto, 0, auto);
+    @include mi.paddingPercent(1920, 85, auto, 0, auto);
+
     @include mi.mq(sp) {
-        margin-top: 24.66%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: auto;
+        padding-top: 24.66%;
+        padding-bottom: 0%;
+        padding-left: auto;
+        padding-right: auto;
     }
 }
+
 .giftHushimeWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
+
 .h2GiftHushime {
     @include mi.fontSizePc(30);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(20);
     }
 }
+
 .rubyGiftHushime {
     @include mi.marginPercent(1300, 15, auto, 0, auto);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         margin-top: 5.09%;
         margin-bottom: 0%;
@@ -46,8 +52,10 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .ulGiftHushime {
     @include mi.marginPercent(1300, 42, auto, 0, auto);
+
     @include mi.mq(sp) {
         margin-top: 7.09%;
         margin-bottom: 0%;
@@ -56,54 +64,66 @@ LAYOUT
         justify-content: space-between;
     }
 }
+
 .liGiftHushime {
     @include mi.marginPercent(1300, 0, 39, 0, 0);
     @include mi.paddingPercent(1300, 24, 0, 19, 0);
     @include mi.ontenerWidth(1300, 407);
     @include mi.kadomaru(10px);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 0, 0, 0, 0);
         padding: 4.36% 0% 4.54% 0%;
         @include mi.ontenerWidth(330, 159);
     }
+
     &:nth-child(n + 3) {
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 12, 0, 0, 0);
         }
     }
+
     &:nth-child(n + 4) {
         @include mi.marginPercent(1300, 40, 39, 0, 0);
+
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 12, 0, 0, 0);
         }
     }
+
     &:nth-child(3n) {
         margin-right: 0;
     }
 }
+
 .liGiftHushimeLxn {
     @include mi.ontenerWidth(407, 365);
     margin: auto;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(159, 135);
     }
 }
+
 .h3GiftHushimeLxn {
     @include mi.fontSizePc(20);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(50);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(140);
         @include mi.letterSpacing(0);
     }
 }
+
 .photoGiftHushime {
     @include mi.marginPercent(365, 29, auto, 0, auto);
     position: relative;
     @include mi.kadomaru(10px);
     overflow: hidden;
     aspect-ratio: 365/183;
+
     @include mi.mq(sp) {
         margin-top: 5.62%;
         margin-bottom: 0%;
@@ -118,6 +138,7 @@ LAYOUT
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         margin-top: 8.37%;
         margin-bottom: 0%;
@@ -128,12 +149,16 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .txtGiftHushime {
     @include mi.marginPercent(365, 1, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+    aspect-ratio: 350 / 65;
+
     @include mi.mq(sp) {
+        aspect-ratio: unset;
         margin-top: 5.07%;
         margin-bottom: 0%;
         margin-left: auto;
@@ -143,9 +168,11 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .btnGiftHushimeLxn {
     @include mi.marginPercent(365, 36, auto, 0, auto);
     @include mi.ontenerWidth(365, 178);
+
     @include mi.mq(sp) {
         margin-top: 8.92%;
         margin-bottom: 0%;
@@ -154,6 +181,7 @@ LAYOUT
         @include mi.ontenerWidth(135, 120);
     }
 }
+
 .btnGiftHushime {
     width: 100%;
     @include mi.kadomaru(30px);
@@ -180,6 +208,7 @@ LAYOUT
         opacity: 0.6;
     }
 }
+
 .iconBtnGiftHushime {
     width: 88%;
     background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;

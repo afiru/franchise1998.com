@@ -191,7 +191,7 @@ LAYOUT
 }
 
 .rubyMemberPresentMain {
-    @include mi.marginPercent(366, 15, auto, 0, auto);
+    @include mi.marginPercent(366, -1, auto, 0, auto);
     @include mi.fontSizePc(20);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);

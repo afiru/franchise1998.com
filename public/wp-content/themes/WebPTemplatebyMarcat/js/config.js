@@ -1,7 +1,10 @@
+// グローバル Lenis インスタンス
+let lenis = null;
+
 // DOM が完全に読み込まれてから実行
 document.addEventListener('DOMContentLoaded', () => {
     if (typeof Lenis !== 'undefined') {
-        const lenis = new Lenis({
+        lenis = new Lenis({
             smooth: true
         });
 
@@ -18,30 +21,57 @@ document.addEventListener('DOMContentLoaded', () => {
 //スムーススクロール
 $(window).on('load', function () {
     let urlHash = location.hash;
+    // URLにハッシュがある場合
     if (urlHash) {
-        $('body,html').stop().scrollTop(0);
-        var target = $(urlHash);
-        var position = target.offset().top;
-        $('body,html').stop().animate({
-            scrollTop: position
+        setTimeout(() => {
+            const target = $(urlHash);
+            if (target.length) {
+                scrollToElement(target);
+            }
         }, 500);
     }
-    $('a[href^="#"]').click(function () {
-        var href = $(this).attr("href");
-        var target = $(href);
-        var position = target.offset().top;
-        $('body,html').stop().animate({
-            scrollTop: position
-        }, 500);
+
+    // アンカーリンククリック
+    $('a[href^="#"]').on('click', function (e) {
+        const href = $(this).attr('href');
+        if (href === '#') return;
+        const target = $(href);
+        if (target.length) {
+            e.preventDefault();
+            scrollToElement(target);
+        }
     });
 });
+
+function scrollToElement(target) {
+
+    const headerOffset = $('.baseHeader').outerHeight() || 0;
+
+    if (lenis) {
+
+        lenis.scrollTo(target[0], {
+            offset: -headerOffset,
+            duration: 1.2
+        });
+
+    } else {
+
+        const position = target.offset().top - headerOffset;
+
+        $('html, body').stop().animate({
+            scrollTop: position
+        }, 500);
+
+    }
+
+}
 
 $(window).scroll(function () {
     let trigger;
 
     if ($(window).width() <= 375) {
         // SP
-        trigger = $(window).width() * 2.0107; // 201.07vw
+        trigger = $(window).width() * 1.0107; // 201.07vw
     } else {
         // PC
         trigger = $(window).width() * 0.4984; // 49.84vw
@@ -56,7 +86,15 @@ $(window).scroll(function () {
     }
 });
 
-
+//商品並び替え
+const sortSelect = document.getElementById('sort-select');
+if (sortSelect) {
+    sortSelect.addEventListener('change', function () {
+        if (this.value) {
+            location.href = this.value;
+        }
+    });
+}
 
 window.addEventListener('load', function () {
     //
@@ -200,6 +238,7 @@ window.addEventListener('load', function () {
         thumbs: {
             swiper: thumbSwiper,
         },
+        allowTouchMove: false, // ドラッグでのスクロール無効
     });
 
 });

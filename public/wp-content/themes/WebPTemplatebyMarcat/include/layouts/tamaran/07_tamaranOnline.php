@@ -23,45 +23,49 @@
                     </p>
                     <ul class="d_flex j_start row ulTotamaranOnline">
                         <li class="liTotamaranOnline">
+                            <a href="https://selvice-lifedesign.jp/shopdetail/000000000072/" target="_blank">
+                                <picture>
+                                    <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline01Pc.svg'); ?>">
+                                    <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline01Sp.svg'); ?>">
+                                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline01Pc.svg'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
+                                </picture>
+                            </a>
+                        </li>
+                        <li class="liTotamaranOnline">
+                            <a href="https://item.rakuten.co.jp/selvice/fc-tamaran-cheese/" target="_blank">
+                                <picture>
+                                    <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline02Pc.svg'); ?>">
+                                    <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline02Sp.svg'); ?>">
+                                    <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline02Pc.svg'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
+                                </picture>
+                            </a>
+                        </li>
+                        <li class="liTotamaranOnline">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline01Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline01Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline01Pc.png'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
+                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline03Pc.svg'); ?>">
+                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline03Sp.svg'); ?>">
+                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline03Pc.svg'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
                             </picture>
                         </li>
                         <li class="liTotamaranOnline">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline02Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline02Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline02Pc.png'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
+                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline04Pc.svg'); ?>">
+                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline04Sp.svg'); ?>">
+                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline04Pc.svg'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
                             </picture>
                         </li>
                         <li class="liTotamaranOnline">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline03Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline03Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline03Pc.png'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
+                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline05Pc.svg'); ?>">
+                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline05Sp.svg'); ?>">
+                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline05Pc.svg'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
                             </picture>
                         </li>
                         <li class="liTotamaranOnline">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline04Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline04Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline04Pc.png'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
-                            </picture>
-                        </li>
-                        <li class="liTotamaranOnline">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline05Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline05Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline05Pc.png'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
-                            </picture>
-                        </li>
-                        <li class="liTotamaranOnline">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline06Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline06Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline06Pc.png'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
+                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline06Pc.svg'); ?>">
+                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline06Sp.svg'); ?>">
+                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/tamaran/liTotamaranOnline06Pc.svg'); ?>" alt="<?php echo esc_attr(''); ?>" width="146" height="40">
                             </picture>
                         </li>
                     </ul>

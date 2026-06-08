@@ -9,10 +9,10 @@
 <?php get_template_part('include/common/header/header'); ?>
 <main class="mainUnder mainAbout">
     <?php get_template_part('include/layouts/productTop/01_productTopFv'); ?>
-    <div class="ovhidden prodoctLoop">
+    <div class=" prodoctLoop">
         <div class="wapper prodoctLoopWap">
             <div class="d_flex j_between row prodoctLoopFx">
-                <div class="sidebarProdoctLoop">
+                <div class="sidebarProdoctLoop" data-lenis-prevent>
                     <?php get_template_part('include/layouts/productTop/02_sidebarProduct'); ?>
                 </div>
                 <div class="mainProdctLoop">

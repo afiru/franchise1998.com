@@ -8,21 +8,21 @@
 
         <ul class="d_flex j_start ulPartyPlanSideMenu">
             <?php foreach (scf::get('loopSideMenu') as $fields): ?>
-            <li class="liPartyPlanSideMenu">
-                <div class="d_flex j_between row liPartyPlanSideMenuFx">
-                    <figure class="photoPartyPlanSideMenu">
-                        <?php $img = get_scf_img_loop_url_id($fields['imgsSideMenu']); ?>
-                        <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleSideMenu']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
-                    </figure>
-                    <section class="secPartyPlanSideMenuFx">
-                        <h4 class="cl_772D2D fw_500 txtset h4PartyPlanSideMenu"><?php echo $fields['titleSideMenu']; ?></h4>
-                        <p class="cl_772D2D fw_600 txtset pricePartyPlanSideMenu"><?php echo $fields['priceSideMenu']; ?></p>
-                    </section>
-                </div>
-                <p class="cl_453C3C fw_400 txtset text_justify txtPartyPlanSideMenu">
-                    <?php echo nl2br($fields['txtSideMenu']); ?>
-                </p>
-            </li>
+                <li class="liPartyPlanSideMenu">
+                    <div class="d_flex j_between row liPartyPlanSideMenuFx">
+                        <figure class="photoPartyPlanSideMenu">
+                            <?php $img = get_scf_img_loop_url_id($fields['imgsSideMenu']); ?>
+                            <img loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo $fields['titleSideMenu']; ?>写真" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
+                        </figure>
+                        <section class="secPartyPlanSideMenuFx">
+                            <h4 class="cl_772D2D fw_500 txtset h4PartyPlanSideMenu"><?php echo $fields['titleSideMenu']; ?></h4>
+                            <p class="cl_772D2D fw_600 txtset pricePartyPlanSideMenu"><?php echo $fields['priceSideMenu']; ?></p>
+                        </section>
+                    </div>
+                    <p class="cl_453C3C fw_400 txtset text_justify txtPartyPlanSideMenu">
+                        <?php echo nl2br($fields['txtSideMenu']); ?>
+                    </p>
+                </li>
 
             <?php endforeach; ?>
 
@@ -32,7 +32,7 @@
             ※写真はイメージです。※掲載の商品以外にもお取り扱いがございます。お気軽にお問い合わせください。
         </p>
         <div class="btnDetailSideMenuLxn">
-            <a class="d_flex j_center ali_center bg_F28962 kaku cl_fff undernone btnDetailSideMenu" href="">
+            <a class="d_flex j_center ali_center bg_F28962 kaku cl_fff undernone btnDetailSideMenu" href="#booking">
                 ご注文・商品受け取り方法について
             </a>
         </div>
