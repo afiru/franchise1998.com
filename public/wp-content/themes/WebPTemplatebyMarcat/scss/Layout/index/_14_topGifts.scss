@@ -55,7 +55,7 @@ LAYOUT
 
 .ulTopGifts {
     @include mi.marginPercent(1300, 24, auto, 0, auto);
-
+    opacity: 0;
     @include mi.mq(sp) {
         margin: 6.09% 0% 0% 0%;
     }
@@ -63,7 +63,7 @@ LAYOUT
 
 .liTopGifts {
     @include mi.ontenerWidth(1300, 620);
-
+    // opacity: 0;
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
     }

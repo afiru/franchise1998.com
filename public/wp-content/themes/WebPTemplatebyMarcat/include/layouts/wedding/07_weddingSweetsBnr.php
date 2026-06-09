@@ -21,7 +21,7 @@
                         お好きなデザインでお作りいただけます。<br class="sp_only">納期は10日前後ですので、<br class="sp_only">お早めにご依頼ください。
                     </p>
                     <div class="btnWeddingSweetsBnrlxn">
-                        <a class="d_flex j_center ali_center cl_fff undernone fw_400kaku btnWeddingSweetsBnr" href="https://sunplads-staging2.com/test_up/kobe/franchise1998.com/printedsweets/" target="_blank">
+                        <a class="d_flex j_center ali_center cl_fff undernone fw_400kaku btnWeddingSweetsBnr" href="https://sunplads-staging2.com/test_up/kobe/franchise1998.com/printedsweets/" target="_self">
                             <span class="iconBtnWeddingSweetsBnr">詳しく見る</span>
                             <!--bg:../img/wedding/iconBtnWeddingSweetsBnr.svg-->
                         </a>

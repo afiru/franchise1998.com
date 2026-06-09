@@ -9,18 +9,75 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -38,8 +95,17 @@ body {
   line-height: 1;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -47,12 +113,15 @@ nav ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -63,6 +132,7 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  text-decoration-thickness: 1px;
 }
 
 /* change colours to suit your needs */
@@ -84,7 +154,8 @@ del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
@@ -104,7 +175,8 @@ hr {
   padding: 0;
 }
 
-input, select {
+input,
+select {
   vertical-align: middle;
 }
 
@@ -3045,8 +3117,8 @@ LAYOUT
 }
 
 .mainIndex .activeImg img {
-  filter: blur(0px);
-  transform: unset;
+  filter: blur(0px) !important;
+  transform: unset !important;
 }
 
 /* ==========================================================================
@@ -3099,6 +3171,12 @@ LAYOUT
     background-size: cover;
     background-attachment: scroll;
   }
+}
+
+.secTopMade {
+  transform: translate3d(0px, 20px, 0px);
+  filter: blur(5px);
+  opacity: 0;
 }
 
 .h2TopMade {
@@ -3722,6 +3800,13 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.picTopCollection img {
+  width: 100%;
+  filter: blur(5px);
+  transition-duration: 1s;
+  transform: scale(1.05);
 }
 
 .txtTopCollection {
@@ -4464,6 +4549,9 @@ LAYOUT
     width: 13.84%;
   }
 }
+.liTopSelect {
+  opacity: 0;
+}
 @media screen and (max-width: 767px) {
   .liTopSelect {
     width: 100px;
@@ -4786,6 +4874,7 @@ LAYOUT
 }
 .topPicUpLxn {
   position: relative;
+  opacity: 0;
 }
 @media screen and (max-width: 767px) {
   .topPicUpLxn {
@@ -5179,6 +5268,9 @@ LAYOUT
     margin: 1.84% 0% 0% 0%;
   }
 }
+.instagramFeed {
+  opacity: 0;
+}
 @media screen and (max-width: 767px) {
   .instagramFeed {
     margin: 7.5% 0% 0% 0%;
@@ -5432,6 +5524,9 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
   }
+}
+.ulTopGifts {
+  opacity: 0;
 }
 @media screen and (max-width: 767px) {
   .ulTopGifts {
@@ -5761,6 +5856,12 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.secTopThinks {
+  transform: translate3d(0px, 20px, 0px);
+  filter: blur(5px);
+  opacity: 0;
 }
 
 .h2TopThinks {
@@ -31994,6 +32095,11 @@ LAYOUT
     width: 47.87%;
   }
 }
+@media screen and (max-width: 767px) {
+  .liWeddingVenue:nth-child(n+3) {
+    margin: 4% 0 0 0;
+  }
+}
 
 .liWeddingVenue .photoWeddingVenue {
   margin: 0;
@@ -34891,13 +34997,13 @@ LAYOUT
 
 .txtAccessShops {
   margin-top: 8px;
-  margin-bottom: 1px;
+  margin-bottom: 8px;
   margin-left: 0px;
   margin-right: 0px;
 }
 @media screen and (max-width: 1299px) {
   .txtAccessShops {
-    margin: 2.74% 0% 0.34% 0%;
+    margin: 2.74% 0% 2.74% 0%;
   }
 }
 .txtAccessShops {
@@ -34915,7 +35021,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .txtAccessShops {
-    margin: 2.19% 0% 2.55% 0%;
+    margin: 2.19% 0% 5.55% 0%;
     line-height: 154%;
     letter-spacing: 0em;
     aspect-ratio: 157/80;
@@ -41108,6 +41214,20 @@ LAYOUT
   top: 0;
   bottom: 0;
   margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: auto !important;
+  height: auto !important;
+  transition-duration: 0.5s;
+}
+
+.imgpicSliderTopSliders {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   width: 100%;
   height: 100%;
   margin: auto;
@@ -45512,7 +45632,7 @@ LAYOUT
   }
 }
 .selectOrderFormCnt {
-  margin: auto;
+  margin: 0 0 0 auto;
   border-radius: 6px;
   /* CSS3草案 */
   -webkit-border-radius: 6px;
@@ -45601,6 +45721,17 @@ LAYOUT
   .selectedOrderFormCntBx {
     font-size: 3.7333333333vw;
   }
+}
+
+.selectedOrderFormCntBx select option {
+  background-color: #fff;
+  border-radius: 6px;
+  /* CSS3草案 */
+  -webkit-border-radius: 6px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 6px;
+  /* Firefox用 */
+  border: unset;
 }
 
 /* ==========================================================================
@@ -50273,6 +50404,30 @@ and open the template in the editor.
     transform: translate3d(0px, 0px, 0px);
   }
 }
+@keyframes fadein_sc_top2606 {
+  0% {
+    transform: translate3d(0px, 20px, 0px);
+    filter: blur(5px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadein_sc_top2606_02 {
+  0% {
+    transform: scale(1.05);
+    filter: blur(5px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 @keyframes fadein_sc_left {
   0% {
     opacity: 0;
@@ -50302,11 +50457,11 @@ and open the template in the editor.
   }
 }
 .opacity_0_fade_set {
-  transform: translate3d(0px, 20px, 0px);
-  opacity: 0;
-}
-.opacity_0_fade_set.active {
   animation: fadein_sc_top 0.75s ease 0.35s forwards alternate;
+}
+
+.opacity_0_fade_set2606 {
+  animation: fadein_sc_top2606 1.2s ease 0.5s forwards alternate;
 }
 
 .opacity_0_fadeleft_in {
@@ -50372,6 +50527,49 @@ and open the template in the editor.
 }
 .opacity_0_list_fade_set.active > li:nth-child(12) {
   animation: fadein_sc_top 0.75s ease 4.2s forwards alternate;
+}
+
+.opacity_list_0_fade_set2606 > li {
+  transform: translate3d(0px, 20px, 0px);
+  position: relative;
+  filter: blur(5px);
+  opacity: 0;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(1) {
+  animation: fadein_sc_top2606_02 0.5s ease 0.1s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(2) {
+  animation: fadein_sc_top2606_02 0.5s ease 0.2s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(3) {
+  animation: fadein_sc_top2606_02 0.5s ease 0.3s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(4) {
+  animation: fadein_sc_top2606_02 0.5s ease 0.4s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(5) {
+  animation: fadein_sc_top2606_02 0.5s ease 0.5s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(6) {
+  animation: fadein_sc_top2606_02 0.5s ease 0.6s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(7) {
+  animation: fadein_sc_top2606_02 0.5s ease 0.7s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(8) {
+  animation: fadein_sc_top2606_02 0.5s ease 0.8s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(9) {
+  animation: fadein_sc_top2606_02 0.5s ease 0.9s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(10) {
+  animation: fadein_sc_top2606_02 0.5s ease 1s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(11) {
+  animation: fadein_sc_top2606_02 0.5s ease 1.1s forwards alternate;
+}
+.opacity_list_0_fade_set2606.active > li:nth-child(12) {
+  animation: fadein_sc_top2606_02 0.5s ease 1.2s forwards alternate;
 }
 
 .listcnt .moveList {

@@ -78,7 +78,7 @@ LAYOUT
 
 .instagramFeed {
     @include mi.marginPercent(1300, 24, 0, 0, 0);
-
+    opacity: 0;
     @include mi.mq(sp) {
         margin: 7.5% 0% 0% 0%;
     }

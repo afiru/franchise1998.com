@@ -29,6 +29,33 @@
     }
 }
 
+@keyframes fadein_sc_top2606 {
+    0% {
+        transform: translate3d(0px, 20px, 0px);
+        filter: blur(5px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+@keyframes fadein_sc_top2606_02 {
+    0% {
+        transform: scale(1.05);
+        filter: blur(5px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
 @keyframes fadein_sc_left {
     0% {
         opacity: 0;
@@ -64,13 +91,13 @@
 }
 
 .opacity_0_fade_set {
-    transform: translate3d(0px, 20px, 0px);
-    opacity: 0;
+    -webkit-animation: fadein_sc_top 0.75s ease 0.35s forwards alternate;
+    animation: fadein_sc_top 0.75s ease 0.35s forwards alternate;
+}
 
-    &.active {
-        -webkit-animation: fadein_sc_top 0.75s ease 0.35s forwards alternate;
-        animation: fadein_sc_top 0.75s ease 0.35s forwards alternate;
-    }
+.opacity_0_fade_set2606 {
+    -webkit-animation: fadein_sc_top2606 1.2s ease 0.5s forwards alternate;
+    animation: fadein_sc_top2606 1.2s ease 0.5s forwards alternate;
 }
 
 .opacity_0_fadeleft_in {
@@ -103,22 +130,61 @@
 }
 
 .opacity_0_list_fade_set {
-
-    &>li {
+    & > li {
         transform: translate3d(0px, 20px, 0px);
         opacity: 0;
         position: relative;
     }
 
     &.active {
-
-        &>li {
+        & > li {
             @for $var from 1 through 12 {
-                $delay: 0.35*$var;
+                $delay: 0.35 * $var;
 
                 &:nth-child(#{$var}) {
-                    -webkit-animation: fadein_sc_top 0.75s ease #{$delay}s forwards alternate;
-                    animation: fadein_sc_top 0.75s ease #{$delay}s forwards alternate;
+                    -webkit-animation: fadein_sc_top
+                        0.75s
+                        ease
+                        #{$delay}s
+                        forwards
+                        alternate;
+                    animation: fadein_sc_top
+                        0.75s
+                        ease
+                        #{$delay}s
+                        forwards
+                        alternate;
+                }
+            }
+        }
+    }
+}
+.opacity_list_0_fade_set2606 {
+    & > li {
+        transform: translate3d(0px, 20px, 0px);
+        position: relative;
+        filter: blur(5px);
+        opacity: 0;
+    }
+
+    &.active {
+        & > li {
+            @for $var from 1 through 12 {
+                $delay: 0.1 * $var;
+
+                &:nth-child(#{$var}) {
+                    -webkit-animation: fadein_sc_top2606_02
+                        0.5s
+                        ease
+                        #{$delay}s
+                        forwards
+                        alternate;
+                    animation: fadein_sc_top2606_02
+                        0.5s
+                        ease
+                        #{$delay}s
+                        forwards
+                        alternate;
                 }
             }
         }
@@ -132,10 +198,15 @@
 
     &.active .moveList {
         @for $var from 1 through 10 {
-            $delay: 0.15*$var;
+            $delay: 0.15 * $var;
 
             &:nth-child(#{$var}) {
-                -webkit-animation: fadein_in 0.75s ease #{$delay}s forwards alternate;
+                -webkit-animation: fadein_in
+                    0.75s
+                    ease
+                    #{$delay}s
+                    forwards
+                    alternate;
                 animation: fadein_in 0.75s ease #{$delay}s forwards alternate;
             }
         }
@@ -149,11 +220,21 @@
 
     &.active .moveList {
         @for $var from 1 through 10 {
-            $delay: 0.25*$var;
+            $delay: 0.25 * $var;
 
             &:nth-child(#{$var}) {
-                -webkit-animation: fadein_sc_top2 0.75s ease-in #{$delay}s forwards alternate;
-                animation: fadein_sc_top2 0.75s ease-in #{$delay}s forwards alternate;
+                -webkit-animation: fadein_sc_top2
+                    0.75s
+                    ease-in
+                    #{$delay}s
+                    forwards
+                    alternate;
+                animation: fadein_sc_top2
+                    0.75s
+                    ease-in
+                    #{$delay}s
+                    forwards
+                    alternate;
             }
         }
     }
@@ -165,9 +246,13 @@
     }
 
     .listcntmainasu.active .moveList#{$var} {
-
-        $delay: 0.25*$var;
-        -webkit-animation: fadein_sc_top2 0.75s ease-in #{$delay}s forwards alternate;
+        $delay: 0.25 * $var;
+        -webkit-animation: fadein_sc_top2
+            0.75s
+            ease-in
+            #{$delay}s
+            forwards
+            alternate;
         animation: fadein_sc_top2 0.75s ease-in #{$delay}s forwards alternate;
     }
 }
@@ -179,19 +264,28 @@
 
     &.active .moveList {
         @for $var from 1 through 12 {
-            $delay: 0.15*$var;
+            $delay: 0.15 * $var;
 
             &:nth-child(#{$var}) {
-                -webkit-animation: fadein_sc_left 0.75s ease #{$delay}s forwards alternate;
-                animation: fadein_sc_left 0.75s ease #{$delay}s forwards alternate;
+                -webkit-animation: fadein_sc_left
+                    0.75s
+                    ease
+                    #{$delay}s
+                    forwards
+                    alternate;
+                animation: fadein_sc_left
+                    0.75s
+                    ease
+                    #{$delay}s
+                    forwards
+                    alternate;
             }
         }
     }
 }
 
 .opacity_0_list_left_fade_set {
-
-    &>li,
+    & > li,
     section,
     div,
     tr,
@@ -201,8 +295,7 @@
     }
 
     &.active {
-
-        &>li,
+        & > li,
         section,
         div,
         p,
@@ -212,11 +305,21 @@
         h5,
         figure {
             @for $var from 1 through 12 {
-                $delay: 0.35*$var;
+                $delay: 0.35 * $var;
 
                 &:nth-child(#{$var}) {
-                    -webkit-animation: fadein_sc_left 0.75s ease #{$delay}s forwards alternate;
-                    animation: fadein_sc_left 0.75s ease #{$delay}s forwards alternate;
+                    -webkit-animation: fadein_sc_left
+                        0.75s
+                        ease
+                        #{$delay}s
+                        forwards
+                        alternate;
+                    animation: fadein_sc_left
+                        0.75s
+                        ease
+                        #{$delay}s
+                        forwards
+                        alternate;
                 }
             }
         }
@@ -224,8 +327,7 @@
 }
 
 .opacity_0_list_right_fade_set {
-
-    &>li,
+    & > li,
     section,
     div,
     tr,
@@ -235,8 +337,7 @@
     }
 
     &.active {
-
-        &>li,
+        & > li,
         section,
         div,
         p,
@@ -246,11 +347,21 @@
         h5,
         figure {
             @for $var from 1 through 12 {
-                $delay: 0.35*$var;
+                $delay: 0.35 * $var;
 
                 &:nth-child(#{$var}) {
-                    -webkit-animation: fadein_sc_right 0.75s ease #{$delay}s forwards alternate;
-                    animation: fadein_sc_right 0.75s ease #{$delay}s forwards alternate;
+                    -webkit-animation: fadein_sc_right
+                        0.75s
+                        ease
+                        #{$delay}s
+                        forwards
+                        alternate;
+                    animation: fadein_sc_right
+                        0.75s
+                        ease
+                        #{$delay}s
+                        forwards
+                        alternate;
                 }
             }
         }
@@ -261,9 +372,7 @@
     transition: 0.5s;
 
     &:hover {
-
         transform: translate(0px, -5px);
-
     }
 }
 

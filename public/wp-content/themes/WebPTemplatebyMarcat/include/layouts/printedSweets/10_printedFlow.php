@@ -3,8 +3,11 @@
         <section class="titlePrintedFlow">
             <h3 class="t_center cl_421D12 f_500 txtset CormorantUnicase h3PrintedFlowT">FLOW</h3>
             <p class="t_center cl_453C3C fw_400 txtset rubyPrintedFlow">ご注文の流れ</p>
-            <h4 class="t_center cl_453C3C fw_500 txtset h4PrintedFlow">
+            <h4 class="pc_only t_center cl_453C3C fw_500 txtset h4PrintedFlow">
                 ご注文はとっても簡単<br class="pc_only">プリントしたい素材を準備するだけでOK
+            </h4>
+            <h4 class="sp_only t_center cl_453C3C fw_500 txtset h4PrintedFlow">
+                ご注文はとっても簡単 プリントしたい素材を準備するだけでOK
             </h4>
             <p class="t_center cl_453C3C fw_500 txtset txtPrintedFlowT">
                 データをお渡しいただいてから10日前後が完成目処です。

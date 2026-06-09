@@ -107,6 +107,14 @@ LAYOUT
         }
     }
 }
+.picTopCollection {
+    img {
+        width: 100%;
+        filter: blur(5px);
+        transition-duration: 1s;
+        transform: scale(1.05);
+    }
+}
 
 .txtTopCollection {
     @include mi.marginPercent(400, 22, auto, 0, auto);

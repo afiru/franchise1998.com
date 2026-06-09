@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -54,7 +54,8 @@ LAYOUT
     }
 }
 
-.photoAccessShops {}
+.photoAccessShops {
+}
 
 .h3AccessShops {
     @include mi.marginPercent(291, 10, 0, 0, 0);
@@ -85,14 +86,14 @@ LAYOUT
 }
 
 .txtAccessShops {
-    @include mi.marginPercent(291, 8, 0, 1, 0);
+    @include mi.marginPercent(291, 8, 0, 8, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
     aspect-ratio: 291 / 75;
 
     @include mi.mq(sp) {
-        margin: 2.19% 0% 2.55% 0%;
+        margin: 2.19% 0% 5.55% 0%;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(154);
         @include mi.letterSpacing(0);
@@ -140,7 +141,8 @@ LAYOUT
         @include mi.fontSizeSp(10);
         @include mi.lineheightP(100);
         @include mi.letterSpacing(0);
-        background: url(../img/access/icnBtnAccessShops.svg) no-repeat right center;
+        background: url(../img/access/icnBtnAccessShops.svg) no-repeat right
+            center;
         background-size: auto 80%;
         text-align: left;
     }
