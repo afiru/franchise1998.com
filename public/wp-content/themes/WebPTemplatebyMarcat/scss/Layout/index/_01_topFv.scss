@@ -98,9 +98,9 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 350);
         aspect-ratio: 350/660;
-        clip-path: inset(0 round 20vw 0 0 0);
-        -webkit-clip-path: inset(0 round 20vw 0 0 0);
-        border-radius: 20vw 0 0 0;
+        clip-path: inset(0 round 22vw 0 0 0);
+        -webkit-clip-path: inset(0 round 22vw 0 0 0);
+        border-radius: 22vw 0 0 0;
         transform: translateZ(0);
     }
 }

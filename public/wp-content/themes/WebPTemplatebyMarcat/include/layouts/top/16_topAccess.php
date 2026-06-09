@@ -12,7 +12,7 @@
                     <div class="pc_only cntliTopAccess">
                         <p class="cl_453C3C fw_500 txtset txtLiTopAccess">〒599-8237  大阪府堺市中区深井水池町3254番地</p>
                         <p class="cl_453C3C fw_500 txtset txtLiTopAccess txtLiTopAccess02">
-                            <a class="cl_F04E11" href="https://maps.app.goo.gl/mxoYqD7hPqSeBza3A" target="_blank">Google Maps</a>
+                            <a class="cl_F04E11 txtLiTopAccessMap" href="https://maps.app.goo.gl/mxoYqD7hPqSeBza3A" target="_blank">Google Maps</a>
                         </p>
                     </div>
                     <div class="sp_only cntliTopAccess">

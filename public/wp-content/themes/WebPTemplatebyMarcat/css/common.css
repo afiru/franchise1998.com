@@ -664,6 +664,7 @@ LAYOUT
   z-index: 99;
   width: 100%;
   background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
 }
 
 .baseHeader.active {
@@ -2147,9 +2148,9 @@ LAYOUT
   .topMovie {
     width: 350px;
     aspect-ratio: 350/660;
-    clip-path: inset(0 round 20vw 0 0 0);
-    -webkit-clip-path: inset(0 round 20vw 0 0 0);
-    border-radius: 20vw 0 0 0;
+    clip-path: inset(0 round 22vw 0 0 0);
+    -webkit-clip-path: inset(0 round 22vw 0 0 0);
+    border-radius: 22vw 0 0 0;
     transform: translateZ(0);
   }
 }
@@ -6130,10 +6131,6 @@ LAYOUT
   .txtLiTopAccess {
     font-size: 3.7333333333vw;
   }
-}
-
-.txtLiTopAccess a {
-  color: #31150d;
 }
 
 .txtLiTopAccess02 {
@@ -43820,13 +43817,14 @@ LAYOUT
 .sidebarProdoctLoop {
   margin: 1.4% 0 0 0;
   position: sticky;
-  top: 0;
+  top: 14%;
   align-self: flex-start;
 }
 @media screen and (max-width: 767px) {
   .sidebarProdoctLoop {
     width: 375px;
     position: relative;
+    top: unset;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1299px) {
@@ -44206,7 +44204,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .rubyPrductLoopDefo {
-    margin-top: 1.5%;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -49201,6 +49199,10 @@ Component
 
 .bg_F6F4F2 {
   background: #f6f4f2;
+}
+
+.cl_F04E11 {
+  color: #f04e11;
 }
 
 /*

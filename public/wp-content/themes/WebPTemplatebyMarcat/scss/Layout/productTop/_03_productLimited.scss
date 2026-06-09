@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -19,9 +19,11 @@ LAYOUT
 }
 
 //
-.prductLoopDefo {}
+.prductLoopDefo {
+}
 
-.secPrductLoopDefo {}
+.secPrductLoopDefo {
+}
 
 .h2PrductLoopDefo {
     @include mi.fontSizePc(36);
@@ -42,7 +44,7 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        margin-top: 1.5%;
+        margin-top: 0%;
         margin-bottom: 0%;
         margin-left: auto;
         margin-right: auto;
