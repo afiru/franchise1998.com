@@ -112,32 +112,34 @@
     <!-- お電話で注文する -->
 
     <!-- 本品に含まれている主なアレルゲン/特定原材料に準ずるもの -->
-    <div class="bg_F1ECE8 listInfoProductsPosts">
-        <div class="listInfoProductsPostsLxn">
-            <section class="secListInfoProductsPosts">
-                <h2 class="d_flex j_start ali_end cl_453C3C fw_500 kaku txtset h2ListInfoProductsPosts">
-                    <span class="BigH2ListInfoProductsPosts">本品に含まれている主なアレルゲン</span>
-                    <span class="littleH2ListInfoProductsPosts">特定原材料（10品目）</span>
-                </h2>
-                <ul class="d_flex j_start row ulListInfoProductsPosts">
-                    <?php foreach (scf::get('chackListAllergyProductsPost') as $key => $val): ?>
-                        <li class="bg_fff cl_453C3C fw_500 kaku liListInfoProductsPosts"><?php echo $val; ?></li>
-                    <?php endforeach; ?>
-                </ul>
-            </section>
-            <section class="secListInfoProductsPosts secListInfoProductsPosts02">
-                <h2 class="d_flex j_start ali_end cl_453C3C fw_500 txtset kaku h2ListInfoProductsPosts">
-                    <span class="BigH2ListInfoProductsPosts">本品に含まれている主なアレルゲン</span>
-                </h2>
-                <ul class="d_flex j_start row ulListInfoProductsPosts ulListInfoProductsPosts02">
-                    <?php foreach (scf::get('genzairyoProductsPosts') as $key => $val): ?>
-                        <li class="bg_fff cl_453C3C fw_500 kaku liListInfoProductsPosts"><?php echo $val; ?></li>
-                    <?php endforeach; ?>
-                </ul>
-            </section>
+    <?php if (scf::get('flugAllergy') === '表示'): ?>
+        <div class="bg_F1ECE8 listInfoProductsPosts">
+            <div class="listInfoProductsPostsLxn">
+                <section class="secListInfoProductsPosts">
+                    <h2 class="d_flex j_start ali_end cl_453C3C fw_500 kaku txtset h2ListInfoProductsPosts">
+                        <span class="BigH2ListInfoProductsPosts">本品に含まれている主なアレルゲン</span>
+                        <span class="littleH2ListInfoProductsPosts">特定原材料（10品目）</span>
+                    </h2>
+                    <ul class="d_flex j_start row ulListInfoProductsPosts">
+                        <?php foreach (scf::get('chackListAllergyProductsPost') as $key => $val): ?>
+                            <li class="bg_fff cl_453C3C fw_500 kaku liListInfoProductsPosts"><?php echo $val; ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </section>
+                <section class="secListInfoProductsPosts secListInfoProductsPosts02">
+                    <h2 class="d_flex j_start ali_end cl_453C3C fw_500 txtset kaku h2ListInfoProductsPosts">
+                        <span class="BigH2ListInfoProductsPosts">本品に含まれている主なアレルゲン</span>
+                    </h2>
+                    <ul class="d_flex j_start row ulListInfoProductsPosts ulListInfoProductsPosts02">
+                        <?php foreach (scf::get('genzairyoProductsPosts') as $key => $val): ?>
+                            <li class="bg_fff cl_453C3C fw_500 kaku liListInfoProductsPosts"><?php echo $val; ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </section>
 
+            </div>
         </div>
-    </div>
+    <?php endif; ?>
     <!-- 本品に含まれている主なアレルゲン/特定原材料に準ずるもの -->
 
     <!--商品：デコレーションアレルギーについて--->

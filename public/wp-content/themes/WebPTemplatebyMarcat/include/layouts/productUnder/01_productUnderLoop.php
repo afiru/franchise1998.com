@@ -14,7 +14,7 @@ $args = [
 switch ($orderby) {
 
     case 'price':
-        $args['meta_key'] = 'price';
+        $args['meta_key'] = 'productsPriceOrder';
         $args['orderby']  = 'meta_value_num';
         break;
 

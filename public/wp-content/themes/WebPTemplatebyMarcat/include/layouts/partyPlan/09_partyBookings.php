@@ -43,7 +43,7 @@
                             <section class="secJoinDetailPartyBookingsFx secJoinDetailPartyBookingsFx02">
                                 <h5 class="cl_453C3C fw_500 txtset h5JoinDetailPartyBookingsFx">2.配達の場合</h5>
                                 <p class="cl_453C3C fw_500 txtset text_justify txtJoinDetailPartyBookingsFx">
-                                    下記配達可能地域であれば、ご指定の日時にお届けします。
+                                    商品の受け取り時に直接配達員にお支払いください。
                                 </p>
                                 <p class="cl_453C3C fw_500 txtset text_justify txtJoinDetailPartyBookingsFx02">
                                     【支払い方法】 現金のみ
