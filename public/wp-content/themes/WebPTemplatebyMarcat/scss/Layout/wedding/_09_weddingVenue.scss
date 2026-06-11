@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -17,14 +17,14 @@ LAYOUT
     }
 }
 
-
 .weddingVenueWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
 
-.secWeddingVenue {}
+.secWeddingVenue {
+}
 
 .h2WeddingVenue {
     @include mi.fontSizePc(40);
@@ -110,6 +110,9 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 158);
+        &:nth-child(n + 3) {
+            margin: 4% 0 0 0;
+        }
     }
 }
 
@@ -184,7 +187,8 @@ LAYOUT
 
 .iconBtnWeddingVenue {
     @include mi.ontenerWidth(240, 212);
-    background: url(../img/wedding/iconBtnWeddingVenue.svg) no-repeat right center;
+    background: url(../img/wedding/iconBtnWeddingVenue.svg) no-repeat right
+        center;
     background-size: auto 20%;
     margin: auto;
 

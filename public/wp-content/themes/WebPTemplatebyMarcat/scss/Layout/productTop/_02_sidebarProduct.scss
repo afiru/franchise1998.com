@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -10,12 +10,13 @@ LAYOUT
     @include mi.ontenerWidth(1300, 222);
     margin: 1.4% 0 0 0;
     position: sticky;
-    top: 0;
+    top: 14%;
     align-self: flex-start;
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 375);
         position: relative;
+        top: unset;
     }
 }
 
@@ -38,7 +39,8 @@ LAYOUT
     }
 }
 
-.navSidebarProduct {}
+.navSidebarProduct {
+}
 
 .titleNavSidebarProduct {
     @include mi.paddingPercent(222, 0, 0, 6, 0);

@@ -43,7 +43,7 @@ LAYOUT
 .topPicUpLxn {
     @include mi.marginPercent(1300, 30, auto, 0, auto);
     position: relative;
-
+    opacity: 0;
     @include mi.mq(sp) {
         margin-top: 2.06%;
         margin-bottom: 0%;

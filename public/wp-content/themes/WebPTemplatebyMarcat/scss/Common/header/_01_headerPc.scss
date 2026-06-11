@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -16,6 +16,7 @@ LAYOUT
     z-index: 99;
     width: 100%;
     background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
 }
 
 .baseHeader.active {
@@ -80,7 +81,8 @@ LAYOUT
     @include mi.ontenerWidth(352, 20);
     cursor: pointer;
 
-    &:hover {}
+    &:hover {
+    }
 }
 
 .btnNavOpenPc {

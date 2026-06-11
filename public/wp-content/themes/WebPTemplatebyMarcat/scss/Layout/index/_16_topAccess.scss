@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -138,10 +138,6 @@ LAYOUT
     }
 }
 
-.txtLiTopAccess a {
-    color: #31150d;
-}
-
 .txtLiTopAccess02 {
     @include mi.marginPercent(649, 0, auto, 0, auto);
     @include mi.fontSizePc(14);
@@ -190,7 +186,8 @@ LAYOUT
 .iconBbtnCntTopAccesss {
     @include mi.ontenerWidth(193, 165);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+        center;
     background-size: auto 15%;
     display: block;
     text-align: center;
@@ -198,7 +195,8 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.ontenerWidth(193, 163);
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
+            center;
         background-size: auto 14%;
     }
 }

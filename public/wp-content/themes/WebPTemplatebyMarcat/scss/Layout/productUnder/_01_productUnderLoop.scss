@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -18,7 +18,8 @@ LAYOUT
     }
 }
 
-.prodoctLoopWap {}
+.prodoctLoopWap {
+}
 
 .prodoctLoopFx {
     flex-flow: row wrap;
@@ -27,7 +28,7 @@ LAYOUT
 .selectOrderFormCnt {
     @include mi.paddingPercent(1036, 12, 0, 12, 0);
     @include mi.ontenerWidth(1036, 195);
-    margin: auto;
+    margin: 0 0 0 auto;
     @include mi.kadomaru(6px);
 
     @include mi.mq(sp) {
@@ -35,7 +36,6 @@ LAYOUT
         @include mi.ontenerWidth(330, 195);
         margin: 0 0 0 auto;
     }
-
 }
 
 .selectOrderFormCntBx {
@@ -44,7 +44,8 @@ LAYOUT
     display: flex;
     align-items: baseline;
 
-    @include mi.mq(sp) {}
+    @include mi.mq(sp) {
+    }
 }
 
 .h3SelectOrderFormCntBx {
@@ -54,7 +55,6 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
     }
-
 }
 
 .selectedOrderFormCntBx {
@@ -67,4 +67,9 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
     }
+}
+.selectedOrderFormCntBx select option {
+    background-color: #fff;
+    @include mi.kadomaru(6px);
+    border: unset;
 }

@@ -1,11 +1,17 @@
 <?php
 $args = [
-    'post_type' => 'post',
-    'orderby' => 'menu_order',
-    'order' => 'ASC',
-    'cat' => 30,
-    'posts_per_page' => 9,
-    'no_found_rows' => true,
+    'post_type'      => 'slider',
+    'orderby'        => 'menu_order',
+    'order'          => 'ASC',
+    'posts_per_page' => -1,
+    'no_found_rows'  => true,
+    'tax_query'      => [
+        [
+            'taxonomy' => 'slider_category',
+            'field'    => 'term_id',
+            'terms'    => 66,
+        ],
+    ],
 ];
 ?>
 <div class="topPicUpOut">
@@ -16,27 +22,27 @@ $args = [
             <div class="topPicUpLxn">
                 <?php $query1 = new WP_Query($args); ?>
                 <?php if ($query1->have_posts()): ?>
-                    <div class="swiper topPicUp jsactionLxn02" data-slidercount="4">
-                        <div class="swiper-wrapper">
-                            <?php $i = 1;
+                <div class="swiper topPicUp jsactionLxn02" data-slidercount="4">
+                    <div class="swiper-wrapper">
+                        <?php $i = 1;
                             while ($query1->have_posts()): $query1->the_post();
                                 $nowcats = get_the_category($post->ID); ?>
-                                <div class="swiper-slide">
-                                    <a class="btnAction d_block btnTopLimited" href="<?php echo get_permalink($post->ID); ?>">
-                                        <figure class="picSliderTopLimited picSliderTopLimitedPick">
-                                            <?php $img = get_post_thumbsdata($post->ID); ?>
-                                            <img class="imgThumbsLiListIndexEvent" loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo get_the_title($post->ID); ?>サムネイル画像" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
-                                        </figure>
-                                    </a>
-                                </div>
-                            <?php $i++;
+                        <div class="swiper-slide">
+                            <a class="btnAction d_block btnTopLimited" href="<?php echo scf::get('urlPickUp'); ?>" target="<?php echo scf::get('urltabset'); ?>">
+                                <figure class="picSliderTopLimited picSliderTopLimitedPick">
+                                    <?php $img = get_post_thumbsdata($post->ID); ?>
+                                    <img class="imgpicSliderTopSliders imgThumbsLiListIndexEvent" loading="lazy" src="<?php echo $img[0]; ?>" alt="<?php echo get_the_title($post->ID); ?>サムネイル画像" width="<?php echo $img[1]; ?>" height="<?php echo $img[2]; ?>">
+                                </figure>
+                            </a>
+                        </div>
+                        <?php $i++;
                             endwhile;
                             wp_reset_postdata(); ?>
-                            <!-- スクロールバー -->
-                        </div>
-
-                        <div class="swiper-scrollbar topPicUpScrollbar"></div>
+                        <!-- スクロールバー -->
                     </div>
+
+                    <div class="swiper-scrollbar topPicUpScrollbar"></div>
+                </div>
                 <?php endif; ?>
             </div>
         </section>
