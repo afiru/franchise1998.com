@@ -8,6 +8,7 @@ LAYOUT
 ========================================================================== */
 .mainUnder {
     @include mi.marginPercent(1920, 121, auto, 0, auto);
+    background-color: #fff;
 
     @include mi.mq(sp) {
         margin-top: 10.43%;
@@ -20,6 +21,7 @@ LAYOUT
 .aboutUnderFv {}
 
 .aboutUnderFvWap {
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }

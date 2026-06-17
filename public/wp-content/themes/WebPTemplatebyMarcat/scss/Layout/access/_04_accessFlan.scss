@@ -282,7 +282,8 @@ LAYOUT
 
 //260617Add
 .jsAccess01slider,
-    {
+.jsAccess02slider,
+.jsAccess03slider {
     width: 100%;
 
     .swiper-slide {
@@ -290,7 +291,9 @@ LAYOUT
     }
 }
 
-.jsAccess01sliderThumb {
+.jsAccess01sliderThumb,
+.jsAccess02sliderThumb,
+.jsAccess03sliderThumb {
     @include mi.marginPercent(570, 11, auto, 0, auto);
 
     .swiper-slide {
@@ -299,19 +302,24 @@ LAYOUT
     }
 }
 
-.jsAccess01sliderThumb .swiper-wrapper {
-    flex-flow: row wrap;
+.jsAccess01sliderThumb,
+.jsAccess02sliderThumb,
+.jsAccess03sliderThumb {
 
-    .swiper-slide {
-        width: 23.85% !important;
-        margin: 1.49% 1.49% 0 0 !important;
-        @include mi.kadomaru(6px);
-        overflow: hidden;
-        cursor: pointer;
+    .swiper-wrapper {
+        flex-flow: row wrap;
 
-        &:nth-child(4n) {
-            margin-right: 0 !important;
+        .swiper-slide {
+            width: 23.85% !important;
+            margin: 1.49% 1.49% 0 0 !important;
+            @include mi.kadomaru(6px);
+            overflow: hidden;
+            cursor: pointer;
+
+            &:nth-child(4n) {
+                margin-right: 0 !important;
+            }
+
         }
-
     }
 }

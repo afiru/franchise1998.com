@@ -1,6 +1,11 @@
 // グローバル Lenis インスタンス
 let lenis = null;
 
+// ページを表示する関数
+function showPage() {
+    document.body.classList.add('page-ready');
+}
+
 // DOM が完全に読み込まれてから実行
 document.addEventListener('DOMContentLoaded', () => {
     if (typeof Lenis !== 'undefined') {
@@ -27,8 +32,15 @@ $(window).on('load', function () {
             const target = $(urlHash);
             if (target.length) {
                 scrollToElement(target);
+                // スクロール完了後にページを表示（Lenisの場合）
+                setTimeout(showPage, 300);
+            } else {
+                showPage(); // ターゲットがない場合は即座に表示
             }
-        }, 500);
+        }, 300);
+    } else {
+        // ハッシュがない場合は即座に表示
+        showPage();
     }
 
     // アンカーリンククリック
@@ -39,8 +51,13 @@ $(window).on('load', function () {
         if (target.length) {
             e.preventDefault();
             scrollToElement(target);
+            // スクロール完了後にページを表示
+            setTimeout(showPage, 300);
         }
     });
+
+    // フォールバック：1秒後には必ず表示
+    setTimeout(showPage, 1000);
 });
 
 function scrollToElement(target) {
@@ -292,22 +309,7 @@ window.addEventListener('load', function () {
         },
     });
 
-    //アクセス04
-    const sliderThumbnail04 = new Swiper(".jsAccess04sliderThumb", {
-        slidesPerView: 'auto',
-        resistance: true,
-        resistanceRatio: 0,
-        observer: true,
-        observeParents: true,
-        allowTouchMove: false
-    });
 
-    const slider04 = new Swiper(".jsAccess04slider", {
-        loop: true,
-        thumbs: {
-            swiper: sliderThumbnail04,
-        },
-    });
 
 });
 

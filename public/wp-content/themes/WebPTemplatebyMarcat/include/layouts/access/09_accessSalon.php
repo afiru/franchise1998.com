@@ -12,25 +12,24 @@
                     <div class="swiper jsAccess03slider">
                         <div class="swiper-wrapper">
                             <?php foreach (scf::get('loopAccessFranSalon') as $fields): ?>
-                            <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFranSalon']); ?>
-                            <div class="swiper-slide">
-                                <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFranSalon']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
-                            </div>
+                                <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFranSalon']); ?>
+                                <div class="swiper-slide">
+                                    <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFranSalon']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
+                                </div>
                             <?php endforeach; ?>
                         </div>
                     </div>
 
                     <!-- サムネイル -->
                     <div class="swiper jsAccess03sliderThumb">
+
                         <div class="swiper-wrapper">
-                            <div class="swiper-wrapper">
-                                <?php foreach (scf::get('loopAccessFranSalon') as $fields): ?>
+                            <?php foreach (scf::get('loopAccessFranSalon') as $fields): ?>
                                 <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFranSalon']); ?>
                                 <div class="swiper-slide">
                                     <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFranSalon']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
                                 </div>
-                                <?php endforeach; ?>
-                            </div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
                 </div>

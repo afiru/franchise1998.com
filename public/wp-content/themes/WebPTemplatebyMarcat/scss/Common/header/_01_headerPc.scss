@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -81,14 +81,15 @@ LAYOUT
     @include mi.ontenerWidth(352, 20);
     cursor: pointer;
 
-    &:hover {
-    }
+
+    &:hover {}
 }
 
 .btnNavOpenPc {
     svg {
         fill: #421d12;
         transition-duration: 0.5s;
+
     }
 
     &:hover svg {

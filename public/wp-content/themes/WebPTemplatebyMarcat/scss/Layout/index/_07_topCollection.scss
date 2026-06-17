@@ -1,7 +1,7 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -10,6 +10,7 @@ LAYOUT
     @include mi.marginPercent(1920, 175, auto, 0, auto);
     overflow: hidden;
     width: 100%;
+    background: #fff;
 
     @include mi.mq(sp) {
         margin-top: 27.33%;
@@ -50,8 +51,7 @@ LAYOUT
     }
 }
 
-.titleTopCollection {
-}
+.titleTopCollection {}
 
 .h2TitleTopCollection {
     @include mi.fontSizePc(40);
@@ -107,6 +107,7 @@ LAYOUT
         }
     }
 }
+
 .picTopCollection {
     img {
         width: 100%;
@@ -168,8 +169,7 @@ LAYOUT
 .iconBbtnCntTopCollections {
     @include mi.ontenerWidth(200, 180);
     margin: auto;
-    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-        center;
+    background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
     background-size: auto 20%;
     display: block;
     text-align: center;
@@ -177,8 +177,7 @@ LAYOUT
     @include mi.mq(sp) {
         width: 89.45%;
         margin: auto;
-        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right
-            center;
+        background: url(../img/index/iconBbtnCntTopAccesss.svg) no-repeat right center;
         background-size: auto 20%;
     }
 }

@@ -534,14 +534,12 @@ function my_mwform_validation($Validation, $data)
 {
 
     $type = isset($data['お問い合わせ区分']) ? $data['お問い合わせ区分'] : '';
-
     /*
     |--------------------------------------------------------------------------
     | 通常のお問い合わせ
     |--------------------------------------------------------------------------
     */
     if ($type === '通常のお問い合わせ') {
-
         // 通常お問い合わせ内容
         $Validation->set_rule(
             '通常お問い合わせ内容',
@@ -550,7 +548,6 @@ function my_mwform_validation($Validation, $data)
                 'message' => 'お問い合わせ内容を入力してください。'
             )
         );
-
         // 通常個人情報保護方針
         $Validation->set_rule(
             '通常個人情報保護方針',
@@ -634,3 +631,13 @@ function my_mwform_validation($Validation, $data)
 
     return $Validation;
 }
+function my_mwform_default_contact_type($value, $name)
+{
+
+    if ($name === 'お問い合わせ区分' && isset($_GET['genre']) && $_GET['genre'] === '1') {
+        return '大量注文のお問い合わせ（30セット以上）';
+    }
+
+    return $value;
+}
+add_filter('mwform_value_mw-wp-form-425', 'my_mwform_default_contact_type', 10, 2);
