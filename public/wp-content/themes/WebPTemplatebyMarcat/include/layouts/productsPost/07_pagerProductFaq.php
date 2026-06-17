@@ -1,5 +1,15 @@
-<?php $cat_id = get_child_category_id(15,$post->ID); ?>
-<?php $faqs = SCF::get_term_meta($cat_id, 'category', 'catFaqPosts'); ?>
+<?php $cat_id = get_child_category_id(15, $post->ID); ?>
+<?php $cats = get_the_category($post->ID); ?>
+<?php
+$catsid = 15;
+foreach ($cats as $cat) {
+    if ($cat->parent === 15) {
+        $catids[] = $cat->cat_ID;
+    }
+}
+$catsid = $catids[0];
+?>
+<?php $faqs = SCF::get_term_meta($catsid, 'category', 'catFaqPosts'); ?>
 <div class="bg_F1ECE8 productFaq">
     <div class="wapper productFaqWap">
         <section class="secProductFaq">
@@ -7,25 +17,25 @@
 
             <ul class="ulProductFaq">
                 <?php foreach ($faqs as $key => $val): ?>
-                <li class="bg_FFF liProductFaq">
-                    <div class="cntLiProductFaq">
-                        <div class="bg_fff d_flex j_between c_pointer titleCntLiProductFaq jstitleCntLiProductFaq off">
-                            <h3 class="cl_453C3C kaku fw_500 txtset h3ProductFaq">
-                                <?php echo get_the_title($val); ?>
-                            </h3>
-                            <figure class="iconProductFaq">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="8" viewBox="0 0 13 8" fill="none">
-                                    <path d="M0.355469 0.353516L6.35547 6.35352L12.3555 0.353516" stroke="#453C3C" />
-                                </svg>
-                            </figure>
-                        </div>
-                        <div class="mainCntLiProductFaqLxn jsmainCntLiProductFaqLxn">
-                            <div class="mainCntLiProductFaq">
-                                <?php echo get_post_content_by_id($val); ?>
+                    <li class="bg_FFF liProductFaq">
+                        <div class="cntLiProductFaq">
+                            <div class="bg_fff d_flex j_between c_pointer titleCntLiProductFaq jstitleCntLiProductFaq off">
+                                <h3 class="cl_453C3C kaku fw_500 txtset h3ProductFaq">
+                                    <?php echo get_the_title($val); ?>
+                                </h3>
+                                <figure class="iconProductFaq">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="8" viewBox="0 0 13 8" fill="none">
+                                        <path d="M0.355469 0.353516L6.35547 6.35352L12.3555 0.353516" stroke="#453C3C" />
+                                    </svg>
+                                </figure>
+                            </div>
+                            <div class="mainCntLiProductFaqLxn jsmainCntLiProductFaqLxn">
+                                <div class="mainCntLiProductFaq">
+                                    <?php echo get_post_content_by_id($val); ?>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
                 <?php endforeach; ?>
             </ul>
             <div class="btnproductFaqLxn">

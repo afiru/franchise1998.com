@@ -8,7 +8,7 @@
 ?>
 <?php get_template_part('include/common/header/header'); ?>
 <main class="mainUnder mainAbout">
-    <?php get_template_part('include/layouts/productTop/01_productTopFv'); ?>
+    <?php get_template_part('include/layouts/productUnder/01_productTopFv'); ?>
     <div class=" prodoctLoop">
         <div class="wapper prodoctLoopWap">
             <div class="d_flex j_between row prodoctLoopFx">

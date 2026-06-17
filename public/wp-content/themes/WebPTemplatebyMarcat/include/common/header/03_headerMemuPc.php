@@ -47,7 +47,7 @@
                 <nav class="navHeaderMenuPcBx navHeaderMenuPcBx02">
                     <ul class="ulNavHeaderMenuPcBx ulNavHeaderMenuPcBx2">
                         <li class="liNavHeaderMenuPcBx">
-                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくある質問</a>
+                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくあるご質問</a>
                         </li>
                         <li class="liNavHeaderMenuPcBx">
                             <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/member/'); ?>">メイプルタウン会員特典</a>

@@ -58,7 +58,7 @@
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/suggestion/'); ?>">お祝い・ギフトのご提案</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくある質問</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくあるご質問</a>
                             </li>
                             <li class="liNavFooterTop">
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/voice/'); ?>">お客様の声</a>

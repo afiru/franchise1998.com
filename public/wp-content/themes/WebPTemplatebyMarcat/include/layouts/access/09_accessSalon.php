@@ -8,64 +8,31 @@
 
             <div class="d_flex j_between row accessSlonFx">
                 <div class="photosAccessSlon">
-                    <figure class="mainPhotosAccessSlon">
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/mainPhotosAccessSlonPc.png'); ?>">
-                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/mainPhotosAccessSlonSp.png'); ?>">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/mainPhotosAccessSlonPc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="570" height="570">
-                        </picture>
-                    </figure>
-                    <ul class="d_flex j_start row ulPhotosAccessSlon">
-                        <li class="liPhotosAccessSlon">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon01Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon01Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon01Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
-                            </picture>
-                        </li>
-                        <li class="liPhotosAccessSlon">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon02Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon02Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon02Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
-                            </picture>
-                        </li>
-                        <li class="liPhotosAccessSlon">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon03Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon03Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon03Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
-                            </picture>
-                        </li>
-                        <li class="liPhotosAccessSlon">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon04Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon04Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon04Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
-                            </picture>
-                        </li>
-                        <li class="liPhotosAccessSlon">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon05Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon05Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon05Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
-                            </picture>
-                        </li>
-                        <li class="liPhotosAccessSlon">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon06Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon06Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon06Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
-                            </picture>
-                        </li>
-                        <li class="liPhotosAccessSlon">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon07Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon07Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessSlon07Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
-                            </picture>
-                        </li>
-                    </ul>
+                    <!-- スライダー -->
+                    <div class="swiper jsAccess03slider">
+                        <div class="swiper-wrapper">
+                            <?php foreach (scf::get('loopAccessFranSalon') as $fields): ?>
+                            <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFranSalon']); ?>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFranSalon']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
+                            </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+
+                    <!-- サムネイル -->
+                    <div class="swiper jsAccess03sliderThumb">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-wrapper">
+                                <?php foreach (scf::get('loopAccessFranSalon') as $fields): ?>
+                                <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFranSalon']); ?>
+                                <div class="swiper-slide">
+                                    <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFranSalon']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
+                                </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="mainAccessSlon">

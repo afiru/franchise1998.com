@@ -36,7 +36,7 @@
                 </li>
 
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくある質問</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくあるご質問</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
                     <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/member/'); ?>">メイプルタウン会員特典</a>

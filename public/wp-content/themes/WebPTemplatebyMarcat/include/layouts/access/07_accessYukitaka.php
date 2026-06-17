@@ -7,29 +7,29 @@
 
             <div class="d_flex j_between row accessYukitakaFx">
                 <div class="photosAccessYukitaka">
-                    <figure class="mainPhotosAccessYukitaka">
-                        <picture>
-                            <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/mainPhotosAccessYukitakaPc.png'); ?>">
-                            <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/mainPhotosAccessYukitakaSp.png'); ?>">
-                            <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/mainPhotosAccessYukitakaPc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="570" height="570">
-                        </picture>
-                    </figure>
-                    <ul class="d_flex j_start row ulPhotosAccessYukitaka">
-                        <li class="liPhotosAccessYukitaka">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessYukitaka01Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessYukitaka01Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessYukitaka01Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
-                            </picture>
-                        </li>
-                        <li class="liPhotosAccessYukitaka">
-                            <picture>
-                                <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessYukitaka02Pc.png'); ?>">
-                                <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessYukitaka02Sp.png'); ?>">
-                                <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/access/liPhotosAccessYukitaka02Pc.png'); ?>" alt="<?php echo esc_attr('花とお菓子の工房 フランシーズ'); ?>" width="134" height="134">
-                            </picture>
-                        </li>
-                    </ul>
+                    <!-- スライダー -->
+                    <div class="swiper jsAccess02slider">
+                        <div class="swiper-wrapper">
+                            <?php foreach (scf::get('loopAccessFranEkikita') as $fields): ?>
+                            <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFranEkikita']); ?>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFranEkikita']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
+                            </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+
+                    <!-- サムネイル -->
+                    <div class="swiper jsAccess02sliderThumb">
+                        <div class="swiper-wrapper">
+                            <?php foreach (scf::get('loopAccessFranEkikita') as $fields): ?>
+                            <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFranEkikita']); ?>
+                            <div class="swiper-slide">
+                                <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFranEkikita']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
+                            </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="mainAccessYukitaka">

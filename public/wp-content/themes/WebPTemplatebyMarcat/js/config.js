@@ -241,6 +241,74 @@ window.addEventListener('load', function () {
         allowTouchMove: false, // ドラッグでのスクロール無効
     });
 
+    //アクセス
+    const sliderThumbnail = new Swiper(".jsAccess01sliderThumb", {
+        slidesPerView: 'auto',
+        resistance: true,
+        resistanceRatio: 0,
+        observer: true,
+        observeParents: true,
+        allowTouchMove: false
+    });
+
+    const slider = new Swiper(".jsAccess01slider", {
+        loop: true,
+        thumbs: {
+            swiper: sliderThumbnail,
+        },
+    });
+
+    //アクセス02
+    const sliderThumbnail02 = new Swiper(".jsAccess02sliderThumb", {
+        slidesPerView: 'auto',
+        resistance: true,
+        resistanceRatio: 0,
+        observer: true,
+        observeParents: true,
+        allowTouchMove: false
+    });
+
+    const slider02 = new Swiper(".jsAccess02slider", {
+        loop: true,
+        thumbs: {
+            swiper: sliderThumbnail02,
+        },
+    });
+
+    //アクセス03
+    const sliderThumbnail03 = new Swiper(".jsAccess03sliderThumb", {
+        slidesPerView: 'auto',
+        resistance: true,
+        resistanceRatio: 0,
+        observer: true,
+        observeParents: true,
+        allowTouchMove: false
+    });
+
+    const slider03 = new Swiper(".jsAccess03slider", {
+        loop: true,
+        thumbs: {
+            swiper: sliderThumbnail03,
+        },
+    });
+
+    //アクセス04
+    const sliderThumbnail04 = new Swiper(".jsAccess04sliderThumb", {
+        slidesPerView: 'auto',
+        resistance: true,
+        resistanceRatio: 0,
+        observer: true,
+        observeParents: true,
+        allowTouchMove: false
+    });
+
+    const slider04 = new Swiper(".jsAccess04slider", {
+        loop: true,
+        thumbs: {
+            swiper: sliderThumbnail04,
+        },
+    });
+
 });
 
 $(function () {

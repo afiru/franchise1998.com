@@ -91,6 +91,18 @@ LAYOUT
     .checkWap {
         margin: 0;
     }
+
+    .liFormCntConfirm {
+        align-items: center;
+
+        .inputLiFormCntLxn {
+            line-height: 100%;
+        }
+
+        .tujoCheckWap {
+            margin: -0.5% 0 0 0;
+        }
+    }
 }
 
 //入力内容を確認する
