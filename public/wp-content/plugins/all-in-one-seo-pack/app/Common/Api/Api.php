@@ -49,6 +49,7 @@ class Api {
 			'ai/insights/reports/(?P<uuid>[a-zA-Z0-9-]+)' => [ 'callback' => [ 'AiInsights', 'getReport' ], 'access' => 'aioseo_ai_insights_settings' ],
 			'seo-checklist/'                              => [ 'callback' => [ 'SeoChecklist', 'getChecks' ], 'access' => [ 'aioseo_general_settings', 'aioseo_setup_wizard' ] ],
 			'seo-checklist/completed'                     => [ 'callback' => [ 'SeoChecklist', 'getCompletedChecks' ], 'access' => [ 'aioseo_general_settings', 'aioseo_setup_wizard' ] ],
+			'ai-agents/mcp-adapter/release'               => [ 'callback' => [ 'AiAgents', 'getMcpAdapterRelease' ], 'access' => 'aioseo_ai_insights_settings' ],
 		],
 		'POST'   => [
 			'ai/auth'                                                => [ 'callback' => [ 'Ai', 'storeAccessToken' ], 'access' => 'aioseo_page_ai_content_settings' ],
@@ -56,9 +57,11 @@ class Api {
 			'ai/meta/title'                                          => [ 'callback' => [ 'Ai', 'generateTitles' ], 'access' => 'aioseo_page_ai_content_settings' ],
 			'ai/meta/description'                                    => [ 'callback' => [ 'Ai', 'generateDescriptions' ], 'access' => 'aioseo_page_ai_content_settings' ],
 			'ai/faqs'                                                => [ 'callback' => [ 'Ai', 'generateFaqs' ], 'access' => 'aioseo_page_ai_content_settings' ],
+			'ai/schema'                                              => [ 'callback' => [ 'Ai', 'generateSchemas' ], 'access' => 'aioseo_page_ai_content_settings' ],
 			'ai/key-points'                                          => [ 'callback' => [ 'Ai', 'generateKeyPoints' ], 'access' => 'aioseo_page_ai_content_settings' ],
 			'ai/social-posts'                                        => [ 'callback' => [ 'Ai', 'generateSocialPosts' ], 'access' => 'aioseo_page_ai_content_settings' ],
 			'ai/assistant'                                           => [ 'callback' => [ 'Ai', 'generateAssistantCompletion' ], 'access' => 'aioseo_page_ai_content_settings' ],
+			'ai/image/alt'                                           => [ 'callback' => [ 'Ai', 'generateImageAlt' ], 'access' => 'aioseo_page_ai_content_settings' ],
 			'ai/image-generator'                                     => [ 'callback' => [ 'Ai', 'generateImage' ], 'access' => 'aioseo_page_ai_content_settings' ],
 			'ai/deactivate'                                          => [ 'callback' => [ 'Ai', 'deactivate' ], 'access' => 'aioseo_page_ai_content_settings' ],
 			'htaccess'                                               => [ 'callback' => [ 'Tools', 'saveHtaccess' ], 'access' => 'aioseo_tools_settings' ],
@@ -198,7 +201,9 @@ class Api {
 			'seo-checklist/bulk-complete'                            => [ 'callback' => [ 'SeoChecklist', 'bulkCompleteChecks' ], 'access' => [ 'aioseo_general_settings', 'aioseo_setup_wizard' ] ],
 			'seo-checklist/bulk-uncomplete'                          => [ 'callback' => [ 'SeoChecklist', 'bulkUncompleteChecks' ], 'access' => [ 'aioseo_general_settings', 'aioseo_setup_wizard' ] ],
 			'seo-checklist/action'                                   => [ 'callback' => [ 'SeoChecklist', 'doAction' ], 'access' => [ 'aioseo_general_settings', 'aioseo_setup_wizard' ] ],
-			'seo-checklist/fetch'                                    => [ 'callback' => [ 'SeoChecklist', 'fetchChecks' ], 'access' => [ 'aioseo_general_settings', 'aioseo_setup_wizard' ] ]
+			'seo-checklist/fetch'                                    => [ 'callback' => [ 'SeoChecklist', 'fetchChecks' ], 'access' => [ 'aioseo_general_settings', 'aioseo_setup_wizard' ] ],
+			'ai-agents/install-mcp-adapter'                          => [ 'callback' => [ 'AiAgents', 'installMcpAdapter' ], 'access' => [ 'install_plugins', 'aioseo_ai_insights_settings' ] ],
+			'ai-agents/generate-app-password'                        => [ 'callback' => [ 'AiAgents', 'generateAppPassword' ], 'access' => 'aioseo_ai_insights_settings' ]
 		],
 		'DELETE' => [
 			'backup'                                      => [ 'callback' => [ 'Tools', 'deleteBackup' ], 'access' => 'aioseo_tools_settings' ],

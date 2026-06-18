@@ -74,6 +74,7 @@ class Activate {
 		}
 
 		aioseo()->core->cache->clear();
+		wp_cache_flush();
 
 		$this->maybeRunSetupWizard();
 	}
@@ -92,6 +93,7 @@ class Activate {
 		// now we store as string and have a is_object column to differentiate between array and objects.
 		// This will prevent errors when deactivating the PRO plugin but keeping an old version of the LITE plugin.
 		aioseo()->core->cache->clear();
+		wp_cache_flush();
 	}
 
 	/**

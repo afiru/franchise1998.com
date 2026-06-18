@@ -106,6 +106,14 @@ class Frontend {
 			}
 		}
 
+		if ( ! $type ) {
+			$type = aioseo()->helpers->getBreadcrumbTypeFromPost();
+			if ( $type ) {
+				global $post;
+				$reference = $post;
+			}
+		}
+
 		$paged = false;
 		if ( is_paged() || ( is_singular() && 1 < get_query_var( 'page' ) ) ) {
 			global $wp;

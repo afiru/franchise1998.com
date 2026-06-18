@@ -354,9 +354,15 @@ class PostsTerms {
 			update_post_meta( $postId, '_wp_attachment_image_alt', sanitize_text_field( $body['imageAltTag'] ) );
 		}
 
-		$aioseoPost->title       = ! empty( $body['title'] ) ? sanitize_text_field( $body['title'] ) : null;
-		$aioseoPost->description = ! empty( $body['description'] ) ? sanitize_textarea_field( $body['description'] ) : null;
-		$aioseoPost->updated     = gmdate( 'Y-m-d H:i:s' );
+		if ( array_key_exists( 'title', $body ) ) {
+			$aioseoPost->title = ! empty( $body['title'] ) ? sanitize_text_field( $body['title'] ) : null;
+		}
+
+		if ( array_key_exists( 'description', $body ) ) {
+			$aioseoPost->description = ! empty( $body['description'] ) ? sanitize_textarea_field( $body['description'] ) : null;
+		}
+
+		$aioseoPost->updated = gmdate( 'Y-m-d H:i:s' );
 		$aioseoPost->save();
 
 		// Trigger the action hook so we can create a revision.

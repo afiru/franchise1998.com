@@ -72,8 +72,8 @@ class Settings {
 	public static function toggleCard( $request ) {
 		$body  = $request->get_json_params();
 		$card  = ! empty( $body['card'] ) ? sanitize_text_field( $body['card'] ) : null;
-		$cards = aioseo()->settings->toggledCards;
-		if ( array_key_exists( $card, $cards ) ) {
+		$cards = aioseo()->settings->toggledCards ?? [];
+		if ( $card && array_key_exists( $card, $cards ) ) {
 			$cards[ $card ] = ! $cards[ $card ];
 			aioseo()->settings->toggledCards = $cards;
 		}
@@ -95,8 +95,8 @@ class Settings {
 		$body   = $request->get_json_params();
 		$radio  = ! empty( $body['radio'] ) ? sanitize_text_field( $body['radio'] ) : null;
 		$value  = ! empty( $body['value'] ) ? sanitize_text_field( $body['value'] ) : null;
-		$radios = aioseo()->settings->toggledRadio;
-		if ( array_key_exists( $radio, $radios ) ) {
+		$radios = aioseo()->settings->toggledRadio ?? [];
+		if ( $radio && array_key_exists( $radio, $radios ) ) {
 			$radios[ $radio ] = $value;
 			aioseo()->settings->toggledRadio = $radios;
 		}
@@ -117,8 +117,8 @@ class Settings {
 	public static function dismissAlert( $request ) {
 		$body   = $request->get_json_params();
 		$alert  = ! empty( $body['alert'] ) ? sanitize_text_field( $body['alert'] ) : null;
-		$alerts = aioseo()->settings->dismissedAlerts;
-		if ( array_key_exists( $alert, $alerts ) ) {
+		$alerts = aioseo()->settings->dismissedAlerts ?? [];
+		if ( $alert && array_key_exists( $alert, $alerts ) ) {
 			$alerts[ $alert ] = true;
 			aioseo()->settings->dismissedAlerts = $alerts;
 		}

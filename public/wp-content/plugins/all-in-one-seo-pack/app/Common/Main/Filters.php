@@ -409,6 +409,7 @@ abstract class Filters {
 			'seedprod',
 			'tcb_lightbox',
 			'bricks_template', // Bricks Builder
+			'_et_pb_speculation', // Divi Visual Builder prerender post type.
 
 			// Thrive Themes internal post types.
 			'tva_module',

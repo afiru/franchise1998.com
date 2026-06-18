@@ -32,7 +32,7 @@ class Ai {
 			], 400 );
 		}
 
-		aioseo()->internalOptions->internal->ai->accessToken         = $accessToken;
+		aioseo()->sensitiveOptions->set( 'aiAccessToken', $accessToken );
 		aioseo()->internalOptions->internal->ai->isTrialAccessToken  = false;
 		aioseo()->internalOptions->internal->ai->isManuallyConnected = true;
 
@@ -78,88 +78,75 @@ class Ai {
 	 * @return \WP_REST_Response          The response.
 	 */
 	public static function generateTitles( $request ) {
-		$body         = $request->get_json_params();
-		$postId       = ! empty( $body['postId'] ) ? (int) $body['postId'] : 0;
-		$postContent  = ! empty( $body['postContent'] ) ? sanitize_text_field( $body['postContent'] ) : '';
-		$focusKeyword = ! empty( $body['focusKeyword'] ) ? sanitize_text_field( $body['focusKeyword'] ) : '';
-		$rephrase     = isset( $body['rephrase'] ) ? boolval( $body['rephrase'] ) : false;
-		$titles       = ! empty( $body['titles'] ) ? $body['titles'] : [];
-		$options      = $body['options'] ?? [];
+		try {
+			$body         = $request->get_json_params();
+			$postId       = ! empty( $body['postId'] ) ? (int) $body['postId'] : 0;
+			$postContent  = ! empty( $body['postContent'] ) ? $body['postContent'] : '';
+			$focusKeyword = ! empty( $body['focusKeyword'] ) ? sanitize_text_field( $body['focusKeyword'] ) : '';
+			$rephrase     = isset( $body['rephrase'] ) ? boolval( $body['rephrase'] ) : false;
+			$titles       = ! empty( $body['titles'] ) ? $body['titles'] : [];
+			$options      = $body['options'] ?? [];
 
-		if ( ! $postContent || empty( $options ) ) {
-			return new \WP_REST_Response( [
-				'success' => false,
-				'message' => 'Missing required parameters.'
-			], 400 );
-		}
+			if ( ! current_user_can( 'edit_post', $postId ) ) {
+				throw new ApiException( 'unauthorized', 'Unauthorized.', 401 );
+			}
 
-		if ( ! current_user_can( 'edit_post', $postId ) ) {
-			return new \WP_REST_Response( [
-				'success' => false,
-				'message' => 'Unauthorized.'
-			], 401 );
-		}
+			$wpObject = $postId ? aioseo()->helpers->getPost( $postId ) : null;
 
-		foreach ( $options as $k => $option ) {
-			$options[ $k ] = aioseo()->helpers->sanitizeOption( $option );
-		}
+			if ( empty( $postContent ) && $postId ) {
+				if ( ! $wpObject ) {
+					throw new ApiException( 'post_not_found', 'Post not found.' );
+				}
 
-		foreach ( $titles as $k => $title ) {
-			$titles[ $k ] = sanitize_text_field( $title );
-		}
+				$postContent = aioseo()->helpers->getPostContent( $wpObject );
 
-		$response = aioseo()->helpers->wpRemotePost( aioseo()->ai->getAiGeneratorApiUrl() . 'meta/title/', [
-			'timeout' => 60,
-			'headers' => self::getRequestHeaders(),
-			'body'    => wp_json_encode( [
+				// Bulk generate has no frontend validation, so we gate content length here to avoid wasting AI credits.
+				if ( strlen( wp_strip_all_tags( $postContent ) ) < aioseo()->ai->options['minContentLength'] ) {
+					throw new ApiException( 'content_too_short', 'Post content is too short.' );
+				}
+			}
+
+			if ( empty( $focusKeyword ) && $postId ) {
+				$aioseoPost   = Models\Post::getPost( $postId );
+				$focusKeyword = Models\Post::getKeyphrasesDefaults( $aioseoPost->keyphrases )->focus->keyphrase;
+			}
+
+			if ( empty( $postContent ) ) {
+				throw new ApiException( 'no_content', 'Missing post content.' );
+			}
+
+			if ( empty( $options ) ) {
+				throw new ApiException( 'missing_options', 'Missing options.' );
+			}
+
+			$options = array_map( [ aioseo()->helpers, 'sanitizeOption' ], $options );
+			$titles  = array_map( 'sanitize_text_field', $titles );
+
+			$result = aioseo()->ai->generateTitles( [
+				'postId'       => $postId,
 				'postContent'  => $postContent,
 				'focusKeyword' => $focusKeyword,
-				'tone'         => $options['tone'],
-				'audience'     => $options['audience'],
 				'rephrase'     => $rephrase,
-				'titles'       => $titles
-			] )
-		] );
+				'titles'       => $titles,
+				'options'      => $options
+			] );
 
-		$responseCode = wp_remote_retrieve_response_code( $response );
-		if ( 200 !== $responseCode ) {
-			return new \WP_REST_Response( [
-				'success' => false,
-				'message' => 'Failed to generate meta titles.'
-			], 400 );
-		}
-
-		$responseBody = json_decode( wp_remote_retrieve_body( $response ) );
-		$titles       = aioseo()->helpers->sanitizeOption( $responseBody->titles );
-		if ( empty( $responseBody->success ) || empty( $titles ) ) {
-			if ( 'insufficient_credits' === $responseBody->code ) {
-				aioseo()->internalOptions->internal->ai->credits->remaining = $responseBody->remaining ?? 0;
+			if ( ! $result['success'] ) {
+				throw new ApiException( 'generation_failed', esc_html( $result['message'] ) );
 			}
 
 			return new \WP_REST_Response( [
+				'success'   => true,
+				'titles'    => $result['titles'],
+				'aiOptions' => self::getAiOptionsPayload()
+			], 200 );
+		} catch ( ApiException $e ) {
+			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Failed to generate meta titles.'
-			], 400 );
+				'message' => $e->getMessage(),
+				'code'    => $e->getErrorCode()
+			], $e->getCode() );
 		}
-
-		self::updateAiOptions( $responseBody );
-
-		// Decode HTML entities again. Vue will escape data if needed.
-		foreach ( $titles as $k => $title ) {
-			$titles[ $k ] = aioseo()->helpers->decodeHtmlEntities( $title );
-		}
-
-		// Get the post and save the data.
-		$aioseoPost             = Models\Post::getPost( $postId );
-		$aioseoPost->ai         = Models\Post::getDefaultAiOptions( $aioseoPost->ai );
-		$aioseoPost->ai->titles = $titles;
-		$aioseoPost->save();
-
-		return new \WP_REST_Response( [
-			'success'   => true,
-			'titles'    => $titles,
-			'aiOptions' => self::getAiOptionsPayload()
-		], 200 );
 	}
 
 	/**
@@ -171,88 +158,123 @@ class Ai {
 	 * @return \WP_REST_Response          The response.
 	 */
 	public static function generateDescriptions( $request ) {
-		$body         = $request->get_json_params();
-		$postId       = ! empty( $body['postId'] ) ? (int) $body['postId'] : 0;
-		$postContent  = ! empty( $body['postContent'] ) ? sanitize_text_field( $body['postContent'] ) : '';
-		$focusKeyword = ! empty( $body['focusKeyword'] ) ? sanitize_text_field( $body['focusKeyword'] ) : '';
-		$rephrase     = isset( $body['rephrase'] ) ? boolval( $body['rephrase'] ) : false;
-		$descriptions = ! empty( $body['descriptions'] ) ? $body['descriptions'] : [];
-		$options      = $body['options'] ?? [];
+		try {
+			$body         = $request->get_json_params();
+			$postId       = ! empty( $body['postId'] ) ? (int) $body['postId'] : 0;
+			$postContent  = ! empty( $body['postContent'] ) ? $body['postContent'] : '';
+			$focusKeyword = ! empty( $body['focusKeyword'] ) ? sanitize_text_field( $body['focusKeyword'] ) : '';
+			$rephrase     = isset( $body['rephrase'] ) ? boolval( $body['rephrase'] ) : false;
+			$descriptions = ! empty( $body['descriptions'] ) ? $body['descriptions'] : [];
+			$options      = $body['options'] ?? [];
 
-		if ( ! $postContent || empty( $options ) ) {
-			return new \WP_REST_Response( [
-				'success' => false,
-				'message' => 'Missing required parameters.'
-			], 400 );
-		}
+			if ( ! current_user_can( 'edit_post', $postId ) ) {
+				throw new ApiException( 'unauthorized', 'Unauthorized.', 401 );
+			}
 
-		if ( ! current_user_can( 'edit_post', $postId ) ) {
-			return new \WP_REST_Response( [
-				'success' => false,
-				'message' => 'Unauthorized.'
-			], 401 );
-		}
+			$wpObject = $postId ? aioseo()->helpers->getPost( $postId ) : null;
 
-		foreach ( $options as $k => $option ) {
-			$options[ $k ] = aioseo()->helpers->sanitizeOption( $option );
-		}
+			if ( empty( $postContent ) && $postId ) {
+				if ( ! $wpObject ) {
+					throw new ApiException( 'post_not_found', 'Post not found.' );
+				}
 
-		foreach ( $descriptions as $k => $description ) {
-			$descriptions[ $k ] = sanitize_text_field( $description );
-		}
+				$postContent = aioseo()->helpers->getPostContent( $wpObject );
 
-		$response = aioseo()->helpers->wpRemotePost( aioseo()->ai->getAiGeneratorApiUrl() . 'meta/description/', [
-			'timeout' => 60,
-			'headers' => self::getRequestHeaders(),
-			'body'    => wp_json_encode( [
+				// Bulk generate has no frontend validation, so we gate content length here to avoid wasting AI credits.
+				if ( strlen( wp_strip_all_tags( $postContent ) ) < aioseo()->ai->options['minContentLength'] ) {
+					throw new ApiException( 'content_too_short', 'Post content is too short.' );
+				}
+			}
+
+			if ( empty( $focusKeyword ) && $postId ) {
+				$aioseoPost   = Models\Post::getPost( $postId );
+				$focusKeyword = Models\Post::getKeyphrasesDefaults( $aioseoPost->keyphrases )->focus->keyphrase;
+			}
+
+			if ( empty( $postContent ) ) {
+				throw new ApiException( 'no_content', 'Missing post content.' );
+			}
+
+			if ( empty( $options ) ) {
+				throw new ApiException( 'missing_options', 'Missing options.' );
+			}
+
+			$options      = array_map( [ aioseo()->helpers, 'sanitizeOption' ], $options );
+			$descriptions = array_map( 'sanitize_text_field', $descriptions );
+
+			$result = aioseo()->ai->generateDescriptions( [
+				'postId'       => $postId,
 				'postContent'  => $postContent,
 				'focusKeyword' => $focusKeyword,
-				'tone'         => $options['tone'],
-				'audience'     => $options['audience'],
 				'rephrase'     => $rephrase,
-				'descriptions' => $descriptions
-			] )
-		] );
+				'descriptions' => $descriptions,
+				'options'      => $options
+			] );
 
-		$responseCode = wp_remote_retrieve_response_code( $response );
-		if ( 200 !== $responseCode ) {
-			return new \WP_REST_Response( [
-				'success' => false,
-				'message' => 'Failed to generate meta descriptions.'
-			], 400 );
-		}
-
-		$responseBody = json_decode( wp_remote_retrieve_body( $response ) );
-		$descriptions = aioseo()->helpers->sanitizeOption( $responseBody->descriptions );
-		if ( empty( $responseBody->success ) || empty( $descriptions ) ) {
-			if ( 'insufficient_credits' === $responseBody->code ) {
-				aioseo()->internalOptions->internal->ai->credits->remaining = $responseBody->remaining ?? 0;
+			if ( ! $result['success'] ) {
+				throw new ApiException( 'generation_failed', esc_html( $result['message'] ) );
 			}
 
 			return new \WP_REST_Response( [
+				'success'      => true,
+				'descriptions' => $result['descriptions'],
+				'aiOptions'    => self::getAiOptionsPayload()
+			], 200 );
+		} catch ( ApiException $e ) {
+			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Failed to generate meta descriptions.'
-			], 400 );
+				'message' => $e->getMessage(),
+				'code'    => $e->getErrorCode()
+			], $e->getCode() );
 		}
+	}
 
-		self::updateAiOptions( $responseBody );
+	/**
+	 * Generates ALT text for an image attachment.
+	 *
+	 * @since 4.9.6
+	 *
+	 * @param  \WP_REST_Request  $request The REST Request
+	 * @return \WP_REST_Response          The response.
+	 */
+	public static function generateImageAlt( $request ) {
+		try {
+			$body         = $request->get_json_params();
+			$attachmentId = ! empty( $body['attachmentId'] ) ? (int) $body['attachmentId'] : 0;
 
-		// Decode HTML entities again. Vue will escape data if needed.
-		foreach ( $descriptions as $k => $description ) {
-			$descriptions[ $k ] = aioseo()->helpers->decodeHtmlEntities( $description );
+			if ( ! $attachmentId ) {
+				throw new ApiException( 'missing_attachment_id', 'Missing attachment ID.' );
+			}
+
+			if ( ! current_user_can( 'edit_post', $attachmentId ) ) {
+				throw new ApiException( 'unauthorized', 'Unauthorized.', 401 );
+			}
+
+			$attachment = get_post( $attachmentId );
+			if ( ! $attachment || 'attachment' !== $attachment->post_type ) {
+				throw new ApiException( 'attachment_not_found', 'Attachment not found.' );
+			}
+
+			$result = aioseo()->ai->generateImageAlt( [
+				'attachmentId' => $attachmentId
+			] );
+
+			if ( ! $result['success'] ) {
+				throw new ApiException( $result['code'] ?? 'generation_failed', esc_html( $result['message'] ) );
+			}
+
+			return new \WP_REST_Response( [
+				'success'   => true,
+				'altTexts'  => $result['altTexts'],
+				'aiOptions' => self::getAiOptionsPayload()
+			], 200 );
+		} catch ( ApiException $e ) {
+			return new \WP_REST_Response( [
+				'success' => false,
+				'message' => $e->getMessage(),
+				'code'    => $e->getErrorCode()
+			], $e->getCode() );
 		}
-
-		// Get the post and save the data.
-		$aioseoPost                   = Models\Post::getPost( $postId );
-		$aioseoPost->ai               = Models\Post::getDefaultAiOptions( $aioseoPost->ai );
-		$aioseoPost->ai->descriptions = $descriptions;
-		$aioseoPost->save();
-
-		return new \WP_REST_Response( [
-			'success'      => true,
-			'descriptions' => $descriptions,
-			'aiOptions'    => self::getAiOptionsPayload()
-		], 200 );
 	}
 
 	/**
@@ -266,14 +288,21 @@ class Ai {
 	public static function generateSocialPosts( $request ) {
 		$body        = $request->get_json_params();
 		$postId      = ! empty( $body['postId'] ) ? (int) $body['postId'] : 0;
-		$postContent = ! empty( $body['postContent'] ) ? sanitize_text_field( $body['postContent'] ) : '';
+		$postContent = ! empty( $body['postContent'] ) ? $body['postContent'] : '';
 		$permalink   = ! empty( $body['permalink'] ) ? esc_url_raw( urldecode( $body['permalink'] ) ) : '';
 		$options     = $body['options'] ?? [];
 
 		if ( ! $postContent || ! $permalink || empty( $options['media'] ) ) {
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Missing required parameters.'
+				'message' => 'Missing post content, permalink, or media options.'
+			], 400 );
+		}
+
+		if ( strlen( $postContent ) < aioseo()->ai->options['minContentLength'] ) {
+			return new \WP_REST_Response( [
+				'success' => false,
+				'message' => 'Post content is too short to generate AI content.'
 			], 400 );
 		}
 
@@ -284,13 +313,11 @@ class Ai {
 			], 401 );
 		}
 
-		foreach ( $options as $k => $option ) {
-			$options[ $k ] = aioseo()->helpers->sanitizeOption( $option );
-		}
+		$options = array_map( [ aioseo()->helpers, 'sanitizeOption' ], $options );
 
 		$response = aioseo()->helpers->wpRemotePost( aioseo()->ai->getAiGeneratorApiUrl() . 'social-posts/', [
 			'timeout' => 60,
-			'headers' => self::getRequestHeaders(),
+			'headers' => aioseo()->ai->getRequestHeaders(),
 			'body'    => wp_json_encode( [
 				'postContent' => $postContent,
 				'url'         => $permalink,
@@ -300,23 +327,39 @@ class Ai {
 			] )
 		] );
 
+		$responseBody = json_decode( wp_remote_retrieve_body( $response ) );
 		$responseCode = wp_remote_retrieve_response_code( $response );
+
+		// Only trust the message if `success` was explicitly set to `false` — this confirms the response came from our API's error contract.
+		$serviceError = isset( $responseBody->success ) && false === $responseBody->success && ! empty( $responseBody->message ) ? 'Service error: ' . $responseBody->message : null;
+		$errorDetails = array_filter( [ "Service response code: $responseCode", $serviceError ] );
+
 		if ( 200 !== $responseCode ) {
+			$errorDetails[] = 'The AI service returned an unexpected response';
+
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Failed to generate social posts.'
+				'message' => implode( ' | ', $errorDetails )
 			], 400 );
 		}
 
-		$responseBody = json_decode( wp_remote_retrieve_body( $response ) );
 		if ( empty( $responseBody->success ) || empty( $responseBody->snippets ) ) {
-			if ( 'insufficient_credits' === $responseBody->code ) {
+			if ( ! empty( $responseBody->code ) && 'insufficient_credits' === $responseBody->code ) {
 				aioseo()->internalOptions->internal->ai->credits->remaining = $responseBody->remaining ?? 0;
+
+				$errorDetails[] = 'Not enough credits';
+
+				return new \WP_REST_Response( [
+					'success' => false,
+					'message' => implode( ' | ', $errorDetails )
+				], 400 );
 			}
+
+			$errorDetails[] = 'The AI service did not return any social post suggestions';
 
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Failed to generate social posts.'
+				'message' => implode( ' | ', $errorDetails )
 			], 400 );
 		}
 
@@ -336,7 +379,7 @@ class Ai {
 			$socialPosts[ $type ] = aioseo()->helpers->decodeHtmlEntities( strip_tags( $content, '<a>' ) );
 		}
 
-		self::updateAiOptions( $responseBody );
+		aioseo()->ai->updateAiOptions( $responseBody );
 
 		// Get the post and save the data.
 		$aioseoPost     = Models\Post::getPost( $postId );
@@ -383,13 +426,13 @@ class Ai {
 			exit;
 		}
 
-		$requestHeaders = self::getRequestHeaders();
+		$requestHeaders = aioseo()->ai->getRequestHeaders();
 
 		// phpcs:disable WordPress.WP.AlternativeFunctions
 		$ch = curl_init();
 
 		curl_setopt_array( $ch, [
-			CURLOPT_URL            => aioseo()->ai->getAiGeneratorApiUrl() . 'text/',
+			CURLOPT_URL            => aioseo()->ai->getAiGeneratorApiUrl( 'v2' ) . 'text/',
 			CURLOPT_POST           => true,
 			CURLOPT_POSTFIELDS     => wp_json_encode( $body ),
 			CURLOPT_TIMEOUT        => 180,
@@ -463,6 +506,12 @@ class Ai {
 		$postId          = ! empty( $body['postId'] ) ? (int) $body['postId'] : 0;
 		$selectedImageId = ! empty( $body['selectedImageId'] ) ? (int) $body['selectedImageId'] : 0;
 
+		$allowedModels = [ 'gemini-3.1-flash-image', 'gpt-image-2' ];
+		$model         = ! empty( $body['model'] ) ? sanitize_text_field( $body['model'] ) : 'gemini-3.1-flash-image';
+		if ( ! in_array( $model, $allowedModels, true ) ) {
+			$model = 'gemini-3.1-flash-image';
+		}
+
 		if ( ! current_user_can( 'edit_post', $postId ) ) {
 			return new \WP_REST_Response( [
 				'success' => false,
@@ -472,7 +521,7 @@ class Ai {
 
 		try {
 			if ( ! $prompt || ! $postId ) {
-				throw new \Exception( 'Missing required parameters.' );
+				throw new \Exception( 'Missing prompt or post ID.' );
 			}
 
 			$postImages         = aioseo()->ai->image->getByPostId( $postId );
@@ -484,12 +533,13 @@ class Ai {
 
 			$response = aioseo()->helpers->wpRemotePost( aioseo()->ai->getAiGeneratorApiUrl() . 'image/', [
 				'timeout' => 180,
-				'headers' => self::getRequestHeaders(),
+				'headers' => aioseo()->ai->getRequestHeaders(),
 				'body'    => wp_json_encode( [
 					'prompt'      => $prompt,
 					'quality'     => $quality,
 					'style'       => $style,
 					'aspectRatio' => $aspectRatio,
+					'model'       => $model,
 					'image'       => aioseo()->helpers->getBase64FromAttachment( $selectedImageId )
 				] )
 			] );
@@ -505,7 +555,12 @@ class Ai {
 					aioseo()->internalOptions->internal->ai->credits->remaining = $responseBody->remaining ?? 0;
 				}
 
-				throw new \Exception( $responseBody->message );
+				// Only trust the message if `success` was explicitly set to `false` — this confirms the response came from our API's error contract.
+				$message = isset( $responseBody->success ) && false === $responseBody->success && ! empty( $responseBody->message )
+					? $responseBody->message
+					: 'The AI service did not return image data';
+
+				throw new \Exception( $message );
 			}
 
 			try {
@@ -513,6 +568,7 @@ class Ai {
 					'quality'       => $quality,
 					'style'         => $style,
 					'aspectRatio'   => $aspectRatio,
+					'model'         => $model,
 					'parentImageId' => $foundSelectedImage['id'] ?? 0
 				] );
 			} catch ( \Exception $e ) {
@@ -585,7 +641,7 @@ class Ai {
 		if ( empty( $ids ) ) {
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Missing required parameters.'
+				'message' => 'Missing IDs.'
 			], 400 );
 		}
 
@@ -635,7 +691,14 @@ class Ai {
 		if ( ! $postContent || empty( $options ) ) {
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Missing required parameters.'
+				'message' => 'Missing post content or options.'
+			], 400 );
+		}
+
+		if ( strlen( $postContent ) < aioseo()->ai->options['minContentLength'] ) {
+			return new \WP_REST_Response( [
+				'success' => false,
+				'message' => 'Post content is too short to generate AI content.'
 			], 400 );
 		}
 
@@ -657,7 +720,7 @@ class Ai {
 
 		$response = aioseo()->helpers->wpRemotePost( aioseo()->ai->getAiGeneratorApiUrl() . 'faqs/', [
 			'timeout' => 60,
-			'headers' => self::getRequestHeaders(),
+			'headers' => aioseo()->ai->getRequestHeaders(),
 			'body'    => wp_json_encode( [
 				'postContent' => $postContent,
 				'tone'        => $options['tone'],
@@ -667,28 +730,44 @@ class Ai {
 			] ),
 		] );
 
+		$responseBody = json_decode( wp_remote_retrieve_body( $response ) );
 		$responseCode = wp_remote_retrieve_response_code( $response );
+
+		// Only trust the message if `success` was explicitly set to `false` — this confirms the response came from our API's error contract.
+		$serviceError = isset( $responseBody->success ) && false === $responseBody->success && ! empty( $responseBody->message ) ? 'Service error: ' . $responseBody->message : null;
+		$errorDetails = array_filter( [ "Service response code: $responseCode", $serviceError ] );
+
 		if ( 200 !== $responseCode ) {
+			$errorDetails[] = 'The AI service returned an unexpected response';
+
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Failed to generate FAQs.'
+				'message' => implode( ' | ', $errorDetails )
 			], 400 );
 		}
 
-		$responseBody = json_decode( wp_remote_retrieve_body( $response ) );
-		$faqs         = aioseo()->helpers->sanitizeOption( $responseBody->faqs );
-		if ( empty( $responseBody->success ) || empty( $responseBody->faqs ) ) {
-			if ( 'insufficient_credits' === $responseBody->code ) {
+		$faqs = ! empty( $responseBody->faqs ) ? aioseo()->helpers->sanitizeOption( $responseBody->faqs ) : [];
+		if ( empty( $responseBody->success ) || empty( $faqs ) ) {
+			if ( ! empty( $responseBody->code ) && 'insufficient_credits' === $responseBody->code ) {
 				aioseo()->internalOptions->internal->ai->credits->remaining = $responseBody->remaining ?? 0;
+
+				$errorDetails[] = 'Not enough credits';
+
+				return new \WP_REST_Response( [
+					'success' => false,
+					'message' => implode( ' | ', $errorDetails )
+				], 400 );
 			}
 
+			$errorDetails[] = 'The AI service did not return any FAQ suggestions';
+
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Failed to generate FAQs.'
+				'message' => implode( ' | ', $errorDetails )
 			], 400 );
 		}
 
-		self::updateAiOptions( $responseBody );
+		aioseo()->ai->updateAiOptions( $responseBody );
 
 		// Decode HTML entities again. Vue will escape data if needed.
 		foreach ( $faqs as $k => $faq ) {
@@ -710,6 +789,58 @@ class Ai {
 	}
 
 	/**
+	 * Generates schema markup based on the provided content.
+	 *
+	 * @since 4.9.6
+	 *
+	 * @param  \WP_REST_Request  $request The REST Request
+	 * @return \WP_REST_Response          The response.
+	 */
+	public static function generateSchemas( $request ) {
+		try {
+			$body        = $request->get_json_params();
+			$postId      = ! empty( $body['postId'] ) ? (int) $body['postId'] : 0;
+			$postContent = ! empty( $body['postContent'] ) ? $body['postContent'] : '';
+
+			if ( ! current_user_can( 'edit_post', $postId ) ) {
+				throw new ApiException( 'unauthorized', 'Unauthorized.', 401 );
+			}
+
+			$wpObject = $postId ? aioseo()->helpers->getPost( $postId ) : null;
+
+			if ( empty( $postContent ) && $postId ) {
+				if ( ! $wpObject ) {
+					throw new ApiException( 'post_not_found', 'Post not found.' );
+				}
+
+				$postContent = aioseo()->helpers->getPostContent( $wpObject );
+			}
+
+			if ( empty( $postContent ) ) {
+				throw new ApiException( 'no_content', 'Missing post content.' );
+			}
+
+			$result = aioseo()->ai->generateSchemas( $body );
+
+			if ( ! $result['success'] ) {
+				throw new ApiException( 'generation_failed', esc_html( $result['message'] ) );
+			}
+
+			return new \WP_REST_Response( [
+				'success'   => true,
+				'schemas'   => $result['schemas'],
+				'aiOptions' => self::getAiOptionsPayload()
+			], 200 );
+		} catch ( ApiException $e ) {
+			return new \WP_REST_Response( [
+				'success' => false,
+				'message' => $e->getMessage(),
+				'code'    => $e->getErrorCode()
+			], $e->getCode() );
+		}
+	}
+
+	/**
 	 * Generates key points based on the provided content and options.
 	 *
 	 * @since 4.8.4
@@ -728,7 +859,14 @@ class Ai {
 		if ( ! $postContent || empty( $options ) ) {
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Missing required parameters.'
+				'message' => 'Missing post content or options.'
+			], 400 );
+		}
+
+		if ( strlen( $postContent ) < aioseo()->ai->options['minContentLength'] ) {
+			return new \WP_REST_Response( [
+				'success' => false,
+				'message' => 'Post content is too short to generate AI content.'
 			], 400 );
 		}
 
@@ -750,7 +888,7 @@ class Ai {
 
 		$response = aioseo()->helpers->wpRemotePost( aioseo()->ai->getAiGeneratorApiUrl() . 'key-points/', [
 			'timeout' => 60,
-			'headers' => self::getRequestHeaders(),
+			'headers' => aioseo()->ai->getRequestHeaders(),
 			'body'    => wp_json_encode( [
 				'postContent' => $postContent,
 				'tone'        => $options['tone'],
@@ -760,28 +898,44 @@ class Ai {
 			] ),
 		] );
 
+		$responseBody = json_decode( wp_remote_retrieve_body( $response ) );
 		$responseCode = wp_remote_retrieve_response_code( $response );
+
+		// Only trust the message if `success` was explicitly set to `false` — this confirms the response came from our API's error contract.
+		$serviceError = isset( $responseBody->success ) && false === $responseBody->success && ! empty( $responseBody->message ) ? 'Service error: ' . $responseBody->message : null;
+		$errorDetails = array_filter( [ "Service response code: $responseCode", $serviceError ] );
+
 		if ( 200 !== $responseCode ) {
+			$errorDetails[] = 'The AI service returned an unexpected response';
+
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Failed to generate key points.'
+				'message' => implode( ' | ', $errorDetails )
 			], 400 );
 		}
 
-		$responseBody = json_decode( wp_remote_retrieve_body( $response ) );
-		$keyPoints    = aioseo()->helpers->sanitizeOption( $responseBody->keyPoints );
+		$keyPoints = ! empty( $responseBody->keyPoints ) ? aioseo()->helpers->sanitizeOption( $responseBody->keyPoints ) : [];
 		if ( empty( $responseBody->success ) || empty( $keyPoints ) ) {
-			if ( 'insufficient_credits' === $responseBody->code ) {
+			if ( ! empty( $responseBody->code ) && 'insufficient_credits' === $responseBody->code ) {
 				aioseo()->internalOptions->internal->ai->credits->remaining = $responseBody->remaining ?? 0;
+
+				$errorDetails[] = 'Not enough credits';
+
+				return new \WP_REST_Response( [
+					'success' => false,
+					'message' => implode( ' | ', $errorDetails )
+				], 400 );
 			}
 
+			$errorDetails[] = 'The AI service did not return any key point suggestions';
+
 			return new \WP_REST_Response( [
 				'success' => false,
-				'message' => 'Failed to generate key points.'
+				'message' => implode( ' | ', $errorDetails )
 			], 400 );
 		}
 
-		self::updateAiOptions( $responseBody );
+		aioseo()->ai->updateAiOptions( $responseBody );
 
 		// Decode HTML entities again. Vue will escape data if needed.
 		foreach ( $keyPoints as $k => $keyPoint ) {
@@ -800,55 +954,6 @@ class Ai {
 			'keyPoints' => $keyPoints,
 			'aiOptions' => self::getAiOptionsPayload()
 		], 200 );
-	}
-
-	/**
-	 * Updates the AI options.
-	 *
-	 * @since 4.8.4
-	 *
-	 * @param object $responseBody The response body.
-	 */
-	private static function updateAiOptions( $responseBody ) {
-		aioseo()->internalOptions->internal->ai->credits->total     = (int) $responseBody->total ?? 0;
-		aioseo()->internalOptions->internal->ai->credits->remaining = (int) $responseBody->remaining ?? 0;
-
-		// Get existing orders and append the new ones to prevent 'Indirect modification of overloaded prop' PHP warning.
-		$existingOrders = aioseo()->internalOptions->internal->ai->credits->orders ?? [];
-		$existingOrders = array_merge( $existingOrders, aioseo()->helpers->sanitizeOption( $responseBody->orders ) );
-
-		aioseo()->internalOptions->internal->ai->credits->orders = $existingOrders;
-
-		if ( ! empty( $responseBody->license ) ) {
-			aioseo()->internalOptions->internal->ai->credits->license->total     = (int) $responseBody->license->total ?? 0;
-			aioseo()->internalOptions->internal->ai->credits->license->remaining = (int) $responseBody->license->remaining ?? 0;
-			aioseo()->internalOptions->internal->ai->credits->license->expires   = (int) $responseBody->license->expires ?? 0;
-		}
-
-		if ( ! empty( $responseBody->costPerFeature ) ) {
-			aioseo()->internalOptions->internal->ai->costPerFeature = json_decode( wp_json_encode( $responseBody->costPerFeature ), true );
-		}
-	}
-
-	/**
-	 * Returns the default request headers.
-	 *
-	 * @since 4.8.4
-	 *
-	 * @return array The default request headers.
-	 */
-	public static function getRequestHeaders() {
-		$headers = [
-			'Content-Type'       => 'application/json',
-			'X-AIOSEO-Ai-Token'  => aioseo()->internalOptions->internal->ai->accessToken,
-			'X-AIOSEO-Ai-Domain' => aioseo()->helpers->getSiteDomain()
-		];
-
-		if ( aioseo()->pro && aioseo()->license->getLicenseKey() ) {
-			$headers['X-AIOSEO-License'] = aioseo()->license->getLicenseKey();
-		}
-
-		return $headers;
 	}
 
 	/**
@@ -893,7 +998,7 @@ class Ai {
 	 */
 	public static function getAiOptionsPayload() {
 		return [
-			'hasAccessToken'      => ! empty( aioseo()->internalOptions->internal->ai->accessToken ),
+			'hasAccessToken'      => aioseo()->sensitiveOptions->hasValue( 'aiAccessToken' ),
 			'isTrialAccessToken'  => aioseo()->internalOptions->internal->ai->isTrialAccessToken,
 			'isManuallyConnected' => aioseo()->internalOptions->internal->ai->isManuallyConnected,
 			'credits'             => aioseo()->internalOptions->internal->ai->credits->all(),

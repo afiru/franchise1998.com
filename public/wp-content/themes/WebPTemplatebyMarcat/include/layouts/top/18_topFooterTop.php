@@ -113,7 +113,7 @@
                         </li>
 
                         <li class="liSearchFooterNav">
-                            <a class="d_flex j_center ali_center cl_fff undernone brd_fff btnSearchFooterNav" href="<?php echo home_url(); ?>">
+                            <a class="d_flex j_center ali_center cl_fff undernone brd_fff btnSearchFooterNav" href="<?php echo home_url('/event/'); ?>">
                                 営業日
                             </a>
                         </li>

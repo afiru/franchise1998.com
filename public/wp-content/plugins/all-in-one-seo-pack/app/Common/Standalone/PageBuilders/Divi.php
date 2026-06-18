@@ -72,6 +72,12 @@ class Divi extends Base {
 			return;
 		}
 
+		// Divi 5 renders content inside an iframe that triggers a full page load with `app_window=1`.
+		// Our integration runs in the parent (top) window only; skip the iframe context entirely.
+		if ( isset( $_GET['app_window'] ) && '1' === $_GET['app_window'] ) { // phpcs:ignore HM.Security.NonceVerification.Recommended, WordPress.Security.NonceVerification.Recommended
+			return;
+		}
+
 		add_action( 'wp_footer', [ $this, 'addContainers' ] );
 		add_action( 'wp_footer', [ $this, 'addIframeWatcher' ] );
 		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue' ] );
@@ -201,14 +207,65 @@ class Divi extends Base {
 	}
 
 	/**
+	 * Returns the processed page builder content.
+	 *
+	 * @since 4.9.6
+	 *
+	 * @param  int    $postId  The post ID.
+	 * @param  mixed  $content The raw content.
+	 * @return string          The processed content.
+	 */
+	public function processContent( $postId, $content = null ) {
+		$templateVersion = aioseo()->helpers->getThemeVersion( true ) ?? aioseo()->helpers->getThemeVersion();
+		if ( version_compare( (string) $templateVersion, '5.0', '>=' ) && ! doing_filter( 'the_content' ) ) {
+			return apply_filters( 'the_content', (string) $content ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
+		}
+
+		return parent::processContent( $postId, $content );
+	}
+
+	/**
 	 * Checks whether or not we should prevent the date from being modified.
 	 *
-	 * @since 4.5.2
+	 * @since   4.5.2
+	 * @version 4.9.6 Refactored to separate Divi 5+ and Divi 4.x logic.
 	 *
 	 * @param  int  $postId The Post ID.
 	 * @return bool         Whether or not we should prevent the date from being modified.
 	 */
 	public function limitModifiedDate( $postId ) {
+		$templateVersion = aioseo()->helpers->getThemeVersion( true ) ?? aioseo()->helpers->getThemeVersion();
+
+		return version_compare( $templateVersion, '5.0', '>=' )
+			? $this->limitModifiedDateDivi5( $postId )
+			: $this->limitModifiedDateLegacy( $postId );
+	}
+
+	/**
+	 * Limit modified date check for Divi 5+.
+	 * Divi 5 saves via REST API and uses a cookie to signal the limit modified date flag.
+	 *
+	 * @since 4.9.6
+	 *
+	 * @param  int  $postId The Post ID.
+	 * @return bool         Whether to limit the modified date.
+	 */
+	private function limitModifiedDateDivi5( $postId ) {
+		$cookiePostId = ! empty( $_COOKIE['aioseo_limit_modified_date'] ) ? (int) $_COOKIE['aioseo_limit_modified_date'] : 0;
+
+		return $cookiePostId === $postId;
+	}
+
+	/**
+	 * Limit modified date check for Divi 4.x (legacy).
+	 * Divi 4.x saves via AJAX (wp_ajax_et_fb_ajax_save) with nonce verification.
+	 *
+	 * @since 4.9.6
+	 *
+	 * @param  int  $postId The Post ID.
+	 * @return bool         Whether to limit the modified date.
+	 */
+	private function limitModifiedDateLegacy( $postId ) {
 		// This method is supposed to be used in the `wp_ajax_et_fb_ajax_save` action.
 		if ( empty( $_REQUEST['et_fb_save_nonce'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_REQUEST['et_fb_save_nonce'] ) ), 'et_fb_save_nonce' ) ) {
 			return false;

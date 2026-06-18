@@ -282,6 +282,11 @@ class Admin {
 				'parent'              => 'aioseo-seo-revisions',
 				'hide_admin_bar_menu' => true
 			],
+			'aioseo-ai-bulk-generate'  => [
+				'menu_title'          => esc_html__( 'AI Bulk Generate', 'all-in-one-seo-pack' ),
+				'parent'              => 'aioseo-ai-bulk-generate',
+				'hide_admin_bar_menu' => true
+			],
 		];
 	}
 
@@ -858,7 +863,8 @@ class Admin {
 			'feature-manager',
 			'monsterinsights',
 			'about',
-			'seo-revisions'
+			'seo-revisions',
+			'ai-bulk-generate'
 		];
 
 		foreach ( $pages as $page ) {

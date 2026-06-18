@@ -62,11 +62,7 @@ class DetailsColumn {
 		if ( 'product' === $screen->post_type ) {
 			add_filter( 'manage_edit-product_columns', [ $this, 'addColumn' ] );
 			add_action( 'manage_posts_custom_column', [ $this, 'renderColumn' ], 10, 2 );
-
-			return;
-		}
-
-		if ( 'attachment' === $screen->post_type ) {
+		} elseif ( 'attachment' === $screen->post_type ) {
 			$enabled = apply_filters( 'aioseo_image_seo_media_columns', true );
 			if ( ! $enabled ) {
 				return;
@@ -74,12 +70,20 @@ class DetailsColumn {
 
 			add_filter( 'manage_media_columns', [ $this, 'addColumn' ] );
 			add_action( 'manage_media_custom_column', [ $this, 'renderColumn' ], 10, 2 );
-
-			return;
+		} else {
+			add_filter( "manage_edit-{$screen->post_type}_columns", [ $this, 'addColumn' ] );
+			add_action( "manage_{$screen->post_type}_posts_custom_column", [ $this, 'renderColumn' ], 10, 2 );
 		}
 
-		add_filter( "manage_edit-{$screen->post_type}_columns", [ $this, 'addColumn' ] );
-		add_action( "manage_{$screen->post_type}_posts_custom_column", [ $this, 'renderColumn' ], 10, 2 );
+		/**
+		 * Fires after the AIOSEO Details column is activated for a post type.
+		 * Use this to register features that depend on the column being present (e.g., row actions).
+		 *
+		 * @since 4.9.6
+		 *
+		 * @param string $postType The post type the column was activated for.
+		 */
+		do_action( 'aioseo_details_column_activated', $screen->post_type );
 	}
 
 	/**

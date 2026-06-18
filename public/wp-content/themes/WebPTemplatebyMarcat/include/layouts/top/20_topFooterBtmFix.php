@@ -9,7 +9,7 @@
             </a>
         </li>
         <li class="liSpFixedMenu">
-            <a class="btnSpFixedMenu" href="<?php echo home_url(); ?>">
+            <a class="btnSpFixedMenu" href="<?php echo home_url('/event/'); ?>">
                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnLiSpFixedMenu03.svg'); ?>" alt="<?php echo esc_attr('営業日'); ?>" width="125" height="40">
             </a>
         </li>
@@ -27,7 +27,7 @@
             </a>
         </li>
         <li class="liPcFixedMenu">
-            <a class="btnPcFixedMenu" href="<?php echo home_url(); ?>">
+            <a class="btnPcFixedMenu" href="<?php echo home_url('/event/'); ?>">
                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/btnLiPcFixedMenu03.svg'); ?>" alt="<?php echo esc_attr('営業日'); ?>" width="45" height="95">
             </a>
         </li>

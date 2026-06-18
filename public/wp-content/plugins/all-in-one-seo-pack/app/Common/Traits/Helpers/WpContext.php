@@ -275,6 +275,40 @@ trait WpContext {
 	}
 
 	/**
+	 * This is used as a fallback when WP conditionals (is_single, is_page, etc.) are unavailable, such as in page builder contexts.
+	 *
+	 * @since 4.9.6
+	 *
+	 * @param  \WP_Post|null $postObject The post object.
+	 * @return string                    The breadcrumb type ('page', 'post', 'single') or empty string.
+	 */
+	public function getBreadcrumbTypeFromPost( $postObject = null ) {
+		if ( ! $postObject instanceof \WP_Post ) {
+			global $post;
+			$postObject = $post;
+		}
+
+		if ( ! $postObject instanceof \WP_Post ) {
+			return '';
+		}
+
+		// Don't resolve a type for the front page — it's handled separately.
+		if ( 'page' === get_option( 'show_on_front' ) && (int) get_option( 'page_on_front' ) === $postObject->ID ) {
+			return '';
+		}
+
+		if ( 'page' === $postObject->post_type ) {
+			return 'page';
+		}
+
+		if ( 'post' === $postObject->post_type ) {
+			return 'post';
+		}
+
+		return 'single';
+	}
+
+	/**
 	 * Returns the post content after parsing it.
 	 *
 	 * @since 4.1.5
@@ -1053,6 +1087,24 @@ trait WpContext {
 		global $_wp_theme_features; // phpcs:ignore Squiz.NamingConventions.ValidVariableName
 
 		return isset( $_wp_theme_features ) && is_array( $_wp_theme_features ) ? $_wp_theme_features : []; // phpcs:ignore Squiz.NamingConventions.ValidVariableName
+	}
+
+	/**
+	 * Gets the active theme version.
+	 *
+	 * @since 4.9.6
+	 *
+	 * @param  bool        $parent Whether to return the parent theme's version.
+	 * @return string|null         The theme version, or null if parent requested but not found.
+	 */
+	public function getThemeVersion( $parent = false ) {
+		$theme = wp_get_theme();
+
+		if ( $parent ) {
+			return ( is_child_theme() && $theme->parent() ) ? $theme->parent()->version : null;
+		}
+
+		return $theme->version;
 	}
 
 	/**

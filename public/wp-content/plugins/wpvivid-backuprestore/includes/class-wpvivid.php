@@ -3439,6 +3439,8 @@ class WPvivid
                     $old_remote[$key]=$remote_options[$key];
             }
 
+            $old_remote = apply_filters('wpvivid_edit_remote_options', $old_remote, $remote_options, $id);
+
             $ret = $this->remote_collection->update_remote($id, $old_remote);
 
             if ($ret['result'] == 'success') {

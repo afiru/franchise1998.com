@@ -7,6 +7,9 @@ class SiteGuard_CAPTCHA extends SiteGuard_Base {
 	protected $prefix;
 	protected $word;
 
+	private $last_check_result = null;
+	private $last_check_prefix = null;
+
 	function __construct() {
 		global $siteguard_config;
 		if ( '1' == $siteguard_config->get( 'captcha_enable' ) && 'xmlrpc.php' != basename( $_SERVER['SCRIPT_NAME'] ) && ! is_admin() ) {
@@ -35,11 +38,30 @@ class SiteGuard_CAPTCHA extends SiteGuard_Base {
 				add_action( 'comment_form_logged_in_after', array( $this, 'handler_comment_form' ), 1 );
 				add_action( 'comment_form', array( $this, 'handler_comment_form' ) );
 				add_filter( 'preprocess_comment', array( $this, 'handler_process_comment_post' ) );
+				add_action( 'wp_footer', array( $this, 'comment_captcha_reload_script' ) );
 			}
 		}
 		if ( '1' == $siteguard_config->get( 'same_login_error' ) ) {
 			add_filter( 'login_errors', array( $this, 'handler_login_errors' ) );
 		}
+	}
+	private function check_captcha_with_cache() {
+		$current_prefix = isset( $_POST['siteguard_captcha_prefix'] ) ? $_POST['siteguard_captcha_prefix'] : '';
+		if ( $this->last_check_prefix !== $current_prefix ) {
+			$this->last_check_result = null;
+			$this->last_check_prefix = $current_prefix;
+		}
+		if ( null !== $this->last_check_result ) {
+			return $this->last_check_result;
+		}
+	
+		$is_ok = false;
+		if ( array_key_exists( 'siteguard_captcha', $_POST ) && array_key_exists( 'siteguard_captcha_prefix', $_POST ) ) {
+			$is_ok = $this->captcha->check( $_POST['siteguard_captcha_prefix'], $_POST['siteguard_captcha'], true );
+		}
+	
+		$this->last_check_result = $is_ok;
+		return $is_ok;
 	}
 	function check_requirements() {
 		$error = siteguard_check_multisite();
@@ -212,7 +234,7 @@ class SiteGuard_CAPTCHA extends SiteGuard_Base {
 	}
 	function handler_wp_authenticate_user( $user, $password ) {
 		if ( array_key_exists( 'siteguard_captcha', $_POST ) && array_key_exists( 'siteguard_captcha_prefix', $_POST ) ) {
-			if ( $this->captcha->check( $_POST['siteguard_captcha_prefix'], $_POST['siteguard_captcha'], false ) ) {
+			if ( $this->check_captcha_with_cache() ) {
 				return $user;
 			}
 		}
@@ -225,7 +247,7 @@ class SiteGuard_CAPTCHA extends SiteGuard_Base {
 	}
 	function handler_lostpassword_post() {
 		if ( array_key_exists( 'siteguard_captcha', $_POST ) && array_key_exists( 'siteguard_captcha_prefix', $_POST ) ) {
-			if ( $this->captcha->check( $_POST['siteguard_captcha_prefix'], $_POST['siteguard_captcha'], false ) ) {
+			if ( $this->check_captcha_with_cache() ) {
 				return;
 			}
 		}
@@ -233,7 +255,7 @@ class SiteGuard_CAPTCHA extends SiteGuard_Base {
 	}
 	function handler_registration_errors( $errors, $sanitized_user_login, $user_email ) {
 		if ( array_key_exists( 'siteguard_captcha', $_POST ) && array_key_exists( 'siteguard_captcha_prefix', $_POST ) ) {
-			if ( $this->captcha->check( $_POST['siteguard_captcha_prefix'], $_POST['siteguard_captcha'], false ) ) {
+			if ( $this->check_captcha_with_cache() ) {
 				return $errors;
 			}
 		}
@@ -247,11 +269,29 @@ class SiteGuard_CAPTCHA extends SiteGuard_Base {
 		}
 		if ( array_key_exists( 'siteguard_captcha', $_POST ) && array_key_exists( 'siteguard_captcha_prefix', $_POST ) ) {
 			if ( ! empty( $_POST['siteguard_captcha'] ) ) {
-				if ( $this->captcha->check( $_POST['siteguard_captcha_prefix'], $_POST['siteguard_captcha'], false ) ) {
+				if ( $this->check_captcha_with_cache( ) ) {
 					return $comment;
 				}
 			}
 		}
-		wp_die( esc_html__( 'ERROR: Invalid CAPTCHA.', 'siteguard' ) );
+		wp_die( esc_html__( 'ERROR: Invalid CAPTCHA.', 'siteguard' ), esc_html( 'ERROR'), array( 'back_link' => true ) );
+	}
+	public function comment_captcha_reload_script( ) {
+		if ( is_singular() && comments_open() ) {
+			?>
+			<script>
+			window.addEventListener('pageshow', function(event) {
+				var isBackForward = false;
+				if (window.performance && typeof performance.getEntriesByType === 'function') {
+					var perfEntries = performance.getEntriesByType('navigation');
+					isBackForward = perfEntries.length > 0 && perfEntries[0].type === 'back_forward';
+				}
+				if (event.persisted || isBackForward) {
+					window.location.reload();
+				}
+			});
+			</script>
+			<?php
+		}
 	}
 }

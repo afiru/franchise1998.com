@@ -44,7 +44,8 @@ class Options {
 			'audience'         => [ 'type' => 'string', 'default' => 'general' ],
 			'imageQuality'     => [ 'type' => 'string', 'default' => 'medium' ],
 			'imageStyle'       => [ 'type' => 'string', 'default' => 'auto' ],
-			'imageAspectRatio' => [ 'type' => 'string', 'default' => 'landscape' ]
+			'imageAspectRatio' => [ 'type' => 'string', 'default' => 'landscape' ],
+			'imageModel'       => [ 'type' => 'string', 'default' => 'gemini-3.1-flash-image' ]
 		],
 		'breadcrumbs'      => [
 			'separator'             => [ 'type' => 'string', 'default' => '&raquo;' ],
@@ -573,7 +574,10 @@ class Options {
 
 		$hasInitialized = true;
 
-		$this->defaults['searchAppearance']['global']['schema']['organizationLogo']['default'] = aioseo()->helpers->getSiteLogoUrl() ? aioseo()->helpers->getSiteLogoUrl() : '';
+		$siteLogoUrl = aioseo()->helpers->getSiteLogoUrl();
+
+		$this->defaults['searchAppearance']['global']['schema']['organizationLogo']['default'] = $siteLogoUrl ? $siteLogoUrl : '';
+		$this->defaults['searchAppearance']['global']['schema']['personLogo']['default']       = $siteLogoUrl ? $siteLogoUrl : '';
 
 		$this->defaults['advanced']['emailSummary']['recipients']['default'] = [
 			[

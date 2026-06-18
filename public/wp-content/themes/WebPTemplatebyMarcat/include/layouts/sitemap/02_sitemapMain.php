@@ -63,7 +63,7 @@
                     <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/access/'); ?>">店舗情報・アクセス</a>
                 </li>
                 <li class="liSitemapMain">
-                    <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/'); ?>">営業日カレンダー</a>
+                    <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/event/'); ?>">営業日カレンダー</a>
                 </li>
                 <li class="liSitemapMain">
                     <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/member/'); ?>">会員特典</a>

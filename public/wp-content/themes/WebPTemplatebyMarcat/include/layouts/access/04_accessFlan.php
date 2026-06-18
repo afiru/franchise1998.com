@@ -9,10 +9,10 @@
                 <div class="swiper jsAccess01slider">
                     <div class="swiper-wrapper">
                         <?php foreach (scf::get('loopAccessFran') as $fields): ?>
-                            <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFran']); ?>
-                            <div class="swiper-slide">
-                                <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFran']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
-                            </div>
+                        <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFran']); ?>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFran']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
+                        </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
@@ -21,10 +21,10 @@
                 <div class="swiper jsAccess01sliderThumb">
                     <div class="swiper-wrapper">
                         <?php foreach (scf::get('loopAccessFran') as $fields): ?>
-                            <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFran']); ?>
-                            <div class="swiper-slide">
-                                <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFran']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
-                            </div>
+                        <?php $Pcimg = get_scf_img_loop_url_id($fields['imgPcAccessFran']); ?>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="<?php echo esc_url($Pcimg[0]); ?>" alt="<?php echo $fields['altAccessFran']; ?> " width="<?php echo $Pcimg[1]; ?>" height="<?php echo $Pcimg[2]; ?>">
+                        </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         <div class="cntMainAccessFlan">
                             <p class="cl_453C3C fw_400 txtset txtCntMainAccessFlan">火曜日（祝日営業）</p>
                             <p class="cl_453C3C fw_400 txtset txtCntMainAccessFlanDouble">
-                                ※臨時休業は<a href="" target="_blank">営業日カレンダー</a>をご覧ください。
+                                ※臨時休業は<a href="<?php echo home_url('/event/'); ?>" target="_self">営業日カレンダー</a>をご覧ください。
                             </p>
                         </div>
                     </li>
