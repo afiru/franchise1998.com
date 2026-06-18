@@ -1,28 +1,37 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.mainGift {
+    background: #F1ECE8
+}
+
 .mainGiftPost {
     @include mi.marginPercent(1920, 20, auto, 0, auto);
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 36, auto, 0, auto);
     }
 }
+
 .mainGiftCnt {
     @include mi.paddingPercent(1920, 78, 0, 100, 0);
     @include mi.kadomaru(15px);
+
     @include mi.mq(sp) {
         padding: 5% 0% 21.33% 0%;
         @include mi.ontenerWidth(375, 330);
     }
 }
+
 .mainGiftCntLxn {
     @include mi.ontenerWidth(1300, 1100);
     margin: auto;
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 300);
     }

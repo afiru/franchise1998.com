@@ -42,7 +42,6 @@ $args = [
                             <?php endif; ?>
                         </a>
                     </li>
-                    <?php $i++; ?>
                 <?php endwhile; ?>
                 <?php wp_reset_postdata(); ?>
             </ul>

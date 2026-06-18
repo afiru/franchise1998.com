@@ -36,10 +36,13 @@
                             <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/products/'); ?>">商品一覧</a>
                         </li>
                         <li class="liNavHeaderMenuPcBx">
-                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/topics/'); ?>">トピックス</a>
+                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/topics/'); ?>">お知らせ</a>
                         </li>
                         <li class="liNavHeaderMenuPcBx">
                             <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/voice/'); ?>">お客様の声</a>
+                        </li>
+                        <li class="liNavHeaderMenuPcBx">
+                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/event/'); ?>">営業日カレンダーのページ</a>
                         </li>
                     </ul>
                 </nav>
@@ -54,6 +57,9 @@
                         </li>
                         <li class="liNavHeaderMenuPcBx">
                             <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/suggestion/'); ?>">お祝い・ギフトのご提案</a>
+                        </li>
+                        <li class="liNavHeaderMenuPcBx">
+                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/access/'); ?>">店舗情報・アクセス</a>
                         </li>
                     </ul>
                 </nav>

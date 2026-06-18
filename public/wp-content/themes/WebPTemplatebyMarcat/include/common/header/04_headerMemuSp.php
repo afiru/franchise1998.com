@@ -29,12 +29,14 @@
                     <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/products/'); ?>">商品一覧</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
-                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/topics/'); ?>">トピックス</a>
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/topics/'); ?>">お知らせ</a>
                 </li>
                 <li class="liNavHeaderMenuSpBx">
                     <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/voice/'); ?>">お客様の声</a>
                 </li>
-
+                <li class="liNavHeaderMenuSpBx">
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/event/'); ?>">営業日</a>
+                </li>
                 <li class="liNavHeaderMenuSpBx">
                     <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくあるご質問</a>
                 </li>
@@ -43,6 +45,9 @@
                 </li>
                 <li class="liNavHeaderMenuSpBx">
                     <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/suggestion/'); ?>">お祝い・ギフトのご提案</a>
+                </li>
+                <li class="liNavHeaderMenuSpBx">
+                    <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuSpBx" href="<?php echo home_url('/access/'); ?>">店舗情報・アクセス</a>
                 </li>
             </ul>
 

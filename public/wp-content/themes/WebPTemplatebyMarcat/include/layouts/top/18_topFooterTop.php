@@ -52,7 +52,7 @@
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/products/'); ?>">商品一覧</a>
                             </li>
                             <li class="liNavFooterTop">
-                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/topics/'); ?>">トピックス</a>
+                                <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/topics/'); ?>">お知らせ</a>
                             </li>
                             <li class="liNavFooterTop">
                                 <a class="cl_fff undernone btnNavFooterTop" href="<?php echo home_url('/suggestion/'); ?>">お祝い・ギフトのご提案</a>

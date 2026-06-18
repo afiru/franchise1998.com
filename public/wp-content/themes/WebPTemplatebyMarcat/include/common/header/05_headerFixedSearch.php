@@ -212,6 +212,26 @@
                                 <p class="cl_453C3C fw_500 txtset txtOpeHeaderFixedSearch">お花を贈る</p>
                             </a>
                         </li>
+
+                        <li class="liOpeHeaderFixedSearch">
+                            <a class="d_flex j_center ali_center btnOpeHeaderFixedSearch" href="<?php echo get_category_link(151); ?>">
+                                <figure class="iconOpeHeaderFixedSearch">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                        <g clip-path="url(#clip0_2525_51702)">
+                                            <path d="M15 0H0V15H15V0Z" fill="#F9F9F9" />
+                                            <path d="M7.49813 10.1681C8.97273 10.1681 10.1681 8.97273 10.1681 7.49813C10.1681 6.02352 8.97273 4.82812 7.49813 4.82812C6.02352 4.82812 4.82812 6.02352 4.82812 7.49813C4.82812 8.97273 6.02352 10.1681 7.49813 10.1681Z" stroke="#EA670F" stroke-miterlimit="10" />
+                                            <path d="M12.6399 7.49937C13.5899 6.67937 13.8999 5.30937 13.2499 4.17937C12.5999 3.04937 11.2599 2.62938 10.0699 3.04938C9.83993 1.81938 8.79993 0.859375 7.49993 0.859375C6.19993 0.859375 5.15993 1.80938 4.92993 3.04938C3.73993 2.63938 2.39993 3.04937 1.74993 4.17937C1.09993 5.30937 1.40993 6.67937 2.35993 7.49937C1.40993 8.31937 1.09993 9.68938 1.74993 10.8194C2.39993 11.9494 3.73993 12.3694 4.92993 11.9494C5.15993 13.1794 6.19993 14.1394 7.49993 14.1394C8.79993 14.1394 9.83993 13.1894 10.0699 11.9494C11.2599 12.3694 12.5999 11.9494 13.2499 10.8194C13.8999 9.68938 13.5899 8.31937 12.6399 7.49937Z" stroke="#EA670F" stroke-miterlimit="10" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2525_51702">
+                                                <rect width="15" height="15" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </figure>
+                                <p class="cl_453C3C fw_500 txtset txtOpeHeaderFixedSearch">手土産・おもてなし</p>
+                            </a>
+                        </li>
                     </ul>
                 </section>
             </div>

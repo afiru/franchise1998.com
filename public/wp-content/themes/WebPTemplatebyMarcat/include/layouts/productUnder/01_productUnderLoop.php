@@ -1,6 +1,6 @@
 <?php
 $catid = $cat;
-$cat_url = get_category_link($cat_id);
+$cat_url = get_category_link($cat);
 
 $current_orderby = $_GET['orderby'] ?? '';
 $current_order   = $_GET['order'] ?? '';

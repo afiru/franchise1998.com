@@ -48,13 +48,13 @@
 
             <ul class="ulSitemapMain ulSitemapMain02">
                 <li class="liSitemapMain">
-                    <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/topics/'); ?>">トピックス</a>
+                    <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/topics/'); ?>">お知らせ</a>
                 </li>
                 <li class="liSitemapMain">
                     <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/suggestion/'); ?>">お祝い・ギフトのご提案</a>
                 </li>
                 <li class="liSitemapMain">
-                    <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくある質問</a>
+                    <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/faq/'); ?>">お買い物ガイド・よくあるご質問</a>
                 </li>
                 <li class="liSitemapMain">
                     <a class="cl_453C3C fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/voice/'); ?>">お客様の声</a>

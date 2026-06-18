@@ -106,10 +106,6 @@ LAYOUT
 
 .navFooterTopFx {}
 
-.ulNavFooterTop {
-    @include mi.ontenerWidth(655, 218);
-}
-
 .liNavFooterTop {
     &:nth-child(n + 2) {
         @include mi.marginPercent(218, 18, 0, 0, 0);
@@ -119,6 +115,51 @@ LAYOUT
 .liNavFooterTop02 {
     @include mi.marginPercent(218, 21, 0, 0, 0);
 }
+
+.ulNavFooterTop {
+    @include mi.ontenerWidth(655, 150);
+
+    .liNavFooterTop {
+        &:nth-child(n + 2) {
+            @include mi.marginPercent(150, 18, 0, 0, 0);
+        }
+    }
+
+    .liNavFooterTop02 {
+        @include mi.marginPercent(150, 21, 0, 0, 0);
+    }
+}
+
+.ulNavFooterTop02 {
+    @include mi.ontenerWidth(655, 221);
+
+    .liNavFooterTop {
+        &:nth-child(n + 2) {
+            @include mi.marginPercent(221, 18, 0, 0, 0);
+        }
+    }
+
+    .liNavFooterTop02 {
+        @include mi.marginPercent(221, 21, 0, 0, 0);
+    }
+}
+
+.ulNavFooterTop03 {
+    @include mi.ontenerWidth(655, 187);
+
+    .liNavFooterTop {
+        &:nth-child(n + 2) {
+            @include mi.marginPercent(187, 18, 0, 0, 0);
+        }
+    }
+
+    .liNavFooterTop02 {
+        @include mi.marginPercent(187, 21, 0, 0, 0);
+    }
+}
+
+
+
 
 .btnNavFooterTop {
     @include mi.fontSizePc(14);
