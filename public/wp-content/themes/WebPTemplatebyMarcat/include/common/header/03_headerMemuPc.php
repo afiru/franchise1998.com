@@ -42,7 +42,7 @@
                             <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/voice/'); ?>">お客様の声</a>
                         </li>
                         <li class="liNavHeaderMenuPcBx">
-                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/event/'); ?>">営業日カレンダーのページ</a>
+                            <a class="mincho cl_fff fw_500 udenrnone btnNavHeaderMenuPcBx" href="<?php echo home_url('/event/'); ?>">営業日</a>
                         </li>
                     </ul>
                 </nav>
