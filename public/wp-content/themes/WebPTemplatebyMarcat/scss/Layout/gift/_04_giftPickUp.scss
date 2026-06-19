@@ -1,13 +1,14 @@
 /* ==========================================================================
 use&nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .giftPickUp {
     @include mi.marginPercent(1920, 62, auto, 0, auto);
+
     @include mi.mq(sp) {
         margin-top: 9%;
         margin-bottom: 0%;
@@ -15,23 +16,28 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .giftPickUpWap {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
     }
 }
+
 .h2GiftPickUp {
     @include mi.fontSizePc(25);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(150);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(100);
     }
 }
+
 .ulGiftPickUp {
     @include mi.marginPercent(1300, 18, auto, 0, auto);
+
     @include mi.mq(sp) {
         margin-top: 1.54%;
         margin-bottom: 0%;
@@ -39,49 +45,60 @@ LAYOUT
         margin-right: auto;
     }
 }
+
 .liGiftPickUp {
     @include mi.ontenerWidth(1300, 626);
     @include mi.kadomaru(10px);
+
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
     }
+
     &:nth-child(n + 2) {
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 21, auto, 0, auto);
         }
     }
+
     &:nth-child(n + 3) {
         @include mi.marginPercent(1300, 48, 0, 0, 0);
+
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 21, auto, 0, auto);
         }
     }
 }
+
 .liGiftPickUpLxn {
     @include mi.paddingPercent(626, 21, 0, 20, 0);
     @include mi.ontenerWidth(626, 530);
     margin: auto;
+
     @include mi.mq(sp) {
         padding: 3.06% 0% 7.27% 0%;
         @include mi.ontenerWidth(330, 280);
     }
 }
+
 .h3GiftPickUpLxn {
     @include mi.fontSizePc(24);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(18);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
     }
 }
+
 .photoGiftPickUp {
     @include mi.marginPercent(530, 19, auto, 0, auto);
     position: relative;
     @include mi.kadomaru(10px);
     overflow: hidden;
     aspect-ratio: 530/280;
+
     @include mi.mq(sp) {
         margin-top: 5.8%;
         margin-bottom: 0%;
@@ -90,6 +107,7 @@ LAYOUT
         aspect-ratio: 279/146;
     }
 }
+
 .imgThumbsLiListIndexEvent {
     position: absolute;
     left: 0;
@@ -98,10 +116,11 @@ LAYOUT
     bottom: 0;
     margin: auto;
     object-fit: cover;
-    width: auto !important;
-    height: auto !important;
+    width: 100% !important;
+    height: 100% !important;
     transition-duration: 0.5s;
 }
+
 .imgpicSliderTopSliders {
     position: absolute;
     left: 0;
@@ -120,6 +139,7 @@ LAYOUT
     @include mi.fontSizePc(16);
     @include mi.lineheight(16, 25);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         margin-top: 6.14%;
         margin-bottom: 0%;
@@ -130,11 +150,13 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .txtGiftPickUp {
     @include mi.marginPercent(530, 13, auto, 0, auto);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
+
     @include mi.mq(sp) {
         margin-top: 2.71%;
         margin-bottom: 0%;
@@ -145,9 +167,11 @@ LAYOUT
         @include mi.letterSpacing(0);
     }
 }
+
 .btnGiftPickUpLxn {
     @include mi.marginPercent(530, 13, auto, 0, auto);
     @include mi.ontenerWidth(530, 178);
+
     @include mi.mq(sp) {
         margin-top: 5.92%;
         margin-bottom: 0%;
@@ -156,6 +180,7 @@ LAYOUT
         @include mi.ontenerWidth(280, 200);
     }
 }
+
 .btnGiftPickUp {
     width: 100%;
     @include mi.kadomaru(30px);
@@ -182,11 +207,12 @@ LAYOUT
         opacity: 0.6;
     }
 }
+
 .iconBtnGiftPickUp {
     background: url(../img/index/iconBtnTopTopics.svg) no-repeat right center;
     background-size: auto 14%;
     text-align: center;
     width: 88%;
-    @include mi.mq(sp) {
-    }
+
+    @include mi.mq(sp) {}
 }
