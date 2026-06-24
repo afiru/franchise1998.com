@@ -170,6 +170,12 @@ LAYOUT
     }
 }
 
+.secPartyPlanDrinkMenuFxNon {
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+
 .h4PartyPlanDrinkMenu {
     @include mi.fontSizePc(16);
     @include mi.lineheightP(auto);
