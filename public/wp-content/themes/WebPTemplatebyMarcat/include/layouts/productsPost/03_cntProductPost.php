@@ -129,16 +129,20 @@
                         <?php endforeach; ?>
                     </ul>
                 </section>
-                <section class="secListInfoProductsPosts secListInfoProductsPosts02">
-                    <h2 class="d_flex j_start ali_end cl_453C3C fw_500 txtset kaku h2ListInfoProductsPosts">
-                        <span class="BigH2ListInfoProductsPosts">本品に含まれている主なアレルゲン</span>
-                    </h2>
-                    <ul class="d_flex j_start row ulListInfoProductsPosts ulListInfoProductsPosts02">
-                        <?php foreach (scf::get('genzairyoProductsPosts') as $key => $val): ?>
-                            <li class="bg_fff cl_453C3C fw_500 kaku liListInfoProductsPosts"><?php echo $val; ?></li>
-                        <?php endforeach; ?>
-                    </ul>
-                </section>
+                <?php if (in_array("なし", scf::get('genzairyoProductsPosts'))): ?>
+                <?php else: ?>
+                    <section class="secListInfoProductsPosts secListInfoProductsPosts02">
+                        <h2 class="d_flex j_start ali_end cl_453C3C fw_500 txtset kaku h2ListInfoProductsPosts">
+                            <span class="BigH2ListInfoProductsPosts">本品に含まれている主なアレルゲン</span>
+                        </h2>
+                        <ul class="d_flex j_start row ulListInfoProductsPosts ulListInfoProductsPosts02">
+                            <?php foreach (scf::get('genzairyoProductsPosts') as $key => $val): ?>
+                                <li class="bg_fff cl_453C3C fw_500 kaku liListInfoProductsPosts"><?php echo $val; ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </section>
+                <?php endif; ?>
+
 
             </div>
         </div>
