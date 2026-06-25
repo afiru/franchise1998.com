@@ -22,7 +22,7 @@
             </div>
             <div class="nextPoductsPagerWap">
                 <?php if (!empty($next)): ?>
-                    <a class="d_flex j_between undernone cl_453C3C prevPoductsPager" href="<?php echo get_permalink($prev->ID); ?>">
+                    <a class="d_flex j_between undernone cl_453C3C prevPoductsPager" href="<?php echo get_permalink($next->ID); ?>">
                         <span class="txtPoductsPager">次の商品</span>
                         <figure class="iconPoductsPager">
                             <svg xmlns="http://www.w3.org/2000/svg" width="11" height="3" viewBox="0 0 11 3" fill="none">

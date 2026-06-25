@@ -5,7 +5,7 @@ $args = [
     'orderby' => 'menu_order',
     'order' => 'ASC',
     'cat' => $cat_id,
-    'posts_per_page' => 4,
+    'posts_per_page' => 5,
     'no_found_rows' => true,
 ];
 ?>
