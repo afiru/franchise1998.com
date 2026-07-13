@@ -20,9 +20,20 @@ $args = [
             <ul class="d_flex j_start row ulProductOther">
                 <?php while ($query1->have_posts()): $query1->the_post(); ?>
                     <?php $img = get_post_thumbsdata($post->ID); ?>
-                    <?php $nowcats = get_the_category($post->ID); ?>
+                    <?php $nowcats = get_the_category(); ?>
                     <?php $nowgenre = get_genre_cats(15); ?>
                     <?php $limited = get_genre_cats(23); ?>
+                    <?php
+                    $catdata = [];
+
+                    foreach ($nowcats as $nowcat) {
+                        if ($nowcat->parent != 0) {
+                            $catdata[] = $nowcat->cat_ID;
+                        }
+                    }
+
+                    $catdata = array_unique($catdata);
+                    ?>
                     <li class="liProductOther">
                         <a class="undernone btnProductOther" href="<?php echo get_permalink($post->ID); ?>">
                             <div class="pore thumbsProductOther">
@@ -37,7 +48,7 @@ $args = [
                             <h3 class="cl_453C3C fw_400 txtset h3ProductOther"><?php echo $nowgenre; ?></h3>
                             <h4 class="cl_453C3C fw_500 txtset h4ProductOther"><?php echo get_the_title($post->ID); ?></h4>
                             <p class=" cl_453C3C fw_600 txtset rubyProductOther "><?php echo scf::get('prodoctsPrice'); ?></p>
-                            <?php if (!empty($limited)): ?>
+                            <?php if (in_array(29, $catdata)): ?>
                                 <p class="d_flex j_center ali_center bg_F28962 cl_fff fw_500 kaku iconLimitedProductLoop">期間限定</p>
                             <?php endif; ?>
                         </a>

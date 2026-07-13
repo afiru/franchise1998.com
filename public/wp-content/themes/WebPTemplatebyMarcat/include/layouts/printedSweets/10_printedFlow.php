@@ -10,7 +10,7 @@
                 ご注文はとっても簡単 プリントしたい素材を準備するだけでOK
             </h4>
             <p class="t_center cl_453C3C fw_500 txtset txtPrintedFlowT">
-                データをお渡しいただいてから10日前後が完成目処です。
+                データ確定から最短10日が完成目途です。
             </p>
         </section>
         <ul class="d_flex j_between row ulPrintedFlow">

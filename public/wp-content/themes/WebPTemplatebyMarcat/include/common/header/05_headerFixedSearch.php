@@ -35,7 +35,7 @@
                     </li>
 
                     <li class="liHeaderFixedSearch">
-                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/products/product-category/original-sweets/'); ?>">
+                        <a class="btnHeaderFixedSearch" href="<?php echo home_url('/printedsweets/'); ?>">
                             <figure class="picHeaderFixedSearch">
                                 <img loading="lazy" src="<?php echo esc_url(get_template_directory_uri() . '/img/picHeaderFixedSearch04.png'); ?>" alt="<?php echo esc_attr('オリジナル プリントスイーツ'); ?>" width="100" height="100">
                             </figure>

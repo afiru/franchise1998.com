@@ -72,6 +72,8 @@
                         </picture>
                     </a>
                 </li>
+
+                <!---
                 <li class="liWeddingSweetsOther">
                     <a class="d_block btnWeddingSweetsOther" href="" target="_blank">
                         <picture>
@@ -99,6 +101,8 @@
                         </picture>
                     </a>
                 </li>
+
+                --->
             </ul>
         </nav>
     </div>

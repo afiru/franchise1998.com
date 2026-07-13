@@ -33,7 +33,7 @@
                     <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/products/product-category/baked-goods-and-gifts/'); ?>">－ 焼き菓子・ギフト</a>
                 </li>
                 <li class="liSitemapMain liSitemapMain02">
-                    <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/products/product-category/original-sweets/'); ?>">－ オリジナルプリントスイーツ</a>
+                    <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain" href="<?php echo home_url('/printedsweets/'); ?>">－ オリジナルプリントスイーツ</a>
                 </li>
                 <li class="liSitemapMain liSitemapMain02">
                     <a class="cl_6C6262 fw_500 txtset undernone btnLiSitemapMain02" href="<?php echo home_url('/products/product-category/tama-egg-cheese/'); ?>">－ たま卵チーズ</a>

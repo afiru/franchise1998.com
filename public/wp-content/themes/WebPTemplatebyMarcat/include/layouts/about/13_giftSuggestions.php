@@ -3,7 +3,7 @@ $args = [
     'post_type' => 'post',
     'orderby' => 'menu_order',
     'order' => 'ASC',
-    'cat' => 34,
+    'cat' => 36,
     'posts_per_page' => 4,
     'no_found_rows' => true,
 ];
